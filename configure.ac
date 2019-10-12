@@ -24,9 +24,8 @@ m4_define([glimpse_app_version], [0.1])
 m4_define([glimpse_major_version], [0])
 m4_define([glimpse_minor_version], [1])
 m4_define([glimpse_micro_version], [0])
-m4_define([glimpse_real_version],
+m4_define([glimpse_version],
           [glimpse_major_version.glimpse_minor_version.glimpse_micro_version])
-m4_define([glimpse_version], [glimpse_real_version])
 m4_define([glimpse_app_name], ["glimpse"])
 
 # For overriding the version string. Comment out if not needed.
