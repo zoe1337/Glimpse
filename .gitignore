@@ -54,4 +54,5 @@
 glimpse-vagrant.retry
 glimpse-prefix/
 .vagrant/
+*.snap
 .vscode/
