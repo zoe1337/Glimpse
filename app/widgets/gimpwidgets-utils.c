@@ -410,7 +410,7 @@ gimp_widget_load_icon (GtkWidget   *widget,
       g_printerr ("WARNING: icon theme has no icon '%s'.\n",
                   icon_name);
 
-      return gtk_icon_theme_load_icon (icon_theme, GIMP_ICON_WILBER_EEK,
+      return gtk_icon_theme_load_icon (icon_theme, GLIMPSE_ICON_DEFAULT,
                                        size, 0, NULL);
     }
 
@@ -449,7 +449,7 @@ gimp_widget_load_icon (GtkWidget   *widget,
                   "in your icon theme.\n", icon_name);
 
       pixbuf = gtk_icon_theme_load_icon (icon_theme,
-                                         GIMP_ICON_WILBER_EEK,
+                                         GLIMPSE_ICON_DEFAULT,
                                          size, 0, NULL);
       if (! pixbuf)
         {
@@ -459,7 +459,7 @@ gimp_widget_load_icon (GtkWidget   *widget,
           gint    i, j;
 
           g_printerr ("WARNING: icon '%s' failed to load. Check the files "
-                      "in your icon theme.\n", GIMP_ICON_WILBER_EEK);
+                      "in your icon theme.\n", GLIMPSE_ICON_DEFAULT);
 
           data = g_new (guchar, rowstride * size);
           for (i = 0; i < size; i++)
@@ -1238,7 +1238,7 @@ gimp_get_message_icon_name (GimpMessageSeverity severity)
 
     case GIMP_MESSAGE_BUG_WARNING:
     case GIMP_MESSAGE_BUG_CRITICAL:
-      return GIMP_ICON_WILBER_EEK;
+      return GLIMPSE_ICON_DEFAULT;
     }
 
   g_return_val_if_reached (GIMP_ICON_DIALOG_WARNING);

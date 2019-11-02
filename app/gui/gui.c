@@ -199,7 +199,7 @@ gui_abort (const gchar *abort_message)
   gtk_window_set_resizable (GTK_WINDOW (dialog), FALSE);
 
   box = g_object_new (GIMP_TYPE_MESSAGE_BOX,
-                      "icon-name",    GIMP_ICON_WILBER_EEK,
+                      "icon-name",    GLIMPSE_ICON_DEFAULT,
                       "border-width", 12,
                       NULL);
 
@@ -333,7 +333,7 @@ gui_recover (gint n_recoveries)
   gtk_dialog_set_default_response (GTK_DIALOG (dialog),
                                    GTK_RESPONSE_OK);
 
-  box = gimp_message_box_new (GIMP_ICON_WILBER_EEK);
+  box = gimp_message_box_new (GLIMPSE_ICON_DEFAULT);
   gtk_box_pack_start (GTK_BOX (gtk_dialog_get_content_area (GTK_DIALOG (dialog))),
                       box, TRUE, TRUE, 0);
   gtk_widget_show (box);

@@ -321,7 +321,7 @@ gimp_prop_widget_new_from_pspec (GObject                  *config,
         {
           GtkWidget *l;
 
-          widget = gimp_message_box_new (GIMP_ICON_WILBER_EEK);
+          widget = gimp_message_box_new (GLIMPSE_ICON_DEFAULT);
           gimp_message_box_set_primary_text (GIMP_MESSAGE_BOX (widget), "%s",
                                              *label);
           gimp_message_box_set_text (GIMP_MESSAGE_BOX (widget), "%s", "");
