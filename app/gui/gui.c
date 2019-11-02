@@ -339,7 +339,7 @@ gui_recover (gint n_recoveries)
   gtk_widget_show (box);
 
   gimp_message_box_set_primary_text (GIMP_MESSAGE_BOX (box),
-                                     _("Eeek! It looks like GIMP recovered from a crash!"));
+                                     _("Eeek! It looks like Glimpse recovered from a crash!"));
 
   gimp_message_box_set_text (GIMP_MESSAGE_BOX (box),
                              /* TRANSLATORS: even if English singular form does
