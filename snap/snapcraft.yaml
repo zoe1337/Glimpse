@@ -51,11 +51,11 @@ plugs:
   icon-themes:
     interface: content
     target: $SNAP/data-dir/icons
-    default-provider: gtk-common-themes:icon-themes
+    default-provider: gtk-common-themes
   sound-themes:
     interface: content
     target: $SNAP/data-dir/sounds
-    default-provider: gtk-common-themes:sounds-themes
+    default-provider: gtk-common-themes
 
 slots:
   dbus-glimpse:
