@@ -1,5 +1,5 @@
-name: glimpse
-version: '0.1'
+name: glimpse-editor
+version: git
 summary: Open Source Image Editor
 description: |
   Glimpse is a freely distributed program for such tasks as photo
@@ -64,7 +64,7 @@ slots:
     name: org.glimpse_editor.Glimpse.UI
 
 apps:
-  glimpse:
+  glimpse-editor:
     command: desktop-launch $SNAP/usr/bin/glimpse
     desktop: usr/share/applications/org.glimpse_editor.Glimpse.desktop
     common-id: org.glimpse_editor.Glimpse
