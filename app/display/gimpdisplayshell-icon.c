@@ -117,7 +117,7 @@ gimp_display_shell_icon_update_idle (gpointer data)
                             icon,
                             0, shell->icon_size - height);
 
-      pixbuf = gimp_widget_load_icon (GTK_WIDGET (shell), "glimpse-logo",
+      pixbuf = gimp_widget_load_icon (GTK_WIDGET (shell), "glimpse-icon",
                                       shell->icon_size_small);
 
       width  = gdk_pixbuf_get_width  (pixbuf);
