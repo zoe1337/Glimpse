@@ -4,7 +4,7 @@
          xmlns:gnome="http://api.gnome.org/doap-extensions#"
          xmlns="http://usefulinc.com/ns/doap#">
 
-  <name xml:lang="en">Glimpse</name>
+  <name xml:lang="en">Glimpse Image Editor</name>
 
   <shortdesc xml:lang="en">Create and edit images</shortdesc>
 
@@ -20,7 +20,7 @@
       anything. The advanced scripting interface allows everything
       from the simplest task to the most complex image manipulation
       procedures to be easily scripted. Glimpse is available for Linux,
-      Microsoft Windows and OS X.
+      and Microsoft Windows.
     </_p>
   </description>
 
