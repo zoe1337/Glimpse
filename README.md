@@ -1,18 +1,22 @@
-# Glimpse
+# Glimpse Image Editor
 
-Glimpse is a downstream fork of the GNU Image Manipulation Program. You can find out more information on our FAQs page: https://glimpse-editor.org/about/
+Glimpse is a downstream fork of the GNU Image Manipulation Program 2.10. You can find out more information on our FAQs page: https://glimpse-editor.org/about/
 
 ## What is different about Glimpse?
-For now, not a lot! The initial aim is to provide a downstream fork of the GNU Image Manipulation Program that has a less problematic name so there are no potential barriers to using the software in businesses and educational institutions.
+Aside from the rebrand that provides excellent free software with a less problematic name, we also focus on performance improvements, user interface changes and incrementally improving the user experience.
 
-This is a long-standing problem that has drawn user concern for over a decade, but whenever the issue is raised it tends to be dismissed. We do not believe the upstream project's [explanation or workaround](https://www.gimp.org/docs/userfaq.html#i-dont-like-the-name-gimp-will-you-change-it) is enough to address the problem.
-
-In future versions we intend to address other long-standing complaints, particularly around the graphical user interface.
+In the longer term we intend to write our own GUI and plug-in framework on top of the [GEGL](https://en.wikipedia.org/wiki/GEGL) component maintained by the same developers, but it will take likely take years for those aspirations to be fully realised.
 
 ## How will the package versions work?
-Glimpse 0.1.0 will be a simple re-branding of the GNU Image Manipulation Program based on version 2.10.12, with some minor fixes to the UI and build system. You can see how this effort is going in the [dev-g210](https://github.com/glimpse-editor/Glimpse/tree/dev-g210) branch.
+Glimpse 0.x releases are based on GNU Image Manipulation Program 2.10 and are intended to provide a minimum viable product. They also help us build our project infrastructure, learn the codebase and iterate towards a fully supportable product.
 
-We will stick to following upstream releases until we "hard fork" at v3.0. After the hard fork we can be more ambitious with our changes.
+You can see how this effort is going in the [dev-g210](https://github.com/glimpse-editor/Glimpse/tree/dev-g210) branch.
+
+Glimpse 1.x releases will also be based on GNU Image Manipulation Program 2.10, but these will be provided with technical documentation, lesson plans, and a long term support period.
+
+Glimpse 2.x releases will utilise a new GUI that follows the [GNOME Human Interface Guidelines](https://developer.gnome.org/hig/stable/) and our own leaner plug-in framework.
+
+We do not work to fixed timelines. Instead we select a month we want to aim for, and if the release needs more time then we update our schedule accordingly.
 
 ## How can I keep up to date with Glimpse's progress?
 Our official project website is now live (but still under construction) at https://glimpse-editor.org.
@@ -28,4 +32,4 @@ Take a look at the [issues](https://github.com/glimpse-editor/Glimpse/issues) pa
 
 Alternatively you can help by spreading the word, writing a blog post about us or providing new artwork.
 
-You can also donate to this project and follow it via [Patreon](https://www.patreon.com/glimpse). If you can afford to do so we also encourage you to donate to [GNU Image Manipulation Program](https://www.gimp.org/donating/) as that helps the upstream project we rely on.
+You can also donate to this project and follow it via [Open Collective](https://opencollective.com/glimpse). If you can afford to do so we also encourage you to donate to [GNU Image Manipulation Program](https://www.gimp.org/donating/) as that helps the upstream project we rely on.
