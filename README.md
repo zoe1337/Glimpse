@@ -5,7 +5,7 @@ Glimpse is a downstream fork of the GNU Image Manipulation Program 2.10. You can
 ## What is different about Glimpse?
 Aside from the rebrand that provides excellent free software with a less problematic name, we also focus on performance improvements, user interface changes and incrementally improving the user experience.
 
-In the longer term we intend to write our own GUI and plug-in framework on top of the [GEGL](https://en.wikipedia.org/wiki/GEGL) component maintained by the same developers, but it will take likely take years for those aspirations to be fully realised.
+In the longer term we intend to write our own GUI and plug-in framework on top of the [GEGL](https://en.wikipedia.org/wiki/GEGL) component maintained by the same developers, but it will likely take years for those aspirations to be fully realised.
 
 ## How will the package versions work?
 Glimpse 0.x releases are based on GNU Image Manipulation Program 2.10 and are intended to provide a minimum viable product. They also help us build our project infrastructure, learn the codebase and iterate towards a fully supportable product.
