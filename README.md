@@ -19,17 +19,18 @@ Glimpse 2.x releases will utilise a new GUI that follows the [GNOME Human Interf
 We do not work to fixed timelines. Instead we select a month we want to aim for, and if the release needs more time then we update our schedule accordingly.
 
 ## How can I keep up to date with Glimpse's progress?
-Our official project website is now live (but still under construction) at https://glimpse-editor.org.
+Our official project website is now live at https://glimpse-editor.org.
 
-You can also follow us on the fediverse at [@glimpse@bobadon.co.uk](https://bobadon.co.uk/@glimpse)
-or on Twitter at https://twitter.com/glimpse_editor.
+You can also follow us on [the fediverse](https://bobadon.co.uk/@glimpse), [Facebook](https://www.facebook.com/glimpse.editor) and [Twitter](https://twitter.com/glimpse_editor).
 
 ## How can I build Glimpse?
-All of the build instructions can be found on [the Building Glimpse wiki](https://wiki.glimpse-editor.org/index.php?title=Building_Glimpse).
+All of the build instructions can be found in the `HACKING` file.
+
+For further information, read the [Glimpse developer wiki](https://wiki.glimpse-editor.org/index.php?title=Building_Glimpse).
 
 ## How can I contribute?
-Take a look at the [issues](https://github.com/glimpse-editor/Glimpse/issues) page on Github and see where you can contribute. You can also join us [on Matrix](https://matrix.to/#/+glimpse:matrix.org) to provide us with feedback directly and participate in the decision-making process.
+Full details for how to help are available in the `CONTRIBUTING.md` file.
 
-Alternatively you can help by spreading the word, writing a blog post about us or providing new artwork.
+You can also help by talking about us on social media, writing a positive blog post and helping people use Glimpse Image Editor.
 
-You can also donate to this project and follow it via [Open Collective](https://opencollective.com/glimpse). If you can afford to do so we also encourage you to donate to [GNU Image Manipulation Program](https://www.gimp.org/donating/) as that helps the upstream project we rely on.
+To help us cover our costs, please donate to this project via [Open Collective](https://opencollective.com/glimpse). If you can afford to do so we also encourage you to donate to [GNU Image Manipulation Program](https://www.gimp.org/donating/) as that helps the upstream project we rely on.
