@@ -906,17 +906,17 @@ msgstr "Растуће"
 
 #: ../libgimpbase/gimpbaseenums.c:1217
 msgctxt "pdb-proc-type"
-msgid "Internal GNU IMP procedure"
+msgid "Internal Glimpse procedure"
 msgstr "Унутрашња Гимпова процедура"
 
 #: ../libgimpbase/gimpbaseenums.c:1218
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Plug-In"
+msgid "GNU I.M.P Plug-In"
 msgstr "Гимпов додатак"
 
 #: ../libgimpbase/gimpbaseenums.c:1219
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Extension"
+msgid "GNU I.M.P Extension"
 msgstr "Гимпово проширење"
 
 #: ../libgimpbase/gimpbaseenums.c:1220

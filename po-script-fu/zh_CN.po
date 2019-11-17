@@ -799,7 +799,7 @@ msgstr "使用路径(_P)"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual (upstream)"
+msgid "Bookmark to the user manual (GNU I.M.P)"
 msgstr "到用户手册的书签"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -867,12 +867,12 @@ msgid "_Bug Reports and Feature Requests"
 msgstr "Bug 报告和特性需求(_B)"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:243
-#| msgid "Bookmark to the user manual (upstream)"
+#| msgid "Bookmark to the user manual (GNU I.M.P)"
 msgid "Bookmark to the bug tracker of GIMP"
 msgstr "到 GIMP 缺陷追踪系统的书签"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
-msgid "_Online User Manual (Upstream)"
+msgid "_Online User Manual (GNU I.M.P)"
 msgstr "用户手册网站(_U)"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69

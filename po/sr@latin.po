@@ -17812,11 +17812,11 @@ msgstr "Napravite slike i uredite fotografije"
 #~ msgid "Internal Glimpse procedure"
 #~ msgstr "Interna Glimpse procedura"
 
-#~ msgid "Glimpse Plug-In"
-#~ msgstr "Glimpse dodaci"
+#~ msgid "GNU I.M.P Plug-In"
+#~ msgstr "GNU I.M.P dodaci"
 
-#~ msgid "Glimpse Extension"
-#~ msgstr "Glimpse proširenja"
+#~ msgid "GNU I.M.P Extension"
+#~ msgstr "GNU I.M.P proširenja"
 
 #~ msgid "Temporary Procedure"
 #~ msgstr "Privremena procedura"

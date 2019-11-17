@@ -933,18 +933,18 @@ msgstr "Aukande"
 
 #: ../libgimpbase/gimpbaseenums.c:1283
 msgctxt "pdb-proc-type"
-msgid "Internal GNU IMP procedure"
-msgstr "Intern GNU IMP-prosedyre"
+msgid "Internal Glimpse procedure"
+msgstr "Intern Glimpse-prosedyre"
 
 #: ../libgimpbase/gimpbaseenums.c:1284
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Plug-In"
-msgstr "Programtillegg for GNU IMP"
+msgid "GNU I.M.P Plug-In"
+msgstr "Programtillegg for GNU I.M.P"
 
 #: ../libgimpbase/gimpbaseenums.c:1285
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Extension"
-msgstr "GNU IMP-utviding"
+msgid "GNU I.M.P Extension"
+msgstr "GNU I.M.P-utviding"
 
 #: ../libgimpbase/gimpbaseenums.c:1286
 msgctxt "pdb-proc-type"

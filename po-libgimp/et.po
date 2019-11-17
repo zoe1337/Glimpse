@@ -655,16 +655,16 @@ msgid "Crop with aspect"
 msgstr "Lõikamine külgede suhtega"
 
 msgctxt "pdb-proc-type"
-msgid "Internal GNU IMP procedure"
-msgstr "Sisemine GNU IMP'i potseduur"
+msgid "Internal Glimpse procedure"
+msgstr "Sisemine Glimpse'i potseduur"
 
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Plug-In"
-msgstr "GNU IMP'i plugin"
+msgid "GNU I.M.P Plug-In"
+msgstr "GNU I.M.P'i plugin"
 
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Extension"
-msgstr "GNU IMP'i laiendus"
+msgid "GNU I.M.P Extension"
+msgstr "GNU I.M.P'i laiendus"
 
 msgctxt "pdb-proc-type"
 msgid "Temporary Procedure"

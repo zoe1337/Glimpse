@@ -816,7 +816,7 @@ msgstr "Användning av _banor"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual (upstream)"
+msgid "Bookmark to the user manual (GNU I.M.P)"
 msgstr "Bokmärke till användarhandboken"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -886,7 +886,7 @@ msgid "Bookmark to the bug tracker of GIMP"
 msgstr "Bokmärke till GIMP:s felrapporteringssystem"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
-msgid "_Online User Manual (Upstream)"
+msgid "_Online User Manual (GNU I.M.P)"
 msgstr "Webbplats för _användarhandbok"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69

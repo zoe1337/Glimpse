@@ -805,7 +805,7 @@ msgstr "འགྲུལ་ལམ་ཚུ་ལག་ལེན་འཐབ་ད
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual (upstream)"
+msgid "Bookmark to the user manual (GNU I.M.P)"
 msgstr "ལག་ལེན་པའི་ལག་དེབ་ལུ་ དེབ་རྟགས་བཀལ།"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -852,7 +852,7 @@ msgid "_Developer Web Site"
 msgstr "ཝེབ་ས་ཁོངས་ཀྱི་བཟོ་མི།(_D)"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-msgid "_Online User Manual (Upstream)"
+msgid "_Online User Manual (GNU I.M.P)"
 msgstr "ཝེབ་ས་ཁོངས་ངོ་མ།(_U)"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217

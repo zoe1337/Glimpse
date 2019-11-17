@@ -814,7 +814,7 @@ msgstr "_Використання контурів"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual (upstream)"
+msgid "Bookmark to the user manual (GNU I.M.P)"
 msgstr "Посилання на посібник користувача"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -884,7 +884,7 @@ msgid "Bookmark to the bug tracker of GIMP"
 msgstr "Закладка для сторінки системи стеження за вадами у GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
-msgid "_Online User Manual (Upstream)"
+msgid "_Online User Manual (GNU I.M.P)"
 msgstr "_Сайт з посібником користувача"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69

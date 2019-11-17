@@ -1163,18 +1163,18 @@ msgstr "Постепенная"
 
 #: ../libgimpbase/gimpbaseenums.c:1387
 msgctxt "pdb-proc-type"
-msgid "Internal GNU IMP procedure"
-msgstr "Внутренняя процедура GNU IMP"
+msgid "Internal Glimpse procedure"
+msgstr "Внутренняя процедура Glimpse"
 
 #: ../libgimpbase/gimpbaseenums.c:1388
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Plug-In"
-msgstr "Модуль GNU IMP"
+msgid "GNU I.M.P Plug-In"
+msgstr "Модуль GNU I.M.P"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Extension"
-msgstr "Расширение GNU IMP"
+msgid "GNU I.M.P Extension"
+msgstr "Расширение GNU I.M.P"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"

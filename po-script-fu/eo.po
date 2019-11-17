@@ -813,7 +813,7 @@ msgstr "Uzo de _vojoj"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual (upstream)"
+msgid "Bookmark to the user manual (GNU I.M.P)"
 msgstr "Ligilo al la manlibro de la uzanto"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -860,7 +860,7 @@ msgid "_Developer Web Site"
 msgstr "Retpaĝaro de la _programistoj"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-msgid "_Online User Manual (Upstream)"
+msgid "_Online User Manual (GNU I.M.P)"
 msgstr "Retpaĝaro de la _uzanta manlibro"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217

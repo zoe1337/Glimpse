@@ -2790,10 +2790,10 @@ msgstr "Abrir imagem como camadas"
 #: ../app/actions/file-commands.c:279 ../app/widgets/gimpsavedialog.c:260
 #, c-format
 msgid ""
-"The image uses features from %s and cannot be saved for older GNU IMP versions."
+"The image uses features from %s and cannot be saved for older GNU I.M.P versions."
 msgstr ""
 "A imagem usa funcionalidades de %s e não pode ser gravada para versões "
-"anteriores do GNU IMP."
+"anteriores do GNU I.M.P."
 
 #: ../app/actions/file-commands.c:302
 msgid "No changes need to be saved"

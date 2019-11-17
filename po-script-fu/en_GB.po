@@ -776,8 +776,8 @@ msgstr "Using _Paths"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual (upstream)"
-msgstr "Bookmark to the user manual (upstream)"
+msgid "Bookmark to the user manual (GNU I.M.P)"
+msgstr "Bookmark to the user manual (GNU I.M.P)"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
 msgid "_Preparing your Images for the Web"
@@ -823,8 +823,8 @@ msgid "_Developer Web Site"
 msgstr "_Developer Web Site"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-msgid "_Online User Manual (Upstream)"
-msgstr "_Online User Manual (Upstream)"
+msgid "_Online User Manual (GNU I.M.P)"
+msgstr "_Online User Manual (GNU I.M.P)"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217
 msgid "Plug-in _Registry"

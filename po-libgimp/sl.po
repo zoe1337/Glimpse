@@ -1146,18 +1146,18 @@ msgstr "naraščajoča"
 
 #: ../libgimpbase/gimpbaseenums.c:1387
 msgctxt "pdb-proc-type"
-msgid "Internal GNU IMP procedure"
-msgstr "Notranja procedura GNU IMP"
+msgid "Internal Glimpse procedure"
+msgstr "Notranja procedura Glimpse"
 
 #: ../libgimpbase/gimpbaseenums.c:1388
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Plug-In"
-msgstr "Vtičnik GNU IMP"
+msgid "GNU I.M.P Plug-In"
+msgstr "Vtičnik GNU I.M.P"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Extension"
-msgstr "Razširitev GNU IMP"
+msgid "GNU I.M.P Extension"
+msgstr "Razširitev GNU I.M.P"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"

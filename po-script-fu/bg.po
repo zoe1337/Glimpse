@@ -801,7 +801,7 @@ msgstr "Използване на _пътища"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual (upstream)"
+msgid "Bookmark to the user manual (GNU I.M.P)"
 msgstr "Препратка към ръководството"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -848,7 +848,7 @@ msgid "_Developer Web Site"
 msgstr "_Сайт на създателя"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-msgid "_Online User Manual (Upstream)"
+msgid "_Online User Manual (GNU I.M.P)"
 msgstr "Сайт с _ръководство"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217

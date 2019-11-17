@@ -1147,18 +1147,18 @@ msgstr "Összeadódó"
 
 #: ../libgimpbase/gimpbaseenums.c:1387
 msgctxt "pdb-proc-type"
-msgid "Internal GNU IMP procedure"
-msgstr "Belső GNU IMP-eljárás"
+msgid "Internal Glimpse procedure"
+msgstr "Belső Glimpse-eljárás"
 
 #: ../libgimpbase/gimpbaseenums.c:1388
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Plug-In"
-msgstr "GNU IMP-bővítmény"
+msgid "GNU I.M.P Plug-In"
+msgstr "GNU I.M.P-bővítmény"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Extension"
-msgstr "GNU IMP-kiterjesztés"
+msgid "GNU I.M.P Extension"
+msgstr "GNU I.M.P-kiterjesztés"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"
@@ -1602,7 +1602,7 @@ msgid ""
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Ha be van kapcsolva, akkor a GNU IMP az ablakkezelő megjelenítési színprofilját "
+"Ha be van kapcsolva, akkor a GNU I.M.P az ablakkezelő megjelenítési színprofilját "
 "próbálja használni. Ekkor a beállított monitorprofil csak tartalékként lesz "
 "használva."
 

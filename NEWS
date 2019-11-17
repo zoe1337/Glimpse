@@ -50,6 +50,6 @@ Quality of Life Improvements:
 * Removed "Color" icons (duplicates "Legacy")
 * Removed "Gray" UI theme (duplicates "System")
 * Provided our own Flatpak and GNOME desktop metadata
-* Maintained compatibility with existing GNU IMP v2.x plug-ins
+* Maintained compatibility with existing GNU I.M.P v2.x plug-ins
 * Refactored "Created with GIMP" notice to "Created with Glimpse" in the default save file metadata
 * Replaced Windows save file metadata icon

@@ -707,15 +707,15 @@ msgid "Crop with aspect"
 msgstr "ਆਕਾਰ ਨਾਲ ਕਰੋਪ ਕਰੋ"
 
 #: ../libgimpbase/gimpbaseenums.c:909
-msgid "Internal GNU IMP procedure"
+msgid "Internal Glimpse procedure"
 msgstr "ਅੰਦਰੂਨੀ ਜੈਮਪ ਪਰੋਸੀਜ਼ਰ"
 
 #: ../libgimpbase/gimpbaseenums.c:910
-msgid "GNU IMP Plug-In"
+msgid "GNU I.M.P Plug-In"
 msgstr "ਜੈਮਪ ਪਲੱਗਇਨ"
 
 #: ../libgimpbase/gimpbaseenums.c:911
-msgid "GNU IMP Extension"
+msgid "GNU I.M.P Extension"
 msgstr "ਜੈਮਪ ਐਕਸ਼ਟੈਂਸ਼ਨ"
 
 #: ../libgimpbase/gimpbaseenums.c:912

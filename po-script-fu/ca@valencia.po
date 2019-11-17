@@ -791,7 +791,7 @@ msgstr "Utilitza _camins"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual (upstream)"
+msgid "Bookmark to the user manual (GNU I.M.P)"
 msgstr "Marcador per al manual d'usuari"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -838,7 +838,7 @@ msgid "_Developer Web Site"
 msgstr "Web dels _desenvolupadors"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-msgid "_Online User Manual (Upstream)"
+msgid "_Online User Manual (GNU I.M.P)"
 msgstr "Web del manual d'_usuari"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217

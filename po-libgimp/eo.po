@@ -1181,18 +1181,18 @@ msgstr "Alkremente"
 
 #: ../libgimpbase/gimpbaseenums.c:1353
 msgctxt "pdb-proc-type"
-msgid "Internal GNU IMP procedure"
-msgstr "Interna proceduro de GNU IMPo"
+msgid "Internal Glimpse procedure"
+msgstr "Interna proceduro de Glimpse"
 
 #: ../libgimpbase/gimpbaseenums.c:1354
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Plug-In"
-msgstr "Kromprogramo de GNU IMPo"
+msgid "GNU I.M.P Plug-In"
+msgstr "Kromprogramo de GNU I.M.Po"
 
 #: ../libgimpbase/gimpbaseenums.c:1355
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Extension"
-msgstr "Kromprogramo de GNU IMPo"
+msgid "GNU I.M.P Extension"
+msgstr "Kromprogramo de GNU I.M.Po"
 
 #: ../libgimpbase/gimpbaseenums.c:1356
 msgctxt "pdb-proc-type"

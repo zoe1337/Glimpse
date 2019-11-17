@@ -1148,17 +1148,17 @@ msgstr "Inkrementell"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "Internal GNU IMP procedure"
-msgstr "Intern GIMP-procedur"
+msgid "Internal Glimpse procedure"
+msgstr "Intern Glimpse-procedur"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Plug-In"
+msgid "GNU I.M.P Plug-In"
 msgstr "GIMP-insticksmodul"
 
 #: ../libgimpbase/gimpbaseenums.c:1391
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Extension"
+msgid "GNU I.M.P Extension"
 msgstr "GIMP-tillägg"
 
 #: ../libgimpbase/gimpbaseenums.c:1392

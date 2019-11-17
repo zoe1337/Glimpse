@@ -695,16 +695,16 @@ msgid "Crop with aspect"
 msgstr "Отрязване с аспект"
 
 #: ../libgimpbase/gimpbaseenums.c:881
-msgid "Internal GNU IMP procedure"
-msgstr "Вътрешна процедура на GNU IMP"
+msgid "Internal Glimpse procedure"
+msgstr "Вътрешна процедура на Glimpse"
 
 #: ../libgimpbase/gimpbaseenums.c:882
-msgid "GNU IMP Plug-In"
-msgstr "Приставка на GNU IMP"
+msgid "GNU I.M.P Plug-In"
+msgstr "Приставка на GNU I.M.P"
 
 #: ../libgimpbase/gimpbaseenums.c:883
-msgid "GNU IMP Extension"
-msgstr "Разширение на GNU IMP"
+msgid "GNU I.M.P Extension"
+msgstr "Разширение на GNU I.M.P"
 
 #: ../libgimpbase/gimpbaseenums.c:884
 msgid "Temporary Procedure"

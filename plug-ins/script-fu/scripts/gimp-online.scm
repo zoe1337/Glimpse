@@ -57,7 +57,7 @@
 ; shortcuts to help topics
 (script-fu-register "gimp-help-concepts-paths"
    _"Using _Paths"
-   _"Bookmark to the user manual (upstream)"
+   _"Bookmark to the user manual (GNU I.M.P)"
     "Roman Joost <romanofski@gimp.org>"
     "Roman Joost <romanofski@gimp.org>"
     "2006"
@@ -65,12 +65,12 @@
 )
 
 (script-fu-menu-register "gimp-help-concepts-paths"
-			 "<Image>/Help/User Manual (Upstream)")
+			 "<Image>/Help/User Manual (GNU I.M.P)")
 
 
 (script-fu-register "gimp-help-using-web"
    _"_Preparing your Images for the Web"
-   _"Bookmark to the user manual (upstream)"
+   _"Bookmark to the user manual (GNU I.M.P)"
     "Roman Joost <romanofski@gimp.org>"
     "Roman Joost <romanofski@gimp.org>"
     "2006"
@@ -78,12 +78,12 @@
 )
 
 (script-fu-menu-register "gimp-help-using-web"
-			 "<Image>/Help/User Manual (Upstream)")
+			 "<Image>/Help/User Manual (GNU I.M.P)")
 
 
 (script-fu-register "gimp-help-using-photography"
    _"_Working with Digital Camera Photos"
-   _"Bookmark to the user manual (upstream)"
+   _"Bookmark to the user manual (GNU I.M.P)"
     "Roman Joost <romanofski@gimp.org>"
     "Roman Joost <romanofski@gimp.org>"
     "2006"
@@ -91,12 +91,12 @@
 )
 
 (script-fu-menu-register "gimp-help-using-photography"
-			 "<Image>/Help/User Manual (Upstream)")
+			 "<Image>/Help/User Manual (GNU I.M.P)")
 
 
 (script-fu-register "gimp-help-using-fileformats"
    _"Create, Open and Save _Files"
-   _"Bookmark to the user manual (upstream)"
+   _"Bookmark to the user manual (GNU I.M.P)"
     "Roman Joost <romanofski@gimp.org>"
     "Roman Joost <romanofski@gimp.org>"
     "2006"
@@ -104,12 +104,12 @@
 )
 
 (script-fu-menu-register "gimp-help-using-fileformats"
-			 "<Image>/Help/User Manual (Upstream)")
+			 "<Image>/Help/User Manual (GNU I.M.P)")
 
 
 (script-fu-register "gimp-help-concepts-usage"
    _"_Basic Concepts"
-   _"Bookmark to the user manual (upstream)"
+   _"Bookmark to the user manual (GNU I.M.P)"
     "Roman Joost <romanofski@gimp.org>"
     "Roman Joost <romanofski@gimp.org>"
     "2006"
@@ -117,12 +117,12 @@
 )
 
 (script-fu-menu-register "gimp-help-concepts-usage"
-			 "<Image>/Help/User Manual (Upstream)")
+			 "<Image>/Help/User Manual (GNU I.M.P)")
 
 
 (script-fu-register "gimp-help-using-docks"
    _"How to Use _Dialogs"
-   _"Bookmark to the user manual (upstream)"
+   _"Bookmark to the user manual (GNU I.M.P)"
     "Roman Joost <romanofski@gimp.org>"
     "Roman Joost <romanofski@gimp.org>"
     "2006"
@@ -130,12 +130,12 @@
 )
 
 (script-fu-menu-register "gimp-help-using-docks"
-			 "<Image>/Help/User Manual (Upstream)")
+			 "<Image>/Help/User Manual (GNU I.M.P)")
 
 
 (script-fu-register "gimp-help-using-simpleobjects"
    _"Drawing _Simple Objects"
-   _"Bookmark to the user manual (upstream)"
+   _"Bookmark to the user manual (GNU I.M.P)"
     "Roman Joost <romanofski@gimp.org>"
     "Roman Joost <romanofski@gimp.org>"
     "2006"
@@ -143,12 +143,12 @@
 )
 
 (script-fu-menu-register "gimp-help-using-simpleobjects"
-			 "<Image>/Help/User Manual (Upstream)")
+			 "<Image>/Help/User Manual (GNU I.M.P)")
 
 
 (script-fu-register "gimp-help-using-selections"
    _"Create and Use _Selections"
-   _"Bookmark to the user manual (upstream)"
+   _"Bookmark to the user manual (GNU I.M.P)"
     "Roman Joost <romanofski@gimp.org>"
     "Roman Joost <romanofski@gimp.org>"
     "2006"
@@ -156,7 +156,7 @@
 )
 
 (script-fu-menu-register "gimp-help-using-simpleobjects"
-			 "<Image>/Help/User Manual (Upstream)")
+			 "<Image>/Help/User Manual (GNU I.M.P)")
 
 
 ;; Links to Glimpse related web sites
@@ -252,7 +252,7 @@
 
 
 (script-fu-register "gimp-online-docs-web-site"
-   _"_Online User Manual (Upstream)"
+   _"_Online User Manual (GNU I.M.P)"
    _"Bookmark to the GNU Image Manipulation Program web site"
     "Roman Joost <romanofski@gimp.org>"
     "Roman Joost <romanofski@gimp.org>"

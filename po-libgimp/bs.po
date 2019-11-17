@@ -822,18 +822,18 @@ msgstr "Odsijeci s omjerom"
 
 #: ../libgimpbase/gimpbaseenums.c:937
 msgctxt "pdb-proc-type"
-msgid "Internal GNU IMP procedure"
-msgstr "Interne GNU IMP procedure"
+msgid "Internal Glimpse procedure"
+msgstr "Interne Glimpse procedure"
 
 #: ../libgimpbase/gimpbaseenums.c:938
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Plug-In"
-msgstr "GNU IMP dodaci"
+msgid "GNU I.M.P Plug-In"
+msgstr "GNU I.M.P dodaci"
 
 #: ../libgimpbase/gimpbaseenums.c:939
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Extension"
-msgstr "GNU IMP Ekstenzija"
+msgid "GNU I.M.P Extension"
+msgstr "GNU I.M.P Ekstenzija"
 
 #: ../libgimpbase/gimpbaseenums.c:940
 msgctxt "pdb-proc-type"

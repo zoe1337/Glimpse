@@ -592,7 +592,7 @@ register_procedural_db_procs (GimpPDB *pdb)
   gimp_procedure_add_argument (procedure,
                                gimp_param_spec_string ("proc-type",
                                                        "proc type",
-                                                       "The regex for procedure type: { 'Internal GNU IMP procedure', 'GNU IMP Plug-in', 'GNU IMP Extension', 'Temporary Procedure' }",
+                                                       "The regex for procedure type: { 'Internal Glimpse procedure', 'GNU I.M.P Plug-in', 'GNU I.M.P Extension', 'Temporary Procedure' }",
                                                        TRUE, FALSE, FALSE,
                                                        NULL,
                                                        GIMP_PARAM_READWRITE));

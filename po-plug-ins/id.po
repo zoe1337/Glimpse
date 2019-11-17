@@ -8092,15 +8092,15 @@ msgid "Copyright:"
 msgstr ""
 
 #: plug-ins/dbbrowser/gimpprocview.c:319
-msgid "Internal GNU IMP procedure"
+msgid "Internal Glimpse procedure"
 msgstr ""
 
 #: plug-ins/dbbrowser/gimpprocview.c:320
-msgid "GNU IMP Plug-In"
+msgid "GNU I.M.P Plug-In"
 msgstr ""
 
 #: plug-ins/dbbrowser/gimpprocview.c:321
-msgid "GNU IMP Extension"
+msgid "GNU I.M.P Extension"
 msgstr ""
 
 #: plug-ins/dbbrowser/gimpprocview.c:322

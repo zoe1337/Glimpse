@@ -774,7 +774,7 @@ msgstr "Používanie _ciest"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual (upstream)"
+msgid "Bookmark to the user manual (GNU I.M.P)"
 msgstr "Záložka používateľskej príručky"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -821,7 +821,7 @@ msgid "_Developer Web Site"
 msgstr "_Web stránka pre vývojárov"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-msgid "_Online User Manual (Upstream)"
+msgid "_Online User Manual (GNU I.M.P)"
 msgstr "Webová stránka s _používateľskou príručkou"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217

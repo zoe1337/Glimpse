@@ -28,15 +28,15 @@ msgid "Create images and edit photographs"
 msgstr ""
 
 #: ../app/about.h:23
-msgid "GIMP"
-msgstr "GIMP"
+msgid "Glimpse"
+msgstr "Glimpse"
 
 #. The year of the last commit (UTC) will be inserted into this string.
 #: ../app/about.h:30
 #, c-format
 msgid ""
-"Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis and the Glimpse Development Team"
+"Copyright © 2019\n"
+"Glimpse Development Team"
 msgstr ""
 
 #: ../app/about.h:34
@@ -1456,7 +1456,7 @@ msgstr "_შესახებ"
 #, fuzzy
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "GIMP-ის შესახებ"
+msgstr "Glimpse-ის შესახებ"
 
 #: ../app/actions/dialogs-actions.c:328
 #: ../app/dialogs/preferences-dialog.c:1945 ../app/widgets/gimptoolbox.c:556
@@ -17591,8 +17591,8 @@ msgstr ""
 #~ msgid "Fixed aspect"
 #~ msgstr "ფიქსირებული ფარდობა"
 
-#~ msgid "Glimpse Plug-In"
-#~ msgstr "GIMP-ის პლაგინი"
+#~ msgid "GNU I.M.P Plug-In"
+#~ msgstr "GNU I.M.P-ის პლაგინი"
 
 #~ msgid "Gimprc procedures"
 #~ msgstr "Gimprc პროცედურები"

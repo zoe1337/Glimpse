@@ -833,18 +833,18 @@ msgstr "Oříznout s poměrem"
 
 #: ../libgimpbase/gimpbaseenums.c:935
 msgctxt "pdb-proc-type"
-msgid "Internal GNU IMP procedure"
-msgstr "Interní procedura aplikace GNU IMP"
+msgid "Internal Glimpse procedure"
+msgstr "Interní procedura aplikace Glimpse"
 
 #: ../libgimpbase/gimpbaseenums.c:936
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Plug-In"
-msgstr "Zásuvný modul aplikace GNU IMP"
+msgid "GNU I.M.P Plug-In"
+msgstr "Zásuvný modul aplikace GNU I.M.P"
 
 #: ../libgimpbase/gimpbaseenums.c:937
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Extension"
-msgstr "Rozšíření aplikace GNU IMP"
+msgid "GNU I.M.P Extension"
+msgstr "Rozšíření aplikace GNU I.M.P"
 
 #: ../libgimpbase/gimpbaseenums.c:938
 msgctxt "pdb-proc-type"

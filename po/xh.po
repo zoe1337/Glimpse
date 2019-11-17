@@ -19251,13 +19251,13 @@ msgstr ""
 #~ "kufumene %s)"
 
 #~ msgid "Internal Glimpse procedure"
-#~ msgstr "Inkqubo yangaphakathi ye-GIMP"
+#~ msgstr "Inkqubo yangaphakathi ye-Glimpse"
 
-#~ msgid "Glimpse Plug-In"
-#~ msgstr "Ungeniso lwe-GIMP"
+#~ msgid "GNU I.M.P Plug-In"
+#~ msgstr "Ungeniso lwe-GNU I.M.P"
 
-#~ msgid "Glimpse Extension"
-#~ msgstr "Isolulo se-GIMP"
+#~ msgid "GNU I.M.P Extension"
+#~ msgstr "Isolulo se-GNU I.M.P"
 
 #~ msgid "Temporary Procedure"
 #~ msgstr "Inkqubo yeXeshana"

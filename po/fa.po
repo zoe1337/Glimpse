@@ -19699,10 +19699,10 @@ msgstr ""
 #~ msgid "Internal Glimpse procedure"
 #~ msgstr "روال داخلی گیمپ"
 
-#~ msgid "Glimpse Plug-In"
+#~ msgid "GNU I.M.P Plug-In"
 #~ msgstr "متصل شوندهٔ گیمپ"
 
-#~ msgid "Glimpse Extension"
+#~ msgid "GNU I.M.P Extension"
 #~ msgstr "ضمیمهٔ گیمپ"
 
 #~ msgid "Temporary Procedure"

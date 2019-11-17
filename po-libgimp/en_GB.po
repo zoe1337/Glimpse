@@ -820,18 +820,18 @@ msgstr "Crop with aspect"
 
 #: ../libgimpbase/gimpbaseenums.c:935
 msgctxt "pdb-proc-type"
-msgid "Internal GNU IMP procedure"
-msgstr "Internal GNU IMP procedure"
+msgid "Internal Glimpse procedure"
+msgstr "Internal Glimpse procedure"
 
 #: ../libgimpbase/gimpbaseenums.c:936
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Plug-In"
-msgstr "GNU IMP Plug-In"
+msgid "GNU I.M.P Plug-In"
+msgstr "GNU I.M.P Plug-In"
 
 #: ../libgimpbase/gimpbaseenums.c:937
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Extension"
-msgstr "GNU IMP Extension"
+msgid "GNU I.M.P Extension"
+msgstr "GNU I.M.P Extension"
 
 #: ../libgimpbase/gimpbaseenums.c:938
 msgctxt "pdb-proc-type"

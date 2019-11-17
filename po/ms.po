@@ -19644,13 +19644,13 @@ msgstr ""
 #~ "Jenis argumen #%d tidak padan (dijangka %s, dapat %s)"
 
 #~ msgid "Internal Glimpse procedure"
-#~ msgstr "Prosedur dalaman GIMP"
+#~ msgstr "Prosedur dalaman Glimpse"
 
-#~ msgid "Glimpse Plug-In"
-#~ msgstr "Glimpse Plug-In"
+#~ msgid "GNU I.M.P Plug-In"
+#~ msgstr "GNU I.M.P Plug-In"
 
-#~ msgid "Glimpse Extension"
-#~ msgstr "Sambungan GIMP"
+#~ msgid "GNU I.M.P Extension"
+#~ msgstr "Sambungan GNU I.M.P"
 
 #~ msgid "Temporary Procedure"
 #~ msgstr "Prosedur Sementara"

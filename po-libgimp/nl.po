@@ -1177,18 +1177,18 @@ msgstr "Oplopend"
 
 #: ../libgimpbase/gimpbaseenums.c:1387
 msgctxt "pdb-proc-type"
-msgid "Internal GNU IMP procedure"
-msgstr "Interne GNU IMP-procedure"
+msgid "Internal Glimpse procedure"
+msgstr "Interne Glimpse-procedure"
 
 #: ../libgimpbase/gimpbaseenums.c:1388
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Plug-In"
-msgstr "GNU IMP-plug-in"
+msgid "GNU I.M.P Plug-In"
+msgstr "GNU I.M.P-plug-in"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "GNU IMP Extension"
-msgstr "GNU IMP-uitbreiding"
+msgid "GNU I.M.P Extension"
+msgstr "GNU I.M.P-uitbreiding"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"
