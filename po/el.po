@@ -11899,7 +11899,7 @@ msgstr "Μόνο καταρρεύσεις αποσφαλμάτωσης"
 #: ../app/core/core-enums.c:425
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Να μην αποσφαλματώνεται ποτέ το GIMP"
+msgstr "Να μην αποσφαλματώνεται ποτέ το Glimpse"
 
 #: ../app/core/core-enums.c:511
 msgctxt "dynamics-output-type"

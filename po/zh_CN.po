@@ -11473,7 +11473,7 @@ msgstr "仅调试崩溃"
 #: ../app/core/core-enums.c:425
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "从不调试 GIMP"
+msgstr "从不调试 Glimpse"
 
 #: ../app/core/core-enums.c:511
 msgctxt "dynamics-output-type"

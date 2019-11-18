@@ -11926,7 +11926,7 @@ msgstr "Nur Abstürze diagnostizieren"
 #: ../app/core/core-enums.c:454
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Keine GIMP-Fehlerdiagnose"
+msgstr "Keine Glimpse-Fehlerdiagnose"
 
 #: ../app/core/core-enums.c:540
 msgctxt "dynamics-output-type"

@@ -11738,7 +11738,7 @@ msgstr "Atkļūdot tikai avārijas"
 #: ../app/core/core-enums.c:425
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Nekad neatkļūdot GIMP"
+msgstr "Nekad neatkļūdot Glimpse"
 
 #: ../app/core/core-enums.c:511
 msgctxt "dynamics-output-type"

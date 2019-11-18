@@ -11669,7 +11669,7 @@ msgstr "Razhrošči le sesutja"
 #: ../app/core/core-enums.c:425
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Nikoli ne razhrošči GIMP-a"
+msgstr "Nikoli ne razhrošči Glimpse-a"
 
 #: ../app/core/core-enums.c:511
 msgctxt "dynamics-output-type"

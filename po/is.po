@@ -11683,7 +11683,7 @@ msgstr "Einungis villukemba hrun"
 #: ../app/core/core-enums.c:425
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Aldrei villukemba GIMP"
+msgstr "Aldrei villukemba Glimpse"
 
 #: ../app/core/core-enums.c:511
 msgctxt "dynamics-output-type"

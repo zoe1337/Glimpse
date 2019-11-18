@@ -11927,7 +11927,7 @@ msgstr "Depurar solamente las caídas"
 #: ../app/core/core-enums.c:454
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Nunca depurar GIMP"
+msgstr "Nunca depurar Glimpse"
 
 #: ../app/core/core-enums.c:540
 msgctxt "dynamics-output-type"

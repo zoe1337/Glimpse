@@ -12495,7 +12495,7 @@ msgstr "Depurar somente travamentos"
 #: ../app/core/core-enums.c:423
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Nunca depurar o GIMP"
+msgstr "Nunca depurar o Glimpse"
 
 #: ../app/core/core-enums.c:509
 msgctxt "dynamics-output-type"

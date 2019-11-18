@@ -11733,7 +11733,7 @@ msgstr "Діагностика лише для аварій"
 #: ../app/core/core-enums.c:425
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Не виконувати діагностику GIMP"
+msgstr "Не виконувати діагностику Glimpse"
 
 #: ../app/core/core-enums.c:511
 msgctxt "dynamics-output-type"

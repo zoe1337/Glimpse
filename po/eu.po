@@ -11379,7 +11379,7 @@ msgstr "Araztu kraskatzeak soilik"
 #: ../app/core/core-enums.c:425
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Inoiz ez araztu GIMP"
+msgstr "Inoiz ez araztu Glimpse"
 
 #: ../app/core/core-enums.c:511
 msgctxt "dynamics-output-type"

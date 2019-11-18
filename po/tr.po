@@ -11816,7 +11816,7 @@ msgstr "Yalnızca çökmeleri hata ayıkla"
 #: ../app/core/core-enums.c:454
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "GIMP’de asla hata ayıklama yapma"
+msgstr "Glimpse’de asla hata ayıklama yapma"
 
 #: ../app/core/core-enums.c:540
 msgctxt "dynamics-output-type"

@@ -11753,7 +11753,7 @@ msgstr "Felsök endast krascher"
 #: ../app/core/core-enums.c:454
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Felsök aldrig GIMP"
+msgstr "Felsök aldrig Glimpse"
 
 #: ../app/core/core-enums.c:540
 msgctxt "dynamics-output-type"
