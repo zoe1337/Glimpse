@@ -1075,9 +1075,9 @@ typedef enum
 
 /**
  * GimpPDBProcType:
- * @GIMP_INTERNAL:  Internal GIMP procedure
- * @GIMP_PLUGIN:    GIMP Plug-In
- * @GIMP_EXTENSION: GIMP Extension
+ * @GIMP_INTERNAL:  Internal Glimpse procedure
+ * @GIMP_PLUGIN:    GNU I.M.P Plug-In
+ * @GIMP_EXTENSION: GNU I.M.P Extension
  * @GIMP_TEMPORARY: Temporary Procedure
  *
  * Types of PDB procedures.
@@ -1088,9 +1088,9 @@ GType gimp_pdb_proc_type_get_type (void) G_GNUC_CONST;
 
 typedef enum
 {
-  GIMP_INTERNAL,   /*< desc="Internal GIMP procedure" >*/
-  GIMP_PLUGIN,     /*< desc="GIMP Plug-In" >*/
-  GIMP_EXTENSION,  /*< desc="GIMP Extension" >*/
+  GIMP_INTERNAL,   /*< desc="Internal Glimpse procedure" >*/
+  GIMP_PLUGIN,     /*< desc="GNU I.M.P Plug-In" >*/
+  GIMP_EXTENSION,  /*< desc="GNU I.M.P Extension" >*/
   GIMP_TEMPORARY   /*< desc="Temporary Procedure" >*/
 } GimpPDBProcType;
 

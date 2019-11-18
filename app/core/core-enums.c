@@ -1309,3 +1309,4 @@ gimp_view_type_get_type (void)
 
 
 /* Generated data ends here */
+
