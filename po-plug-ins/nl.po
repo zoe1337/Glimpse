@@ -16179,11 +16179,11 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ msgid "Searching by blurb - please wait"
 #~ msgstr "Zoeken op omschrijving - wacht A.U.B."
 
-#~ msgid "Internal GIMP procedure"
-#~ msgstr "Interne GIMP-procedure"
+#~ msgid "Internal Glimpse procedure"
+#~ msgstr "Interne Glimpse-procedure"
 
-#~ msgid "GIMP Plug-In"
-#~ msgstr "GIMP-plug-in"
+#~ msgid "GNU I.M.P Plug-In"
+#~ msgstr "GNU I.M.P-plug-in"
 
 #~ msgid "Temporary Procedure"
 #~ msgstr "Tijdelijke procedure"

@@ -2836,11 +2836,11 @@ msgstr "Y-verschuiving slagschadow"
 #~ msgid "_Search:"
 #~ msgstr "_Zoeken:"
 
-#~ msgid "Internal GIMP procedure"
-#~ msgstr "Interne GIMP-procedure"
+#~ msgid "Internal Glimpse procedure"
+#~ msgstr "Interne Glimpse-procedure"
 
-#~ msgid "GIMP Plug-In"
-#~ msgstr "GIMP Plug-In"
+#~ msgid "GNU I.M.P Plug-In"
+#~ msgstr "GNU I.M.P Plug-In"
 
 #~ msgid "Temporary Procedure"
 #~ msgstr "Tijdelijke procedure"

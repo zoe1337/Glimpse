@@ -2725,11 +2725,11 @@ msgstr "Drop shadow Y offset"
 #~ msgid "Additional Information"
 #~ msgstr "Additional Information"
 
-#~ msgid "Internal GIMP procedure"
-#~ msgstr "Internal GIMP procedure"
+#~ msgid "Internal Glimpse procedure"
+#~ msgstr "Internal Glimpse procedure"
 
-#~ msgid "GIMP Plug-In"
-#~ msgstr "GIMP Plug-In"
+#~ msgid "GNU I.M.P Plug-In"
+#~ msgstr "GNU I.M.P Plug-In"
 
 #~ msgid "Temporary Procedure"
 #~ msgstr "Temporary Procedure"

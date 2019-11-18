@@ -933,7 +933,7 @@ msgid "GNU I.M.P Plug-In"
 msgstr "Phần bổ sung GNU I.M.P"
 
 #: ../libgimpbase/gimpbaseenums.c:937
-#| msgid "GIMP Extension"
+#| msgid "GNU I.M.P Extension"
 msgctxt "pdb-proc-type"
 msgid "GNU I.M.P Extension"
 msgstr "Phần mở rộng GNU I.M.P"

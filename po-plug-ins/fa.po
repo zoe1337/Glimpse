@@ -12890,13 +12890,13 @@ msgstr ""
 #~ msgid "Date:"
 #~ msgstr "تاریخ:"
 
-#~ msgid "Internal GIMP procedure"
+#~ msgid "Internal Glimpse procedure"
 #~ msgstr "زیرنامهٔ داخلی گیمپ"
 
-#~ msgid "GIMP Plug-In"
+#~ msgid "GNU I.M.P Plug-In"
 #~ msgstr "متصل‌شوندهٔ گیمپ"
 
-#~ msgid "GIMP Extension"
+#~ msgid "GNU I.M.P Extension"
 #~ msgstr "ضمیمهٔ گیمپ"
 
 #~ msgid "Temporary Procedure"

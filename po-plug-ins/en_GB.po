@@ -10124,7 +10124,7 @@ msgid "Property Release Identifier"
 msgstr "Property Release Identifier"
 
 #: ../plug-ins/ui/plug-in-metadata-editor.ui.h:78
-#| msgid "GIMP Extension"
+#| msgid "GNU I.M.P Extension"
 msgid "IPTC Extension"
 msgstr "IPTC Extension"
 
@@ -15897,8 +15897,8 @@ msgstr "Transferring data from scanner/camera"
 #~ msgid "PageSetupDlg failed: %d"
 #~ msgstr "PageSetupDlg failed: %d"
 
-#~ msgid "Created with The GIMP"
-#~ msgstr "Created with The GIMP"
+#~ msgid "Created with Glimpse"
+#~ msgstr "Created with Glimpse"
 
 #~ msgid "ZealousCropping(tm)..."
 #~ msgstr "ZealousCropping(tm)..."
@@ -15924,11 +15924,11 @@ msgstr "Transferring data from scanner/camera"
 #~ msgid "%d Procedures"
 #~ msgstr "%d Procedures"
 
-#~ msgid "Internal GIMP procedure"
-#~ msgstr "Internal GIMP procedure"
+#~ msgid "Internal Glimpse procedure"
+#~ msgstr "Internal Glimpse procedure"
 
-#~ msgid "GIMP Plug-In"
-#~ msgstr "GIMP Plug-In"
+#~ msgid "GNU I.M.P Plug-In"
+#~ msgstr "GNU I.M.P Plug-In"
 
 #~ msgid "Temporary Procedure"
 #~ msgstr "Temporary Procedure"

@@ -1233,7 +1233,7 @@ prefs_dialog_new (Gimp       *gimp,
    */
 #ifndef G_OS_WIN32
   vbox = gimp_prefs_box_add_page (GIMP_PREFS_BOX (prefs_box),
-                                  "gimp-wilber-eek", /* TODO: icon needed. */
+                                  "glimpse-icon",
                                   _("Debugging"),
                                   _("Debugging"),
                                   GIMP_HELP_PREFS_DEBUGGING,
@@ -1243,7 +1243,7 @@ prefs_dialog_new (Gimp       *gimp,
   hbox = g_object_new (GIMP_TYPE_HINT_BOX,
                        "icon-name", GIMP_ICON_DIALOG_WARNING,
                        "hint",      _("We hope you will never need these "
-                                      "settings, but as all software, GIMP "
+                                      "settings, but as all software, Glimpse "
                                       "has bugs, and crashes can occur. If it "
                                       "happens, you can help us by reporting "
                                       "bugs."),

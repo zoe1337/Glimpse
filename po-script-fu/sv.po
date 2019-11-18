@@ -2770,10 +2770,10 @@ msgstr "Y-avstånd för skuggkastning"
 #~ msgid "Additional Information"
 #~ msgstr "Mer information"
 
-#~ msgid "Internal GIMP procedure"
-#~ msgstr "Intern GIMP-procedur"
+#~ msgid "Internal Glimpse procedure"
+#~ msgstr "Intern Glimpse-procedur"
 
-#~ msgid "GIMP Plug-In"
+#~ msgid "GNU I.M.P Plug-In"
 #~ msgstr "GIMP insticksmodul"
 
 #~ msgid "Temporary Procedure"

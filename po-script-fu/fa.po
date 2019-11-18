@@ -2324,10 +2324,10 @@ msgstr "فاصلهٔ‌ Y سایه"
 #~ msgid "Additional Information"
 #~ msgstr "اطلاعات بیشتر"
 
-#~ msgid "Internal GIMP procedure"
+#~ msgid "Internal Glimpse procedure"
 #~ msgstr "زیربرنامهٔ داخلی گیمپ"
 
-#~ msgid "GIMP Plug-In"
+#~ msgid "GNU I.M.P Plug-In"
 #~ msgstr "متصل‌شوندهٔ گیمپ"
 
 #~ msgid "Temporary Procedure"

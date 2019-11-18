@@ -1769,10 +1769,10 @@ msgstr "Faka isithunzi sokungamiselwanga kuka-Y"
 #~ msgid "Additional Information"
 #~ msgstr "Ulwazi olongezelelekileyo"
 
-#~ msgid "Internal GIMP procedure"
-#~ msgstr "Inkqubo ye-GIMP yangaphakathi"
+#~ msgid "Internal Glimpse procedure"
+#~ msgstr "Inkqubo ye-Glimpse yangaphakathi"
 
-#~ msgid "GIMP Plug-In"
+#~ msgid "GNU I.M.P Plug-In"
 #~ msgstr "Ungeniso lwe-GIMP"
 
 #~ msgid "Temporary Procedure"

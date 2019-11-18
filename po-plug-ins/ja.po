@@ -14786,14 +14786,14 @@ msgstr "何も取り込まれませんでした"
 #~ msgid "Date:"
 #~ msgstr "日付:"
 
-#~ msgid "Internal GIMP procedure"
+#~ msgid "Internal Glimpse procedure"
 #~ msgstr "GIMP 内部プロシージャー"
 
-#~ msgid "GIMP Plug-In"
-#~ msgstr "GIMP プラグイン"
+#~ msgid "GNU I.M.P Plug-In"
+#~ msgstr "GNU I.M.P プラグイン"
 
-#~ msgid "GIMP Extension"
-#~ msgstr "GIMP 拡張機能"
+#~ msgid "GNU I.M.P Extension"
+#~ msgstr "GNU I.M.P 拡張機能"
 
 #~ msgid "Temporary Procedure"
 #~ msgstr "テンポラリプロシージャー"

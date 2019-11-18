@@ -2816,11 +2816,11 @@ msgstr "ドロップシャドウ Y オフセット"
 #~ msgid "Additional Information"
 #~ msgstr "追加情報"
 
-#~ msgid "Internal GIMP procedure"
-#~ msgstr "内部 GIMP プロシージャ"
+#~ msgid "Internal Glimpse procedure"
+#~ msgstr "内部 Glimpse プロシージャ"
 
-#~ msgid "GIMP Plug-In"
-#~ msgstr "GIMP プラグイン"
+#~ msgid "GNU I.M.P Plug-In"
+#~ msgstr "GNU I.M.P プラグイン"
 
 #~ msgid "Temporary Procedure"
 #~ msgstr "一時プロシージャ"
