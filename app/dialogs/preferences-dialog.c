@@ -645,7 +645,7 @@ prefs_menus_clear_callback (GtkWidget *widget,
 
       prefs_message (GTK_MESSAGE_INFO, TRUE,
                      _("Your keyboard shortcuts will be reset to "
-                       "default values the next time you start GIMP."));
+                       "default values the next time you start Glimpse."));
     }
 }
 
@@ -719,7 +719,7 @@ prefs_session_clear_callback (GtkWidget *widget,
 
       prefs_message (GTK_MESSAGE_INFO, TRUE,
                      _("Your window setup will be reset to "
-                       "default values the next time you start GIMP."));
+                       "default values the next time you start Glimpse."));
     }
 }
 
@@ -754,7 +754,7 @@ prefs_devices_clear_callback (GtkWidget *widget,
 
       prefs_message (GTK_MESSAGE_INFO, TRUE,
                      _("Your input device settings will be reset to "
-                       "default values the next time you start GIMP."));
+                       "default values the next time you start Glimpse."));
     }
 }
 
@@ -796,7 +796,7 @@ prefs_tool_options_clear_callback (GtkWidget *widget,
 
       prefs_message (GTK_MESSAGE_INFO, TRUE,
                      _("Your tool options will be reset to "
-                       "default values the next time you start GIMP."));
+                       "default values the next time you start Glimpse."));
     }
 }
 
@@ -1608,7 +1608,7 @@ prefs_dialog_new (Gimp       *gimp,
       hbox = g_object_new (GIMP_TYPE_HINT_BOX,
                            "icon-name", GIMP_ICON_DIALOG_WARNING,
                            "hint",      _("These features are unfinished, buggy "
-                                          "and may crash GIMP. It is unadvised to "
+                                          "and may crash Glimpse. It is unadvised to "
                                           "use them unless you really know what "
                                           "you are doing or you intend to contribute "
                                           "patches."),

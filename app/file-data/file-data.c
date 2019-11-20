@@ -56,7 +56,7 @@ file_data_init (Gimp *gimp)
   procedure->marshal_func = file_gbr_load_invoker;
 
   proc = GIMP_PLUG_IN_PROCEDURE (procedure);
-  proc->menu_label = g_strdup (N_("GIMP brush"));
+  proc->menu_label = g_strdup (N_("GNU I.M.P brush"));
   gimp_plug_in_procedure_set_icon (proc, GIMP_ICON_TYPE_ICON_NAME,
                                    (const guint8 *) "gimp-brush",
                                    strlen ("gimp-brush") + 1);
@@ -69,8 +69,8 @@ file_data_init (Gimp *gimp)
   gimp_object_set_static_name (GIMP_OBJECT (procedure), "file-gbr-load");
   gimp_procedure_set_static_strings (procedure,
                                      "file-gbr-load",
-                                     "Loads GIMP brushes",
-                                     "Loads GIMP brushes (1 or 4 bpp "
+                                     "Loads GNU I.M.P brushes",
+                                     "Loads GNU I.M.P brushes (1 or 4 bpp "
                                      "and old .gpb format)",
                                      "Tim Newsome, Jens Lautenbacher, "
                                      "Sven Neumann, Michael Natterer",
@@ -362,7 +362,7 @@ file_data_init (Gimp *gimp)
   procedure->marshal_func = file_pat_load_invoker;
 
   proc = GIMP_PLUG_IN_PROCEDURE (procedure);
-  proc->menu_label = g_strdup (N_("GIMP pattern"));
+  proc->menu_label = g_strdup (N_("GNU I.M.P pattern"));
   gimp_plug_in_procedure_set_icon (proc, GIMP_ICON_TYPE_ICON_NAME,
                                    (const guint8 *) "gimp-pattern",
                                    strlen ("gimp-pattern") + 1);
@@ -375,8 +375,8 @@ file_data_init (Gimp *gimp)
   gimp_object_set_static_name (GIMP_OBJECT (procedure), "file-pat-load");
   gimp_procedure_set_static_strings (procedure,
                                      "file-pat-load",
-                                     "Loads GIMP patterns",
-                                     "Loads GIMP patterns",
+                                     "Loads GNU I.M.P patterns",
+                                     "Loads GNU I.M.P patterns",
                                      "Tim Newsome, Michael Natterer",
                                      "Tim Newsome, Michael Natterer",
                                      "1997-2019",

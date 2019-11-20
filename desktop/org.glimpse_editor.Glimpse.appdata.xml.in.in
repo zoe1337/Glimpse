@@ -7,39 +7,37 @@
   <_summary>Create images and edit photographs</_summary>
   <description>
     <_p>
-      Glimpse is a freely distributed program for such tasks as photo
-      retouching, image composition and image authoring.
+      Glimpse Image Editor is a usability-focused free software application
+      capable of expert level image manipulation.
     </_p>
     <_p>
-      It has many capabilities. It can be used as a simple paint
-      program, an expert quality photo retouching program, an online
-      batch processing system, a mass production image renderer, an
-      image format converter, etc.
+      Simple tasks like cropping, transforming and retouching photos can be
+      achieved in just a few clicks. Professional features like batch image
+      processing, color balance correction and automated format conversions are
+      also included.
     </_p>
     <_p>
-      Glimpse is expandable and extensible. It is designed to be
-      augmented with plug-ins and extensions to do just about
-      anything. The advanced scripting interface allows everything
-      from the simplest task to the most complex image manipulation
-      procedures to be easily scripted.
+      Glimpse is based on the GNU Image Manipulation Program 2.10, so it is
+      extensible and fully compatible with the same plug-ins, themes and save
+      files. It is available for Windows and Linux.
     </_p>
   </description>
   <url type="homepage">https://glimpse-editor.org</url>
   <!-- url type="help">https://glimpse-editor.org/TODO</url -->
   <url type="donation">https://opencollective.com/glimpse</url>
   <url type="bugtracker">@BUG_REPORT_URL@</url>
-  <update_contact>contact_AT_bobbymoss.com</update_contact>
+  <update_contact>glimpse_AT_bobbymoss.com</update_contact>
 
-  <!-- screenshots>
+  <screenshots>
     <screenshot type="default">
-      <image>https://glimpse-editor.org/TODO1.png</image>
-      <_caption>Doing cool things with Glimpse</_caption>
+      <image>https://glimpse-editor.org/flatpak/0.1/dark-theme1.png</image>
+      <_caption>Crop and transform images in just a few clicks</_caption>
     </screenshot>
-    <screenshot type="default">
-      <image>https://glimpse-editor.org/TODO2.png</image>
-      <_caption>Doing more great things with Glimpse</_caption>
+    <screenshot>
+      <image>https://glimpse-editor.org/flatpak/0.1/light-theme2.png</image>
+      <_caption>Apply professional filters and create animations</_caption>
     </screenshot>
-  </screenshots -->
+  </screenshots>
 
   <keywords>
     <keyword>GIMP</keyword>
@@ -49,23 +47,35 @@
 
   <launchable type="desktop-id">org.glimpse_editor.Glimpse.desktop</launchable>
 
-  <!-- releases>
-    <release version="1.0" date="YYYY-MM-DD">
-      <url type="details">https://glimpse-editor.org/TODO</url>
+  <releases>
+    <release version="0.1.0" date="2019-11-20">
+      <url type="details">https://glimpse-editor.org/posts/glimpse-0-1-0-release-notes/</url>
       <description>
         <_p>
-          TODO…
+          After four months of intensive effort, Glimpse 0.1.0 is our very
+          first binary release. We would like to thank everyone that has
+          supported the project so far and look forward to building on this
+          work in future releases.
         </_p>
-        <ul>
-          <_li>
-            Cool new feature!
-          </_li>
-          <_li>
-            Bad bug is now fixed!
-          </_li>
-        </ul>
+        <_ul>
+          <li>
+            Every feature in the GNU Image Manipulation Program 2.10.12
+          </li>
+          <li>
+            Professional branding throughout the application
+          </li>
+          <li>
+            De-cluttered user interface without animal mascots and "easter eggs"
+          </li>
+          <li>
+            Full plug-in, theme and save file compatibility with the GNU Image Manipulation Program
+          </li>
+          <li>
+            Improved build/packaging tools and developer documentation
+          </li>
+        </_ul>
       </description>
     </release>
-  </releases -->
+  </releases>
   <content_rating type="oars-1.1" />
 </component>

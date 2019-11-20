@@ -234,7 +234,7 @@ plug_in_rc_parse (Gimp    *gimp,
         {
           g_set_error (error,
                        GIMP_CONFIG_ERROR, GIMP_CONFIG_ERROR_VERSION,
-                       _("Skipping '%s': wrong GIMP protocol version."),
+                       _("Skipping '%s': wrong GNU I.M.P protocol version."),
                        gimp_file_get_utf8_name (file));
         }
       else if (file_version != PLUG_IN_RC_FILE_VERSION)

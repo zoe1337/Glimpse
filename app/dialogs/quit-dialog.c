@@ -253,7 +253,7 @@ quit_close_all_dialog_new (Gimp     *gimp,
                     private);
 
   if (do_quit)
-    private->lost_label = gtk_label_new (_("If you quit GIMP now, "
+    private->lost_label = gtk_label_new (_("If you quit Glimpse now, "
                                            "these changes will be lost."));
   else
     private->lost_label = gtk_label_new (_("If you close these images now, "

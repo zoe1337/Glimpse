@@ -11,8 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2019-06-06 11:51+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-20 13:12+0000\n"
 "PO-Revision-Date: 2019-06-11 22:08+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -23,618 +23,101 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
 
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:1
-#: ../desktop/gimp.desktop.in.in.h:1 ../app/about.h:26
-msgid "GNU Image Manipulation Program"
-msgstr "GNU:s bildmanipuleringsprogram"
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:1
+#: ../app/about.h:22
+#, fuzzy
+msgid "Glimpse"
+msgstr "Avsluta GIMP"
 
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:2
-#: ../desktop/gimp.desktop.in.in.h:3
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
 msgstr "Skapa bilder och redigera fotografier"
 
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:3
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:3
 msgid ""
-"Glimpse is an acronym for GNU Image Manipulation Program. It is a freely "
-"distributed program for such tasks as photo retouching, image composition "
-"and image authoring."
+"Glimpse Image Editor is a usability-focused free software application "
+"capable of expert level image manipulation."
 msgstr ""
-"GIMP är en akronym för GNU Image Manipulation Program. Det är ett fritt "
-"distribuerat program för sådana uppgifter som fotoretuschering, "
-"bildkomposition och bildskapande."
 
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:4
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:4
 msgid ""
-"It has many capabilities. It can be used as a simple paint program, an "
-"expert quality photo retouching program, an online batch processing system, "
-"a mass production image renderer, an image format converter, etc."
+"Simple tasks like cropping, transforming and retouching photos can be "
+"achieved in just a few clicks. Professional features like batch image "
+"processing, color balance correction and automated format conversions are "
+"also included."
 msgstr ""
-"Det har många funktioner. Det kan användas som ett enkelt ritprogram, ett "
-"fotoretuscheringsprogram på expertnivå, ett online massbearbetningssystem, "
-"en massproduktionsbildåtergivare, en bildformatsomvandlare, etc."
 
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:5
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:5
 msgid ""
-"Glimpse is expandable and extensible. It is designed to be augmented with plug-"
-"ins and extensions to do just about anything. The advanced scripting "
-"interface allows everything from the simplest task to the most complex image "
-"manipulation procedures to be easily scripted. Glimpse is available for Linux, "
-"Microsoft Windows and OS X."
+"Glimpse is based on the GNU Image Manipulation Program 2.10, so it is "
+"extensible and fully compatible with the same plug-ins, themes and save "
+"files. It is available for Windows and Linux."
 msgstr ""
-"GIMP är utbyggbart och tänjbart. Det är avsett att kompletteras med "
-"insticksprogram och tillägg för att göra nästan vad som helst. Det "
-"avancerade skriptgränssnittet tillåter allt från den enklaste uppgift till "
-"de mest komplexa bildmanipuleringsförfaranden att enkelt skrivas. GIMP är "
-"tillgängligt för Linux, Microsoft Windows och OS X."
 
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:6
-msgid "Painting in Glimpse"
-msgstr "Måla i GIMP"
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:6
+msgid "Crop and transform images in just a few clicks"
+msgstr ""
 
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:7
-msgid "Photo editing in Glimpse"
-msgstr "Fotoredigering i GIMP"
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:7
+msgid "Apply professional filters and create animations"
+msgstr ""
 
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:8
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:8
 msgid ""
-"Glimpse 2.10.12 is a significant bug fix release, which is to be expected after "
-"a 2.10.10 with so many changes! Still, very cool improvements are also "
-"available, in particular for curves editing:"
-msgstr ""
-"Glimpse 2.10.12 är en betydelsefull utgåva med felfixar, vilken förväntas efter "
-"2.10.10 med alla dess ändringar! Några väldigt häftiga förbättringar har "
-"ändå tillkommit, främst för kurvredigering:"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:9
-msgid "Improved curves interaction overall"
+"After four months of intensive effort, Glimpse 0.1.0 is our very first "
+"binary release. We would like to thank everyone that has supported the "
+"project so far and look forward to building on this work in future releases."
 msgstr ""
 
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:10
-msgid "A few enhancements specific to the Curves tool"
-msgstr ""
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:11
-msgid "Layer support in TIFF"
-msgstr "Lagerstöd i TIFF"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:12
-msgid "Discovery of user-installed fonts in Windows"
-msgstr "Upptäckt av användarinstallerade typsnitt i Windows"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:13
-msgid "Incremental mode in the Dodge/Burn tool"
-msgstr ""
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:14
-msgid "Free Select tool creates preliminary selection"
-msgstr "Verktyget Fri markering skapar en preliminär markering"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:15
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:9
 msgid ""
-"Glimpse 2.10.10 is quite a big update with many new features and bug fixes. "
-"Notable improvements include:"
+"<li> Every feature in the GNU Image Manipulation Program 2.10.12 </li> <li> "
+"Professional branding throughout the application </li> <li> De-cluttered "
+"user interface without animal mascots and \"easter eggs\" </li> <li> Full "
+"plug-in, theme and save file compatibility with the GNU Image Manipulation "
+"Program </li> <li> Improved build/packaging tools and developer "
+"documentation </li>"
 msgstr ""
-"Glimpse 2.10.10 är en rätt stor uppdatering med många nya funktioner och "
-"felfixar. Framstående ändringar inkluderar:"
 
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:16
-msgid ""
-"Bucket Fill tool: new \"Fill by line art detection\" for not perfectly "
-"closed line art zones"
-msgstr ""
-"Fyllnadsverktyg: nytt ”Fyll i enligt upptäckt av linjegrafik” för "
-"linjegrafikzoner som inte är fullständigt stängda"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:17
-msgid "Bucket Fill tool can now quickly color-pick with Ctrl+click"
-msgstr "Fyllnadsverktyget kan nu snabbt välja färg med Ctrl+klick"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:18
-msgid ""
-"Bucket Fill tool allows holding the mouse when filling \"similar colors\" "
-"and \"by line art detection\""
-msgstr ""
-"Fyllnadsverktyget tillåter att hålla nere musen vid fyllning av ”liknande "
-"färger” och ”enligt upptäckt av linjegrafik”"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:19
-msgid "Scale tool scales around center even when using numeric input"
-msgstr ""
-"Skalningsverktyget skalar runt centrum även då numerisk inmatning används"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:20
-msgid ""
-"Unified Transform tool now defaults to preserving aspect ratio when scaling "
-"up or down"
-msgstr ""
-"Enhetliga transformeringsverktyget har nu som standard att behålla "
-"bildförhållandet vid ändring av skala"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:21
-msgid ""
-"Add \"Constrain handles\" and \"Around center\" options to the perspective-"
-"transform tool's GUI"
-msgstr ""
-"Lägg till alternativen ”Begränsa handtag” och ”Runt centrum” till "
-"perspektivtransformeringsverktygets grafiska användargränssnitt"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:22
-msgid "New generic canvas modifier 'Alt + middle click' to pick layers"
-msgstr "Ny allmän ritytemodifierare ”Alt + mittenklick” för att välja lager"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:23
-msgid "Parametric brushes now 32-bit float to avoid posterization"
-msgstr ""
-"Parametriska penslar använder nu 32-bitars flyttal för att undvika "
-"färgreduktion"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:24
-msgid "Clipboard brushes and pattern can now be duplicated"
-msgstr "Urklippspenslar och mönster kan nu dupliceras"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:25
-msgid ""
-"Failure to edit locked layers will blink to shift attention to the cause of "
-"the error"
-msgstr ""
-"Misslyckande att redigera låsta lager kommer att blinka för att växla "
-"uppmärksamheten till felets orsak"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:26
-msgid ""
-"New on-canvas GUI (simple lines) for circular, linear, and zoom motion blur"
-msgstr ""
-"Nytt grafiskt användargränssnitt på ritytan (enkla linjer) för cirkulär och "
-"linjär rörelseoskärpa samt zoomrörelseoskärpa"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:27
-msgid "Several optimizations including faster layer group rendering"
-msgstr "Flera optimeringar inklusive snabbare rendering av lagergrupper"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:28
-msgid ""
-"Swap and cache files are not saved in the configuration directory anymore"
-msgstr "Växlings- och cachefiler sparas inte längre i konfigurationskatalogen"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:29
-msgid ""
-"Various file saving/exporting made more robust to error by not saving "
-"partial files"
-msgstr ""
-"Diverse sparande och exporter av filer har gjorts mer motståndskraftiga mot "
-"fel genom att inte spara partiella filer"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:30
-msgid "HiDPI support improvements"
-msgstr "Förbättringar för HiDPI-stöd"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:31
-msgid "New preference to choose the default export file type"
-msgstr "Ny inställning för att välja standardfiltypen för export"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:32
-msgid ""
-"New option to export PNG, JPEG and TIFF with a color profile; always export "
-"PSD with a color profile"
-msgstr ""
-"Nytt alternativ för att exportera PNG, JPEG och TIFF med en färgprofil; "
-"exportera alltid PSD med en färgprofil"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:33
-msgid "New DDS format loading/exporting plug-in"
-msgstr "Ny insticksmodul för inläsning/export av DDS-formatet"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:34
-msgid ""
-"Full rewrite of the Spyrogimp plug-in with more options and better "
-"interaction"
-msgstr ""
-"Fullständig omskrivning av insticksmodulen Spirogimp med fler alternativ och "
-"bättre interaktion"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:35
-msgid ""
-"Glimpse 2.10.8 is mostly a bug fix and optimization release. In particular, it "
-"includes:"
-msgstr ""
-"Glimpse 2.10.8 är mestadels en utgåva med felfixar och optimering. Främst "
-"inkluderar den:"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:36
-msgid ""
-"Adaptative chunk size when rendering projections, improving responsiveness "
-"dynamically"
-msgstr ""
-"Adaptativ styckesstorlek vid rendering av projektioner, förbättrar svarstid "
-"dynamiskt"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:37
-msgid "Detection of RawTherapee (version 5.5 and above) improved on Windows"
-msgstr ""
-"Upptäckt av RawTherapee (version 5.5 och högre) har förbättrats på Windows"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:38
-msgid ""
-"XCF compatibility information in the Save dialog more understandable and "
-"discoverable"
-msgstr ""
-"XCF-kompatibilitetsinformation i Spara-dialogen är mer lätt att upptäcka och "
-"förstå"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:39
-msgid ""
-"Various performance log tools added and log recording made available in the "
-"Dashboard dock"
-msgstr ""
-"Diverse verktyg för prestandaloggar och logginspelning har gjorts "
-"tillgängliga via paneldockan"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:40
-msgid ""
-"Glimpse 2.10.6 comes with a lot of bug fixes, optimizations and features. Most "
-"notable changes are:"
-msgstr ""
-"Glimpse 2.10.6 kommer med många felfixar, optimeringar samt nya funktioner. De "
-"mest framstående ändringarna är:"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:41
-msgid ""
-"Text layers can now represent vertical texts (with various character "
-"orientations and line directions)"
-msgstr ""
-"Textlager kan nu representera vertikal text (med diverse teckenorienteringar "
-"och radriktningar)"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:42
-msgid "New \"Little Planet\" (gegl:stereographic-projection) filter"
-msgstr "Nytt ”Liten planet”-filter (gegl:stereographic-projection)"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:43
-msgid "New \"Long Shadow\" filter"
-msgstr "Nytt filter ”Lång skugga”"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:44
-msgid ""
-"The \"Straighten\" option of the Measure Tool now allows vertical "
-"straightening"
-msgstr ""
-"Alternativet ”Räta ut” för mätningsverktyget möjliggör nu vertikal uträtning"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:45
-msgid ""
-"Drawable previews are now rendered asynchronously and layer group previews "
-"can be disabled in Preferences"
-msgstr ""
-"Förhandsvisningar för ritytor renderas nu asynkront och förhandsvisningar "
-"för lagergrupper kan inaktiveras i Inställningar"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:46
-msgid ""
-"New \"async\" field in the Dashboard \"misc\" group, showing the number of "
-"async operations currently running"
-msgstr ""
-"Ett nytt ”Asynkront”-fält i panelens ”Diverse”-grupp som visar antalet "
-"asynkrona operationer som för närvarande körs"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:47
-msgid "File format filtering in Open/Save/Export dialogs made less confusing"
-msgstr ""
-"Filformatfiltrering i dialogerna för Öppna/Spara/Exportera har gjorts mindre "
-"förvirrande"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:48
-msgid "New language (having Glimpse translated in 81 languages now): Marathi"
-msgstr "Nytt språk (med Glimpse nu översatt till 81 språk): Marathi"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:49
-msgid ""
-"Glimpse 2.10.4 includes a lot of bug fixes as well as various optimizations. "
-"Most notable changes are:"
-msgstr ""
-"Glimpse 2.10.4 inkluderar många felfixar så väl som diverse optimeringar. De "
-"mest framstående ändringarna är:"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:50
-msgid ""
-"Straightening in Measurement tool: layers can be rotated using the "
-"measurement line as horizon"
-msgstr ""
-"Uträtning i mätningsverktyget: lager kan roteras med måttlinjen som horisont"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:51
-msgid "Fast startup: fonts loading is not blocking startup anymore"
-msgstr "Snabb uppstart: inläsning av typsnitt blockerar inte längre uppstart"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:52
-msgid ""
-"Fonts Tagging with the same user interface as for brushes, patterns, and "
-"gradients"
-msgstr ""
-"Typsnittstaggning med samma användargränssnitt som för penslar, mönster och "
-"gradienter"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:53
-msgid "PSD support: a pre-composited version of a PSD image can be imported"
-msgstr "PSD-stöd: en försammanfogad version av en PSD-bild kan importeras"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:54
-msgid ""
-"Dashboard update: new \"Memory\" group and improved \"Swap\" group showing "
-"various metrics"
-msgstr ""
-"Paneluppdatering: en ny ”Minnes”-grupp och en förbättrad ”Växlings”-grupp "
-"som visar diverse mätvärden"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:55
-msgid ""
-"This second release in the Glimpse 2.10 series, so soon after 2.10.0, is mostly "
-"the usual bug-fixing version after a major release, with a few dozen bugs "
-"fixed."
-msgstr ""
-"Denna andra utgåva i Glimpse 2.10-serien, så snart efter 2.10.0, är mestadels "
-"den vanliga felfixversionen efter en stor utgåva, med några få dussin fel "
-"fixade."
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:56
-msgid ""
-"It also features a new plug-in for the support of the HEIF format, both for "
-"importing and exporting, as well as 2 new filters: \"Spherize\" and "
-"\"Recursive Transform\". These are nice examples of our relaxed feature "
-"policy in stable micro releases."
-msgstr ""
-"Den har också en ny insticksmodul för stöd för HEIF-formatet, både för "
-"import och export, så väl som 2 nya filter: ”Sfär” och ”Rekursiv transform”. "
-"Dessa är bra exempel på vår lättade policy kring ny funktionalitet i stabila "
-"mikroutgåvor."
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:57
-msgid ""
-"First release of the 2.10 series which prominently features the port to a "
-"new image processing engine, GEGL. The most outstanding changes are:"
-msgstr ""
-"Den första utgåvan av 2.10-serien vilken introducerar övergången till en ny "
-"bildbehandlingsmotor, GEGL. De främsta ändringarna är:"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:58
-msgid "High bit depth color processing (16/32-bit per color channel)"
-msgstr "Färgbearbetning med högt bitdjup (16/32-bit per färgkanal)"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:59
-msgid ""
-"Color management is a core feature now, most widgets and preview areas are "
-"color-managed"
-msgstr ""
-"Färghantering är nu en kärnfunktion, de flesta komponenter och "
-"förhandsgranskningsområden är färghanterade"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:60
-msgid ""
-"On-canvas effect preview, with split view for before/after processing pixels"
-msgstr ""
-"Effektförhandsgranskning på ritytan, med delad vy för bildpunkter före/efter "
-"bearbetning"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:61
-msgid ""
-"Multi-threaded and hardware-accelerated rendering, processing and painting"
-msgstr "Flertrådad och hårdvaruaccelererad rendering, bearbetning och målning"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:62
-msgid "Most tools improved, several new transformation tools"
-msgstr "De flesta verktygen har förbättrats, flera nya transformeringsverktyg"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:63
-msgid ""
-"Improved support for many image formats, in particular better PSD importing"
-msgstr "Förbättrat stöd för många bildformat, i synnerhet bättre PSD-import"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:64
-msgid "Newly supported image formats: OpenEXR, RGBE, WebP, HGT…"
-msgstr "Nya bildformat som stöds: OpenEXR, RGBE, WebP, HGT…"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:65
-msgid ""
-"Improved digital painting: canvas rotation and flipping, symmetry painting, "
-"MyPaint brushes…"
-msgstr ""
-"Förbättrat digitalt målande: rotation och vändande av rityta, "
-"symmetrimålning, MyPaint-penslar…"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:66
-msgid "Metadata viewing and editing for Exif, XMP, IPTC, and DICOM"
-msgstr "Visning och redigering av Exif-, XMP-, IPTC- och DICOM-metadata"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:67
-msgid "Basic HiDPI support: automatically or user-selected icon size"
-msgstr "Grundläggande HiDPI-stöd: automatisk eller användarvald ikonstorlek"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:68
-msgid "New themes for Glimpse: Light, Gray, Dark, and System"
-msgstr "Nya teman för GIMP: Light, Gray, Dark och System"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:69
-msgid "And much, much more…"
-msgstr "Samt mycket mer…"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:70
-msgid ""
-"In this second release candidate before Glimpse 2.10.0, while debugging is "
-"still a prime target, a new focus has been put on speed and optimization in "
-"order to provide a smoother painting experience. Bigger changes are:"
-msgstr ""
-"I denna andra releasekandidat innan Glimpse 2.10.0 har, om än felsökning "
-"fortfarande är ett primärt mål, nytt fokus satts på hastighet och optimering "
-"för att tillhandahålla en jämnare målningsupplevelse. Större ändringar:"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:71
-msgid ""
-"Major core optimizations for painting and display, including parallelized "
-"painting code"
-msgstr ""
-"Stora kärnoptimeringar för målning och visning, inklusive parallelliserad "
-"målningskod"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:72
-msgid "Symmetries are now preserved in XCF files (saved as image parasites)"
-msgstr "Symmetrier bibehålls nu i XCF-filer (sparade som bildparasiter)"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:73
-msgid ""
-"\"Light\" and \"Dark\" themes rewritten from scratch to get rid of various "
-"usability issues. \"Lighter\" and \"Darker\" themes removed."
-msgstr ""
-"Temana ”Light” och ”Dark” är omskrivna från grunden för att komma åt diverse "
-"användbarhetsproblem. Temana ”Lighter” och ”Darker” har tagits bort."
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:74
-msgid ""
-"New GimpToolGyroscope on-canvas control, currently used for the Panorama "
-"Projection filter. The widget provides on-canvas interaction for 3D rotation "
-"(yaw, pitch, roll)."
-msgstr ""
-"Ny kontroll direkt på ritytan för GimpToolGyroscope-styrning, används för "
-"närvarande för Panoramaprojiceringsfiltret. Komponenten tillhandahåller "
-"interaktion på ritytan för 3D-rotation (gir, stigning, rullning)."
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:75
-msgid ""
-"Plug-in debugging improved to output stack traces from plug-ins with --stack-"
-"trace-mode command line option not only on receiving signals but also on "
-"warnings and critical errors when \"fatal-warnings\" debug key is set"
-msgstr ""
-"Felsökning för insticksmoduler förbättrad för att mata ut stackspår från "
-"insticksmoduler med kommandoradsflaggan --stack-trace-mode inte bara då "
-"signaler mottas utan också vid varningar och kritiska fel då "
-"felsökningsnyckeln ”fatal-warnings” har ställts in"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:76
-msgid ""
-"Glimpse 2.10.0-RC1 is the first release candidate before Glimpse 2.10.0 stable "
-"release, with a focus on debugging and stability. Other than the many bug "
-"fixes, most notable improvements are:"
-msgstr ""
-"Glimpse 2.10.0-RC1 är den första releasekandidaten före den stabila utgåvan "
-"Glimpse 2.10.0, med fokus på felsökning och stabilitet. Förutom de många "
-"felfixarna är de mest framstående förbättringarna:"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:77
-msgid "New dashboard dockable to monitor Glimpse resource usage"
-msgstr "Ny dockningsbar panel för att övervaka GIMP:s resursanvändning"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:78
-msgid ""
-"New debug dialog to produce back traces and other debug data, encouraging to "
-"report bugs"
-msgstr ""
-"En ny felsökningsdialog för att skapa stackspår och annan felsökningsdata, "
-"vilket uppmuntrar till att rapportera fel"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:79
-msgid "Unsaved images can now be recovered after a crash"
-msgstr "Osparade bilder kan nu återskapas efter en krasch"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:80
-msgid "Layer masks on layer groups"
-msgstr "Lagermasker på lagergrupper"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:81
-msgid "JPEG 2000 support improved for high bit depth and various color spaces"
-msgstr "JPEG 2000-stöd förbättrat för högt bitdjup och diverse färgrymder"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:82
-msgid "Screenshot and color picking improved on various platforms"
-msgstr "Skärmbilder och färgval förbättrat på diverse plattformar"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:83
-msgid "Metadata defaults preferences now available"
-msgstr "Inställningar för metadatastandardvärden finns nu tillgängliga"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:84
-msgid "Various GUI polishing"
-msgstr "Diverse polering av det grafiska användargränssnittet"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:85
-msgid ""
-"Glimpse 2.9.8 introduces on-canvas gradient editing and various enhancements "
-"while focusing on bugfixing and stability."
-msgstr ""
-"Glimpse 2.9.8 introducerar redigering av toningar på ritytan och diverse "
-"förbättringar men fokus ligger på felfixar och stabilitet."
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:86
-msgid "On-canvas gradient editing"
-msgstr "Gradientredigerare på ritytan"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:87
-msgid "Notification when an image is over/underexposed"
-msgstr "Avisering när en bild är över-/underexponerad"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:88
-msgid "Better and faster color management"
-msgstr "Bättre och snabbare färghantering"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:89
-msgid "Support for color picker and screenshots in Wayland on KDE Plasma"
-msgstr "Stöd för färgväljare och skärmbilder i Wayland på KDE Plasma"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:90
-msgid "Paste in place feature"
-msgstr "Klistra in i på plats-funktion"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:91
-msgid "Many usability improvements"
-msgstr "Många förbättringar vad gäller användbarhet"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:92
-msgid "Manual can be displayed in the user's preferred language"
-msgstr "Handboken kan visas i det språk som användaren föredrar"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:93
-msgid "Improvements for the Wavelet Decompose filter"
-msgstr "Förbättringar för filtret Wavelet-separera"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:94
-msgid "Improved compatibility with Photoshop .psd files"
-msgstr "Förbättrad kompatibilitet med Photoshops .psd-filer"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:95
-msgid "New support for password-protected PDF"
-msgstr "Nytt stöd för lösenordsskyddad PDF"
-
-#: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:96
-msgid "New support for HGT format (Digital Elevation Model data)"
-msgstr "Nytt stöd för HGT-format (Digital Elevation Model-data)"
-
-#: ../desktop/gimp-data-extras.metainfo.xml.in.in.h:1
+#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
 msgid "Extra files for Glimpse"
 msgstr "Extrafiler för GIMP"
 
-#: ../desktop/gimp-data-extras.metainfo.xml.in.in.h:2
+#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
 msgid "Patterns, gradients, and other extra files for Glimpse"
 msgstr "Mönster, toningar och andra extrafiler för GIMP"
 
-#: ../desktop/gimp.desktop.in.in.h:2
+#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
+#, fuzzy
+msgid "Glimpse Image Editor"
+msgstr "GIMP-textredigerare"
+
+#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 msgid "Image Editor"
 msgstr "Bildredigerare"
 
+#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:3
+#, fuzzy
+msgid "Create and edit images"
+msgstr "Skapa en ny bild"
+
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: ../desktop/gimp.desktop.in.in.h:5
-msgid "Glimpse;graphic;design;illustration;painting;"
+#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:5
+#, fuzzy
+msgid "graphic;design;illustration;painting;photography;gimp"
 msgstr "Glimpse;grafik;design;illustrera;målning;rita;"
 
-#: ../app/about.h:23
-msgid "GIMP"
-msgstr "GIMP"
+#: ../app/about.h:25
+#, fuzzy
+msgid "A Free and Open Source image editor"
+msgstr "Ställ in en källbild först."
 
 #. The year of the last commit (UTC) will be inserted into this string.
-#: ../app/about.h:30
-#, c-format
+#: ../app/about.h:29
 msgid ""
-"Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis and the Glimpse Development Team"
+"Copyright © 2019 Glimpse Contributors\n"
+"Based on GNU Image Manipulation Program "
 msgstr ""
-"Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis och GIMP:s utvecklingsteam"
 
 #. TRANSLATORS: do not end the license URL with a dot, because it would
 #. * be in the link. Because of technical limitations, make sure the URL
@@ -664,8 +147,8 @@ msgstr ""
 "under villkoren i GNU General Public License, publicerad av Free Software "
 "Foundation, antingen version 3 eller (om du så vill) någon senare version.\n"
 "\n"
-"Glimpse distribueras i hopp om att det ska vara användbart, men UTAN NÅGON SOM "
-"HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller "
+"Glimpse distribueras i hopp om att det ska vara användbart, men UTAN NÅGON "
+"SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller "
 "LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public License för "
 "ytterligare information.\n"
 "\n"
@@ -695,7 +178,8 @@ msgid "Be more verbose"
 msgstr "Var mer informativ"
 
 #: ../app/main.c:173
-msgid "Start a new Glimpse instance"
+#, fuzzy
+msgid "Start a new GIMP instance"
 msgstr "Starta en ny instans av GIMP"
 
 #: ../app/main.c:178
@@ -719,7 +203,8 @@ msgid "Do not show a splash screen"
 msgstr "Visa inte en startbild"
 
 #: ../app/main.c:203
-msgid "Do not use shared memory between Glimpse and plug-ins"
+#, fuzzy
+msgid "Do not use shared memory between GIMP and plug-ins"
 msgstr "Använd inte delat minne mellan Glimpse och insticksmoduler"
 
 #: ../app/main.c:208
@@ -797,11 +282,13 @@ msgstr ""
 "Kontrollera att det finns en korrekt konfiguration för din displaymiljö."
 
 #: ../app/main.c:510
-msgid "Another Glimpse instance is already running."
+#, fuzzy
+msgid "Another GIMP instance is already running."
 msgstr "En annan instans av Glimpse körs redan."
 
 #: ../app/main.c:601
-msgid "Glimpse output. Type any character to close this window."
+#, fuzzy
+msgid "GIMP output. Type any character to close this window."
 msgstr "GIMP-utdata. Tryck på en tangent för att stänga fönstret."
 
 #: ../app/main.c:602
@@ -810,7 +297,8 @@ msgid "(Type any character to close this window)\n"
 msgstr "(Tryck på en tangent för att stänga fönstret)\n"
 
 #: ../app/main.c:619
-msgid "Glimpse output. You can minimize this window, but don't close it."
+#, fuzzy
+msgid "GIMP output. You can minimize this window, but don't close it."
 msgstr "GIMP-utdata. Du kan minimera det här fönstret men stäng det inte."
 
 #: ../app/sanity.c:562
@@ -825,9 +313,9 @@ msgstr ""
 "Kontrollera värdet på miljövariabeln G_FILENAME_ENCODING."
 
 #: ../app/sanity.c:581
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"The name of the directory holding the Glimpse user configuration cannot be "
+"The name of the directory holding the GIMP user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -845,9 +333,9 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "Penselredigerare"
 
-#. initialize the list of Glimpse brushes
+#. initialize the list of gimp brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
-#: ../app/dialogs/dialogs.c:336 ../app/dialogs/preferences-dialog.c:3169
+#: ../app/dialogs/dialogs.c:336 ../app/dialogs/preferences-dialog.c:3165
 msgid "Brushes"
 msgstr "Penslar"
 
@@ -928,9 +416,9 @@ msgstr "Fil"
 msgid "Filters"
 msgstr "Filter"
 
-#. initialize the list of Glimpse fonts
+#. initialize the list of gimp fonts
 #: ../app/actions/actions.c:171 ../app/core/gimp-data-factories.c:383
-#: ../app/dialogs/dialogs.c:354 ../app/dialogs/preferences-dialog.c:3199
+#: ../app/dialogs/dialogs.c:354 ../app/dialogs/preferences-dialog.c:3195
 msgid "Fonts"
 msgstr "Typsnitt"
 
@@ -939,14 +427,14 @@ msgstr "Typsnitt"
 msgid "Gradient Editor"
 msgstr "Gradientredigerare"
 
-#. initialize the list of Glimpse gradients
+#. initialize the list of gimp gradients
 #: ../app/actions/actions.c:177 ../app/core/gimp-data-factories.c:374
-#: ../app/dialogs/dialogs.c:348 ../app/dialogs/preferences-dialog.c:3193
+#: ../app/dialogs/dialogs.c:348 ../app/dialogs/preferences-dialog.c:3189
 msgid "Gradients"
 msgstr "Gradienter"
 
 #: ../app/actions/actions.c:180 ../app/core/gimp-data-factories.c:390
-#: ../app/dialogs/dialogs.c:360 ../app/dialogs/preferences-dialog.c:3205
+#: ../app/dialogs/dialogs.c:360 ../app/dialogs/preferences-dialog.c:3201
 msgid "Tool Presets"
 msgstr "Verktygsförinställning"
 
@@ -975,7 +463,7 @@ msgstr "Lager"
 
 #. initialize the list of mypaint brushes
 #: ../app/actions/actions.c:198 ../app/core/gimp-data-factories.c:359
-#: ../app/dialogs/dialogs.c:342 ../app/dialogs/preferences-dialog.c:3211
+#: ../app/dialogs/dialogs.c:342 ../app/dialogs/preferences-dialog.c:3207
 msgid "MyPaint Brushes"
 msgstr "MyPaint-penslar"
 
@@ -984,19 +472,19 @@ msgstr "MyPaint-penslar"
 msgid "Palette Editor"
 msgstr "Palettredigerare"
 
-#. initialize the list of Glimpse palettes
+#. initialize the list of gimp palettes
 #: ../app/actions/actions.c:204 ../app/core/gimp-data-factories.c:369
-#: ../app/dialogs/dialogs.c:351 ../app/dialogs/preferences-dialog.c:3187
+#: ../app/dialogs/dialogs.c:351 ../app/dialogs/preferences-dialog.c:3183
 msgid "Palettes"
 msgstr "Paletter"
 
-#. initialize the list of Glimpse patterns
+#. initialize the list of gimp patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
-#: ../app/dialogs/dialogs.c:345 ../app/dialogs/preferences-dialog.c:3181
+#: ../app/dialogs/dialogs.c:345 ../app/dialogs/preferences-dialog.c:3177
 msgid "Patterns"
 msgstr "Mönster"
 
-#: ../app/actions/actions.c:210 ../app/dialogs/preferences-dialog.c:3217
+#: ../app/actions/actions.c:210 ../app/dialogs/preferences-dialog.c:3213
 msgid "Plug-ins"
 msgstr "Insticksmoduler"
 
@@ -3069,7 +2557,7 @@ msgstr "Ange en beskrivning för markören"
 #: ../app/dialogs/file-open-location-dialog.c:223
 #: ../app/dialogs/file-open-location-dialog.c:239
 #: ../app/display/gimpdisplayshell-dnd.c:628
-#: ../app/widgets/gimplayertreeview.c:770 ../app/widgets/gimptoolbox.c:801
+#: ../app/widgets/gimplayertreeview.c:770 ../app/widgets/gimptoolbox.c:798
 #: ../app/widgets/gimptoolbox-dnd.c:170
 #, c-format
 msgid ""
@@ -3497,7 +2985,7 @@ msgstr "Sök kommandon efter nyckelord och kör dem"
 
 #: ../app/actions/dialogs-actions.c:357
 #: ../app/dialogs/preferences-dialog.c:2094
-#: ../app/dialogs/preferences-dialog.c:2095 ../app/widgets/gimptoolbox.c:525
+#: ../app/dialogs/preferences-dialog.c:2095 ../app/widgets/gimptoolbox.c:524
 msgid "Toolbox"
 msgstr "Verktygslåda"
 
@@ -10872,11 +10360,11 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:256
 msgid ""
-"Glimpse will warn the user if an attempt is made to create an image that would "
-"take more memory than the size specified here."
+"Glimpse will warn the user if an attempt is made to create an image that "
+"would take more memory than the size specified here."
 msgstr ""
-"Glimpse kommer varna användaren vid försök att skapa en bild som skulle kräva "
-"mer minne än det som angivits här."
+"Glimpse kommer varna användaren vid försök att skapa en bild som skulle "
+"kräva mer minne än det som angivits här."
 
 #: ../app/config/gimprc-blurbs.h:266
 msgid ""
@@ -10914,15 +10402,16 @@ msgstr ""
 "hörnet av bildfönstret."
 
 #: ../app/config/gimprc-blurbs.h:289
-msgid "Sets how many threads Glimpse should use for operations that support it."
+msgid ""
+"Sets how many threads Glimpse should use for operations that support it."
 msgstr ""
-"Ställer in hur många trådar som Glimpse ska använda för åtgärder som har stöd "
-"för det."
+"Ställer in hur många trådar som Glimpse ska använda för åtgärder som har "
+"stöd för det."
 
 #: ../app/config/gimprc-blurbs.h:311
 msgid ""
-"Sets whether Glimpse should create previews of layers and channels. Previews in "
-"the layers and channels dialog are nice to have but they can slow things "
+"Sets whether Glimpse should create previews of layers and channels. Previews "
+"in the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr ""
 "Ställer in om Glimpse ska skapa förhandsvisningar av lager och kanaler. "
@@ -10975,11 +10464,12 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:340
 msgid ""
-"When enabled, Glimpse will try to restore windows on the monitor they were open "
-"before.  When disabled, windows will appear on the currently used monitor."
+"When enabled, Glimpse will try to restore windows on the monitor they were "
+"open before.  When disabled, windows will appear on the currently used "
+"monitor."
 msgstr ""
-"När aktiverat kommer Glimpse att försöka återställa fönster på skärmen där de "
-"tidigare öppnades. När inaktiverat kommer fönster att dyka upp på den för "
+"När aktiverat kommer Glimpse att försöka återställa fönster på skärmen där "
+"de tidigare öppnades. När inaktiverat kommer fönster att dyka upp på den för "
 "närvarande använda skärmen."
 
 #: ../app/config/gimprc-blurbs.h:345
@@ -11116,7 +10606,8 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr "Visa ett verktygstips när muspekaren befinner sig över ett objekt."
 
 #: ../app/config/gimprc-blurbs.h:419
-msgid "Use Glimpse in a single-window mode."
+#, fuzzy
+msgid "Use GIMP in a single-window mode."
 msgstr "Kör Glimpse i ett enda programfönster."
 
 #: ../app/config/gimprc-blurbs.h:422
@@ -11155,10 +10646,10 @@ msgstr "Vad som ska göras när blankstegstangenten används i bildfönstret."
 msgid ""
 "Sets the swap file location. Glimpse uses a tile based memory allocation "
 "scheme. The swap file is used to quickly and easily swap tiles out to disk "
-"and back in. Be aware that the swap file can easily get very large if Glimpse "
-"is used with large images. Also, things can get horribly slow if the swap "
-"file is created on a folder that is mounted over NFS.  For these reasons, it "
-"may be desirable to put your swap file in \"/tmp\"."
+"and back in. Be aware that the swap file can easily get very large if "
+"Glimpse is used with large images. Also, things can get horribly slow if the "
+"swap file is created on a folder that is mounted over NFS.  For these "
+"reasons, it may be desirable to put your swap file in \"/tmp\"."
 msgstr ""
 "Ställer in platsen för växlingsfilen. Glimpse använder en plattbaserad "
 "minnesallokeringsmetod. Växlingsfilen används för att snabbt och enkelt "
@@ -11191,14 +10682,14 @@ msgstr "Återställ sparade tangentbordsgenvägar varje gång Glimpse startar."
 #: ../app/config/gimprc-blurbs.h:468
 msgid ""
 "Sets the folder for temporary storage. Files will appear here during the "
-"course of running Glimpse.  Most files will disappear when Glimpse exits, but some "
-"files are likely to remain, so it is best if this folder not be one that is "
-"shared by other users."
+"course of running Glimpse.  Most files will disappear when Glimpse exits, "
+"but some files are likely to remain, so it is best if this folder not be one "
+"that is shared by other users."
 msgstr ""
 "Ställer in katalogen för temporär lagring. Filer dyker upp här under tiden "
-"man använder GIMP. De flesta filerna försvinner igen när Glimpse avslutas, men "
-"vissa filer kan komma att finnas kvar så det är bäst om katalogen inte delas "
-"med andra användare."
+"man använder GIMP. De flesta filerna försvinner igen när Glimpse avslutas, "
+"men vissa filer kan komma att finnas kvar så det är bäst om katalogen inte "
+"delas med andra användare."
 
 #: ../app/config/gimprc-blurbs.h:474
 msgid "The name of the theme to use."
@@ -11455,10 +10946,11 @@ msgid ""
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
 msgstr ""
-"När mängden bildpunktsdata överstiger den här gränsen kommer Glimpse att börja "
-"skriva ut plattor till disk. Det här är mycket långsammare men det gör det "
-"möjligt att arbeta på bilder som annars inte skulle få plats i minnet. Om du "
-"har mycket RAM-minne kanske du vill ställa in det här till ett högre värde."
+"När mängden bildpunktsdata överstiger den här gränsen kommer Glimpse att "
+"börja skriva ut plattor till disk. Det här är mycket långsammare men det gör "
+"det möjligt att arbeta på bilder som annars inte skulle få plats i minnet. "
+"Om du har mycket RAM-minne kanske du vill ställa in det här till ett högre "
+"värde."
 
 #: ../app/config/gimprc-blurbs.h:637
 msgid "Show the current foreground and background colors in the toolbox."
@@ -11483,11 +10975,11 @@ msgstr "Ställer in storleken på schackrutorna som används för transparens."
 
 #: ../app/config/gimprc-blurbs.h:655
 msgid ""
-"When enabled, Glimpse will not save an image if it has not been changed since "
-"it was opened."
+"When enabled, Glimpse will not save an image if it has not been changed "
+"since it was opened."
 msgstr ""
-"När aktiverad kommer Glimpse inte att spara en bild om den inte ändrats sedan "
-"den öppnades."
+"När aktiverad kommer Glimpse inte att spara en bild om den inte ändrats "
+"sedan den öppnades."
 
 #: ../app/config/gimprc-blurbs.h:659
 msgid ""
@@ -12457,7 +11949,7 @@ msgid "Parasites"
 msgstr "Parasiter"
 
 #. initialize the module list
-#: ../app/core/gimp.c:797 ../app/dialogs/preferences-dialog.c:3229
+#: ../app/core/gimp.c:797 ../app/dialogs/preferences-dialog.c:3225
 msgid "Modules"
 msgstr "Moduler"
 
@@ -12478,9 +11970,9 @@ msgstr "Satstolken ”%s” är inte tillgänglig. Satsläge inaktiverat."
 msgid "Deleting \"%s\" failed: %s"
 msgstr "Ta bort ”%s” misslyckades: %s"
 
-#. initialize the list of Glimpse dynamics
+#. initialize the list of gimp dynamics
 #: ../app/core/gimp-data-factories.c:354 ../app/core/gimpcontext.c:722
-#: ../app/dialogs/preferences-dialog.c:3175
+#: ../app/dialogs/preferences-dialog.c:3171
 #: ../app/tools/gimppaintoptions-gui.c:221
 msgid "Dynamics"
 msgstr "Dynamik"
@@ -12533,7 +12025,7 @@ msgstr "FG till BG (NMI medurs-nyans)"
 msgid "FG to Transparent"
 msgstr "FG till Transparent"
 
-#. Translator:  This message is displayed while Glimpse is waiting for
+#. Translator:  This message is displayed while GIMP is waiting for
 #. * some operation to finish.  The %s argument is a message describing
 #. * the operation.
 #.
@@ -12581,8 +12073,8 @@ msgstr "Fel vid stängning av ”%s”: %s"
 #: ../app/core/gimp-user-install.c:215
 #, c-format
 msgid ""
-"It seems you have used Glimpse %s before.  Glimpse will now migrate your user "
-"settings to '%s'."
+"It seems you have used Glimpse %s before.  Glimpse will now migrate your "
+"user settings to '%s'."
 msgstr ""
 "Det verkar som om du har använt GIMP %s tidigare.  Glimpse kommer nu att "
 "migrera dina användarinställningar till ”%s”."
@@ -12590,11 +12082,11 @@ msgstr ""
 #: ../app/core/gimp-user-install.c:220
 #, c-format
 msgid ""
-"It appears that you are using Glimpse for the first time.  Glimpse will now create "
-"a folder named '%s' and copy some files to it."
+"It appears that you are using Glimpse for the first time.  Glimpse will now "
+"create a folder named '%s' and copy some files to it."
 msgstr ""
-"Det verkar som om du använder Glimpse för första gången.  Glimpse kommer nu att "
-"skapa en mapp med namnet ”%s” och kopiera några filer dit."
+"Det verkar som om du använder Glimpse för första gången.  Glimpse kommer nu "
+"att skapa en mapp med namnet ”%s” och kopiera några filer dit."
 
 #: ../app/core/gimp-user-install.c:419
 #, c-format
@@ -12668,11 +12160,11 @@ msgid "Unnamed"
 msgstr "Namnlös"
 
 #: ../app/core/gimpbrush-load.c:442
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"Glimpse brushes must be GRAY or RGBA."
+"GIMP brushes must be GRAY or RGBA."
 msgstr ""
 "Ödesdigert tolkningsfel i penselfil:\n"
 "Penseldjupet %d stöds inte.\n"
@@ -12736,18 +12228,18 @@ msgid "Clipboard Image"
 msgstr "Urklippsbild"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
-#, c-format
-msgid "Not a Glimpse brush file."
+#, fuzzy, c-format
+msgid "Not a GIMP brush file."
 msgstr "Inte en GIMP-penselfil."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
-#, c-format
-msgid "Unknown Glimpse brush version."
+#, fuzzy, c-format
+msgid "Unknown GIMP brush version."
 msgstr "Okänd version av GIMP-pensel."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
-#, c-format
-msgid "Unknown Glimpse brush shape."
+#, fuzzy, c-format
+msgid "Unknown GIMP brush shape."
 msgstr "Okänd form av GIMP-pensel."
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -13153,7 +12645,7 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../app/core/gimpdrawable.c:528 ../app/tools/gimpscaletool.c:121
+#: ../app/core/gimpdrawable.c:531 ../app/tools/gimpscaletool.c:121
 msgctxt "undo-type"
 msgid "Scale"
 msgstr "Skala"
@@ -13256,7 +12748,6 @@ msgstr "Fjädringskanter"
 
 #: ../app/core/gimpfilloptions.c:124 ../app/tools/gimpbucketfilloptions.c:160
 #, fuzzy
-#| msgid "Enable feathering of selection edges"
 msgid "Enable feathering of fill edges"
 msgstr "Aktivera ludd längs markeringens kanter"
 
@@ -13303,8 +12794,8 @@ msgid "Fill with Solid Color"
 msgstr "Fyll med en enda färg"
 
 #: ../app/core/gimpgradient-load.c:73
-#, c-format
-msgid "Not a Glimpse gradient file."
+#, fuzzy, c-format
+msgid "Not a GIMP gradient file."
 msgstr "Inte en GIMP-gradientfil."
 
 #: ../app/core/gimpgradient-load.c:96
@@ -13402,41 +12893,41 @@ msgstr "Vertikal början på första linjen; detta kan vara negativt."
 msgid "Offset unit"
 msgstr "Positionsenhet"
 
-#: ../app/core/gimpgrouplayer.c:278
+#: ../app/core/gimpgrouplayer.c:279
 msgid "Layer Group"
 msgstr "Lagergrupp"
 
-#: ../app/core/gimpgrouplayer.c:279
+#: ../app/core/gimpgrouplayer.c:280
 msgctxt "undo-type"
 msgid "Rename Layer Group"
 msgstr "Byt namn på lagergrupp"
 
-#: ../app/core/gimpgrouplayer.c:280
+#: ../app/core/gimpgrouplayer.c:281
 msgctxt "undo-type"
 msgid "Move Layer Group"
 msgstr "Flytta lagergrupp"
 
-#: ../app/core/gimpgrouplayer.c:281
+#: ../app/core/gimpgrouplayer.c:282
 msgctxt "undo-type"
 msgid "Scale Layer Group"
 msgstr "Skala lagergrupp"
 
-#: ../app/core/gimpgrouplayer.c:282
+#: ../app/core/gimpgrouplayer.c:283
 msgctxt "undo-type"
 msgid "Resize Layer Group"
 msgstr "Ändra storlek på lagergrupp"
 
-#: ../app/core/gimpgrouplayer.c:283
+#: ../app/core/gimpgrouplayer.c:284
 msgctxt "undo-type"
 msgid "Flip Layer Group"
 msgstr "Vänd lagergrupp"
 
-#: ../app/core/gimpgrouplayer.c:284
+#: ../app/core/gimpgrouplayer.c:285
 msgctxt "undo-type"
 msgid "Rotate Layer Group"
 msgstr "Rotera lagergrupp"
 
-#: ../app/core/gimpgrouplayer.c:285
+#: ../app/core/gimpgrouplayer.c:286
 msgctxt "undo-type"
 msgid "Transform Layer Group"
 msgstr "Transformera lagergrupp"
@@ -14254,10 +13745,10 @@ msgid "Unknown pattern format version %d."
 msgstr "Okänd version %d av mönsterformat."
 
 #: ../app/core/gimppattern-load.c:87
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"Glimpse Patterns must be GRAY or RGB."
+"GIMP Patterns must be GRAY or RGB."
 msgstr ""
 "Mönsterdjupet %d stöds inte.\n"
 "GIMP-mönster måste vara GRÅ eller RGB."
@@ -14738,7 +14229,7 @@ msgstr "Besök webbplatsen för GIMP"
 
 #. Translators: insert your names here,
 #. separated by newline
-#: ../app/dialogs/about-dialog.c:130
+#: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
 "Daniel Nylander <po@danielnylander.se>\n"
@@ -14752,11 +14243,11 @@ msgstr ""
 "Skicka synpunkter på översättningen till\n"
 "<tp-sv@listor.tp-sv.se>."
 
-#: ../app/dialogs/about-dialog.c:529
+#: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"
 msgstr "Glimpse presenteras av"
 
-#: ../app/dialogs/about-dialog.c:605
+#: ../app/dialogs/about-dialog.c:606
 #, c-format
 msgid ""
 "This is an unstable development release\n"
@@ -14946,7 +14437,7 @@ msgid "Enable dithering of _transparency"
 msgstr "Aktivera färgutjämning av _transparens"
 
 #: ../app/dialogs/convert-indexed-dialog.c:280
-#: ../app/dialogs/preferences-dialog.c:2238
+#: ../app/dialogs/preferences-dialog.c:2234
 msgid "Enable dithering of text layers"
 msgstr "Aktivera färgutjämning för textlager"
 
@@ -15108,9 +14599,10 @@ msgid "The given filename cannot be used for exporting"
 msgstr "Det angivna filnamnet kan inte användas för att exportera"
 
 #: ../app/dialogs/file-save-dialog.c:619
+#, fuzzy
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the Glimpse XCF format, use File→Save instead."
+"save the image to the GIMP XCF format, use File→Save instead."
 msgstr ""
 "Du kan använda denna dialogruta för att exportera till olika filformat. Om "
 "du vill spara bilden till formatet Glimpse XCF, använd istället Arkiv→Spara."
@@ -15124,12 +14616,13 @@ msgid "The given filename cannot be used for saving"
 msgstr "Det angivna filnamnet kan inte användas för att spara"
 
 #: ../app/dialogs/file-save-dialog.c:627
+#, fuzzy
 msgid ""
-"You can use this dialog to save to the Glimpse XCF format. Use File→Export to "
+"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
 "export to other file formats."
 msgstr ""
-"Du kan använda denna dialogruta för att spara till formatet Glimpse XCF. Använd "
-"Arkiv→Exportera för att exportera till andra filformat."
+"Du kan använda denna dialogruta för att spara till formatet Glimpse XCF. "
+"Använd Arkiv→Exportera för att exportera till andra filformat."
 
 #: ../app/dialogs/file-save-dialog.c:629
 msgid "Take me to the Export dialog"
@@ -15486,6 +14979,7 @@ msgid "_Refresh"
 msgstr "_Uppdatera"
 
 #: ../app/dialogs/module-dialog.c:153
+#, fuzzy
 msgid "You will have to restart Glimpse for the changes to take effect."
 msgstr "Du måste starta om Glimpse för att ändringarna ska aktiveras."
 
@@ -15608,10 +15102,12 @@ msgid "Do you really want to reset all preferences to default values?"
 msgstr "Vill du verkligen återställa alla inställningar till standardvärden?"
 
 #: ../app/dialogs/preferences-dialog.c:381
-msgid "You will have to restart Glimpse for the following changes to take effect:"
+#, fuzzy
+msgid "You will have to restart GIMP for the following changes to take effect:"
 msgstr "Du måste starta om Glimpse för att följande ändringar ska ha effekt:"
 
 #: ../app/dialogs/preferences-dialog.c:647
+#, fuzzy
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
 "start Glimpse."
@@ -15628,14 +15124,16 @@ msgid "Do you really want to remove all keyboard shortcuts from all menus?"
 msgstr "Vill du verkligen ta bort alla tangentbordsgenvägar från alla menyer?"
 
 #: ../app/dialogs/preferences-dialog.c:721
+#, fuzzy
 msgid ""
 "Your window setup will be reset to default values the next time you start "
-"GIMP."
+"Glimpse."
 msgstr ""
 "Din fönsteruppställning kommer återställas till standardvärden nästa gång du "
 "startar GIMP."
 
 #: ../app/dialogs/preferences-dialog.c:756
+#, fuzzy
 msgid ""
 "Your input device settings will be reset to default values the next time you "
 "start Glimpse."
@@ -15644,20 +15142,21 @@ msgstr ""
 "standardvärden nästa gång du startar GIMP."
 
 #: ../app/dialogs/preferences-dialog.c:798
+#, fuzzy
 msgid ""
 "Your tool options will be reset to default values the next time you start "
-"GIMP."
+"Glimpse."
 msgstr ""
 "Dina verktygsalternativ kommer att återställas till standardvärden nästa "
 "gång du startar GIMP."
 
 #: ../app/dialogs/preferences-dialog.c:850
-#: ../app/dialogs/preferences-dialog.c:2527
+#: ../app/dialogs/preferences-dialog.c:2523
 msgid "There's a local installation of the user manual."
 msgstr "Det finns en lokal installation av användarhandboken."
 
 #: ../app/dialogs/preferences-dialog.c:855
-#: ../app/dialogs/preferences-dialog.c:2533
+#: ../app/dialogs/preferences-dialog.c:2529
 msgid "The user manual is not installed locally."
 msgstr "Användarhandboken är inte lokalt installerad."
 
@@ -15788,7 +15287,6 @@ msgstr "Maximal _filstorlek för miniatyrbilder:"
 msgid "Keep record of used files in the Recent Documents list"
 msgstr "Håll information om använda filer i Senaste dokument-listan"
 
-#. TODO: icon needed.
 #: ../app/dialogs/preferences-dialog.c:1237
 #: ../app/dialogs/preferences-dialog.c:1238
 msgid "Debugging"
@@ -15951,12 +15449,12 @@ msgstr "Beteende för filöppning:"
 
 #. Filter Dialogs
 #: ../app/dialogs/preferences-dialog.c:1467
-#: ../app/dialogs/preferences-dialog.c:2242
+#: ../app/dialogs/preferences-dialog.c:2238
 msgid "Filter Dialogs"
 msgstr "Filterdialoger"
 
 #: ../app/dialogs/preferences-dialog.c:1471
-#: ../app/dialogs/preferences-dialog.c:2254
+#: ../app/dialogs/preferences-dialog.c:2250
 msgid "Show advanced color options"
 msgstr "Visa avancerade färgalternativ"
 
@@ -15983,7 +15481,7 @@ msgid "Add an alpha channel to imported images"
 msgstr "Lägg till en alfakanal till importerade bilder"
 
 #: ../app/dialogs/preferences-dialog.c:1519
-#: ../app/dialogs/preferences-dialog.c:2165
+#: ../app/dialogs/preferences-dialog.c:2161
 msgid "Color profile policy:"
 msgstr "Färgprofilpolicy:"
 
@@ -16050,9 +15548,10 @@ msgid "Playground"
 msgstr "Lekplats"
 
 #: ../app/dialogs/preferences-dialog.c:1610
+#, fuzzy
 msgid ""
-"These features are unfinished, buggy and may crash Glimpse. It is unadvised to "
-"use them unless you really know what you are doing or you intend to "
+"These features are unfinished, buggy and may crash Glimpse. It is unadvised "
+"to use them unless you really know what you are doing or you intend to "
 "contribute patches."
 msgstr ""
 "Dessa funktioner är ej färdiga, tenderar innehålla fel och kan krascha GIMP. "
@@ -16080,9 +15579,9 @@ msgstr "Verktygsalternativ"
 #. General
 #. Snapping Distance
 #: ../app/dialogs/preferences-dialog.c:1645
-#: ../app/dialogs/preferences-dialog.c:2471
-#: ../app/dialogs/preferences-dialog.c:2797
-#: ../app/dialogs/preferences-dialog.c:3028
+#: ../app/dialogs/preferences-dialog.c:2467
+#: ../app/dialogs/preferences-dialog.c:2793
+#: ../app/dialogs/preferences-dialog.c:3024
 #: ../app/widgets/gimpcontrollereditor.c:186
 msgid "General"
 msgstr "Generellt"
@@ -16245,332 +15744,328 @@ msgstr "Välj ett ikontema"
 
 #. Appearance
 #: ../app/dialogs/preferences-dialog.c:2103
-#: ../app/dialogs/preferences-dialog.c:2867 ../app/widgets/gimpgrideditor.c:134
+#: ../app/dialogs/preferences-dialog.c:2863 ../app/widgets/gimpgrideditor.c:134
 msgid "Appearance"
 msgstr "Utseende"
 
 #: ../app/dialogs/preferences-dialog.c:2107
-msgid "Show Glimpse _logo (drag-and-drop target)"
-msgstr "Visa GIMP-_logotyp (dra-och-släpp-mål)"
-
-#: ../app/dialogs/preferences-dialog.c:2111
 msgid "Show _foreground & background color"
 msgstr "Visa _förgrunds- och bakgrundsfärg"
 
-#: ../app/dialogs/preferences-dialog.c:2115
+#: ../app/dialogs/preferences-dialog.c:2111
 msgid "Show active _brush, pattern & gradient"
 msgstr "Visa aktiva _penslar, mönster och gradient"
 
-#: ../app/dialogs/preferences-dialog.c:2119
+#: ../app/dialogs/preferences-dialog.c:2115
 msgid "Show active _image"
 msgstr "Visa aktiv _bild"
 
 #. Tool Editor
-#: ../app/dialogs/preferences-dialog.c:2126
+#: ../app/dialogs/preferences-dialog.c:2122
 msgid "Tools Configuration"
 msgstr "Verktygskonfiguration"
 
-#: ../app/dialogs/preferences-dialog.c:2142
-#: ../app/dialogs/preferences-dialog.c:2143
+#: ../app/dialogs/preferences-dialog.c:2138
+#: ../app/dialogs/preferences-dialog.c:2139
 msgid "Dialog Defaults"
 msgstr "Standardval för dialoger"
 
-#: ../app/dialogs/preferences-dialog.c:2152
+#: ../app/dialogs/preferences-dialog.c:2148
 msgid "Reset Dialog Defaults"
 msgstr "Återställ standardval för dialoger"
 
 #. Color profile import dialog
-#: ../app/dialogs/preferences-dialog.c:2160
+#: ../app/dialogs/preferences-dialog.c:2156
 msgid "Color Profile Import Dialog"
 msgstr "Färgprofilsimportdialog"
 
 #. All color profile chooser dialogs
-#: ../app/dialogs/preferences-dialog.c:2169
+#: ../app/dialogs/preferences-dialog.c:2165
 msgid "Color Profile File Dialogs"
 msgstr "Färgprofilsfildialoger"
 
-#: ../app/dialogs/preferences-dialog.c:2174
+#: ../app/dialogs/preferences-dialog.c:2170
 msgid "Profile folder:"
 msgstr "Profilmapp:"
 
-#: ../app/dialogs/preferences-dialog.c:2175
+#: ../app/dialogs/preferences-dialog.c:2171
 msgid "Select Default Folder for Color Profiles"
 msgstr "Välj standardmapp för färgprofiler"
 
 #. Convert to Color Profile Dialog
-#: ../app/dialogs/preferences-dialog.c:2179
+#: ../app/dialogs/preferences-dialog.c:2175
 msgid "Convert to Color Profile Dialog"
 msgstr "Konvertera till färgprofil-dialog"
 
-#: ../app/dialogs/preferences-dialog.c:2184
+#: ../app/dialogs/preferences-dialog.c:2180
 msgid "Rendering intent:"
 msgstr "Återgivningsmetod:"
 
-#: ../app/dialogs/preferences-dialog.c:2188
+#: ../app/dialogs/preferences-dialog.c:2184
 msgid "Black point compensation"
 msgstr "Svartpunktskompensering"
 
 #. Convert Precision Dialog
-#: ../app/dialogs/preferences-dialog.c:2192
+#: ../app/dialogs/preferences-dialog.c:2188
 msgid "Precision Conversion Dialog"
 msgstr "Precisionskonverteringsdialog"
 
-#: ../app/dialogs/preferences-dialog.c:2199
+#: ../app/dialogs/preferences-dialog.c:2195
 msgid "Dither layers:"
 msgstr "Färgutjämna lager:"
 
-#: ../app/dialogs/preferences-dialog.c:2204
+#: ../app/dialogs/preferences-dialog.c:2200
 msgid "Dither text layers:"
 msgstr "Färgutjämna textlager:"
 
-#: ../app/dialogs/preferences-dialog.c:2209
+#: ../app/dialogs/preferences-dialog.c:2205
 msgid "Dither channels/masks:"
 msgstr "Färgutjämna kanaler/masker:"
 
 #. Convert Indexed Dialog
-#: ../app/dialogs/preferences-dialog.c:2213
+#: ../app/dialogs/preferences-dialog.c:2209
 msgid "Indexed Conversion Dialog"
 msgstr "Indexerad konvertering-dialog"
 
-#: ../app/dialogs/preferences-dialog.c:2218
+#: ../app/dialogs/preferences-dialog.c:2214
 msgid "Colormap:"
 msgstr "Färgkarta:"
 
-#: ../app/dialogs/preferences-dialog.c:2221
+#: ../app/dialogs/preferences-dialog.c:2217
 msgid "Maximum number of colors:"
 msgstr "Maximalt antal färger:"
 
-#: ../app/dialogs/preferences-dialog.c:2225
+#: ../app/dialogs/preferences-dialog.c:2221
 msgid "Remove unused and duplicate colors from colormap"
 msgstr "Ta bort oanvända och duplicerade färger från färgkartan"
 
-#: ../app/dialogs/preferences-dialog.c:2231
+#: ../app/dialogs/preferences-dialog.c:2227
 msgid "Color dithering:"
 msgstr "Färgutjämning:"
 
-#: ../app/dialogs/preferences-dialog.c:2235
+#: ../app/dialogs/preferences-dialog.c:2231
 msgid "Enable dithering of transparency"
 msgstr "Aktivera färgutjämning av transparens"
 
-#: ../app/dialogs/preferences-dialog.c:2247
+#: ../app/dialogs/preferences-dialog.c:2243
 msgid "Keep recent settings:"
 msgstr "Behåll senaste inställningar:"
 
-#: ../app/dialogs/preferences-dialog.c:2251
+#: ../app/dialogs/preferences-dialog.c:2247
 msgid "Default to the last used settings"
 msgstr "Använd som standard de senast använda inställningarna"
 
 #. Canvas Size Dialog
-#: ../app/dialogs/preferences-dialog.c:2258
+#: ../app/dialogs/preferences-dialog.c:2254
 msgid "Canvas Size Dialog"
 msgstr "Storlek på rityta"
 
-#: ../app/dialogs/preferences-dialog.c:2263
-#: ../app/dialogs/preferences-dialog.c:2292
+#: ../app/dialogs/preferences-dialog.c:2259
+#: ../app/dialogs/preferences-dialog.c:2288
 msgid "Fill with:"
 msgstr "Fyll med:"
 
-#: ../app/dialogs/preferences-dialog.c:2266
+#: ../app/dialogs/preferences-dialog.c:2262
 msgid "Resize layers:"
 msgstr "Ändra storlek på lager:"
 
-#: ../app/dialogs/preferences-dialog.c:2270
+#: ../app/dialogs/preferences-dialog.c:2266
 msgid "Resize text layers"
 msgstr "Ändra storlek på textlager"
 
 #. New Layer Dialog
-#: ../app/dialogs/preferences-dialog.c:2274
+#: ../app/dialogs/preferences-dialog.c:2270
 msgid "New Layer Dialog"
 msgstr "Nytt lager-dialog"
 
-#: ../app/dialogs/preferences-dialog.c:2279
+#: ../app/dialogs/preferences-dialog.c:2275
 msgid "Layer name:"
 msgstr "Lagernamn:"
 
-#: ../app/dialogs/preferences-dialog.c:2283
+#: ../app/dialogs/preferences-dialog.c:2279
 msgid "Fill type:"
 msgstr "Fyllnadstyp:"
 
 #. Layer Boundary Size Dialog
-#: ../app/dialogs/preferences-dialog.c:2287
+#: ../app/dialogs/preferences-dialog.c:2283
 msgid "Layer Boundary Size Dialog"
 msgstr "Storlek på lagergräns-dialog"
 
 #. Add Layer Mask Dialog
-#: ../app/dialogs/preferences-dialog.c:2296
+#: ../app/dialogs/preferences-dialog.c:2292
 msgid "Add Layer Mask Dialog"
 msgstr "Lägg till lagermask-dialog"
 
-#: ../app/dialogs/preferences-dialog.c:2301
+#: ../app/dialogs/preferences-dialog.c:2297
 msgid "Layer mask type:"
 msgstr "Lagrets masktyp:"
 
-#: ../app/dialogs/preferences-dialog.c:2305
+#: ../app/dialogs/preferences-dialog.c:2301
 msgid "Invert mask"
 msgstr "Invertera mask"
 
 #. Merge Layers Dialog
-#: ../app/dialogs/preferences-dialog.c:2309
+#: ../app/dialogs/preferences-dialog.c:2305
 msgid "Merge Layers Dialog"
 msgstr "Sammanfoga lager-dialog"
 
-#: ../app/dialogs/preferences-dialog.c:2316
+#: ../app/dialogs/preferences-dialog.c:2312
 msgid "Merged layer size:"
 msgstr "Storlek för sammanfogat lager:"
 
-#: ../app/dialogs/preferences-dialog.c:2320
+#: ../app/dialogs/preferences-dialog.c:2316
 msgid "Merge within active group only"
 msgstr "Sammanfoga bara inom aktiv grupp"
 
-#: ../app/dialogs/preferences-dialog.c:2323
+#: ../app/dialogs/preferences-dialog.c:2319
 msgid "Discard invisible layers"
 msgstr "Förkasta osynliga lager"
 
 #. New Channel Dialog
-#: ../app/dialogs/preferences-dialog.c:2327
+#: ../app/dialogs/preferences-dialog.c:2323
 msgid "New Channel Dialog"
 msgstr "Ny kanaldialog"
 
-#: ../app/dialogs/preferences-dialog.c:2332
+#: ../app/dialogs/preferences-dialog.c:2328
 msgid "Channel name:"
 msgstr "Kanalnamn:"
 
-#: ../app/dialogs/preferences-dialog.c:2336
+#: ../app/dialogs/preferences-dialog.c:2332
 msgid "Color and opacity:"
 msgstr "Färg och opacitet:"
 
-#: ../app/dialogs/preferences-dialog.c:2337
+#: ../app/dialogs/preferences-dialog.c:2333
 msgid "Default New Channel Color and Opacity"
 msgstr "Standardvärde för nytt kanalnamn och opacitet"
 
 #. New Path Dialog
-#: ../app/dialogs/preferences-dialog.c:2342
+#: ../app/dialogs/preferences-dialog.c:2338
 msgid "New Path Dialog"
 msgstr "Ny bandialog"
 
-#: ../app/dialogs/preferences-dialog.c:2347
+#: ../app/dialogs/preferences-dialog.c:2343
 msgid "Path name:"
 msgstr "Bannamn:"
 
 #. Export Path Dialog
-#: ../app/dialogs/preferences-dialog.c:2351
+#: ../app/dialogs/preferences-dialog.c:2347
 msgid "Export Paths Dialog"
 msgstr "Exportera banor-dialog"
 
-#: ../app/dialogs/preferences-dialog.c:2356
+#: ../app/dialogs/preferences-dialog.c:2352
 msgid "Export folder:"
 msgstr "Exportmapp:"
 
-#: ../app/dialogs/preferences-dialog.c:2357
+#: ../app/dialogs/preferences-dialog.c:2353
 msgid "Select Default Folder for Exporting Paths"
 msgstr "Välj standardmapp för export av banor"
 
-#: ../app/dialogs/preferences-dialog.c:2361
+#: ../app/dialogs/preferences-dialog.c:2357
 msgid "Export the active path only"
 msgstr "Exportera bara aktiv bana"
 
 #. Import Path Dialog
-#: ../app/dialogs/preferences-dialog.c:2365
+#: ../app/dialogs/preferences-dialog.c:2361
 msgid "Import Paths Dialog"
 msgstr "Importera bandialog"
 
-#: ../app/dialogs/preferences-dialog.c:2370
+#: ../app/dialogs/preferences-dialog.c:2366
 msgid "Import folder:"
 msgstr "Importmapp:"
 
-#: ../app/dialogs/preferences-dialog.c:2371
+#: ../app/dialogs/preferences-dialog.c:2367
 msgid "Select Default Folder for Importing Paths"
 msgstr "Välj standardmapp för import av banor"
 
-#: ../app/dialogs/preferences-dialog.c:2375
+#: ../app/dialogs/preferences-dialog.c:2371
 msgid "Merge imported paths"
 msgstr "Sammanfoga importerade banor"
 
-#: ../app/dialogs/preferences-dialog.c:2378
+#: ../app/dialogs/preferences-dialog.c:2374
 msgid "Scale imported paths"
 msgstr "Skala importerade banor"
 
 #. Feather Selection Dialog
-#: ../app/dialogs/preferences-dialog.c:2382
+#: ../app/dialogs/preferences-dialog.c:2378
 msgid "Feather Selection Dialog"
 msgstr "Dialog för att fjädra markering"
 
-#: ../app/dialogs/preferences-dialog.c:2387
+#: ../app/dialogs/preferences-dialog.c:2383
 msgid "Feather radius:"
 msgstr "Fjädringsradie:"
 
 #. Grow Selection Dialog
-#: ../app/dialogs/preferences-dialog.c:2391
+#: ../app/dialogs/preferences-dialog.c:2387
 msgid "Grow Selection Dialog"
 msgstr "Väx markering-dialog"
 
-#: ../app/dialogs/preferences-dialog.c:2396
+#: ../app/dialogs/preferences-dialog.c:2392
 msgid "Grow radius:"
 msgstr "Växradie:"
 
 #. Shrink Selection Dialog
-#: ../app/dialogs/preferences-dialog.c:2400
+#: ../app/dialogs/preferences-dialog.c:2396
 msgid "Shrink Selection Dialog"
 msgstr "Krymp markering-dialog"
 
-#: ../app/dialogs/preferences-dialog.c:2405
+#: ../app/dialogs/preferences-dialog.c:2401
 msgid "Shrink radius:"
 msgstr "Krympningsradie:"
 
-#: ../app/dialogs/preferences-dialog.c:2409
-#: ../app/dialogs/preferences-dialog.c:2426
+#: ../app/dialogs/preferences-dialog.c:2405
+#: ../app/dialogs/preferences-dialog.c:2422
 msgid "Selected areas continue outside the image"
 msgstr "Markerade områden fortsätter utanför bilden"
 
 #. Border Selection Dialog
-#: ../app/dialogs/preferences-dialog.c:2413
+#: ../app/dialogs/preferences-dialog.c:2409
 msgid "Border Selection Dialog"
 msgstr "Kantmarkeringsdialog"
 
-#: ../app/dialogs/preferences-dialog.c:2418
+#: ../app/dialogs/preferences-dialog.c:2414
 msgid "Border radius:"
 msgstr "Kantradie:"
 
-#: ../app/dialogs/preferences-dialog.c:2422
+#: ../app/dialogs/preferences-dialog.c:2418
 msgid "Border style:"
 msgstr "Kantstil:"
 
 #. Fill Options Dialog
-#: ../app/dialogs/preferences-dialog.c:2430
+#: ../app/dialogs/preferences-dialog.c:2426
 msgid "Fill Selection Outline & Fill Path Dialogs"
 msgstr "Dialogerna Fyll markeringskontur & Fyll bana"
 
 #. Stroke Options Dialog
-#: ../app/dialogs/preferences-dialog.c:2439
+#: ../app/dialogs/preferences-dialog.c:2435
 msgid "Stroke Selection & Stroke Path Dialogs"
 msgstr "Dialogerna Stryk längs markering & Stryk längs bana"
 
-#: ../app/dialogs/preferences-dialog.c:2462
-#: ../app/dialogs/preferences-dialog.c:2463
+#: ../app/dialogs/preferences-dialog.c:2458
+#: ../app/dialogs/preferences-dialog.c:2459
 msgid "Help System"
 msgstr "Hjälpsystem"
 
-#: ../app/dialogs/preferences-dialog.c:2474
+#: ../app/dialogs/preferences-dialog.c:2470
 msgid "Show _tooltips"
 msgstr "Visa verktygs_tips"
 
-#: ../app/dialogs/preferences-dialog.c:2477
+#: ../app/dialogs/preferences-dialog.c:2473
 msgid "Show help _buttons"
 msgstr "Visa hjälp_knappar"
 
-#: ../app/dialogs/preferences-dialog.c:2482
+#: ../app/dialogs/preferences-dialog.c:2478
 msgid "Use the online version"
 msgstr "Använd versionen på nätet"
 
-#: ../app/dialogs/preferences-dialog.c:2483
+#: ../app/dialogs/preferences-dialog.c:2479
 msgid "Use a locally installed copy"
 msgstr "Använd en lokalt installerad kopia"
 
-#: ../app/dialogs/preferences-dialog.c:2484
+#: ../app/dialogs/preferences-dialog.c:2480
 msgid "User manual:"
 msgstr "Användarhandbok:"
 
-#: ../app/dialogs/preferences-dialog.c:2495
+#: ../app/dialogs/preferences-dialog.c:2491
 msgid "User interface language"
 msgstr "Språk för användargränssnitt"
 
@@ -16578,15 +16073,15 @@ msgstr "Språk för användargränssnitt"
 #. *  that doesn't use the help browser, so don't bother showing
 #. *  the combo.
 #.
-#: ../app/dialogs/preferences-dialog.c:2554
+#: ../app/dialogs/preferences-dialog.c:2550
 msgid "Help Browser"
 msgstr "Hjälpläsare"
 
-#: ../app/dialogs/preferences-dialog.c:2561
+#: ../app/dialogs/preferences-dialog.c:2557
 msgid "H_elp browser to use:"
 msgstr "Hjälp_läsare att använda:"
 
-#: ../app/dialogs/preferences-dialog.c:2567
+#: ../app/dialogs/preferences-dialog.c:2563
 msgid ""
 "The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
@@ -16595,517 +16090,517 @@ msgstr ""
 "istället."
 
 #. Action Search
-#: ../app/dialogs/preferences-dialog.c:2584
+#: ../app/dialogs/preferences-dialog.c:2580
 msgid "Action Search"
 msgstr "Åtgärdssökning"
 
-#: ../app/dialogs/preferences-dialog.c:2588
+#: ../app/dialogs/preferences-dialog.c:2584
 msgid "Show _unavailable actions"
 msgstr "Visa _otillgängliga åtgärder"
 
-#: ../app/dialogs/preferences-dialog.c:2591
+#: ../app/dialogs/preferences-dialog.c:2587
 msgid "Maximum History Size:"
 msgstr "Maximal historikstorlek:"
 
-#: ../app/dialogs/preferences-dialog.c:2595
+#: ../app/dialogs/preferences-dialog.c:2591
 msgid "Clear Action History"
 msgstr "Töm åtgärdshistorik"
 
-#: ../app/dialogs/preferences-dialog.c:2609
-#: ../app/dialogs/preferences-dialog.c:2610
+#: ../app/dialogs/preferences-dialog.c:2605
+#: ../app/dialogs/preferences-dialog.c:2606
 msgid "Display"
 msgstr "Visning"
 
 #. Transparency
-#: ../app/dialogs/preferences-dialog.c:2618
+#: ../app/dialogs/preferences-dialog.c:2614
 msgid "Transparency"
 msgstr "Transparens"
 
-#: ../app/dialogs/preferences-dialog.c:2622
+#: ../app/dialogs/preferences-dialog.c:2618
 msgid "_Check style:"
 msgstr "_Rutstil:"
 
-#: ../app/dialogs/preferences-dialog.c:2625
+#: ../app/dialogs/preferences-dialog.c:2621
 msgid "Check _size:"
 msgstr "Rut_storlek:"
 
-#: ../app/dialogs/preferences-dialog.c:2628
+#: ../app/dialogs/preferences-dialog.c:2624
 msgid "Monitor Resolution"
 msgstr "Bildskärmsupplösning"
 
 #. Pixels
-#: ../app/dialogs/preferences-dialog.c:2632 ../app/display/gimpcursorview.c:212
+#: ../app/dialogs/preferences-dialog.c:2628 ../app/display/gimpcursorview.c:212
 #: ../app/widgets/gimpgrideditor.c:199 ../app/widgets/gimpgrideditor.c:234
 msgid "Pixels"
 msgstr "Bildpunkter"
 
-#: ../app/dialogs/preferences-dialog.c:2650 ../app/widgets/gimpgrideditor.c:195
+#: ../app/dialogs/preferences-dialog.c:2646 ../app/widgets/gimpgrideditor.c:195
 #: ../app/widgets/gimpgrideditor.c:230
 msgid "Horizontal"
 msgstr "Horisontell"
 
-#: ../app/dialogs/preferences-dialog.c:2652 ../app/widgets/gimpgrideditor.c:197
+#: ../app/dialogs/preferences-dialog.c:2648 ../app/widgets/gimpgrideditor.c:197
 #: ../app/widgets/gimpgrideditor.c:232
 msgid "Vertical"
 msgstr "Vertikal"
 
-#: ../app/dialogs/preferences-dialog.c:2654
+#: ../app/dialogs/preferences-dialog.c:2650
 #: ../app/widgets/gimpimagepropview.c:457
 msgid "ppi"
 msgstr "punkter/tum"
 
-#: ../app/dialogs/preferences-dialog.c:2673
+#: ../app/dialogs/preferences-dialog.c:2669
 #, c-format
 msgid "_Detect automatically (currently %d × %d ppi)"
 msgstr "_Identifiera automatiskt (för tillfället %d × %d punkter/tum)"
 
-#: ../app/dialogs/preferences-dialog.c:2691
+#: ../app/dialogs/preferences-dialog.c:2687
 msgid "_Enter manually"
 msgstr "Ange _manuellt"
 
-#: ../app/dialogs/preferences-dialog.c:2706
+#: ../app/dialogs/preferences-dialog.c:2702
 msgid "C_alibrate..."
 msgstr "K_alibrera…"
 
-#: ../app/dialogs/preferences-dialog.c:2733
-#: ../app/dialogs/preferences-dialog.c:2734
+#: ../app/dialogs/preferences-dialog.c:2729
+#: ../app/dialogs/preferences-dialog.c:2730
 msgid "Window Management"
 msgstr "Fönsterhantering"
 
-#: ../app/dialogs/preferences-dialog.c:2739
+#: ../app/dialogs/preferences-dialog.c:2735
 msgid "Window Manager Hints"
 msgstr "Antydan för fönsterhanterare"
 
-#: ../app/dialogs/preferences-dialog.c:2745
+#: ../app/dialogs/preferences-dialog.c:2741
 msgid "Hint for _docks and toolbox:"
 msgstr "Antydan för _dockor och verktygslåda:"
 
-#: ../app/dialogs/preferences-dialog.c:2748
+#: ../app/dialogs/preferences-dialog.c:2744
 msgid "Focus"
 msgstr "Fokus"
 
-#: ../app/dialogs/preferences-dialog.c:2752
+#: ../app/dialogs/preferences-dialog.c:2748
 msgid "Activate the _focused image"
 msgstr "Aktivera den _fokuserade bilden"
 
 #. Window Positions
-#: ../app/dialogs/preferences-dialog.c:2756
+#: ../app/dialogs/preferences-dialog.c:2752
 msgid "Window Positions"
 msgstr "Fönsterpositioner"
 
-#: ../app/dialogs/preferences-dialog.c:2759
+#: ../app/dialogs/preferences-dialog.c:2755
 msgid "_Save window positions on exit"
 msgstr "_Spara fönsterpositioner vid avslutning"
 
-#: ../app/dialogs/preferences-dialog.c:2762
+#: ../app/dialogs/preferences-dialog.c:2758
 msgid "Open windows on the same _monitor they were open before"
 msgstr "Öppna fönster på samma _skärm där de var öppna förut"
 
-#: ../app/dialogs/preferences-dialog.c:2766
+#: ../app/dialogs/preferences-dialog.c:2762
 msgid "Save Window Positions _Now"
 msgstr "Spara fönsterpositioner _nu"
 
-#: ../app/dialogs/preferences-dialog.c:2773
+#: ../app/dialogs/preferences-dialog.c:2769
 msgid "_Reset Saved Window Positions to Default Values"
 msgstr "_Återställ sparade fönsterpositioner till standardvärden"
 
-#: ../app/dialogs/preferences-dialog.c:2788
-#: ../app/dialogs/preferences-dialog.c:2789
+#: ../app/dialogs/preferences-dialog.c:2784
+#: ../app/dialogs/preferences-dialog.c:2785
 msgid "Image Windows"
 msgstr "Bildfönster"
 
-#: ../app/dialogs/preferences-dialog.c:2800
+#: ../app/dialogs/preferences-dialog.c:2796
 msgid "Use \"_Dot for dot\" by default"
 msgstr "Använd ”_punkt för punkt” som standard"
 
-#: ../app/dialogs/preferences-dialog.c:2806
+#: ../app/dialogs/preferences-dialog.c:2802
 msgid "Marching _ants speed:"
 msgstr "Vandrande _myrors hastighet:"
 
 #. Zoom & Resize Behavior
-#: ../app/dialogs/preferences-dialog.c:2810
+#: ../app/dialogs/preferences-dialog.c:2806
 msgid "Zoom & Resize Behavior"
 msgstr "Zoom- och storleksändringsbeteende"
 
-#: ../app/dialogs/preferences-dialog.c:2814
+#: ../app/dialogs/preferences-dialog.c:2810
 msgid "Resize window on _zoom"
 msgstr "Ändra storlek på fönstret vid _zoom"
 
-#: ../app/dialogs/preferences-dialog.c:2817
+#: ../app/dialogs/preferences-dialog.c:2813
 msgid "Resize window on image _size change"
 msgstr "Ändra storlek på fönstret vid ändring av bild_storlek"
 
-#: ../app/dialogs/preferences-dialog.c:2823
+#: ../app/dialogs/preferences-dialog.c:2819
 msgid "Show entire image"
 msgstr "Visa hel bild"
 
-#: ../app/dialogs/preferences-dialog.c:2825
+#: ../app/dialogs/preferences-dialog.c:2821
 msgid "Initial zoom _ratio:"
 msgstr "Initial zoom_faktor:"
 
 #. Space Bar
-#: ../app/dialogs/preferences-dialog.c:2829
+#: ../app/dialogs/preferences-dialog.c:2825
 msgid "Space Bar"
 msgstr "Blanksteg"
 
-#: ../app/dialogs/preferences-dialog.c:2835
+#: ../app/dialogs/preferences-dialog.c:2831
 msgid "_While space bar is pressed:"
 msgstr "_När blankstegstangenten trycks ned:"
 
 #. Mouse Pointers
-#: ../app/dialogs/preferences-dialog.c:2839
+#: ../app/dialogs/preferences-dialog.c:2835
 msgid "Mouse Pointers"
 msgstr "Muspekare"
 
-#: ../app/dialogs/preferences-dialog.c:2843
+#: ../app/dialogs/preferences-dialog.c:2839
 msgid "Show _brush outline"
 msgstr "Visa _penselkontur"
 
-#: ../app/dialogs/preferences-dialog.c:2846
+#: ../app/dialogs/preferences-dialog.c:2842
 msgid "Show pointer for paint _tools"
 msgstr "Visa pekare för målar_verktyg"
 
-#: ../app/dialogs/preferences-dialog.c:2852
+#: ../app/dialogs/preferences-dialog.c:2848
 msgid "Pointer _mode:"
 msgstr "Pekar_läge:"
 
-#: ../app/dialogs/preferences-dialog.c:2855
+#: ../app/dialogs/preferences-dialog.c:2851
 msgid "Pointer _handedness:"
 msgstr "Mus_hand:"
 
-#: ../app/dialogs/preferences-dialog.c:2866
+#: ../app/dialogs/preferences-dialog.c:2862
 msgid "Image Window Appearance"
 msgstr "Bildfönsterutseende"
 
-#: ../app/dialogs/preferences-dialog.c:2874
+#: ../app/dialogs/preferences-dialog.c:2870
 msgid "Default Appearance in Normal Mode"
 msgstr "Standardutseende i normalt läge"
 
-#: ../app/dialogs/preferences-dialog.c:2879
+#: ../app/dialogs/preferences-dialog.c:2875
 msgid "Default Appearance in Fullscreen Mode"
 msgstr "Standardutseende i helskärmsläge"
 
-#: ../app/dialogs/preferences-dialog.c:2888
+#: ../app/dialogs/preferences-dialog.c:2884
 msgid "Image Title & Statusbar Format"
 msgstr "Bildtitel och statusradsformat"
 
-#: ../app/dialogs/preferences-dialog.c:2889
+#: ../app/dialogs/preferences-dialog.c:2885
 msgid "Title & Status"
 msgstr "Titel och status"
 
-#: ../app/dialogs/preferences-dialog.c:2907
+#: ../app/dialogs/preferences-dialog.c:2903
 msgid "Current format"
 msgstr "Aktuellt format"
 
-#: ../app/dialogs/preferences-dialog.c:2908
+#: ../app/dialogs/preferences-dialog.c:2904
 msgid "Default format"
 msgstr "Standardformat"
 
-#: ../app/dialogs/preferences-dialog.c:2909
+#: ../app/dialogs/preferences-dialog.c:2905
 msgid "Show zoom percentage"
 msgstr "Visa zoomprocent"
 
-#: ../app/dialogs/preferences-dialog.c:2910
+#: ../app/dialogs/preferences-dialog.c:2906
 msgid "Show zoom ratio"
 msgstr "Visa zoomfaktor"
 
-#: ../app/dialogs/preferences-dialog.c:2911
+#: ../app/dialogs/preferences-dialog.c:2907
 msgid "Show image size"
 msgstr "Visa bildstorlek"
 
-#: ../app/dialogs/preferences-dialog.c:2912
+#: ../app/dialogs/preferences-dialog.c:2908
 msgid "Show drawable size"
 msgstr "Visa ritytans storlek"
 
-#: ../app/dialogs/preferences-dialog.c:2925
+#: ../app/dialogs/preferences-dialog.c:2921
 msgid "Image Title Format"
 msgstr "Bildtitelformat"
 
-#: ../app/dialogs/preferences-dialog.c:2927
+#: ../app/dialogs/preferences-dialog.c:2923
 msgid "Image Statusbar Format"
 msgstr "Bildstatusradsformat"
 
-#: ../app/dialogs/preferences-dialog.c:3012
+#: ../app/dialogs/preferences-dialog.c:3008
 msgid "Image Window Snapping Behavior"
 msgstr "Fästbeteende för bildfönster"
 
-#: ../app/dialogs/preferences-dialog.c:3013
+#: ../app/dialogs/preferences-dialog.c:3009
 msgid "Snapping"
 msgstr "Fästning"
 
-#: ../app/dialogs/preferences-dialog.c:3020
+#: ../app/dialogs/preferences-dialog.c:3016
 msgid "Default Behavior in Normal Mode"
 msgstr "Standardbeteende i normalt läge"
 
-#: ../app/dialogs/preferences-dialog.c:3024
+#: ../app/dialogs/preferences-dialog.c:3020
 msgid "Default Behavior in Fullscreen Mode"
 msgstr "Standardbeteende i helskärmsläge"
 
-#: ../app/dialogs/preferences-dialog.c:3033
+#: ../app/dialogs/preferences-dialog.c:3029
 msgid "_Snapping distance:"
 msgstr "_Fästavstånd:"
 
-#: ../app/dialogs/preferences-dialog.c:3042
-#: ../app/dialogs/preferences-dialog.c:3043
+#: ../app/dialogs/preferences-dialog.c:3038
+#: ../app/dialogs/preferences-dialog.c:3039
 msgid "Input Devices"
 msgstr "Inmatningsenheter"
 
 #. Extended Input Devices
-#: ../app/dialogs/preferences-dialog.c:3049
+#: ../app/dialogs/preferences-dialog.c:3045
 msgid "Extended Input Devices"
 msgstr "Utökade inmatningsenheter"
 
-#: ../app/dialogs/preferences-dialog.c:3053
+#: ../app/dialogs/preferences-dialog.c:3049
 msgid "S_hare tool and tool options between input devices"
 msgstr "_Dela verktyg och verktygsalternativ mellan inmatningsenheter"
 
-#: ../app/dialogs/preferences-dialog.c:3057
+#: ../app/dialogs/preferences-dialog.c:3053
 msgid "Configure E_xtended Input Devices..."
 msgstr "Konfigurera _utökade inmatningsenheter…"
 
-#: ../app/dialogs/preferences-dialog.c:3064
+#: ../app/dialogs/preferences-dialog.c:3060
 msgid "_Save input device settings on exit"
 msgstr "_Spara inställningar för inmatningsenheter vid avslutning"
 
-#: ../app/dialogs/preferences-dialog.c:3068
+#: ../app/dialogs/preferences-dialog.c:3064
 msgid "Save Input Device Settings _Now"
 msgstr "Spara inställningar för inmatningsenheter _nu"
 
-#: ../app/dialogs/preferences-dialog.c:3075
+#: ../app/dialogs/preferences-dialog.c:3071
 msgid "_Reset Saved Input Device Settings to Default Values"
 msgstr ""
 "_Återställ sparade inställningar för inmatningsenheter till standardvärden"
 
-#: ../app/dialogs/preferences-dialog.c:3090
+#: ../app/dialogs/preferences-dialog.c:3086
 msgid "Additional Input Controllers"
 msgstr "Ytterligare inmatningsenheter"
 
-#: ../app/dialogs/preferences-dialog.c:3091
+#: ../app/dialogs/preferences-dialog.c:3087
 msgid "Input Controllers"
 msgstr "Inmatningsenheter"
 
-#: ../app/dialogs/preferences-dialog.c:3106
-#: ../app/dialogs/preferences-dialog.c:3107
+#: ../app/dialogs/preferences-dialog.c:3102
+#: ../app/dialogs/preferences-dialog.c:3103
 msgid "Folders"
 msgstr "Kataloger"
 
-#: ../app/dialogs/preferences-dialog.c:3114
+#: ../app/dialogs/preferences-dialog.c:3110
 msgid "Reset Folders"
 msgstr "Återställ mappar"
 
-#: ../app/dialogs/preferences-dialog.c:3130
+#: ../app/dialogs/preferences-dialog.c:3126
 msgid "Temporary folder:"
 msgstr "Temporär mapp:"
 
-#: ../app/dialogs/preferences-dialog.c:3131
+#: ../app/dialogs/preferences-dialog.c:3127
 msgid "Select Folder for Temporary Files"
 msgstr "Välj mapp för temporärfiler"
 
-#: ../app/dialogs/preferences-dialog.c:3135
+#: ../app/dialogs/preferences-dialog.c:3131
 msgid "Swap folder:"
 msgstr "Växlingskatalog:"
 
-#: ../app/dialogs/preferences-dialog.c:3136
+#: ../app/dialogs/preferences-dialog.c:3132
 msgid "Select Swap Folder"
 msgstr "Välj växlingskatalog"
 
-#: ../app/dialogs/preferences-dialog.c:3169
+#: ../app/dialogs/preferences-dialog.c:3165
 msgid "Brush Folders"
 msgstr "Penselmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3172
+#: ../app/dialogs/preferences-dialog.c:3168
 msgid "Reset Brush Folders"
 msgstr "Återställ penselmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3173
+#: ../app/dialogs/preferences-dialog.c:3169
 msgid "Select Brush Folders"
 msgstr "Välj penselmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3175
+#: ../app/dialogs/preferences-dialog.c:3171
 msgid "Dynamics Folders"
 msgstr "Dynamikmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3178
+#: ../app/dialogs/preferences-dialog.c:3174
 msgid "Reset Dynamics Folders"
 msgstr "Återställ dynamikmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3179
+#: ../app/dialogs/preferences-dialog.c:3175
 msgid "Select Dynamics Folders"
 msgstr "Välj dynamikmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3181
+#: ../app/dialogs/preferences-dialog.c:3177
 msgid "Pattern Folders"
 msgstr "Mönstermappar"
 
-#: ../app/dialogs/preferences-dialog.c:3184
+#: ../app/dialogs/preferences-dialog.c:3180
 msgid "Reset Pattern Folders"
 msgstr "Återställ mönstermappar"
 
-#: ../app/dialogs/preferences-dialog.c:3185
+#: ../app/dialogs/preferences-dialog.c:3181
 msgid "Select Pattern Folders"
 msgstr "Välj mönstermappar"
 
-#: ../app/dialogs/preferences-dialog.c:3187
+#: ../app/dialogs/preferences-dialog.c:3183
 msgid "Palette Folders"
 msgstr "Palettmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3190
+#: ../app/dialogs/preferences-dialog.c:3186
 msgid "Reset Palette Folders"
 msgstr "Återställ palettmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3191
+#: ../app/dialogs/preferences-dialog.c:3187
 msgid "Select Palette Folders"
 msgstr "Välj palettmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3193
+#: ../app/dialogs/preferences-dialog.c:3189
 msgid "Gradient Folders"
 msgstr "Gradientmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3196
+#: ../app/dialogs/preferences-dialog.c:3192
 msgid "Reset Gradient Folders"
 msgstr "Återställ gradientmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3197
+#: ../app/dialogs/preferences-dialog.c:3193
 msgid "Select Gradient Folders"
 msgstr "Välj gradientmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3199
+#: ../app/dialogs/preferences-dialog.c:3195
 msgid "Font Folders"
 msgstr "Typsnittsmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3202
+#: ../app/dialogs/preferences-dialog.c:3198
 msgid "Reset Font Folders"
 msgstr "Återställ typsnittsmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3203
+#: ../app/dialogs/preferences-dialog.c:3199
 msgid "Select Font Folders"
 msgstr "Välj typsnittsmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3205
+#: ../app/dialogs/preferences-dialog.c:3201
 msgid "Tool Preset Folders"
 msgstr "Mappar för verktygsförinställning"
 
-#: ../app/dialogs/preferences-dialog.c:3208
+#: ../app/dialogs/preferences-dialog.c:3204
 msgid "Reset Tool Preset Folders"
 msgstr "Återställ verktygsförinställningsmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3209
+#: ../app/dialogs/preferences-dialog.c:3205
 msgid "Select Tool Preset Folders"
 msgstr "Välj verktygsförinställningsmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3211
+#: ../app/dialogs/preferences-dialog.c:3207
 msgid "MyPaint Brush Folders"
 msgstr "MyPaint-penselmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3214
+#: ../app/dialogs/preferences-dialog.c:3210
 msgid "Reset MyPaint Brush Folders"
 msgstr "Återställ MyPaint-penselmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3215
+#: ../app/dialogs/preferences-dialog.c:3211
 msgid "Select MyPaint Brush Folders"
 msgstr "Välj MyPaint-penselmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3217
+#: ../app/dialogs/preferences-dialog.c:3213
 msgid "Plug-in Folders"
 msgstr "Mappar för insticksmodul"
 
-#: ../app/dialogs/preferences-dialog.c:3220
+#: ../app/dialogs/preferences-dialog.c:3216
 msgid "Reset plug-in Folders"
 msgstr "Återställ mappar för insticksmodul"
 
-#: ../app/dialogs/preferences-dialog.c:3221
+#: ../app/dialogs/preferences-dialog.c:3217
 msgid "Select plug-in Folders"
 msgstr "Välj mappar för insticksmodul"
 
-#: ../app/dialogs/preferences-dialog.c:3223
+#: ../app/dialogs/preferences-dialog.c:3219
 msgid "Scripts"
 msgstr "Skript"
 
-#: ../app/dialogs/preferences-dialog.c:3223
+#: ../app/dialogs/preferences-dialog.c:3219
 msgid "Script-Fu Folders"
 msgstr "Mappar för Script-Fu"
 
-#: ../app/dialogs/preferences-dialog.c:3226
+#: ../app/dialogs/preferences-dialog.c:3222
 msgid "Reset Script-Fu Folders"
 msgstr "Återställ mappar för Script-Fu"
 
-#: ../app/dialogs/preferences-dialog.c:3227
+#: ../app/dialogs/preferences-dialog.c:3223
 msgid "Select Script-Fu Folders"
 msgstr "Välj mappar för Script-Fu"
 
-#: ../app/dialogs/preferences-dialog.c:3229
+#: ../app/dialogs/preferences-dialog.c:3225
 msgid "Module Folders"
 msgstr "Modulmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3232
+#: ../app/dialogs/preferences-dialog.c:3228
 msgid "Reset Module Folders"
 msgstr "Återställ modulmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3233
+#: ../app/dialogs/preferences-dialog.c:3229
 msgid "Select Module Folders"
 msgstr "Välj modulmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3235
+#: ../app/dialogs/preferences-dialog.c:3231
 msgid "Interpreters"
 msgstr "Tolkar"
 
-#: ../app/dialogs/preferences-dialog.c:3235
+#: ../app/dialogs/preferences-dialog.c:3231
 msgid "Interpreter Folders"
 msgstr "Tolkarmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3238
+#: ../app/dialogs/preferences-dialog.c:3234
 msgid "Reset Interpreter Folders"
 msgstr "Återställ tolkarmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3239
+#: ../app/dialogs/preferences-dialog.c:3235
 msgid "Select Interpreter Folders"
 msgstr "Välj tolkarmappar"
 
-#: ../app/dialogs/preferences-dialog.c:3241
+#: ../app/dialogs/preferences-dialog.c:3237
 msgid "Environment"
 msgstr "Miljö"
 
-#: ../app/dialogs/preferences-dialog.c:3241
+#: ../app/dialogs/preferences-dialog.c:3237
 msgid "Environment Folders"
 msgstr "Miljömappar"
 
-#: ../app/dialogs/preferences-dialog.c:3244
+#: ../app/dialogs/preferences-dialog.c:3240
 msgid "Reset Environment Folders"
 msgstr "Återställ miljömappar"
 
-#: ../app/dialogs/preferences-dialog.c:3245
+#: ../app/dialogs/preferences-dialog.c:3241
 msgid "Select Environment Folders"
 msgstr "Välj miljömappar"
 
-#: ../app/dialogs/preferences-dialog.c:3247
+#: ../app/dialogs/preferences-dialog.c:3243
 msgid "Themes"
 msgstr "Teman"
 
-#: ../app/dialogs/preferences-dialog.c:3247
+#: ../app/dialogs/preferences-dialog.c:3243
 msgid "Theme Folders"
 msgstr "Temamappar"
 
-#: ../app/dialogs/preferences-dialog.c:3250
+#: ../app/dialogs/preferences-dialog.c:3246
 msgid "Reset Theme Folders"
 msgstr "Återställ temamappar"
 
-#: ../app/dialogs/preferences-dialog.c:3251
+#: ../app/dialogs/preferences-dialog.c:3247
 msgid "Select Theme Folders"
 msgstr "Välj temamappar"
 
-#: ../app/dialogs/preferences-dialog.c:3253
+#: ../app/dialogs/preferences-dialog.c:3249
 msgid "Icon Themes"
 msgstr "Ikonteman"
 
-#: ../app/dialogs/preferences-dialog.c:3253
+#: ../app/dialogs/preferences-dialog.c:3249
 msgid "Icon Theme Folders"
 msgstr "Mappar för ikontema"
 
-#: ../app/dialogs/preferences-dialog.c:3256
+#: ../app/dialogs/preferences-dialog.c:3252
 msgid "Reset Icon Theme Folders"
 msgstr "Återställ mappar för ikonteman"
 
-#: ../app/dialogs/preferences-dialog.c:3257
+#: ../app/dialogs/preferences-dialog.c:3253
 msgid "Select Icon Theme Folders"
 msgstr "Välj mappar för ikonteman"
 
@@ -17141,14 +16636,16 @@ msgid "pixels/%a"
 msgstr "bildpunkter/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
-msgid "Quit Glimpse"
-msgstr "Avsluta GIMP"
+#, fuzzy
+msgid "Quit GIMP"
+msgstr "GIMP"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
 msgstr "Stäng alla bilder"
 
 #: ../app/dialogs/quit-dialog.c:256
+#, fuzzy
 msgid "If you quit Glimpse now, these changes will be lost."
 msgstr "Om du avslutar Glimpse nu kommer dessa ändringar förloras."
 
@@ -17309,10 +16806,12 @@ msgid "_Emulate brush dynamics"
 msgstr "_Emulera penseldynamik"
 
 #: ../app/dialogs/tips-dialog.c:99
+#, fuzzy
 msgid "The Glimpse tips file is empty!"
 msgstr "GIMP-tipsfilen kunde är tom!"
 
 #: ../app/dialogs/tips-dialog.c:103
+#, fuzzy
 msgid "The Glimpse tips file appears to be missing!"
 msgstr "GIMP-tipsfilen verkar saknas!"
 
@@ -17322,6 +16821,7 @@ msgid "There should be a file called '%s'. Please check your installation."
 msgstr "Det borde finnas en fil som heter ”%s”. Kontrollera din installation."
 
 #: ../app/dialogs/tips-dialog.c:111
+#, fuzzy
 msgid "The Glimpse tips file could not be parsed!"
 msgstr "GIMP-tipsfilen kunde inte tolkas!"
 
@@ -17352,6 +16852,7 @@ msgid "tips-locale:C"
 msgstr "tips-locale:sv"
 
 #: ../app/dialogs/user-install-dialog.c:85
+#, fuzzy
 msgid "Glimpse User Installation"
 msgstr "Användarinstallation av GIMP"
 
@@ -17360,6 +16861,7 @@ msgid "User installation failed!"
 msgstr "Användarinstallationen misslyckades!"
 
 #: ../app/dialogs/user-install-dialog.c:96
+#, fuzzy
 msgid "The Glimpse user installation failed; see the log for details."
 msgstr "GIMP:s användarinstallation misslyckades; se loggfilen för detaljer."
 
@@ -17579,12 +17081,12 @@ msgstr "Visa snabbmask"
 msgid "Navigate the image display"
 msgstr "Navigera i bildvisningen"
 
-#: ../app/display/gimpdisplayshell.c:793 ../app/display/gimpdisplayshell.c:1459
-#: ../app/widgets/gimptoolbox.c:247
+#: ../app/display/gimpdisplayshell.c:793 ../app/display/gimpdisplayshell.c:1431
+#: ../app/widgets/gimptoolbox.c:246
 msgid "Drop image files here to open them"
 msgstr "Släpp bildfiler här för att öppna dem"
 
-#: ../app/display/gimpdisplayshell-callbacks.c:555
+#: ../app/display/gimpdisplayshell-callbacks.c:552
 #, c-format
 msgid ""
 "<big>Unstable Development Version</big>\n"
@@ -18222,17 +17724,30 @@ msgstr "”%s” är inte ett giltigt URI-schema"
 msgid "Invalid character sequence in URI"
 msgstr "Ogiltig teckensekvens i URI"
 
-#: ../app/file-data/file-data.c:59 ../app/file-data/file-data.c:124
-msgid "Glimpse brush"
-msgstr "GIMP-pensel"
+#: ../app/file-data/file-data.c:59
+#, fuzzy
+msgid "GNU I.M.P brush"
+msgstr "Min-pensel"
+
+#: ../app/file-data/file-data.c:124
+#, fuzzy
+msgid "GIMP brush"
+msgstr "Min-pensel"
 
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "Glimpse brush (animated)"
+#, fuzzy
+msgid "GIMP brush (animated)"
 msgstr "GIMP-pensel (animerad)"
 
-#: ../app/file-data/file-data.c:365 ../app/file-data/file-data.c:426
-msgid "Glimpse pattern"
-msgstr "GIMP-mönster"
+#: ../app/file-data/file-data.c:365
+#, fuzzy
+msgid "GNU I.M.P pattern"
+msgstr "Mönster"
+
+#: ../app/file-data/file-data.c:426
+#, fuzzy
+msgid "GIMP pattern"
+msgstr "Mönster"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318
 #: ../app/gegl/gimp-babl.c:319 ../app/gegl/gimp-babl.c:320
@@ -18933,7 +18448,8 @@ msgid "Curve"
 msgstr "Kurva"
 
 #: ../app/operations/gimpcurvesconfig.c:544
-msgid "not a Glimpse Curves file"
+#, fuzzy
+msgid "not a GNU I.M.P Curves file"
 msgstr "inte en GIMP-kurvfil"
 
 #: ../app/operations/gimpcurvesconfig.c:575
@@ -19007,7 +18523,8 @@ msgid "Clamp final output values."
 msgstr "Begränsa slutliga utdatavärden."
 
 #: ../app/operations/gimplevelsconfig.c:836
-msgid "not a Glimpse Levels file"
+#, fuzzy
+msgid "not a GNU I.M.P Levels file"
 msgstr "inte en GIMP-nivåfil"
 
 #: ../app/operations/gimplevelsconfig.c:911
@@ -19024,13 +18541,15 @@ msgid "Adjust brightness and contrast"
 msgstr "Justera ljusstyrka och kontrast"
 
 #: ../app/operations/gimpoperationcagecoefcalc.c:69
-msgid "Compute a set of coefficient buffer for the Glimpse cage tool"
+#, fuzzy
+msgid "Compute a set of coefficient buffer for the GNU I.M.P cage tool"
 msgstr "Beräkna en uppsättning koefficientbuffertar för GIMP:s burverktyg"
 
 #: ../app/operations/gimpoperationcagetransform.c:104
+#, fuzzy
 msgid ""
-"Convert a set of coefficient buffer to a coordinate buffer for the Glimpse cage "
-"tool"
+"Convert a set of coefficient buffer to a coordinate buffer for the GNU I.M.P "
+"cage tool"
 msgstr ""
 "Konvertera en uppsättning koefficientbuffertar till en koordinatbuffert för "
 "GIMP:s burverktyg"
@@ -19133,9 +18652,9 @@ msgstr "Värde"
 msgid "The alpha value"
 msgstr "Alfavärdet"
 
-#. TRANSLATORS: there is no need to translate this in Glimpse. This uses
+#. TRANSLATORS: there is no need to translate this in GIMP. This uses
 #. * "gtk20" domain as a special trick to determine language direction,
-#. * but xgettext extracts it anyway mistakenly into Glimpse po files.
+#. * but xgettext extracts it anyway mistakenly into GIMP po files.
 #. * Leave an empty string as translation. It does not matter.
 #.
 #: ../app/gui/gui.c:238
@@ -20496,19 +20015,20 @@ msgid "Bad binary format string in interpreter file %s"
 msgstr "Felaktig binär formatsträng i tolkfilen %s"
 
 #: ../app/plug-in/gimpplugin.c:232
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Plug-in crashed: \"%s\"\n"
 "(%s)\n"
 "\n"
-"The dying plug-in may have messed up Glimpse's internal state. You may want to "
-"save your images and restart Glimpse to be on the safe side."
+"The dying plug-in may have messed up Glimpse's internal state. You may want "
+"to save your images and restart Glimpse to be on the safe side."
 msgstr ""
 "Insticksmodulen kraschade: ”%s”\n"
 "(%s)\n"
 "\n"
 "Insticksmodulen som dog kan ha skadat GIMP:s interna tillstånd. Du bör "
-"kanske spara dina bilder och starta om Glimpse för att vara på den säkra sidan."
+"kanske spara dina bilder och starta om Glimpse för att vara på den säkra "
+"sidan."
 
 #: ../app/plug-in/gimpplugin-message.c:486
 #, c-format
@@ -20618,8 +20138,8 @@ msgstr ""
 "%s"
 
 #: ../app/plug-in/plug-in-rc.c:237
-#, c-format
-msgid "Skipping '%s': wrong Glimpse protocol version."
+#, fuzzy, c-format
+msgid "Skipping '%s': wrong GNU I.M.P protocol version."
 msgstr "Hoppar över ”%s”: fel GIMP-protokollversion."
 
 #: ../app/plug-in/plug-in-rc.c:244
@@ -22694,6 +22214,7 @@ msgid "_Move"
 msgstr "_Flytta"
 
 #: ../app/tools/gimpmybrushtool.c:74
+#, fuzzy
 msgid "MyPaint Brush Tool: Use MyPaint brushes in Glimpse"
 msgstr "MyPaint-penselverktyg: Använd MyPaint-penslar i GIMP"
 
@@ -22786,6 +22307,16 @@ msgstr "Klicka och dra för att ändra position för rityta"
 
 #: ../app/tools/gimpoffsettool.c:505
 msgid "By width/_2, height/2"
+msgstr "Genom bredd/_2, höjd/2"
+
+#: ../app/tools/gimpoffsettool.c:517
+#, fuzzy
+msgid "By _width/2"
+msgstr "Genom bredd/_2, höjd/2"
+
+#: ../app/tools/gimpoffsettool.c:525
+#, fuzzy
+msgid "By _height/2"
 msgstr "Genom bredd/_2, höjd/2"
 
 #. The edge behavior frame
@@ -23449,6 +22980,7 @@ msgstr ""
 "Du kan redigera lagret eller skapa ett nytt textlager från dess textattribut."
 
 #: ../app/tools/gimptexttool-editor.c:1357
+#, fuzzy
 msgid "Glimpse Text Editor"
 msgstr "GIMP-textredigerare"
 
@@ -24821,6 +24353,7 @@ msgstr "Öppna felrapporteringssystem"
 
 #: ../app/widgets/gimpcriticaldialog.c:132
 #: ../app/widgets/gimpcriticaldialog.c:455
+#, fuzzy
 msgid ""
 "To help us improve Glimpse, you can report the bug with these simple steps:"
 msgstr ""
@@ -24857,12 +24390,13 @@ msgstr ""
 "du gjorde då detta fel inträffade."
 
 #: ../app/widgets/gimpcriticaldialog.c:142
+#, fuzzy
 msgid ""
 "This error may have left Glimpse in an inconsistent state. It is advised to "
 "save your work and restart Glimpse."
 msgstr ""
-"Detta fel kan ha lämnat Glimpse i ett inkonsekvent tillstånd. Du rekommenderas "
-"att spara ditt arbete och starta om GIMP."
+"Detta fel kan ha lämnat Glimpse i ett inkonsekvent tillstånd. Du "
+"rekommenderas att spara ditt arbete och starta om GIMP."
 
 #: ../app/widgets/gimpcriticaldialog.c:153
 msgid ""
@@ -24936,13 +24470,13 @@ msgid "Failed to open '%s': %s"
 msgstr "Misslyckades med att öppna ”%s”: %s"
 
 #: ../app/widgets/gimpcriticaldialog.c:421
-#, c-format
+#, fuzzy, c-format
 msgid "Glimpse crashed with a fatal error: %s"
 msgstr "Glimpse kraschade med ett ödesdigert fel: %s"
 
 #. First error. Let's just display it.
 #: ../app/widgets/gimpcriticaldialog.c:428
-#, c-format
+#, fuzzy, c-format
 msgid "Glimpse encountered an error: %s"
 msgstr "Glimpse stötte på ett fel: %s"
 
@@ -24950,12 +24484,13 @@ msgstr "Glimpse stötte på ett fel: %s"
 #. * part anyway.
 #.
 #: ../app/widgets/gimpcriticaldialog.c:436
-#, c-format
+#, fuzzy, c-format
 msgid "Glimpse encountered several critical errors!"
 msgstr "Glimpse stötte på flera kritiska fel!"
 
 #: ../app/widgets/gimpcriticaldialog.c:488
-msgid "_restart Glimpse"
+#, fuzzy
+msgid "_Restart Glimpse"
 msgstr "Sta_rta om GIMP"
 
 #: ../app/widgets/gimpdashboard.c:455 ../app/widgets/gimpdashboard.c:507
@@ -25166,7 +24701,6 @@ msgstr "Plattlägg"
 
 #: ../app/widgets/gimpdashboard.c:705
 #, fuzzy
-#| msgid "Total size of scratch memory"
 msgid "Total size of tile memory"
 msgstr "Total storlek på krafsminne"
 
@@ -25182,7 +24716,7 @@ msgid "Total size of scratch memory"
 msgstr "Total storlek på krafsminne"
 
 #. Translators:  "TempBuf" is a technical term referring to an internal
-#. * Glimpse data structure.  It's probably OK to leave it untranslated.
+#. * GIMP data structure.  It's probably OK to leave it untranslated.
 #.
 #: ../app/widgets/gimpdashboard.c:726
 msgctxt "dashboard-variable"
@@ -25685,8 +25219,8 @@ msgstr "GIMP-hjälpläsaren är inte tillgänglig."
 
 #: ../app/widgets/gimphelp.c:373
 msgid ""
-"The Glimpse help browser plug-in appears to be missing from your installation. "
-"You may instead use the web browser for reading the help pages."
+"The Glimpse help browser plug-in appears to be missing from your "
+"installation. You may instead use the web browser for reading the help pages."
 msgstr ""
 "Insticksmodulen för GIMP:s hjälpläsare verkar saknas i din installation. Du "
 "kan istället använda webbläsaren för att läsa hjälpsidorna."
@@ -26021,14 +25555,16 @@ msgstr ""
 #: ../app/widgets/gimpsavedialog.c:398
 #, c-format
 msgid ""
-"The image uses features from %s and won't be readable by older GNU I.M.P versions."
+"The image uses features from %s and won't be readable by older GNU I.M.P "
+"versions."
 msgstr ""
 "Bilden använder funktioner från %s och kommer inte att vara läsbar för äldre "
 "GNU I.M.P-versioner."
 
 #: ../app/widgets/gimpsavedialog.c:407
 msgid "Metadata won't be visible in GNU I.M.P older than version 2.10."
-msgstr "Metadata kommer inte att vara synligt i GNU I.M.P äldre än version 2.10."
+msgstr ""
+"Metadata kommer inte att vara synligt i GNU I.M.P äldre än version 2.10."
 
 #: ../app/widgets/gimpselectiondata.c:250
 #, c-format
@@ -26407,6 +25943,7 @@ msgid "%s Preset"
 msgstr "%s-förinställning"
 
 #: ../app/widgets/gimpuimanager.c:772
+#, fuzzy
 msgid "Your Glimpse installation is incomplete:"
 msgstr "Din GIMP-installation är ofullständig:"
 
@@ -26712,8 +26249,9 @@ msgstr ""
 "Fel vid skrivning av XCF: BPC stöds inte vid skrivning av bildpunkt: %d"
 
 #: ../app-tools/gimp-debug-tool.c:78
+#, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "GIMP-kraschfelsökning"
+msgstr "GIMP-felsökning"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 msgid "round"
@@ -26723,6 +26261,527 @@ msgstr "rund"
 #: ../data/tags/gimp-tags-default.xml.in.h:3
 msgid "fuzzy"
 msgstr "luddig"
+
+#, fuzzy
+#~ msgid "GIMP Text Editor"
+#~ msgstr "Textredigerare"
+
+#, fuzzy
+#~ msgid "GIMP XCF image"
+#~ msgstr "Alla XCF-bilder"
+
+#, fuzzy
+#~ msgid "GIMP Crash Debug"
+#~ msgstr "GIMP-kraschfelsökning"
+
+#, fuzzy
+#~ msgid "GIMP Debug"
+#~ msgstr "Felsök"
+
+#~ msgid "GNU Image Manipulation Program"
+#~ msgstr "GNU:s bildmanipuleringsprogram"
+
+#~ msgid ""
+#~ "Glimpse is an acronym for GNU Image Manipulation Program. It is a freely "
+#~ "distributed program for such tasks as photo retouching, image composition "
+#~ "and image authoring."
+#~ msgstr ""
+#~ "GIMP är en akronym för GNU Image Manipulation Program. Det är ett fritt "
+#~ "distribuerat program för sådana uppgifter som fotoretuschering, "
+#~ "bildkomposition och bildskapande."
+
+#~ msgid ""
+#~ "It has many capabilities. It can be used as a simple paint program, an "
+#~ "expert quality photo retouching program, an online batch processing "
+#~ "system, a mass production image renderer, an image format converter, etc."
+#~ msgstr ""
+#~ "Det har många funktioner. Det kan användas som ett enkelt ritprogram, ett "
+#~ "fotoretuscheringsprogram på expertnivå, ett online "
+#~ "massbearbetningssystem, en massproduktionsbildåtergivare, en "
+#~ "bildformatsomvandlare, etc."
+
+#~ msgid ""
+#~ "Glimpse is expandable and extensible. It is designed to be augmented with "
+#~ "plug-ins and extensions to do just about anything. The advanced scripting "
+#~ "interface allows everything from the simplest task to the most complex "
+#~ "image manipulation procedures to be easily scripted. Glimpse is available "
+#~ "for Linux, Microsoft Windows and OS X."
+#~ msgstr ""
+#~ "GIMP är utbyggbart och tänjbart. Det är avsett att kompletteras med "
+#~ "insticksprogram och tillägg för att göra nästan vad som helst. Det "
+#~ "avancerade skriptgränssnittet tillåter allt från den enklaste uppgift "
+#~ "till de mest komplexa bildmanipuleringsförfaranden att enkelt skrivas. "
+#~ "GIMP är tillgängligt för Linux, Microsoft Windows och OS X."
+
+#~ msgid "Painting in Glimpse"
+#~ msgstr "Måla i GIMP"
+
+#~ msgid "Photo editing in Glimpse"
+#~ msgstr "Fotoredigering i GIMP"
+
+#~ msgid ""
+#~ "Glimpse 2.10.12 is a significant bug fix release, which is to be expected "
+#~ "after a 2.10.10 with so many changes! Still, very cool improvements are "
+#~ "also available, in particular for curves editing:"
+#~ msgstr ""
+#~ "Glimpse 2.10.12 är en betydelsefull utgåva med felfixar, vilken förväntas "
+#~ "efter 2.10.10 med alla dess ändringar! Några väldigt häftiga "
+#~ "förbättringar har ändå tillkommit, främst för kurvredigering:"
+
+#~ msgid "Layer support in TIFF"
+#~ msgstr "Lagerstöd i TIFF"
+
+#~ msgid "Discovery of user-installed fonts in Windows"
+#~ msgstr "Upptäckt av användarinstallerade typsnitt i Windows"
+
+#~ msgid "Free Select tool creates preliminary selection"
+#~ msgstr "Verktyget Fri markering skapar en preliminär markering"
+
+#~ msgid ""
+#~ "Glimpse 2.10.10 is quite a big update with many new features and bug "
+#~ "fixes. Notable improvements include:"
+#~ msgstr ""
+#~ "Glimpse 2.10.10 är en rätt stor uppdatering med många nya funktioner och "
+#~ "felfixar. Framstående ändringar inkluderar:"
+
+#~ msgid ""
+#~ "Bucket Fill tool: new \"Fill by line art detection\" for not perfectly "
+#~ "closed line art zones"
+#~ msgstr ""
+#~ "Fyllnadsverktyg: nytt ”Fyll i enligt upptäckt av linjegrafik” för "
+#~ "linjegrafikzoner som inte är fullständigt stängda"
+
+#~ msgid "Bucket Fill tool can now quickly color-pick with Ctrl+click"
+#~ msgstr "Fyllnadsverktyget kan nu snabbt välja färg med Ctrl+klick"
+
+#~ msgid ""
+#~ "Bucket Fill tool allows holding the mouse when filling \"similar colors\" "
+#~ "and \"by line art detection\""
+#~ msgstr ""
+#~ "Fyllnadsverktyget tillåter att hålla nere musen vid fyllning av ”liknande "
+#~ "färger” och ”enligt upptäckt av linjegrafik”"
+
+#~ msgid "Scale tool scales around center even when using numeric input"
+#~ msgstr ""
+#~ "Skalningsverktyget skalar runt centrum även då numerisk inmatning används"
+
+#~ msgid ""
+#~ "Unified Transform tool now defaults to preserving aspect ratio when "
+#~ "scaling up or down"
+#~ msgstr ""
+#~ "Enhetliga transformeringsverktyget har nu som standard att behålla "
+#~ "bildförhållandet vid ändring av skala"
+
+#~ msgid ""
+#~ "Add \"Constrain handles\" and \"Around center\" options to the "
+#~ "perspective-transform tool's GUI"
+#~ msgstr ""
+#~ "Lägg till alternativen ”Begränsa handtag” och ”Runt centrum” till "
+#~ "perspektivtransformeringsverktygets grafiska användargränssnitt"
+
+#~ msgid "New generic canvas modifier 'Alt + middle click' to pick layers"
+#~ msgstr "Ny allmän ritytemodifierare ”Alt + mittenklick” för att välja lager"
+
+#~ msgid "Parametric brushes now 32-bit float to avoid posterization"
+#~ msgstr ""
+#~ "Parametriska penslar använder nu 32-bitars flyttal för att undvika "
+#~ "färgreduktion"
+
+#~ msgid "Clipboard brushes and pattern can now be duplicated"
+#~ msgstr "Urklippspenslar och mönster kan nu dupliceras"
+
+#~ msgid ""
+#~ "Failure to edit locked layers will blink to shift attention to the cause "
+#~ "of the error"
+#~ msgstr ""
+#~ "Misslyckande att redigera låsta lager kommer att blinka för att växla "
+#~ "uppmärksamheten till felets orsak"
+
+#~ msgid ""
+#~ "New on-canvas GUI (simple lines) for circular, linear, and zoom motion "
+#~ "blur"
+#~ msgstr ""
+#~ "Nytt grafiskt användargränssnitt på ritytan (enkla linjer) för cirkulär "
+#~ "och linjär rörelseoskärpa samt zoomrörelseoskärpa"
+
+#~ msgid "Several optimizations including faster layer group rendering"
+#~ msgstr "Flera optimeringar inklusive snabbare rendering av lagergrupper"
+
+#~ msgid ""
+#~ "Swap and cache files are not saved in the configuration directory anymore"
+#~ msgstr ""
+#~ "Växlings- och cachefiler sparas inte längre i konfigurationskatalogen"
+
+#~ msgid ""
+#~ "Various file saving/exporting made more robust to error by not saving "
+#~ "partial files"
+#~ msgstr ""
+#~ "Diverse sparande och exporter av filer har gjorts mer motståndskraftiga "
+#~ "mot fel genom att inte spara partiella filer"
+
+#~ msgid "HiDPI support improvements"
+#~ msgstr "Förbättringar för HiDPI-stöd"
+
+#~ msgid "New preference to choose the default export file type"
+#~ msgstr "Ny inställning för att välja standardfiltypen för export"
+
+#~ msgid ""
+#~ "New option to export PNG, JPEG and TIFF with a color profile; always "
+#~ "export PSD with a color profile"
+#~ msgstr ""
+#~ "Nytt alternativ för att exportera PNG, JPEG och TIFF med en färgprofil; "
+#~ "exportera alltid PSD med en färgprofil"
+
+#~ msgid "New DDS format loading/exporting plug-in"
+#~ msgstr "Ny insticksmodul för inläsning/export av DDS-formatet"
+
+#~ msgid ""
+#~ "Full rewrite of the Spyrogimp plug-in with more options and better "
+#~ "interaction"
+#~ msgstr ""
+#~ "Fullständig omskrivning av insticksmodulen Spirogimp med fler alternativ "
+#~ "och bättre interaktion"
+
+#~ msgid ""
+#~ "Glimpse 2.10.8 is mostly a bug fix and optimization release. In "
+#~ "particular, it includes:"
+#~ msgstr ""
+#~ "Glimpse 2.10.8 är mestadels en utgåva med felfixar och optimering. Främst "
+#~ "inkluderar den:"
+
+#~ msgid ""
+#~ "Adaptative chunk size when rendering projections, improving "
+#~ "responsiveness dynamically"
+#~ msgstr ""
+#~ "Adaptativ styckesstorlek vid rendering av projektioner, förbättrar "
+#~ "svarstid dynamiskt"
+
+#~ msgid "Detection of RawTherapee (version 5.5 and above) improved on Windows"
+#~ msgstr ""
+#~ "Upptäckt av RawTherapee (version 5.5 och högre) har förbättrats på Windows"
+
+#~ msgid ""
+#~ "XCF compatibility information in the Save dialog more understandable and "
+#~ "discoverable"
+#~ msgstr ""
+#~ "XCF-kompatibilitetsinformation i Spara-dialogen är mer lätt att upptäcka "
+#~ "och förstå"
+
+#~ msgid ""
+#~ "Various performance log tools added and log recording made available in "
+#~ "the Dashboard dock"
+#~ msgstr ""
+#~ "Diverse verktyg för prestandaloggar och logginspelning har gjorts "
+#~ "tillgängliga via paneldockan"
+
+#~ msgid ""
+#~ "Glimpse 2.10.6 comes with a lot of bug fixes, optimizations and features. "
+#~ "Most notable changes are:"
+#~ msgstr ""
+#~ "Glimpse 2.10.6 kommer med många felfixar, optimeringar samt nya "
+#~ "funktioner. De mest framstående ändringarna är:"
+
+#~ msgid ""
+#~ "Text layers can now represent vertical texts (with various character "
+#~ "orientations and line directions)"
+#~ msgstr ""
+#~ "Textlager kan nu representera vertikal text (med diverse "
+#~ "teckenorienteringar och radriktningar)"
+
+#~ msgid "New \"Little Planet\" (gegl:stereographic-projection) filter"
+#~ msgstr "Nytt ”Liten planet”-filter (gegl:stereographic-projection)"
+
+#~ msgid "New \"Long Shadow\" filter"
+#~ msgstr "Nytt filter ”Lång skugga”"
+
+#~ msgid ""
+#~ "The \"Straighten\" option of the Measure Tool now allows vertical "
+#~ "straightening"
+#~ msgstr ""
+#~ "Alternativet ”Räta ut” för mätningsverktyget möjliggör nu vertikal "
+#~ "uträtning"
+
+#~ msgid ""
+#~ "Drawable previews are now rendered asynchronously and layer group "
+#~ "previews can be disabled in Preferences"
+#~ msgstr ""
+#~ "Förhandsvisningar för ritytor renderas nu asynkront och förhandsvisningar "
+#~ "för lagergrupper kan inaktiveras i Inställningar"
+
+#~ msgid ""
+#~ "New \"async\" field in the Dashboard \"misc\" group, showing the number "
+#~ "of async operations currently running"
+#~ msgstr ""
+#~ "Ett nytt ”Asynkront”-fält i panelens ”Diverse”-grupp som visar antalet "
+#~ "asynkrona operationer som för närvarande körs"
+
+#~ msgid ""
+#~ "File format filtering in Open/Save/Export dialogs made less confusing"
+#~ msgstr ""
+#~ "Filformatfiltrering i dialogerna för Öppna/Spara/Exportera har gjorts "
+#~ "mindre förvirrande"
+
+#~ msgid ""
+#~ "New language (having Glimpse translated in 81 languages now): Marathi"
+#~ msgstr "Nytt språk (med Glimpse nu översatt till 81 språk): Marathi"
+
+#~ msgid ""
+#~ "Glimpse 2.10.4 includes a lot of bug fixes as well as various "
+#~ "optimizations. Most notable changes are:"
+#~ msgstr ""
+#~ "Glimpse 2.10.4 inkluderar många felfixar så väl som diverse optimeringar. "
+#~ "De mest framstående ändringarna är:"
+
+#~ msgid ""
+#~ "Straightening in Measurement tool: layers can be rotated using the "
+#~ "measurement line as horizon"
+#~ msgstr ""
+#~ "Uträtning i mätningsverktyget: lager kan roteras med måttlinjen som "
+#~ "horisont"
+
+#~ msgid "Fast startup: fonts loading is not blocking startup anymore"
+#~ msgstr ""
+#~ "Snabb uppstart: inläsning av typsnitt blockerar inte längre uppstart"
+
+#~ msgid ""
+#~ "Fonts Tagging with the same user interface as for brushes, patterns, and "
+#~ "gradients"
+#~ msgstr ""
+#~ "Typsnittstaggning med samma användargränssnitt som för penslar, mönster "
+#~ "och gradienter"
+
+#~ msgid "PSD support: a pre-composited version of a PSD image can be imported"
+#~ msgstr "PSD-stöd: en försammanfogad version av en PSD-bild kan importeras"
+
+#~ msgid ""
+#~ "Dashboard update: new \"Memory\" group and improved \"Swap\" group "
+#~ "showing various metrics"
+#~ msgstr ""
+#~ "Paneluppdatering: en ny ”Minnes”-grupp och en förbättrad ”Växlings”-grupp "
+#~ "som visar diverse mätvärden"
+
+#~ msgid ""
+#~ "This second release in the Glimpse 2.10 series, so soon after 2.10.0, is "
+#~ "mostly the usual bug-fixing version after a major release, with a few "
+#~ "dozen bugs fixed."
+#~ msgstr ""
+#~ "Denna andra utgåva i Glimpse 2.10-serien, så snart efter 2.10.0, är "
+#~ "mestadels den vanliga felfixversionen efter en stor utgåva, med några få "
+#~ "dussin fel fixade."
+
+#~ msgid ""
+#~ "It also features a new plug-in for the support of the HEIF format, both "
+#~ "for importing and exporting, as well as 2 new filters: \"Spherize\" and "
+#~ "\"Recursive Transform\". These are nice examples of our relaxed feature "
+#~ "policy in stable micro releases."
+#~ msgstr ""
+#~ "Den har också en ny insticksmodul för stöd för HEIF-formatet, både för "
+#~ "import och export, så väl som 2 nya filter: ”Sfär” och ”Rekursiv "
+#~ "transform”. Dessa är bra exempel på vår lättade policy kring ny "
+#~ "funktionalitet i stabila mikroutgåvor."
+
+#~ msgid ""
+#~ "First release of the 2.10 series which prominently features the port to a "
+#~ "new image processing engine, GEGL. The most outstanding changes are:"
+#~ msgstr ""
+#~ "Den första utgåvan av 2.10-serien vilken introducerar övergången till en "
+#~ "ny bildbehandlingsmotor, GEGL. De främsta ändringarna är:"
+
+#~ msgid "High bit depth color processing (16/32-bit per color channel)"
+#~ msgstr "Färgbearbetning med högt bitdjup (16/32-bit per färgkanal)"
+
+#~ msgid ""
+#~ "Color management is a core feature now, most widgets and preview areas "
+#~ "are color-managed"
+#~ msgstr ""
+#~ "Färghantering är nu en kärnfunktion, de flesta komponenter och "
+#~ "förhandsgranskningsområden är färghanterade"
+
+#~ msgid ""
+#~ "On-canvas effect preview, with split view for before/after processing "
+#~ "pixels"
+#~ msgstr ""
+#~ "Effektförhandsgranskning på ritytan, med delad vy för bildpunkter före/"
+#~ "efter bearbetning"
+
+#~ msgid ""
+#~ "Multi-threaded and hardware-accelerated rendering, processing and painting"
+#~ msgstr ""
+#~ "Flertrådad och hårdvaruaccelererad rendering, bearbetning och målning"
+
+#~ msgid "Most tools improved, several new transformation tools"
+#~ msgstr ""
+#~ "De flesta verktygen har förbättrats, flera nya transformeringsverktyg"
+
+#~ msgid ""
+#~ "Improved support for many image formats, in particular better PSD "
+#~ "importing"
+#~ msgstr "Förbättrat stöd för många bildformat, i synnerhet bättre PSD-import"
+
+#~ msgid "Newly supported image formats: OpenEXR, RGBE, WebP, HGT…"
+#~ msgstr "Nya bildformat som stöds: OpenEXR, RGBE, WebP, HGT…"
+
+#~ msgid ""
+#~ "Improved digital painting: canvas rotation and flipping, symmetry "
+#~ "painting, MyPaint brushes…"
+#~ msgstr ""
+#~ "Förbättrat digitalt målande: rotation och vändande av rityta, "
+#~ "symmetrimålning, MyPaint-penslar…"
+
+#~ msgid "Metadata viewing and editing for Exif, XMP, IPTC, and DICOM"
+#~ msgstr "Visning och redigering av Exif-, XMP-, IPTC- och DICOM-metadata"
+
+#~ msgid "Basic HiDPI support: automatically or user-selected icon size"
+#~ msgstr "Grundläggande HiDPI-stöd: automatisk eller användarvald ikonstorlek"
+
+#~ msgid "New themes for Glimpse: Light, Gray, Dark, and System"
+#~ msgstr "Nya teman för GIMP: Light, Gray, Dark och System"
+
+#~ msgid "And much, much more…"
+#~ msgstr "Samt mycket mer…"
+
+#~ msgid ""
+#~ "In this second release candidate before Glimpse 2.10.0, while debugging "
+#~ "is still a prime target, a new focus has been put on speed and "
+#~ "optimization in order to provide a smoother painting experience. Bigger "
+#~ "changes are:"
+#~ msgstr ""
+#~ "I denna andra releasekandidat innan Glimpse 2.10.0 har, om än felsökning "
+#~ "fortfarande är ett primärt mål, nytt fokus satts på hastighet och "
+#~ "optimering för att tillhandahålla en jämnare målningsupplevelse. Större "
+#~ "ändringar:"
+
+#~ msgid ""
+#~ "Major core optimizations for painting and display, including parallelized "
+#~ "painting code"
+#~ msgstr ""
+#~ "Stora kärnoptimeringar för målning och visning, inklusive parallelliserad "
+#~ "målningskod"
+
+#~ msgid "Symmetries are now preserved in XCF files (saved as image parasites)"
+#~ msgstr "Symmetrier bibehålls nu i XCF-filer (sparade som bildparasiter)"
+
+#~ msgid ""
+#~ "\"Light\" and \"Dark\" themes rewritten from scratch to get rid of "
+#~ "various usability issues. \"Lighter\" and \"Darker\" themes removed."
+#~ msgstr ""
+#~ "Temana ”Light” och ”Dark” är omskrivna från grunden för att komma åt "
+#~ "diverse användbarhetsproblem. Temana ”Lighter” och ”Darker” har tagits "
+#~ "bort."
+
+#~ msgid ""
+#~ "New GimpToolGyroscope on-canvas control, currently used for the Panorama "
+#~ "Projection filter. The widget provides on-canvas interaction for 3D "
+#~ "rotation (yaw, pitch, roll)."
+#~ msgstr ""
+#~ "Ny kontroll direkt på ritytan för GimpToolGyroscope-styrning, används för "
+#~ "närvarande för Panoramaprojiceringsfiltret. Komponenten tillhandahåller "
+#~ "interaktion på ritytan för 3D-rotation (gir, stigning, rullning)."
+
+#~ msgid ""
+#~ "Plug-in debugging improved to output stack traces from plug-ins with --"
+#~ "stack-trace-mode command line option not only on receiving signals but "
+#~ "also on warnings and critical errors when \"fatal-warnings\" debug key is "
+#~ "set"
+#~ msgstr ""
+#~ "Felsökning för insticksmoduler förbättrad för att mata ut stackspår från "
+#~ "insticksmoduler med kommandoradsflaggan --stack-trace-mode inte bara då "
+#~ "signaler mottas utan också vid varningar och kritiska fel då "
+#~ "felsökningsnyckeln ”fatal-warnings” har ställts in"
+
+#~ msgid ""
+#~ "Glimpse 2.10.0-RC1 is the first release candidate before Glimpse 2.10.0 "
+#~ "stable release, with a focus on debugging and stability. Other than the "
+#~ "many bug fixes, most notable improvements are:"
+#~ msgstr ""
+#~ "Glimpse 2.10.0-RC1 är den första releasekandidaten före den stabila "
+#~ "utgåvan Glimpse 2.10.0, med fokus på felsökning och stabilitet. Förutom "
+#~ "de många felfixarna är de mest framstående förbättringarna:"
+
+#~ msgid "New dashboard dockable to monitor Glimpse resource usage"
+#~ msgstr "Ny dockningsbar panel för att övervaka GIMP:s resursanvändning"
+
+#~ msgid ""
+#~ "New debug dialog to produce back traces and other debug data, encouraging "
+#~ "to report bugs"
+#~ msgstr ""
+#~ "En ny felsökningsdialog för att skapa stackspår och annan "
+#~ "felsökningsdata, vilket uppmuntrar till att rapportera fel"
+
+#~ msgid "Unsaved images can now be recovered after a crash"
+#~ msgstr "Osparade bilder kan nu återskapas efter en krasch"
+
+#~ msgid "Layer masks on layer groups"
+#~ msgstr "Lagermasker på lagergrupper"
+
+#~ msgid ""
+#~ "JPEG 2000 support improved for high bit depth and various color spaces"
+#~ msgstr "JPEG 2000-stöd förbättrat för högt bitdjup och diverse färgrymder"
+
+#~ msgid "Screenshot and color picking improved on various platforms"
+#~ msgstr "Skärmbilder och färgval förbättrat på diverse plattformar"
+
+#~ msgid "Metadata defaults preferences now available"
+#~ msgstr "Inställningar för metadatastandardvärden finns nu tillgängliga"
+
+#~ msgid "Various GUI polishing"
+#~ msgstr "Diverse polering av det grafiska användargränssnittet"
+
+#~ msgid ""
+#~ "Glimpse 2.9.8 introduces on-canvas gradient editing and various "
+#~ "enhancements while focusing on bugfixing and stability."
+#~ msgstr ""
+#~ "Glimpse 2.9.8 introducerar redigering av toningar på ritytan och diverse "
+#~ "förbättringar men fokus ligger på felfixar och stabilitet."
+
+#~ msgid "On-canvas gradient editing"
+#~ msgstr "Gradientredigerare på ritytan"
+
+#~ msgid "Notification when an image is over/underexposed"
+#~ msgstr "Avisering när en bild är över-/underexponerad"
+
+#~ msgid "Better and faster color management"
+#~ msgstr "Bättre och snabbare färghantering"
+
+#~ msgid "Support for color picker and screenshots in Wayland on KDE Plasma"
+#~ msgstr "Stöd för färgväljare och skärmbilder i Wayland på KDE Plasma"
+
+#~ msgid "Paste in place feature"
+#~ msgstr "Klistra in i på plats-funktion"
+
+#~ msgid "Many usability improvements"
+#~ msgstr "Många förbättringar vad gäller användbarhet"
+
+#~ msgid "Manual can be displayed in the user's preferred language"
+#~ msgstr "Handboken kan visas i det språk som användaren föredrar"
+
+#~ msgid "Improvements for the Wavelet Decompose filter"
+#~ msgstr "Förbättringar för filtret Wavelet-separera"
+
+#~ msgid "Improved compatibility with Photoshop .psd files"
+#~ msgstr "Förbättrad kompatibilitet med Photoshops .psd-filer"
+
+#~ msgid "New support for password-protected PDF"
+#~ msgstr "Nytt stöd för lösenordsskyddad PDF"
+
+#~ msgid "New support for HGT format (Digital Elevation Model data)"
+#~ msgstr "Nytt stöd för HGT-format (Digital Elevation Model-data)"
+
+#~ msgid ""
+#~ "Copyright © 1995-%s\n"
+#~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
+#~ msgstr ""
+#~ "Copyright © 1995-%s\n"
+#~ "Spencer Kimball, Peter Mattis och GIMP:s utvecklingsteam"
+
+#~ msgid "Show Glimpse _logo (drag-and-drop target)"
+#~ msgstr "Visa GIMP-_logotyp (dra-och-släpp-mål)"
+
+#~ msgid "Glimpse brush"
+#~ msgstr "GIMP-pensel"
+
+#~ msgid "Glimpse pattern"
+#~ msgstr "GIMP-mönster"
 
 #~ msgid "_Offset"
 #~ msgstr "_Position"
@@ -27397,10 +27456,10 @@ msgstr "luddig"
 #~ msgstr "Använd GEGL för att skapa fönstrets projektion"
 
 #~ msgid ""
-#~ "Unable to open swap file. Glimpse has run out of memory and cannot use the "
-#~ "swap file. Some parts of your images may be corrupted. Try to save your "
-#~ "work using different filenames, restart Glimpse and check the location of "
-#~ "the swap directory in your Preferences."
+#~ "Unable to open swap file. Glimpse has run out of memory and cannot use "
+#~ "the swap file. Some parts of your images may be corrupted. Try to save "
+#~ "your work using different filenames, restart Glimpse and check the "
+#~ "location of the swap directory in your Preferences."
 #~ msgstr ""
 #~ "Kunde inte öppna växlingfilen. Glimpse har slut på minne och kan inte "
 #~ "använda växlingsfilen. Delar av dina bilder kan vara skadade. Prova att "
@@ -27495,14 +27554,15 @@ msgstr "luddig"
 #~ "Ödesdigert tolkningsfel i penselfilen \"%s\": Inte en GIMP-penselfil."
 
 #~ msgid ""
-#~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in line "
-#~ "%d."
+#~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in "
+#~ "line %d."
 #~ msgstr ""
 #~ "Ödesdigert tolkningsfel i penselfilen \"%s\": Okänd GIMP-penselversion på "
 #~ "rad %d."
 
 #~ msgid ""
-#~ "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line %d."
+#~ "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line "
+#~ "%d."
 #~ msgstr ""
 #~ "Ödesdigert tolkningsfel i penselfilen \"%s\": Okänd GIMP-penselform på "
 #~ "rad %d."
@@ -27522,7 +27582,8 @@ msgstr "luddig"
 #~ msgid "Fatal parse error in gradient file '%s': Read error in line %d."
 #~ msgstr "Ödesdigert tolkningsfel i gradientfilen \"%s\": Läsfel på rad %d."
 
-#~ msgid "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
+#~ msgid ""
+#~ "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 #~ msgstr ""
 #~ "Ödesdigert tolkningsfel i gradientfilen \"%s\": Inte en GIMP-gradientfil."
 

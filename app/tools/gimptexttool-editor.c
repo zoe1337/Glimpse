@@ -1354,7 +1354,7 @@ gimp_text_tool_editor_dialog (GimpTextTool *text_tool)
   text_tool->editor_dialog =
     gimp_text_options_editor_new (parent, tool->tool_info->gimp, options,
                                   gimp_dialog_factory_get_menu_factory (dialog_factory),
-                                  _("GIMP Text Editor"),
+                                  _("Glimpse Text Editor"),
                                   text_tool->proxy, text_tool->buffer,
                                   xres, yres);
 
