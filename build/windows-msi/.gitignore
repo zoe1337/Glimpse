@@ -1,0 +1,7 @@
+InputFiles32/
+InputFiles64/
+*.wixobj
+*.wixpdb
+*.exe
+*.msi
+*.log
