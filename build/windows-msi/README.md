@@ -16,7 +16,7 @@ These instructions will package the code as a 32-bit Windows MSI installer. To b
 1. Install the WiX toolset and ensure the `%WIX%` environment variable has been set.
 2. Create a folder in this directory called `InputFiles32`
 3. Copy the contents of your 32-bit build folder to `InputFiles32`
-4. Copy the `LICENSE` file to `InputFiles32`
+4. Copy the `LICENSE` file to `InputFiles32\LICENSE.TXT\
 5. Copy the contents of `C:\msys64\mingw32` to `InputFiles32`
 6. Replace every `Guid="YOUR-GUID-HERE"` with your own GUID values
 7. Navigate to the directory this file is in using a command prompt window and run the following commands:
@@ -25,6 +25,7 @@ These instructions will package the code as a 32-bit Windows MSI installer. To b
 "%WIX%bin"\candle.exe Glimpse32.wxs
 "%WIX%bin"\light.exe Glimpse32.wixobj
 ```
+The component versions in `Glimpse32.wxs` may differ from your own, so you will need to update those appropriately. 
 
 You will be pleased to know that we do not include the whole of MinGW inside the MSI file! The WiX build tools just pick out the dependencies we have determined that Glimpse needs to function through a combination of experimentation and guesswork.
 
