@@ -9,7 +9,7 @@ description: |
   batch processing system, a mass production image renderer, an
   image format converter, etc.
 
-icon: snap/local/glimpse.png
+icon: build-aux/snap/local/glimpse.png
 grade: stable
 confinement: strict
 base: core18
@@ -156,7 +156,7 @@ parts:
       usr/lib/$SNAPCRAFT_ARCH_TRIPLET/gtk-3.0: usr/lib/gtk-3.0
 
   desktop-patch:
-    source: snap/local/patches
+    source: build-aux/snap/local/patches
     source-type: local
     plugin: dump
     prime: [-* ]
