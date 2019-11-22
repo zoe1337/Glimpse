@@ -12,7 +12,7 @@ mwindows = -mwindows
 endif
 
 # if HAVE_WINDRES
-# include $(top_srcdir)/build/windows/gimprc-plug-ins.rule
+# include $(top_srcdir)/build-aux/windows/gimprc-plug-ins.rule
 # file_darktable_RC = file-darktable.rc.o
 # file_rawtherapee_RC = file-rawtherapee.rc.o
 # file_raw_placeholder_RC = file-raw-placeholder.rc.o

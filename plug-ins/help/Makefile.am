@@ -12,7 +12,7 @@ mwindows = -mwindows
 endif
 
 if HAVE_WINDRES
-include $(top_srcdir)/build/windows/gimprc-plug-ins.rule
+include $(top_srcdir)/build-aux/windows/gimprc-plug-ins.rule
 help_RC = help.rc.o
 endif
 

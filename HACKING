@@ -52,7 +52,7 @@ Detailed build instructions for Linux
 You can build and package the code as a Flatpak with the following commands:
 
 $ flatpak install flathub org.gnome.Platform//3.32 org.gnome.Sdk//3.32
-$ flatpak-builder --force-clean --ccache _build build/flatpak/org.glimpse_editor.Glimpse.json
+$ flatpak-builder --force-clean --ccache _build build-aux/flatpak/org.glimpse_editor.Glimpse.json
 
 Once you have performed those steps at least once, you should be able to import the code into GNOME Builder and use the in-built IDE tools to build and debug the code as needed.
 

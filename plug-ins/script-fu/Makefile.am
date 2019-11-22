@@ -26,7 +26,7 @@ libtinyscheme=tinyscheme/libtinyscheme.a $(libm)
 libftx=ftx/libftx.a
 
 if HAVE_WINDRES
-include $(top_srcdir)/build/windows/gimprc-plug-ins.rule
+include $(top_srcdir)/build-aux/windows/gimprc-plug-ins.rule
 script_fu_RC = script-fu.rc.o
 endif
 

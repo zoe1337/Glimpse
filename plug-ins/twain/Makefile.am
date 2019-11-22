@@ -20,7 +20,7 @@ twainplatform = tw_win.c
 endif
 
 if HAVE_WINDRES
-include $(top_srcdir)/build/windows/gimprc-plug-ins.rule
+include $(top_srcdir)/build-aux/windows/gimprc-plug-ins.rule
 twain_RC = twain.rc.o
 endif
 

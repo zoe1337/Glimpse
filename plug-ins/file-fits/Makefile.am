@@ -13,7 +13,7 @@ mwindows = -mwindows
 endif
 
 if HAVE_WINDRES
-include $(top_srcdir)/build/windows/gimprc-plug-ins.rule
+include $(top_srcdir)/build-aux/windows/gimprc-plug-ins.rule
 file_fits_RC = file-fits.rc.o
 endif
 
