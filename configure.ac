@@ -2575,7 +2575,7 @@ AC_ARG_ENABLE(windows-installer,
               enable_windows_installer=no)
 
 if test "x$enable_windows_installer" != xno; then
-  if test ! -e "$srcdir/build/windows/installer/lang/setup.isl.in"; then
+  if test ! -e "$srcdir/build-aux/windows/installer/lang/setup.isl.in"; then
     AC_MSG_RESULT([no (not building from git)])
     AC_MSG_ERROR([Building the Windows installer is only supported when building from git.])
   fi
@@ -2847,12 +2847,12 @@ app/tests/gimpdir/brushes/Makefile
 app/tests/gimpdir/gradients/Makefile
 app/tests/gimpdir/patterns/Makefile
 app-tools/Makefile
-build/Makefile
-build/windows/Makefile
-build/windows/gimp.rc
-build/windows/gimp-plug-ins.rc
-build/windows/installer/Makefile
-build/windows/installer/lang/Makefile
+build-aux/Makefile
+build-aux/windows/Makefile
+build-aux/windows/gimp.rc
+build-aux/windows/gimp-plug-ins.rc
+build-aux/windows/installer/Makefile
+build-aux/windows/installer/lang/Makefile
 plug-ins/Makefile
 plug-ins/file-bmp/Makefile
 plug-ins/file-dds/Makefile

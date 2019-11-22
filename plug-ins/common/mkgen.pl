@@ -71,7 +71,7 @@ framework_cocoa = -framework Cocoa
 endif
 
 if HAVE_WINDRES
-include \$(top_srcdir)/build/windows/gimprc-plug-ins.rule
+include \$(top_srcdir)/build-aux/windows/gimprc-plug-ins.rule
 include $rcfile
 endif
 

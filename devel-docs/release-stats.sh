@@ -129,4 +129,4 @@ echo "Core autotools build system:"
 git --no-pager shortlog -sn $PREV..$CUR -- configure.ac "*/Makefile.am" "tools/"
 
 echo "Binary builds:"
-git --no-pager shortlog -sn $PREV..$CUR -- build/
+git --no-pager shortlog -sn $PREV..$CUR -- build-aux/

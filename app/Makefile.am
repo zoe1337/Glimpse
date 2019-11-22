@@ -115,7 +115,7 @@ munix = -Wl,-rpath '-Wl,$$ORIGIN/../lib'
 endif
 
 if HAVE_WINDRES
-include $(top_srcdir)/build/windows/gimprc.rule
+include $(top_srcdir)/build-aux/windows/gimprc.rule
 GIMPRC = $(GLIMPSE_APP_NAME)-$(GLIMPSE_APP_VERSION).rc.o
 GIMPCONSOLERC = $(GLIMPSE_APP_NAME)-console-$(GLIMPSE_APP_VERSION).rc.o
 endif

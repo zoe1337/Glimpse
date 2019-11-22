@@ -38,7 +38,7 @@ SUBDIRS = \
 	etc			\
 	devel-docs		\
 	docs			\
-	build
+	build-aux
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = \
