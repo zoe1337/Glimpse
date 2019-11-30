@@ -19,6 +19,7 @@ icons96dir  = $(gimpdatadir)/icons/Legacy/96x96/apps
 icons128dir = $(gimpdatadir)/icons/Legacy/128x128/apps
 icons192dir = $(gimpdatadir)/icons/Legacy/192x192/apps
 icons256dir = $(gimpdatadir)/icons/Legacy/256x256/apps
+iconsscalabledir = $(gimpdatadir)/icons/Legacy/scalable/apps
 
 ## The icon theme images
 
@@ -509,6 +510,21 @@ icons256_DATA = \
 	256/glimpse-icon.png		\
 	256/gimp-wilber-outline.png
 
+iconsscalable_DATA = \
+	scalable/gimp-channel-alpha.svg		\
+	scalable/gimp-channel-indexed.svg	\
+	scalable/gimp-dynamics.svg		\
+	scalable/gimp-gegl.svg			\
+	scalable/gimp-layer-mask.svg		\
+	scalable/gimp-layer.svg			\
+	scalable/gimp-text-layer.svg		\
+	scalable/gimp-tool-desaturate.svg	\
+	scalable/gimp-tool-measure.svg		\
+	scalable/gimp-user-manual.svg		\
+	scalable/gimp-wilber-outline.svg	\
+	scalable/gimp-wilber.svg		\
+	scalable/glimpse-icon.svg
+
 
 ## Compiled-in icons for both the core and libgimpwidgets
 
@@ -533,6 +549,7 @@ EXTRA_DIST = \
 	$(icons128_DATA)	\
 	$(icons192_DATA)	\
 	$(icons256_DATA)	\
+	$(iconsscalable_DATA)	\
 	$(tools22_DATA)
 
 noinst_DATA = \
