@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 18:38+0000\n"
+"POT-Creation-Date: 2020-01-19 20:06+0000\n"
 "PO-Revision-Date: 2011-02-20 14:14+0200\n"
 "Last-Translator: Xandru Armesto <xandru@softastur.org>\n"
 "Language-Team: Softastur alministradores@softastur.org\n"
@@ -92,7 +92,7 @@ msgstr ""
 "DETERMINÁU.  Llei la Llicencia Pública Xeneral GNU pa mayores detalles.\n"
 "\n"
 "Tendríes que haber recibido una copia de la Llicencia Pública Xeneral GNU "
-"xunto con GIMP; si nun ye asina, escribe a la Free Software Foundation, "
+"xunto con Glimpse; si nun ye asina, escribe a la Free Software Foundation, "
 "Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA."
 
 #: ../app/gimp-version.c:66 ../app/gimp-version.c:164
@@ -255,7 +255,7 @@ msgstr ""
 #: ../app/sanity.c:581
 #, fuzzy, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -12368,7 +12368,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Paez ser qu'useste GIMP %s enantes.  Glimpse migrará los sos axustes "
+"Paez ser qu'useste Glimpse %s enantes.  Glimpse migrará los sos axustes "
 "d'usuariu a «%s»."
 
 #: ../app/core/gimp-user-install.c:220
@@ -17172,8 +17172,9 @@ msgid "pixels/%a"
 msgstr "píxeles/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
-msgid "Quit GIMP"
-msgstr ""
+#, fuzzy
+msgid "Quit Glimpse"
+msgstr "Tocante a Glimpse"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -17371,7 +17372,7 @@ msgstr "¡El ficheru de conseyos de Glimpse nun pudo analizase!"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "Conseyu del día d'El Gimp"
+msgstr "Conseyu del día d'El Glimpse"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -20733,7 +20734,7 @@ msgstr ""
 "El complementu falló: «%s»\n"
 "(%s)\n"
 "El complementu que falló puede que tollera l'estáu internu de Glimpse. "
-"Convendría que grabases toles tos imáxenes y rearranques GIMP, pa nun "
+"Convendría que grabases toles tos imáxenes y rearranques Glimpse, pa nun "
 "arriesgar."
 
 #: ../app/plug-in/gimpplugin-message.c:486
@@ -26148,7 +26149,7 @@ msgstr "Falta el visor d'ayuda"
 
 #: ../app/widgets/gimphelp.c:372
 msgid "The Glimpse help browser is not available."
-msgstr "Nun ta disponible el visor d'ayuda del GIMP"
+msgstr "Nun ta disponible el visor d'ayuda del Glimpse"
 
 #: ../app/widgets/gimphelp.c:373
 msgid ""
@@ -26181,7 +26182,7 @@ msgstr "Usar el restolador _web"
 
 #: ../app/widgets/gimphelp.c:793
 msgid "Glimpse user manual is missing"
-msgstr "Falta'l manual d'usuariu del GIMP"
+msgstr "Falta'l manual d'usuariu del Glimpse"
 
 #: ../app/widgets/gimphelp.c:809
 #, fuzzy
@@ -27217,9 +27218,8 @@ msgid "Error writing XCF: unsupported BPC when writing pixel: %d"
 msgstr ""
 
 #: ../app-tools/gimp-debug-tool.c:78
-#, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "Mensax d'El Gimp"
+msgstr "Mensax d'El Glimpse"
 
 #~ msgid "Create images and edit photographs"
 #~ msgstr "Cree imáxenes y edite semeyes"
@@ -27715,7 +27715,7 @@ msgstr "Mensax d'El Gimp"
 #~ msgstr "Usar namái un Glimpse n'execución, enxamás aniciar otru nuevu"
 
 #~ msgid "Only check if Glimpse is running, then quit"
-#~ msgstr "Namái comprobar si ta executándose GIMP, dempués colar"
+#~ msgstr "Namái comprobar si ta executándose Glimpse, dempués colar"
 
 #~ msgid "Print X window ID of Glimpse toolbox window, then quit"
 #~ msgstr ""
@@ -27726,7 +27726,7 @@ msgstr "Mensax d'El Gimp"
 #~ msgstr "Aniciar Glimpse ensin amosar la ventana d'aniciu"
 
 #~ msgid "Could not connect to Glimpse."
-#~ msgstr "Nun pudo coneutase con GIMP."
+#~ msgstr "Nun pudo coneutase con Glimpse."
 
 #~ msgid "Make sure that the Toolbox is visible!"
 #~ msgstr "¡Decátese de que la caxa de ferramientes tea visible!"

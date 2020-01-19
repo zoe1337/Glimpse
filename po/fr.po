@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Glimpse HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 18:38+0000\n"
+"POT-Creation-Date: 2020-01-19 20:06+0000\n"
 "PO-Revision-Date: 2018-12-01 10:50+0100\n"
 "Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
 "Language-Team: French <gnomefr@traduc.org>\n"
@@ -272,7 +272,7 @@ msgstr ""
 #: ../app/sanity.c:581
 #, fuzzy, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -16788,8 +16788,8 @@ msgstr "pixels/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
-msgid "Quit GIMP"
-msgstr "GIMP"
+msgid "Quit Glimpse"
+msgstr "Quitte l’éditeur d’image GIMP"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -26530,6 +26530,10 @@ msgstr ""
 #, fuzzy
 msgid "Glimpse Crash Debug"
 msgstr "Débogage de Glimpse"
+
+#, fuzzy
+#~ msgid "Quit GIMP"
+#~ msgstr "GIMP"
 
 # Utilisation de l’infinitif dans les infobulles du Bureau
 #~ msgid "Create images and edit photographs"

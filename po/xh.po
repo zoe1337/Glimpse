@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Glimpse part1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 18:38+0000\n"
+"POT-Creation-Date: 2020-01-19 20:06+0000\n"
 "PO-Revision-Date: 2005-03-22 16:29+0200\n"
 "Last-Translator: Canonical Ltd <translations@canonical.com>\n"
 "Language-Team: Xhosa <xh-translate@ubuntu.com>\n"
@@ -266,7 +266,7 @@ msgstr ""
 #: ../app/sanity.c:581
 #, fuzzy, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -18477,8 +18477,8 @@ msgstr "ii-pixel/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
-msgid "Quit GIMP"
-msgstr "I-GIMP"
+msgid "Quit Glimpse"
+msgstr "Malunga ne-GIMP"
 
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
@@ -28870,6 +28870,10 @@ msgstr ""
 #, fuzzy
 msgid "Glimpse Crash Debug"
 msgstr "Umyalezo we-GIMP"
+
+#, fuzzy
+#~ msgid "Quit GIMP"
+#~ msgstr "I-GIMP"
 
 #, fuzzy
 #~ msgid "Create images and edit photographs"

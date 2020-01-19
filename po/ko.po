@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Glimpse 2.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 18:38+0000\n"
+"POT-Creation-Date: 2020-01-19 20:06+0000\n"
 "PO-Revision-Date: 2018-04-26 01:59+0200\n"
 "Last-Translator: Aryeom Han <aryeom@girinstud.io>\n"
 "Language-Team: \n"
@@ -260,7 +260,7 @@ msgstr ""
 #: ../app/sanity.c:581
 #, fuzzy, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -17204,8 +17204,8 @@ msgstr "픽셀/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
-msgid "Quit GIMP"
-msgstr "김프"
+msgid "Quit Glimpse"
+msgstr "김프를 끝냅니다"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -27281,6 +27281,10 @@ msgstr ""
 #, fuzzy
 msgid "Glimpse Crash Debug"
 msgstr "디버그"
+
+#, fuzzy
+#~ msgid "Quit GIMP"
+#~ msgstr "김프"
 
 #~ msgid "Create images and edit photographs"
 #~ msgstr "이미지를 만들고 사진을 편집합니다"

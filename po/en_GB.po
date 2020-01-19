@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 18:38+0000\n"
+"POT-Creation-Date: 2020-01-19 20:06+0000\n"
 "PO-Revision-Date: 2019-01-12 12:00+0000\n"
 "Last-Translator: Bruce Cowan <bruce@bcowan.me.uk>\n"
 "Language-Team: British English <>\n"
@@ -257,7 +257,7 @@ msgstr ""
 #: ../app/sanity.c:581
 #, fuzzy, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -16511,8 +16511,8 @@ msgid "pixels/%a"
 msgstr "pixels/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
-msgid "Quit GIMP"
-msgstr ""
+msgid "Quit Glimpse"
+msgstr "Quit Glimpse"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -26585,9 +26585,6 @@ msgstr "Glimpse Debug"
 
 #~ msgid "Show Glimpse _logo (drag-and-drop target)"
 #~ msgstr "Show Glimpse _logo (drag-and-drop target)"
-
-#~ msgid "Quit Glimpse"
-#~ msgstr "Quit Glimpse"
 
 #~ msgctxt "undo-desc"
 #~ msgid "Flip"

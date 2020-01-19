@@ -44,7 +44,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Glimpse UI translations gimp-2-10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 18:38+0000\n"
+"POT-Creation-Date: 2020-01-19 20:06+0000\n"
 "PO-Revision-Date: 2019-05-12 11:07+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
@@ -292,7 +292,7 @@ msgstr ""
 #: ../app/sanity.c:581
 #, fuzzy, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -16626,8 +16626,8 @@ msgstr "piksel/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
-msgid "Quit GIMP"
-msgstr "GIMP"
+msgid "Quit Glimpse"
+msgstr "GNU Görüntü İşleme Programı'ndan Çık"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -26246,6 +26246,10 @@ msgstr "XCF yazılırken hata: piksel yazılırken desteklenmeyen BPC: %d"
 #, fuzzy
 msgid "Glimpse Crash Debug"
 msgstr "Glimpse Hata Ayıkla"
+
+#, fuzzy
+#~ msgid "Quit GIMP"
+#~ msgstr "GIMP"
 
 #~ msgid "Create images and edit photographs"
 #~ msgstr "Görüntü oluşturur ve fotoğraf düzenler"

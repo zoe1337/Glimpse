@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp.HEAD.pa\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 18:38+0000\n"
+"POT-Creation-Date: 2020-01-19 20:06+0000\n"
 "PO-Revision-Date: 2016-06-15 22:08-0600\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
@@ -254,7 +254,7 @@ msgstr ""
 #: ../app/sanity.c:581
 #, fuzzy, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -17211,8 +17211,8 @@ msgstr "ਪਿਕਸਲ/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
-msgid "Quit GIMP"
-msgstr "ਜੈਮਪ"
+msgid "Quit Glimpse"
+msgstr "ਗਨੂ ਈਮੇਜ਼ ਮੈਨੂਪਲੇਸ਼ਨ ਪਰੋਗਰਾਮ ਨੂੰ ਬੰਦ ਕਰ ਦਿਓ"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -27272,6 +27272,10 @@ msgstr ""
 #, fuzzy
 msgid "Glimpse Crash Debug"
 msgstr "ਜੈਮਪ ਸੁਨੇਹਾ"
+
+#, fuzzy
+#~ msgid "Quit GIMP"
+#~ msgstr "ਜੈਮਪ"
 
 #~ msgid "Create images and edit photographs"
 #~ msgstr "ਚਿੱਤਰ ਬਣਾਓ ਅਤੇ ਤਸਵੀਰਾਂ ਸੋਧੋ"

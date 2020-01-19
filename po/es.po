@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 18:38+0000\n"
+"POT-Creation-Date: 2020-01-19 20:06+0000\n"
 "PO-Revision-Date: 2019-06-10 10:16+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: es <gnome-es-list@gnome.org>\n"
@@ -271,7 +271,7 @@ msgstr ""
 #: ../app/sanity.c:581
 #, fuzzy, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -16764,8 +16764,8 @@ msgstr "píxeles/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
-msgid "Quit GIMP"
-msgstr "GIMP"
+msgid "Quit Glimpse"
+msgstr "Salir del programa de manipulación de imágenes de GNU"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -26445,6 +26445,10 @@ msgstr "Error al escribir el XCF: BPC no soportado al escribir el píxel: %d"
 #, fuzzy
 msgid "Glimpse Crash Debug"
 msgstr "Depurado de Glimpse"
+
+#, fuzzy
+#~ msgid "Quit GIMP"
+#~ msgstr "GIMP"
 
 #~ msgid "Create images and edit photographs"
 #~ msgstr "Cree imágenes y edite fotografías"

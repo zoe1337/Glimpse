@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Glimpse master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 18:38+0000\n"
+"POT-Creation-Date: 2020-01-19 20:06+0000\n"
 "PO-Revision-Date: 2019-05-26 14:59+0200\n"
 "Last-Translator: Tim Sabsch <tim@sabsch.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
@@ -275,15 +275,15 @@ msgstr ""
 #: ../app/sanity.c:581
 #, fuzzy, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
 "you didn't tell GLib about this. Please set the environment variable "
 "G_FILENAME_ENCODING."
 msgstr ""
-"Der Name des Ordners mit der GIMP-Benutzerkonfiguration kann nicht in UTF-8 "
-"umgewandelt werden: %s\n"
+"Der Name des Ordners mit der Glimpse-Benutzerkonfiguration kann nicht in "
+"UTF-8 umgewandelt werden: %s\n"
 "\n"
 "Wahrscheinlich speichert Ihr Dateisystem Dateien in einer anderen Kodierung "
 "als UTF-8 und dieser Zustand ist GLib nicht bekannt. Bitte setzen Sie die "
@@ -16802,8 +16802,8 @@ msgstr "Pixel/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
-msgid "Quit GIMP"
-msgstr "GIMP"
+msgid "Quit Glimpse"
+msgstr "Das Glimpse beenden"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -26530,6 +26530,10 @@ msgstr ""
 #, fuzzy
 msgid "Glimpse Crash Debug"
 msgstr "Glimpse-Fehlerdiagnose"
+
+#, fuzzy
+#~ msgid "Quit GIMP"
+#~ msgstr "GIMP"
 
 #~ msgid "Create images and edit photographs"
 #~ msgstr "Bilder erstellen und Fotografien bearbeiten"

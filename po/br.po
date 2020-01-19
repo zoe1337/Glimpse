@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 18:38+0000\n"
+"POT-Creation-Date: 2020-01-19 20:06+0000\n"
 "PO-Revision-Date: 2012-04-06 23:09+0100\n"
 "Last-Translator: Alan Monfort <alan.monfort@free.fr>\n"
 "Language-Team: An Drouizig <drouizig@drouizig.org>\n"
@@ -43,9 +43,8 @@ msgid "org.glimpse_editor.Glimpse"
 msgstr ""
 
 #: ../app/about.h:22
-#, fuzzy
 msgid "Glimpse"
-msgstr "Kuitaat GIMP"
+msgstr "Kuitaat GLimpse"
 
 #: ../app/about.h:25
 #, fuzzy
@@ -65,7 +64,6 @@ msgstr ""
 #. * Cf. bug 762282.
 #.
 #: ../app/about.h:39
-#, fuzzy
 msgid ""
 "Glimpse is free software: you can redistribute it and/or modify it under the "
 "terms of the GNU General Public License as published by the Free Software "
@@ -80,15 +78,15 @@ msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "Glimpse. If not, see: https://www.gnu.org/licenses/"
 msgstr ""
-"Ur goulev dieub eo GIMP ; aotreet oc'h ouzh e zasparzhañ, ha/pe zaskemmañ "
+"Ur goulev dieub eo Glimpse ; aotreet oc'h ouzh e zasparzhañ, ha/pe zaskemmañ "
 "hervez termenoù al Lañvaz Foran Hollek GNU evel ma 'z eo embannet gant Free "
 "Software Foundation ; pe handelv 3 al lañvaz-mañ, pe (diouzh ho c'hoant) un "
 "handelv nevesoc'h.\\n\n"
 "Dasparzhet eo Glimpse gant ar fiziañs e vo talvoudus, gant GWARANT EBET "
 "koulskoude. Lennit al Lañvaz Foran Hollek GNU evit gouzout muioc'h.\n"
 "\n"
-"Degemeret hoc'h eus un eilad eus  al Lañvaz Foran Hollek GNU gant GIMP ; ma "
-"n'hoc'h eus ket, skrivit da : Free Software Foundation, Inc., 59 Temple "
+"Degemeret hoc'h eus un eilad eus  al Lañvaz Foran Hollek GNU gant Glimpse ; "
+"ma n'hoc'h eus ket, skrivit da : Free Software Foundation, Inc., 59 Temple "
 "Place - Suite 330, Boston, MA 02111-1307, USA."
 
 #: ../app/gimp-version.c:66 ../app/gimp-version.c:164
@@ -222,15 +220,13 @@ msgstr ""
 "Kit da wiriañ ez eus hedrevnadurioù reizh anezho evit hoc'h amva skrammañ."
 
 #: ../app/main.c:510
-#, fuzzy
 msgid "Another Glimpse Image Editor instance is already running."
 msgstr "Un eriol all eus Glimpse zo war arver endeo."
 
 #: ../app/main.c:601
-#, fuzzy
 msgid "Glimpse output. Type any character to close this window."
 msgstr ""
-"Ec'hankad GIMP. Biziata ne vern pe arouezenn evit serriñ ar prenestr-mañ."
+"Ec'hankad Glimpse. Biziata ne vern pe arouezenn evit serriñ ar prenestr-mañ."
 
 #: ../app/main.c:602
 #, c-format
@@ -238,9 +234,9 @@ msgid "(Type any character to close this window)\n"
 msgstr "(Biziata ne vern pe arouezenn evit serriñ ar prenestr-mañ)\n"
 
 #: ../app/main.c:619
-#, fuzzy
 msgid "Glimpse output. You can minimize this window, but don't close it."
-msgstr "Ec'hankad GIMP. Bihanaet e vez ar prenestr-mañ, na serrit ket eñ avat."
+msgstr ""
+"Ec'hankad Glimpse. Bihanaet e vez ar prenestr-mañ, na serrit ket eñ avat."
 
 #: ../app/sanity.c:562
 #, c-format
@@ -256,7 +252,7 @@ msgstr ""
 #: ../app/sanity.c:581
 #, fuzzy, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -3045,12 +3041,12 @@ msgstr "_Tun an Deiz"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "Diskouez tunioù talvoudus a-zivout arver GIMP"
+msgstr "Diskouez tunioù talvoudus a-zivout arver Glimpse"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "A-zivout GIMP"
+msgstr "A-zivout Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 #, fuzzy
@@ -4174,7 +4170,7 @@ msgstr "_Kuitaat"
 #: ../app/actions/file-actions.c:125
 msgctxt "file-action"
 msgid "Quit Glimpse"
-msgstr "Kuitaat GIMP"
+msgstr "Kuitaat Glimpse"
 
 #: ../app/actions/file-actions.c:133 ../app/actions/file-actions.c:308
 msgctxt "file-action"
@@ -5659,7 +5655,7 @@ msgstr "_Skoazell"
 #: ../app/actions/help-actions.c:42
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "Digeriñ dornlevr arveriad GIMP"
+msgstr "Digeriñ dornlevr arveriad Glimpse"
 
 #: ../app/actions/help-actions.c:47
 msgctxt "help-action"
@@ -10259,7 +10255,6 @@ msgid "Single-Window Mode"
 msgstr "Mod dre brenestr eeun"
 
 #: ../app/actions/windows-actions.c:142
-#, fuzzy
 msgctxt "windows-action"
 msgid "When enabled, Glimpse is in a single-window mode."
 msgstr "Pa vez gweredekaet emañ Glimpse en ur mod dre brenestr eeun."
@@ -10420,7 +10415,7 @@ msgstr "Dehouiad"
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
-msgstr "Merdeer skoazellañ GIMP"
+msgstr "Merdeer skoazellañ Glimpse"
 
 #: ../app/config/config-enums.c:187
 msgctxt "help-browser-type"
@@ -10962,11 +10957,11 @@ msgstr ""
 msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr ""
 "Enrollañ lec'hiadur ha mentoù ar boestadoù emziviz pennañ a-raok kuitaat "
-"GIMP."
+"Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:361
 msgid "Save the tool options when Glimpse exits."
-msgstr "Enrollañ dibarzhioù ar binvioù a-raok kuitaat GIMP."
+msgstr "Enrollañ dibarzhioù ar binvioù a-raok kuitaat Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:367
 msgid ""
@@ -11126,12 +11121,13 @@ msgid ""
 "reasons, it may be desirable to put your swap file in \"/tmp\"."
 msgstr ""
 "Arventannañ a ra lec'hiadur ar restr kevamsaviñ. Ur steuñv dezrannañ evit ar "
-"vemor dre vloc'had a vez arveret gant GIMP. Evit kevamsaviñ aes ar "
+"vemor dre vloc'had a vez arveret gant Glimpse. Evit kevamsaviñ aes ar "
 "bloc'hadoù etre ar gantenn hag ar vemor e vez arveret ar restr kevamsaviñ. "
 "Ret eo deoc'h mirout en ho soñj e vez bras kenañ ar restr-mañ mar bez "
-"labouret gant skeudennoù o mentoù bras. Ouzhpenn-se e vez gorrek kenañ GIMP "
-"mar bez krouet ar restr kevamsaviñ war ar rouedad (NFS, Samba, h.a.). Dre an "
-"abegoù-mañ e vez erbedet deoc'h lakaat ho restr kevamsaviñ e \\\"/tmp\"."
+"labouret gant skeudennoù o mentoù bras. Ouzhpenn-se e vez gorrek kenañ "
+"Glimpse mar bez krouet ar restr kevamsaviñ war ar rouedad (NFS, Samba, h."
+"a.). Dre an abegoù-mañ e vez erbedet deoc'h lakaat ho restr kevamsaviñ e \\"
+"\"/tmp\"."
 
 #: ../app/config/gimprc-blurbs.h:455
 msgid "When enabled, menus can be torn off."
@@ -11148,11 +11144,11 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:462
 msgid "Save changed keyboard shortcuts when Glimpse exits."
-msgstr "Enrollañ ar berradennoù klavier daskemmet a-raok kuitaat GIMP."
+msgstr "Enrollañ ar berradennoù klavier daskemmet a-raok kuitaat Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:465
 msgid "Restore saved keyboard shortcuts on each Glimpse startup."
-msgstr "Assav ar berradennoù klavier enrollet bewech ma loc'h GIMP."
+msgstr "Assav ar berradennoù klavier enrollet bewech ma loc'h Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:468
 msgid ""
@@ -11163,8 +11159,8 @@ msgid ""
 msgstr ""
 "Arventennañ a ra ar c'havlec'hiad kadaviñ padennek. Restroù a yay war-wel "
 "ennañ e-pad ma vo Glimpse o vont en-dro. An darnvuiañ eus ar restroù a vo "
-"dilamet pa vo kuitaet GIMP, restroù zo, avat, a chomo ennañ. Gwell e vefe, "
-"neuze, na vefe ket rannet ar c'havlec'hiad-mañ gant arveriaded all."
+"dilamet pa vo kuitaet Glimpse, restroù zo, avat, a chomo ennañ. Gwell e "
+"vefe, neuze, na vefe ket rannet ar c'havlec'hiad-mañ gant arveriaded all."
 
 #: ../app/config/gimprc-blurbs.h:474
 msgid "The name of the theme to use."
@@ -11698,7 +11694,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "A-zivout GIMP"
+msgstr "A-zivout Glimpse"
 
 #: ../app/core/core-enums.c:540
 msgctxt "dynamics-output-type"
@@ -12550,7 +12546,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Arveret hoc'h eus GIMP %s a-raok war a seblant. Glimpse a zegas hoc'h "
+"Arveret hoc'h eus Glimpse %s a-raok war a seblant. Glimpse a zegas hoc'h "
 "arventennoù arveriad betek '%s'."
 
 #: ../app/core/gimp-user-install.c:220
@@ -12559,8 +12555,8 @@ msgid ""
 "It appears that you are using Glimpse for the first time.  Glimpse will now "
 "create a folder named '%s' and copy some files to it."
 msgstr ""
-"Evit ar wech kentañ emaoc'h oc'h arverañ GIMP. Krouet e vo un teuliad anvet "
-"'%s' gant Glimpse hag eilet e vo restroù zo e-barzh."
+"Evit ar wech kentañ emaoc'h oc'h arverañ Glimpse. Krouet e vo un teuliad "
+"anvet '%s' gant Glimpse hag eilet e vo restroù zo e-barzh."
 
 #: ../app/core/gimp-user-install.c:419
 #, c-format
@@ -14786,11 +14782,11 @@ msgstr "dregantad"
 
 #: ../app/dialogs/about-dialog.c:115
 msgid "About Glimpse"
-msgstr "A-zivout GIMP"
+msgstr "A-zivout Glimpse"
 
 #: ../app/dialogs/about-dialog.c:124
 msgid "Visit the Glimpse website"
-msgstr "Kit da welet lec'hienn GIMP"
+msgstr "Kit da welet lec'hienn Glimpse"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -15086,12 +15082,12 @@ msgstr ""
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:192
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "Kemennadenn a-berzh GIMP"
+msgstr "Kemennadenn a-berzh Glimpse"
 
 #: ../app/dialogs/dialogs-constructors.c:225
 #, fuzzy
 msgid "Glimpse Debug"
-msgstr "Kemennadenn a-berzh GIMP"
+msgstr "Kemennadenn a-berzh Glimpse"
 
 #: ../app/dialogs/dialogs.c:315
 msgid "Devices"
@@ -15206,12 +15202,11 @@ msgid "The given filename cannot be used for saving"
 msgstr "An anv restr lavaret n'en deus ket un askouezhadenn restr anavezet."
 
 #: ../app/dialogs/file-save-dialog.c:627
-#, fuzzy
 msgid ""
 "You can use this dialog to save to the Glimpse XCF format. Use File→Export "
 "to export to other file formats."
 msgstr ""
-"Gallout a rit arverañ ar voestad emziviz-mañ da enrollañ e mentrezh GIMP "
+"Gallout a rit arverañ ar voestad emziviz-mañ da enrollañ e mentrezh Glimpse "
 "XCF. Grit gant Restr>Ezporzhiañ evit exporzhiañ e mentrezhoù restr all."
 
 #: ../app/dialogs/file-save-dialog.c:629
@@ -15587,7 +15582,6 @@ msgid "_Refresh"
 msgstr "Azg_renaat ar broustoù"
 
 #: ../app/dialogs/module-dialog.c:153
-#, fuzzy
 msgid "You will have to restart Glimpse for the changes to take effect."
 msgstr "Ret e vo deoc'h adloc'hañ Glimpse a-benn ma vo efedus ar c'hemmoù."
 
@@ -15725,7 +15719,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Adderaouekaet e vo ho perradennoù klavier gant ar gwerzhioù dre ziouer ar "
-"wech kentañ ma vo adloc'het GIMP."
+"wech kentañ ma vo adloc'het Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -15744,7 +15738,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Adderaouekaet e vo ho kefluniadurioù prenestroù gant ar gwerzhioù dre ziouer "
-"ar wech kentañ ma vo adloc'het GIMP."
+"ar wech kentañ ma vo adloc'het Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:756
 #, fuzzy
@@ -15753,7 +15747,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Adderaouekaet e vo ho trobarzhelloù enankañ gant ar gwerzhioù dre ziouer ar "
-"wech kentañ ma vo adloc'het GIMP."
+"wech kentañ ma vo adloc'het Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:798
 #, fuzzy
@@ -15762,7 +15756,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Adderaouekaet e vo ho tibarzhioù binvioù gant ar gwerzhioù dre ziouer ar "
-"wech kentañ ma vo adloc'het GIMP."
+"wech kentañ ma vo adloc'het Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2523
@@ -17375,8 +17369,8 @@ msgstr "a bikselioù/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
-msgid "Quit GIMP"
-msgstr "GIMP"
+msgid "Quit Glimpse"
+msgstr "Kuitaat Glimpse"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -17553,12 +17547,10 @@ msgid "_Emulate brush dynamics"
 msgstr "K_endarvanañ un dialusk broust"
 
 #: ../app/dialogs/tips-dialog.c:99
-#, fuzzy
 msgid "The Glimpse tips file is empty!"
-msgstr "Goullo eo restr tunioù GIMP !"
+msgstr "Goullo eo restr tunioù Glimpse !"
 
 #: ../app/dialogs/tips-dialog.c:103
-#, fuzzy
 msgid "The Glimpse tips file appears to be missing!"
 msgstr "Restr tunioù Glimpse a hañval bezañ ezvezañt !"
 
@@ -17574,7 +17566,7 @@ msgstr "N'hall ket bezañ dezrannet reizh ar restr tunioù !"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "Tun an deiz evit GIMP"
+msgstr "Tun an deiz evit Glimpse"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -19616,7 +19608,7 @@ msgstr "Teulioù"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "Loc'hadur eus GIMP"
+msgstr "Loc'hadur eus Glimpse"
 
 #: ../app/paint/gimpairbrush.c:77 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -24160,7 +24152,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "Embanner testennoù GIMP"
+msgstr "Embanner testennoù Glimpse"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -25734,7 +25726,7 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:488
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "Kuitaat GIMP"
+msgstr "Kuitaat Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:455 ../app/widgets/gimpdashboard.c:507
 msgctxt "dashboard-variable"
@@ -27251,9 +27243,8 @@ msgid "%s Preset"
 msgstr "Ragarventenn %s"
 
 #: ../app/widgets/gimpuimanager.c:772
-#, fuzzy
 msgid "Your Glimpse installation is incomplete:"
-msgstr "Diglok eo ho staliadur GIMP."
+msgstr "Diglok eo ho staliadur Glimpse."
 
 #: ../app/widgets/gimpuimanager.c:774
 msgid "Please make sure the menu XML files are correctly installed."
@@ -27562,16 +27553,18 @@ msgid "Error writing XCF: unsupported BPC when writing pixel: %d"
 msgstr ""
 
 #: ../app-tools/gimp-debug-tool.c:78
-#, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "Kemennadenn a-berzh GIMP"
+msgstr "Kemennadenn a-berzh Glimpse"
+
+#, fuzzy
+#~ msgid "Quit GIMP"
+#~ msgstr "GIMP"
 
 #~ msgid "Create images and edit photographs"
 #~ msgstr "Krouiñ hag embann skeudennoù pe luc'hskeudennoù"
 
-#, fuzzy
 #~ msgid "Glimpse Image Editor"
-#~ msgstr "Embanner testennoù GIMP"
+#~ msgstr "Embanner testennoù Glimpse"
 
 #~ msgid "Image Editor"
 #~ msgstr "Embanner skeudennoù"
@@ -27870,7 +27863,7 @@ msgstr "Kemennadenn a-berzh GIMP"
 #~ msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
 #~ msgstr ""
 #~ "Fazi dezrannañ lazhus e restr ar broust '%s' : N'eo ket ur restr broust "
-#~ "GIMP."
+#~ "Glimpse."
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in "
@@ -27913,7 +27906,7 @@ msgstr "Kemennadenn a-berzh GIMP"
 #~ "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 #~ msgstr ""
 #~ "Fazi dezrannañ lazhus e restr an ilrezennoù '%s' : N'eo ket ur restr "
-#~ "ilrezenn eus GIMP"
+#~ "ilrezenn eus Glimpse"
 
 #~ msgid "Fatal parse error in gradient file '%s': File is corrupt in line %d."
 #~ msgstr ""
@@ -28484,14 +28477,14 @@ msgstr "Kemennadenn a-berzh GIMP"
 
 #~ msgid "Print X window ID of Glimpse toolbox window, then quit"
 #~ msgstr ""
-#~ "Moullañ naoudi (id) prenestr X eus prenestr boestad binvioù GIMP, kuitaat "
-#~ "neuze"
+#~ "Moullañ naoudi (id) prenestr X eus prenestr boestad binvioù Glimpse, "
+#~ "kuitaat neuze"
 
 #~ msgid "Start Glimpse without showing the startup window"
 #~ msgstr "Loc'hañ Glimpse hep diskouez ar prenestr lañsañ"
 
 #~ msgid "Could not connect to Glimpse."
-#~ msgstr "N'haller ket en em gennaskañ ouzh GIMP."
+#~ msgstr "N'haller ket en em gennaskañ ouzh Glimpse."
 
 #~ msgid "Make sure that the Toolbox is visible!"
 #~ msgstr "Bezit asur ez eo hewel ar Voestad binvioù !"

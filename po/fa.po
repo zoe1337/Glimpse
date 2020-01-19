@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Glimpse UI VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 18:38+0000\n"
+"POT-Creation-Date: 2020-01-19 20:06+0000\n"
 "PO-Revision-Date: 2007-04-25 19:03+0330\n"
 "Last-Translator: Meelad Zakaria <meelad@farsiweb.info>\n"
 "Language-Team: Persian\n"
@@ -285,7 +285,7 @@ msgstr ""
 #: ../app/sanity.c:581
 #, fuzzy, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -18453,8 +18453,8 @@ msgstr "نقطه/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
-msgid "Quit GIMP"
-msgstr "گیمپ"
+msgid "Quit Glimpse"
+msgstr "ترک برنامهٔ روتوش تصویر گنوم"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -28824,6 +28824,10 @@ msgstr ""
 #, fuzzy
 msgid "Glimpse Crash Debug"
 msgstr "پیغام گیمپ"
+
+#, fuzzy
+#~ msgid "Quit GIMP"
+#~ msgstr "گیمپ"
 
 #, fuzzy
 #~ msgid "Create images and edit photographs"
