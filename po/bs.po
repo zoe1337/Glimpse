@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 18:38+0000\n"
+"POT-Creation-Date: 2020-01-19 20:06+0000\n"
 "PO-Revision-Date: 2015-03-09 22:37+0100\n"
 "Last-Translator: Emin Šehić <esehic3@etf.unsa.ba>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
@@ -46,9 +46,8 @@ msgid "org.glimpse_editor.Glimpse"
 msgstr ""
 
 #: ../app/about.h:22
-#, fuzzy
 msgid "Glimpse"
-msgstr "Zatvori Gimp"
+msgstr "Zatvori Glimpse"
 
 #: ../app/about.h:25
 #, fuzzy
@@ -92,8 +91,8 @@ msgstr ""
 "GARANCIJA; čak i bez podrazumijevane garancije KORISNOSTI ili PRILAGOĐENOSTI "
 "ODREĐENOJ NAMJENI.  Vidite GNU Opštu Javnu Licencu za više detalja.\n"
 "\n"
-"Trebali ste da primite primjerak GNU Opšte Javne Licence uz Gimp.  Ukoliko "
-"niste, idite na https://www.gnu.org/licenses/."
+"Trebali ste da primite primjerak GNU Opšte Javne Licence uz Glimpse.  "
+"Ukoliko niste, idite na https://www.gnu.org/licenses/."
 
 #: ../app/gimp-version.c:66 ../app/gimp-version.c:164
 #, c-format
@@ -255,7 +254,7 @@ msgstr ""
 #: ../app/sanity.c:581
 #, fuzzy, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -17216,8 +17215,8 @@ msgstr "tačaka/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
-msgid "Quit GIMP"
-msgstr "GIMP"
+msgid "Quit Glimpse"
+msgstr "Izađi iz Gnuovog programa za manipulaciju slikama"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -27207,6 +27206,10 @@ msgstr ""
 #, fuzzy
 msgid "Glimpse Crash Debug"
 msgstr "Poruka Gimpa"
+
+#, fuzzy
+#~ msgid "Quit GIMP"
+#~ msgstr "GIMP"
 
 #~ msgid "Create images and edit photographs"
 #~ msgstr "Napravite slike i obradite fotografije"

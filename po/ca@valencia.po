@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ca\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 18:38+0000\n"
+"POT-Creation-Date: 2020-01-19 20:06+0000\n"
 "PO-Revision-Date: 2018-02-13 12:50+0200\n"
 "Last-Translator: Pilar Embid Giner <embid_mar@gva.es>\n"
 "Language-Team: LliureX\n"
@@ -268,7 +268,7 @@ msgstr ""
 #: ../app/sanity.c:581
 #, fuzzy, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -16796,8 +16796,8 @@ msgstr "píxels/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
-msgid "Quit GIMP"
-msgstr "El GIMP"
+msgid "Quit Glimpse"
+msgstr "Ix del programa de retoc d'imatges de GNU"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -26578,6 +26578,10 @@ msgstr ""
 #, fuzzy
 msgid "Glimpse Crash Debug"
 msgstr "Depuració del GIMP"
+
+#, fuzzy
+#~ msgid "Quit GIMP"
+#~ msgstr "El GIMP"
 
 #, fuzzy
 #~ msgid "Do not use shared memory between GIMP and plug-ins"

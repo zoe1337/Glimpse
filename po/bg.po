@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Glimpse trunk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 18:38+0000\n"
+"POT-Creation-Date: 2020-01-19 20:06+0000\n"
 "PO-Revision-Date: 2007-07-27 15:47+0300\n"
 "Last-Translator: Victor Dachev <vdachev@gmail.com>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
@@ -255,7 +255,7 @@ msgstr ""
 #: ../app/sanity.c:581
 #, fuzzy, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -3195,10 +3195,9 @@ msgid "Show some helpful tips on using Glimpse"
 msgstr ""
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
-#, fuzzy
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "Относно GIMP"
+msgstr "Относно Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 #, fuzzy
@@ -4458,10 +4457,9 @@ msgid "_Quit"
 msgstr "_Спиране на програмата"
 
 #: ../app/actions/file-actions.c:125
-#, fuzzy
 msgctxt "file-action"
 msgid "Quit Glimpse"
-msgstr "Спиране на GNU Image Manipulation Program"
+msgstr "Спиране на Glimpse"
 
 #: ../app/actions/file-actions.c:133 ../app/actions/file-actions.c:308
 #, fuzzy
@@ -5994,10 +5992,9 @@ msgid "_Help"
 msgstr "_Помощ"
 
 #: ../app/actions/help-actions.c:42
-#, fuzzy
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "Отваряне наръчника на GIMP"
+msgstr "Отваряне наръчника на Glimpse"
 
 #: ../app/actions/help-actions.c:47
 #, fuzzy
@@ -11020,10 +11017,9 @@ msgid "Single-Window Mode"
 msgstr ""
 
 #: ../app/actions/windows-actions.c:142
-#, fuzzy
 msgctxt "windows-action"
 msgid "When enabled, Glimpse is in a single-window mode."
-msgstr "Когато се включи, GIMP ще показва асоциации в менютата."
+msgstr "Когато се включи, Glimpse ще показва асоциации в менютата."
 
 #: ../app/actions/windows-actions.c:151
 msgctxt "windows-tabs-position-action"
@@ -11188,10 +11184,9 @@ msgid "Right-handed"
 msgstr ""
 
 #: ../app/config/config-enums.c:186
-#, fuzzy
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
-msgstr "Четец за помощта на GIMP"
+msgstr "Четец за помощта на Glimpse"
 
 #: ../app/config/config-enums.c:187
 #, fuzzy
@@ -11613,7 +11608,7 @@ msgid ""
 "Glimpse will warn the user if an attempt is made to create an image that "
 "would take more memory than the size specified here."
 msgstr ""
-"GIMP ще сигнализира ако потребителят се опитва да създаде изображение, за "
+"Glimpse ще сигнализира ако потребителят се опитва да създаде изображение, за "
 "работа с което не би достигнала памет."
 
 #: ../app/config/gimprc-blurbs.h:266
@@ -11651,10 +11646,9 @@ msgstr ""
 "прозорец."
 
 #: ../app/config/gimprc-blurbs.h:289
-#, fuzzy
 msgid ""
 "Sets how many threads Glimpse should use for operations that support it."
-msgstr "Задава колко процесора да се опитва да използва GIMP едновременно."
+msgstr "Задава колко процесора да се опитва да използва Glimpse едновременно."
 
 #: ../app/config/gimprc-blurbs.h:311
 msgid ""
@@ -11662,16 +11656,15 @@ msgid ""
 "in the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr ""
-"Задава дали GIMP да показва мини-изображения на слоеве и канали. Те са "
+"Задава дали Glimpse да показва мини-изображения на слоеве и канали. Те са "
 "готини но могат да позабавят работата с големи файлове."
 
 #: ../app/config/gimprc-blurbs.h:316
-#, fuzzy
 msgid ""
 "Sets whether Glimpse should create previews of layer groups. Layer group "
 "previews are more expensive than ordinary layer previews."
 msgstr ""
-"Задава дали GIMP да показва мини-изображения на слоеве и канали. Те са "
+"Задава дали Glimpse да показва мини-изображения на слоеве и канали. Те са "
 "готини но могат да позабавят работата с големи файлове."
 
 #: ../app/config/gimprc-blurbs.h:320
@@ -11707,7 +11700,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:337
 msgid "Let Glimpse try to restore your last saved session on each startup."
-msgstr "Възстановяване на последната ви сесия в GIMP при зареждане."
+msgstr "Възстановяване на последната ви сесия в Glimpse при зареждане."
 
 #: ../app/config/gimprc-blurbs.h:340
 msgid ""
@@ -11721,7 +11714,7 @@ msgid ""
 "Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr ""
 "Запомняне на текущият инструмент, цвят и четка при следващото стартиране на "
-"GIMP."
+"Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:349
 msgid ""
@@ -11742,11 +11735,11 @@ msgstr ""
 msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr ""
 "Запазване разположението и размерите на основните прозорци при спиране на "
-"GIMP."
+"Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:361
 msgid "Save the tool options when Glimpse exits."
-msgstr "Запазване настройките на инструментите при спиране на GIMP."
+msgstr "Запазване настройките на инструментите при спиране на Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:367
 msgid ""
@@ -11850,9 +11843,8 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr "Показване на подсказка, когато показалеца се спре на обект."
 
 #: ../app/config/gimprc-blurbs.h:419
-#, fuzzy
 msgid "Use Glimpse in a single-window mode."
-msgstr "Когато се включи, GIMP ще показва асоциации в менютата."
+msgstr "Когато се включи, Glimpse ще показва асоциации в менютата."
 
 #: ../app/config/gimprc-blurbs.h:422
 msgid "Hide docks and other windows, leaving only image windows."
@@ -11898,7 +11890,7 @@ msgid ""
 "swap file is created on a folder that is mounted over NFS.  For these "
 "reasons, it may be desirable to put your swap file in \"/tmp\"."
 msgstr ""
-"Задава местоположението на файла за кеширане. GIMP използва схема за "
+"Задава местоположението на файла за кеширане. Glimpse използва схема за "
 "разпределение на паметта базирана на плочки. Файлът за кеширане се използва "
 "за бързо и лесно прехвърляне на части от файлове на диска и обратно. Имайте "
 "предвид, че той може бързо да нарасне драстично, ако работите с големи "
@@ -11919,13 +11911,13 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:462
 msgid "Save changed keyboard shortcuts when Glimpse exits."
-msgstr "Запазване на клавишните комбинации при излизане от GIMP."
+msgstr "Запазване на клавишните комбинации при излизане от Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:465
 msgid "Restore saved keyboard shortcuts on each Glimpse startup."
 msgstr ""
 "Възстановяване на запазените клавишни комбинации при всяко стартиране на "
-"GIMP."
+"Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:468
 msgid ""
@@ -11935,9 +11927,9 @@ msgid ""
 "that is shared by other users."
 msgstr ""
 "Задава папката за временно съхранение. Файловете за появяват тук, докато "
-"работи програмата.  Повечето ще изчезнат при затваряне на the GIMP, но други "
-"вероятно ще останат, така че е добре тази папка да не се поделя с други "
-"потребители."
+"работи програмата.  Повечето ще изчезнат при затваряне на the Glimpse, но "
+"други вероятно ще останат, така че е добре тази папка да не се поделя с "
+"други потребители."
 
 #: ../app/config/gimprc-blurbs.h:474
 msgid "The name of the theme to use."
@@ -12156,10 +12148,10 @@ msgid ""
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
 msgstr ""
-"Когато количеството данни на изображението превиши това ограничение, GIMP ще "
-"започне да кешира части на диска.  Това е много по-бавно, но прави възможна "
-"работата с изображения, които иначе не биха се побрали в паметта.  Ако имате "
-"много RAM, може би ще предпочетете по-висока стойност."
+"Когато количеството данни на изображението превиши това ограничение, Glimpse "
+"ще започне да кешира части на диска.  Това е много по-бавно, но прави "
+"възможна работата с изображения, които иначе не биха се побрали в паметта.  "
+"Ако имате много RAM, може би ще предпочетете по-висока стойност."
 
 #: ../app/config/gimprc-blurbs.h:637
 #, fuzzy
@@ -12189,7 +12181,7 @@ msgid ""
 "When enabled, Glimpse will not save an image if it has not been changed "
 "since it was opened."
 msgstr ""
-"Когато е включено, GIMP няма да запазва изображението ако не е променяно "
+"Когато е включено, Glimpse няма да запазва изображението ако не е променяно "
 "откакто е отворено."
 
 #: ../app/config/gimprc-blurbs.h:659
@@ -12487,10 +12479,9 @@ msgid "Debug crashes only"
 msgstr ""
 
 #: ../app/core/core-enums.c:454
-#, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Относно GIMP"
+msgstr "Относно Glimpse"
 
 #: ../app/core/core-enums.c:540
 #, fuzzy
@@ -13452,8 +13443,8 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Изглежда сте използвали GIMP %s и преди.  GIMP ще прехвърли потребителските "
-"настройки в „%s“."
+"Изглежда сте използвали Glimpse %s и преди.  Glimpse ще прехвърли "
+"потребителските настройки в „%s“."
 
 #: ../app/core/gimp-user-install.c:220
 #, c-format
@@ -13461,8 +13452,8 @@ msgid ""
 "It appears that you are using Glimpse for the first time.  Glimpse will now "
 "create a folder named '%s' and copy some files to it."
 msgstr ""
-"Изглежда използвате GIMP за пръв път.  GIMP ще създаде папка на име „%s“ и "
-"ще копира там някои файлове."
+"Изглежда използвате Glimpse за пръв път.  Glimpse ще създаде папка на име "
+"„%s“ и ще копира там някои файлове."
 
 #: ../app/core/gimp-user-install.c:419
 #, c-format
@@ -15824,11 +15815,11 @@ msgstr "процента"
 
 #: ../app/dialogs/about-dialog.c:115
 msgid "About Glimpse"
-msgstr "Относно GIMP"
+msgstr "Относно Glimpse"
 
 #: ../app/dialogs/about-dialog.c:124
 msgid "Visit the Glimpse website"
-msgstr "Посещаване сайта на GIMP"
+msgstr "Посещаване сайта на Glimpse"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -15844,7 +15835,7 @@ msgstr ""
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"
-msgstr "GIMP е създаден от"
+msgstr "Glimpse е създаден от"
 
 #: ../app/dialogs/about-dialog.c:606
 #, fuzzy, c-format
@@ -16129,12 +16120,11 @@ msgstr "Наистина ли искате да изтриете „%s“ от �
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:192
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "Съобщение от GIMP"
+msgstr "Съобщение от Glimpse"
 
 #: ../app/dialogs/dialogs-constructors.c:225
-#, fuzzy
 msgid "Glimpse Debug"
-msgstr "Съобщение от GIMP"
+msgstr "Съобщение от Glimpse"
 
 #: ../app/dialogs/dialogs.c:315
 msgid "Devices"
@@ -16624,9 +16614,8 @@ msgid "_Refresh"
 msgstr "_Презареждане на четките"
 
 #: ../app/dialogs/module-dialog.c:153
-#, fuzzy
 msgid "You will have to restart Glimpse for the changes to take effect."
-msgstr "Трябва да рестартирате GIMP, за да се приложат следните промени:"
+msgstr "Трябва да рестартирате Glimpse, за да се приложат следните промени:"
 
 #: ../app/dialogs/module-dialog.c:194
 #, fuzzy
@@ -16752,16 +16741,15 @@ msgstr "Наистина ли искате да върнете всички на
 #, fuzzy
 msgid ""
 "You will have to restart Glimpse for the following changes to take effect:"
-msgstr "Трябва да рестартирате GIMP, за да се приложат следните промени:"
+msgstr "Трябва да рестартирате Glimpse, за да се приложат следните промени:"
 
 #: ../app/dialogs/preferences-dialog.c:647
-#, fuzzy
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
 "start Glimpse."
 msgstr ""
 "Бързите клавиши ще бъдат върнати към стойностите по подразбиране при "
-"следващото стартиране на GIMP."
+"следващото стартиране на Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -16773,31 +16761,28 @@ msgstr ""
 "Наистина ли искате да премахнете всички бързи клавиши от всички менюта?"
 
 #: ../app/dialogs/preferences-dialog.c:721
-#, fuzzy
 msgid ""
 "Your window setup will be reset to default values the next time you start "
 "Glimpse."
 msgstr ""
 "Настройките на прозорците ще бъдат върнати към стойностите по подразбиране "
-"при следващото стартиране на GIMP."
+"при следващото стартиране на Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:756
-#, fuzzy
 msgid ""
 "Your input device settings will be reset to default values the next time you "
 "start Glimpse."
 msgstr ""
 "Настройките на входните устройства ще бъдат върнати към стойностите по "
-"подразбиране при следващото стартиране на GIMP."
+"подразбиране при следващото стартиране на Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:798
-#, fuzzy
 msgid ""
 "Your tool options will be reset to default values the next time you start "
 "Glimpse."
 msgstr ""
 "Настройките на инструментите ще бъдат върнати към стойностите по "
-"подразбиране при следващото стартиране на GIMP."
+"подразбиране при следващото стартиране на Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2523
@@ -17820,12 +17805,12 @@ msgid "H_elp browser to use:"
 msgstr "Четец за _помощта:"
 
 #: ../app/dialogs/preferences-dialog.c:2563
-#, fuzzy
 msgid ""
 "The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
 msgstr ""
-"Приставката за четене на помощта на GIMP изглежда липсва в инсталацията ви."
+"Приставката за четене на помощта на Glimpse изглежда липсва в инсталацията "
+"ви."
 
 #. Action Search
 #: ../app/dialogs/preferences-dialog.c:2580
@@ -18416,17 +18401,16 @@ msgstr "пиксели/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
-msgid "Quit GIMP"
-msgstr "GIMP"
+msgid "Quit Glimpse"
+msgstr "Спиране на Glimpse"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
 msgstr "Затваряне на всички изображения"
 
 #: ../app/dialogs/quit-dialog.c:256
-#, fuzzy
 msgid "If you quit Glimpse now, these changes will be lost."
-msgstr "Ако напуснете GIMP сега, тези промени ще бъдат изгубени."
+msgstr "Ако напуснете Glimpse сега, тези промени ще бъдат изгубени."
 
 #: ../app/dialogs/quit-dialog.c:259
 msgid "If you close these images now, changes will be lost."
@@ -18593,14 +18577,12 @@ msgid "_Emulate brush dynamics"
 msgstr ""
 
 #: ../app/dialogs/tips-dialog.c:99
-#, fuzzy
 msgid "The Glimpse tips file is empty!"
-msgstr "Файлът със съвети за GIMP не може бъде прочетен!"
+msgstr "Файлът със съвети за Glimpse не може бъде прочетен!"
 
 #: ../app/dialogs/tips-dialog.c:103
-#, fuzzy
 msgid "The Glimpse tips file appears to be missing!"
-msgstr "Файлът със съвети за GIMP изглежда липсва!"
+msgstr "Файлът със съвети за Glimpse изглежда липсва!"
 
 #: ../app/dialogs/tips-dialog.c:105
 #, c-format
@@ -18608,13 +18590,12 @@ msgid "There should be a file called '%s'. Please check your installation."
 msgstr "Трябва да има файл, наречен „%s“. Проверете инсталацията."
 
 #: ../app/dialogs/tips-dialog.c:111
-#, fuzzy
 msgid "The Glimpse tips file could not be parsed!"
-msgstr "Файлът със съвети за GIMP не може бъде прочетен!"
+msgstr "Файлът със съвети за Glimpse не може бъде прочетен!"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "Съвет за деня от GIMP"
+msgstr "Съвет за деня от Glimpse"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -18641,17 +18622,17 @@ msgstr "tips-locale:bg"
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "Инсталиране на GIMP"
+msgstr "Инсталиране на Glimpse"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
 msgstr "Грешка при инсталиране!"
 
 #: ../app/dialogs/user-install-dialog.c:96
-#, fuzzy
 msgid "The Glimpse user installation failed; see the log for details."
 msgstr ""
-"Грешка при инсталиране на GIMP; погледнете записа за грешки за подробности."
+"Грешка при инсталиране на Glimpse; погледнете записа за грешки за "
+"подробности."
 
 #: ../app/dialogs/user-install-dialog.c:99
 msgid "Installation Log"
@@ -22064,8 +22045,8 @@ msgstr ""
 "Блокирала приставка „%s“\n"
 "(%s)\n"
 "\n"
-"Може да има конфликт между приставката и GIMP. Най-добре запазете "
-"изображенията и рестартирайте GIMP за всеки случай."
+"Може да има конфликт между приставката и Glimpse. Най-добре запазете "
+"изображенията и рестартирайте Glimpse за всеки случай."
 
 #: ../app/plug-in/gimpplugin-message.c:486
 #, fuzzy, c-format
@@ -25209,9 +25190,8 @@ msgstr ""
 "настройки на текста."
 
 #: ../app/tools/gimptexttool-editor.c:1357
-#, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "Редактор на текст на GIMP"
+msgstr "Редактор на текст на Glimpse"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -26816,9 +26796,8 @@ msgid "Glimpse encountered several critical errors!"
 msgstr ""
 
 #: ../app/widgets/gimpcriticaldialog.c:488
-#, fuzzy
 msgid "_Restart Glimpse"
-msgstr "Спиране на GNU Image Manipulation Program"
+msgstr "Спиране на Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:455 ../app/widgets/gimpdashboard.c:507
 msgctxt "dashboard-variable"
@@ -27570,17 +27549,16 @@ msgid "Help browser is missing"
 msgstr "Четец за _помощта:"
 
 #: ../app/widgets/gimphelp.c:372
-#, fuzzy
 msgid "The Glimpse help browser is not available."
-msgstr "Четец за помощта на GIMP"
+msgstr "Четец за помощта на Glimpse"
 
 #: ../app/widgets/gimphelp.c:373
-#, fuzzy
 msgid ""
 "The Glimpse help browser plug-in appears to be missing from your "
 "installation. You may instead use the web browser for reading the help pages."
 msgstr ""
-"Приставката за четене на помощта на GIMP изглежда липсва в инсталацията ви."
+"Приставката за четене на помощта на Glimpse изглежда липсва в инсталацията "
+"ви."
 
 #: ../app/widgets/gimphelp.c:419
 msgid "Help browser doesn't start"
@@ -27588,13 +27566,14 @@ msgstr "Четецът за помощта не може да бъде пусн�
 
 #: ../app/widgets/gimphelp.c:420
 msgid "Could not start the Glimpse help browser plug-in."
-msgstr "Не може да бъде пусната приставката за четене на помощта на GIMP."
+msgstr "Не може да бъде пусната приставката за четене на помощта на Glimpse."
 
 #: ../app/widgets/gimphelp.c:422
 #, fuzzy
 msgid "You may instead use the web browser for reading the help pages."
 msgstr ""
-"Приставката за четене на помощта на GIMP изглежда липсва в инсталацията ви."
+"Приставката за четене на помощта на Glimpse изглежда липсва в инсталацията "
+"ви."
 
 #: ../app/widgets/gimphelp.c:448
 #, fuzzy
@@ -27602,14 +27581,12 @@ msgid "Use _Web Browser"
 msgstr "Уеб-четец"
 
 #: ../app/widgets/gimphelp.c:793
-#, fuzzy
 msgid "Glimpse user manual is missing"
-msgstr "Отваряне наръчника на GIMP"
+msgstr "Отваряне наръчника на Glimpse"
 
 #: ../app/widgets/gimphelp.c:809
-#, fuzzy
 msgid "The Glimpse user manual is not installed in your language."
-msgstr "Отваряне наръчника на GIMP"
+msgstr "Отваряне наръчника на Glimpse"
 
 #: ../app/widgets/gimphelp.c:820
 msgid "Read Selected _Language"
@@ -28347,9 +28324,8 @@ msgid "%s Preset"
 msgstr "_Готов вид на тирета:"
 
 #: ../app/widgets/gimpuimanager.c:772
-#, fuzzy
 msgid "Your Glimpse installation is incomplete:"
-msgstr "Инсталацията ви на GIMP е непълна:"
+msgstr "Инсталацията ви на Glimpse е непълна:"
 
 #: ../app/widgets/gimpuimanager.c:774
 #, fuzzy
@@ -28675,16 +28651,18 @@ msgid "Error writing XCF: unsupported BPC when writing pixel: %d"
 msgstr ""
 
 #: ../app-tools/gimp-debug-tool.c:78
-#, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "Съобщение от GIMP"
+msgstr "Съобщение от Glimpse"
+
+#, fuzzy
+#~ msgid "Quit GIMP"
+#~ msgstr "GIMP"
 
 #~ msgid "Create images and edit photographs"
 #~ msgstr "Създаване на изображения и редакция на снимки"
 
-#, fuzzy
 #~ msgid "Glimpse Image Editor"
-#~ msgstr "Редактор на текст на GIMP"
+#~ msgstr "Редактор на текст на Glimpse"
 
 #~ msgid "Image Editor"
 #~ msgstr "Редактор на изображения"
@@ -29002,21 +28980,22 @@ msgstr "Съобщение от GIMP"
 #~ msgstr "Стойност"
 
 #~ msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
-#~ msgstr "Грешка при четене на файл с четки „%s“: Това не са четки на GIMP."
+#~ msgstr ""
+#~ "Грешка при четене на файл с четки „%s“: Това не са четки на Glimpse."
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in "
 #~ "line %d."
 #~ msgstr ""
-#~ "Грешка при четене на файл с четки „%s“: Непозната версия на GIMP четки на "
-#~ "ред %d."
+#~ "Грешка при четене на файл с четки „%s“: Непозната версия на Glimpse четки "
+#~ "на ред %d."
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line "
 #~ "%d."
 #~ msgstr ""
-#~ "Грешка при четене на файл с четки „%s“: Непозната форма на GIMP четка на "
-#~ "ред %d."
+#~ "Грешка при четене на файл с четки „%s“: Непозната форма на Glimpse четка "
+#~ "на ред %d."
 
 #~ msgid "Line %d: %s"
 #~ msgstr "Ред %d: %s"
@@ -29045,7 +29024,7 @@ msgstr "Съобщение от GIMP"
 #~ msgid ""
 #~ "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 #~ msgstr ""
-#~ "Грешка при четене на файл с преливки „%s“: Това не са преливки на GIMP."
+#~ "Грешка при четене на файл с преливки „%s“: Това не са преливки на Glimpse."
 
 #~ msgid "Fatal parse error in gradient file '%s': File is corrupt in line %d."
 #~ msgstr ""
@@ -29601,19 +29580,19 @@ msgstr "Съобщение от GIMP"
 #~ msgstr "Грешка при настройки на инструмента: %s"
 
 #~ msgid "Use a running Glimpse only, never start a new one"
-#~ msgstr "Използвайте само отворения GIMP, никога не отваряйте нов"
+#~ msgstr "Използвайте само отворения Glimpse, никога не отваряйте нов"
 
 #~ msgid "Only check if Glimpse is running, then quit"
-#~ msgstr "Само проверка дали GIMP работи и излизане"
+#~ msgstr "Само проверка дали Glimpse работи и излизане"
 
 #~ msgid "Print X window ID of Glimpse toolbox window, then quit"
 #~ msgstr "Отпечатване ID на Glimpse X прозореца преди напускане"
 
 #~ msgid "Start Glimpse without showing the startup window"
-#~ msgstr "Зареждане на GIMP без начален екран"
+#~ msgstr "Зареждане на Glimpse без начален екран"
 
 #~ msgid "Could not connect to Glimpse."
-#~ msgstr "Грешка при свързването с GIMP."
+#~ msgstr "Грешка при свързването с Glimpse."
 
 #~ msgid "Make sure that the Toolbox is visible!"
 #~ msgstr "Уверете се че кутията с инструменти е видима!"
@@ -30033,7 +30012,7 @@ msgstr "Съобщение от GIMP"
 #~ "тях."
 
 #~ msgid "Could not find Glimpse help browser."
-#~ msgstr "Не е открит четецът за помощта на GIMP."
+#~ msgstr "Не е открит четецът за помощта на Glimpse."
 
 #~ msgid "Use _web browser instead"
 #~ msgstr "Използване на _уеб-четец"

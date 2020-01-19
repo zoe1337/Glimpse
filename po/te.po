@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Glimpse 2.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 18:38+0000\n"
+"POT-Creation-Date: 2020-01-19 20:06+0000\n"
 "PO-Revision-Date: 2012-05-15 11:18+0530\n"
 "Last-Translator: Praveen Illa <mail2ipn@gmail.com>\n"
 "Language-Team: సురవర <>\n"
@@ -257,7 +257,7 @@ msgstr ""
 #: ../app/sanity.c:581
 #, fuzzy, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -17207,8 +17207,8 @@ msgstr "చిణువులు /%a"
 
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
-msgid "Quit GIMP"
-msgstr "గింప్"
+msgid "Quit Glimpse"
+msgstr "గ్నూ ఇమేజ్ మానిప్యులేషన్ ప్రోగ్రాము నుండి నిష్క్రమించు"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -27248,6 +27248,10 @@ msgstr ""
 #, fuzzy
 msgid "Glimpse Crash Debug"
 msgstr "గింపు సందేశం"
+
+#, fuzzy
+#~ msgid "Quit GIMP"
+#~ msgstr "గింప్"
 
 #~ msgid "Create images and edit photographs"
 #~ msgstr "బొమ్మలను సృష్టించు మరియు చిత్రాలను సవరించు"
