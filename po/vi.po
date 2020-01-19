@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Glimpse Gnome HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 13:12+0000\n"
+"POT-Creation-Date: 2020-01-19 17:55+0000\n"
 "PO-Revision-Date: 2011-12-27 09:51+0700\n"
 "Last-Translator: Nguyễn Vũ Hưng <vuhung16plus@gmail.com>\n"
 "Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
@@ -23,23 +23,13 @@ msgstr ""
 "X-Poedit-Country: VIET NAM\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:1
-#: ../app/about.h:22
-#, fuzzy
-msgid "Glimpse"
-msgstr "Thoát khỏi GIMP"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
-msgid "Create images and edit photographs"
-msgstr "Tạo và biên soạn ảnh hay ảnh chụp"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:3
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:9
 msgid ""
 "Glimpse Image Editor is a usability-focused free software application "
 "capable of expert level image manipulation."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:4
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:13
 msgid ""
 "Simple tasks like cropping, transforming and retouching photos can be "
 "achieved in just a few clicks. Professional features like batch image "
@@ -47,64 +37,21 @@ msgid ""
 "also included."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:5
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:19
 msgid ""
 "Glimpse is based on the GNU Image Manipulation Program 2.10, so it is "
 "extensible and fully compatible with the same plug-ins, themes and save "
 "files. It is available for Windows and Linux."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:6
-msgid "Crop and transform images in just a few clicks"
+#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in:12
+msgid "org.glimpse_editor.Glimpse"
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:7
-msgid "Apply professional filters and create animations"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:8
-msgid ""
-"After four months of intensive effort, Glimpse 0.1.0 is our very first "
-"binary release. We would like to thank everyone that has supported the "
-"project so far and look forward to building on this work in future releases."
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:9
-msgid ""
-"<li> Every feature in the GNU Image Manipulation Program 2.10.12 </li> <li> "
-"Professional branding throughout the application </li> <li> De-cluttered "
-"user interface without animal mascots and \"easter eggs\" </li> <li> Full "
-"plug-in, theme and save file compatibility with the GNU Image Manipulation "
-"Program </li> <li> Improved build/packaging tools and developer "
-"documentation </li>"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
-msgid "Extra files for Glimpse"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
+#: ../app/about.h:22
 #, fuzzy
-msgid "Glimpse Image Editor"
-msgstr "Bộ hiệu chỉnh văn bản GIMP"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
-msgid "Image Editor"
-msgstr "Bộ biên soạn ảnh"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:3
-#, fuzzy
-msgid "Create and edit images"
-msgstr "Tạo ảnh mới"
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:5
-msgid "graphic;design;illustration;painting;photography;gimp"
-msgstr ""
+msgid "Glimpse"
+msgstr "Thoát khỏi GIMP"
 
 #: ../app/about.h:25
 #, fuzzy
@@ -176,7 +123,7 @@ msgstr "Xuất chi tiết"
 
 #: ../app/main.c:173
 #, fuzzy
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse Image Editor instance"
 msgstr "Mở cửa sổ Glimpse mới"
 
 #: ../app/main.c:178
@@ -201,7 +148,7 @@ msgstr "Không hiển thị cửa sổ khởi chạy"
 
 #: ../app/main.c:203
 #, fuzzy
-msgid "Do not use shared memory between GIMP and plug-ins"
+msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
 msgstr "Không dùng bộ nhớ chia sẻ giữa Glimpse và bổ sung"
 
 #: ../app/main.c:208
@@ -288,12 +235,12 @@ msgstr ""
 
 #: ../app/main.c:510
 #, fuzzy
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse Image Editor instance is already running."
 msgstr "Một cửa sổ Glimpse khác đang chạy"
 
 #: ../app/main.c:601
 #, fuzzy
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr "Đầu ra GIMP. Nhấn phím bất kỳ để đóng cửa sổ này."
 
 #: ../app/main.c:602
@@ -303,7 +250,7 @@ msgstr "(Gõ phím bất kỳ để đóng cửa sổ này)\n"
 
 #: ../app/main.c:619
 #, fuzzy
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "Đầu ra GIMP. Bạn có thể thu nhỏ nó, nhưng đừng đóng hẳn."
 
 #: ../app/sanity.c:562
@@ -11092,7 +11039,7 @@ msgstr "Hiện mẹo công cụ khi con trỏ di chuyển ở trên mục."
 
 #: ../app/config/gimprc-blurbs.h:419
 #, fuzzy
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr "Dùng Glimpse trong chế độ cửa sổ đơn."
 
 #: ../app/config/gimprc-blurbs.h:422
@@ -15178,7 +15125,7 @@ msgstr "Tên tập tin đã cho không có phần mở rộng tập tin đã bi�
 #, fuzzy
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "Bạn có thể dùng hộp thoại này để xuất ra ảnh ở nhiều định dạng khác nhau. "
 "Nếu bạn muốn cất ảnh dạng Glimpse XCF, hãy dùng Tập tin→Lưu."
@@ -15196,8 +15143,8 @@ msgstr "Tên tập tin đã cho không có phần mở rộng tập tin đã bi�
 #: ../app/dialogs/file-save-dialog.c:627
 #, fuzzy
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
-"export to other file formats."
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export "
+"to export to other file formats."
 msgstr ""
 "Bạn có thể dùng hộp thoại này để xuất tập tin Glimpse XCF. Dùng Tập tin→Xuất "
 "nếu muốn xuất ở định dạng khác."
@@ -15701,7 +15648,8 @@ msgstr "Bạn thật sự muốn đặt lại mọi tùy thích thành giá tr�
 
 #: ../app/dialogs/preferences-dialog.c:381
 #, fuzzy
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid ""
+"You will have to restart Glimpse for the following changes to take effect:"
 msgstr "Bạn cần phải khởi chạy lại GIMP để hoạt hóa các thay đổi sau:"
 
 #: ../app/dialogs/preferences-dialog.c:647
@@ -27431,14 +27379,25 @@ msgstr ""
 msgid "Glimpse Crash Debug"
 msgstr "Thông điệp GIMP"
 
-#: ../data/tags/gimp-tags-default.xml.in.h:1
-msgid "round"
-msgstr "tròn"
+#~ msgid "Create images and edit photographs"
+#~ msgstr "Tạo và biên soạn ảnh hay ảnh chụp"
 
-#. fuzzy as in a feathered, blurred, unfocused, soft brush
-#: ../data/tags/gimp-tags-default.xml.in.h:3
-msgid "fuzzy"
-msgstr "mờ"
+#, fuzzy
+#~ msgid "Glimpse Image Editor"
+#~ msgstr "Bộ hiệu chỉnh văn bản GIMP"
+
+#~ msgid "Image Editor"
+#~ msgstr "Bộ biên soạn ảnh"
+
+#, fuzzy
+#~ msgid "Create and edit images"
+#~ msgstr "Tạo ảnh mới"
+
+#~ msgid "round"
+#~ msgstr "tròn"
+
+#~ msgid "fuzzy"
+#~ msgstr "mờ"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

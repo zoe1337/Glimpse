@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:gimp.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 13:12+0000\n"
+"POT-Creation-Date: 2020-01-19 17:55+0000\n"
 "PO-Revision-Date: 2003-07-05 10:29+0530\n"
 "Last-Translator: Mohammed Sadik <sadiqpkp@gmail.com>\n"
 "Language-Team: Malayalam <locale@gnu.org.in>\n"
@@ -17,23 +17,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:1
-#: ../app/about.h:22
-#, fuzzy
-msgid "Glimpse"
-msgstr "ജിമ്പ് നിര്‍ത്തുക"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
-msgid "Create images and edit photographs"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:3
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:9
 msgid ""
 "Glimpse Image Editor is a usability-focused free software application "
 "capable of expert level image manipulation."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:4
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:13
 msgid ""
 "Simple tasks like cropping, transforming and retouching photos can be "
 "achieved in just a few clicks. Professional features like batch image "
@@ -41,64 +31,21 @@ msgid ""
 "also included."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:5
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:19
 msgid ""
 "Glimpse is based on the GNU Image Manipulation Program 2.10, so it is "
 "extensible and fully compatible with the same plug-ins, themes and save "
 "files. It is available for Windows and Linux."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:6
-msgid "Crop and transform images in just a few clicks"
+#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in:12
+msgid "org.glimpse_editor.Glimpse"
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:7
-msgid "Apply professional filters and create animations"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:8
-msgid ""
-"After four months of intensive effort, Glimpse 0.1.0 is our very first "
-"binary release. We would like to thank everyone that has supported the "
-"project so far and look forward to building on this work in future releases."
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:9
-msgid ""
-"<li> Every feature in the GNU Image Manipulation Program 2.10.12 </li> <li> "
-"Professional branding throughout the application </li> <li> De-cluttered "
-"user interface without animal mascots and \"easter eggs\" </li> <li> Full "
-"plug-in, theme and save file compatibility with the GNU Image Manipulation "
-"Program </li> <li> Improved build/packaging tools and developer "
-"documentation </li>"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
-msgid "Extra files for Glimpse"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
+#: ../app/about.h:22
 #, fuzzy
-msgid "Glimpse Image Editor"
-msgstr "ജിമ്പ് XCF ചിത്രം "
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
-msgid "Image Editor"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:3
-#, fuzzy
-msgid "Create and edit images"
-msgstr "ഒരു പുതിയ ചിത്രം നിര്‍മിക്കുക"
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:5
-msgid "graphic;design;illustration;painting;photography;gimp"
-msgstr ""
+msgid "Glimpse"
+msgstr "ജിമ്പ് നിര്‍ത്തുക"
 
 #: ../app/about.h:25
 msgid "A Free and Open Source image editor"
@@ -134,8 +81,8 @@ msgid ""
 msgstr ""
 "GIMP ഒരു സ്വതന്ത്ര സോഫ്റ്റ്​വെയര്‍ ആണു് : ഇത് നിങ്ങള്‍ക്ക് ഫ്രീ സോഫ്റ്റ്‌വയര്‍ ഫൗണ്ടേഷന്‍ പ്രസിദ്ധീകരിച്ച "
 "ഗ്നു ജനറല്‍ പബ്ളിക് ലൈസെന്‍സ് പ്രകാരം വീണ്ടും വിതരണം ചെയ്യുകയും ഒപ്പം /അ‌ല്ലെങ്കില്‍ പരിഷ്കരിക്കുകയും "
-"ചെയ്യാം; ഒന്നുകില്‍ ലൈസന്‍സിന്റെ മൂന്നാം പതിപ്പ് പ്രകാരം, അല്ലെങ്കില്‍ (നിങ്ങളുടെ താല്‍"
-"പര്യമനുസരിച്ച്) അതിനേക്കാള്‍ പുതിയ ഏതെങ്കിലും പതിപ്പനുസരിച്ച്. \n"
+"ചെയ്യാം; ഒന്നുകില്‍ ലൈസന്‍സിന്റെ മൂന്നാം പതിപ്പ് പ്രകാരം, അല്ലെങ്കില്‍ (നിങ്ങളുടെ "
+"താല്‍പര്യമനുസരിച്ച്) അതിനേക്കാള്‍ പുതിയ ഏതെങ്കിലും പതിപ്പനുസരിച്ച്. \n"
 "\n"
 " GIMP വിതരണം ചെയ്യുന്നത് ഇത് ഉപകാരം ചെയ്യും എന്ന് പ്രതീക്ഷിച്ചു കൊണ്ടാണ്. പക്ഷെ ഒരു വാരണ്ടിയും "
 "കൂടാതെ,വില്‍ക്കാവുന്നതോ അല്ലെങ്കില്‍ ഒരു കാര്യത്തിന് ഉചിതമാകും എന്നോ ഉള്ള പരോക്ഷമായ വാരണ്ടി "
@@ -168,7 +115,7 @@ msgstr "കൂടുതല്‍ വാചാലമാകുക"
 
 #: ../app/main.c:173
 #, fuzzy
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse Image Editor instance"
 msgstr "പുതിയ ജിമ്പ് അവസരം തുറക്കുക"
 
 #: ../app/main.c:178
@@ -193,7 +140,7 @@ msgstr "സ്​പ്ലാഷ് സ്ക്രീന്‍ കാണിക�
 
 #: ../app/main.c:203
 #, fuzzy
-msgid "Do not use shared memory between GIMP and plug-ins"
+msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
 msgstr "ജിമ്പും സംയോജകങ്ങളും തമ്മില്‍ മെമ്മറി പങ്കു വെക്കാതിരിക്കുക"
 
 #: ../app/main.c:208
@@ -272,12 +219,12 @@ msgstr ""
 
 #: ../app/main.c:510
 #, fuzzy
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse Image Editor instance is already running."
 msgstr "മറ്റൊരു ജിമ്പ് അവസരം  ആദ്യമേ പ്രവര്‍ത്തിച്ചു കൊണ്ടിരിക്കുന്നുണ്ട്."
 
 #: ../app/main.c:601
 #, fuzzy
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr "ജിമ്പ് ഔട്ട്പുട്ട്. ഇത് അടയ്ക്കാന്‍ വേണ്ടി ഏതെങ്കിലും അക്ഷരം അമര്‍ത്തുക."
 
 #: ../app/main.c:602
@@ -287,7 +234,7 @@ msgstr "(ഇത് അടയ്ക്കാന്‍ വേണ്ടി ഏത�
 
 #: ../app/main.c:619
 #, fuzzy
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "ജിമ്പ് ഔട്ട്പുട്ട്. ഈ ജാലകം നിങ്ങള്‍ക്ക് മിനിമൈസ് ചെയ്യാവുന്നതാണ്, പക്ഷെ ഇത് അടക്കരുത്."
 
 #: ../app/sanity.c:562
@@ -10808,7 +10755,7 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:419
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:422
@@ -14812,7 +14759,7 @@ msgstr ""
 #: ../app/dialogs/file-save-dialog.c:619
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 
 #: ../app/dialogs/file-save-dialog.c:622
@@ -14825,8 +14772,8 @@ msgstr ""
 
 #: ../app/dialogs/file-save-dialog.c:627
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
-"export to other file formats."
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export "
+"to export to other file formats."
 msgstr ""
 
 #: ../app/dialogs/file-save-dialog.c:629
@@ -15310,7 +15257,8 @@ msgid "Do you really want to reset all preferences to default values?"
 msgstr ""
 
 #: ../app/dialogs/preferences-dialog.c:381
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid ""
+"You will have to restart Glimpse for the following changes to take effect:"
 msgstr ""
 
 #: ../app/dialogs/preferences-dialog.c:647
@@ -26644,15 +26592,17 @@ msgstr ""
 msgid "Glimpse Crash Debug"
 msgstr "ജിമ്പ് സന്ദേശം"
 
-#: ../data/tags/gimp-tags-default.xml.in.h:1
 #, fuzzy
-msgid "round"
-msgstr "പുരോതലം"
+#~ msgid "Glimpse Image Editor"
+#~ msgstr "ജിമ്പ് XCF ചിത്രം "
 
-#. fuzzy as in a feathered, blurred, unfocused, soft brush
-#: ../data/tags/gimp-tags-default.xml.in.h:3
-msgid "fuzzy"
-msgstr ""
+#, fuzzy
+#~ msgid "Create and edit images"
+#~ msgstr "ഒരു പുതിയ ചിത്രം നിര്‍മിക്കുക"
+
+#, fuzzy
+#~ msgid "round"
+#~ msgstr "പുരോതലം"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

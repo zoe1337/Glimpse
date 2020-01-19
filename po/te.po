@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Glimpse 2.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 13:12+0000\n"
+"POT-Creation-Date: 2020-01-19 17:55+0000\n"
 "PO-Revision-Date: 2012-05-15 11:18+0530\n"
 "Last-Translator: Praveen Illa <mail2ipn@gmail.com>\n"
 "Language-Team: సురవర <>\n"
@@ -23,23 +23,13 @@ msgstr ""
 "X-Poedit-Country: INDIA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:1
-#: ../app/about.h:22
-#, fuzzy
-msgid "Glimpse"
-msgstr "గింపు నుండి నిష్క్రమించు"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
-msgid "Create images and edit photographs"
-msgstr "బొమ్మలను సృష్టించు మరియు చిత్రాలను సవరించు"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:3
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:9
 msgid ""
 "Glimpse Image Editor is a usability-focused free software application "
 "capable of expert level image manipulation."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:4
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:13
 msgid ""
 "Simple tasks like cropping, transforming and retouching photos can be "
 "achieved in just a few clicks. Professional features like batch image "
@@ -47,64 +37,21 @@ msgid ""
 "also included."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:5
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:19
 msgid ""
 "Glimpse is based on the GNU Image Manipulation Program 2.10, so it is "
 "extensible and fully compatible with the same plug-ins, themes and save "
 "files. It is available for Windows and Linux."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:6
-msgid "Crop and transform images in just a few clicks"
+#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in:12
+msgid "org.glimpse_editor.Glimpse"
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:7
-msgid "Apply professional filters and create animations"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:8
-msgid ""
-"After four months of intensive effort, Glimpse 0.1.0 is our very first "
-"binary release. We would like to thank everyone that has supported the "
-"project so far and look forward to building on this work in future releases."
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:9
-msgid ""
-"<li> Every feature in the GNU Image Manipulation Program 2.10.12 </li> <li> "
-"Professional branding throughout the application </li> <li> De-cluttered "
-"user interface without animal mascots and \"easter eggs\" </li> <li> Full "
-"plug-in, theme and save file compatibility with the GNU Image Manipulation "
-"Program </li> <li> Improved build/packaging tools and developer "
-"documentation </li>"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
-msgid "Extra files for Glimpse"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
+#: ../app/about.h:22
 #, fuzzy
-msgid "Glimpse Image Editor"
-msgstr "గింప్ పాఠ్య కూర్పకం"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
-msgid "Image Editor"
-msgstr "బొమ్మ కూర్పకము"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:3
-#, fuzzy
-msgid "Create and edit images"
-msgstr "కొత్త బొమ్మని సృష్టించు"
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:5
-msgid "graphic;design;illustration;painting;photography;gimp"
-msgstr ""
+msgid "Glimpse"
+msgstr "గింపు నుండి నిష్క్రమించు"
 
 #: ../app/about.h:25
 #, fuzzy
@@ -174,7 +121,7 @@ msgstr "మరింత సవివరంగా చూపించు"
 
 #: ../app/main.c:173
 #, fuzzy
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse Image Editor instance"
 msgstr "ఒక కొత్త గింప్ అవతారాన్ని ప్రారంభించు"
 
 #: ../app/main.c:178
@@ -199,7 +146,7 @@ msgstr "ఆరంభ తెరను చూపించవద్దు"
 
 #: ../app/main.c:203
 #, fuzzy
-msgid "Do not use shared memory between GIMP and plug-ins"
+msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
 msgstr "గింప్ మరియు  చొప్పింతల మధ్య ఉమ్మడి జ్ఞప్తిని ఉపయోగించవద్దు"
 
 #: ../app/main.c:208
@@ -278,12 +225,12 @@ msgstr ""
 
 #: ../app/main.c:510
 #, fuzzy
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse Image Editor instance is already running."
 msgstr "వేరొక గింప్ ప్రక్రియ ఇప్పటికే నడుస్తూంది."
 
 #: ../app/main.c:601
 #, fuzzy
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr "గింప్ ఉత్పత్తి. ఈ కిటికీని మూయుటకు ఏదైనా మీటను నొక్కండి."
 
 #: ../app/main.c:602
@@ -293,7 +240,7 @@ msgstr "(ఈ కిటికీని మూయుటకు ఏదైనా మ�
 
 #: ../app/main.c:619
 #, fuzzy
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "గింప్ ఉత్పత్తి. మీరు ఈ కిటికీని చిన్నగించవచ్చు, కానీ మూయవద్దు."
 
 #: ../app/sanity.c:562
@@ -11041,7 +10988,7 @@ msgstr "సూచకం ఒక అంశంపై ఉన్నప్పుడు
 
 #: ../app/config/gimprc-blurbs.h:419
 #, fuzzy
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr "ఏక కిటికీ స్థితిలో గింపుని వాడు."
 
 #: ../app/config/gimprc-blurbs.h:422
@@ -15094,7 +15041,7 @@ msgstr "ఇచ్చిన దస్రనామం ఏతెలిసిన ద
 #, fuzzy
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "ఈ సంవాదాన్ని ఇతర దస్ర ఆకారాలకు ఎగుమతి చేయడానికి వాడవచ్చు. మీరు గింపు యక్స్‌సిఎఫ్ ఆకారంలో బొమ్మని "
 "భద్రపరచాలంటే, దస్త్రం→భద్రపరుచు వాడాలి."
@@ -15112,8 +15059,8 @@ msgstr "ఇచ్చిన దస్రనామం ఏతెలిసిన ద
 #: ../app/dialogs/file-save-dialog.c:627
 #, fuzzy
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
-"export to other file formats."
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export "
+"to export to other file formats."
 msgstr ""
 "ఈ సంవాదాన్ని వాడి గింప్ యక్స్‌సిఎఫ్ ఆకారంలో భద్రపరచవచ్చు. దస్త్రం -> ఎగుమతి వాడి ఇతర ఆకారాలకు "
 "ఎగుమతించవచ్చు."
@@ -15611,7 +15558,8 @@ msgstr "అన్ని ప్రాధాన్యతలను అప్రమ�
 
 #: ../app/dialogs/preferences-dialog.c:381
 #, fuzzy
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid ""
+"You will have to restart Glimpse for the following changes to take effect:"
 msgstr "ఈ దిగువనున్న మార్పులు ప్రభావం చూపించాలంటే మీరు గింప్‌ను పునఃప్రారంభించాలి:"
 
 #: ../app/dialogs/preferences-dialog.c:647
@@ -27301,14 +27249,25 @@ msgstr ""
 msgid "Glimpse Crash Debug"
 msgstr "గింపు సందేశం"
 
-#: ../data/tags/gimp-tags-default.xml.in.h:1
-msgid "round"
-msgstr "గుండ్రని"
+#~ msgid "Create images and edit photographs"
+#~ msgstr "బొమ్మలను సృష్టించు మరియు చిత్రాలను సవరించు"
 
-#. fuzzy as in a feathered, blurred, unfocused, soft brush
-#: ../data/tags/gimp-tags-default.xml.in.h:3
-msgid "fuzzy"
-msgstr "అస్పస్ట"
+#, fuzzy
+#~ msgid "Glimpse Image Editor"
+#~ msgstr "గింప్ పాఠ్య కూర్పకం"
+
+#~ msgid "Image Editor"
+#~ msgstr "బొమ్మ కూర్పకము"
+
+#, fuzzy
+#~ msgid "Create and edit images"
+#~ msgstr "కొత్త బొమ్మని సృష్టించు"
+
+#~ msgid "round"
+#~ msgstr "గుండ్రని"
+
+#~ msgid "fuzzy"
+#~ msgstr "అస్పస్ట"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

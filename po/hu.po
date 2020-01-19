@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 13:12+0000\n"
+"POT-Creation-Date: 2020-01-19 17:55+0000\n"
 "PO-Revision-Date: 2019-04-26 07:55+0200\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
@@ -27,23 +27,13 @@ msgstr ""
 "X-Generator: Lokalize 18.12.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:1
-#: ../app/about.h:22
-#, fuzzy
-msgid "Glimpse"
-msgstr "Kilépés a Glimpse-ből"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
-msgid "Create images and edit photographs"
-msgstr "Képek létrehozása és fotók szerkesztése"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:3
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:9
 msgid ""
 "Glimpse Image Editor is a usability-focused free software application "
 "capable of expert level image manipulation."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:4
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:13
 msgid ""
 "Simple tasks like cropping, transforming and retouching photos can be "
 "achieved in just a few clicks. Professional features like batch image "
@@ -51,65 +41,21 @@ msgid ""
 "also included."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:5
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:19
 msgid ""
 "Glimpse is based on the GNU Image Manipulation Program 2.10, so it is "
 "extensible and fully compatible with the same plug-ins, themes and save "
 "files. It is available for Windows and Linux."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:6
-msgid "Crop and transform images in just a few clicks"
+#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in:12
+msgid "org.glimpse_editor.Glimpse"
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:7
-msgid "Apply professional filters and create animations"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:8
-msgid ""
-"After four months of intensive effort, Glimpse 0.1.0 is our very first "
-"binary release. We would like to thank everyone that has supported the "
-"project so far and look forward to building on this work in future releases."
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:9
-msgid ""
-"<li> Every feature in the GNU Image Manipulation Program 2.10.12 </li> <li> "
-"Professional branding throughout the application </li> <li> De-cluttered "
-"user interface without animal mascots and \"easter eggs\" </li> <li> Full "
-"plug-in, theme and save file compatibility with the GNU Image Manipulation "
-"Program </li> <li> Improved build/packaging tools and developer "
-"documentation </li>"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
-msgid "Extra files for Glimpse"
-msgstr "További szűrők a Glimpse-hez"
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr "Minták, színátmenetek és egyéb további fájlok a Glimpse-hez"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
+#: ../app/about.h:22
 #, fuzzy
-msgid "Glimpse Image Editor"
-msgstr "Glimpse szövegszerkesztő"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
-msgid "Image Editor"
-msgstr "Képszerkesztő"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:3
-#, fuzzy
-msgid "Create and edit images"
-msgstr "Új kép létrehozása"
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:5
-#, fuzzy
-msgid "graphic;design;illustration;painting;photography;gimp"
-msgstr "Glimpse;grafika;dizájn;tervezés;illusztráció;festés;"
+msgid "Glimpse"
+msgstr "Kilépés a Glimpse-ből"
 
 #: ../app/about.h:25
 #, fuzzy
@@ -180,7 +126,7 @@ msgstr "Több részlet megjelenítése"
 
 #: ../app/main.c:173
 #, fuzzy
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse Image Editor instance"
 msgstr "Új GIMP-példány indítása"
 
 #: ../app/main.c:178
@@ -205,7 +151,7 @@ msgstr "Nem jeleníti meg az üdvözlőképernyőt"
 
 #: ../app/main.c:203
 #, fuzzy
-msgid "Do not use shared memory between GIMP and plug-ins"
+msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
 msgstr "Nem osztja meg a Glimpse a bővítményekkel a memóriát"
 
 #: ../app/main.c:208
@@ -285,12 +231,12 @@ msgstr ""
 
 #: ../app/main.c:510
 #, fuzzy
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse Image Editor instance is already running."
 msgstr "Már fut egy másik GIMP-példány."
 
 #: ../app/main.c:601
 #, fuzzy
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr "GIMP-kimenet. Az ablak bezárásához nyomjon le egy gombot."
 
 #: ../app/main.c:602
@@ -300,7 +246,7 @@ msgstr "(Az ablak bezárásához nyomjon le egy gombot)\n"
 
 #: ../app/main.c:619
 #, fuzzy
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "GIMP-kimenet. Minimalizálhatja az ablakot, de ne zárja be."
 
 #: ../app/sanity.c:562
@@ -10653,7 +10599,7 @@ msgstr "Buboréksúgó megjelenítése, amikor a mutató egy elem felett van."
 
 #: ../app/config/gimprc-blurbs.h:419
 #, fuzzy
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr "A Glimpse egyablakos módban működjön."
 
 #: ../app/config/gimprc-blurbs.h:422
@@ -14697,7 +14643,7 @@ msgstr "A megadott fájlnév nem használható exportáláshoz"
 #, fuzzy
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "Ezzel a párbeszédablakkal exportálhatja a képet különböző formátumokba. Ha a "
 "Glimpse XCF formátumába szeretne menteni, akkor használja ehelyett a "
@@ -14714,8 +14660,8 @@ msgstr "A megadott fájlnév nem használható mentéshez"
 #: ../app/dialogs/file-save-dialog.c:627
 #, fuzzy
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
-"export to other file formats."
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export "
+"to export to other file formats."
 msgstr ""
 "Ezzel a párbeszédablakkal a Glimpse XCF formátumába mentheti a képet. A "
 "Fájl→Exportálás paranccsal exportálhat más formátumokba."
@@ -15204,7 +15150,8 @@ msgstr ""
 
 #: ../app/dialogs/preferences-dialog.c:381
 #, fuzzy
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid ""
+"You will have to restart Glimpse for the following changes to take effect:"
 msgstr ""
 "A következő változtatások érvénybe léptetéséhez újra kell indítania a "
 "Glimpse-et:"
@@ -26381,14 +26328,35 @@ msgstr "Hiba az XCF írásakor: nem támogatott BPC a képpont írásakor: %d"
 msgid "Glimpse Crash Debug"
 msgstr "Glimpse hibakeresés"
 
-#: ../data/tags/gimp-tags-default.xml.in.h:1
-msgid "round"
-msgstr "kerek"
+#~ msgid "Create images and edit photographs"
+#~ msgstr "Képek létrehozása és fotók szerkesztése"
 
-#. fuzzy as in a feathered, blurred, unfocused, soft brush
-#: ../data/tags/gimp-tags-default.xml.in.h:3
-msgid "fuzzy"
-msgstr "lágy"
+#~ msgid "Extra files for Glimpse"
+#~ msgstr "További szűrők a Glimpse-hez"
+
+#~ msgid "Patterns, gradients, and other extra files for Glimpse"
+#~ msgstr "Minták, színátmenetek és egyéb további fájlok a Glimpse-hez"
+
+#, fuzzy
+#~ msgid "Glimpse Image Editor"
+#~ msgstr "Glimpse szövegszerkesztő"
+
+#~ msgid "Image Editor"
+#~ msgstr "Képszerkesztő"
+
+#, fuzzy
+#~ msgid "Create and edit images"
+#~ msgstr "Új kép létrehozása"
+
+#, fuzzy
+#~ msgid "graphic;design;illustration;painting;photography;gimp"
+#~ msgstr "Glimpse;grafika;dizájn;tervezés;illusztráció;festés;"
+
+#~ msgid "round"
+#~ msgstr "kerek"
+
+#~ msgid "fuzzy"
+#~ msgstr "lágy"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

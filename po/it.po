@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Glimpse 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 13:12+0000\n"
+"POT-Creation-Date: 2020-01-19 17:55+0000\n"
 "PO-Revision-Date: 2019-06-03 11:17+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: gimp@erlug.linux.it\n"
@@ -47,23 +47,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:1
-#: ../app/about.h:22
-#, fuzzy
-msgid "Glimpse"
-msgstr "Esci da GIMP"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
-msgid "Create images and edit photographs"
-msgstr "Crea immagini e modifica fotografie"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:3
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:9
 msgid ""
 "Glimpse Image Editor is a usability-focused free software application "
 "capable of expert level image manipulation."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:4
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:13
 msgid ""
 "Simple tasks like cropping, transforming and retouching photos can be "
 "achieved in just a few clicks. Professional features like batch image "
@@ -71,65 +61,21 @@ msgid ""
 "also included."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:5
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:19
 msgid ""
 "Glimpse is based on the GNU Image Manipulation Program 2.10, so it is "
 "extensible and fully compatible with the same plug-ins, themes and save "
 "files. It is available for Windows and Linux."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:6
-msgid "Crop and transform images in just a few clicks"
+#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in:12
+msgid "org.glimpse_editor.Glimpse"
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:7
-msgid "Apply professional filters and create animations"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:8
-msgid ""
-"After four months of intensive effort, Glimpse 0.1.0 is our very first "
-"binary release. We would like to thank everyone that has supported the "
-"project so far and look forward to building on this work in future releases."
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:9
-msgid ""
-"<li> Every feature in the GNU Image Manipulation Program 2.10.12 </li> <li> "
-"Professional branding throughout the application </li> <li> De-cluttered "
-"user interface without animal mascots and \"easter eggs\" </li> <li> Full "
-"plug-in, theme and save file compatibility with the GNU Image Manipulation "
-"Program </li> <li> Improved build/packaging tools and developer "
-"documentation </li>"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
-msgid "Extra files for Glimpse"
-msgstr "File extra per GIMP"
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr "Motivi, gradienti ed altri file extra per GIMP"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
+#: ../app/about.h:22
 #, fuzzy
-msgid "Glimpse Image Editor"
-msgstr "Modifica del testo di GIMP"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
-msgid "Image Editor"
-msgstr "Modifica immagine"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:3
-#, fuzzy
-msgid "Create and edit images"
-msgstr "Crea una nuova immagine"
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:5
-#, fuzzy
-msgid "graphic;design;illustration;painting;photography;gimp"
-msgstr "Glimpse;grafica;design;illustrazioni;disegno;fotoritocco;"
+msgid "Glimpse"
+msgstr "Esci da GIMP"
 
 #: ../app/about.h:25
 #, fuzzy
@@ -198,7 +144,7 @@ msgstr "Sii più prolisso"
 
 #: ../app/main.c:173
 #, fuzzy
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse Image Editor instance"
 msgstr "Esegui una nuova istanza di GIMP"
 
 #: ../app/main.c:178
@@ -223,7 +169,7 @@ msgstr "Non mostrare la schermata iniziale"
 
 #: ../app/main.c:203
 #, fuzzy
-msgid "Do not use shared memory between GIMP and plug-ins"
+msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
 msgstr "Non utilizzare la memoria condivisa tra Glimpse e i plug-in"
 
 #: ../app/main.c:208
@@ -302,12 +248,12 @@ msgstr ""
 
 #: ../app/main.c:510
 #, fuzzy
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse Image Editor instance is already running."
 msgstr "Un'altra istanza di GIMP è già in esecuzione."
 
 #: ../app/main.c:601
 #, fuzzy
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr ""
 "Messaggi di GIMP. Premere un tasto qualsiasi per chiudere questa finestra."
 
@@ -318,7 +264,7 @@ msgstr "(premere un tasto qualsiasi per chiudere questa finestra)\n"
 
 #: ../app/main.c:619
 #, fuzzy
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr ""
 "Messaggi di GIMP. È possibile ridurre a icona questa finestra ma non "
 "chiuderla."
@@ -10668,7 +10614,7 @@ msgstr "Mostra un suggerimento quando il puntatore passa sopra un elemento."
 
 #: ../app/config/gimprc-blurbs.h:419
 #, fuzzy
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr "Usa Glimpse in modalità a finestra singola."
 
 #: ../app/config/gimprc-blurbs.h:422
@@ -14718,7 +14664,7 @@ msgstr "Il nome file dato non può essere usato per l'esportazione"
 #, fuzzy
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "Questa finestra di dialogo serve a esportare in vari formati. Se invece si "
 "desidera salvare l'immagine nel formato nativo di Glimpse XCF, usare il "
@@ -14735,8 +14681,8 @@ msgstr "Il nome file dato non può essere usato per il salvataggio"
 #: ../app/dialogs/file-save-dialog.c:627
 #, fuzzy
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
-"export to other file formats."
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export "
+"to export to other file formats."
 msgstr ""
 "Questa finestra di dialogo serve per salvare nel formato nativo di Glimpse "
 "XCF. Per esportare in altri formati usare invece il comando File→Esporta."
@@ -15223,7 +15169,8 @@ msgstr "Sicuri di voler reimpostare tutte le preferenze ai valori predefiniti?"
 
 #: ../app/dialogs/preferences-dialog.c:381
 #, fuzzy
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid ""
+"You will have to restart Glimpse for the following changes to take effect:"
 msgstr ""
 "È necessario riavviare Glimpse affinché i seguenti cambiamenti abbiano "
 "effetto:"
@@ -26434,14 +26381,35 @@ msgstr ""
 msgid "Glimpse Crash Debug"
 msgstr "Debug di GIMP"
 
-#: ../data/tags/gimp-tags-default.xml.in.h:1
-msgid "round"
-msgstr "tondo"
+#~ msgid "Create images and edit photographs"
+#~ msgstr "Crea immagini e modifica fotografie"
 
-#. fuzzy as in a feathered, blurred, unfocused, soft brush
-#: ../data/tags/gimp-tags-default.xml.in.h:3
-msgid "fuzzy"
-msgstr "frastagliata"
+#~ msgid "Extra files for Glimpse"
+#~ msgstr "File extra per GIMP"
+
+#~ msgid "Patterns, gradients, and other extra files for Glimpse"
+#~ msgstr "Motivi, gradienti ed altri file extra per GIMP"
+
+#, fuzzy
+#~ msgid "Glimpse Image Editor"
+#~ msgstr "Modifica del testo di GIMP"
+
+#~ msgid "Image Editor"
+#~ msgstr "Modifica immagine"
+
+#, fuzzy
+#~ msgid "Create and edit images"
+#~ msgstr "Crea una nuova immagine"
+
+#, fuzzy
+#~ msgid "graphic;design;illustration;painting;photography;gimp"
+#~ msgstr "Glimpse;grafica;design;illustrazioni;disegno;fotoritocco;"
+
+#~ msgid "round"
+#~ msgstr "tondo"
+
+#~ msgid "fuzzy"
+#~ msgstr "frastagliata"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

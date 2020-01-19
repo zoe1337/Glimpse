@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 13:12+0000\n"
+"POT-Creation-Date: 2020-01-19 17:55+0000\n"
 "PO-Revision-Date: 2019-04-20 01:36+0800\n"
 "Last-Translator: lumingzh <lumingzh@qq.com>\n"
 "Language-Team: Chinese - China <i18n-zh@googlegroups.com>\n"
@@ -32,23 +32,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:1
-#: ../app/about.h:22
-#, fuzzy
-msgid "Glimpse"
-msgstr "退出 GIMP"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
-msgid "Create images and edit photographs"
-msgstr "创建图像或编辑照片"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:3
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:9
 msgid ""
 "Glimpse Image Editor is a usability-focused free software application "
 "capable of expert level image manipulation."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:4
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:13
 msgid ""
 "Simple tasks like cropping, transforming and retouching photos can be "
 "achieved in just a few clicks. Professional features like batch image "
@@ -56,65 +46,21 @@ msgid ""
 "also included."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:5
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:19
 msgid ""
 "Glimpse is based on the GNU Image Manipulation Program 2.10, so it is "
 "extensible and fully compatible with the same plug-ins, themes and save "
 "files. It is available for Windows and Linux."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:6
-msgid "Crop and transform images in just a few clicks"
+#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in:12
+msgid "org.glimpse_editor.Glimpse"
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:7
-msgid "Apply professional filters and create animations"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:8
-msgid ""
-"After four months of intensive effort, Glimpse 0.1.0 is our very first "
-"binary release. We would like to thank everyone that has supported the "
-"project so far and look forward to building on this work in future releases."
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:9
-msgid ""
-"<li> Every feature in the GNU Image Manipulation Program 2.10.12 </li> <li> "
-"Professional branding throughout the application </li> <li> De-cluttered "
-"user interface without animal mascots and \"easter eggs\" </li> <li> Full "
-"plug-in, theme and save file compatibility with the GNU Image Manipulation "
-"Program </li> <li> Improved build/packaging tools and developer "
-"documentation </li>"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
-msgid "Extra files for Glimpse"
-msgstr "GIMP 的额外文件"
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr "GIMP 的图案、渐变和其他额外文件"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
+#: ../app/about.h:22
 #, fuzzy
-msgid "Glimpse Image Editor"
-msgstr "GIMP 文字编辑器"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
-msgid "Image Editor"
-msgstr "图像编辑器"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:3
-#, fuzzy
-msgid "Create and edit images"
-msgstr "创建新的图像"
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:5
-#, fuzzy
-msgid "graphic;design;illustration;painting;photography;gimp"
-msgstr "GIMP;图形;设计;绘画;graphic;design;illustration;painting;"
+msgid "Glimpse"
+msgstr "退出 GIMP"
 
 #: ../app/about.h:25
 #, fuzzy
@@ -182,7 +128,7 @@ msgstr "输出更详细信息"
 
 #: ../app/main.c:173
 #, fuzzy
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse Image Editor instance"
 msgstr "启动一个新的 GIMP 实例"
 
 #: ../app/main.c:178
@@ -207,7 +153,7 @@ msgstr "不显示启动画面"
 
 #: ../app/main.c:203
 #, fuzzy
-msgid "Do not use shared memory between GIMP and plug-ins"
+msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
 msgstr "不在 GIMP 和插件之间使用共享内存"
 
 #: ../app/main.c:208
@@ -286,12 +232,12 @@ msgstr ""
 
 #: ../app/main.c:510
 #, fuzzy
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse Image Editor instance is already running."
 msgstr "另一个 GIMP 实例已在运行。"
 
 #: ../app/main.c:601
 #, fuzzy
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr "GIMP 输出。键入任意字符以关闭此窗口。"
 
 #: ../app/main.c:602
@@ -301,7 +247,7 @@ msgstr "（键入任意字符关闭本窗口）\n"
 
 #: ../app/main.c:619
 #, fuzzy
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "GIMP 输出。您可以最小化该窗口，但请不要关闭窗口。"
 
 #: ../app/sanity.c:562
@@ -10494,7 +10440,7 @@ msgstr "当指针悬停在项目上时显示工具提示。"
 
 #: ../app/config/gimprc-blurbs.h:419
 #, fuzzy
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr "以单窗口模式使用 GIMP。"
 
 #: ../app/config/gimprc-blurbs.h:422
@@ -14391,7 +14337,7 @@ msgstr "给定的文件名不能用于导出"
 #, fuzzy
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "您可以用此对话框导出多种文件格式。如果您想将图像保存为 Glimpse XCF 格式，请改"
 "用 [文件] → [保存]。"
@@ -14407,8 +14353,8 @@ msgstr "给定的文件名不能用于保存"
 #: ../app/dialogs/file-save-dialog.c:627
 #, fuzzy
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
-"export to other file formats."
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export "
+"to export to other file formats."
 msgstr ""
 "您可以用此对话框保存到 Glimpse XCF 格式。使用文件→导出以导出到其他文件格式。"
 
@@ -14885,7 +14831,8 @@ msgstr "您真的要将所有首选项重置到默认值吗？"
 
 #: ../app/dialogs/preferences-dialog.c:381
 #, fuzzy
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid ""
+"You will have to restart Glimpse for the following changes to take effect:"
 msgstr "您需要重启 GIMP 以使下列改变生效："
 
 #: ../app/dialogs/preferences-dialog.c:647
@@ -25877,14 +25824,35 @@ msgstr "写入 XCF 时出错：写入像素：%d 时不支持 BPC"
 msgid "Glimpse Crash Debug"
 msgstr "GIMP 调试"
 
-#: ../data/tags/gimp-tags-default.xml.in.h:1
-msgid "round"
-msgstr "圆"
+#~ msgid "Create images and edit photographs"
+#~ msgstr "创建图像或编辑照片"
 
-#. fuzzy as in a feathered, blurred, unfocused, soft brush
-#: ../data/tags/gimp-tags-default.xml.in.h:3
-msgid "fuzzy"
-msgstr "模糊"
+#~ msgid "Extra files for Glimpse"
+#~ msgstr "GIMP 的额外文件"
+
+#~ msgid "Patterns, gradients, and other extra files for Glimpse"
+#~ msgstr "GIMP 的图案、渐变和其他额外文件"
+
+#, fuzzy
+#~ msgid "Glimpse Image Editor"
+#~ msgstr "GIMP 文字编辑器"
+
+#~ msgid "Image Editor"
+#~ msgstr "图像编辑器"
+
+#, fuzzy
+#~ msgid "Create and edit images"
+#~ msgstr "创建新的图像"
+
+#, fuzzy
+#~ msgid "graphic;design;illustration;painting;photography;gimp"
+#~ msgstr "GIMP;图形;设计;绘画;graphic;design;illustration;painting;"
+
+#~ msgid "round"
+#~ msgstr "圆"
+
+#~ msgid "fuzzy"
+#~ msgstr "模糊"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

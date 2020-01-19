@@ -416,7 +416,7 @@ _("When enabled, the sample points are visible by default. This can also be " \
 _("Show a tooltip when the pointer hovers over an item.")
 
 #define SINGLE_WINDOW_MODE_BLURB \
-_("Use GIMP in a single-window mode.")
+_("Use Glimpse in a single-window mode.")
 
 #define HIDE_DOCKS_BLURB \
 _("Hide docks and other windows, leaving only image windows.")

@@ -378,7 +378,7 @@ prefs_response (GtkWidget *widget,
           {
             GString *string;
 
-            string = g_string_new (_("You will have to restart GIMP for "
+            string = g_string_new (_("You will have to restart Glimpse for "
                                      "the following changes to take effect:"));
             g_string_append (string, "\n\n");
 
