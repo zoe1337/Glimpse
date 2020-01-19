@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Glimpse master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 13:12+0000\n"
+"POT-Creation-Date: 2020-01-19 17:55+0000\n"
 "PO-Revision-Date: 2019-05-26 14:59+0200\n"
 "Last-Translator: Tim Sabsch <tim@sabsch.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
@@ -33,23 +33,13 @@ msgstr ""
 "X-Generator: Poedit 2.2.1\n"
 "X-Project-Style: gnome\n"
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:1
-#: ../app/about.h:22
-#, fuzzy
-msgid "Glimpse"
-msgstr "Glimpse beenden"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
-msgid "Create images and edit photographs"
-msgstr "Bilder erstellen und Fotografien bearbeiten"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:3
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:9
 msgid ""
 "Glimpse Image Editor is a usability-focused free software application "
 "capable of expert level image manipulation."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:4
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:13
 msgid ""
 "Simple tasks like cropping, transforming and retouching photos can be "
 "achieved in just a few clicks. Professional features like batch image "
@@ -57,65 +47,21 @@ msgid ""
 "also included."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:5
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:19
 msgid ""
 "Glimpse is based on the GNU Image Manipulation Program 2.10, so it is "
 "extensible and fully compatible with the same plug-ins, themes and save "
 "files. It is available for Windows and Linux."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:6
-msgid "Crop and transform images in just a few clicks"
+#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in:12
+msgid "org.glimpse_editor.Glimpse"
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:7
-msgid "Apply professional filters and create animations"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:8
-msgid ""
-"After four months of intensive effort, Glimpse 0.1.0 is our very first "
-"binary release. We would like to thank everyone that has supported the "
-"project so far and look forward to building on this work in future releases."
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:9
-msgid ""
-"<li> Every feature in the GNU Image Manipulation Program 2.10.12 </li> <li> "
-"Professional branding throughout the application </li> <li> De-cluttered "
-"user interface without animal mascots and \"easter eggs\" </li> <li> Full "
-"plug-in, theme and save file compatibility with the GNU Image Manipulation "
-"Program </li> <li> Improved build/packaging tools and developer "
-"documentation </li>"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
-msgid "Extra files for Glimpse"
-msgstr "Zusätzliche Dateien für GIMP"
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr "Muster, Farbverläufe und weitere zusätzliche Dateien für GIMP"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
+#: ../app/about.h:22
 #, fuzzy
-msgid "Glimpse Image Editor"
-msgstr "GIMP-Texteditor"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
-msgid "Image Editor"
-msgstr "Bildeditor"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:3
-#, fuzzy
-msgid "Create and edit images"
-msgstr "Ein neues Bild erstellen"
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:5
-#, fuzzy
-msgid "graphic;design;illustration;painting;photography;gimp"
-msgstr "Glimpse;Grafik;Design;Illustration;Malen;"
+msgid "Glimpse"
+msgstr "Glimpse beenden"
 
 #: ../app/about.h:25
 #, fuzzy
@@ -159,7 +105,7 @@ msgstr ""
 "Gewährleistung der MARKTREIFE oder der EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. "
 "Details finden Sie in der GNU General Public License.\n"
 "\n"
-"Sie sollten eine Kopie der GNU General Public License zusammen mit GIMP "
+"Sie sollten eine Kopie der GNU General Public License zusammen mit Glimpse "
 "erhalten haben. Falls nicht, finden Sie sie unter http://www.gnu.org/"
 "licenses/"
 
@@ -186,9 +132,8 @@ msgid "Be more verbose"
 msgstr "Ausführlicher verhalten"
 
 #: ../app/main.c:173
-#, fuzzy
-msgid "Start a new GIMP instance"
-msgstr "Eine neue GIMP-Instanz starten"
+msgid "Start a new Glimpse Image Editor instance"
+msgstr "Eine neue Glimpse-Instanz starten"
 
 #: ../app/main.c:178
 msgid "Open images as new"
@@ -211,8 +156,7 @@ msgid "Do not show a splash screen"
 msgstr "Kein Startfenster anzeigen"
 
 #: ../app/main.c:203
-#, fuzzy
-msgid "Do not use shared memory between GIMP and plug-ins"
+msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
 msgstr ""
 "Keinen gemeinsam genutzten Speicher zwischen Glimpse und den Plugins "
 "verwenden"
@@ -295,15 +239,13 @@ msgstr ""
 "eingerichtet ist."
 
 #: ../app/main.c:510
-#, fuzzy
-msgid "Another GIMP instance is already running."
-msgstr "Eine andere GIMP-Instanz wird bereits ausgeführt."
+msgid "Another Glimpse Image Editor instance is already running."
+msgstr "Eine andere Glimpse-Instanz wird bereits ausgeführt."
 
 #: ../app/main.c:601
-#, fuzzy
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr ""
-"GIMP-Ausgabe. Drücken Sie eine beliebige Taste, um dieses Fenster zu "
+"Glimpse-Ausgabe. Drücken Sie eine beliebige Taste, um dieses Fenster zu "
 "schließen."
 
 #: ../app/main.c:602
@@ -313,9 +255,10 @@ msgstr "(Drücken Sie eine beliebige Taste, um dieses Fenster zu schließen)\n"
 
 #: ../app/main.c:619
 #, fuzzy
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr ""
-"GIMP-Ausgabe. Sie können dieses Fenster verkleinern, jedoch nicht schließen."
+"Glimpse-Ausgabe. Sie können dieses Fenster verkleinern, jedoch nicht "
+"schließen."
 
 #: ../app/sanity.c:562
 #, c-format
@@ -2979,12 +2922,12 @@ msgstr "_Tipp des Tages"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "Zeigt hilfreiche Tipps zur Benutzung von GIMP"
+msgstr "Zeigt hilfreiche Tipps zur Benutzung von Glimpse"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "Über GIMP"
+msgstr "Über Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 msgctxt "dialogs-action"
@@ -4082,7 +4025,7 @@ msgstr "_Beenden"
 #: ../app/actions/file-actions.c:125
 msgctxt "file-action"
 msgid "Quit Glimpse"
-msgstr "Das GNU Image Manipulation Program beenden"
+msgstr "Das Glimpse beenden"
 
 #: ../app/actions/file-actions.c:133 ../app/actions/file-actions.c:308
 msgctxt "file-action"
@@ -5466,7 +5409,7 @@ msgstr "_Hilfe"
 #: ../app/actions/help-actions.c:42
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "Das GIMP-Benutzerhandbuch öffnen"
+msgstr "Das Glimpse-Benutzerhandbuch öffnen"
 
 #: ../app/actions/help-actions.c:47
 msgctxt "help-action"
@@ -10051,7 +9994,7 @@ msgstr "Rechtshänder"
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
-msgstr "GIMP-Hilfe-Browser"
+msgstr "Glimpse-Hilfe-Browser"
 
 #: ../app/config/config-enums.c:187
 msgctxt "help-browser-type"
@@ -10577,7 +10520,7 @@ msgid ""
 "Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr ""
 "Das gewählte Werkzeug und Muster, die gewählte Farbe sowie den gewählten "
-"Pinsel über GIMP-Sitzungen hinweg merken."
+"Pinsel über Glimpse-Sitzungen hinweg merken."
 
 #: ../app/config/gimprc-blurbs.h:349
 msgid ""
@@ -10713,8 +10656,7 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr "Einen Kurztipp anzeigen, wenn der Mauszeiger über einem Eintrag steht."
 
 #: ../app/config/gimprc-blurbs.h:419
-#, fuzzy
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr "Glimpse im Einzelfenster-Modus verwenden."
 
 #: ../app/config/gimprc-blurbs.h:422
@@ -10804,9 +10746,9 @@ msgid ""
 msgstr ""
 "Legt den Ordner für den temporären Speicher fest. Während der Benutzung von "
 "Glimpse werden hier verschiedene Prozessdateien abgelegt. Die meisten "
-"Dateien verschwinden nach dem Beenden von GIMP. Weil jedoch einige Dateien "
-"verbleiben könnten, sollte dieser Ordner nur für Sie und nicht für andere "
-"Benutzer zugänglich sein."
+"Dateien verschwinden nach dem Beenden von Glimpse. Weil jedoch einige "
+"Dateien verbleiben könnten, sollte dieser Ordner nur für Sie und nicht für "
+"andere Benutzer zugänglich sein."
 
 #: ../app/config/gimprc-blurbs.h:474
 msgid "The name of the theme to use."
@@ -12225,8 +12167,8 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Offenbar haben Sie GIMP %s zuvor bereits benutzt. Ihre Einstellungen werden "
-"daher nach »%s« überführen."
+"Offenbar haben Sie Glimpse %s zuvor bereits benutzt. Ihre Einstellungen "
+"werden daher nach »%s« überführen."
 
 #: ../app/core/gimp-user-install.c:220
 #, c-format
@@ -14415,11 +14357,11 @@ msgstr "Prozent"
 
 #: ../app/dialogs/about-dialog.c:115
 msgid "About Glimpse"
-msgstr "Über GIMP"
+msgstr "Über Glimpse"
 
 #: ../app/dialogs/about-dialog.c:124
 msgid "Visit the Glimpse website"
-msgstr "Die Internet-Seite von GIMP öffnen"
+msgstr "Die Internet-Seite von Glimpse öffnen"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -14701,11 +14643,11 @@ msgstr ""
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:192
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "GIMP-Meldung"
+msgstr "Glimpse-Meldung"
 
 #: ../app/dialogs/dialogs-constructors.c:225
 msgid "Glimpse Debug"
-msgstr "GIMP-Fehlerdiagnose"
+msgstr "Glimpse-Fehlerdiagnose"
 
 #: ../app/dialogs/dialogs.c:315
 msgid "Devices"
@@ -14804,7 +14746,7 @@ msgstr "Der angegebene Dateiname kann nicht zum Exportieren verwendet werden"
 #, fuzzy
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "Sie können diesen Dialog zum Exportieren nach verschiedenen Dateiformaten "
 "verwenden. Wenn Sie das Bild als Glimpse XCF-Format speichern wollen, so "
@@ -14821,8 +14763,8 @@ msgstr "Der angegebene Dateiname kann nicht zum Speichern verwendet werden"
 #: ../app/dialogs/file-save-dialog.c:627
 #, fuzzy
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
-"export to other file formats."
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export "
+"to export to other file formats."
 msgstr ""
 "Sie können diesen Dialog zum Speichern im Glimpse XCF-Format verwenden. "
 "Verwenden Sie Datei→Exportieren zum Exportieren in andere Dateiformate."
@@ -15314,7 +15256,8 @@ msgstr ""
 
 #: ../app/dialogs/preferences-dialog.c:381
 #, fuzzy
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid ""
+"You will have to restart Glimpse for the following changes to take effect:"
 msgstr ""
 "Sie müssen Glimpse neu starten, damit die folgenden Änderungen aktiv werden:"
 
@@ -15772,9 +15715,9 @@ msgid ""
 "to use them unless you really know what you are doing or you intend to "
 "contribute patches."
 msgstr ""
-"Diese Funktionsmerkmale sind unvollständig, fehlerbehaftet und können GIMP "
-"zum Absturz bringen. Von deren Verwendung wird abgeraten, es sei denn, Sie "
-"wissen, was Sie tun oder Sie wollen Patches bereitstellen."
+"Diese Funktionsmerkmale sind unvollständig, fehlerbehaftet und können "
+"Glimpse zum Absturz bringen. Von deren Verwendung wird abgeraten, es sei "
+"denn, Sie wissen, was Sie tun oder Sie wollen Patches bereitstellen."
 
 #: ../app/dialogs/preferences-dialog.c:1619
 msgid "Insane Options"
@@ -16308,7 +16251,7 @@ msgid ""
 "The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
 msgstr ""
-"Der GIMP-Hilfebrowser scheint nicht installiert zu sein. Stattdessen wird "
+"Der Glimpse-Hilfebrowser scheint nicht installiert zu sein. Stattdessen wird "
 "der Internet-Browser verwendet."
 
 #. Action Search
@@ -17031,12 +16974,12 @@ msgstr "_Pinseldynamik emulieren"
 #: ../app/dialogs/tips-dialog.c:99
 #, fuzzy
 msgid "The Glimpse tips file is empty!"
-msgstr "Die Datei mit den »GIMP-Tipps des Tages« ist leer."
+msgstr "Die Datei mit den »Glimpse-Tipps des Tages« ist leer."
 
 #: ../app/dialogs/tips-dialog.c:103
 #, fuzzy
 msgid "The Glimpse tips file appears to be missing!"
-msgstr "Die Datei für die »GIMP-Tipps des Tages« wurde nicht gefunden."
+msgstr "Die Datei für die »Glimpse-Tipps des Tages« wurde nicht gefunden."
 
 #: ../app/dialogs/tips-dialog.c:105
 #, c-format
@@ -17049,11 +16992,11 @@ msgstr ""
 #, fuzzy
 msgid "The Glimpse tips file could not be parsed!"
 msgstr ""
-"Die Datei mit den »GIMP-Tipps des Tages« konnte nicht analysiert werden."
+"Die Datei mit den »Glimpse-Tipps des Tages« konnte nicht analysiert werden."
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "GIMP-Tipp des Tages"
+msgstr "Glimpse-Tipp des Tages"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -17080,7 +17023,7 @@ msgstr "tips-locale:de"
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "GIMP-Benutzerinstallation"
+msgstr "Glimpse-Benutzerinstallation"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
@@ -17090,8 +17033,8 @@ msgstr "Benutzerinstallation fehlgeschlagen."
 #, fuzzy
 msgid "The Glimpse user installation failed; see the log for details."
 msgstr ""
-"Die GIMP-Benutzerinstallation ist fehlgeschlagen. Weitere Details können Sie "
-"dem Installationsprotokoll entnehmen."
+"Die Glimpse-Benutzerinstallation ist fehlgeschlagen. Weitere Details können "
+"Sie dem Installationsprotokoll entnehmen."
 
 #: ../app/dialogs/user-install-dialog.c:99
 msgid "Installation Log"
@@ -18954,7 +18897,7 @@ msgstr "Dokumente"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "GIMP-Start"
+msgstr "Glimpse-Start"
 
 #: ../app/paint/gimpairbrush.c:77 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -23273,7 +23216,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "GIMP-Texteditor"
+msgstr "Glimpse-Texteditor"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -25537,15 +25480,15 @@ msgstr "Hilfe-Browser fehlt"
 
 #: ../app/widgets/gimphelp.c:372
 msgid "The Glimpse help browser is not available."
-msgstr "Der GIMP-Hilfe-Browser ist nicht verfügbar."
+msgstr "Der Glimpse-Hilfe-Browser ist nicht verfügbar."
 
 #: ../app/widgets/gimphelp.c:373
 msgid ""
 "The Glimpse help browser plug-in appears to be missing from your "
 "installation. You may instead use the web browser for reading the help pages."
 msgstr ""
-"Das Hilfe-Browser-Plugin scheint in Ihrer GIMP-Installation zu fehlen. Sie "
-"können stattdessen den Internet-Browser verwenden, um die Hilfe zu lesen."
+"Das Hilfe-Browser-Plugin scheint in Ihrer Glimpse-Installation zu fehlen. "
+"Sie können stattdessen den Internet-Browser verwenden, um die Hilfe zu lesen."
 
 #: ../app/widgets/gimphelp.c:419
 msgid "Help browser doesn't start"
@@ -25553,7 +25496,7 @@ msgstr "Der Hilfe-Browser startet nicht"
 
 #: ../app/widgets/gimphelp.c:420
 msgid "Could not start the Glimpse help browser plug-in."
-msgstr "Der GIMP-Hilfe-Browser konnte nicht gestartet werden."
+msgstr "Der Glimpse-Hilfe-Browser konnte nicht gestartet werden."
 
 #: ../app/widgets/gimphelp.c:422
 msgid "You may instead use the web browser for reading the help pages."
@@ -25566,11 +25509,11 @@ msgstr "Internet-_Browser nutzen"
 
 #: ../app/widgets/gimphelp.c:793
 msgid "Glimpse user manual is missing"
-msgstr "Das GIMP-Benutzerhandbuch fehlt"
+msgstr "Das Glimpse-Benutzerhandbuch fehlt"
 
 #: ../app/widgets/gimphelp.c:809
 msgid "The Glimpse user manual is not installed in your language."
-msgstr "Das GIMP-Benutzerhandbuch ist in Ihrer Sprache nicht installiert."
+msgstr "Das Glimpse-Benutzerhandbuch ist in Ihrer Sprache nicht installiert."
 
 #: ../app/widgets/gimphelp.c:820
 msgid "Read Selected _Language"
@@ -25888,8 +25831,8 @@ msgstr ""
 #, fuzzy
 msgid "Metadata won't be visible in GNU I.M.P older than version 2.10."
 msgstr ""
-"Metadaten werden in Glimpse-Versionen älter als Version 2.10 nicht sichtbar "
-"sein."
+"Metadaten werden in GNU I.M.P-Versionen älter als Version 2.10 nicht "
+"sichtbar sein."
 
 #: ../app/widgets/gimpselectiondata.c:250
 #, c-format
@@ -26465,7 +26408,7 @@ msgstr "Nicht definiert"
 
 #: ../app/xcf/xcf.c:114 ../app/xcf/xcf.c:185
 msgid "Glimpse XCF image"
-msgstr "GIMP-XCF-Bild"
+msgstr "Glimpse-XCF-Bild"
 
 #: ../app/xcf/xcf.c:272 ../app/xcf/xcf.c:361
 msgid "Memory Stream"
@@ -26586,16 +26529,37 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:78
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "GIMP-Fehlerdiagnose"
+msgstr "Glimpse-Fehlerdiagnose"
 
-#: ../data/tags/gimp-tags-default.xml.in.h:1
-msgid "round"
-msgstr "Rund"
+#~ msgid "Create images and edit photographs"
+#~ msgstr "Bilder erstellen und Fotografien bearbeiten"
 
-#. fuzzy as in a feathered, blurred, unfocused, soft brush
-#: ../data/tags/gimp-tags-default.xml.in.h:3
-msgid "fuzzy"
-msgstr "unscharf"
+#~ msgid "Extra files for Glimpse"
+#~ msgstr "Zusätzliche Dateien für Glimpse"
+
+#~ msgid "Patterns, gradients, and other extra files for Glimpse"
+#~ msgstr "Muster, Farbverläufe und weitere zusätzliche Dateien für Glimpse"
+
+#, fuzzy
+#~ msgid "Glimpse Image Editor"
+#~ msgstr "Glimpse-Texteditor"
+
+#~ msgid "Image Editor"
+#~ msgstr "Bildeditor"
+
+#, fuzzy
+#~ msgid "Create and edit images"
+#~ msgstr "Ein neues Bild erstellen"
+
+#, fuzzy
+#~ msgid "graphic;design;illustration;painting;photography;gimp"
+#~ msgstr "Glimpse;Grafik;Design;Illustration;Malen;"
+
+#~ msgid "round"
+#~ msgstr "Rund"
+
+#~ msgid "fuzzy"
+#~ msgstr "unscharf"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -26939,7 +26903,7 @@ msgstr "unscharf"
 #~ "Symbolgröße"
 
 #~ msgid "New themes for Glimpse: Light, Gray, Dark, and System"
-#~ msgstr "Neue Themen für GIMP: Hell, Grau, Dunkel und System"
+#~ msgstr "Neue Themen für Glimpse: Hell, Grau, Dunkel und System"
 
 #~ msgid "And much, much more…"
 #~ msgstr "Und vieles, vieles mehr …"
@@ -26996,7 +26960,7 @@ msgstr "unscharf"
 
 #~ msgid "New dashboard dockable to monitor Glimpse resource usage"
 #~ msgstr ""
-#~ "Neues Dock zur Leistungsüberwachung des Ressourcenverbrauchs von GIMP"
+#~ "Neues Dock zur Leistungsüberwachung des Ressourcenverbrauchs von Glimpse"
 
 #~ msgid ""
 #~ "New debug dialog to produce back traces and other debug data, encouraging "
@@ -27085,13 +27049,13 @@ msgstr "unscharf"
 #~ msgstr "_Versetzen"
 
 #~ msgid "Show Glimpse _logo (drag-and-drop target)"
-#~ msgstr "GIMP-_Logo anzeigen (Ziel beim Ziehen und Ablegen)"
+#~ msgstr "Glimpse-_Logo anzeigen (Ziel beim Ziehen und Ablegen)"
 
 #~ msgid "Glimpse brush"
-#~ msgstr "GIMP-Pinsel"
+#~ msgstr "Glimpse-Pinsel"
 
 #~ msgid "Glimpse pattern"
-#~ msgstr "GIMP-Muster"
+#~ msgstr "Glimpse-Muster"
 
 #~ msgid ""
 #~ "For more information, see https://www.gimp.org/news/2018/04/27/"
