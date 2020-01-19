@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Glimpse 2.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 17:55+0000\n"
+"POT-Creation-Date: 2020-01-19 18:38+0000\n"
 "PO-Revision-Date: 2018-04-26 01:59+0200\n"
 "Last-Translator: Aryeom Han <aryeom@girinstud.io>\n"
 "Language-Team: \n"
@@ -62,7 +62,7 @@ msgstr "먼저 원본 이미지를 설정하십시오."
 #. The year of the last commit (UTC) will be inserted into this string.
 #: ../app/about.h:29
 msgid ""
-"Copyright © 2019 Glimpse Contributors\n"
+"Copyright © 2020 Glimpse Contributors\n"
 "Based on GNU Image Manipulation Program "
 msgstr ""
 

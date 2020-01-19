@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 17:55+0000\n"
+"POT-Creation-Date: 2020-01-19 18:38+0000\n"
 "PO-Revision-Date: 2017-09-28 15:55+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician\n"
@@ -64,7 +64,7 @@ msgstr "Definir unha imaxe orixe primeiro."
 #. The year of the last commit (UTC) will be inserted into this string.
 #: ../app/about.h:29
 msgid ""
-"Copyright © 2019 Glimpse Contributors\n"
+"Copyright © 2020 Glimpse Contributors\n"
 "Based on GNU Image Manipulation Program "
 msgstr ""
 

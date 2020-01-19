@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 17:55+0000\n"
+"POT-Creation-Date: 2020-01-19 18:38+0000\n"
 "PO-Revision-Date: 2019-04-26 07:55+0200\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
@@ -65,7 +65,7 @@ msgstr "Előbb állítson be egy forrásképet."
 #. The year of the last commit (UTC) will be inserted into this string.
 #: ../app/about.h:29
 msgid ""
-"Copyright © 2019 Glimpse Contributors\n"
+"Copyright © 2020 Glimpse Contributors\n"
 "Based on GNU Image Manipulation Program "
 msgstr ""
 

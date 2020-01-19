@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Glimpse 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 17:55+0000\n"
+"POT-Creation-Date: 2020-01-19 18:38+0000\n"
 "PO-Revision-Date: 2013-04-08 16:05+0200\n"
 "Last-Translator: Miloš Popović <gpopac@gmail.com>\n"
 "Language-Team: srpski <gnom@prevod.org>\n"
@@ -62,7 +62,7 @@ msgstr "Najpre izaberite izbornu sliku."
 #. The year of the last commit (UTC) will be inserted into this string.
 #: ../app/about.h:29
 msgid ""
-"Copyright © 2019 Glimpse Contributors\n"
+"Copyright © 2020 Glimpse Contributors\n"
 "Based on GNU Image Manipulation Program "
 msgstr ""
 

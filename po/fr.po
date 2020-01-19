@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Glimpse HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 17:55+0000\n"
+"POT-Creation-Date: 2020-01-19 18:38+0000\n"
 "PO-Revision-Date: 2018-12-01 10:50+0100\n"
 "Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
 "Language-Team: French <gnomefr@traduc.org>\n"
@@ -70,7 +70,7 @@ msgstr "Définissez d’abord une image source"
 #. The year of the last commit (UTC) will be inserted into this string.
 #: ../app/about.h:29
 msgid ""
-"Copyright © 2019 Glimpse Contributors\n"
+"Copyright © 2020 Glimpse Contributors\n"
 "Based on GNU Image Manipulation Program "
 msgstr ""
 
