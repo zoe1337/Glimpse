@@ -26,7 +26,7 @@
 
 /* The year of the last commit (UTC) will be inserted into this string. */
 #define GLIMPSE_COPYRIGHT \
-  _("Copyright © 2019 Glimpse Contributors\n" \
+  _("Copyright © 2020 Glimpse Contributors\n" \
     "Based on GNU Image Manipulation Program " \
     GIMP_VERSION)
 
