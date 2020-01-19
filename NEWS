@@ -7,6 +7,14 @@ This is the stable branch of Glimpse. Unlike earlier stable branches,
 we do allow some new features here, if they are not too invasive.
 Otherwise, this branch is only for bug-fixes.
 
+Overview of Changes in Glimpse 0.1.1
+====================================
+
+Graphical User Interface:
+* Updated translation files so they use the correct program name more often
+* Glimpse is no longer incorrectly grouped with GNU I.M.P on the Windows task bar
+* TO BE DETERMINED (Still in development)
+
 
 Overview of Changes from GNU Image Manipulation Program to Glimpse 0.1.0
 ========================================================================
