@@ -402,7 +402,7 @@ main (int    argc,
       (t_SetCurrentProcessExplicitAppUserModelID) GetProcAddress (GetModuleHandle ("shell32.dll"),
                                                                   "SetCurrentProcessExplicitAppUserModelID");
     if (p_SetCurrentProcessExplicitAppUserModelID)
-      (*p_SetCurrentProcessExplicitAppUserModelID) (L"gimp.GimpApplication");
+      (*p_SetCurrentProcessExplicitAppUserModelID) (L"glimpse.GlimpseApplication");
   }
 #endif
 
