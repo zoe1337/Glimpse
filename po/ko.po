@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Glimpse 2.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 13:12+0000\n"
+"POT-Creation-Date: 2020-01-19 17:55+0000\n"
 "PO-Revision-Date: 2018-04-26 01:59+0200\n"
 "Last-Translator: Aryeom Han <aryeom@girinstud.io>\n"
 "Language-Team: \n"
@@ -24,23 +24,13 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:1
-#: ../app/about.h:22
-#, fuzzy
-msgid "Glimpse"
-msgstr "김프 종료"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
-msgid "Create images and edit photographs"
-msgstr "이미지를 만들고 사진을 편집합니다"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:3
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:9
 msgid ""
 "Glimpse Image Editor is a usability-focused free software application "
 "capable of expert level image manipulation."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:4
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:13
 msgid ""
 "Simple tasks like cropping, transforming and retouching photos can be "
 "achieved in just a few clicks. Professional features like batch image "
@@ -48,64 +38,21 @@ msgid ""
 "also included."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:5
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:19
 msgid ""
 "Glimpse is based on the GNU Image Manipulation Program 2.10, so it is "
 "extensible and fully compatible with the same plug-ins, themes and save "
 "files. It is available for Windows and Linux."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:6
-msgid "Crop and transform images in just a few clicks"
+#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in:12
+msgid "org.glimpse_editor.Glimpse"
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:7
-msgid "Apply professional filters and create animations"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:8
-msgid ""
-"After four months of intensive effort, Glimpse 0.1.0 is our very first "
-"binary release. We would like to thank everyone that has supported the "
-"project so far and look forward to building on this work in future releases."
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:9
-msgid ""
-"<li> Every feature in the GNU Image Manipulation Program 2.10.12 </li> <li> "
-"Professional branding throughout the application </li> <li> De-cluttered "
-"user interface without animal mascots and \"easter eggs\" </li> <li> Full "
-"plug-in, theme and save file compatibility with the GNU Image Manipulation "
-"Program </li> <li> Improved build/packaging tools and developer "
-"documentation </li>"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
-msgid "Extra files for Glimpse"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
+#: ../app/about.h:22
 #, fuzzy
-msgid "Glimpse Image Editor"
-msgstr "김프 텍스트 편집기"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
-msgid "Image Editor"
-msgstr "이미지 편집기"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:3
-#, fuzzy
-msgid "Create and edit images"
-msgstr "새 이미지를 만듭니다"
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:5
-msgid "graphic;design;illustration;painting;photography;gimp"
-msgstr ""
+msgid "Glimpse"
+msgstr "김프 종료"
 
 #: ../app/about.h:25
 #, fuzzy
@@ -175,7 +122,7 @@ msgstr "더 자세하게"
 
 #: ../app/main.c:173
 #, fuzzy
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse Image Editor instance"
 msgstr "새 인스턴스로 김프를 시작합니다"
 
 #: ../app/main.c:178
@@ -200,7 +147,7 @@ msgstr "시작 화면 보이지 않기"
 
 #: ../app/main.c:203
 #, fuzzy
-msgid "Do not use shared memory between GIMP and plug-ins"
+msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
 msgstr "김프와 플러그인 간 공유 메모리를 사용하지 않습니다"
 
 #: ../app/main.c:208
@@ -281,12 +228,12 @@ msgstr ""
 
 #: ../app/main.c:510
 #, fuzzy
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse Image Editor instance is already running."
 msgstr "김프가 이미 실행중입니다."
 
 #: ../app/main.c:601
 #, fuzzy
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr "김프 출력. 이 창을 닫으려면 아무 글자나 입력하십시오."
 
 #: ../app/main.c:602
@@ -296,7 +243,7 @@ msgstr "(이 창을 닫으려면 아무 글자나 입력하십시오)\n"
 
 #: ../app/main.c:619
 #, fuzzy
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "김프 출력. 이 창을 최소화시켜도 되지만, 닫지는 마십시오."
 
 #: ../app/sanity.c:562
@@ -11046,7 +10993,7 @@ msgstr "각 항목에 마우스가 올라갈 때 풍선 도움말을 표시합�
 
 #: ../app/config/gimprc-blurbs.h:419
 #, fuzzy
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr "단일창 모드에서 김프를 사용합니다."
 
 #: ../app/config/gimprc-blurbs.h:422
@@ -15097,7 +15044,7 @@ msgstr "파일 확장자명이 올바르지 않습니다."
 #, fuzzy
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "이 대화 상자를 이용하여 다양한 파일 형식으로 내보낼 수 있습니다. 이미지를 김"
 "프 XCF 형식으로 저장하려면 파일→저장 메뉴를 이용하십시오."
@@ -15115,8 +15062,8 @@ msgstr "파일 확장자명이 올바르지 않습니다."
 #: ../app/dialogs/file-save-dialog.c:627
 #, fuzzy
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
-"export to other file formats."
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export "
+"to export to other file formats."
 msgstr ""
 "이 대화 상자를 이용하여 김프 XCF 형식으로 저장할 수 있습니다. 다른 파일 형식"
 "으로 내보내려면 파일→다른 형식으로 내보내기 메뉴를 이용하십시오."
@@ -15616,7 +15563,8 @@ msgstr "모든 설정을 기본값으로 초기화하겠습니까?"
 
 #: ../app/dialogs/preferences-dialog.c:381
 #, fuzzy
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid ""
+"You will have to restart Glimpse for the following changes to take effect:"
 msgstr "바꾼 내용을 반영하려면, 김프를 다시 시작해야 합니다:"
 
 #: ../app/dialogs/preferences-dialog.c:647
@@ -27334,14 +27282,25 @@ msgstr ""
 msgid "Glimpse Crash Debug"
 msgstr "디버그"
 
-#: ../data/tags/gimp-tags-default.xml.in.h:1
-msgid "round"
-msgstr "둥글게"
+#~ msgid "Create images and edit photographs"
+#~ msgstr "이미지를 만들고 사진을 편집합니다"
 
-#. fuzzy as in a feathered, blurred, unfocused, soft brush
-#: ../data/tags/gimp-tags-default.xml.in.h:3
-msgid "fuzzy"
-msgstr "퍼지"
+#, fuzzy
+#~ msgid "Glimpse Image Editor"
+#~ msgstr "김프 텍스트 편집기"
+
+#~ msgid "Image Editor"
+#~ msgstr "이미지 편집기"
+
+#, fuzzy
+#~ msgid "Create and edit images"
+#~ msgstr "새 이미지를 만듭니다"
+
+#~ msgid "round"
+#~ msgstr "둥글게"
+
+#~ msgid "fuzzy"
+#~ msgstr "퍼지"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

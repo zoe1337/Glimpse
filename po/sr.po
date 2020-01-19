@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Glimpse 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 13:12+0000\n"
+"POT-Creation-Date: 2020-01-19 17:55+0000\n"
 "PO-Revision-Date: 2017-12-24 19:11+0100\n"
 "Last-Translator: Милош Поповић <gpopac@gmail.com>\n"
 "Language-Team: српски <gnom@prevod.org>\n"
@@ -24,23 +24,13 @@ msgstr ""
 "X-Project-Style: gnome\n"
 "X-Generator: Poedit 1.8.7\n"
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:1
-#: ../app/about.h:22
-#, fuzzy
-msgid "Glimpse"
-msgstr "Затворите Гимп"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
-msgid "Create images and edit photographs"
-msgstr "Направите нове сличице и средите ваше фотографије"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:3
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:9
 msgid ""
 "Glimpse Image Editor is a usability-focused free software application "
 "capable of expert level image manipulation."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:4
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:13
 msgid ""
 "Simple tasks like cropping, transforming and retouching photos can be "
 "achieved in just a few clicks. Professional features like batch image "
@@ -48,68 +38,21 @@ msgid ""
 "also included."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:5
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:19
 msgid ""
 "Glimpse is based on the GNU Image Manipulation Program 2.10, so it is "
 "extensible and fully compatible with the same plug-ins, themes and save "
 "files. It is available for Windows and Linux."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:6
-msgid "Crop and transform images in just a few clicks"
+#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in:12
+msgid "org.glimpse_editor.Glimpse"
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:7
-msgid "Apply professional filters and create animations"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:8
-msgid ""
-"After four months of intensive effort, Glimpse 0.1.0 is our very first "
-"binary release. We would like to thank everyone that has supported the "
-"project so far and look forward to building on this work in future releases."
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:9
-msgid ""
-"<li> Every feature in the GNU Image Manipulation Program 2.10.12 </li> <li> "
-"Professional branding throughout the application </li> <li> De-cluttered "
-"user interface without animal mascots and \"easter eggs\" </li> <li> Full "
-"plug-in, theme and save file compatibility with the GNU Image Manipulation "
-"Program </li> <li> Improved build/packaging tools and developer "
-"documentation </li>"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
-msgid "Extra files for Glimpse"
-msgstr "Додатне датотеке за Гимп"
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr "Шаре, преливи и остале датотеке за Гимп"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
+#: ../app/about.h:22
 #, fuzzy
-msgid "Glimpse Image Editor"
-msgstr "Гимпов уређивач текста"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
-msgid "Image Editor"
-msgstr "Обрада фотографија"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:3
-#, fuzzy
-msgid "Create and edit images"
-msgstr "Отвара нову, празну слику"
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:5
-#, fuzzy
-msgid "graphic;design;illustration;painting;photography;gimp"
-msgstr ""
-"Гимп;обрада фотографија;графика;дизајн;илустрација;цртање;obrada fotografija;"
-"grafika;dizajn;ilustracija;crtanje;Glimpse;graphic;design;illustration;"
-"painting;"
+msgid "Glimpse"
+msgstr "Затворите Гимп"
 
 #: ../app/about.h:25
 #, fuzzy
@@ -179,7 +122,7 @@ msgstr "Користи опширнији испис у конзоли"
 
 #: ../app/main.c:173
 #, fuzzy
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse Image Editor instance"
 msgstr "Покреће нови примерак Гимпа"
 
 #: ../app/main.c:178
@@ -204,7 +147,7 @@ msgstr "Не приказује поздравни екран"
 
 #: ../app/main.c:203
 #, fuzzy
-msgid "Do not use shared memory between GIMP and plug-ins"
+msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
 msgstr "Не користи дељену меморију између Гимпа и прикључака"
 
 #: ../app/main.c:208
@@ -283,12 +226,12 @@ msgstr ""
 
 #: ../app/main.c:510
 #, fuzzy
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse Image Editor instance is already running."
 msgstr "Већ је покренут један примерак Гимпа."
 
 #: ../app/main.c:601
 #, fuzzy
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr "Гимпов излаз. Укуцајте неки знак да затворите овај прозор."
 
 #: ../app/main.c:602
@@ -298,7 +241,7 @@ msgstr "(Укуцајте неки знак да затворите овај п�
 
 #: ../app/main.c:619
 #, fuzzy
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "Гимпов излаз. Можете да умањите овај прозор, али га немојте затворити."
 
 #: ../app/sanity.c:562
@@ -10699,7 +10642,7 @@ msgstr "Приказује облачић објашњења када курзо
 
 #: ../app/config/gimprc-blurbs.h:419
 #, fuzzy
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr "Користите Гимп у режиму једног прозора."
 
 #: ../app/config/gimprc-blurbs.h:422
@@ -14715,7 +14658,7 @@ msgstr "Дати назив датотеке не може бити коришћ
 #, fuzzy
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "Можете да користите ово прозорче за извоз у различите записе датотека. "
 "Уколико желите да сачувате слику у Гимповом XCF запису користите Датотека → "
@@ -14732,8 +14675,8 @@ msgstr "Дати назив датотеке не може бити коришћ
 #: ../app/dialogs/file-save-dialog.c:627
 #, fuzzy
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
-"export to other file formats."
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export "
+"to export to other file formats."
 msgstr ""
 "Можете да користите ово прозорче за чување слике у Гимповом XCF запису. За "
 "извоз у неки други запис користите Датотека → Извези."
@@ -15220,7 +15163,8 @@ msgstr "Да ли заиста желите да вратите све пост�
 
 #: ../app/dialogs/preferences-dialog.c:381
 #, fuzzy
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid ""
+"You will have to restart Glimpse for the following changes to take effect:"
 msgstr ""
 "Мораћете поново да покренете ГИМП да би следеће промене ступиле у дејство:"
 
@@ -26709,14 +26653,38 @@ msgstr ""
 msgid "Glimpse Crash Debug"
 msgstr "Порука Гимпа"
 
-#: ../data/tags/gimp-tags-default.xml.in.h:1
-msgid "round"
-msgstr "заобљено"
+#~ msgid "Create images and edit photographs"
+#~ msgstr "Направите нове сличице и средите ваше фотографије"
 
-#. fuzzy as in a feathered, blurred, unfocused, soft brush
-#: ../data/tags/gimp-tags-default.xml.in.h:3
-msgid "fuzzy"
-msgstr "нејасно"
+#~ msgid "Extra files for Glimpse"
+#~ msgstr "Додатне датотеке за Гимп"
+
+#~ msgid "Patterns, gradients, and other extra files for Glimpse"
+#~ msgstr "Шаре, преливи и остале датотеке за Гимп"
+
+#, fuzzy
+#~ msgid "Glimpse Image Editor"
+#~ msgstr "Гимпов уређивач текста"
+
+#~ msgid "Image Editor"
+#~ msgstr "Обрада фотографија"
+
+#, fuzzy
+#~ msgid "Create and edit images"
+#~ msgstr "Отвара нову, празну слику"
+
+#, fuzzy
+#~ msgid "graphic;design;illustration;painting;photography;gimp"
+#~ msgstr ""
+#~ "Гимп;обрада фотографија;графика;дизајн;илустрација;цртање;obrada "
+#~ "fotografija;grafika;dizajn;ilustracija;crtanje;Glimpse;graphic;design;"
+#~ "illustration;painting;"
+
+#~ msgid "round"
+#~ msgstr "заобљено"
+
+#~ msgid "fuzzy"
+#~ msgstr "нејасно"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

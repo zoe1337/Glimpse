@@ -170,7 +170,7 @@ static const GOptionEntry main_entries[] =
   {
     "new-instance", 'n', 0,
     G_OPTION_ARG_NONE, &new_instance,
-    N_("Start a new GIMP instance"), NULL
+    N_("Start a new Glimpse Image Editor instance"), NULL
   },
   {
     "as-new", 'a', 0,
@@ -200,7 +200,7 @@ static const GOptionEntry main_entries[] =
   {
     "no-shm", 0, G_OPTION_FLAG_REVERSE,
     G_OPTION_ARG_NONE, &use_shm,
-    N_("Do not use shared memory between GIMP and plug-ins"), NULL
+    N_("Do not use shared memory between Glimpse Image Editor and plug-ins"), NULL
   },
   {
     "no-cpu-accel", 0, G_OPTION_FLAG_REVERSE,
@@ -507,7 +507,7 @@ main (int    argc,
     {
       if (be_verbose)
         g_print ("%s\n",
-                 _("Another GIMP instance is already running."));
+                 _("Another Glimpse Image Editor instance is already running."));
 
       if (batch_commands)
         gimp_unique_batch_run (batch_interpreter, batch_commands);
@@ -598,7 +598,7 @@ wait_console_window (void)
 {
   FILE *console = fopen ("CONOUT$", "w");
 
-  SetConsoleTitleW (g_utf8_to_utf16 (_("GIMP output. Type any character to close this window."), -1, NULL, NULL, NULL));
+  SetConsoleTitleW (g_utf8_to_utf16 (_("Glimpse output. Type any character to close this window."), -1, NULL, NULL, NULL));
   fprintf (console, _("(Type any character to close this window)\n"));
   fflush (console);
   _getch ();
@@ -616,7 +616,7 @@ gimp_open_console_window (void)
       if ((HANDLE) _get_osfhandle (fileno (stderr)) == INVALID_HANDLE_VALUE)
         freopen ("CONOUT$", "w", stderr);
 
-      SetConsoleTitleW (g_utf8_to_utf16 (_("GIMP output. You can minimize this window, but don't close it."), -1, NULL, NULL, NULL));
+      SetConsoleTitleW (g_utf8_to_utf16 (_("Glimpse output. You can minimize this window, but don't close it."), -1, NULL, NULL, NULL));
 
       atexit (wait_console_window);
     }

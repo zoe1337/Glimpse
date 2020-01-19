@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 13:12+0000\n"
+"POT-Creation-Date: 2020-01-19 17:55+0000\n"
 "PO-Revision-Date: 2012-04-06 23:09+0100\n"
 "Last-Translator: Alan Monfort <alan.monfort@free.fr>\n"
 "Language-Team: An Drouizig <drouizig@drouizig.org>\n"
@@ -17,23 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:1
-#: ../app/about.h:22
-#, fuzzy
-msgid "Glimpse"
-msgstr "Kuitaat GIMP"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
-msgid "Create images and edit photographs"
-msgstr "Krouiñ hag embann skeudennoù pe luc'hskeudennoù"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:3
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:9
 msgid ""
 "Glimpse Image Editor is a usability-focused free software application "
 "capable of expert level image manipulation."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:4
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:13
 msgid ""
 "Simple tasks like cropping, transforming and retouching photos can be "
 "achieved in just a few clicks. Professional features like batch image "
@@ -41,64 +31,21 @@ msgid ""
 "also included."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:5
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:19
 msgid ""
 "Glimpse is based on the GNU Image Manipulation Program 2.10, so it is "
 "extensible and fully compatible with the same plug-ins, themes and save "
 "files. It is available for Windows and Linux."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:6
-msgid "Crop and transform images in just a few clicks"
+#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in:12
+msgid "org.glimpse_editor.Glimpse"
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:7
-msgid "Apply professional filters and create animations"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:8
-msgid ""
-"After four months of intensive effort, Glimpse 0.1.0 is our very first "
-"binary release. We would like to thank everyone that has supported the "
-"project so far and look forward to building on this work in future releases."
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:9
-msgid ""
-"<li> Every feature in the GNU Image Manipulation Program 2.10.12 </li> <li> "
-"Professional branding throughout the application </li> <li> De-cluttered "
-"user interface without animal mascots and \"easter eggs\" </li> <li> Full "
-"plug-in, theme and save file compatibility with the GNU Image Manipulation "
-"Program </li> <li> Improved build/packaging tools and developer "
-"documentation </li>"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
-msgid "Extra files for Glimpse"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
+#: ../app/about.h:22
 #, fuzzy
-msgid "Glimpse Image Editor"
-msgstr "Embanner testennoù GIMP"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
-msgid "Image Editor"
-msgstr "Embanner skeudennoù"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:3
-#, fuzzy
-msgid "Create and edit images"
-msgstr "Krouiñ ur skeudenn nevez"
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:5
-msgid "graphic;design;illustration;painting;photography;gimp"
-msgstr ""
+msgid "Glimpse"
+msgstr "Kuitaat GIMP"
 
 #: ../app/about.h:25
 #, fuzzy
@@ -168,7 +115,7 @@ msgstr "Bezañ munutaet gwelloc'h"
 
 #: ../app/main.c:173
 #, fuzzy
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse Image Editor instance"
 msgstr "Kregiñ un eriol Glimpse nevez"
 
 #: ../app/main.c:178
@@ -193,7 +140,7 @@ msgstr "Na ziskouez ar skrammad loc'hañ"
 
 #: ../app/main.c:203
 #, fuzzy
-msgid "Do not use shared memory between GIMP and plug-ins"
+msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
 msgstr "Na arverañ ar vemor rannet etre Glimpse hag e enlugelladoù"
 
 #: ../app/main.c:208
@@ -276,12 +223,12 @@ msgstr ""
 
 #: ../app/main.c:510
 #, fuzzy
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse Image Editor instance is already running."
 msgstr "Un eriol all eus Glimpse zo war arver endeo."
 
 #: ../app/main.c:601
 #, fuzzy
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr ""
 "Ec'hankad GIMP. Biziata ne vern pe arouezenn evit serriñ ar prenestr-mañ."
 
@@ -292,7 +239,7 @@ msgstr "(Biziata ne vern pe arouezenn evit serriñ ar prenestr-mañ)\n"
 
 #: ../app/main.c:619
 #, fuzzy
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "Ec'hankad GIMP. Bihanaet e vez ar prenestr-mañ, na serrit ket eñ avat."
 
 #: ../app/sanity.c:562
@@ -11129,7 +11076,7 @@ msgstr "Diskouez un tun pa dremen ar poenter dreist un ergorenn."
 
 #: ../app/config/gimprc-blurbs.h:419
 #, fuzzy
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr "Arverañ Glimpse en ur mod dre brenestr eeun."
 
 #: ../app/config/gimprc-blurbs.h:422
@@ -15242,7 +15189,7 @@ msgstr "An anv restr lavaret n'en deus ket un askouezhadenn restr anavezet."
 #, fuzzy
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "Gallout a rit arverañ ar voestad emziviz-mañ da ezporzhiañ e mentrezhoù "
 "liesseurt. Mar fell deoc'h enrollañ ar skeudenn e mentrezh Glimpse XCF, "
@@ -15261,8 +15208,8 @@ msgstr "An anv restr lavaret n'en deus ket un askouezhadenn restr anavezet."
 #: ../app/dialogs/file-save-dialog.c:627
 #, fuzzy
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
-"export to other file formats."
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export "
+"to export to other file formats."
 msgstr ""
 "Gallout a rit arverañ ar voestad emziviz-mañ da enrollañ e mentrezh GIMP "
 "XCF. Grit gant Restr>Ezporzhiañ evit exporzhiañ e mentrezhoù restr all."
@@ -15767,7 +15714,8 @@ msgstr ""
 
 #: ../app/dialogs/preferences-dialog.c:381
 #, fuzzy
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid ""
+"You will have to restart Glimpse for the following changes to take effect:"
 msgstr "Ret eo deoc'h adloc'hañ Glimpse a-benn ma vo efedus ar c'hemmoù-mañ :"
 
 #: ../app/dialogs/preferences-dialog.c:647
@@ -27618,14 +27566,25 @@ msgstr ""
 msgid "Glimpse Crash Debug"
 msgstr "Kemennadenn a-berzh GIMP"
 
-#: ../data/tags/gimp-tags-default.xml.in.h:1
-msgid "round"
-msgstr "rontaet"
+#~ msgid "Create images and edit photographs"
+#~ msgstr "Krouiñ hag embann skeudennoù pe luc'hskeudennoù"
 
-#. fuzzy as in a feathered, blurred, unfocused, soft brush
-#: ../data/tags/gimp-tags-default.xml.in.h:3
-msgid "fuzzy"
-msgstr "dispis"
+#, fuzzy
+#~ msgid "Glimpse Image Editor"
+#~ msgstr "Embanner testennoù GIMP"
+
+#~ msgid "Image Editor"
+#~ msgstr "Embanner skeudennoù"
+
+#, fuzzy
+#~ msgid "Create and edit images"
+#~ msgstr "Krouiñ ur skeudenn nevez"
+
+#~ msgid "round"
+#~ msgstr "rontaet"
+
+#~ msgid "fuzzy"
+#~ msgstr "dispis"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

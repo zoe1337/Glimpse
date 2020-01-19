@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 13:12+0000\n"
+"POT-Creation-Date: 2020-01-19 17:55+0000\n"
 "PO-Revision-Date: 2019-03-31 15:23+0200\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
@@ -24,23 +24,13 @@ msgstr ""
 "2);\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:1
-#: ../app/about.h:22
-#, fuzzy
-msgid "Glimpse"
-msgstr "Iziet no GIMP"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
-msgid "Create images and edit photographs"
-msgstr "Veido attēlus vai rediģē fotogrāfijas"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:3
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:9
 msgid ""
 "Glimpse Image Editor is a usability-focused free software application "
 "capable of expert level image manipulation."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:4
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:13
 msgid ""
 "Simple tasks like cropping, transforming and retouching photos can be "
 "achieved in just a few clicks. Professional features like batch image "
@@ -48,65 +38,21 @@ msgid ""
 "also included."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:5
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:19
 msgid ""
 "Glimpse is based on the GNU Image Manipulation Program 2.10, so it is "
 "extensible and fully compatible with the same plug-ins, themes and save "
 "files. It is available for Windows and Linux."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:6
-msgid "Crop and transform images in just a few clicks"
+#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in:12
+msgid "org.glimpse_editor.Glimpse"
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:7
-msgid "Apply professional filters and create animations"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:8
-msgid ""
-"After four months of intensive effort, Glimpse 0.1.0 is our very first "
-"binary release. We would like to thank everyone that has supported the "
-"project so far and look forward to building on this work in future releases."
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:9
-msgid ""
-"<li> Every feature in the GNU Image Manipulation Program 2.10.12 </li> <li> "
-"Professional branding throughout the application </li> <li> De-cluttered "
-"user interface without animal mascots and \"easter eggs\" </li> <li> Full "
-"plug-in, theme and save file compatibility with the GNU Image Manipulation "
-"Program </li> <li> Improved build/packaging tools and developer "
-"documentation </li>"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
-msgid "Extra files for Glimpse"
-msgstr "Papildu Glimpse datnes"
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr "Raksti, krāsu pārejas un citas papildu datnes Glimpse lietotnei"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
+#: ../app/about.h:22
 #, fuzzy
-msgid "Glimpse Image Editor"
-msgstr "Glimpse teksta redaktors"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
-msgid "Image Editor"
-msgstr "Attēlu redaktors"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:3
-#, fuzzy
-msgid "Create and edit images"
-msgstr "Izveidot jaunu attēlu"
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:5
-#, fuzzy
-msgid "graphic;design;illustration;painting;photography;gimp"
-msgstr "Glimpse;grafika;dizains;ilustrācija;glezna;"
+msgid "Glimpse"
+msgstr "Iziet no GIMP"
 
 #: ../app/about.h:25
 #, fuzzy
@@ -177,7 +123,7 @@ msgstr "Būt detalizētākam"
 
 #: ../app/main.c:173
 #, fuzzy
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse Image Editor instance"
 msgstr "Palaist jaunu Glimpse instanci"
 
 #: ../app/main.c:178
@@ -202,7 +148,7 @@ msgstr "Nerādīt palaišanas logu"
 
 #: ../app/main.c:203
 #, fuzzy
-msgid "Do not use shared memory between GIMP and plug-ins"
+msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
 msgstr "Neizmantot koplietojamo atmiņu vienlaicīgi starp Glimpse un spraudņiem"
 
 #: ../app/main.c:208
@@ -281,12 +227,12 @@ msgstr ""
 
 #: ../app/main.c:510
 #, fuzzy
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse Image Editor instance is already running."
 msgstr "Jau ir palaista cita Glimpse instance."
 
 #: ../app/main.c:601
 #, fuzzy
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr "Glimpse izvads. Ievadiet jebkuru simbolu, lai aizvērtu šo logu."
 
 #: ../app/main.c:602
@@ -296,7 +242,7 @@ msgstr "(Ievadiet jebkuru simbolu, lai aizvērtu šo logu)\n"
 
 #: ../app/main.c:619
 #, fuzzy
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "Glimpse izvads. Jūs varat minimizēt šo logu, bet neaizveriet to."
 
 #: ../app/sanity.c:562
@@ -10570,7 +10516,7 @@ msgstr "Parādīt paskaidri, kad kursors atrodas virs vienuma."
 
 #: ../app/config/gimprc-blurbs.h:419
 #, fuzzy
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr "Lietot Glimpse viena loga režīmā."
 
 #: ../app/config/gimprc-blurbs.h:422
@@ -14541,7 +14487,7 @@ msgstr "Doto datnes nosaukumu nevar izmantot eksportēšanai"
 #, fuzzy
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "Šo dialoglodziņu varat izmantot, lai eksportētu uz dažādiem datņu formātiem. "
 "Ja vēlaties saglabāt attālu Glimpse XCF formātā, lietojiet Datne→Saglabāt."
@@ -14557,8 +14503,8 @@ msgstr "Doto datnes nosaukumu nevar izmantot saglabāšanai"
 #: ../app/dialogs/file-save-dialog.c:627
 #, fuzzy
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
-"export to other file formats."
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export "
+"to export to other file formats."
 msgstr ""
 "Jūs varat izmantot šo dialoglodziņu, lai saglabātu Glimpse XCF formātā. "
 "Lietojiet Datne→Eksportēt, lai eksportētu uz citiem datņu formātiem."
@@ -15045,7 +14991,8 @@ msgstr ""
 
 #: ../app/dialogs/preferences-dialog.c:381
 #, fuzzy
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid ""
+"You will have to restart Glimpse for the following changes to take effect:"
 msgstr "Jums ir jāpārstartē GIMP, lai sekojošās izmaiņas stātos spēkā:"
 
 #: ../app/dialogs/preferences-dialog.c:647
@@ -26177,14 +26124,35 @@ msgstr "Kļūda, rakstot XCF — neatbalstīts BPC, rakstot pikseli: %d"
 msgid "Glimpse Crash Debug"
 msgstr "Glimpse atkļūdošana"
 
-#: ../data/tags/gimp-tags-default.xml.in.h:1
-msgid "round"
-msgstr "apaļš"
+#~ msgid "Create images and edit photographs"
+#~ msgstr "Veido attēlus vai rediģē fotogrāfijas"
 
-#. fuzzy as in a feathered, blurred, unfocused, soft brush
-#: ../data/tags/gimp-tags-default.xml.in.h:3
-msgid "fuzzy"
-msgstr "aptuvens"
+#~ msgid "Extra files for Glimpse"
+#~ msgstr "Papildu Glimpse datnes"
+
+#~ msgid "Patterns, gradients, and other extra files for Glimpse"
+#~ msgstr "Raksti, krāsu pārejas un citas papildu datnes Glimpse lietotnei"
+
+#, fuzzy
+#~ msgid "Glimpse Image Editor"
+#~ msgstr "Glimpse teksta redaktors"
+
+#~ msgid "Image Editor"
+#~ msgstr "Attēlu redaktors"
+
+#, fuzzy
+#~ msgid "Create and edit images"
+#~ msgstr "Izveidot jaunu attēlu"
+
+#, fuzzy
+#~ msgid "graphic;design;illustration;painting;photography;gimp"
+#~ msgstr "Glimpse;grafika;dizains;ilustrācija;glezna;"
+
+#~ msgid "round"
+#~ msgstr "apaļš"
+
+#~ msgid "fuzzy"
+#~ msgstr "aptuvens"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

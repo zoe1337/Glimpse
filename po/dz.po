@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 13:12+0000\n"
+"POT-Creation-Date: 2020-01-19 17:55+0000\n"
 "PO-Revision-Date: 2007-03-27 02:32+0530\n"
 "Last-Translator: yangka <yanang_ka@hotmail.com>\n"
 "Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
@@ -21,23 +21,13 @@ msgstr ""
 "X-Poedit-Country: Bhutan\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:1
-#: ../app/about.h:22
-#, fuzzy
-msgid "Glimpse"
-msgstr "ཇི་ཨའི་ཨེམ་པི་ སྤང་།"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
-msgid "Create images and edit photographs"
-msgstr "གཟུགས་བརྙན་ཚུ་ གསར་བསྐྲུན་འབད་ནི་དང་ དཔར་ཚུ་ཞུན་དག་འབད།"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:3
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:9
 msgid ""
 "Glimpse Image Editor is a usability-focused free software application "
 "capable of expert level image manipulation."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:4
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:13
 msgid ""
 "Simple tasks like cropping, transforming and retouching photos can be "
 "achieved in just a few clicks. Professional features like batch image "
@@ -45,64 +35,21 @@ msgid ""
 "also included."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:5
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:19
 msgid ""
 "Glimpse is based on the GNU Image Manipulation Program 2.10, so it is "
 "extensible and fully compatible with the same plug-ins, themes and save "
 "files. It is available for Windows and Linux."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:6
-msgid "Crop and transform images in just a few clicks"
+#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in:12
+msgid "org.glimpse_editor.Glimpse"
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:7
-msgid "Apply professional filters and create animations"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:8
-msgid ""
-"After four months of intensive effort, Glimpse 0.1.0 is our very first "
-"binary release. We would like to thank everyone that has supported the "
-"project so far and look forward to building on this work in future releases."
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:9
-msgid ""
-"<li> Every feature in the GNU Image Manipulation Program 2.10.12 </li> <li> "
-"Professional branding throughout the application </li> <li> De-cluttered "
-"user interface without animal mascots and \"easter eggs\" </li> <li> Full "
-"plug-in, theme and save file compatibility with the GNU Image Manipulation "
-"Program </li> <li> Improved build/packaging tools and developer "
-"documentation </li>"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
-msgid "Extra files for Glimpse"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
+#: ../app/about.h:22
 #, fuzzy
-msgid "Glimpse Image Editor"
-msgstr "ཇི་ཨའི་ཨེམ་པི་ ཚིག་ཡིག་ ཞུན་དག་པ།/"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
-msgid "Image Editor"
-msgstr "གཟུགས་བརྙན་ ཞུན་དག་པ།"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:3
-#, fuzzy
-msgid "Create and edit images"
-msgstr "གཟུགས་བརྙན་གསརཔ་ཅིག་ གསར་བསྐྲུན་འབད།"
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:5
-msgid "graphic;design;illustration;painting;photography;gimp"
-msgstr ""
+msgid "Glimpse"
+msgstr "ཇི་ཨའི་ཨེམ་པི་ སྤང་།"
 
 #: ../app/about.h:25
 #, fuzzy
@@ -174,7 +121,7 @@ msgstr "ཧེང་བཀལ་སྦེ་རང་ཚད་བརྒལ་ས
 
 #: ../app/main.c:173
 #, fuzzy
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse Image Editor instance"
 msgstr "ཇི་ཨའི་ཨེམ་པི་དུས་སྐབས་གསརཔ་ཅིག་འགོ་བཙུགས།"
 
 #: ../app/main.c:178
@@ -201,7 +148,7 @@ msgstr "འགོ་བཙུགས་ཀྱི་སྒོ་སྒྲིག་
 
 #: ../app/main.c:203
 #, fuzzy
-msgid "Do not use shared memory between GIMP and plug-ins"
+msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
 msgstr "ཇི་ཨའི་ཨེམ་པི་དང་ པ་ལག་ཨིནསི་ གྱི་བར་ན་ རུབ་སྤྱོད་ཀྱི་དྲན་ཚད་ལག་ལེན་མ་འཐབ།"
 
 #: ../app/main.c:208
@@ -280,12 +227,12 @@ msgstr ""
 
 #: ../app/main.c:510
 #, fuzzy
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse Image Editor instance is already running."
 msgstr "གཞན་ཇི་ཨའི་ཨེམ་པི་དུས་སྐབས་འདི་ཧེ་མ་ལས་གཡོག་བཀོལ་དོ།"
 
 #: ../app/main.c:601
 #, fuzzy
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr "ཇི་ཨའི་ཨེམ་པི་ཨའུཊི་པུཊི་ ཝིནཌོ་འདི་ཁ་བསྡམ་ནི་ལུ་ཡིག་འབྲུ་གང་རུང་ཡིག་དཔར་བརྐྱབ།"
 
 #: ../app/main.c:602
@@ -295,7 +242,7 @@ msgstr "(ཝིནཌོ་འདི་ཁ་བསྡམ་ནི་ལུ་�
 
 #: ../app/main.c:619
 #, fuzzy
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "ཇི་ཨའི་ཨེམ་པི་ཨའུཊི་པུཊི་ ཁྱོད་རང་ཝིནཌོ་འདི་ཆུང་ཀུ་བཟོ་བཏུབ་དེ་འབདཝ་ད་ཁ་མ་བསྡམ།"
 
 #: ../app/sanity.c:562
@@ -11887,7 +11834,7 @@ msgstr "དཔག་བྱེད་དེ་གིས་རྣམ་གྲངས
 
 #: ../app/config/gimprc-blurbs.h:419
 #, fuzzy
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr "ལྕོགས་ཅན་བཟོ་ཚར་བའི་སྐབས་སུ ཇི་ཨཱའི་ཨེམ་པི་གིས་ དཀར་ཆག་ནང་ལུ་ མེ་ནོ་མིགསི་ སྟོན་འོང།"
 
 #: ../app/config/gimprc-blurbs.h:422
@@ -16260,7 +16207,7 @@ msgstr "གྲ་སྒྲིག་ཡོད་མི་ ཡིག་སྣོ�
 #: ../app/dialogs/file-save-dialog.c:619
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 
 #: ../app/dialogs/file-save-dialog.c:622
@@ -16275,8 +16222,8 @@ msgstr "གྲ་སྒྲིག་ཡོད་མི་ ཡིག་སྣོ�
 
 #: ../app/dialogs/file-save-dialog.c:627
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
-"export to other file formats."
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export "
+"to export to other file formats."
 msgstr ""
 
 #: ../app/dialogs/file-save-dialog.c:629
@@ -16780,7 +16727,8 @@ msgstr "ཁྱོད་ཀྱི་ གདའ་གདམ་ཚུ་ཆ་མ�
 
 #: ../app/dialogs/preferences-dialog.c:381
 #, fuzzy
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid ""
+"You will have to restart Glimpse for the following changes to take effect:"
 msgstr ""
 "འོག་གི་བསྒྱུར་བཅོས་ཚུ་ ནུས་པ་ཅན་སྦེ་ བཟོ་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱིས་ ཇི་ཨའི་ཨེམ་པི་དེ་ ལོག་འགོ་བཙུགས་གོ "
 
@@ -28700,15 +28648,23 @@ msgstr ""
 msgid "Glimpse Crash Debug"
 msgstr "ཇི་ཨའི་ཨེམ་པི འཕྲིན་དོན།"
 
-#: ../data/tags/gimp-tags-default.xml.in.h:1
-#, fuzzy
-msgid "round"
-msgstr "སྐོར་ཐེངས།"
+#~ msgid "Create images and edit photographs"
+#~ msgstr "གཟུགས་བརྙན་ཚུ་ གསར་བསྐྲུན་འབད་ནི་དང་ དཔར་ཚུ་ཞུན་དག་འབད།"
 
-#. fuzzy as in a feathered, blurred, unfocused, soft brush
-#: ../data/tags/gimp-tags-default.xml.in.h:3
-msgid "fuzzy"
-msgstr ""
+#, fuzzy
+#~ msgid "Glimpse Image Editor"
+#~ msgstr "ཇི་ཨའི་ཨེམ་པི་ ཚིག་ཡིག་ ཞུན་དག་པ།/"
+
+#~ msgid "Image Editor"
+#~ msgstr "གཟུགས་བརྙན་ ཞུན་དག་པ།"
+
+#, fuzzy
+#~ msgid "Create and edit images"
+#~ msgstr "གཟུགས་བརྙན་གསརཔ་ཅིག་ གསར་བསྐྲུན་འབད།"
+
+#, fuzzy
+#~ msgid "round"
+#~ msgstr "སྐོར་ཐེངས།"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

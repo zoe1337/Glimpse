@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gnome Nepali Translation Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 13:12+0000\n"
+"POT-Creation-Date: 2020-01-19 17:55+0000\n"
 "PO-Revision-Date: 2017-07-31 12:57+0545\n"
 "Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
 "Language-Team: Nepali Translation Team <chautari@gmail.com>\n"
@@ -28,23 +28,13 @@ msgstr ""
 "X-Generator: Poedit 2.0.3\n"
 "Plural-Forms: nplurals=2;plural=(n!=1);\n"
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:1
-#: ../app/about.h:22
-#, fuzzy
-msgid "Glimpse"
-msgstr "गिम्प अन्त्य गर्नुहोस्"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
-msgid "Create images and edit photographs"
-msgstr "छवि सिर्जना गर्नुहोस् र फोटोग्राफ सम्पादन गर्नुहोस्"
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:3
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:9
 msgid ""
 "Glimpse Image Editor is a usability-focused free software application "
 "capable of expert level image manipulation."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:4
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:13
 msgid ""
 "Simple tasks like cropping, transforming and retouching photos can be "
 "achieved in just a few clicks. Professional features like batch image "
@@ -52,65 +42,21 @@ msgid ""
 "also included."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:5
+#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in:19
 msgid ""
 "Glimpse is based on the GNU Image Manipulation Program 2.10, so it is "
 "extensible and fully compatible with the same plug-ins, themes and save "
 "files. It is available for Windows and Linux."
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:6
-msgid "Crop and transform images in just a few clicks"
+#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in:12
+msgid "org.glimpse_editor.Glimpse"
 msgstr ""
 
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:7
-msgid "Apply professional filters and create animations"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:8
-msgid ""
-"After four months of intensive effort, Glimpse 0.1.0 is our very first "
-"binary release. We would like to thank everyone that has supported the "
-"project so far and look forward to building on this work in future releases."
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:9
-msgid ""
-"<li> Every feature in the GNU Image Manipulation Program 2.10.12 </li> <li> "
-"Professional branding throughout the application </li> <li> De-cluttered "
-"user interface without animal mascots and \"easter eggs\" </li> <li> Full "
-"plug-in, theme and save file compatibility with the GNU Image Manipulation "
-"Program </li> <li> Improved build/packaging tools and developer "
-"documentation </li>"
-msgstr ""
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
+#: ../app/about.h:22
 #, fuzzy
-msgid "Extra files for Glimpse"
-msgstr "अतिरिक्त"
-
-#: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr ""
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
-#, fuzzy
-msgid "Glimpse Image Editor"
-msgstr "गिम्प पाठ सम्पादक"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
-msgid "Image Editor"
-msgstr "छवि सम्पादक"
-
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:3
-#, fuzzy
-msgid "Create and edit images"
-msgstr "नयाँ छवि सिर्जना गर्नुहोस्"
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:5
-msgid "graphic;design;illustration;painting;photography;gimp"
-msgstr ""
+msgid "Glimpse"
+msgstr "गिम्प अन्त्य गर्नुहोस्"
 
 #: ../app/about.h:25
 #, fuzzy
@@ -181,7 +127,7 @@ msgstr "अझ बढी भरबोस हुनुहोस्"
 
 #: ../app/main.c:173
 #, fuzzy
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse Image Editor instance"
 msgstr "नयाँ गिम्प दृष्टान्त सुरू गर्नुहोस्"
 
 #: ../app/main.c:178
@@ -207,7 +153,7 @@ msgstr "स्प्लास पर्दा नदेखाउनुहोस�
 
 #: ../app/main.c:203
 #, fuzzy
-msgid "Do not use shared memory between GIMP and plug-ins"
+msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
 msgstr "गिम्प र प्लगइनहरू बिचका बाँडिएका स्मृति प्रयोग नगर्नुहोस्"
 
 #: ../app/main.c:208
@@ -286,12 +232,12 @@ msgstr ""
 
 #: ../app/main.c:510
 #, fuzzy
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse Image Editor instance is already running."
 msgstr "अर्को गिम्प दृष्टान्त पहिल्यै चलिरहेको छ ।"
 
 #: ../app/main.c:601
 #, fuzzy
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr "गिम्प निर्गत । यो सञ्झ्याल बन्द गर्न कुनै क्यारेक्टर टाइप गर्नुहोस् ।"
 
 #: ../app/main.c:602
@@ -301,7 +247,7 @@ msgstr "(यो सञ्झ्याल बन्द गर्न कुनै 
 
 #: ../app/main.c:619
 #, fuzzy
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "गिम्प निर्गत । तपाईँ सञ्झ्याल सानो पार्न सक्नुहुन्छ, तर यसलाई बन्द नगर्नुहोस् ।"
 
 #: ../app/sanity.c:562
@@ -11847,7 +11793,7 @@ msgstr "एउटा वस्तु माथि सूचक होभरह�
 
 #: ../app/config/gimprc-blurbs.h:419
 #, fuzzy
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr "जब सक्षम पारिन्छ, गिम्पले मेनुहरूमा स्मृती सहायक विद्या देखाउँछ।"
 
 #: ../app/config/gimprc-blurbs.h:422
@@ -16163,7 +16109,7 @@ msgstr "दिएको फाइलनामसँग कुनै ज्ञा
 #: ../app/dialogs/file-save-dialog.c:619
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 
 #: ../app/dialogs/file-save-dialog.c:622
@@ -16178,8 +16124,8 @@ msgstr "दिएको फाइलनामसँग कुनै ज्ञा
 
 #: ../app/dialogs/file-save-dialog.c:627
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
-"export to other file formats."
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export "
+"to export to other file formats."
 msgstr ""
 
 #: ../app/dialogs/file-save-dialog.c:629
@@ -16673,7 +16619,8 @@ msgstr "के तपाईँ सबै प्राथमिकता वा�
 
 #: ../app/dialogs/preferences-dialog.c:381
 #, fuzzy
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid ""
+"You will have to restart Glimpse for the following changes to take effect:"
 msgstr "तपाईँले निम्न परिवर्तनहरूले प्रभाव लिनका लागि गिम्प पुन: सुरु गर्नु पर्दछ:"
 
 #: ../app/dialogs/preferences-dialog.c:647
@@ -28601,16 +28548,31 @@ msgstr ""
 msgid "Glimpse Crash Debug"
 msgstr "गिम्प सन्देश"
 
-#: ../data/tags/gimp-tags-default.xml.in.h:1
-#, fuzzy
-msgid "round"
-msgstr "घुमाउरो"
+#~ msgid "Create images and edit photographs"
+#~ msgstr "छवि सिर्जना गर्नुहोस् र फोटोग्राफ सम्पादन गर्नुहोस्"
 
-#. fuzzy as in a feathered, blurred, unfocused, soft brush
-#: ../data/tags/gimp-tags-default.xml.in.h:3
 #, fuzzy
-msgid "fuzzy"
-msgstr "अस्पष्ट चयन"
+#~ msgid "Extra files for Glimpse"
+#~ msgstr "अतिरिक्त"
+
+#, fuzzy
+#~ msgid "Glimpse Image Editor"
+#~ msgstr "गिम्प पाठ सम्पादक"
+
+#~ msgid "Image Editor"
+#~ msgstr "छवि सम्पादक"
+
+#, fuzzy
+#~ msgid "Create and edit images"
+#~ msgstr "नयाँ छवि सिर्जना गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "round"
+#~ msgstr "घुमाउरो"
+
+#, fuzzy
+#~ msgid "fuzzy"
+#~ msgstr "अस्पष्ट चयन"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
