@@ -51,14 +51,6 @@ The following people have helped to document Glimpse:
     <xsl:call-template name="contributor">
       <xsl:with-param name="role" select="'documenter'"/>
     </xsl:call-template>
-    <xsl:text>
-
-The following people sponsored Glimpse on Patreon:
-
-</xsl:text>
-    <xsl:call-template name="contributor">
-      <xsl:with-param name="role" select="'sponsor'"/>
-    </xsl:call-template>
 
   </xsl:template>
 
