@@ -46,7 +46,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "Avslutt GIMP"
+msgstr "Avslutt Glimpse"
 
 #: ../app/about.h:25
 #, fuzzy
@@ -117,7 +117,7 @@ msgstr "Forklar nærare"
 #: ../app/main.c:173
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Start ei ny økt av GIMP"
+msgstr "Start ei ny økt av Glimpse"
 
 #: ../app/main.c:178
 msgid "Open images as new"
@@ -227,7 +227,7 @@ msgstr "Ei anna økt av Glimpse er aktiv."
 #: ../app/main.c:601
 #, fuzzy
 msgid "Glimpse output. Type any character to close this window."
-msgstr "GIMP-melding. Trykk ein tast for å lukke vindauget"
+msgstr "Glimpse-melding. Trykk ein tast for å lukke vindauget"
 
 #: ../app/main.c:602
 #, c-format
@@ -237,7 +237,7 @@ msgstr "(Trykk ein tast for å lukke vindauget)\n"
 #: ../app/main.c:619
 #, fuzzy
 msgid "Glimpse output. You can minimize this window, but don't close it."
-msgstr "GIMP-melding. Du kan forminska dette vindauget, men ikkje lukke det."
+msgstr "Glimpse-melding. Du kan forminska dette vindauget, men ikkje lukke det."
 
 #: ../app/sanity.c:562
 #, c-format
@@ -3032,12 +3032,12 @@ msgstr "_Dagens tips"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "Viser tips som kan vera til hjelp når du brukar GIMP"
+msgstr "Viser tips som kan vera til hjelp når du brukar Glimpse"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "Om GIMP"
+msgstr "Om Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 msgctxt "dialogs-action"
@@ -4148,7 +4148,7 @@ msgstr "_Avslutt"
 #: ../app/actions/file-actions.c:125
 msgctxt "file-action"
 msgid "Quit Glimpse"
-msgstr "Avslutt GIMP"
+msgstr "Avslutt Glimpse"
 
 #: ../app/actions/file-actions.c:133 ../app/actions/file-actions.c:308
 msgctxt "file-action"
@@ -5566,7 +5566,7 @@ msgstr "_Hjelp"
 #: ../app/actions/help-actions.c:42
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "Opna GIMP-handboka"
+msgstr "Opna Glimpse-handboka"
 
 #: ../app/actions/help-actions.c:47
 msgctxt "help-action"
@@ -5576,7 +5576,7 @@ msgstr "_Menyhjelp"
 #: ../app/actions/help-actions.c:48
 msgctxt "help-action"
 msgid "Show the help for a specific user interface item"
-msgstr "Vis hjelp for eit bestemte element i GIMP"
+msgstr "Vis hjelp for eit bestemte element i Glimpse"
 
 #: ../app/actions/image-actions.c:51 ../app/actions/image-actions.c:55
 msgctxt "image-action"
@@ -10770,7 +10770,7 @@ msgstr ""
 msgid ""
 "Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr ""
-"Hugs gjeldande verktøy, mønsterelement, farge og pensel mellom GIMP-øktene."
+"Hugs gjeldande verktøy, mønsterelement, farge og pensel mellom Glimpse-øktene."
 
 #: ../app/config/gimprc-blurbs.h:349
 msgid ""
@@ -10787,7 +10787,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:358
 msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
-msgstr "Lagra posisjon og storleik på menyane når du avsluttar  GIMP."
+msgstr "Lagra posisjon og storleik på menyane når du avsluttar Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:361
 msgid "Save the tool options when Glimpse exits."
@@ -11503,7 +11503,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Om GIMP"
+msgstr "Om Glimpse"
 
 #: ../app/core/core-enums.c:540
 msgctxt "dynamics-output-type"
@@ -12349,7 +12349,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Det ser ut til at du har brukt GIMP %s tidlegare. Glimpse vil nå flytta "
+"Det ser ut til at du har brukt Glimpse %s tidlegare. Glimpse vil nå flytta "
 "brukarinnstillingane dine til «%s»."
 
 #: ../app/core/gimp-user-install.c:220
@@ -12358,7 +12358,7 @@ msgid ""
 "It appears that you are using Glimpse for the first time.  Glimpse will now "
 "create a folder named '%s' and copy some files to it."
 msgstr ""
-"Det ser ut til at dette er første gongen dy køyrer GIMP. Glimpse vil difor "
+"Det ser ut til at dette er første gongen dy køyrer Glimpse. Glimpse vil difor "
 "lage ei ny mappe,  «%s», og kopiera nokre filer dit. "
 
 #: ../app/core/gimp-user-install.c:419
@@ -14546,7 +14546,7 @@ msgstr "prosent"
 
 #: ../app/dialogs/about-dialog.c:115
 msgid "About Glimpse"
-msgstr "Om GIMP"
+msgstr "Om Glimpse"
 
 #: ../app/dialogs/about-dialog.c:124
 msgid "Visit the Glimpse website"
@@ -14837,12 +14837,12 @@ msgstr "Er du sikker på at du vil slette «%s» frå lista og frå disken?"
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:192
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "GIMP-melding"
+msgstr "Glimpse-melding"
 
 #: ../app/dialogs/dialogs-constructors.c:225
 #, fuzzy
 msgid "Glimpse Debug"
-msgstr "GIMP-melding"
+msgstr "Glimpse-melding"
 
 #: ../app/dialogs/dialogs.c:315
 msgid "Devices"
@@ -15470,7 +15470,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Tastatursnarvegane dine vert tilbakestilte til standardverdiane neste gong "
-"du opnar GIMP."
+"du opnar Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -15487,7 +15487,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Vidaugeinnstillingane dine vert sett tilbake til standardverdiane neste gong "
-"du opnar GIMP."
+"du opnar Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:756
 #, fuzzy
@@ -15496,7 +15496,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Innstillingane dine for inndataeiningane vert sett til standardverdiane "
-"neste gang du opnar GIMP."
+"neste gang du opnar Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:798
 #, fuzzy
@@ -15505,7 +15505,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Verktøyinnstillingane dine vert tilbakestilte til standardverdiane neste "
-"gang du opnar GIMP."
+"gang du opnar Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2523
@@ -17098,7 +17098,7 @@ msgstr "Pikslar/%a"
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
 msgid "Quit Glimpse"
-msgstr "Avslutt GIMP"
+msgstr "Avslutt Glimpse"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -17298,7 +17298,7 @@ msgstr "Glimpse si tips-fil kunne ikkje tolkast!"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "GIMP «Dagens tips»"
+msgstr "Glimpse «Dagens tips»"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -25274,7 +25274,7 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:488
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "Avslutt GIMP"
+msgstr "Avslutt Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:455 ../app/widgets/gimpdashboard.c:507
 msgctxt "dashboard-variable"
@@ -26049,7 +26049,7 @@ msgstr "Bruk _nettlesar"
 
 #: ../app/widgets/gimphelp.c:793
 msgid "Glimpse user manual is missing"
-msgstr "Finn ikkje GIMP-handboka"
+msgstr "Finn ikkje Glimpse-handboka"
 
 #: ../app/widgets/gimphelp.c:809
 #, fuzzy
@@ -27090,7 +27090,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:78
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "GIMP-melding"
+msgstr "Glimpse-melding"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
