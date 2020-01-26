@@ -52,7 +52,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "Выйти из GIMP"
+msgstr "Выйти из Glimpse"
 
 #: ../app/about.h:25
 #, fuzzy
@@ -125,9 +125,8 @@ msgid "Be more verbose"
 msgstr "Давать более подробную информацию"
 
 #: ../app/main.c:173
-#, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Запустить новую копию GIMP"
+msgstr "Запустить новую копию Glimpse"
 
 #: ../app/main.c:178
 msgid "Open images as new"
@@ -152,7 +151,7 @@ msgstr "Не показывать заставку при запуске"
 #: ../app/main.c:203
 #, fuzzy
 msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
-msgstr "Не использовать разделяемую память между GIMP и его расширениями"
+msgstr "Не использовать разделяемую память между Glimpse и его расширениями"
 
 #: ../app/main.c:208
 msgid "Do not use special CPU acceleration functions"
@@ -225,18 +224,18 @@ msgid ""
 "Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
-"GIMP не смог запустить графический интерфейс пользователя.\n"
+"Glimpse не смог запустить графический интерфейс пользователя.\n"
 "Убедитесь в правильности настроек вашего видеоадаптера."
 
 #: ../app/main.c:510
 #, fuzzy
 msgid "Another Glimpse Image Editor instance is already running."
-msgstr "Уже запущена другая копия GIMP."
+msgstr "Уже запущена другая копия Glimpse."
 
 #: ../app/main.c:601
 #, fuzzy
 msgid "Glimpse output. Type any character to close this window."
-msgstr "Вывод GIMP. Введите любой символ для закрытия этого окна."
+msgstr "Вывод Glimpse. Введите любой символ для закрытия этого окна."
 
 #: ../app/main.c:602
 #, c-format
@@ -246,7 +245,7 @@ msgstr "(Введите любой символ для закрытия этог
 #: ../app/main.c:619
 #, fuzzy
 msgid "Glimpse output. You can minimize this window, but don't close it."
-msgstr "Вывод GIMP. Вы можете свернуть это окно, но не закрывайте его."
+msgstr "Вывод Glimpse. Вы можете свернуть это окно, но не закрывайте его."
 
 #: ../app/sanity.c:562
 #, c-format
@@ -3993,7 +3992,7 @@ msgstr "В_ыход"
 #: ../app/actions/file-actions.c:125
 msgctxt "file-action"
 msgid "Quit Glimpse"
-msgstr "Завершить работу с GNU Image Manipulation Program"
+msgstr "Завершить работу с Glimpse"
 
 #: ../app/actions/file-actions.c:133 ../app/actions/file-actions.c:308
 msgctxt "file-action"
@@ -5372,7 +5371,7 @@ msgstr "_Справка"
 #: ../app/actions/help-actions.c:42
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "Открыть руководство по GIMP"
+msgstr "Открыть руководство по Glimpse"
 
 #: ../app/actions/help-actions.c:47
 msgctxt "help-action"
@@ -9777,7 +9776,7 @@ msgstr "Однооконный режим"
 #: ../app/actions/windows-actions.c:142
 msgctxt "windows-action"
 msgid "When enabled, Glimpse is in a single-window mode."
-msgstr "Использовать GIMP в однооконном режиме."
+msgstr "Использовать Glimpse в однооконном режиме."
 
 #: ../app/actions/windows-actions.c:151
 msgctxt "windows-tabs-position-action"
@@ -9925,7 +9924,7 @@ msgstr "Для правшей"
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
-msgstr "Справочная система GIMP"
+msgstr "Справочная система Glimpse"
 
 #: ../app/config/config-enums.c:187
 msgctxt "help-browser-type"
@@ -10318,7 +10317,7 @@ msgid ""
 "would take more memory than the size specified here."
 msgstr ""
 "При попытке создать файл, размер которого превышает указанное здесь "
-"значение, GIMP предупредит вас об этом."
+"значение, Glimpse предупредит вас об этом."
 
 #: ../app/config/gimprc-blurbs.h:266
 msgid ""
@@ -10357,7 +10356,7 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:289
 msgid ""
 "Sets how many threads Glimpse should use for operations that support it."
-msgstr "Установить количество процессоров, используемых GIMP одновременно."
+msgstr "Установить количество процессоров, используемых Glimpse одновременно."
 
 #: ../app/config/gimprc-blurbs.h:311
 msgid ""
@@ -10409,7 +10408,7 @@ msgid ""
 "open before.  When disabled, windows will appear on the currently used "
 "monitor."
 msgstr ""
-"Когда включено, GIMP будет пытаться восстановить окна на том мониторе, где "
+"Когда включено, Glimpse будет пытаться восстановить окна на том мониторе, где "
 "они были открыты в прошлый раз. Когда выключено, окна будут открыты на "
 "текущем мониторе."
 
@@ -10440,7 +10439,7 @@ msgstr "Сохранить положение и размеры главных �
 
 #: ../app/config/gimprc-blurbs.h:361
 msgid "Save the tool options when Glimpse exits."
-msgstr "Сохранить параметры инструментов при выходе из GIMP."
+msgstr "Сохранить параметры инструментов при выходе из Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:367
 msgid ""
@@ -10545,7 +10544,7 @@ msgstr "Показывать всплывающую подсказку по на
 #: ../app/config/gimprc-blurbs.h:419
 #, fuzzy
 msgid "Use Glimpse in a single-window mode."
-msgstr "Использовать GIMP в однооконном режиме"
+msgstr "Использовать Glimpse в однооконном режиме"
 
 #: ../app/config/gimprc-blurbs.h:422
 msgid "Hide docks and other windows, leaving only image windows."
@@ -10589,7 +10588,7 @@ msgid ""
 "swap file is created on a folder that is mounted over NFS.  For these "
 "reasons, it may be desirable to put your swap file in \"/tmp\"."
 msgstr ""
-"Устанавливает местонахождение файла подкачки. GIMP использует мозаичный тип "
+"Устанавливает местонахождение файла подкачки. Glimpse использует мозаичный тип "
 "подкачки. Обратите внимание на то, что файл подкачки может стать очень "
 "большим, если работать с большими изображениями. Кроме того, работа может "
 "замедлиться, если файл подкачки создан в папке, которая смонтирована поверх "
@@ -10609,11 +10608,11 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:462
 msgid "Save changed keyboard shortcuts when Glimpse exits."
-msgstr "Сохранить изменённые комбинации клавиш при выходе из GIMP."
+msgstr "Сохранить изменённые комбинации клавиш при выходе из Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:465
 msgid "Restore saved keyboard shortcuts on each Glimpse startup."
-msgstr "Восстановить сохранённые комбинации клавиш при запуске GIMP."
+msgstr "Восстановить сохранённые комбинации клавиш при запуске Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:468
 msgid ""
@@ -10623,8 +10622,8 @@ msgid ""
 "that is shared by other users."
 msgstr ""
 "Определяет временный каталог. Здесь будут содержаться временные файлы, с "
-"которыми работает GIMP. Большинство из них будет удаляться сразу после "
-"окончания работы с GIMP, однако некоторые останутся, поэтому не стоит давать "
+"которыми работает Glimpse. Большинство из них будет удаляться сразу после "
+"окончания работы с Glimpse, однако некоторые останутся, поэтому не стоит давать "
 "другим пользователям права на просмотр и изменение этого каталога."
 
 #: ../app/config/gimprc-blurbs.h:474
@@ -10919,7 +10918,7 @@ msgid ""
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
 msgstr ""
-"Когда объем растровых данных превышает установленное значение, GIMP начинает "
+"Когда объем растровых данных превышает установленное значение, Glimpse начинает "
 "сохранять данные на диск. Это несколько замедляет работу, но позволяет "
 "обрабатывать данные, не помещающиеся в оперативную память. Если оперативной "
 "памяти много, это значение лучше увеличить."
@@ -12046,7 +12045,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Похоже, вы уже использовали GIMP %s ранее.  GIMP перенесёт ваши "
+"Похоже, вы уже использовали Glimpse %s ранее.  Glimpse перенесёт ваши "
 "пользовательские предпочтения в '%s'."
 
 #: ../app/core/gimp-user-install.c:220
@@ -12055,7 +12054,7 @@ msgid ""
 "It appears that you are using Glimpse for the first time.  Glimpse will now "
 "create a folder named '%s' and copy some files to it."
 msgstr ""
-"Похоже, что вы впервые используете GIMP. Сейчас программа создаст каталог с "
+"Похоже, что вы впервые используете Glimpse. Сейчас программа создаст каталог с "
 "именем '%s' и скопирует туда некоторые файлы."
 
 #: ../app/core/gimp-user-install.c:419
@@ -14193,11 +14192,11 @@ msgstr "проценты"
 
 #: ../app/dialogs/about-dialog.c:115
 msgid "About Glimpse"
-msgstr "О GIMP"
+msgstr "О Glimpse"
 
 #: ../app/dialogs/about-dialog.c:124
 msgid "Visit the Glimpse website"
-msgstr "Посетите сайт GIMP"
+msgstr "Посетите сайт Glimpse"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -14211,7 +14210,7 @@ msgstr ""
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"
-msgstr "GIMP создали для вас"
+msgstr "Glimpse создали для вас"
 
 #: ../app/dialogs/about-dialog.c:606
 #, c-format
@@ -14466,11 +14465,11 @@ msgstr "Вы действительно хотите удалить '%s' из с
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:192
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "Сообщение GIMP"
+msgstr "Сообщение Glimpse"
 
 #: ../app/dialogs/dialogs-constructors.c:225
 msgid "Glimpse Debug"
-msgstr "Отладка GIMP"
+msgstr "Отладка Glimpse"
 
 #: ../app/dialogs/dialogs.c:315
 msgid "Devices"
@@ -14947,7 +14946,7 @@ msgstr "Об_новить"
 #, fuzzy
 msgid "You will have to restart Glimpse for the changes to take effect."
 msgstr ""
-"Необходимо перезапустить GIMP, чтобы\n"
+"Необходимо перезапустить Glimpse, чтобы\n"
 "подействовали внесенные изменения."
 
 #: ../app/dialogs/module-dialog.c:194
@@ -15073,7 +15072,7 @@ msgstr "Действительно вернуться к исходным зна
 msgid ""
 "You will have to restart Glimpse for the following changes to take effect:"
 msgstr ""
-"Необходимо перезапустить GIMP, чтобы\n"
+"Необходимо перезапустить Glimpse, чтобы\n"
 "подействовали следующие изменения:"
 
 #: ../app/dialogs/preferences-dialog.c:647
@@ -15082,7 +15081,7 @@ msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
 "start Glimpse."
 msgstr ""
-"При следующем запуске GIMP будут использованы типовые комбинации клавиш."
+"При следующем запуске Glimpse будут использованы типовые комбинации клавиш."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -15098,7 +15097,7 @@ msgid ""
 "Your window setup will be reset to default values the next time you start "
 "Glimpse."
 msgstr ""
-"При следующем запуске GIMP для окон будут использованы предпочтения по "
+"При следующем запуске Glimpse для окон будут использованы предпочтения по "
 "умолчанию."
 
 #: ../app/dialogs/preferences-dialog.c:756
@@ -15107,7 +15106,7 @@ msgid ""
 "Your input device settings will be reset to default values the next time you "
 "start Glimpse."
 msgstr ""
-"При следующем запуске GIMP для устройств ввода будут использованы "
+"При следующем запуске Glimpse для устройств ввода будут использованы "
 "предпочтения по умолчанию."
 
 #: ../app/dialogs/preferences-dialog.c:798
@@ -15116,7 +15115,7 @@ msgid ""
 "Your tool options will be reset to default values the next time you start "
 "Glimpse."
 msgstr ""
-"При следующем запуске GIMP для параметров инструментов будут использованы "
+"При следующем запуске Glimpse для параметров инструментов будут использованы "
 "исходные параметры."
 
 #: ../app/dialogs/preferences-dialog.c:850
@@ -15268,7 +15267,7 @@ msgid ""
 "bugs."
 msgstr ""
 "В любой программе бывают ошибки.\n"
-"Будем признательны за сообщения о проблемах при работе с GIMP."
+"Будем признательны за сообщения о проблемах при работе с Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:1254
 msgid "Bug Reporting"
@@ -16052,7 +16051,7 @@ msgid ""
 "The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
 msgstr ""
-"Похоже, что просмотрщик справки GIMP не установлен. Вместо него будет "
+"Похоже, что просмотрщик справки Glimpse не установлен. Вместо него будет "
 "использован веб-браузер."
 
 #. Action Search
@@ -16603,7 +16602,7 @@ msgstr "пикселов/%a"
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
 msgid "Quit Glimpse"
-msgstr "Завершить работу с GNU Image Manipulation Program"
+msgstr "Завершить работу с Glimpse"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -16612,7 +16611,7 @@ msgstr "Закрыть все изображения"
 #: ../app/dialogs/quit-dialog.c:256
 #, fuzzy
 msgid "If you quit Glimpse now, these changes will be lost."
-msgstr "Если выйти из GIMP, то несохранённые изменения будут потеряны."
+msgstr "Если выйти из Glimpse, то несохранённые изменения будут потеряны."
 
 #: ../app/dialogs/quit-dialog.c:259
 msgid "If you close these images now, changes will be lost."
@@ -16778,12 +16777,12 @@ msgstr "_Имитировать динамику кисти"
 #: ../app/dialogs/tips-dialog.c:99
 #, fuzzy
 msgid "The Glimpse tips file is empty!"
-msgstr "Файл советов GIMP пуст!"
+msgstr "Файл советов Glimpse пуст!"
 
 #: ../app/dialogs/tips-dialog.c:103
 #, fuzzy
 msgid "The Glimpse tips file appears to be missing!"
-msgstr "Файл советов GIMP не найден!"
+msgstr "Файл советов Glimpse не найден!"
 
 #: ../app/dialogs/tips-dialog.c:105
 #, c-format
@@ -16793,11 +16792,11 @@ msgstr "Где-то тут должен быть файл '%s'. Пожалуйс
 #: ../app/dialogs/tips-dialog.c:111
 #, fuzzy
 msgid "The Glimpse tips file could not be parsed!"
-msgstr "Файл советов GIMP не может быть корректно проанализирован!"
+msgstr "Файл советов Glimpse не может быть корректно проанализирован!"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "Совет дня GIMP"
+msgstr "Совет дня Glimpse"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -16824,7 +16823,7 @@ msgstr "tips-locale:ru"
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "Пользовательская установка GIMP"
+msgstr "Пользовательская установка Glimpse"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
@@ -16834,7 +16833,7 @@ msgstr "Установка не удалась!"
 #, fuzzy
 msgid "The Glimpse user installation failed; see the log for details."
 msgstr ""
-"Не удалось произвести пользовательскую установку GIMP; подробности — в "
+"Не удалось произвести пользовательскую установку Glimpse; подробности — в "
 "журнале."
 
 #: ../app/dialogs/user-install-dialog.c:99
@@ -18667,7 +18666,7 @@ msgstr "_Восстановить"
 
 #: ../app/gui/gui.c:342
 msgid "Eeek! It looks like Glimpse recovered from a crash!"
-msgstr "Ох, кажется, GIMP в прошлый раз упал!"
+msgstr "Ох, кажется, Glimpse в прошлый раз упал!"
 
 #. TRANSLATORS: even if English singular form does
 #. * not use %d, you can use %d for translation in
@@ -18697,7 +18696,7 @@ msgstr "Документы"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "Запуск GIMP"
+msgstr "Запуск Glimpse"
 
 #: ../app/paint/gimpairbrush.c:77 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -20028,8 +20027,8 @@ msgstr ""
 "Рухнуло расширение: \"%s\"\n"
 "(%s)\n"
 "\n"
-"Умершее расширение может испортить внутреннее состояние GIMP. Возможно, для "
-"обеспечения безопасности стоит сохранить изображения и перезапустить GIMP."
+"Умершее расширение может испортить внутреннее состояние Glimpse. Возможно, для "
+"обеспечения безопасности стоит сохранить изображения и перезапустить Glimpse."
 
 #: ../app/plug-in/gimpplugin-message.c:486
 #, c-format
@@ -22216,7 +22215,7 @@ msgstr "_Перемещение"
 #: ../app/tools/gimpmybrushtool.c:74
 #, fuzzy
 msgid "MyPaint Brush Tool: Use MyPaint brushes in Glimpse"
-msgstr "Кисть MyPaint: рисовать в GIMP кистями MyPaint"
+msgstr "Кисть MyPaint: рисовать в Glimpse кистями MyPaint"
 
 #: ../app/tools/gimpmybrushtool.c:75
 msgid "M_yPaint Brush"
@@ -22978,7 +22977,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "Текстовый редактор GIMP"
+msgstr "Текстовый редактор Glimpse"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -24352,7 +24351,7 @@ msgstr "Открыть трекер ошибок"
 #, fuzzy
 msgid ""
 "To help us improve Glimpse, you can report the bug with these simple steps:"
-msgstr "Помогите нам улучшить GIMP и сообщите об этой ошибке:"
+msgstr "Помогите нам улучшить Glimpse и сообщите об этой ошибке:"
 
 #: ../app/widgets/gimpcriticaldialog.c:134
 #: ../app/widgets/gimpcriticaldialog.c:457
@@ -24389,8 +24388,8 @@ msgid ""
 "This error may have left Glimpse in an inconsistent state. It is advised to "
 "save your work and restart Glimpse."
 msgstr ""
-"Эта ошибка могла привести к нестабильной работе GIMP. Рекомендуется "
-"сохранить изображения и перезапустить GIMP."
+"Эта ошибка могла привести к нестабильной работе Glimpse. Рекомендуется "
+"сохранить изображения и перезапустить Glimpse."
 
 #: ../app/widgets/gimpcriticaldialog.c:153
 msgid ""
@@ -24467,13 +24466,13 @@ msgstr "Не удалось открыть '%s': %s"
 #: ../app/widgets/gimpcriticaldialog.c:421
 #, fuzzy, c-format
 msgid "Glimpse crashed with a fatal error: %s"
-msgstr "GIMP «упал» из-за критической ошибки: %s"
+msgstr "Glimpse «упал» из-за критической ошибки: %s"
 
 #. First error. Let's just display it.
 #: ../app/widgets/gimpcriticaldialog.c:428
 #, fuzzy, c-format
 msgid "Glimpse encountered an error: %s"
-msgstr "В работе GIMP возникла ошибка: %s"
+msgstr "В работе Glimpse возникла ошибка: %s"
 
 #. Let's not display all errors. They will be in the bug report
 #. * part anyway.
@@ -24481,12 +24480,12 @@ msgstr "В работе GIMP возникла ошибка: %s"
 #: ../app/widgets/gimpcriticaldialog.c:436
 #, fuzzy, c-format
 msgid "Glimpse encountered several critical errors!"
-msgstr "В работе GIMP возникло несколько критических ошибок!"
+msgstr "В работе Glimpse возникло несколько критических ошибок!"
 
 #: ../app/widgets/gimpcriticaldialog.c:488
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "_Перезапустить GIMP"
+msgstr "_Перезапустить Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:455 ../app/widgets/gimpdashboard.c:507
 msgctxt "dashboard-variable"
@@ -25204,14 +25203,14 @@ msgstr "Программа для просмотра справки отсутс
 
 #: ../app/widgets/gimphelp.c:372
 msgid "The Glimpse help browser is not available."
-msgstr "Программа для просмотра руководства по GIMP отсутствует."
+msgstr "Программа для просмотра руководства по Glimpse отсутствует."
 
 #: ../app/widgets/gimphelp.c:373
 msgid ""
 "The Glimpse help browser plug-in appears to be missing from your "
 "installation. You may instead use the web browser for reading the help pages."
 msgstr ""
-"Встроенный просмотрщик справки GIMP отсутствует. Вы можете использовать "
+"Встроенный просмотрщик справки Glimpse отсутствует. Вы можете использовать "
 "вместо него обычный веб-браузер."
 
 #: ../app/widgets/gimphelp.c:419
@@ -25220,7 +25219,7 @@ msgstr "Программа просмотра справки не запуска
 
 #: ../app/widgets/gimphelp.c:420
 msgid "Could not start the Glimpse help browser plug-in."
-msgstr "Не удалось запустить программу просмотра справки GIMP"
+msgstr "Не удалось запустить программу просмотра справки Glimpse"
 
 #: ../app/widgets/gimphelp.c:422
 msgid "You may instead use the web browser for reading the help pages."
@@ -25234,11 +25233,11 @@ msgstr "Использовать _веб-браузер"
 
 #: ../app/widgets/gimphelp.c:793
 msgid "Glimpse user manual is missing"
-msgstr "Руководство по GIMP отсутствует"
+msgstr "Руководство по Glimpse отсутствует"
 
 #: ../app/widgets/gimphelp.c:809
 msgid "The Glimpse user manual is not installed in your language."
-msgstr "Руководство пользователя GIMP на вашем языке не установлено."
+msgstr "Руководство пользователя Glimpse на вашем языке не установлено."
 
 #: ../app/widgets/gimphelp.c:820
 msgid "Read Selected _Language"
@@ -25931,7 +25930,7 @@ msgstr "Профиль %s"
 #: ../app/widgets/gimpuimanager.c:772
 #, fuzzy
 msgid "Your Glimpse installation is incomplete:"
-msgstr "Установка GIMP не завершена:"
+msgstr "Установка Glimpse не завершена:"
 
 #: ../app/widgets/gimpuimanager.c:774
 msgid "Please make sure the menu XML files are correctly installed."
@@ -26235,7 +26234,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:78
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "Отладка GIMP"
+msgstr "Отладка Glimpse"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
@@ -26245,14 +26244,14 @@ msgstr "Отладка GIMP"
 #~ msgstr "Создание изображений и редактирование фотографий"
 
 #~ msgid "Extra files for Glimpse"
-#~ msgstr "Дополнительные файлы для GIMP"
+#~ msgstr "Дополнительные файлы для Glimpse"
 
 #~ msgid "Patterns, gradients, and other extra files for Glimpse"
-#~ msgstr "Текстуры, градиенты и другие дополнительные файлы для GIMP"
+#~ msgstr "Текстуры, градиенты и другие дополнительные файлы для Glimpse"
 
 #, fuzzy
 #~ msgid "Glimpse Image Editor"
-#~ msgstr "Текстовый редактор GIMP"
+#~ msgstr "Текстовый редактор Glimpse"
 
 #~ msgid "Image Editor"
 #~ msgstr "Редактор изображений"
@@ -26281,7 +26280,7 @@ msgstr "Отладка GIMP"
 
 #, fuzzy
 #~ msgid "GIMP Crash Debug"
-#~ msgstr "Отладка GIMP"
+#~ msgstr "Отладка Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Debug"
@@ -26323,10 +26322,10 @@ msgstr "Отладка GIMP"
 #~ "Программа GIMP доступна для Linux, Microsoft Windows и OS X."
 
 #~ msgid "Painting in Glimpse"
-#~ msgstr "Рисование в GIMP"
+#~ msgstr "Рисование в Glimpse"
 
 #~ msgid "Photo editing in Glimpse"
-#~ msgstr "Редактирование фотографий в GIMP"
+#~ msgstr "Редактирование фотографий в Glimpse"
 
 #~ msgid "A few enhancements specific to the Curves tool"
 #~ msgstr "Различные улучшения в фильтре цветовых кривых"
@@ -26649,14 +26648,14 @@ msgstr "Отладка GIMP"
 
 #~ msgid "Show Glimpse _logo (drag-and-drop target)"
 #~ msgstr ""
-#~ "Показывать _логотип GIMP (на него можно перетаскивать изображения для "
+#~ "Показывать _логотип Glimpse (на него можно перетаскивать изображения для "
 #~ "открытия)"
 
 #~ msgid "Glimpse brush"
-#~ msgstr "Кисть GIMP"
+#~ msgstr "Кисть Glimpse"
 
 #~ msgid "Glimpse pattern"
-#~ msgstr "Текстура GIMP"
+#~ msgstr "Текстура Glimpse"
 
 #~ msgid "_Offset"
 #~ msgstr "_Смещение"
@@ -27675,10 +27674,10 @@ msgstr "Отладка GIMP"
 #~ "your work using different filenames, restart Glimpse and check the "
 #~ "location of the swap directory in your Preferences."
 #~ msgstr ""
-#~ "Невозможно открыть файл подкачки. GIMP использовал всю доступную "
+#~ "Невозможно открыть файл подкачки. Glimpse использовал всю доступную "
 #~ "оперативную память и не может использовать файл подкачки. Некоторые части "
 #~ "ваших изображений могут оказаться поврежденными. Сохраните файлы под "
-#~ "другими именами, перезапустите GIMP и проверьте путь к файлу подкачки в "
+#~ "другими именами, перезапустите Glimpse и проверьте путь к файлу подкачки в "
 #~ "параметрах программы."
 
 #~ msgid "Failed to resize swap file: %s"
@@ -28043,20 +28042,20 @@ msgstr "Отладка GIMP"
 #~ msgstr "Изображение + Сетка"
 
 #~ msgid "Use a running Glimpse only, never start a new one"
-#~ msgstr "Использовать только запущенную копию GIMP, не запускать новую"
+#~ msgstr "Использовать только запущенную копию Glimpse, не запускать новую"
 
 #~ msgid "Only check if Glimpse is running, then quit"
-#~ msgstr "Проверить, что GIMP запускается, затем выйти"
+#~ msgstr "Проверить, что Glimpse запускается, затем выйти"
 
 #~ msgid "Print X window ID of Glimpse toolbox window, then quit"
 #~ msgstr ""
-#~ "Вывести идентификатор X windows окна панели инструментов GIMP и выйти"
+#~ "Вывести идентификатор X windows окна панели инструментов Glimpse и выйти"
 
 #~ msgid "Start Glimpse without showing the startup window"
-#~ msgstr "Запустить GIMP без стартового окна"
+#~ msgstr "Запустить Glimpse без стартового окна"
 
 #~ msgid "Could not connect to Glimpse."
-#~ msgstr "Невозможно соединиться с GIMP."
+#~ msgstr "Невозможно соединиться с Glimpse."
 
 #~ msgid "Make sure that the Toolbox is visible!"
 #~ msgstr "Убедитесь, что панель инструментов видима!"
@@ -28353,7 +28352,7 @@ msgstr "Отладка GIMP"
 #~ msgstr "_Показывать на панели инструментов"
 
 #~ msgid "When enabled, Glimpse will show mnemonics in menus."
-#~ msgstr "Если включено, GIMP отображает мнемонические клавиши в меню."
+#~ msgstr "Если включено, Glimpse отображает мнемонические клавиши в меню."
 
 #~ msgid ""
 #~ "When enabled, dock windows (the toolbox and palettes) are set to be "
