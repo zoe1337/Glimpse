@@ -3478,7 +3478,7 @@ msgstr "Неправильное разрешение по X."
 
 #: ../plug-ins/common/file-pnm.c:627
 msgid "Image width is larger than Glimpse can handle."
-msgstr "GIMP не справится с изображением такой ширины"
+msgstr "Glimpse не справится с изображением такой ширины"
 
 #: ../plug-ins/common/file-pnm.c:634
 msgid "Invalid Y resolution."
@@ -3486,7 +3486,7 @@ msgstr "Неправильное разрешение по Y."
 
 #: ../plug-ins/common/file-pnm.c:636
 msgid "Image height is larger than Glimpse can handle."
-msgstr "GIMP не справится с изображением такой высоты"
+msgstr "Glimpse не справится с изображением такой высоты"
 
 #: ../plug-ins/common/file-pnm.c:648
 msgid "Bogus scale factor."
@@ -4059,7 +4059,7 @@ msgid ""
 "Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
-"GIMP не справится с изображением такой ширины"
+"Glimpse не справится с изображением такой ширины"
 
 #: ../plug-ins/common/file-sunras.c:518 ../plug-ins/common/file-xbm.c:851
 #: ../plug-ins/common/file-xwd.c:540
@@ -4079,7 +4079,7 @@ msgid ""
 "Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
-"GIMP не справится с изображением такой высоты"
+"Glimpse не справится с изображением такой высоты"
 
 #: ../plug-ins/common/file-sunras.c:562
 msgid "This image depth is not supported"
@@ -10482,7 +10482,7 @@ msgstr "Справка для '%s' недоступна."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
 msgid "The Glimpse user manual is not available."
-msgstr "Руководство по GIMP недоступно"
+msgstr "Руководство по Glimpse недоступно"
 
 #. TRANSLATORS: do not end the URL with a dot,
 #. * it would be in the link. Because of
@@ -14000,7 +14000,7 @@ msgstr "Получение данных со сканера/камеры"
 #~ "Предупреждение:\n"
 #~ "Изображение, которое вы собираетесь загрузить,\n"
 #~ "сохранено в режиме 16 разрядов на цветовой канал.\n"
-#~ "GIMP поддерживает только 8 разрядов на канал, \n"
+#~ "Glimpse поддерживает только 8 разрядов на канал, \n"
 #~ "так что изображение будет преобразовано. В процессе\n"
 #~ "преобразования информация изображения будет утеряна."
 
@@ -15255,7 +15255,7 @@ msgstr "Получение данных со сканера/камеры"
 #~ msgstr "Не удалось открыть внешний файл для записи"
 
 #~ msgid "There is a problem with the Glimpse user manual."
-#~ msgstr "Проблемы со справкой по GIMP"
+#~ msgstr "Проблемы со справкой по Glimpse"
 
 #~ msgid "Please check your installation."
 #~ msgstr "Пожалуйста, проверьте вашу установку."
@@ -15276,7 +15276,7 @@ msgstr "Получение данных со сканера/камеры"
 #~ msgstr "С_глаживание:"
 
 #~ msgid "The Glimpse help files are not found."
-#~ msgstr "Файлы помощи GIMP не найдены."
+#~ msgstr "Файлы помощи Glimpse не найдены."
 
 #~ msgid "Printable area:"
 #~ msgstr "Печатаемая область:"

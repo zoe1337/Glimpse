@@ -3511,7 +3511,7 @@ msgstr "Ugyldig x-opløsning."
 
 #: ../plug-ins/common/file-pnm.c:627
 msgid "Image width is larger than Glimpse can handle."
-msgstr "Billedbredden er større end GIMP kan håndtere."
+msgstr "Billedbredden er større end Glimpse kan håndtere."
 
 #: ../plug-ins/common/file-pnm.c:634
 msgid "Invalid Y resolution."
@@ -3519,7 +3519,7 @@ msgstr "Ugyldig y-opløsning."
 
 #: ../plug-ins/common/file-pnm.c:636
 msgid "Image height is larger than Glimpse can handle."
-msgstr "Billedhøjden er større end GIMP kan håndtere."
+msgstr "Billedhøjden er større end Glimpse kan håndtere."
 
 #: ../plug-ins/common/file-pnm.c:648
 msgid "Bogus scale factor."
@@ -4094,7 +4094,7 @@ msgid ""
 "Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
-"Billedbredden er større end GIMP kan håndtere"
+"Billedbredden er større end Glimpse kan håndtere"
 
 #: ../plug-ins/common/file-sunras.c:518 ../plug-ins/common/file-xbm.c:851
 #: ../plug-ins/common/file-xwd.c:540
@@ -4114,7 +4114,7 @@ msgid ""
 "Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
-"Billedhøjden er større end GIMP kan håndtere"
+"Billedhøjden er større end Glimpse kan håndtere"
 
 #: ../plug-ins/common/file-sunras.c:562
 msgid "This image depth is not supported"
@@ -10496,7 +10496,7 @@ msgstr "Hjælpesiderne til \"%s\" er ikke tilgængelige."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
 msgid "The Glimpse user manual is not available."
-msgstr "GIMPs brugermanual er ikke tilgængelig."
+msgstr "Glimpse brugermanual er ikke tilgængelig."
 
 #. TRANSLATORS: do not end the URL with a dot,
 #. * it would be in the link. Because of
@@ -13743,7 +13743,7 @@ msgstr "Overfører data fra skanner/kamera"
 #~ "this conversion."
 #~ msgstr ""
 #~ "Advarsel:\n"
-#~ "Det billede du er ved at indlæse, har 16 bit data pr. kanal. GIMP kan kun "
+#~ "Det billede du er ved at indlæse, har 16 bit data pr. kanal. Glimpse kan kun "
 #~ "håndtere 8 bit, så billedet vil blive konverteret for dig. Noget "
 #~ "information går tabt på grund af dette."
 

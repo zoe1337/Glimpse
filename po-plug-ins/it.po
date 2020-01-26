@@ -3467,7 +3467,7 @@ msgstr "Risoluzione X non valida."
 
 #: ../plug-ins/common/file-pnm.c:627
 msgid "Image width is larger than Glimpse can handle."
-msgstr "La larghezza immagine è maggiore di quanto GIMP possa gestire."
+msgstr "La larghezza immagine è maggiore di quanto Glimpse possa gestire."
 
 #: ../plug-ins/common/file-pnm.c:634
 msgid "Invalid Y resolution."
@@ -3475,7 +3475,7 @@ msgstr "Risoluzione Y non valida."
 
 #: ../plug-ins/common/file-pnm.c:636
 msgid "Image height is larger than Glimpse can handle."
-msgstr "L'altezza immagine è maggiore di quanto GIMP possa gestire."
+msgstr "L'altezza immagine è maggiore di quanto Glimpse possa gestire."
 
 #: ../plug-ins/common/file-pnm.c:648
 msgid "Bogus scale factor."
@@ -4046,7 +4046,7 @@ msgid ""
 "Image width is larger than Glimpse can handle"
 msgstr ""
 "\"%s\":\n"
-"La larghezza immagine è maggiore di quanto GIMP possa gestire"
+"La larghezza immagine è maggiore di quanto Glimpse possa gestire"
 
 #: ../plug-ins/common/file-sunras.c:518 ../plug-ins/common/file-xbm.c:851
 #: ../plug-ins/common/file-xwd.c:540
@@ -4066,7 +4066,7 @@ msgid ""
 "Image height is larger than Glimpse can handle"
 msgstr ""
 "\"%s\":\n"
-"L'altezza immagine è maggiore di quanto GIMP possa gestire"
+"L'altezza immagine è maggiore di quanto Glimpse possa gestire"
 
 #: ../plug-ins/common/file-sunras.c:562
 msgid "This image depth is not supported"
@@ -10454,7 +10454,7 @@ msgstr "Le pagine dell'aiuto per \"%s\" non sono disponibili."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
 msgid "The Glimpse user manual is not available."
-msgstr "Il manuale utente di GIMP non è disponibile."
+msgstr "Il manuale utente di Glimpse non è disponibile."
 
 #. TRANSLATORS: do not end the URL with a dot,
 #. * it would be in the link. Because of
