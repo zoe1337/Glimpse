@@ -15175,7 +15175,6 @@ msgstr ""
 "Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:756
-#, fuzzy
 msgid ""
 "Your input device settings will be reset to default values the next time you "
 "start Glimpse."
@@ -15184,7 +15183,6 @@ msgstr ""
 "spustíte Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:798
-#, fuzzy
 msgid ""
 "Your tool options will be reset to default values the next time you start "
 "Glimpse."
@@ -15586,7 +15584,6 @@ msgid "Playground"
 msgstr ""
 
 #: ../app/dialogs/preferences-dialog.c:1610
-#, fuzzy
 msgid ""
 "These features are unfinished, buggy and may crash Glimpse. It is unadvised "
 "to use them unless you really know what you are doing or you intend to "
@@ -16692,7 +16689,6 @@ msgid "pixels/%a"
 msgstr "pixelů/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
-#, fuzzy
 msgid "Quit Glimpse"
 msgstr "Ukončit aplikaci Glimpse"
 
@@ -16701,7 +16697,6 @@ msgid "Close All Images"
 msgstr "Zavřít všechny obrázky"
 
 #: ../app/dialogs/quit-dialog.c:256
-#, fuzzy
 msgid "If you quit Glimpse now, these changes will be lost."
 msgstr "Pokud nyní ukončíte Glimpse, tyto změny budou ztraceny."
 
@@ -16866,12 +16861,10 @@ msgid "_Emulate brush dynamics"
 msgstr "_Napodobit dynamiku stopy"
 
 #: ../app/dialogs/tips-dialog.c:99
-#, fuzzy
 msgid "The Glimpse tips file is empty!"
 msgstr "Soubor s tipy aplikace Glimpse je prázdný!"
 
 #: ../app/dialogs/tips-dialog.c:103
-#, fuzzy
 msgid "The Glimpse tips file appears to be missing!"
 msgstr "Soubor s tipy aplikace Glimpse zřejmě chybí!"
 
@@ -16882,7 +16875,6 @@ msgstr ""
 "Měl by existovat soubor s názvem „%s“. Zkontrolujte prosím svou instalaci."
 
 #: ../app/dialogs/tips-dialog.c:111
-#, fuzzy
 msgid "The Glimpse tips file could not be parsed!"
 msgstr "Soubor s tipy aplikace Glimpse nebylo možné zpracovat!"
 
@@ -16913,7 +16905,6 @@ msgid "tips-locale:C"
 msgstr "tips-locale:cs"
 
 #: ../app/dialogs/user-install-dialog.c:85
-#, fuzzy
 msgid "Glimpse User Installation"
 msgstr "Uživatelská instalace aplikace Glimpse"
 
@@ -16922,7 +16913,6 @@ msgid "User installation failed!"
 msgstr "Uživatelská instalace selhala!"
 
 #: ../app/dialogs/user-install-dialog.c:96
-#, fuzzy
 msgid "The Glimpse user installation failed; see the log for details."
 msgstr ""
 "Uživatelská instalace aplikace Glimpse selhala; podrobnosti najdete v "
@@ -22332,7 +22322,6 @@ msgid "_Move"
 msgstr "Pře_sunout"
 
 #: ../app/tools/gimpmybrushtool.c:74
-#, fuzzy
 msgid "MyPaint Brush Tool: Use MyPaint brushes in Glimpse"
 msgstr "Štětec MyPaint : použít stopy MyPaint v aplikaci Glimpse"
 
@@ -23102,7 +23091,6 @@ msgstr ""
 "textu."
 
 #: ../app/tools/gimptexttool-editor.c:1357
-#, fuzzy
 msgid "Glimpse Text Editor"
 msgstr "Textový editor pro Glimpse"
 
@@ -24517,7 +24505,6 @@ msgid ""
 msgstr ""
 
 #: ../app/widgets/gimpcriticaldialog.c:142
-#, fuzzy
 msgid ""
 "This error may have left Glimpse in an inconsistent state. It is advised to "
 "save your work and restart Glimpse."
@@ -24614,7 +24601,6 @@ msgid "Glimpse encountered several critical errors!"
 msgstr ""
 
 #: ../app/widgets/gimpcriticaldialog.c:488
-#, fuzzy
 msgid "_Restart Glimpse"
 msgstr "_Restartovat Glimpse"
 
@@ -26072,7 +26058,6 @@ msgid "%s Preset"
 msgstr "Předvolba %s"
 
 #: ../app/widgets/gimpuimanager.c:772
-#, fuzzy
 msgid "Your Glimpse installation is incomplete:"
 msgstr "Vaše instalace aplikace Glimpse není úplná:"
 
