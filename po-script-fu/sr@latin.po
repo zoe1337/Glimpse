@@ -39,7 +39,7 @@ msgstr "_Pokreni server..."
 
 #: ../plug-ins/script-fu/script-fu.c:307
 msgid "_Glimpse online"
-msgstr "_Gimp na mreži"
+msgstr "_Glimpse na mreži"
 
 #: ../plug-ins/script-fu/script-fu.c:308
 msgid "_User Manual"

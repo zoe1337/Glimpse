@@ -45,7 +45,7 @@ msgstr "Sunucuyu _Başlat..."
 
 #: ../plug-ins/script-fu/script-fu.c:306
 msgid "_Glimpse online"
-msgstr "Çevrimiçi _GIMP"
+msgstr "Çevrimiçi _Glimpse"
 
 #: ../plug-ins/script-fu/script-fu.c:307
 msgid "_User Manual"

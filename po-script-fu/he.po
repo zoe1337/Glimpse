@@ -39,7 +39,7 @@ msgstr "ה_פעלת שרת..."
 
 #: ../plug-ins/script-fu/script-fu.c:307
 msgid "_Glimpse online"
-msgstr "GIMP ב_רשת"
+msgstr "Glimpse ב_רשת"
 
 #: ../plug-ins/script-fu/script-fu.c:308
 msgid "_User Manual"

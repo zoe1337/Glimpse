@@ -47,7 +47,7 @@ msgstr "_Iniciar servidor…"
 
 #: ../plug-ins/script-fu/script-fu.c:306
 msgid "_Glimpse online"
-msgstr "El _GIMP en línea"
+msgstr "El _Glimpse en línea"
 
 #: ../plug-ins/script-fu/script-fu.c:307
 msgid "_User Manual"

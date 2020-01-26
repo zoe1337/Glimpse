@@ -37,7 +37,7 @@ msgstr "Ræ_sa miðlara..."
 
 #: ../plug-ins/script-fu/script-fu.c:306
 msgid "_Glimpse online"
-msgstr "_GIMP á netinu"
+msgstr "_Glimpse á netinu"
 
 #: ../plug-ins/script-fu/script-fu.c:307
 msgid "_User Manual"

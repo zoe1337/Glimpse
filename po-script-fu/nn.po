@@ -36,7 +36,7 @@ msgstr "_Start tenaren …"
 
 #: ../plug-ins/script-fu/script-fu.c:306
 msgid "_Glimpse online"
-msgstr "_GIMP på Internett"
+msgstr "_Glimpse på Internett"
 
 #: ../plug-ins/script-fu/script-fu.c:307
 msgid "_User Manual"
