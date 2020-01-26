@@ -4083,7 +4083,7 @@ msgstr "Ugyldig X-oppløysing."
 
 #: ../plug-ins/common/file-pnm.c:557
 msgid "Image width is larger than Glimpse can handle."
-msgstr "Biletet er breiare enn det GIMP kan handtera"
+msgstr "Biletet er breiare enn det Glimpse kan handtera"
 
 #: ../plug-ins/common/file-pnm.c:564
 msgid "Invalid Y resolution."
@@ -4091,7 +4091,7 @@ msgstr "Ugyldig X-oppløysing."
 
 #: ../plug-ins/common/file-pnm.c:566
 msgid "Image height is larger than Glimpse can handle."
-msgstr "Biletet er høgare enn det GIMP kan handtera"
+msgstr "Biletet er høgare enn det Glimpse kan handtera"
 
 #: ../plug-ins/common/file-pnm.c:576
 msgid "Unsupported maximum value."
@@ -4442,7 +4442,7 @@ msgid ""
 "Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
-"Biletbreidda er større enn det GIMP kan handtera"
+"Biletbreidda er større enn det Glimpse kan handtera"
 
 #: ../plug-ins/common/file-sunras.c:473 ../plug-ins/common/file-xbm.c:841
 #: ../plug-ins/common/file-xwd.c:510
@@ -4462,7 +4462,7 @@ msgid ""
 "Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
-"Bilethøgda er større enn det GIMP kan handtera"
+"Bilethøgda er større enn det Glimpse kan handtera"
 
 #: ../plug-ins/common/file-sunras.c:520
 msgid "This image depth is not supported"
@@ -4643,7 +4643,7 @@ msgid ""
 "this conversion."
 msgstr ""
 "Åtvaring:\n"
-"Biletet du ønskjer å opna har 16 bit per kanal. GIMP kan berre handtera 8 "
+"Biletet du ønskjer å opna har 16 bit per kanal. Glimpse kan berre handtera 8 "
 "bit, så biletet vert konvertert til dette formatet. Du kan mista informasjon "
 "på grunn av denne konverteringa."
 
