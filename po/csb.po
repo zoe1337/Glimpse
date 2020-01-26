@@ -103,9 +103,8 @@ msgid "Be more verbose"
 msgstr "Wëskrzëniô dodôwną wëdowiédzã"
 
 #: ../app/main.c:173
-#, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Zrëszô nową kòpijã programë GIMP"
+msgstr "Zrëszô nową kòpijã programë Glimpse"
 
 #: ../app/main.c:178
 msgid "Open images as new"
