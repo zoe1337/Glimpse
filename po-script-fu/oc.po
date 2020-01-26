@@ -151,7 +151,7 @@ msgstr "_Aviar lo servidor..."
 
 #: ../tiny-fu/tiny-fu.c:353
 msgid "_Glimpse online"
-msgstr "_GIMP en linha"
+msgstr "_Glimpse en linha"
 
 #: ../tiny-fu/tiny-fu.c:354
 msgid "_User Manual"

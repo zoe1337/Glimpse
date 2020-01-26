@@ -34,7 +34,7 @@ msgstr "_Paleisti serverį..."
 
 #: ../plug-ins/script-fu/script-fu.c:307
 msgid "_Glimpse online"
-msgstr "_GIMP internete"
+msgstr "_Glimpse internete"
 
 #: ../plug-ins/script-fu/script-fu.c:308
 msgid "_User Manual"

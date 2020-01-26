@@ -43,7 +43,7 @@ msgstr "_Запустить сервер..."
 
 #: ../plug-ins/script-fu/script-fu.c:306
 msgid "_Glimpse online"
-msgstr "GIMP в _Интернете"
+msgstr "Glimpse в _Интернете"
 
 #: ../plug-ins/script-fu/script-fu.c:307
 msgid "_User Manual"

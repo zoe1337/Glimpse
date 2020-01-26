@@ -35,7 +35,7 @@ msgstr "ចាប់ផ្ដើម​ម៉ាស៊ីន​បម្រើ...
 
 #: ../plug-ins/script-fu/script-fu.c:307
 msgid "_Glimpse online"
-msgstr "GIMP លើ​បណ្ដាញ "
+msgstr "Glimpse លើ​បណ្ដាញ "
 
 #: ../plug-ins/script-fu/script-fu.c:308
 msgid "_User Manual"

@@ -42,7 +42,7 @@ msgstr "サーバースタート(_S)..."
 
 #: ../plug-ins/script-fu/script-fu.c:306
 msgid "_Glimpse online"
-msgstr "GIMP 関連のウェブサイト(_G)"
+msgstr "Glimpse 関連のウェブサイト(_G)"
 
 #: ../plug-ins/script-fu/script-fu.c:307
 msgid "_User Manual"

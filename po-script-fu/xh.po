@@ -37,7 +37,7 @@ msgstr "_Qalaq iseva..."
 #: ../plug-ins/script-fu/script-fu.c:307
 #, fuzzy
 msgid "_Glimpse online"
-msgstr "Ulwandiso lwe-GIMP"
+msgstr "Ulwandiso lwe-Glimpse"
 
 #: ../plug-ins/script-fu/script-fu.c:308
 msgid "_User Manual"
