@@ -113,7 +113,7 @@ msgstr ""
 "voor meer details.\n"
 "\n"
 "U moet een kopie van de GNU General Public License hebben gekregen samen met "
-"GIMP. Zo niet, zie https://www.gnu.org/licenses/"
+"Glimpse. Zo niet, zie https://www.gnu.org/licenses/"
 
 #: ../app/gimp-version.c:66 ../app/gimp-version.c:164
 #, c-format
@@ -2948,7 +2948,7 @@ msgstr "Nuttige tips voor het gebruik van Glimpse tonen"
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "Over GIMP"
+msgstr "Over Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 msgctxt "dialogs-action"
@@ -10090,7 +10090,7 @@ msgstr "Rechtshandig"
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
-msgstr "Hulpbrowser voor GIMP"
+msgstr "Hulpbrowser voor Glimpse"
 
 #  Web Browser
 #: ../app/config/config-enums.c:187
@@ -10828,8 +10828,8 @@ msgid ""
 "but some files are likely to remain, so it is best if this folder not be one "
 "that is shared by other users."
 msgstr ""
-"De tijdelijke opslagmap. Hier zullen bestanden verschijnen terwijl GIMP "
-"wordt uitgevoerd. De meeste bestanden zullen weer worden gewist als GIMP "
+"De tijdelijke opslagmap. Hier zullen bestanden verschijnen terwijl Glimpse "
+"wordt uitgevoerd. De meeste bestanden zullen weer worden gewist als Glimpse "
 "wordt afgesloten, maar nu en dan blijven er enkele bestanden achter. U kunt "
 "voor deze map dus beter geen map kiezen die gedeeld wordt met andere "
 "gebruikers."
@@ -12238,7 +12238,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Het ziet ernaar uit dat u GIMP %s voordien gebruikt hebt. Glimpse zal nu uw "
+"Het ziet ernaar uit dat u Glimpse %s voordien gebruikt hebt. Glimpse zal nu uw "
 "instellingen migreren naar '%s'."
 
 #: ../app/core/gimp-user-install.c:220
@@ -14412,11 +14412,11 @@ msgstr "procent"
 
 #: ../app/dialogs/about-dialog.c:115
 msgid "About Glimpse"
-msgstr "Over GIMP"
+msgstr "Over Glimpse"
 
 #: ../app/dialogs/about-dialog.c:124
 msgid "Visit the Glimpse website"
-msgstr "Bezoek de website van GIMP"
+msgstr "Bezoek de website van Glimpse"
 
 #  Translators: insert your names here, separated by newline
 #  we'd prefer just the names, please no email adresses.
@@ -14708,11 +14708,11 @@ msgstr ""
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:192
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "GIMP-bericht"
+msgstr "Glimpse-bericht"
 
 #: ../app/dialogs/dialogs-constructors.c:225
 msgid "Glimpse Debug"
-msgstr "Softwarefouten GIMP"
+msgstr "Softwarefouten Glimpse"
 
 #: ../app/dialogs/dialogs.c:315
 msgid "Devices"
@@ -17081,12 +17081,12 @@ msgstr "P_enseelgedraging nabootsen"
 #: ../app/dialogs/tips-dialog.c:99
 #, fuzzy
 msgid "The Glimpse tips file is empty!"
-msgstr "Het GIMP-tipsbestand is leeg!"
+msgstr "Het Glimpse-tipsbestand is leeg!"
 
 #: ../app/dialogs/tips-dialog.c:103
 #, fuzzy
 msgid "The Glimpse tips file appears to be missing!"
-msgstr "Het GIMP-tipsbestand lijkt te ontbreken!"
+msgstr "Het Glimpse-tipsbestand lijkt te ontbreken!"
 
 #: ../app/dialogs/tips-dialog.c:105
 #, c-format
@@ -17097,7 +17097,7 @@ msgstr ""
 #: ../app/dialogs/tips-dialog.c:111
 #, fuzzy
 msgid "The Glimpse tips file could not be parsed!"
-msgstr "Het GIMP-tipsbestand kon niet correct worden ingelezen!"
+msgstr "Het Glimpse-tipsbestand kon niet correct worden ingelezen!"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
@@ -17128,7 +17128,7 @@ msgstr "tips-locale:nl"
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "GIMP-gebruikersinstallatie"
+msgstr "Glimpse-gebruikersinstallatie"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
@@ -18829,7 +18829,7 @@ msgstr "Zet finale uitvoerwaarden vast."
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "geen Glimpse Niveausbestand"
+msgstr "geen GNU I.M.P Niveausbestand"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -19014,7 +19014,7 @@ msgstr "Documenten"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "Opstarten van GIMP"
+msgstr "Opstarten van Glimpse"
 
 #: ../app/paint/gimpairbrush.c:77 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -24894,7 +24894,7 @@ msgstr "Glimpse ondervond meerdere kritieke fouten!"
 #: ../app/widgets/gimpcriticaldialog.c:488
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "He_rstart GIMP"
+msgstr "He_rstart Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:455 ../app/widgets/gimpdashboard.c:507
 msgctxt "dashboard-variable"
@@ -26672,7 +26672,7 @@ msgstr "Fout bij schrijven XCF: niet ondersteund BPC bij schrijven pixel: %d"
 #: ../app-tools/gimp-debug-tool.c:78
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "Softwarefouten GIMP"
+msgstr "Softwarefouten Glimpse"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
@@ -26682,10 +26682,10 @@ msgstr "Softwarefouten GIMP"
 #~ msgstr "Afbeeldingen aanmaken en foto's bewerken"
 
 #~ msgid "Extra files for Glimpse"
-#~ msgstr "Extra bestanden voor GIMP"
+#~ msgstr "Extra bestanden voor Glimpse"
 
 #~ msgid "Patterns, gradients, and other extra files for Glimpse"
-#~ msgstr "Patronen, kleurverlopen en andere extra bestanden voor GIMP"
+#~ msgstr "Patronen, kleurverlopen en andere extra bestanden voor Glimpse"
 
 #, fuzzy
 #~ msgid "Glimpse Image Editor"
@@ -26698,9 +26698,8 @@ msgstr "Softwarefouten GIMP"
 #~ msgid "Create and edit images"
 #~ msgstr "Een nieuwe afbeelding maken"
 
-#, fuzzy
 #~ msgid "graphic;design;illustration;painting;photography;gimp"
-#~ msgstr "Glimpse;grafisch;ontwerp;illustratie;tekenen;"
+#~ msgstr "GIMP;grafisch;ontwerp;illustratie;tekenen;"
 
 #~ msgid "round"
 #~ msgstr "rond"
@@ -26760,7 +26759,7 @@ msgstr "Softwarefouten GIMP"
 #~ "ins en uitbreidingen, zodat het bijna alle taken aankan. Met de "
 #~ "geavanceerd scripting interface kunt u voor alles, van de eenvoudigste "
 #~ "taak tot de meest ingewikkelde beeldbewerkingsprocedures, gemakkelijk een "
-#~ "script maken. GIMP is beschikbaar voor Linux, Microsoft Windows en OS X."
+#~ "script maken. Glimpse is beschikbaar voor Linux, Microsoft Windows en OS X."
 
 # j
 #~ msgid "Painting in Glimpse"
@@ -27074,7 +27073,7 @@ msgstr "Softwarefouten GIMP"
 #~ "pictogramgrootte"
 
 #~ msgid "New themes for Glimpse: Light, Gray, Dark, and System"
-#~ msgstr "Nieuwe thema's voor GIMP: Licht, Grijs, Donker en Systeem"
+#~ msgstr "Nieuwe thema's voor Glimpse: Licht, Grijs, Donker en Systeem"
 
 #~ msgid "And much, much more…"
 #~ msgstr "En nog heel veel meer…"
@@ -27398,13 +27397,13 @@ msgstr "Softwarefouten GIMP"
 #~ msgstr "Gebruik symbolische iconen indien beschikbaar"
 
 #~ msgid "Show Glimpse _logo (drag-and-drop target)"
-#~ msgstr "Toon GIMP-logo (sleep foto's hier naar toe om ze te openen)"
+#~ msgstr "Toon Glimpse-logo (sleep foto's hier naar toe om ze te openen)"
 
 #~ msgid "Glimpse brush"
-#~ msgstr "GIMP-penseel"
+#~ msgstr "Glimpse-penseel"
 
 #~ msgid "Glimpse pattern"
-#~ msgstr "GIMP-patroon"
+#~ msgstr "Glimpse-patroon"
 
 #~ msgid "Work on linear or perceptual RGB"
 #~ msgstr "Werk op lineair of perceptueel RGB"
@@ -27526,8 +27525,8 @@ msgstr "Softwarefouten GIMP"
 #~ msgstr ""
 #~ "Fatale leesfout in penseelbestand:\n"
 #~ "niet-ondersteunde penseeldiepte %d\n"
-#~ "GIMP-penselen moeten grijswaarden of RGBA zijn.\n"
-#~ "Misschien is dit een verouderd penseelbestand van GIMP. Probeer het te "
+#~ "Glimpse-penselen moeten grijswaarden of RGBA zijn.\n"
+#~ "Misschien is dit een verouderd penseelbestand van Glimpse. Probeer het te "
 #~ "laden als afbeelding en vervolgens opnieuw op te slaan."
 
 #~ msgid "Fade %s"
@@ -28282,20 +28281,20 @@ msgstr "Softwarefouten GIMP"
 
 #~ msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
 #~ msgstr ""
-#~ "Fatale leesfout in penseelbestand '%s': is geen GIMP-penseelbestand."
+#~ "Fatale leesfout in penseelbestand '%s': is geen Glimpse-penseelbestand."
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in "
 #~ "line %d."
 #~ msgstr ""
-#~ "Fatale leesfout in penseelbestand '%s': onbekende versie GIMP-penseel op "
+#~ "Fatale leesfout in penseelbestand '%s': onbekende versie Glimpse-penseel op "
 #~ "regel %d."
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line "
 #~ "%d."
 #~ msgstr ""
-#~ "Fatale leesfout in penseelbestand '%s': onbekende vorm GIMP-penseel op "
+#~ "Fatale leesfout in penseelbestand '%s': onbekende vorm Glimpse-penseel op "
 #~ "regel %d."
 
 #~ msgid "Line %d: %s"
@@ -28316,7 +28315,7 @@ msgstr "Softwarefouten GIMP"
 #~ msgid ""
 #~ "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 #~ msgstr ""
-#~ "Fatale leesfout in kleurverloopbestand '%s': is geen GIMP-"
+#~ "Fatale leesfout in kleurverloopbestand '%s': is geen Glimpse-"
 #~ "kleurverloopbestand"
 
 #~ msgid "Fatal parse error in gradient file '%s': File is corrupt in line %d."
@@ -28761,7 +28760,7 @@ msgstr "Softwarefouten GIMP"
 #~ msgstr "Glimpse opstarten zonder het opstartvenster te tonen"
 
 #~ msgid "Could not connect to Glimpse."
-#~ msgstr "Kon geen verbinding maken met GIMP."
+#~ msgstr "Kon geen verbinding maken met Glimpse."
 
 # gereedschapkist/toolset/toolbox
 #~ msgid "Make sure that the Toolbox is visible!"
