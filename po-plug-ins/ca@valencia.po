@@ -4066,7 +4066,7 @@ msgstr "La resolució d'X no és vàlida."
 
 #: ../plug-ins/common/file-pnm.c:555
 msgid "Image width is larger than Glimpse can handle."
-msgstr "El GIMP no pot gestionar imatges d'esta amplada."
+msgstr "El Glimpse no pot gestionar imatges d'esta amplada."
 
 #: ../plug-ins/common/file-pnm.c:562
 msgid "Invalid Y resolution."
@@ -4074,7 +4074,7 @@ msgstr "La resolució Y no és vàlida."
 
 #: ../plug-ins/common/file-pnm.c:564
 msgid "Image height is larger than Glimpse can handle."
-msgstr "El GIMP no pot gestionar imatges d'esta alçada."
+msgstr "El Glimpse no pot gestionar imatges d'esta alçada."
 
 #: ../plug-ins/common/file-pnm.c:574
 msgid "Unsupported maximum value."
@@ -4427,7 +4427,7 @@ msgid ""
 "Image width is larger than Glimpse can handle"
 msgstr ""
 "«%s»:\n"
-"El GIMP no pot gestionar imatges d'esta amplada"
+"El Glimpse no pot gestionar imatges d'esta amplada"
 
 #: ../plug-ins/common/file-sunras.c:473 ../plug-ins/common/file-xbm.c:841
 #: ../plug-ins/common/file-xwd.c:508
@@ -4447,7 +4447,7 @@ msgid ""
 "Image height is larger than Glimpse can handle"
 msgstr ""
 "«%s»:\n"
-"El GIMP no pot gestionar imatges d'esta alçada"
+"El Glimpse no pot gestionar imatges d'esta alçada"
 
 #: ../plug-ins/common/file-sunras.c:520
 msgid "This image depth is not supported"
@@ -4628,7 +4628,7 @@ msgid ""
 "this conversion."
 msgstr ""
 "Avís:\n"
-"la imatge que esteu carregant té 16 bits per canal. El GIMP només pot "
+"la imatge que esteu carregant té 16 bits per canal. El Glimpse només pot "
 "gestionar-ne de 8 bits, per tant es convertirà automàticament. Es perdrà "
 "informació a causa d'esta conversió."
 
@@ -11339,7 +11339,7 @@ msgstr "Les pàgines d'ajuda de «%s» no estan disponibles."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
 msgid "The Glimpse user manual is not available."
-msgstr "El manual d'usuari del GIMP no està disponible."
+msgstr "El manual d'usuari del Glimpse no està disponible."
 
 #: ../plug-ins/help/gimphelpdomain.c:187
 msgid ""

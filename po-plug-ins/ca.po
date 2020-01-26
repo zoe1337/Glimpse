@@ -3480,7 +3480,7 @@ msgstr "La resolució d'X no és vàlida."
 
 #: ../plug-ins/common/file-pnm.c:627
 msgid "Image width is larger than Glimpse can handle."
-msgstr "El GIMP no pot gestionar imatges d'aquesta amplada."
+msgstr "El Glimpse no pot gestionar imatges d'aquesta amplada."
 
 #: ../plug-ins/common/file-pnm.c:634
 msgid "Invalid Y resolution."
@@ -3488,7 +3488,7 @@ msgstr "La resolució Y no és vàlida."
 
 #: ../plug-ins/common/file-pnm.c:636
 msgid "Image height is larger than Glimpse can handle."
-msgstr "El GIMP no pot gestionar imatges d'aquesta alçada."
+msgstr "El Glimpse no pot gestionar imatges d'aquesta alçada."
 
 #: ../plug-ins/common/file-pnm.c:648
 msgid "Bogus scale factor."
@@ -4062,7 +4062,7 @@ msgid ""
 "Image width is larger than Glimpse can handle"
 msgstr ""
 "«%s»:\n"
-"El GIMP no pot gestionar imatges d'aquesta amplada"
+"El Glimpse no pot gestionar imatges d'aquesta amplada"
 
 #: ../plug-ins/common/file-sunras.c:518 ../plug-ins/common/file-xbm.c:851
 #: ../plug-ins/common/file-xwd.c:540
@@ -4082,7 +4082,7 @@ msgid ""
 "Image height is larger than Glimpse can handle"
 msgstr ""
 "«%s»:\n"
-"El GIMP no pot gestionar imatges d'aquesta alçada"
+"El Glimpse no pot gestionar imatges d'aquesta alçada"
 
 #: ../plug-ins/common/file-sunras.c:562
 msgid "This image depth is not supported"
@@ -10478,7 +10478,7 @@ msgstr "Les pàgines d'ajuda de «%s» no estan disponibles."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
 msgid "The Glimpse user manual is not available."
-msgstr "El manual d'usuari del GIMP no està disponible."
+msgstr "El manual d'usuari del Glimpse no està disponible."
 
 #. TRANSLATORS: do not end the URL with a dot,
 #. * it would be in the link. Because of
@@ -13737,7 +13737,7 @@ msgstr "S'estan transferint dades de l'escàner/càmera"
 #~ "this conversion."
 #~ msgstr ""
 #~ "Avís:\n"
-#~ "la imatge que esteu carregant té 16 bits per canal. El GIMP només pot "
+#~ "la imatge que esteu carregant té 16 bits per canal. El Glimpse només pot "
 #~ "gestionar-ne de 8 bits, per tant es convertirà automàticament. Es perdrà "
 #~ "informació a causa d'aquesta conversió."
 
