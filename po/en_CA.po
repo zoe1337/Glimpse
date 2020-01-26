@@ -92,7 +92,7 @@ msgstr ""
 "details.\n"
 "\n"
 "You should have received a copy of the GNU General Public Licence along with "
-"GIMP; if not, write to the Free Software Foundation, Inc., 59 Temple Place - "
+"Glimpse; if not, write to the Free Software Foundation, Inc., 59 Temple Place - "
 "Suite 330, Boston, MA 02111-1307, USA."
 
 #: ../app/gimp-version.c:66 ../app/gimp-version.c:164
@@ -120,7 +120,7 @@ msgstr "Be more verbose"
 #: ../app/main.c:173
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Start a new Glimpse instance"
+msgstr "Start a new Glimpse Image Editor instance"
 
 #: ../app/main.c:178
 msgid "Open images as new"
@@ -144,9 +144,8 @@ msgid "Do not show a splash screen"
 msgstr "Do not show a startup window"
 
 #: ../app/main.c:203
-#, fuzzy
 msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
-msgstr "Do not use shared memory between Glimpse and plugins"
+msgstr "Do not use shared memory between Glimpse Image Editor and plugins"
 
 #: ../app/main.c:208
 msgid "Do not use special CPU acceleration functions"
@@ -223,12 +222,10 @@ msgstr ""
 "Make sure a proper setup for your display environment exists."
 
 #: ../app/main.c:510
-#, fuzzy
 msgid "Another Glimpse Image Editor instance is already running."
-msgstr "Another Glimpse instance is already running."
+msgstr "Another Glimpse Image Editor instance is already running."
 
 #: ../app/main.c:601
-#, fuzzy
 msgid "Glimpse output. Type any character to close this window."
 msgstr "Glimpse output. Type any character to close this window."
 
@@ -3194,7 +3191,7 @@ msgstr "_Tip of the Day"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr ""
+msgstr "Show some helpful tips on using Glimpse"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 #, fuzzy
@@ -8802,10 +8799,9 @@ msgid "_Save Tool Options to Preset"
 msgstr "_Save tool options on exit"
 
 #: ../app/actions/tool-preset-editor-actions.c:49
-#, fuzzy
 msgctxt "tool-preset-editor-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "Save the tool options when Glimpse exits."
+msgstr "Save the active tool options to this tool preset"
 
 #: ../app/actions/tool-preset-editor-actions.c:55
 #, fuzzy
@@ -8892,10 +8888,9 @@ msgid "_Save Tool Options to Preset"
 msgstr "_Save tool options on exit"
 
 #: ../app/actions/tool-presets-actions.c:75
-#, fuzzy
 msgctxt "tool-presets-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "Save the tool options when Glimpse exits."
+msgstr "Save the active tool options to this tool preset"
 
 #: ../app/actions/tool-presets-actions.c:81
 #, fuzzy
@@ -11015,10 +11010,9 @@ msgid "Single-Window Mode"
 msgstr ""
 
 #: ../app/actions/windows-actions.c:142
-#, fuzzy
 msgctxt "windows-action"
 msgid "When enabled, Glimpse is in a single-window mode."
-msgstr "When enabled, Glimpse will show mnemonics in menus."
+msgstr "When enabled, Glimpse is in a single-window mode."
 
 #: ../app/actions/windows-actions.c:151
 msgctxt "windows-tabs-position-action"
@@ -11183,7 +11177,6 @@ msgid "Right-handed"
 msgstr ""
 
 #: ../app/config/config-enums.c:186
-#, fuzzy
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
 msgstr "Glimpse help browser"
@@ -11628,7 +11621,6 @@ msgstr ""
 "of the image window."
 
 #: ../app/config/gimprc-blurbs.h:289
-#, fuzzy
 msgid ""
 "Sets how many threads Glimpse should use for operations that support it."
 msgstr "Sets how many processors Glimpse should try to use simultaneously."
@@ -11644,7 +11636,6 @@ msgstr ""
 "down when working with large images."
 
 #: ../app/config/gimprc-blurbs.h:316
-#, fuzzy
 msgid ""
 "Sets whether Glimpse should create previews of layer groups. Layer group "
 "previews are more expensive than ordinary layer previews."
@@ -11694,6 +11685,9 @@ msgid ""
 "open before.  When disabled, windows will appear on the currently used "
 "monitor."
 msgstr ""
+"When enabled, Glimpse will try to restore windows on the monitor they were "
+"open before.  When disabled, windows will appear on the currently used "
+"monitor."
 
 #: ../app/config/gimprc-blurbs.h:345
 msgid ""
@@ -11826,18 +11820,16 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr "Show a tooltip when the pointer hovers over an item."
 
 #: ../app/config/gimprc-blurbs.h:419
-#, fuzzy
 msgid "Use Glimpse in a single-window mode."
-msgstr "When enabled, Glimpse will show mnemonics in menus."
+msgstr "Use Glimpse in a single-window mode."
 
 #: ../app/config/gimprc-blurbs.h:422
 msgid "Hide docks and other windows, leaving only image windows."
 msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:425
-#, fuzzy
 msgid "Show the image tabs bar in single window mode."
-msgstr "When enabled, Glimpse will show mnemonics in menus."
+msgstr "Show the image tabs bar in single window mode."
 
 #: ../app/config/gimprc-blurbs.h:428
 #, fuzzy
@@ -12459,37 +12451,31 @@ msgid "Debug crashes only"
 msgstr ""
 
 #: ../app/core/core-enums.c:454
-#, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "About Glimpse"
+msgstr "Never debug Glimpse"
 
 #: ../app/core/core-enums.c:540
-#, fuzzy
 msgctxt "dynamics-output-type"
 msgid "Opacity"
 msgstr "Opacity"
 
 #: ../app/core/core-enums.c:541
-#, fuzzy
 msgctxt "dynamics-output-type"
 msgid "Size"
 msgstr "Size"
 
 #: ../app/core/core-enums.c:542
-#, fuzzy
 msgctxt "dynamics-output-type"
 msgid "Angle"
 msgstr "Angle:"
 
 #: ../app/core/core-enums.c:543
-#, fuzzy
 msgctxt "dynamics-output-type"
 msgid "Color"
 msgstr "Colour"
 
 #: ../app/core/core-enums.c:544
-#, fuzzy
 msgctxt "dynamics-output-type"
 msgid "Hardness"
 msgstr "Hardness"
@@ -12500,19 +12486,16 @@ msgid "Force"
 msgstr ""
 
 #: ../app/core/core-enums.c:546
-#, fuzzy
 msgctxt "dynamics-output-type"
 msgid "Aspect ratio"
 msgstr "Aspect ratio"
 
 #: ../app/core/core-enums.c:547
-#, fuzzy
 msgctxt "dynamics-output-type"
 msgid "Spacing"
 msgstr "Spacing"
 
 #: ../app/core/core-enums.c:548
-#, fuzzy
 msgctxt "dynamics-output-type"
 msgid "Rate"
 msgstr "Rate"
@@ -12547,19 +12530,16 @@ msgid "Use the selection as input"
 msgstr "Open the selection editor"
 
 #: ../app/core/core-enums.c:608
-#, fuzzy
 msgctxt "filter-region"
 msgid "Use the entire layer as input"
-msgstr "Edit Layer Attributes"
+msgstr "Use the entire layer as input"
 
 #: ../app/core/core-enums.c:639
-#, fuzzy
 msgctxt "gradient-color"
 msgid "Fixed"
 msgstr "Fixed"
 
 #: ../app/core/core-enums.c:640
-#, fuzzy
 msgctxt "gradient-color"
 msgid "Foreground color"
 msgstr "Foreground colour"
@@ -16569,10 +16549,9 @@ msgid "_Refresh"
 msgstr "_Refresh Brushes"
 
 #: ../app/dialogs/module-dialog.c:153
-#, fuzzy
 msgid "You will have to restart Glimpse for the changes to take effect."
 msgstr ""
-"You will have to restart Glimpse for the following changes to take effect:"
+"You will have to restart Glimpse for the changes to take effect."
 
 #: ../app/dialogs/module-dialog.c:194
 #, fuzzy
@@ -16695,14 +16674,12 @@ msgid "Do you really want to reset all preferences to default values?"
 msgstr "Do you really want to reset all preferences to default values?"
 
 #: ../app/dialogs/preferences-dialog.c:381
-#, fuzzy
 msgid ""
 "You will have to restart Glimpse for the following changes to take effect:"
 msgstr ""
 "You will have to restart Glimpse for the following changes to take effect:"
 
 #: ../app/dialogs/preferences-dialog.c:647
-#, fuzzy
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
 "start Glimpse."
@@ -16719,16 +16696,14 @@ msgid "Do you really want to remove all keyboard shortcuts from all menus?"
 msgstr "Do you really want to remove all keyboard shortcuts from all menus?"
 
 #: ../app/dialogs/preferences-dialog.c:721
-#, fuzzy
 msgid ""
 "Your window setup will be reset to default values the next time you start "
 "Glimpse."
 msgstr ""
 "Your window setup will be reset to default values the next time you start "
-"GIMP."
+"Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:756
-#, fuzzy
 msgid ""
 "Your input device settings will be reset to default values the next time you "
 "start Glimpse."
@@ -16737,13 +16712,12 @@ msgstr ""
 "start Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:798
-#, fuzzy
 msgid ""
 "Your tool options will be reset to default values the next time you start "
 "Glimpse."
 msgstr ""
 "Your tool options will be reset to default values the next time you start "
-"GIMP."
+"Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2523
@@ -17765,7 +17739,6 @@ msgid "H_elp browser to use:"
 msgstr "H_elp browser to use:"
 
 #: ../app/dialogs/preferences-dialog.c:2563
-#, fuzzy
 msgid ""
 "The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
@@ -18360,7 +18333,6 @@ msgid "pixels/%a"
 msgstr "pixels/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
-#, fuzzy
 msgid "Quit Glimpse"
 msgstr "Quit Glimpse"
 
@@ -18369,7 +18341,6 @@ msgid "Close All Images"
 msgstr "Close All Images"
 
 #: ../app/dialogs/quit-dialog.c:256
-#, fuzzy
 msgid "If you quit Glimpse now, these changes will be lost."
 msgstr "If you quit Glimpse now, these changes will be lost."
 
@@ -18543,7 +18514,6 @@ msgid "The Glimpse tips file is empty!"
 msgstr "The Glimpse tips file could not be parsed!"
 
 #: ../app/dialogs/tips-dialog.c:103
-#, fuzzy
 msgid "The Glimpse tips file appears to be missing!"
 msgstr "Your Glimpse tips file appears to be missing!"
 
@@ -27483,9 +27453,8 @@ msgid "Help browser is missing"
 msgstr "H_elp browser to use:"
 
 #: ../app/widgets/gimphelp.c:372
-#, fuzzy
 msgid "The Glimpse help browser is not available."
-msgstr "Glimpse help browser"
+msgstr "The Glimpse help browser is not available."
 
 #: ../app/widgets/gimphelp.c:373
 #, fuzzy
@@ -27517,14 +27486,12 @@ msgid "Use _Web Browser"
 msgstr "Web Browser"
 
 #: ../app/widgets/gimphelp.c:793
-#, fuzzy
 msgid "Glimpse user manual is missing"
-msgstr "Open the Glimpse user manual"
+msgstr "Glimpse user manual is missing"
 
 #: ../app/widgets/gimphelp.c:809
-#, fuzzy
 msgid "The Glimpse user manual is not installed in your language."
-msgstr "Open the Glimpse user manual"
+msgstr "The Glimpse user manual is not installed in your language."
 
 #: ../app/widgets/gimphelp.c:820
 msgid "Read Selected _Language"
@@ -28473,9 +28440,8 @@ msgid "Undefined"
 msgstr "Undefined"
 
 #: ../app/xcf/xcf.c:114 ../app/xcf/xcf.c:185
-#, fuzzy
 msgid "Glimpse XCF image"
-msgstr "All images"
+msgstr "Glimpse XFC image"
 
 #: ../app/xcf/xcf.c:272 ../app/xcf/xcf.c:361
 msgid "Memory Stream"
@@ -28586,9 +28552,8 @@ msgid "Error writing XCF: unsupported BPC when writing pixel: %d"
 msgstr ""
 
 #: ../app-tools/gimp-debug-tool.c:78
-#, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "Glimpse Message"
+msgstr "Glimpse Crash Debug"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
@@ -28597,9 +28562,8 @@ msgstr "Glimpse Message"
 #~ msgid "Create images and edit photographs"
 #~ msgstr "Create images and edit photographs"
 
-#, fuzzy
 #~ msgid "Glimpse Image Editor"
-#~ msgstr "Glimpse Text Editor"
+#~ msgstr "Glimpse Image Editor"
 
 #~ msgid "Image Editor"
 #~ msgstr "Image Editor"

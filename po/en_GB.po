@@ -120,9 +120,8 @@ msgid "Be more verbose"
 msgstr "Be more verbose"
 
 #: ../app/main.c:173
-#, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Start a new Glimpse instance"
+msgstr "Start a new Glimpse Image Editor instance"
 
 #: ../app/main.c:178
 msgid "Open images as new"
@@ -145,9 +144,8 @@ msgid "Do not show a splash screen"
 msgstr "Do not show a splash screen"
 
 #: ../app/main.c:203
-#, fuzzy
 msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
-msgstr "Do not use shared memory between Glimpse and plug-ins"
+msgstr "Do not use shared memory between Glimpse Image Editor and plug-ins"
 
 #: ../app/main.c:208
 msgid "Do not use special CPU acceleration functions"
@@ -224,12 +222,10 @@ msgstr ""
 "Make sure a proper setup for your display environment exists."
 
 #: ../app/main.c:510
-#, fuzzy
 msgid "Another Glimpse Image Editor instance is already running."
-msgstr "Another Glimpse instance is already running."
+msgstr "Another Glimpse Image Editor instance is already running."
 
 #: ../app/main.c:601
-#, fuzzy
 msgid "Glimpse output. Type any character to close this window."
 msgstr "Glimpse output. Type any character to close this window."
 
