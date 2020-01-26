@@ -131,7 +131,6 @@ msgid "Be more verbose"
 msgstr "Ser más detallado"
 
 #: ../app/main.c:173
-#, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
 msgstr "Iniciar una instancia de Glimpse nueva"
 
@@ -156,7 +155,6 @@ msgid "Do not show a splash screen"
 msgstr "No mostrar una pantalla de arranque"
 
 #: ../app/main.c:203
-#, fuzzy
 msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
 msgstr "No usar memoria compartida entre Glimpse y los complementos"
 
