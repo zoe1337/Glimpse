@@ -1,6 +1,6 @@
 # Glimpse Image Editor
 
-Glimpse is a downstream fork of the GNU Image Manipulation Program 2.10. You can find out more information on our FAQs page: https://glimpse-editor.org/about/
+Glimpse is a downstream fork of the GNU Image Manipulation Program. You can find out more information on our FAQs page: https://glimpse-editor.org/about/
 
 ## What is different about Glimpse?
 Aside from the rebrand that provides excellent free software with a less problematic name, we also focus on performance improvements, user interface changes and incrementally improving the user experience.
@@ -8,11 +8,11 @@ Aside from the rebrand that provides excellent free software with a less problem
 In the longer term we intend to write our own GUI and plug-in framework on top of the [GEGL](https://en.wikipedia.org/wiki/GEGL) component maintained by the same developers, but it will likely take years for those aspirations to be fully realised.
 
 ## How will the package versions work?
-Glimpse 0.x releases are based on GNU Image Manipulation Program 2.10 and are intended to provide a minimum viable product. They also help us build our project infrastructure, learn the codebase and iterate towards a fully supportable product.
+Glimpse 0.x releases are based on GNU Image Manipulation Program 2.10.x releases and are intended to provide a minimum viable product. They also help us build our project infrastructure, learn the codebase and iterate towards a fully supportable product.
 
 You can see how this effort is going in the [dev-g210](https://github.com/glimpse-editor/Glimpse/tree/dev-g210) branch.
 
-Glimpse 1.x releases will also be based on GNU Image Manipulation Program 2.10, but these will be provided with technical documentation, lesson plans, and a long term support period.
+Glimpse 1.x releases will also be based on GNU Image Manipulation Program 3.0.x releases. Ideally we aim to have good supporting documentation and help files by that stage.
 
 Glimpse 2.x releases will utilise a new GUI that follows the [GNOME Human Interface Guidelines](https://developer.gnome.org/hig/stable/) and our own leaner plug-in framework.
 
