@@ -107,4 +107,4 @@ script:
 - cd $SRC_PREFIX
 - "./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc --without-xvfb-run"
 - make && make install
-- make check
+- make check VERBOSE=1
