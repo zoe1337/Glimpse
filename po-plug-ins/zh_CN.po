@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gimp-plug-ins HEAD\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2011-04-20 13:26+0000\n"
-"PO-Revision-Date: 2011-04-21 03:06+0800\n"
+"PO-Revision-Date: 2020-02-08 15:21-0800\n"
 "Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/color-rotate/color-rotate-dialog.c:118
 msgid "Original"
@@ -628,8 +629,7 @@ msgstr "垂直(_V)"
 #: ../plug-ins/file-jpeg/jpeg-load.c:252 ../plug-ins/file-jpeg/jpeg-load.c:816
 #: ../plug-ins/file-psd/psd-image-res-load.c:997
 #: ../plug-ins/file-psd/psd-load.c:1579 ../plug-ins/file-sgi/sgi.c:407
-#: ../plug-ins/gfig/gfig-dialog.c:1294
-#: ../plug-ins/gimpressionist/general.c:139
+#: ../plug-ins/gfig/gfig-dialog.c:1294 ../plug-ins/gimpressionist/general.c:139
 #: ../plug-ins/map-object/map-object-apply.c:252 ../plug-ins/twain/twain.c:567
 #: ../plug-ins/win-snap/winsnap.c:1156
 msgid "Background"
@@ -1024,10 +1024,9 @@ msgstr "加载通道混合器设置"
 #: ../plug-ins/common/channel-mixer.c:983
 #: ../plug-ins/common/cml-explorer.c:2208 ../plug-ins/common/curve-bend.c:892
 #: ../plug-ins/common/file-cel.c:312 ../plug-ins/common/file-compressor.c:497
-#: ../plug-ins/common/file-compressor.c:666
-#: ../plug-ins/common/file-dicom.c:340 ../plug-ins/common/file-gbr.c:368
-#: ../plug-ins/common/file-gif-load.c:355 ../plug-ins/common/file-gih.c:645
-#: ../plug-ins/common/file-jp2-load.c:197
+#: ../plug-ins/common/file-compressor.c:666 ../plug-ins/common/file-dicom.c:340
+#: ../plug-ins/common/file-gbr.c:368 ../plug-ins/common/file-gif-load.c:355
+#: ../plug-ins/common/file-gih.c:645 ../plug-ins/common/file-jp2-load.c:197
 #: ../plug-ins/common/file-jp2-load.c:206 ../plug-ins/common/file-mng.c:1108
 #: ../plug-ins/common/file-pat.c:337 ../plug-ins/common/file-pcx.c:361
 #: ../plug-ins/common/file-pix.c:343 ../plug-ins/common/file-png.c:721
@@ -1961,8 +1960,7 @@ msgstr "掩码值"
 msgid "Stretch brightness values to cover the full range"
 msgstr "拉伸亮度值以覆盖全部范围"
 
-#: ../plug-ins/common/contrast-normalize.c:91
-#: ../plug-ins/common/edge-dog.c:362
+#: ../plug-ins/common/contrast-normalize.c:91 ../plug-ins/common/edge-dog.c:362
 msgid "_Normalize"
 msgstr "标准化(_N)"
 
@@ -2076,9 +2074,9 @@ msgstr "Alpha(_A)"
 msgid "E_xtend"
 msgstr "扩展(_X)"
 
-#: ../plug-ins/common/convolution-matrix.c:74
-#: ../plug-ins/common/displace.c:473 ../plug-ins/common/edge.c:706
-#: ../plug-ins/common/fractal-trace.c:737 ../plug-ins/common/ripple.c:585
+#: ../plug-ins/common/convolution-matrix.c:74 ../plug-ins/common/displace.c:473
+#: ../plug-ins/common/edge.c:706 ../plug-ins/common/fractal-trace.c:737
+#: ../plug-ins/common/ripple.c:585
 msgid "_Wrap"
 msgstr "环绕(_W)"
 
@@ -4088,8 +4086,7 @@ msgid "_Millimeter"
 msgstr "毫米(_M)"
 
 #. Rotation
-#: ../plug-ins/common/file-ps.c:3437
-#: ../plug-ins/map-object/map-object-ui.c:980
+#: ../plug-ins/common/file-ps.c:3437 ../plug-ins/map-object/map-object-ui.c:980
 msgid "Rotation"
 msgstr "旋转"
 
@@ -4455,8 +4452,7 @@ msgstr "%s-第 %d 页-共 %d 页"
 msgid "TIFF Channel"
 msgstr "TIFF 通道"
 
-#: ../plug-ins/common/file-tiff-load.c:1026
-#: ../plug-ins/file-psd/psd-load.c:333
+#: ../plug-ins/common/file-tiff-load.c:1026 ../plug-ins/file-psd/psd-load.c:333
 msgid ""
 "Warning:\n"
 "The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
@@ -9810,8 +9806,7 @@ msgstr "隐藏控制点"
 msgid "Max undo:"
 msgstr "最大撤消次数："
 
-#: ../plug-ins/gfig/gfig-dialog.c:1293
-#: ../plug-ins/gimpressionist/general.c:184
+#: ../plug-ins/gfig/gfig-dialog.c:1293 ../plug-ins/gimpressionist/general.c:184
 msgid "Transparent"
 msgstr "透明"
 
@@ -10135,7 +10130,7 @@ msgstr "执行多种艺术化操作"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
 msgid "_Impressionist..."
-msgstr "印象派艺术家(_GIMPressionist)..."
+msgstr "印象派艺术家(_Impressionist)..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -10147,7 +10142,7 @@ msgstr "绘制"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
 msgid "GImpressionist"
-msgstr "印象派艺术家(GIMPressionist)"
+msgstr "印象派艺术家(Impressionist)"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -10426,7 +10421,7 @@ msgstr "保存当前值"
 
 #: ../plug-ins/gimpressionist/presets.c:894
 msgid "Impressionist Defaults"
-msgstr "GIMPressionist 默认值"
+msgstr "Impressionist 默认值"
 
 #: ../plug-ins/gimpressionist/presets.c:1015
 msgid "_Presets"
@@ -10861,8 +10856,7 @@ msgstr "随机数种子："
 msgid "_Second Flares"
 msgstr "二次闪光(_S)"
 
-#: ../plug-ins/help-browser/dialog.c:185
-#: ../plug-ins/help-browser/dialog.c:1114
+#: ../plug-ins/help-browser/dialog.c:185 ../plug-ins/help-browser/dialog.c:1114
 msgid "GIMP Help Browser"
 msgstr "GIMP 帮助浏览器"
 
@@ -11173,8 +11167,7 @@ msgstr "中心 X(_X)："
 #: ../plug-ins/imagemap/imap_circle.c:268
 #: ../plug-ins/imagemap/imap_circle.c:275
 #: ../plug-ins/imagemap/imap_circle.c:281 ../plug-ins/imagemap/imap_grid.c:249
-#: ../plug-ins/imagemap/imap_grid.c:255
-#: ../plug-ins/imagemap/imap_polygon.c:503
+#: ../plug-ins/imagemap/imap_grid.c:255 ../plug-ins/imagemap/imap_polygon.c:503
 #: ../plug-ins/imagemap/imap_polygon.c:511
 #: ../plug-ins/imagemap/imap_rectangle.c:392
 #: ../plug-ins/imagemap/imap_rectangle.c:399

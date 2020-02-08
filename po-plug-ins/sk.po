@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gimp-plug-ins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2016-01-22 07:15+0000\n"
-"PO-Revision-Date: 2016-01-22 13:18+0100\n"
+"PO-Revision-Date: 2020-02-08 15:06-0800\n"
 "Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
 "Language: sk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural= (n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 2.3\n"
 
 # procedure desc
 #: ../plug-ins/common/align-layers.c:158
@@ -154,8 +154,7 @@ msgstr "Po_užiť (neviditeľnú) spodnú vrstvu ako základňu"
 # procedure desc
 #: ../plug-ins/common/animation-optimize.c:132
 msgid "Modify image to reduce size when saved as GIF animation"
-msgstr ""
-"Upraví obrázok aby znížil jeho veľkosť pri ukladaní vo forme animácie GIF"
+msgstr "Upraví obrázok aby znížil jeho veľkosť pri ukladaní vo forme animácie GIF"
 
 # menu item
 #: ../plug-ins/common/animation-optimize.c:144
@@ -223,8 +222,7 @@ msgid "_Playback..."
 msgstr "_Prehrať…"
 
 #. list is given in "fps" - frames per second
-#: ../plug-ins/common/animation-play.c:354
-#: ../plug-ins/common/animation-play.c:406
+#: ../plug-ins/common/animation-play.c:354 ../plug-ins/common/animation-play.c:406
 #: ../plug-ins/common/animation-play.c:859
 #, c-format
 msgid "%.1f %%"
@@ -340,13 +338,11 @@ msgid "Playback speed"
 msgstr "Rýchlosť prehrávania"
 
 #. 2 styles of default frame disposals: cumulative layers and one frame per layer.
-#: ../plug-ins/common/animation-play.c:925
-#: ../plug-ins/common/file-gif-save.c:1229
+#: ../plug-ins/common/animation-play.c:925 ../plug-ins/common/file-gif-save.c:1229
 msgid "Cumulative layers (combine)"
 msgstr "Súhrné vrsty (kombinácia)"
 
-#: ../plug-ins/common/animation-play.c:929
-#: ../plug-ins/common/file-gif-save.c:1231
+#: ../plug-ins/common/animation-play.c:929 ../plug-ins/common/file-gif-save.c:1231
 msgid "One frame per layer (replace)"
 msgstr "Jedna snímka na vrstvu (nahradiť)"
 
@@ -425,8 +421,8 @@ msgstr "_Zvislo"
 #: ../plug-ins/file-fits/fits.c:529 ../plug-ins/file-jpeg/jpeg-load.c:239
 #: ../plug-ins/file-psd/psd-image-res-load.c:1033
 #: ../plug-ins/file-psd/psd-load.c:1767 ../plug-ins/file-sgi/sgi.c:411
-#: ../plug-ins/file-tiff/file-tiff-load.c:920
-#: ../plug-ins/gfig/gfig-dialog.c:1319 ../plug-ins/gimpressionist/general.c:139
+#: ../plug-ins/file-tiff/file-tiff-load.c:920 ../plug-ins/gfig/gfig-dialog.c:1319
+#: ../plug-ins/gimpressionist/general.c:139
 #: ../plug-ins/map-object/map-object-apply.c:252 ../plug-ins/twain/twain.c:567
 #: ../plug-ins/win-snap/winsnap.c:1162
 msgid "Background"
@@ -828,8 +824,7 @@ msgstr "Náhodné čísla z bázy (zdieľané)"
 
 # channel name
 #: ../plug-ins/common/cml-explorer.c:300 ../plug-ins/common/cml-explorer.c:308
-#: ../plug-ins/common/decompose.c:184
-#: ../plug-ins/gimpressionist/orientation.c:179
+#: ../plug-ins/common/decompose.c:184 ../plug-ins/gimpressionist/orientation.c:179
 #: ../plug-ins/gimpressionist/size.c:182
 msgid "Hue"
 msgstr "Odtieň"
@@ -842,8 +837,7 @@ msgstr "Sýtosť"
 
 # channel name
 #: ../plug-ins/common/cml-explorer.c:302 ../plug-ins/common/cml-explorer.c:310
-#: ../plug-ins/common/decompose.c:186
-#: ../plug-ins/gimpressionist/orientation.c:155
+#: ../plug-ins/common/decompose.c:186 ../plug-ins/gimpressionist/orientation.c:155
 #: ../plug-ins/gimpressionist/size.c:158 ../plug-ins/ui/plug-in-metadata.ui.h:2
 msgid "Value"
 msgstr "Jas"
@@ -949,13 +943,13 @@ msgstr "Prepnúť do režimu „z bázy“ s poslednou bázou"
 msgid ""
 "\"Fix seed\" button is an alias of me.\n"
 "The same seed produces the same image, if (1) the widths of images are same "
-"(this is the reason why image on drawable is different from preview), and "
-"(2) all mutation rates equal to zero."
+"(this is the reason why image on drawable is different from preview), and (2) "
+"all mutation rates equal to zero."
 msgstr ""
 "Tlačidlo „Opraviť bázu“ je odkaz na mňa.\n"
-"Rovnaká báza vytvára rovnaký obrázok, pokiaľ sú: 1. šírky obrázkov rovnaké "
-"(to je dôvod, prečo sú obrázky na obrazovke iné ako v náhľade) a 2. všetky "
-"miery mutácií nulové."
+"Rovnaká báza vytvára rovnaký obrázok, pokiaľ sú: 1. šírky obrázkov rovnaké (to "
+"je dôvod, prečo sú obrázky na obrazovke iné ako v náhľade) a 2. všetky miery "
+"mutácií nulové."
 
 # notebook page
 #: ../plug-ins/common/cml-explorer.c:1410
@@ -973,8 +967,7 @@ msgid "Source channel:"
 msgstr "Zdrojový kanál:"
 
 # label pri combo boxe
-#: ../plug-ins/common/cml-explorer.c:1459
-#: ../plug-ins/common/cml-explorer.c:1507
+#: ../plug-ins/common/cml-explorer.c:1459 ../plug-ins/common/cml-explorer.c:1507
 msgid "Destination channel:"
 msgstr "Cieľový kanál:"
 
@@ -1099,11 +1092,11 @@ msgstr "Uloženie parametrov CML prieskumníka"
 #: ../plug-ins/common/file-png.c:1504 ../plug-ins/common/file-raw-data.c:785
 #: ../plug-ins/common/file-raw-data.c:813 ../plug-ins/common/file-sunras.c:610
 #: ../plug-ins/common/file-tga.c:1204 ../plug-ins/common/file-xmc.c:1473
-#: ../plug-ins/common/sphere-designer.c:2121
-#: ../plug-ins/file-bmp/bmp-write.c:326 ../plug-ins/file-fits/fits.c:481
-#: ../plug-ins/file-fli/fli-gimp.c:748 ../plug-ins/file-ico/ico-save.c:1079
-#: ../plug-ins/file-jpeg/jpeg-save.c:328 ../plug-ins/file-psd/psd-save.c:1523
-#: ../plug-ins/file-tiff/file-tiff-save.c:521 ../plug-ins/flame/flame.c:442
+#: ../plug-ins/common/sphere-designer.c:2121 ../plug-ins/file-bmp/bmp-write.c:326
+#: ../plug-ins/file-fits/fits.c:481 ../plug-ins/file-fli/fli-gimp.c:748
+#: ../plug-ins/file-ico/ico-save.c:1079 ../plug-ins/file-jpeg/jpeg-save.c:328
+#: ../plug-ins/file-psd/psd-save.c:1523 ../plug-ins/file-tiff/file-tiff-save.c:521
+#: ../plug-ins/flame/flame.c:442
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1548
 #: ../plug-ins/gfig/gfig.c:792 ../plug-ins/ifs-compose/ifs-compose.c:2390
 #: ../plug-ins/lighting/lighting-ui.c:1223
@@ -1124,8 +1117,7 @@ msgstr "Načítanie parametrov CML prieskumníka"
 #: ../plug-ins/common/cml-explorer.c:2208 ../plug-ins/common/curve-bend.c:891
 #: ../plug-ins/common/file-cel.c:297 ../plug-ins/common/file-cel.c:348
 #: ../plug-ins/common/file-cel.c:575 ../plug-ins/common/file-dicom.c:342
-#: ../plug-ins/common/file-gif-load.c:361
-#: ../plug-ins/common/file-jp2-load.c:234
+#: ../plug-ins/common/file-gif-load.c:361 ../plug-ins/common/file-jp2-load.c:234
 #: ../plug-ins/common/file-jp2-load.c:243 ../plug-ins/common/file-mng.c:1158
 #: ../plug-ins/common/file-pcx.c:367 ../plug-ins/common/file-png.c:895
 #: ../plug-ins/common/file-ps.c:1100 ../plug-ins/common/file-ps.c:3369
@@ -1142,9 +1134,8 @@ msgstr "Načítanie parametrov CML prieskumníka"
 #: ../plug-ins/file-jpeg/jpeg-load.c:515 ../plug-ins/file-psd/psd-load.c:138
 #: ../plug-ins/file-psd/psd-thumb-load.c:82 ../plug-ins/flame/flame.c:411
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1865
-#: ../plug-ins/fractal-explorer/fractal-explorer.c:923
-#: ../plug-ins/gfig/gfig.c:424 ../plug-ins/help/gimphelplocale.c:222
-#: ../plug-ins/help/gimphelplocale.c:238
+#: ../plug-ins/fractal-explorer/fractal-explorer.c:923 ../plug-ins/gfig/gfig.c:424
+#: ../plug-ins/help/gimphelplocale.c:222 ../plug-ins/help/gimphelplocale.c:238
 #: ../plug-ins/lighting/lighting-ui.c:1367
 #, c-format
 msgid "Could not open '%s' for reading: %s"
@@ -1273,8 +1264,7 @@ msgstr "Vymení dve farby v mape farieb"
 msgid "_Swap Colors"
 msgstr "_Vymeniť farby"
 
-#: ../plug-ins/common/colormap-remap.c:287
-#: ../plug-ins/common/colormap-remap.c:298
+#: ../plug-ins/common/colormap-remap.c:287 ../plug-ins/common/colormap-remap.c:298
 #: ../plug-ins/common/colormap-remap.c:309
 msgid "Invalid remap array was passed to remap function"
 msgstr "Neplatné pole premapovania bolo predané do premapovacej funkcie"
@@ -1729,8 +1719,7 @@ msgstr "Ohýbanie pomocou krivky"
 # frame
 #. Preview area, top of column
 #. preview
-#: ../plug-ins/common/curve-bend.c:1261
-#: ../plug-ins/gimpressionist/orientmap.c:590
+#: ../plug-ins/common/curve-bend.c:1261 ../plug-ins/gimpressionist/orientmap.c:590
 #: ../plug-ins/gimpressionist/sizemap.c:459
 #: ../plug-ins/print/print-page-layout.c:175
 msgid "Preview"
@@ -2077,9 +2066,9 @@ msgid ""
 "Pixels in the foreground color will appear black in all output images.  This "
 "can be used for things like crop marks that have to show up on all channels."
 msgstr ""
-"Pixely farby v popredí sa budú zobrazovať čiernou farbou vo všetkých "
-"obrázkoch výstupu. Dá sa to využiť na orezové značky, ktoré by mali byť "
-"viditeľné vo všetkých kanáloch."
+"Pixely farby v popredí sa budú zobrazovať čiernou farbou vo všetkých obrázkoch "
+"výstupu. Dá sa to využiť na orezové značky, ktoré by mali byť viditeľné vo "
+"všetkých kanáloch."
 
 # procedure desc
 #: ../plug-ins/common/depth-merge.c:183
@@ -2208,9 +2197,8 @@ msgstr "Odstránenie pruhov"
 
 #: ../plug-ins/common/destripe.c:476 ../plug-ins/common/file-html-table.c:638
 #: ../plug-ins/common/file-ps.c:3495 ../plug-ins/common/file-ps.c:3700
-#: ../plug-ins/common/file-raw-data.c:1445
-#: ../plug-ins/common/smooth-palette.c:435 ../plug-ins/common/tile.c:428
-#: ../plug-ins/imagemap/imap_cmd_guides.c:163
+#: ../plug-ins/common/file-raw-data.c:1445 ../plug-ins/common/smooth-palette.c:435
+#: ../plug-ins/common/tile.c:428 ../plug-ins/imagemap/imap_cmd_guides.c:163
 #: ../plug-ins/imagemap/imap_rectangle.c:399
 #: ../plug-ins/print/print-page-layout.c:282
 msgid "_Width:"
@@ -2680,8 +2668,7 @@ msgstr "PNG obrázok"
 msgid "Could not open '%s'"
 msgstr "Nie je možné zapísať '%s': %s"
 
-#: ../plug-ins/common/file-gif-load.c:148
-#: ../plug-ins/common/file-gif-save.c:171
+#: ../plug-ins/common/file-gif-load.c:148 ../plug-ins/common/file-gif-save.c:171
 #: ../plug-ins/common/file-gif-save.c:190
 msgid "GIF image"
 msgstr "Obrázok GIF"
@@ -2720,8 +2707,8 @@ msgid ""
 "GIF: Undocumented GIF composite type %d is not handled.  Animation might not "
 "play or re-save perfectly."
 msgstr ""
-"GIF: Nedokumentovaný kompozitný typ GIF %d nie je obslúžený. Animácia sa "
-"nemusí dať prehrať alebo znovu perfektne uložiť."
+"GIF: Nedokumentovaný kompozitný typ GIF %d nie je obslúžený. Animácia sa nemusí "
+"dať prehrať alebo znovu perfektne uložiť."
 
 #: ../plug-ins/common/file-gif-save.c:510
 msgid "Couldn't simply reduce colors further. Saving as opaque."
@@ -2731,26 +2718,25 @@ msgstr ""
 #: ../plug-ins/common/file-gif-save.c:625
 #, fuzzy, c-format
 #| msgid ""
-#| "Unable to save '%s'.  The psd file format does not support images that "
-#| "are more than 30000 pixels wide or tall."
+#| "Unable to save '%s'.  The psd file format does not support images that are "
+#| "more than 30000 pixels wide or tall."
 msgid ""
-"Unable to save '%s'.  The GIF file format does not support images that are "
-"more than %d pixels wide or tall."
+"Unable to save '%s'.  The GIF file format does not support images that are more "
+"than %d pixels wide or tall."
 msgstr ""
-"Nie je možné uložiť '%s'. Formát súbor psd nepodporuje obrázky, ktoré sú "
-"širšie alebo vyššie ako 30000 bodov."
+"Nie je možné uložiť '%s'. Formát súbor psd nepodporuje obrázky, ktoré sú širšie "
+"alebo vyššie ako 30000 bodov."
 
 #: ../plug-ins/common/file-gif-save.c:735
 msgid ""
 "The GIF format only supports comments in 7bit ASCII encoding. No comment is "
 "saved."
 msgstr ""
-"Formát GIF podporuje iba komentáre v 7 bitovom ASCII kódovaní. Komentár nie "
-"je uložený."
+"Formát GIF podporuje iba komentáre v 7 bitovom ASCII kódovaní. Komentár nie je "
+"uložený."
 
 #: ../plug-ins/common/file-gif-save.c:799
-msgid ""
-"Cannot save RGB color images. Convert to indexed color or grayscale first."
+msgid "Cannot save RGB color images. Convert to indexed color or grayscale first."
 msgstr ""
 "Nedá sa uložiť obrázky v RGB farebnom režime. Skonvertujte ich najskôr na "
 "indexované farby alebo do odtieňov sivej."
@@ -2772,12 +2758,12 @@ msgstr "Aby sa zabránilo škaredej animácii žerúcej CPU, vloží sa omeškan
 #| "You may choose whether to crop all of the layers to\n"
 #| "the image borders, or cancel this save."
 msgid ""
-"The image you are trying to save as a GIF contains layers which extend "
-"beyond the actual borders of the image."
+"The image you are trying to save as a GIF contains layers which extend beyond "
+"the actual borders of the image."
 msgstr ""
 "Obrázok, ktorý sa pokúšate uložiť ako GIF,\n"
-"obsahuje vrstvy ktoré presahujú aktuálne okraje obrázka. Obávam sa, že to "
-"nie je v GIFe nie je\n"
+"obsahuje vrstvy ktoré presahujú aktuálne okraje obrázka. Obávam sa, že to nie "
+"je v GIFe nie je\n"
 "povolené.\n"
 "\n"
 "Môžete si vybrať buš orezanie vrstiev, alebo\n"
@@ -2794,12 +2780,12 @@ msgstr ""
 #| "You may choose whether to crop all of the layers to\n"
 #| "the image borders, or cancel this save."
 msgid ""
-"The GIF file format does not allow this.  You may choose whether to crop all "
-"of the layers to the image borders, or cancel this save."
+"The GIF file format does not allow this.  You may choose whether to crop all of "
+"the layers to the image borders, or cancel this save."
 msgstr ""
 "Obrázok, ktorý sa pokúšate uložiť ako GIF,\n"
-"obsahuje vrstvy ktoré presahujú aktuálne okraje obrázka. Obávam sa, že to "
-"nie je v GIFe nie je\n"
+"obsahuje vrstvy ktoré presahujú aktuálne okraje obrázka. Obávam sa, že to nie "
+"je v GIFe nie je\n"
 "povolené.\n"
 "\n"
 "Môžete si vybrať buš orezanie vrstiev, alebo\n"
@@ -2932,8 +2918,8 @@ msgstr "_Generovať úplný dokument HTML"
 
 #: ../plug-ins/common/file-html-table.c:509
 msgid ""
-"If checked GTM will output a full HTML document with <HTML>, <BODY>, etc. "
-"tags instead of just the table html."
+"If checked GTM will output a full HTML document with <HTML>, <BODY>, etc. tags "
+"instead of just the table html."
 msgstr ""
 "So zaškrtnutou voľbou GTM sa vytvorí úplný dokument HTML so značkami <HTML>,"
 "<BODY>, atď. namiesto jednoduchej tabuľky."
@@ -2952,8 +2938,8 @@ msgid ""
 "If checked GTM will replace any rectangular sections of identically colored "
 "blocks with one large cell with ROWSPAN and COLSPAN values."
 msgstr ""
-"So zaškrtnutou voľbou GTM budú ľubovoľné identicky zafarbené obdĺžnikové "
-"plochy nahradené jednou veľkou bunkou s hodnotami ROWSPAN a COLSPAN."
+"So zaškrtnutou voľbou GTM budú ľubovoľné identicky zafarbené obdĺžnikové plochy "
+"nahradené jednou veľkou bunkou s hodnotami ROWSPAN a COLSPAN."
 
 #: ../plug-ins/common/file-html-table.c:545
 msgid "Co_mpress TD tags"
@@ -2961,9 +2947,8 @@ msgstr "_Komprimovať značky TD"
 
 #: ../plug-ins/common/file-html-table.c:551
 msgid ""
-"Checking this tag will cause GTM to leave no whitespace between the TD tags "
-"and the cellcontent.  This is only necessary for pixel level positioning "
-"control."
+"Checking this tag will cause GTM to leave no whitespace between the TD tags and "
+"the cellcontent.  This is only necessary for pixel level positioning control."
 msgstr ""
 "Zaštrnutie tejto značky spôsobí, že v GTM nebude vynechaný biely priestor  "
 "medzi značkami TD a obsahom bunky. Toto je nevyhnutné pre ovládanie úrovne "
@@ -3061,20 +3046,20 @@ msgstr "Obrázok „%s“ je v RGB, ale chýba mu niektorá z týchto zložiek."
 #: ../plug-ins/common/file-jp2-load.c:328
 #, c-format
 msgid ""
-"The image '%s' is in the CIEXYZ color space, but there is no code in place "
-"to convert it to RGB."
+"The image '%s' is in the CIEXYZ color space, but there is no code in place to "
+"convert it to RGB."
 msgstr ""
-"Obrázok „%s“ je vo farebnom priestore CIEXYZ, ale nie je prítomný žiadný kód "
-"na jeho zmenu do RGB."
+"Obrázok „%s“ je vo farebnom priestore CIEXYZ, ale nie je prítomný žiadný kód na "
+"jeho zmenu do RGB."
 
 #: ../plug-ins/common/file-jp2-load.c:335
 #, c-format
 msgid ""
-"The image '%s' is in the CIELAB color space, but there is no code in place "
-"to convert it to RGB."
+"The image '%s' is in the CIELAB color space, but there is no code in place to "
+"convert it to RGB."
 msgstr ""
-"Obrázok „%s“ je vo farebnom priestore CIELAB, ale nie je prítomný žiadný kód "
-"na jeho zmenu do RGB."
+"Obrázok „%s“ je vo farebnom priestore CIELAB, ale nie je prítomný žiadný kód na "
+"jeho zmenu do RGB."
 
 #: ../plug-ins/common/file-jp2-load.c:342
 #, c-format
@@ -3082,8 +3067,8 @@ msgid ""
 "The image '%s' is in the YCbCr color space, but there is no code in place to "
 "convert it to RGB."
 msgstr ""
-"Obrázok „%s“ je bo farebnom priestore YCbCr, ale nie je prítomný žiadný kód "
-"na jeho zmenu do RGB."
+"Obrázok „%s“ je bo farebnom priestore YCbCr, ale nie je prítomný žiadný kód na "
+"jeho zmenu do RGB."
 
 #: ../plug-ins/common/file-jp2-load.c:350
 #, c-format
@@ -3093,8 +3078,8 @@ msgstr "Obrázok „%s“ je v neznámom farebnom priestore."
 #: ../plug-ins/common/file-jp2-load.c:364
 #, c-format
 msgid ""
-"Image component %d of image '%s' does not have the same size as the image. "
-"This is currently not supported."
+"Image component %d of image '%s' does not have the same size as the image. This "
+"is currently not supported."
 msgstr ""
 
 #: ../plug-ins/common/file-jp2-load.c:375
@@ -3316,13 +3301,11 @@ msgstr "Spodný okraj je mimo hraníc (musí byť < %d): %d"
 msgid "Writing to file '%s' failed: %s"
 msgstr "Zapisovanie do súboru „%s“ zlyhalo: %s"
 
-#: ../plug-ins/common/file-pdf-load.c:300
-#: ../plug-ins/common/file-pdf-save.c:319
+#: ../plug-ins/common/file-pdf-load.c:300 ../plug-ins/common/file-pdf-save.c:319
 msgid "Portable Document Format"
 msgstr "Formát prenositeľných dokumentov (PDF)"
 
-#: ../plug-ins/common/file-pdf-load.c:545
-#: ../plug-ins/common/file-pdf-load.c:564
+#: ../plug-ins/common/file-pdf-load.c:545 ../plug-ins/common/file-pdf-load.c:564
 #, c-format
 msgid "Could not load '%s': %s"
 msgstr "Nepodarilo sa načítať „%s“: %s"
@@ -3370,9 +3353,9 @@ msgstr "_Rozlíšenie:"
 msgid "Use _Anti-aliasing"
 msgstr "_Vyhladzovanie"
 
-#: ../plug-ins/common/file-pdf-load.c:1457
-#: ../plug-ins/common/file-pdf-load.c:1458 ../plug-ins/common/file-svg.c:915
-#: ../plug-ins/common/file-wmf.c:701 ../plug-ins/print/print-page-layout.c:303
+#: ../plug-ins/common/file-pdf-load.c:1457 ../plug-ins/common/file-pdf-load.c:1458
+#: ../plug-ins/common/file-svg.c:915 ../plug-ins/common/file-wmf.c:701
+#: ../plug-ins/print/print-page-layout.c:303
 #, c-format
 msgid "pixels/%a"
 msgstr "pixelov/%a"
@@ -3396,23 +3379,19 @@ msgid ""
 "read only!"
 msgstr ""
 
-#: ../plug-ins/common/file-pdf-save.c:854
-#: ../plug-ins/common/file-pdf-save.c:976
+#: ../plug-ins/common/file-pdf-save.c:854 ../plug-ins/common/file-pdf-save.c:976
 msgid "Omit hidden layers and layers with zero opacity"
 msgstr ""
 
-#: ../plug-ins/common/file-pdf-save.c:859
-#: ../plug-ins/common/file-pdf-save.c:981
+#: ../plug-ins/common/file-pdf-save.c:859 ../plug-ins/common/file-pdf-save.c:981
 msgid "Convert bitmaps to vector graphics where possible"
 msgstr ""
 
-#: ../plug-ins/common/file-pdf-save.c:864
-#: ../plug-ins/common/file-pdf-save.c:986
+#: ../plug-ins/common/file-pdf-save.c:864 ../plug-ins/common/file-pdf-save.c:986
 msgid "Apply layer masks before saving"
 msgstr ""
 
-#: ../plug-ins/common/file-pdf-save.c:868
-#: ../plug-ins/common/file-pdf-save.c:990
+#: ../plug-ins/common/file-pdf-save.c:868 ../plug-ins/common/file-pdf-save.c:990
 msgid "Keeping the masks will not change the output"
 msgstr ""
 
@@ -3440,8 +3419,7 @@ msgstr "Zmaže zvolené prevoľby"
 msgid "Add this image"
 msgstr "X PixMap obrázok"
 
-#: ../plug-ins/common/file-pdf-save.c:1079
-#: ../plug-ins/common/file-pdf-save.c:1147
+#: ../plug-ins/common/file-pdf-save.c:1079 ../plug-ins/common/file-pdf-save.c:1147
 #: ../plug-ins/common/file-pdf-save.c:1245 ../plug-ins/common/file-ps.c:1915
 #: ../plug-ins/file-tiff/file-tiff-load.c:922
 #, c-format
@@ -3452,8 +3430,7 @@ msgstr "Stránka č. %d"
 msgid "Error! In order to save the file, at least one image should be added!"
 msgstr ""
 
-#: ../plug-ins/common/file-pdf-save.c:1289
-#: ../plug-ins/print/print-draw-page.c:118
+#: ../plug-ins/common/file-pdf-save.c:1289 ../plug-ins/print/print-draw-page.c:118
 msgid "Cannot handle the size (either width or height) of the image."
 msgstr ""
 
@@ -3496,11 +3473,10 @@ msgstr "Nepodarilo sa vytvoriť nový obrázok pre „%s“: %s"
 
 #: ../plug-ins/common/file-png.c:1092
 msgid ""
-"The PNG file specifies an offset that caused the layer to be positioned "
-"outside the image."
+"The PNG file specifies an offset that caused the layer to be positioned outside "
+"the image."
 msgstr ""
-"Súbor PNG určuje posun, ktorý spôsobí, že vrstva bude umiestnená mimo "
-"obrázka."
+"Súbor PNG určuje posun, ktorý spôsobí, že vrstva bude umiestnená mimo obrázka."
 
 #: ../plug-ins/common/file-png.c:1369
 msgid "Apply PNG Offset"
@@ -3519,8 +3495,8 @@ msgstr ""
 #: ../plug-ins/common/file-png.c:1399
 #, c-format
 msgid ""
-"The PNG image you are importing specifies an offset of %d, %d. Do you want "
-"to apply this offset to the layer?"
+"The PNG image you are importing specifies an offset of %d, %d. Do you want to "
+"apply this offset to the layer?"
 msgstr ""
 
 #: ../plug-ins/common/file-png.c:1473
@@ -3533,14 +3509,12 @@ msgstr ""
 msgid "Error while saving '%s'. Could not save image."
 msgstr "Chyba počas ukladania „%s“. Nepodarilo sa uložiť obrázok."
 
-#: ../plug-ins/common/file-png.c:2191
-#: ../plug-ins/file-tiff/file-tiff-save.c:840
+#: ../plug-ins/common/file-png.c:2191 ../plug-ins/file-tiff/file-tiff-save.c:840
 #, c-format
 msgid "Error loading UI file '%s': %s"
 msgstr "Chyba pri načítavaní súboru rozhrania „%s“: %s"
 
-#: ../plug-ins/common/file-png.c:2192
-#: ../plug-ins/file-tiff/file-tiff-save.c:841
+#: ../plug-ins/common/file-png.c:2192 ../plug-ins/file-tiff/file-tiff-save.c:841
 msgid "Unknown error"
 msgstr "Neznáma chyba"
 
@@ -3716,8 +3690,7 @@ msgid "Gray"
 msgstr "Sivá"
 
 #: ../plug-ins/common/file-ps.c:3562 ../plug-ins/common/file-xpm.c:480
-#: ../plug-ins/gimpressionist/color.c:65
-#: ../plug-ins/gimpressionist/general.c:169
+#: ../plug-ins/gimpressionist/color.c:65 ../plug-ins/gimpressionist/general.c:169
 #: ../plug-ins/imagemap/imap_menu.c:211
 msgid "Color"
 msgstr "Farba"
@@ -3843,8 +3816,7 @@ msgstr "RLE"
 msgid "LZ77"
 msgstr "LZ77"
 
-#: ../plug-ins/common/file-raw-data.c:200
-#: ../plug-ins/common/file-raw-data.c:215
+#: ../plug-ins/common/file-raw-data.c:200 ../plug-ins/common/file-raw-data.c:215
 msgid "Raw image data"
 msgstr "Nespracované (raw) údaje obrázka"
 
@@ -3919,13 +3891,11 @@ msgstr "_Typ obrázka:"
 msgid "Palette"
 msgstr "Paleta"
 
-#: ../plug-ins/common/file-raw-data.c:1487
-#: ../plug-ins/common/file-raw-data.c:1572
+#: ../plug-ins/common/file-raw-data.c:1487 ../plug-ins/common/file-raw-data.c:1572
 msgid "R, G, B (normal)"
 msgstr "R, G, B (normálne)"
 
-#: ../plug-ins/common/file-raw-data.c:1488
-#: ../plug-ins/common/file-raw-data.c:1574
+#: ../plug-ins/common/file-raw-data.c:1488 ../plug-ins/common/file-raw-data.c:1574
 msgid "B, G, R, X (BMP style)"
 msgstr "B, G, R, X (štýl BMP)"
 
@@ -4140,8 +4110,7 @@ msgstr "Importovať _cesty"
 msgid ""
 "Import path elements of the SVG so they can be used with the GIMP path tool"
 msgstr ""
-"Importovať prvky ciest z SVG, aby mohly byť použité s GIMP nástrojom pre "
-"cesty"
+"Importovať prvky ciest z SVG, aby mohly byť použité s GIMP nástrojom pre cesty"
 
 #: ../plug-ins/common/file-svg.c:950
 msgid "Merge imported paths"
@@ -4367,13 +4336,11 @@ msgstr "Voľby XMC"
 
 #: ../plug-ins/common/file-xmc.c:1080
 msgid "Enter the X coordinate of the hot spot. The origin is top left corner."
-msgstr ""
-"Zadajte súradnicu X horúceho bodu. Pôvodná súradnica je horný ľavý roh."
+msgstr "Zadajte súradnicu X horúceho bodu. Pôvodná súradnica je horný ľavý roh."
 
 #: ../plug-ins/common/file-xmc.c:1103
 msgid "Enter the Y coordinate of the hot spot. The origin is top left corner."
-msgstr ""
-"Zadajte súradnicu Y horúceho bodu. Pôvodná súradnica je horný ľavý roh."
+msgstr "Zadajte súradnicu Y horúceho bodu. Pôvodná súradnica je horný ľavý roh."
 
 #: ../plug-ins/common/file-xmc.c:1112
 msgid "_Auto-Crop all frames."
@@ -4394,12 +4361,11 @@ msgstr ""
 #: ../plug-ins/common/file-xmc.c:1148
 msgid ""
 "Choose the nominal size of frames.\n"
-"If you don't have plans to make multi-sized cursor, or you have no idea, "
-"leave it \"32px\".\n"
+"If you don't have plans to make multi-sized cursor, or you have no idea, leave "
+"it \"32px\".\n"
 "Nominal size has no relation with the actual size (width or height).\n"
-"It is only used to determine which frame depends on which animation "
-"sequence, and which sequence is used based on the value of \"gtk-cursor-"
-"theme-size\"."
+"It is only used to determine which frame depends on which animation sequence, "
+"and which sequence is used based on the value of \"gtk-cursor-theme-size\"."
 msgstr ""
 
 #: ../plug-ins/common/file-xmc.c:1165
@@ -4421,8 +4387,7 @@ msgstr ""
 
 #: ../plug-ins/common/file-xmc.c:1217
 msgid "_Use this value only for a frame which delay is not specified."
-msgstr ""
-"_Použiť túto hodnotu iba pre rámy, ktorých oneskorenie nie je stanovené."
+msgstr "_Použiť túto hodnotu iba pre rámy, ktorých oneskorenie nie je stanovené."
 
 #: ../plug-ins/common/file-xmc.c:1220
 msgid "_Replace the delay of all frames even if it is specified."
@@ -4497,8 +4462,7 @@ msgstr ""
 #, c-format
 msgid ""
 "Cannot save the cursor because the hot spot is not on frame '%s'.\n"
-"Try to change the hot spot position, layer geometry or save without auto-"
-"crop."
+"Try to change the hot spot position, layer geometry or save without auto-crop."
 msgstr ""
 
 #: ../plug-ins/common/file-xmc.c:1748
@@ -4523,8 +4487,7 @@ msgstr ""
 #| "The parasite \"%s\" is too long for X cursor.\n"
 #| "The overflowed string was dropped."
 msgid ""
-"The parasite \"%s\" is too long for an X cursor comment. It was cut off to "
-"fit."
+"The parasite \"%s\" is too long for an X cursor comment. It was cut off to fit."
 msgstr ""
 "Parazit \"%s\" je príliš veľký pre X kurzor.\n"
 "Pretečený reťazec bol vyhodený."
@@ -4536,8 +4499,8 @@ msgid ""
 "Sorry, this plug-in cannot handle a cursor which contains over %i different "
 "nominal sizes."
 msgstr ""
-"Prepáčte, tento zásuvný modul nemôže ovládať kurzor, ktorý obsahuje viac ako "
-"%i rôznych nominálnych veľkostí."
+"Prepáčte, tento zásuvný modul nemôže ovládať kurzor, ktorý obsahuje viac ako %i "
+"rôznych nominálnych veľkostí."
 
 #: ../plug-ins/common/file-xpm.c:174 ../plug-ins/common/file-xpm.c:199
 msgid "X PixMap image"
@@ -4603,8 +4566,8 @@ msgid ""
 "XWD-file %s has format %d, depth %d and bits per pixel %d. Currently this is "
 "not supported."
 msgstr ""
-"XWD-súbor %s má formát %d, hĺbku %d a %d bitov na pixel. V súčasnosti toto "
-"nie je podporované."
+"XWD-súbor %s má formát %d, hĺbku %d a %d bitov na pixel. V súčasnosti toto nie "
+"je podporované."
 
 #: ../plug-ins/common/file-xwd.c:636
 msgid "Cannot save images with alpha channels."
@@ -4943,8 +4906,7 @@ msgstr "Zmení obrázok pomocou Mandelbrotového fraktálu"
 msgid "_Fractal Trace..."
 msgstr "_Fraktálové trasovanie…"
 
-#: ../plug-ins/common/fractal-trace.c:461
-#: ../plug-ins/common/fractal-trace.c:697
+#: ../plug-ins/common/fractal-trace.c:461 ../plug-ins/common/fractal-trace.c:697
 msgid "Fractal Trace"
 msgstr "Fraktálové trasovanie"
 
@@ -5594,18 +5556,15 @@ msgstr "Prehliadač zásuvných modelov"
 msgid "Name"
 msgstr "Názov"
 
-#: ../plug-ins/common/plugin-browser.c:597
-#: ../plug-ins/common/plugin-browser.c:660
+#: ../plug-ins/common/plugin-browser.c:597 ../plug-ins/common/plugin-browser.c:660
 msgid "Menu Path"
 msgstr "Cesta ponuky"
 
-#: ../plug-ins/common/plugin-browser.c:605
-#: ../plug-ins/common/plugin-browser.c:669
+#: ../plug-ins/common/plugin-browser.c:605 ../plug-ins/common/plugin-browser.c:669
 msgid "Image Types"
 msgstr "Typy obrázkov"
 
-#: ../plug-ins/common/plugin-browser.c:615
-#: ../plug-ins/common/plugin-browser.c:678
+#: ../plug-ins/common/plugin-browser.c:615 ../plug-ins/common/plugin-browser.c:678
 msgid "Installation Date"
 msgstr "Dátum inštalácie"
 
@@ -6243,8 +6202,7 @@ msgstr "Malé dlaždice"
 
 #. Area for buttons etc
 #. Flip
-#: ../plug-ins/common/tile-small.c:419
-#: ../plug-ins/ifs-compose/ifs-compose.c:596
+#: ../plug-ins/common/tile-small.c:419 ../plug-ins/ifs-compose/ifs-compose.c:596
 msgid "Flip"
 msgstr "Zrkadlenie"
 
@@ -6294,8 +6252,7 @@ msgid "ID"
 msgstr "ID"
 
 #: ../plug-ins/common/unit-editor.c:96
-msgid ""
-"This string will be used to identify a unit in GIMP's configuration files."
+msgid "This string will be used to identify a unit in GIMP's configuration files."
 msgstr ""
 "Tento reťazec bude použitý na identifikáciu jednotky v konfiguračnom súbore "
 "programu GIMP."
@@ -6314,13 +6271,13 @@ msgstr "Číslice"
 
 #: ../plug-ins/common/unit-editor.c:99
 msgid ""
-"This field is a hint for numerical input fields. It specifies how many "
-"decimal digits the input field should provide to get approximately the same "
-"accuracy as an \"inch\" input field with two decimal digits."
+"This field is a hint for numerical input fields. It specifies how many decimal "
+"digits the input field should provide to get approximately the same accuracy as "
+"an \"inch\" input field with two decimal digits."
 msgstr ""
-"Toto pole je pokyn pre numerické vstupné pole. Určuje, koľko desatinných "
-"číslic vstupné pola dáva približne rovnakú presnosť ako pole \"palec\" s "
-"dvoma desatinnými miestami."
+"Toto pole je pokyn pre numerické vstupné pole. Určuje, koľko desatinných číslic "
+"vstupné pola dáva približne rovnakú presnosť ako pole \"palec\" s dvoma "
+"desatinnými miestami."
 
 #: ../plug-ins/common/unit-editor.c:104
 msgid "Symbol"
@@ -6332,11 +6289,11 @@ msgstr "Symbol"
 #| "The unit's symbol if it has one (e.g. \"'\" for inches). The unit's "
 #| "abbreviation is used if doesn't have a symbol."
 msgid ""
-"The unit's symbol if it has one (e.g. \" for inches). The unit's "
-"abbreviation is used if doesn't have a symbol."
+"The unit's symbol if it has one (e.g. \" for inches). The unit's abbreviation "
+"is used if doesn't have a symbol."
 msgstr ""
-"Symbol jednotky, ak je nejaký (napr. \"'\" pre palce). Ak jednotka nemá "
-"symbol, tak sa použije jej skratka."
+"Symbol jednotky, ak je nejaký (napr. \"'\" pre palce). Ak jednotka nemá symbol, "
+"tak sa použije jej skratka."
 
 #: ../plug-ins/common/unit-editor.c:107
 msgid "Abbreviation"
@@ -6885,9 +6842,9 @@ msgstr "_Nezapisovať informáciu o farebnom priestore"
 
 #: ../plug-ins/file-bmp/bmp-write.c:910
 msgid ""
-"Some applications can not read BMP images that include color space "
-"information. GIMP writes color space information by default. Enabling this "
-"option will cause GIMP to not write color space information to the file."
+"Some applications can not read BMP images that include color space information. "
+"GIMP writes color space information by default. Enabling this option will cause "
+"GIMP to not write color space information to the file."
 msgstr ""
 
 #. Advanced Options
@@ -7247,8 +7204,7 @@ msgstr "Plávajúca bodka"
 msgid "Comment"
 msgstr "Komentár"
 
-#: ../plug-ins/file-jpeg/jpeg-save.c:1174
-#: ../plug-ins/ui/plug-in-file-png.ui.h:11
+#: ../plug-ins/file-jpeg/jpeg-save.c:1174 ../plug-ins/ui/plug-in-file-png.ui.h:11
 #, fuzzy
 #| msgid "_Load defaults"
 msgid "_Load Defaults"
@@ -7268,8 +7224,7 @@ msgstr "JPEG obrázok"
 msgid "Export Preview"
 msgstr "Náhľad na export"
 
-#: ../plug-ins/file-psd/psd-load.c:219
-#: ../plug-ins/file-psd/psd-thumb-load.c:130
+#: ../plug-ins/file-psd/psd-load.c:219 ../plug-ins/file-psd/psd-thumb-load.c:130
 #, fuzzy, c-format
 #| msgid "Error opening file '%s'"
 msgid "Error loading PSD file: %s"
@@ -7394,14 +7349,14 @@ msgstr ""
 #: ../plug-ins/file-psd/psd-save.c:1490
 #, fuzzy, c-format
 #| msgid ""
-#| "Unable to save '%s'.  The psd file format does not support images that "
-#| "are more than 30000 pixels wide or tall."
+#| "Unable to save '%s'.  The psd file format does not support images that are "
+#| "more than 30000 pixels wide or tall."
 msgid ""
-"Unable to save '%s'.  The PSD file format does not support images that are "
-"more than 30,000 pixels wide or tall."
+"Unable to save '%s'.  The PSD file format does not support images that are more "
+"than 30,000 pixels wide or tall."
 msgstr ""
-"Nie je možné uložiť '%s'. Formát súbor psd nepodporuje obrázky, ktoré sú "
-"širšie alebo vyššie ako 30000 bodov."
+"Nie je možné uložiť '%s'. Formát súbor psd nepodporuje obrázky, ktoré sú širšie "
+"alebo vyššie ako 30000 bodov."
 
 #: ../plug-ins/file-psd/psd-save.c:1505
 #, fuzzy, c-format
@@ -7409,11 +7364,11 @@ msgstr ""
 #| "Unable to save '%s'.  The psd file format does not support images with "
 #| "layers that are more than 30000 pixels wide or tall."
 msgid ""
-"Unable to save '%s'.  The PSD file format does not support images with "
-"layers that are more than 30,000 pixels wide or tall."
+"Unable to save '%s'.  The PSD file format does not support images with layers "
+"that are more than 30,000 pixels wide or tall."
 msgstr ""
-"Nie je možné uložiť '%s'. Formát súbor psd nepodporuje obrázky s vrtvami, "
-"ktoré sú širšie alebo vyššie ako 30000 bodov."
+"Nie je možné uložiť '%s'. Formát súbor psd nepodporuje obrázky s vrtvami, ktoré "
+"sú širšie alebo vyššie ako 30000 bodov."
 
 #: ../plug-ins/file-psd/psd-util.c:50
 #, fuzzy
@@ -7808,14 +7763,12 @@ msgstr "K_amera"
 msgid "_Zoom:"
 msgstr "_Lupa:"
 
-#: ../plug-ins/flame/flame.c:1250
-#: ../plug-ins/gradient-flare/gradient-flare.c:2724
+#: ../plug-ins/flame/flame.c:1250 ../plug-ins/gradient-flare/gradient-flare.c:2724
 #: ../plug-ins/lighting/lighting-ui.c:479
 msgid "_X:"
 msgstr "_X:"
 
-#: ../plug-ins/flame/flame.c:1264
-#: ../plug-ins/gradient-flare/gradient-flare.c:2728
+#: ../plug-ins/flame/flame.c:1264 ../plug-ins/gradient-flare/gradient-flare.c:2728
 #: ../plug-ins/lighting/lighting-ui.c:494
 msgid "_Y:"
 msgstr "_Y:"
@@ -7900,8 +7853,7 @@ msgstr "Dole:"
 #| msgid ""
 #| "Change the iteration value. The higher it is, the more details will be "
 #| "calculated, which will take more time"
-msgid ""
-"The higher the number of iterations, the more details will be calculated"
+msgid "The higher the number of iterations, the more details will be calculated"
 msgstr ""
 "Zmena počtu iterácií. Čím je ich viac, tým viac detailov, ktoré zaberú viac "
 "času, bude počítaných."
@@ -8051,8 +8003,8 @@ msgid ""
 "Use linear mapping instead of any trigonometrical function for this color "
 "channel"
 msgstr ""
-"Použije lineárne mapovanie namiesto trigonometrických funkcií pre tento "
-"farebný kanál"
+"Použije lineárne mapovanie namiesto trigonometrických funkcií pre tento farebný "
+"kanál"
 
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1021
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1062
@@ -8064,11 +8016,11 @@ msgstr "Opak"
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1070
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1111
 msgid ""
-"If you enable this option higher color values will be swapped with lower "
-"ones and vice versa"
+"If you enable this option higher color values will be swapped with lower ones "
+"and vice versa"
 msgstr ""
-"Ak povolíte toto nastavenie, tak vyššie farebné hodnoty budú nahradené "
-"nižšími a naopak"
+"Ak povolíte toto nastavenie, tak vyššie farebné hodnoty budú nahradené nižšími "
+"a naopak"
 
 #. Colormode toggle box
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1116
@@ -8084,8 +8036,8 @@ msgid ""
 "Create a color-map with the options you specified above (color density/"
 "function). The result is visible in the preview image"
 msgstr ""
-"Vytvorí farebnú mapu s vyššie špecifikovanými vlastnosťami (farebná "
-"intenzita/funkcia). Výsledok je viditeľný na obrázku v náhľade."
+"Vytvorí farebnú mapu s vyššie špecifikovanými vlastnosťami (farebná intenzita/"
+"funkcia). Výsledok je viditeľný na obrázku v náhľade."
 
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1147
 msgid "Apply active gradient to final image"
@@ -8352,8 +8304,7 @@ msgstr "Vytvoriť špirálu"
 #: ../plug-ins/gfig/gfig-dialog.c:954
 msgid "Create bezier curve. Shift + Button ends object creation."
 msgstr ""
-"Vytvorenie Bézierovej krivky. Shift + tlačítko myši ukončí vytváranie "
-"objektu."
+"Vytvorenie Bézierovej krivky. Shift + tlačítko myši ukončí vytváranie objektu."
 
 #: ../plug-ins/gfig/gfig-dialog.c:958 ../plug-ins/gfig/gfig-stock.c:47
 msgid "Move an object"
@@ -8408,8 +8359,8 @@ msgstr "Kopírovať"
 
 #: ../plug-ins/gfig/gfig-dialog.c:1331
 msgid ""
-"Layer background type. Copy causes the previous layer to be copied before "
-"the draw is performed."
+"Layer background type. Copy causes the previous layer to be copied before the "
+"draw is performed."
 msgstr ""
 "Typ vrstvy pozadia. Kópia spôsobí, skopírovanie predchádzajúcej vrstvy pred "
 "spustením kreslenia"
@@ -8583,13 +8534,11 @@ msgstr "Pomer strán:"
 msgid "Specifies the aspect ratio of the brush"
 msgstr "Určuje pomer strán stopy"
 
-#: ../plug-ins/gimpressionist/brush.c:608
-#: ../plug-ins/gimpressionist/paper.c:205
+#: ../plug-ins/gimpressionist/brush.c:608 ../plug-ins/gimpressionist/paper.c:205
 msgid "Relief:"
 msgstr "Reliéf:"
 
-#: ../plug-ins/gimpressionist/brush.c:612
-#: ../plug-ins/gimpressionist/paper.c:209
+#: ../plug-ins/gimpressionist/brush.c:612 ../plug-ins/gimpressionist/paper.c:209
 msgid "Specifies the amount of embossing to apply to the image (in percent)"
 msgstr "Určí mieru vyvýšenia použitú na obrázok (v percentách)"
 
@@ -8721,7 +8670,7 @@ msgstr "Previesť rôzne umelecké operácie"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
 msgid "_Impressionist..."
-msgstr "_GIMPressionista…"
+msgstr "_Impressionista…"
 
 #: ../plug-ins/gimpressionist/gimp.c:162
 msgid "The selection does not intersect the active layer or mask."
@@ -8733,7 +8682,7 @@ msgstr "Kreslím"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
 msgid "Impressionist"
-msgstr "GIMPressionista"
+msgstr "Impressionista"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -8765,8 +8714,7 @@ msgstr "Rozsah uhlu prvého vytváraného štetca"
 
 #: ../plug-ins/gimpressionist/orientation.c:156
 msgid ""
-"Let the value (brightness) of the region determine the direction of the "
-"stroke"
+"Let the value (brightness) of the region determine the direction of the stroke"
 msgstr "Nech hodnota (jas) oblasti určí smer ťahu"
 
 #: ../plug-ins/gimpressionist/orientation.c:159
@@ -8776,8 +8724,7 @@ msgstr "Polomer"
 
 #: ../plug-ins/gimpressionist/orientation.c:160
 msgid ""
-"The distance from the center of the image determines the direction of the "
-"stroke"
+"The distance from the center of the image determines the direction of the stroke"
 msgstr "Vzdialenosť od stredu obrázky určí smer ťahu"
 
 #: ../plug-ins/gimpressionist/orientation.c:164
@@ -8839,8 +8786,8 @@ msgstr "Vektory"
 
 #: ../plug-ins/gimpressionist/orientmap.c:564
 msgid ""
-"The vector-field. Left-click to move selected vector, Right-click to point "
-"it towards mouse, Middle-click to add a new vector."
+"The vector-field. Left-click to move selected vector, Right-click to point it "
+"towards mouse, Middle-click to add a new vector."
 msgstr ""
 "Vektorové pole. Ľavé tlačítko presunie zvolený vektor. Pravé tlačítko ho "
 "smeruje podľa myši. Prostredné tlačítko pridá nový vektor."
@@ -8903,8 +8850,7 @@ msgstr "_Voronoi"
 
 #: ../plug-ins/gimpressionist/orientmap.c:661
 msgid ""
-"Voronoi-mode makes only the vector closest to the given point have any "
-"influence"
+"Voronoi-mode makes only the vector closest to the given point have any influence"
 msgstr "Režim Voronoi znamená, že vplyv bude mať iba najbližší vektor k bodu"
 
 #: ../plug-ins/gimpressionist/orientmap.c:671
@@ -9015,7 +8961,7 @@ msgstr "Uložiť aktuálne"
 
 #: ../plug-ins/gimpressionist/presets.c:894
 msgid "Impressionist Defaults"
-msgstr "Štandardné nastavenia Gimpressionistu"
+msgstr "Štandardné nastavenia Impressionistu"
 
 #: ../plug-ins/gimpressionist/presets.c:1015
 msgid "_Presets"
@@ -9043,8 +8989,7 @@ msgstr "Znovu načítanie priečinka s predvoľbami"
 
 #: ../plug-ins/gimpressionist/preview.c:174
 #: ../plug-ins/gimpressionist/repaint.c:1197
-#: ../plug-ins/imagemap/imap_polygon.c:512
-#: ../plug-ins/lighting/lighting-ui.c:1082
+#: ../plug-ins/imagemap/imap_polygon.c:512 ../plug-ins/lighting/lighting-ui.c:1082
 msgid "_Update"
 msgstr "_Obnoviť"
 
@@ -9091,8 +9036,7 @@ msgid "Size depends on:"
 msgstr "Veľkosť závisí na:"
 
 #: ../plug-ins/gimpressionist/size.c:159
-msgid ""
-"Let the value (brightness) of the region determine the size of the stroke"
+msgid "Let the value (brightness) of the region determine the size of the stroke"
 msgstr "Nech hodnota (jas) oblasti určí rozmer ťahu"
 
 #: ../plug-ins/gimpressionist/size.c:163
@@ -9134,11 +9078,11 @@ msgstr "Vektory mv"
 
 #: ../plug-ins/gimpressionist/sizemap.c:436
 msgid ""
-"The smvector-field. Left-click to move selected smvector, Right-click to "
-"point it towards mouse, Middle-click to add a new smvector."
+"The smvector-field. Left-click to move selected smvector, Right-click to point "
+"it towards mouse, Middle-click to add a new smvector."
 msgstr ""
-"Pole vektorov mv. Ľavým tlačítkom presuniete vybraný vektor, pravým "
-"presuniete bod a prostredným tlačítkom pridáte nový vektor mv."
+"Pole vektorov mv. Ľavým tlačítkom presuniete vybraný vektor, pravým presuniete "
+"bod a prostredným tlačítkom pridáte nový vektor mv."
 
 #: ../plug-ins/gimpressionist/sizemap.c:480
 msgid "Select previous smvector"
@@ -9282,8 +9226,7 @@ msgstr "Uložiť XMP dáta"
 msgid "Save thumbnail"
 msgstr "Uložiť miniatúru"
 
-#: ../plug-ins/ui/plug-in-file-png.ui.h:17
-#: ../plug-ins/ui/plug-in-file-tiff.ui.h:7
+#: ../plug-ins/ui/plug-in-file-png.ui.h:17 ../plug-ins/ui/plug-in-file-tiff.ui.h:7
 msgid "Advanced"
 msgstr "Pokročilé"
 
@@ -9514,8 +9457,7 @@ msgid ""
 msgstr ""
 "G-žiara '%s' nie je uložená. Ak pridáte novú položku v  '%s', napr.:\n"
 "(gflare-path \"%s\")\n"
-"a vytvoríte priečinok '%s', potom môžete do neho ukladť svoje vlastné G-"
-"žiary."
+"a vytvoríte priečinok '%s', potom môžete do neho ukladť svoje vlastné G-žiary."
 
 #: ../plug-ins/gradient-flare/gradient-flare.c:1485
 #, c-format
@@ -9973,8 +9915,7 @@ msgstr "Farebná transformácia"
 msgid "Relative probability:"
 msgstr "Relatívna pravdepodobnosť:"
 
-#: ../plug-ins/ifs-compose/ifs-compose.c:1043
-#: ../plug-ins/imagemap/imap_menu.c:161
+#: ../plug-ins/ifs-compose/ifs-compose.c:1043 ../plug-ins/imagemap/imap_menu.c:161
 msgid "Select _All"
 msgstr "Vybrať _všetko"
 
@@ -10078,8 +10019,7 @@ msgstr "K_ruh"
 msgid "Center _x:"
 msgstr "Stred _x:"
 
-#: ../plug-ins/imagemap/imap_circle.c:266
-#: ../plug-ins/imagemap/imap_circle.c:273
+#: ../plug-ins/imagemap/imap_circle.c:266 ../plug-ins/imagemap/imap_circle.c:273
 #: ../plug-ins/imagemap/imap_circle.c:279 ../plug-ins/imagemap/imap_grid.c:249
 #: ../plug-ins/imagemap/imap_grid.c:255 ../plug-ins/imagemap/imap_polygon.c:502
 #: ../plug-ins/imagemap/imap_polygon.c:510
@@ -10109,8 +10049,7 @@ msgstr "Vytvoriť"
 msgid "Cut"
 msgstr "Vystrihnúť"
 
-#: ../plug-ins/imagemap/imap_cmd_delete.c:56
-#: ../plug-ins/imagemap/imap_menu.c:160
+#: ../plug-ins/imagemap/imap_cmd_delete.c:56 ../plug-ins/imagemap/imap_menu.c:160
 msgid "Delete"
 msgstr "Zmazať"
 
@@ -10174,15 +10113,15 @@ msgstr "Výsledné riadiace čiary zahŕňajú: %dn%d až %d,%d (%d oblastí)"
 
 #: ../plug-ins/imagemap/imap_cmd_guides.c:142
 msgid ""
-"Guides are pre-defined rectangles covering the image. You define them by "
-"their width, height, and spacing from each other. This allows you to rapidly "
-"create the most common image map type - image collection of \"thumbnails\", "
-"suitable for navigation bars."
+"Guides are pre-defined rectangles covering the image. You define them by their "
+"width, height, and spacing from each other. This allows you to rapidly create "
+"the most common image map type - image collection of \"thumbnails\", suitable "
+"for navigation bars."
 msgstr ""
-"Vodiace čiary sú preddefinované obdĺžniky pokrývajúce obrázok.Môžete určiť "
-"ich šírku, výšku a vzájomný rozostup. Toto umožní rýchle vytváranie "
-"najbežnejších typov obrázkových máp - zbierok obrázkov \"miniatúr\", "
-"vhodných pre navigačné panely."
+"Vodiace čiary sú preddefinované obdĺžniky pokrývajúce obrázok.Môžete určiť ich "
+"šírku, výšku a vzájomný rozostup. Toto umožní rýchle vytváranie najbežnejších "
+"typov obrázkových máp - zbierok obrázkov \"miniatúr\", vhodných pre navigačné "
+"panely."
 
 #: ../plug-ins/imagemap/imap_cmd_guides.c:168
 msgid "_Left start at:"
@@ -10249,8 +10188,7 @@ msgstr "Presunúť dopredu"
 msgid "Move Up"
 msgstr "Presunúť vyššie"
 
-#: ../plug-ins/imagemap/imap_cmd_paste.c:50
-#: ../plug-ins/imagemap/imap_menu.c:159
+#: ../plug-ins/imagemap/imap_cmd_paste.c:50 ../plug-ins/imagemap/imap_menu.c:159
 msgid "Paste"
 msgstr "Vložiť"
 
@@ -10446,8 +10384,7 @@ msgstr "Vytvoriť nový obrázok"
 msgid "_Image Map..."
 msgstr "_Mapa obrázka…"
 
-#: ../plug-ins/imagemap/imap_main.c:484
-#: ../plug-ins/imagemap/imap_settings.c:169
+#: ../plug-ins/imagemap/imap_main.c:484 ../plug-ins/imagemap/imap_settings.c:169
 msgid "<Untitled>"
 msgstr "<Nepomenovaný>"
 
@@ -11062,8 +10999,7 @@ msgstr "Žia_renie:"
 #: ../plug-ins/lighting/lighting-ui.c:660
 #: ../plug-ins/map-object/map-object-ui.c:778
 msgid "Amount of original color to show where no direct light falls"
-msgstr ""
-"Množstvo pôvodnej farby na zobrazenie miesta, kam nedopadá priame svetlo"
+msgstr "Množstvo pôvodnej farby na zobrazenie miesta, kam nedopadá priame svetlo"
 
 #: ../plug-ins/lighting/lighting-ui.c:674
 msgid "_Bright:"
@@ -11652,8 +11588,7 @@ msgstr ""
 #| msgid ""
 #| "If enabled, you can use the mouse to select a rectangular region of the "
 #| "screen."
-msgid ""
-"After the delay, drag your mouse to select the region for the screenshot."
+msgid "After the delay, drag your mouse to select the region for the screenshot."
 msgstr ""
 "Ak je povolené, môžete použiť myš na výber obdĺžnikovej oblasti obrazovky."
 
@@ -11749,9 +11684,9 @@ msgstr "Prah šedej"
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:115
 msgid ""
-"If the angle defined by a point and its predecessors and successors is "
-"smaller than this, it's a corner, even if it's within `corner_surround' "
-"pixels of a point with a smaller angle."
+"If the angle defined by a point and its predecessors and successors is smaller "
+"than this, it's a corner, even if it's within `corner_surround' pixels of a "
+"point with a smaller angle."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:126
@@ -11773,8 +11708,8 @@ msgstr "_Dolný prah:"
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:143
 msgid ""
-"If a point, its predecessors, and its successors define an angle smaller "
-"than this, it's a corner."
+"If a point, its predecessors, and its successors define an angle smaller than "
+"this, it's a corner."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:154
@@ -11806,8 +11741,8 @@ msgstr "Dĺžka _filtra:"
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:187
 msgid ""
 "If the angles between the vectors produced by filter_surround and "
-"filter_alternative_surround points differ by more than this, use the one "
-"from filter_alternative_surround."
+"filter_alternative_surround points differ by more than this, use the one from "
+"filter_alternative_surround."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:198
@@ -11817,9 +11752,9 @@ msgstr ""
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:202
 msgid ""
 "Number of times to smooth original data points.  Increasing this number "
-"dramatically --- to 50 or so --- can produce vastly better results.  But if "
-"any points that ``should'' be corners aren't found, the curve goes to hell "
-"around that point."
+"dramatically --- to 50 or so --- can produce vastly better results.  But if any "
+"points that ``should'' be corners aren't found, the curve goes to hell around "
+"that point."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:214
@@ -11829,8 +11764,7 @@ msgid "Filter Percent:"
 msgstr "Dĺžka _filtra:"
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:218
-msgid ""
-"To produce the new point, use the old point plus this times the neighbors."
+msgid "To produce the new point, use the old point plus this times the neighbors."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:227
@@ -11856,8 +11790,7 @@ msgid "Keep Knees"
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:258
-msgid ""
-"Says whether or not to remove ``knee'' points after finding the outline."
+msgid "Says whether or not to remove ``knee'' points after finding the outline."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:269
@@ -11868,10 +11801,9 @@ msgstr "Prah odchýlky:"
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:273
 msgid ""
-"If a spline is closer to a straight line than this, it remains a straight "
-"line, even if it would otherwise be changed back to a curve. This is "
-"weighted by the square of the curve length, to make shorter curves more "
-"likely to be reverted."
+"If a spline is closer to a straight line than this, it remains a straight line, "
+"even if it would otherwise be changed back to a curve. This is weighted by the "
+"square of the curve length, to make shorter curves more likely to be reverted."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:285
@@ -11882,8 +11814,8 @@ msgstr "Pra_h:"
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:289
 msgid ""
-"How many pixels (on the average) a spline can diverge from the line "
-"determined by its endpoints before it is changed to a straight line."
+"How many pixels (on the average) a spline can diverge from the line determined "
+"by its endpoints before it is changed to a straight line."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:299
@@ -11892,8 +11824,8 @@ msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:303
 msgid ""
-"If reparameterization doesn't improve the fit by this much percent, stop "
-"doing it. Amount of error at which it is pointless to reparameterize."
+"If reparameterization doesn't improve the fit by this much percent, stop doing "
+"it. Amount of error at which it is pointless to reparameterize."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:313
@@ -11904,11 +11836,11 @@ msgstr "Prah odchýlky:"
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:317
 msgid ""
-"Amount of error at which it is pointless to reparameterize.  This happens, "
-"for example, when we are trying to fit the outline of the outside of an `O' "
-"with a single spline.  The initial fit is not good enough for the Newton-"
-"Raphson iteration to improve it.  It may be that it would be better to "
-"detect the cases where we didn't find any corners."
+"Amount of error at which it is pointless to reparameterize.  This happens, for "
+"example, when we are trying to fit the outline of the outside of an `O' with a "
+"single spline.  The initial fit is not good enough for the Newton-Raphson "
+"iteration to improve it.  It may be that it would be better to detect the cases "
+"where we didn't find any corners."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:330
@@ -11919,8 +11851,8 @@ msgstr "Poddelenie:"
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:334
 msgid ""
-"Percentage of the curve away from the worst point to look for a better place "
-"to subdivide."
+"Percentage of the curve away from the worst point to look for a better place to "
+"subdivide."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:343
@@ -12249,8 +12181,8 @@ msgstr "Neboli zachytené žiadne dáta"
 #~ "The offset can be adjusted by dragging the preview using the middle mouse "
 #~ "button."
 #~ msgstr ""
-#~ "Posun môže byť upravený pretiahnutím náhľadu pomocou prostredného "
-#~ "tlačidla myši."
+#~ "Posun môže byť upravený pretiahnutím náhľadu pomocou prostredného tlačidla "
+#~ "myši."
 
 # label pri slideri
 #~ msgid "_Waterlevel:"
@@ -12575,8 +12507,7 @@ msgstr "Neboli zachytené žiadne dáta"
 #~ msgstr "_Obmedzenie šírky riadka"
 
 #, fuzzy
-#~| msgid ""
-#~| "This plug-in can only handle RGBA image format with 8bit color depth."
+#~| msgid "This plug-in can only handle RGBA image format with 8bit color depth."
 #~ msgid "This plug-in can only handle RGBA image files with 8bit color depth."
 #~ msgstr ""
 #~ "Tento zásuvný modul môže ovládať obrázok formátu RGBA s farebnou hĺbkou 8 "
@@ -12685,8 +12616,8 @@ msgstr "Neboli zachytené žiadne dáta"
 #~ "Click and drag in the preview to define the distortions to apply to the "
 #~ "image."
 #~ msgstr ""
-#~ "Kliknite a pretiahnite do náhľadu, aby ste definovali skreslenie, ktoré "
-#~ "bude aplikované na obrázok."
+#~ "Kliknite a pretiahnite do náhľadu, aby ste definovali skreslenie, ktoré bude "
+#~ "aplikované na obrázok."
 
 # procedure desc
 #, fuzzy
@@ -13522,8 +13453,8 @@ msgstr "Neboli zachytené žiadne dáta"
 
 #~ msgid "Expected text or optional element <%s>, found <%s> instead"
 #~ msgstr ""
-#~ "Očakávaný textový alebo voliteľný element <%s>, namiesto toho bol nájdený "
-#~ "<%s>"
+#~ "Očakávaný textový alebo voliteľný element <%s>, namiesto toho bol nájdený <"
+#~ "%s>"
 
 #~ msgid "Expected element <%s>, found <%s> instead"
 #~ msgstr "Očakávaný element <%s>, namiesto toho bol nájdený <%s>"

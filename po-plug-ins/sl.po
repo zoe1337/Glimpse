@@ -1,4 +1,4 @@
-#'gimp/po-plug-ins
+# 'gimp/po-plug-ins
 # Slovenian translation of gimp-plugins.
 # Copyright (C) 2007 THE GIMP'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the GIMP package.
@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gimp-plug-ins master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2019-03-16 10:09+0000\n"
-"PO-Revision-Date: 2019-03-17 16:13+0100\n"
+"PO-Revision-Date: 2020-02-08 15:07-0800\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language: sl\n"
@@ -22,7 +22,7 @@ msgstr ""
 "%100==4 ? 3 : 0);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Project-Style: gnome\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/common/align-layers.c:158
 msgid "Align all visible layers of the image"
@@ -8963,7 +8963,7 @@ msgstr "Izvede različne umetniške operacije"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
 msgid "_Impressionist..."
-msgstr "_GIMPresionist ..."
+msgstr "_Impresionist ..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -8975,7 +8975,7 @@ msgstr "Slikanje ..."
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
 msgid "Impressionist"
-msgstr "GIMPresionist "
+msgstr "Impresionist "
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -9257,7 +9257,7 @@ msgstr "Shrani trenutno"
 
 #: ../plug-ins/gimpressionist/presets.c:893
 msgid "Impressionist Defaults"
-msgstr "Privzete vrednosti Gimpresionista "
+msgstr "Privzete vrednosti Impresionista "
 
 #: ../plug-ins/gimpressionist/presets.c:1014
 msgid "_Presets"

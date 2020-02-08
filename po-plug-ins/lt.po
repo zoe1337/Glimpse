@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: GIMP plug-ins HEAD\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2008-07-17 13:42+0300\n"
-"PO-Revision-Date: 2008-07-17 14:35+0300\n"
+"PO-Revision-Date: 2020-02-08 14:29-0800\n"
 "Last-Translator: Žygimantas Beručka <zygis@gnome.org>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
-"100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/bmp/bmp.c:124 ../plug-ins/bmp/bmp.c:143
 msgid "Windows BMP image"
@@ -2098,8 +2099,7 @@ msgstr ""
 msgid "Stretch brightness values to cover the full range"
 msgstr "Praplatinti ryškumo reikšmes, kad jos apimtų visą diapazoną"
 
-#: ../plug-ins/common/contrast-normalize.c:92
-#: ../plug-ins/common/edge-dog.c:336
+#: ../plug-ins/common/contrast-normalize.c:92 ../plug-ins/common/edge-dog.c:336
 msgid "_Normalize"
 msgstr "_Normalizuoti"
 
@@ -2214,9 +2214,9 @@ msgstr "_Alfa"
 msgid "E_xtend"
 msgstr "Išplė_sti"
 
-#: ../plug-ins/common/convolution-matrix.c:74
-#: ../plug-ins/common/displace.c:472 ../plug-ins/common/edge.c:708
-#: ../plug-ins/common/fractal-trace.c:736 ../plug-ins/common/ripple.c:563
+#: ../plug-ins/common/convolution-matrix.c:74 ../plug-ins/common/displace.c:472
+#: ../plug-ins/common/edge.c:708 ../plug-ins/common/fractal-trace.c:736
+#: ../plug-ins/common/ripple.c:563
 msgid "_Wrap"
 msgstr "Ap_gaubti"
 
@@ -8958,8 +8958,7 @@ msgstr "Rodyti valdymo taškus"
 msgid "Max undo:"
 msgstr "Maks. atšaukimų:"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1283
-#: ../plug-ins/gimpressionist/general.c:185
+#: ../plug-ins/gfig/gfig-dialog.c:1283 ../plug-ins/gimpressionist/general.c:185
 msgid "Transparent"
 msgstr "Permatomas"
 
@@ -9287,7 +9286,7 @@ msgstr "Atlieka įvairias meniškas operacijas"
 
 #: ../plug-ins/gimpressionist/gimp.c:95
 msgid "_Impressionist..."
-msgstr "_GIMPresionistas..."
+msgstr "_Impresionistas..."
 
 #: ../plug-ins/gimpressionist/gimp.c:371
 msgid "Painting"
@@ -9295,7 +9294,7 @@ msgstr "Piešiama"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:139
 msgid "Impressionist"
-msgstr "GIMPresionistas"
+msgstr "Impresionistas"
 
 #: ../plug-ins/gimpressionist/orientation.c:92
 msgid "Or_ientation"
@@ -9575,8 +9574,9 @@ msgid "Save Current"
 msgstr "Išsaugoti esamą"
 
 #: ../plug-ins/gimpressionist/presets.c:892
+#, fuzzy
 msgid "Impressionist Defaults"
-msgstr "Gimpressionist numatytieji"
+msgstr "Impressionist numatytieji"
 
 #: ../plug-ins/gimpressionist/presets.c:1013
 msgid "_Presets"
@@ -10020,8 +10020,7 @@ msgstr "Atsitiktinė sėkla:"
 msgid "_Second Flares"
 msgstr "A_ntrosios švieselės"
 
-#: ../plug-ins/help-browser/dialog.c:184
-#: ../plug-ins/help-browser/dialog.c:1093
+#: ../plug-ins/help-browser/dialog.c:184 ../plug-ins/help-browser/dialog.c:1093
 msgid "GIMP Help Browser"
 msgstr "GIMP žinyno naršyklė"
 
@@ -10390,8 +10389,7 @@ msgstr "Centras _x:"
 #: ../plug-ins/imagemap/imap_circle.c:269
 #: ../plug-ins/imagemap/imap_circle.c:276
 #: ../plug-ins/imagemap/imap_circle.c:282 ../plug-ins/imagemap/imap_grid.c:250
-#: ../plug-ins/imagemap/imap_grid.c:256
-#: ../plug-ins/imagemap/imap_polygon.c:505
+#: ../plug-ins/imagemap/imap_grid.c:256 ../plug-ins/imagemap/imap_polygon.c:505
 #: ../plug-ins/imagemap/imap_polygon.c:513
 #: ../plug-ins/imagemap/imap_rectangle.c:394
 #: ../plug-ins/imagemap/imap_rectangle.c:401

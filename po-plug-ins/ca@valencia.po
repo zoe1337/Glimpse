@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: ca\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2012-03-25 20:23+0200\n"
-"PO-Revision-Date: 2012-02-12 22:33+0100\n"
+"PO-Revision-Date: 2020-02-08 12:12-0800\n"
 "Last-Translator: Albert F. <lakonfrariadelavila@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca@valencia\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/color-rotate/color-rotate-dialog.c:118
 msgid "Original"
@@ -626,8 +626,7 @@ msgstr "_Vertical"
 #: ../plug-ins/file-jpeg/jpeg-load.c:255 ../plug-ins/file-jpeg/jpeg-load.c:819
 #: ../plug-ins/file-psd/psd-image-res-load.c:1001
 #: ../plug-ins/file-psd/psd-load.c:1637 ../plug-ins/file-sgi/sgi.c:407
-#: ../plug-ins/gfig/gfig-dialog.c:1321
-#: ../plug-ins/gimpressionist/general.c:139
+#: ../plug-ins/gfig/gfig-dialog.c:1321 ../plug-ins/gimpressionist/general.c:139
 #: ../plug-ins/map-object/map-object-apply.c:252 ../plug-ins/twain/twain.c:567
 #: ../plug-ins/win-snap/winsnap.c:1162
 msgid "Background"
@@ -1973,8 +1972,7 @@ msgstr "Valor de màscara"
 msgid "Stretch brightness values to cover the full range"
 msgstr "Amplia la brillantor de la imatge per cobrir-ne tot el rang"
 
-#: ../plug-ins/common/contrast-normalize.c:91
-#: ../plug-ins/common/edge-dog.c:362
+#: ../plug-ins/common/contrast-normalize.c:91 ../plug-ins/common/edge-dog.c:362
 msgid "_Normalize"
 msgstr "_Normalitza"
 
@@ -2090,9 +2088,9 @@ msgstr "_Alfa"
 msgid "E_xtend"
 msgstr "E_stén"
 
-#: ../plug-ins/common/convolution-matrix.c:74
-#: ../plug-ins/common/displace.c:477 ../plug-ins/common/edge.c:700
-#: ../plug-ins/common/fractal-trace.c:737 ../plug-ins/common/ripple.c:585
+#: ../plug-ins/common/convolution-matrix.c:74 ../plug-ins/common/displace.c:477
+#: ../plug-ins/common/edge.c:700 ../plug-ins/common/fractal-trace.c:737
+#: ../plug-ins/common/ripple.c:585
 msgid "_Wrap"
 msgstr "_Ajusta"
 
@@ -4251,8 +4249,7 @@ msgid "_Millimeter"
 msgstr "_Mil·límetre"
 
 #. Rotation
-#: ../plug-ins/common/file-ps.c:3297
-#: ../plug-ins/map-object/map-object-ui.c:989
+#: ../plug-ins/common/file-ps.c:3297 ../plug-ins/map-object/map-object-ui.c:989
 msgid "Rotation"
 msgstr "Rotació"
 
@@ -4619,8 +4616,7 @@ msgstr "%s-%d-de-%d-pàgines"
 msgid "TIFF Channel"
 msgstr "Canal TIFF"
 
-#: ../plug-ins/common/file-tiff-load.c:1024
-#: ../plug-ins/file-psd/psd-load.c:333
+#: ../plug-ins/common/file-tiff-load.c:1024 ../plug-ins/file-psd/psd-load.c:333
 msgid ""
 "Warning:\n"
 "The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
@@ -10092,8 +10088,7 @@ msgstr "Mostra els punts de control"
 msgid "Max undo:"
 msgstr "Desfés al màxim:"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1320
-#: ../plug-ins/gimpressionist/general.c:184
+#: ../plug-ins/gfig/gfig-dialog.c:1320 ../plug-ins/gimpressionist/general.c:184
 msgid "Transparent"
 msgstr "Transparent"
 
@@ -10444,7 +10439,7 @@ msgstr "S'està pintant"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
 msgid "Impressionist"
-msgstr "El GIMPressionist"
+msgstr "El Impressionist"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -10733,7 +10728,7 @@ msgstr "Alça l'actual"
 
 #: ../plug-ins/gimpressionist/presets.c:894
 msgid "Impressionist Defaults"
-msgstr "Opcions per defecte del GIMPressionist"
+msgstr "Opcions per defecte del Impressionist"
 
 #: ../plug-ins/gimpressionist/presets.c:1015
 msgid "_Presets"
@@ -11257,8 +11252,7 @@ msgstr "Llavor aleatòria:"
 msgid "_Second Flares"
 msgstr "Flamarades _secundàries"
 
-#: ../plug-ins/help-browser/dialog.c:184
-#: ../plug-ins/help-browser/dialog.c:1133
+#: ../plug-ins/help-browser/dialog.c:184 ../plug-ins/help-browser/dialog.c:1133
 msgid "GIMP Help Browser"
 msgstr "Navegador de l'ajuda del GIMP"
 
@@ -11571,8 +11565,7 @@ msgstr "Centre _x:"
 #: ../plug-ins/imagemap/imap_circle.c:268
 #: ../plug-ins/imagemap/imap_circle.c:275
 #: ../plug-ins/imagemap/imap_circle.c:281 ../plug-ins/imagemap/imap_grid.c:249
-#: ../plug-ins/imagemap/imap_grid.c:255
-#: ../plug-ins/imagemap/imap_polygon.c:505
+#: ../plug-ins/imagemap/imap_grid.c:255 ../plug-ins/imagemap/imap_polygon.c:505
 #: ../plug-ins/imagemap/imap_polygon.c:513
 #: ../plug-ins/imagemap/imap_rectangle.c:392
 #: ../plug-ins/imagemap/imap_rectangle.c:399

@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: gimp-plug-ins master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2019-05-31 18:43+0000\n"
-"PO-Revision-Date: 2019-06-01 18:57+0200\n"
+"PO-Revision-Date: 2020-02-08 12:37-0800\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/common/align-layers.c:158
 msgid "Align all visible layers of the image"
@@ -9013,7 +9013,7 @@ msgstr "Különféle művészi tevékenységek elvégzése"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
 msgid "_Impressionist..."
-msgstr "_GIMPresszionista…"
+msgstr "_Impresszionista…"
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -9025,7 +9025,7 @@ msgstr "Rajzolás"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
 msgid "Impressionist"
-msgstr "GIMPresszionista"
+msgstr "Impresszionista"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -9310,7 +9310,7 @@ msgstr "A jelenlegi elmentése"
 
 #: ../plug-ins/gimpressionist/presets.c:893
 msgid "Impressionist Defaults"
-msgstr "A GIMPresszionista alapértelmezései"
+msgstr "A Impresszionista alapértelmezései"
 
 #: ../plug-ins/gimpressionist/presets.c:1014
 msgid "_Presets"

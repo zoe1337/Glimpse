@@ -7,16 +7,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2019-03-30 13:40+0000\n"
-"PO-Revision-Date: 2019-03-31 12:39+0200\n"
+"PO-Revision-Date: 2020-02-08 14:30-0800\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 :"
-" 2);\n"
-"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/common/align-layers.c:158
 msgid "Align all visible layers of the image"
@@ -8953,7 +8953,7 @@ msgstr "Veic dažādas mākslinieciskas darbības"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
 msgid "_Impressionist..."
-msgstr "_GIMPresionists..."
+msgstr "_Impresionists..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -8965,7 +8965,7 @@ msgstr "Glezno"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
 msgid "Impressionist"
-msgstr "GIMPresionists"
+msgstr "Impresionists"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -9248,7 +9248,7 @@ msgstr "Saglabāt pašreizējo"
 
 #: ../plug-ins/gimpressionist/presets.c:893
 msgid "Impressionist Defaults"
-msgstr "Gimpresionista noklusējumi"
+msgstr "Impresionista noklusējumi"
 
 #: ../plug-ins/gimpressionist/presets.c:1014
 msgid "_Presets"

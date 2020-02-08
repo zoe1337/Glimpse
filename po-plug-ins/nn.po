@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: GIMP 2.8\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2013-05-25 16:32+0000\n"
-"PO-Revision-Date: 2013-05-28 16:22+0100\n"
+"PO-Revision-Date: 2020-02-08 14:48-0800\n"
 "Last-Translator: Kolbjørn Stuestøl <kolbjoern@stuestoel.no>\n"
 "Language-Team: Norwegian nynorsk <i18n-no@lister.ping.uio.no>\n"
 "Language: nn\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/color-rotate/color-rotate-dialog.c:120
 msgid "Original"
@@ -618,8 +618,7 @@ msgstr "_Vertikal"
 #: ../plug-ins/file-jpeg/jpeg-load.c:255 ../plug-ins/file-jpeg/jpeg-load.c:819
 #: ../plug-ins/file-psd/psd-image-res-load.c:1001
 #: ../plug-ins/file-psd/psd-load.c:1637 ../plug-ins/file-sgi/sgi.c:407
-#: ../plug-ins/gfig/gfig-dialog.c:1321
-#: ../plug-ins/gimpressionist/general.c:139
+#: ../plug-ins/gfig/gfig-dialog.c:1321 ../plug-ins/gimpressionist/general.c:139
 #: ../plug-ins/map-object/map-object-apply.c:252 ../plug-ins/twain/twain.c:567
 #: ../plug-ins/win-snap/winsnap.c:1162
 msgid "Background"
@@ -1955,8 +1954,7 @@ msgstr "Maskeverdi"
 msgid "Stretch brightness values to cover the full range"
 msgstr "Strekk lysverdien over heile området"
 
-#: ../plug-ins/common/contrast-normalize.c:91
-#: ../plug-ins/common/edge-dog.c:362
+#: ../plug-ins/common/contrast-normalize.c:91 ../plug-ins/common/edge-dog.c:362
 msgid "_Normalize"
 msgstr "_Normaliser"
 
@@ -2070,9 +2068,9 @@ msgstr "_Alfa"
 msgid "E_xtend"
 msgstr "_Utvid"
 
-#: ../plug-ins/common/convolution-matrix.c:74
-#: ../plug-ins/common/displace.c:477 ../plug-ins/common/edge.c:700
-#: ../plug-ins/common/fractal-trace.c:737 ../plug-ins/common/ripple.c:585
+#: ../plug-ins/common/convolution-matrix.c:74 ../plug-ins/common/displace.c:477
+#: ../plug-ins/common/edge.c:700 ../plug-ins/common/fractal-trace.c:737
+#: ../plug-ins/common/ripple.c:585
 msgid "_Wrap"
 msgstr "_Linjebryting"
 
@@ -4266,8 +4264,7 @@ msgid "_Millimeter"
 msgstr "__Millimeter"
 
 #. Rotation
-#: ../plug-ins/common/file-ps.c:3297
-#: ../plug-ins/map-object/map-object-ui.c:989
+#: ../plug-ins/common/file-ps.c:3297 ../plug-ins/map-object/map-object-ui.c:989
 msgid "Rotation"
 msgstr "Rotasjon"
 
@@ -4634,8 +4631,7 @@ msgstr "%s-%d-av-%d-sider"
 msgid "TIFF Channel"
 msgstr "TIFF-kanal"
 
-#: ../plug-ins/common/file-tiff-load.c:1037
-#: ../plug-ins/file-psd/psd-load.c:333
+#: ../plug-ins/common/file-tiff-load.c:1037 ../plug-ins/file-psd/psd-load.c:333
 msgid ""
 "Warning:\n"
 "The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
@@ -10094,8 +10090,7 @@ msgstr "Vis kontrollpunkta"
 msgid "Max undo:"
 msgstr "Maks angre.:"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1320
-#: ../plug-ins/gimpressionist/general.c:184
+#: ../plug-ins/gfig/gfig-dialog.c:1320 ../plug-ins/gimpressionist/general.c:184
 msgid "Transparent"
 msgstr "Gjennomsiktig"
 
@@ -10426,8 +10421,9 @@ msgid "Performs various artistic operations"
 msgstr "Utfør ulike artistiske operasjonar"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
+#, fuzzy
 msgid "_Impressionist..."
-msgstr "_GIMPressionist …"
+msgstr "_Impressionist …"
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -10719,7 +10715,7 @@ msgstr "Lagra innstillingane"
 
 #: ../plug-ins/gimpressionist/presets.c:894
 msgid "Impressionist Defaults"
-msgstr "Førehandsinnstillingane for Gimpressionisten"
+msgstr "Førehandsinnstillingane for Impressionisten"
 
 #: ../plug-ins/gimpressionist/presets.c:1015
 msgid "_Presets"
@@ -11236,8 +11232,7 @@ msgstr "Tilfeldig frø:"
 msgid "_Second Flares"
 msgstr "_Sekundærrefleks"
 
-#: ../plug-ins/help-browser/dialog.c:184
-#: ../plug-ins/help-browser/dialog.c:1133
+#: ../plug-ins/help-browser/dialog.c:184 ../plug-ins/help-browser/dialog.c:1133
 msgid "GIMP Help Browser"
 msgstr "Hjelplesaren for GIMP"
 
@@ -11553,8 +11548,7 @@ msgstr "Senter _x:"
 #: ../plug-ins/imagemap/imap_circle.c:268
 #: ../plug-ins/imagemap/imap_circle.c:275
 #: ../plug-ins/imagemap/imap_circle.c:281 ../plug-ins/imagemap/imap_grid.c:249
-#: ../plug-ins/imagemap/imap_grid.c:255
-#: ../plug-ins/imagemap/imap_polygon.c:505
+#: ../plug-ins/imagemap/imap_grid.c:255 ../plug-ins/imagemap/imap_polygon.c:505
 #: ../plug-ins/imagemap/imap_polygon.c:513
 #: ../plug-ins/imagemap/imap_rectangle.c:392
 #: ../plug-ins/imagemap/imap_rectangle.c:399
