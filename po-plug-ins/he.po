@@ -10439,7 +10439,7 @@ msgid "Performs various artistic operations"
 msgstr ""
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr ""
 
 #: ../plug-ins/gimpressionist/gimp.c:370
@@ -10448,7 +10448,7 @@ msgid "Painting"
 msgstr "First Colour"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
+msgid "Impressionist"
 msgstr ""
 
 #: ../plug-ins/gimpressionist/orientation.c:91
@@ -10732,7 +10732,7 @@ msgid "Save Current"
 msgstr ""
 
 #: ../plug-ins/gimpressionist/presets.c:894
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr ""
 
 #: ../plug-ins/gimpressionist/presets.c:1015
@@ -13890,7 +13890,7 @@ msgstr ""
 #~ msgstr "<Image>/Image/Colours/Filter Pack..."
 
 #, fuzzy
-#~ msgid "<Image>/Filters/Artistic/_GIMPressionist..."
+#~ msgid "<Image>/Filters/Artistic/_Impressionist..."
 #~ msgstr "<Image>/Filters/Colours/Hot..."
 
 #, fuzzy

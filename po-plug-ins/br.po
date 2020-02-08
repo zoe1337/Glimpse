@@ -10536,7 +10536,7 @@ msgid "Performs various artistic operations"
 msgstr "Sevel a ra gwezhiadurioù arzhel liesseurt"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "_GIMPresionour..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
@@ -10548,7 +10548,7 @@ msgid "Painting"
 msgstr "O pentañ"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
+msgid "Impressionist"
 msgstr "GIMPresionour"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
@@ -10821,7 +10821,7 @@ msgid "Save Current"
 msgstr "Enrollañ ar gwerzhioù bremanel"
 
 #: ../plug-ins/gimpressionist/presets.c:894
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Gwerzhioù dre ziouer GIMPresionour"
 
 #: ../plug-ins/gimpressionist/presets.c:1015

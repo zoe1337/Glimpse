@@ -10194,7 +10194,7 @@ msgid "Performs various artistic operations"
 msgstr "Pravi različite atrističke operacije"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "_GIMPresionista..."
 
 #: ../plug-ins/gimpressionist/gimp.c:162
@@ -10206,8 +10206,8 @@ msgid "Painting"
 msgstr "Bojenje"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPressionist"
+msgid "Impressionist"
+msgstr ""
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -10487,7 +10487,7 @@ msgid "Save Current"
 msgstr "Sačuvaj tekući"
 
 #: ../plug-ins/gimpressionist/presets.c:894
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Gimpressionist podrazumijevane postavke"
 
 #: ../plug-ins/gimpressionist/presets.c:1015

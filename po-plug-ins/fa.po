@@ -10121,7 +10121,7 @@ msgid "Performs various artistic operations"
 msgstr ""
 
 #: ../plug-ins/gimpressionist/gimp.c:79
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "_گیمپرسیونیست..."
 
 #: ../plug-ins/gimpressionist/gimp.c:350
@@ -10131,7 +10131,7 @@ msgstr "در حال رنگ‌آمیزی..."
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:121
 #, fuzzy
-msgid "GIMPressionist"
+msgid "Impressionist"
 msgstr "_گیمپرسیونیست..."
 
 #: ../plug-ins/gimpressionist/orientation.c:74
@@ -10414,7 +10414,7 @@ msgstr "ذخیرهٔ فعلی"
 
 #: ../plug-ins/gimpressionist/presets.c:874
 #, fuzzy
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "پیش‌فرض‌های گیمپرسونیست"
 
 #: ../plug-ins/gimpressionist/presets.c:995
@@ -12926,10 +12926,7 @@ msgstr ""
 #~ msgid "Hue Rotation:"
 #~ msgstr "چرخش فام:"
 
-#~ msgid "The GIMPressionist"
-#~ msgstr "گیمپرسیونیست"
-
-#~ msgid "Gimpressionist"
+#~ msgid "The Impressionist"
 #~ msgstr "گیمپرسیونیست"
 
 #~ msgid "A_bout"

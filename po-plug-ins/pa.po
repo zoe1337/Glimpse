@@ -9952,16 +9952,16 @@ msgid "Performs various artistic operations"
 msgstr "ਕਈ ਕਲਾਕਾਰੀ ਓਪਰੇਸ਼ਨ ਕਰੋ"
 
 #: ../plug-ins/gimpressionist/gimp.c:79
-msgid "_GIMPressionist..."
-msgstr "_GIMPressionist..."
+msgid "_Impressionist..."
+msgstr "_Impressionist..."
 
 #: ../plug-ins/gimpressionist/gimp.c:350
 msgid "Painting"
 msgstr "ਪੇਟਿੰਗ"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:121
-msgid "GIMPressionist"
-msgstr "GIMPressionist"
+msgid "Impressionist"
+msgstr ""
 
 #: ../plug-ins/gimpressionist/orientation.c:74
 msgid "Or_ientation"
@@ -10238,7 +10238,7 @@ msgid "Save Current"
 msgstr "ਮੌਜੂਦਾ ਸੰਭਾਲੋ"
 
 #: ../plug-ins/gimpressionist/presets.c:874
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Gimpressionist ਡਿਫਾਲਟ"
 
 #: ../plug-ins/gimpressionist/presets.c:995

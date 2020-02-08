@@ -9040,8 +9040,8 @@ msgid "Performs various artistic operations"
 msgstr "Genera diversos efectes artístics"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
-msgstr "El _GIMPressionist..."
+msgid "_Impressionist..."
+msgstr "El _Impressionist..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -9052,7 +9052,7 @@ msgid "Painting"
 msgstr "S'està pintant"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
+msgid "Impressionist"
 msgstr "El GIMPressionist"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
@@ -9345,7 +9345,7 @@ msgid "Save Current"
 msgstr "Desa l'actual"
 
 #: ../plug-ins/gimpressionist/presets.c:893
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Opcions per defecte del GIMPressionist"
 
 #: ../plug-ins/gimpressionist/presets.c:1014

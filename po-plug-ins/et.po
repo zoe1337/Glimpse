@@ -7241,13 +7241,13 @@ msgstr ""
 msgid "Performs various artistic operations"
 msgstr ""
 
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr ""
 
 msgid "Painting"
 msgstr "Värvimine"
 
-msgid "GIMPressionist"
+msgid "Impressionist"
 msgstr ""
 
 msgid "Or_ientation"
@@ -7449,7 +7449,7 @@ msgstr ""
 msgid "Save Current"
 msgstr "Salvesta aktiivne"
 
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr ""
 
 msgid "_Presets"

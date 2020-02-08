@@ -9072,7 +9072,7 @@ msgid "Performs various artistic operations"
 msgstr "Udfører diverse kunstneriske handlinger"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "G_IMPressionisme …"
 
 #: ../plug-ins/gimpressionist/gimp.c:164
@@ -9084,8 +9084,8 @@ msgid "Painting"
 msgstr "Maler"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPressionist"
+msgid "Impressionist"
+msgstr "Gimpressionist"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -9371,7 +9371,7 @@ msgid "Save Current"
 msgstr "Gem aktuel"
 
 #: ../plug-ins/gimpressionist/presets.c:893
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Standarder for GIMPressionist"
 
 # det drejer sig om forvalgte, gemte indstillinger

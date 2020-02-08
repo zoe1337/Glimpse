@@ -8828,8 +8828,8 @@ msgid "Performs various artistic operations"
 msgstr ""
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
-msgstr "_GIMPressionist..."
+msgid "_Impressionist..."
+msgstr "_Impressionist..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -8840,8 +8840,8 @@ msgid "Painting"
 msgstr "Málun"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPressionist"
+msgid "Impressionist"
+msgstr ""
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -9120,7 +9120,7 @@ msgid "Save Current"
 msgstr "Vista núverandi"
 
 #: ../plug-ins/gimpressionist/presets.c:893
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr ""
 
 #: ../plug-ins/gimpressionist/presets.c:1014

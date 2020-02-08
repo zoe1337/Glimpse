@@ -9064,7 +9064,7 @@ msgid "Performs various artistic operations"
 msgstr "Verschiedene künstlerische Aktionen durchführen"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "_GIMPressionist …"
 
 #: ../plug-ins/gimpressionist/gimp.c:164
@@ -9076,8 +9076,8 @@ msgid "Painting"
 msgstr "Zeichnen"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPressionist"
+msgid "Impressionist"
+msgstr "Gimpressionist"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -9368,7 +9368,7 @@ msgid "Save Current"
 msgstr "Einstellungen speichern"
 
 #: ../plug-ins/gimpressionist/presets.c:893
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "GIMPressionist-Voreinstellungen"
 
 #: ../plug-ins/gimpressionist/presets.c:1014

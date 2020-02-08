@@ -10426,7 +10426,7 @@ msgid "Performs various artistic operations"
 msgstr "Utfør ulike artistiske operasjonar"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "_GIMPressionist …"
 
 #: ../plug-ins/gimpressionist/gimp.c:164
@@ -10438,8 +10438,8 @@ msgid "Painting"
 msgstr "Teiknar"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPressionist"
+msgid "Impressionist"
+msgstr ""
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -10718,7 +10718,7 @@ msgid "Save Current"
 msgstr "Lagra innstillingane"
 
 #: ../plug-ins/gimpressionist/presets.c:894
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Førehandsinnstillingane for Gimpressionisten"
 
 #: ../plug-ins/gimpressionist/presets.c:1015

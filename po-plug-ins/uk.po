@@ -9076,7 +9076,7 @@ msgid "Performs various artistic operations"
 msgstr "Множина способів прикрасити зображення"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "_Гімпресіоніст..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
@@ -9088,7 +9088,7 @@ msgid "Painting"
 msgstr "Малювання"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
+msgid "Gimpressionist..."
 msgstr "Гімпресіоніст..."
 
 #: ../plug-ins/gimpressionist/orientation.c:91
@@ -9370,7 +9370,7 @@ msgid "Save Current"
 msgstr "Збереження поточних"
 
 #: ../plug-ins/gimpressionist/presets.c:893
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Типові параметри"
 
 #: ../plug-ins/gimpressionist/presets.c:1014

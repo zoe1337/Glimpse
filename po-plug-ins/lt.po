@@ -9286,7 +9286,7 @@ msgid "Performs various artistic operations"
 msgstr "Atlieka įvairias meniškas operacijas"
 
 #: ../plug-ins/gimpressionist/gimp.c:95
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "_GIMPresionistas..."
 
 #: ../plug-ins/gimpressionist/gimp.c:371
@@ -9294,7 +9294,7 @@ msgid "Painting"
 msgstr "Piešiama"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:139
-msgid "GIMPressionist"
+msgid "Impressionist"
 msgstr "GIMPresionistas"
 
 #: ../plug-ins/gimpressionist/orientation.c:92
@@ -9575,7 +9575,7 @@ msgid "Save Current"
 msgstr "Išsaugoti esamą"
 
 #: ../plug-ins/gimpressionist/presets.c:892
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Gimpressionist numatytieji"
 
 #: ../plug-ins/gimpressionist/presets.c:1013

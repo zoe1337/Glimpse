@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 20:06+0000\n"
+"POT-Creation-Date: 2020-02-08 08:54+0000\n"
 "PO-Revision-Date: 2005-09-06 14:29-0400\n"
 "Last-Translator: Adam Weinberger <adamw@gnome.org>\n"
 "Language-Team: Canadian English <adamw@gnome.org>\n"
@@ -92,8 +92,8 @@ msgstr ""
 "details.\n"
 "\n"
 "You should have received a copy of the GNU General Public Licence along with "
-"Glimpse; if not, write to the Free Software Foundation, Inc., 59 Temple Place - "
-"Suite 330, Boston, MA 02111-1307, USA."
+"Glimpse; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place - Suite 330, Boston, MA 02111-1307, USA."
 
 #: ../app/gimp-version.c:66 ../app/gimp-version.c:164
 #, c-format
@@ -16550,8 +16550,7 @@ msgstr "_Refresh Brushes"
 
 #: ../app/dialogs/module-dialog.c:153
 msgid "You will have to restart Glimpse for the changes to take effect."
-msgstr ""
-"You will have to restart Glimpse for the changes to take effect."
+msgstr "You will have to restart Glimpse for the changes to take effect."
 
 #: ../app/dialogs/module-dialog.c:194
 #, fuzzy

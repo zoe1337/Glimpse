@@ -8982,7 +8982,7 @@ msgid "Performs various artistic operations"
 msgstr "Tillämpa olika artistiska åtgärder"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "_GIMPressionist…"
 
 #: ../plug-ins/gimpressionist/gimp.c:164
@@ -8994,8 +8994,8 @@ msgid "Painting"
 msgstr "Målar"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPressionist"
+msgid "Impressionist"
+msgstr ""
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -9278,7 +9278,7 @@ msgid "Save Current"
 msgstr "Spara aktuell"
 
 #: ../plug-ins/gimpressionist/presets.c:893
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Gimpressionist standardvärden"
 
 #: ../plug-ins/gimpressionist/presets.c:1014

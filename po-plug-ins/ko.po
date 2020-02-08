@@ -10307,7 +10307,7 @@ msgid "Performs various artistic operations"
 msgstr "다양한 예술효과 동작을 실행합니다."
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "GIMPressionist(_G)..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
@@ -10319,8 +10319,8 @@ msgid "Painting"
 msgstr "그리기"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPressionist"
+msgid "Impressionist"
+msgstr ""
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -10598,7 +10598,7 @@ msgid "Save Current"
 msgstr "현재 파일 저장하기"
 
 #: ../plug-ins/gimpressionist/presets.c:894
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Gimpressionist 기본값"
 
 #: ../plug-ins/gimpressionist/presets.c:1015

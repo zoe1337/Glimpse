@@ -8321,8 +8321,8 @@ msgid "Performs various artistic operations"
 msgstr "Çeşitli sanatsal işlemler gerçekleştirir"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
-msgstr "_GIMPressionist..."
+msgid "_Impressionist..."
+msgstr "_Impressionist..."
 
 #: ../plug-ins/gimpressionist/gimp.c:162
 msgid "The selection does not intersect the active layer or mask."
@@ -8333,8 +8333,8 @@ msgid "Painting"
 msgstr "Boyama"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPressionist"
+msgid "Impressionist"
+msgstr ""
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -8616,7 +8616,7 @@ msgid "Save Current"
 msgstr "Şimdikini Kaydet"
 
 #: ../plug-ins/gimpressionist/presets.c:894
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Gimpressionist Varsayılanları"
 
 #: ../plug-ins/gimpressionist/presets.c:1015

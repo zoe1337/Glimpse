@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Glimpse 2.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 20:06+0000\n"
+"POT-Creation-Date: 2020-02-08 08:54+0000\n"
 "PO-Revision-Date: 2016-01-14 18:33+0100\n"
 "Last-Translator: Kolbjørn Stuestøl <kolbjoern@stuestoel.no>\n"
 "Language-Team: Norwegian nynorsk <i18n-no@lister.ping.uio.no>\n"
@@ -237,7 +237,8 @@ msgstr "(Trykk ein tast for å lukke vindauget)\n"
 #: ../app/main.c:619
 #, fuzzy
 msgid "Glimpse output. You can minimize this window, but don't close it."
-msgstr "Glimpse-melding. Du kan forminska dette vindauget, men ikkje lukke det."
+msgstr ""
+"Glimpse-melding. Du kan forminska dette vindauget, men ikkje lukke det."
 
 #: ../app/sanity.c:562
 #, c-format
@@ -10770,7 +10771,8 @@ msgstr ""
 msgid ""
 "Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr ""
-"Hugs gjeldande verktøy, mønsterelement, farge og pensel mellom Glimpse-øktene."
+"Hugs gjeldande verktøy, mønsterelement, farge og pensel mellom Glimpse-"
+"øktene."
 
 #: ../app/config/gimprc-blurbs.h:349
 msgid ""
@@ -12358,8 +12360,8 @@ msgid ""
 "It appears that you are using Glimpse for the first time.  Glimpse will now "
 "create a folder named '%s' and copy some files to it."
 msgstr ""
-"Det ser ut til at dette er første gongen dy køyrer Glimpse. Glimpse vil difor "
-"lage ei ny mappe,  «%s», og kopiera nokre filer dit. "
+"Det ser ut til at dette er første gongen dy køyrer Glimpse. Glimpse vil "
+"difor lage ei ny mappe,  «%s», og kopiera nokre filer dit. "
 
 #: ../app/core/gimp-user-install.c:419
 #, c-format

@@ -10343,7 +10343,7 @@ msgid "Performs various artistic operations"
 msgstr "Thực hiện nhiều thao tác nghệ thuật khác nhau"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "Trường phái ấn tượng _GIMP..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
@@ -10355,8 +10355,8 @@ msgid "Painting"
 msgstr "Đang sơn"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "Trường phái ấn tượng GIMP"
+msgid "Impressionist"
+msgstr "Trường phái ấn tượng"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -10635,7 +10635,7 @@ msgid "Save Current"
 msgstr "Lưu điều hiện thời"
 
 #: ../plug-ins/gimpressionist/presets.c:894
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Mặc định trường phái ấn tượng GIMP"
 
 #: ../plug-ins/gimpressionist/presets.c:1015

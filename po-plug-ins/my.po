@@ -9997,16 +9997,16 @@ msgid "Performs various artistic operations"
 msgstr "အမျိုးမျိုးသော အနုပညာဆန်တဲ့ လည်ပတ်မှုများကို လုပ်ဆောင်ပါ"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
-msgstr "_GIMPressionist..."
+msgid "_Impressionist..."
+msgstr "_Impressionist..."
 
 #: ../plug-ins/gimpressionist/gimp.c:370
 msgid "Painting"
 msgstr "ရေးဆွဲခြင်း"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPressionist"
+msgid "Impressionist"
+msgstr ""
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -10283,7 +10283,7 @@ msgid "Save Current"
 msgstr "လက်ရှိကို သိမ်းဆည်းပါ"
 
 #: ../plug-ins/gimpressionist/presets.c:893
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Gimpressionist စံထားချက်များ"
 
 #: ../plug-ins/gimpressionist/presets.c:1014

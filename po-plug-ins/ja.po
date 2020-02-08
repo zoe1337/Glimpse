@@ -10433,7 +10433,7 @@ msgid "Performs various artistic operations"
 msgstr "色々なオプションを用いて芸術的効果を画像に適用します"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "GIMPressionist(_G)..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
@@ -10445,8 +10445,8 @@ msgid "Painting"
 msgstr "描画しています"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPressionist"
+msgid "Impressionist"
+msgstr ""
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -10731,7 +10731,7 @@ msgid "Save Current"
 msgstr "現状保存"
 
 #: ../plug-ins/gimpressionist/presets.c:894
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Gimpressionist デフォルト"
 
 #: ../plug-ins/gimpressionist/presets.c:1015
@@ -14894,11 +14894,8 @@ msgstr "何も取り込まれませんでした"
 #~ msgid "Painting..."
 #~ msgstr "描画しています..."
 
-#~ msgid "The GIMPressionist"
-#~ msgstr "The GIMPressionist"
-
-#~ msgid "Gimpressionist"
-#~ msgstr "Gimpressionist"
+#~ msgid "The Impressionist"
+#~ msgstr "The Impressionist"
 
 #~ msgid "A_bout"
 #~ msgstr "このプラグインについて(_B)"
@@ -14906,7 +14903,7 @@ msgstr "何も取り込まれませんでした"
 #~ msgid "Centerize"
 #~ msgstr "中央寄せ"
 
-#~ msgid "The Gimpressionist Defaults"
+#~ msgid "The Impressionist Defaults"
 #~ msgstr "Gimpressionist デフォルト"
 
 #~ msgid "Save current..."
@@ -16860,8 +16857,8 @@ msgstr "何も取り込まれませんでした"
 #~ msgstr "\"%s\" が見つかりません: \"%s\" を使用します"
 
 #, fuzzy
-#~ msgid "<Image>/Filters/Artistic/_GIMPressionist..."
-#~ msgstr "<Image>/フィルター/芸術的効果/GIMPressionist..."
+#~ msgid "<Image>/Filters/Artistic/_Impressionist..."
+#~ msgstr "<Image>/フィルター/芸術的効果/Impressionist..."
 
 #~ msgid "Paper Preview:"
 #~ msgstr "紙プレビュー:"

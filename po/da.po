@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 20:06+0000\n"
+"POT-Creation-Date: 2020-02-08 08:54+0000\n"
 "PO-Revision-Date: 2019-03-11 19:31+0100\n"
 "Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -140,8 +140,8 @@ msgstr ""
 "eller EGNETHED TIL ET BESTEMT FORMÅL. Yderligere detaljer kan læses i GNU "
 "General Public License.\n"
 "\n"
-"Du bør have modtaget en kopi af GNU General Public License sammen med Glimpse. "
-"Hvis ikke, så se https://www.gnu.org/licenses/"
+"Du bør have modtaget en kopi af GNU General Public License sammen med "
+"Glimpse. Hvis ikke, så se https://www.gnu.org/licenses/"
 
 #: ../app/gimp-version.c:66 ../app/gimp-version.c:164
 #, c-format
@@ -12125,8 +12125,8 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Det ser ud til, at du har brugt Glimpse %s før. Glimpse vil nu overflytte dine "
-"indstillinger til \"%s\"."
+"Det ser ud til, at du har brugt Glimpse %s før. Glimpse vil nu overflytte "
+"dine indstillinger til \"%s\"."
 
 #: ../app/core/gimp-user-install.c:220
 #, c-format
