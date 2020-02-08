@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1252" ?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-    <Product Name="Glimpse 0.1 DEV" Manufacturer="Glimpse Project" Id="*" UpgradeCode="b3a61b97-744b-4fdd-bebb-aa458e0af443" Language="1033" Codepage="1252" Version="0.1.0">
+    <Product Name="Glimpse 0.1 DEV" Manufacturer="Glimpse Project" Id="*" UpgradeCode="b3a61b97-744b-4fdd-bebb-aa458e0af443" Language="1033" Codepage="1252" Version="0.1.1">
         <Package Id="*" Keywords="Installer" Description="Glimpse 0.1 Installer" Comments="Glimpse Image Editor is provided under the GNU General Public License version 3." Manufacturer="Glimpse Project" InstallerVersion="100" Languages="1033" Compressed="yes" SummaryCodepage="1252" />
         <Condition Message="You must be an administrator to install Glimpse Image Editor.">
             Privileged
@@ -28,7 +28,7 @@
                                 </File>
                                 <File Id="fil71B798DBEB07E7F6C4FA95E0C226B628" DiskId="1" Source="InputFiles32\bin\2to3" />
                                 <File Id="fil30E4CEC67D78A4B395FF10B811FF36C4" DiskId="1" Source="InputFiles32\bin\2to3-2.7" />
-                                <File Id="fil7D60716FF2DEE6AC48F039DFD26F9B9A" DiskId="1" Source="InputFiles32\bin\2to3-3.7" />
+                                <File Id="fil7D60716FF2DEE6AC48F039DFD26F9B9A" DiskId="1" Source="InputFiles32\bin\2to3-3.8" />
                                 <File Id="fil2E7FE267C1E34CC30F9A519C6F7D570D" DiskId="1" Source="InputFiles32\bin\4channels.exe" />
                                 <File Id="fil78C12BAEC7AC0745FEA4C33C56791EE1" DiskId="1" Source="InputFiles32\bin\a2x" />
                                 <File Id="fil77C08EDE0369AB6490EAC2CF49004EDF" DiskId="1" Source="InputFiles32\bin\a2x.py" />
@@ -72,7 +72,6 @@
                                 <File Id="fil4605848D15873ED108E8E0A71899E7E0" DiskId="1" Source="InputFiles32\bin\csslint-0.6.exe" />
                                 <File Id="fil4F51C3F2B635175666492FE0E954DB72" DiskId="1" Source="InputFiles32\bin\cwebp.exe" />
                                 <File Id="filC368AB881F6EBB118AB2C160E6E142B0" DiskId="1" Source="InputFiles32\bin\cxpm-noX.exe" />
-                                <File Id="fil3C9CE3BE97734D30C4D99CAE2342FE58" DiskId="1" Source="InputFiles32\bin\db4-entities.pl" />
                                 <File Id="filA31E096628C6F38257EAA9BD9C650D37" DiskId="1" Source="InputFiles32\bin\dbus-daemon.exe" />
                                 <File Id="fil61867422956A1F88D286BB6C018B7A65" DiskId="1" Source="InputFiles32\bin\dbus-launch.exe" />
                                 <File Id="filBAA78CAA864B1A3B830ECC2886F02EC6" DiskId="1" Source="InputFiles32\bin\dbus-monitor.exe" />
@@ -95,9 +94,6 @@
                                 <File Id="fil85C96E81BE1E139BF8FD780249800524" DiskId="1" Source="InputFiles32\bin\dumpsexp.exe" />
                                 <File Id="filCEDFD9AD068FFCBA4001CB9880EED9A8" DiskId="1" Source="InputFiles32\bin\dvipdf" />
                                 <File Id="fil1D454333ADA25C81462493CAC865630B" DiskId="1" Source="InputFiles32\bin\dwebp.exe" />
-                                <File Id="fil4E08C2EB2DBF4B1A61DBE748C55079C4" DiskId="1" Source="InputFiles32\bin\easy_install-3.7-script.py" />
-                                <File Id="fil89503230215672190027EF10A4CF9F03" DiskId="1" Source="InputFiles32\bin\easy_install-3.7.exe" />
-                                <File Id="filF3446CC83898DA6251896E4CBC5EF0CB" DiskId="1" Source="InputFiles32\bin\easy_install-3.7.exe.manifest" />
                                 <File Id="filA6A062B1721C8F88947762120E11AC38" DiskId="1" Source="InputFiles32\bin\edgepaint.exe" />
                                 <File Id="fil9334007A21C5D0928AAF46A083EFB52C" DiskId="1" Source="InputFiles32\bin\edit.dll" />
                                 <File Id="filFC6CC09627A5BFB1E4AFFCAEB0588F01" DiskId="1" Source="InputFiles32\bin\edit_test.exe" />
@@ -257,7 +253,7 @@
                                 <File Id="fil5BCA8072BCCC465175170C258018236E" DiskId="1" Source="InputFiles32\bin\idle" />
                                 <File Id="filF1E76BBB1A712F4B47EB2379FC890F4A" DiskId="1" Source="InputFiles32\bin\idle2" />
                                 <File Id="fil0841F0ED009AD9ACA824718F495861D7" DiskId="1" Source="InputFiles32\bin\idle3" />
-                                <File Id="filF9A2A93522CD910C494EFE75A67BAAE4" DiskId="1" Source="InputFiles32\bin\idle3.7" />
+                                <File Id="filF9A2A93522CD910C494EFE75A67BAAE4" DiskId="1" Source="InputFiles32\bin\idle3.8" />
                                 <File Id="filF4E3E10CA1F310B17F73DA08705DFA28" DiskId="1" Source="InputFiles32\bin\idn.exe" />
                                 <File Id="filBD67BCC27EAA7C2A2DC57FE5EBD1E10C" DiskId="1" Source="InputFiles32\bin\idn2.exe" />
                                 <File Id="fil77375F4EA27223F283FC3A138638C8A6" DiskId="1" Source="InputFiles32\bin\imagequant.dll" />
@@ -370,7 +366,7 @@
                                 <File Id="fil76152CAFEF1B193BAC9F09642C166BBE" DiskId="1" Source="InputFiles32\bin\libgvplugin_rsvg-6.dll" />
                                 <File Id="fil455BE3796841238C6D8A01CEDDB345C0" DiskId="1" Source="InputFiles32\bin\libgvplugin_webp-6.dll" />
                                 <File Id="fil8D8C5AFCF2A868B0EECD363C6B0004F4" DiskId="1" Source="InputFiles32\bin\libgvpr-2.dll" />
-                                <File Id="fil2915EB3DBB00E573E3F25AB0243F03BF" DiskId="1" Source="InputFiles32\bin\libHalf-2_3.dll" />
+                                <File Id="fil2915EB3DBB00E573E3F25AB0243F03BF" DiskId="1" Source="InputFiles32\bin\libHalf-2_4.dll" />
                                 <File Id="filBAA2C75C092B97793BDEBA28141E1585" DiskId="1" Source="InputFiles32\bin\libharfbuzz-0.dll" />
                                 <File Id="fil88F26B9B165B44FF780F5E1FA6F24237" DiskId="1" Source="InputFiles32\bin\libharfbuzz-gobject-0.dll" />
                                 <File Id="fil9C80C9767B40196BBEF359E7F609A9B8" DiskId="1" Source="InputFiles32\bin\libharfbuzz-icu-0.dll" />
@@ -380,27 +376,28 @@
                                 <File Id="filF84F2771DAC6573FC8C54C25EA559F82" DiskId="1" Source="InputFiles32\bin\libhistory8.dll" />
                                 <File Id="filBF9106410DA29458F23F45C40055AF81" DiskId="1" Source="InputFiles32\bin\libhogweed-5.dll" />
                                 <File Id="filCEF9A6A011A205D5EB11292AD662F19C" DiskId="1" Source="InputFiles32\bin\libiconv-2.dll" />
-                                <File Id="fil42FD4A259CFB06FD1BEBF90B837D3224" DiskId="1" Source="InputFiles32\bin\libicudt64.dll" />
-                                <File Id="fil21D44831ED114AB5830F7E5CC6719F1A" DiskId="1" Source="InputFiles32\bin\libicuin64.dll" />
-                                <File Id="filFDB6508C0DC513551E1730952D254254" DiskId="1" Source="InputFiles32\bin\libicuio64.dll" />
-                                <File Id="fil4DAB6CDA0D491D19AD56DCA19C04F314" DiskId="1" Source="InputFiles32\bin\libicutest64.dll" />
-                                <File Id="fil7928C86424F11ABFAB914FD740261413" DiskId="1" Source="InputFiles32\bin\libicutu64.dll" />
-                                <File Id="fil658307778EF048134ACFC89B1DD93A44" DiskId="1" Source="InputFiles32\bin\libicuuc64.dll" />
+                                <File Id="fil42FD4A259CFB06FD1BEBF90B837D3224" DiskId="1" Source="InputFiles32\bin\libicudt65.dll" />
+                                <File Id="fil21D44831ED114AB5830F7E5CC6719F1A" DiskId="1" Source="InputFiles32\bin\libicuin65.dll" />
+                                <File Id="filFDB6508C0DC513551E1730952D254254" DiskId="1" Source="InputFiles32\bin\libicuio65.dll" />
+                                <File Id="fil4DAB6CDA0D491D19AD56DCA19C04F314" DiskId="1" Source="InputFiles32\bin\libicutest65.dll" />
+                                <File Id="fil7928C86424F11ABFAB914FD740261413" DiskId="1" Source="InputFiles32\bin\libicutu65.dll" />
+                                <File Id="fil658307778EF048134ACFC89B1DD93A44" DiskId="1" Source="InputFiles32\bin\libicuuc65.dll" />
                                 <File Id="filEA7A597683026EA30CB0541E453EA6F5" DiskId="1" Source="InputFiles32\bin\libidn-12.def" />
                                 <File Id="fil935C4E12AA207C717247401C5B7485B0" DiskId="1" Source="InputFiles32\bin\libidn-12.dll" />
                                 <File Id="fil619B9F94CDA1EC99808F0C66560A921F" DiskId="1" Source="InputFiles32\bin\libidn2-0.dll" />
-                                <File Id="filE621B526DC199C32A04B7B59BA823D10" DiskId="1" Source="InputFiles32\bin\libIex-2_3.dll" />
-                                <File Id="fil2CF3B87174A74DFE549DF6C1DE7BAF78" DiskId="1" Source="InputFiles32\bin\libIexMath-2_3.dll" />
+                                <File Id="filE621B526DC199C32A04B7B59BA823D10" DiskId="1" Source="InputFiles32\bin\libIex-2_4.dll" />
+                                <File Id="fil2CF3B87174A74DFE549DF6C1DE7BAF78" DiskId="1" Source="InputFiles32\bin\libIexMath-2_4.dll" />
                                 <File Id="fil2257B9387ECD5F566F94BE3F84B456D9" DiskId="1" Source="InputFiles32\bin\libIL.dll" />
-                                <File Id="fil4F03E5CA9DC48AEF33BC3291257645F6" DiskId="1" Source="InputFiles32\bin\libIlmImf-2_3.dll" />
-                                <File Id="fil3AFFC75AD5201C619C5B100B6667D907" DiskId="1" Source="InputFiles32\bin\libIlmImfUtil-2_3.dll" />
-                                <File Id="fil19EF22C0FDD2912FD3F2818C5DBF1869" DiskId="1" Source="InputFiles32\bin\libIlmThread-2_3.dll" />
+                                <File Id="fil4F03E5CA9DC48AEF33BC3291257645F6" DiskId="1" Source="InputFiles32\bin\libIlmImf-2_4.dll" />
+                                <File Id="fil3AFFC75AD5201C619C5B100B6667D907" DiskId="1" Source="InputFiles32\bin\libIlmImfUtil-2_4.dll" />
+                                <File Id="fil19EF22C0FDD2912FD3F2818C5DBF1869" DiskId="1" Source="InputFiles32\bin\libIlmThread-2_4.dll" />
                                 <File Id="filB605985D80C9144F33FF655C89821648" DiskId="1" Source="InputFiles32\bin\libILU.dll" />
                                 <File Id="fil7A6CBD5174ED52A4DC39826DC019F347" DiskId="1" Source="InputFiles32\bin\libILUT.dll" />
-                                <File Id="fil5D9946F546F649791587992B1803F9D6" DiskId="1" Source="InputFiles32\bin\libImath-2_3.dll" />
+                                <File Id="fil5D9946F546F649791587992B1803F9D6" DiskId="1" Source="InputFiles32\bin\libImath-2_4.dll" />
                                 <File Id="fil02C5744FBD66EDBC643CC82DDB1457A4" DiskId="1" Source="InputFiles32\bin\libintl-8.dll" />
                                 <File Id="filBA98935083A2828761DD37384E0F60AA" DiskId="1" Source="InputFiles32\bin\libjansson-4.dll" />
                                 <File Id="fil1CE985EC519AA146798027FF4DADE5F3" DiskId="1" Source="InputFiles32\bin\libjasper-4.dll" />
+                                <File Id="fil0B95FDFC3D490887F6AB82C312987F2F" DiskId="1" Source="InputFiles32\bin\libjbig2dec-0.dll" />
                                 <File Id="fil41E69674AC6F071FC96A0A3DE145901B" DiskId="1" Source="InputFiles32\bin\libjemalloc.dll" />
                                 <File Id="filD7F1B627C75A2289E993110689AF5680" DiskId="1" Source="InputFiles32\bin\libjpeg-8.dll" />
                                 <File Id="fil18F2BA05527025622D412719A9EBAB24" DiskId="1" Source="InputFiles32\bin\libjson-c-4.dll" />
@@ -445,7 +442,7 @@
                                 <File Id="filE854B3460E5CDAED9A357F4597D0E070" DiskId="1" Source="InputFiles32\bin\libpng-config" />
                                 <File Id="fil767A0E28634C3D828B326B1FE4E84A41" DiskId="1" Source="InputFiles32\bin\libpng16-16.dll" />
                                 <File Id="fil9C58C7E5ACB5EEFFBB5F04E8F13EE2BA" DiskId="1" Source="InputFiles32\bin\libpng16-config" />
-                                <File Id="fil1FFC25098235E1D64214E0D7DAAD3481" DiskId="1" Source="InputFiles32\bin\libpoppler-89.dll" />
+                                <File Id="fil1FFC25098235E1D64214E0D7DAAD3481" DiskId="1" Source="InputFiles32\bin\libpoppler-94.dll" />
                                 <File Id="fil71983C35E457946F53460FAC7FC6F02D" DiskId="1" Source="InputFiles32\bin\libpoppler-cpp-0.dll" />
                                 <File Id="fil7C9595973A3DD8CA905C1B6B0A294467" DiskId="1" Source="InputFiles32\bin\libpoppler-glib-8.dll" />
                                 <File Id="fil9F276C076425173A6F48D64F1D4D2D4E" DiskId="1" Source="InputFiles32\bin\libpoppler-qt5-1.dll" />
@@ -453,7 +450,7 @@
                                 <File Id="fil6529EE98D630FA1F055E8CBF266123EA" DiskId="1" Source="InputFiles32\bin\libpsl-5.dll" />
                                 <File Id="fil8EAB8BA30118F089888DF93E8B6244A3" DiskId="1" Source="InputFiles32\bin\libpyglib-2.0-python2-0.dll" />
                                 <File Id="fil7CD36DCD0B5F96785572A03425C82E11" DiskId="1" Source="InputFiles32\bin\libpython2.7.dll" />
-                                <File Id="filB5915A3AF8C7F02D84DF6E8D84D9059B" DiskId="1" Source="InputFiles32\bin\libpython3.7m.dll" />
+                                <File Id="filB5915A3AF8C7F02D84DF6E8D84D9059B" DiskId="1" Source="InputFiles32\bin\libpython3.8.dll" />
                                 <File Id="fil40DD8DAE7DADF4749FF96109F81CEEF7" DiskId="1" Source="InputFiles32\bin\libquadmath-0.dll" />
                                 <File Id="fil1AF8A2B16855679C6BF13DAD29D7B75B" DiskId="1" Source="InputFiles32\bin\libraw-19.dll" />
                                 <File Id="fil09FC63BF47B456759CF3719AC4D095DF" DiskId="1" Source="InputFiles32\bin\libraw_r-19.dll" />
@@ -478,9 +475,9 @@
                                 <File Id="fil35C6B4ED7F968411B7385C4F176FF4E8" DiskId="1" Source="InputFiles32\bin\libturbojpeg.dll" />
                                 <File Id="filFD1528B992A2ABD2D7877448D3E67044" DiskId="1" Source="InputFiles32\bin\libumfpack.dll" />
                                 <File Id="filEE92B167C839BCEFAC98CB801F4C70A8" DiskId="1" Source="InputFiles32\bin\libunistring-2.dll" />
-                                <File Id="fil8FF77924C22B9521ADBE224E47BFE73D" DiskId="1" Source="InputFiles32\bin\libvala-0.44-0.dll" />
+                                <File Id="fil8FF77924C22B9521ADBE224E47BFE73D" DiskId="1" Source="InputFiles32\bin\libvala-0.46-0.dll" />
                                 <File Id="filF5049E4F644264FE8370BE197CCF2E4F" DiskId="1" Source="InputFiles32\bin\libvalaccodegen.dll" />
-                                <File Id="fil9FA1EFADE5DDA26A1F5D6FA4B53C2D10" DiskId="1" Source="InputFiles32\bin\libvaladoc-0.44-0.dll" />
+                                <File Id="fil9FA1EFADE5DDA26A1F5D6FA4B53C2D10" DiskId="1" Source="InputFiles32\bin\libvaladoc-0.46-0.dll" />
                                 <File Id="fil54B8BC04A79D284F74C5B3ABF107DD90" DiskId="1" Source="InputFiles32\bin\libvulkan-1.dll" />
                                 <File Id="fil3BDBEBB63B24B5E73E823C7321DD2F8A" DiskId="1" Source="InputFiles32\bin\libwebp-7.dll" />
                                 <File Id="fil03935C02C26B6B42251296C256EBBA2C" DiskId="1" Source="InputFiles32\bin\libwebpdecoder-3.dll" />
@@ -616,7 +613,7 @@
                                 <File Id="filEABAA20A8E8FAD5D2B2E7F4E81DC0398" DiskId="1" Source="InputFiles32\bin\pydoc" />
                                 <File Id="filE2C7461FCEAD089A440E3A4009C84370" DiskId="1" Source="InputFiles32\bin\pydoc2" />
                                 <File Id="fil03920EA899528BC249CF445718CEB010" DiskId="1" Source="InputFiles32\bin\pydoc3" />
-                                <File Id="filC7D5A52A1D01F8F2C8235830EF75CC19" DiskId="1" Source="InputFiles32\bin\pydoc3.7" />
+                                <File Id="filC7D5A52A1D01F8F2C8235830EF75CC19" DiskId="1" Source="InputFiles32\bin\pydoc3.8" />
                                 <File Id="fil2BAD640CC8658BCB81CCD4D853144E79" DiskId="1" Source="InputFiles32\bin\pygmentize-script.py" />
                                 <File Id="fil46507B587932E929997DD50ECC8F7BF1" DiskId="1" Source="InputFiles32\bin\pygmentize.exe" />
                                 <File Id="filEDCA6F10511305364D2E262A51E7F44E" DiskId="1" Source="InputFiles32\bin\pygmentize.exe.manifest" />
@@ -633,14 +630,10 @@
                                 <File Id="filC2503D5E6F15BA63D051192017E32C8A" DiskId="1" Source="InputFiles32\bin\python2.exe" />
                                 <File Id="fil87E0B9602B2181B64C2A0673DA5D55D7" DiskId="1" Source="InputFiles32\bin\python2w.exe" />
                                 <File Id="fil513788C52BEA8AD60DE26ED6CC24B1EF" DiskId="1" Source="InputFiles32\bin\python3-config" />
-                                <File Id="filE7389BB9E62759D7F56D9F1B127D7935" DiskId="1" Source="InputFiles32\bin\python3.7-config" />
-                                <File Id="filC6B2E2101C695CC95EABB8C7314CFBA2" DiskId="1" Source="InputFiles32\bin\python3.7.exe" />
-                                <File Id="filEFF4990F6C646E9D6DBF9AA09503F907" DiskId="1" Source="InputFiles32\bin\python3.7m-config" />
-                                <File Id="fil4578D378A7652D03E130B7ED9AAEC735" DiskId="1" Source="InputFiles32\bin\python3.7m.exe" />
+                                <File Id="filE7389BB9E62759D7F56D9F1B127D7935" DiskId="1" Source="InputFiles32\bin\python3.8-config" />
+                                <File Id="filC6B2E2101C695CC95EABB8C7314CFBA2" DiskId="1" Source="InputFiles32\bin\python3.8.exe" />
                                 <File Id="fil2D1D9189ABB3D60C5EAFD7A58E3BEB4E" DiskId="1" Source="InputFiles32\bin\python3.exe" />
                                 <File Id="filB4875DC7919BC217061EA588C8DAC4A1" DiskId="1" Source="InputFiles32\bin\python3w.exe" />
-                                <File Id="filED00577EB63E85D9B2CF93A503308B87" DiskId="1" Source="InputFiles32\bin\pyvenv" />
-                                <File Id="fil93B867A17F8564780FB4985120E62B3C" DiskId="1" Source="InputFiles32\bin\pyvenv-3.7" />
                                 <File Id="fil07BF6B6D51FF4BAC3BDCA6C70F2B8C1B" DiskId="1" Source="InputFiles32\bin\pzstd.exe" />
                                 <File Id="fil1E070CA4C578FD9B610B4014FDA0EAE9" DiskId="1" Source="InputFiles32\bin\raw-identify.exe" />
                                 <File Id="filE57E9E82D769B9B53A20E7D70AB0AD29" DiskId="1" Source="InputFiles32\bin\raw2tiff.exe" />
@@ -648,7 +641,6 @@
                                 <File Id="fil489F323DDE3EAD1D0B3EA4F47836CAA6" DiskId="1" Source="InputFiles32\bin\rdjpgcom.exe" />
                                 <File Id="fil4667AB67BF29805DF94BC5760AD46E82" DiskId="1" Source="InputFiles32\bin\recode-sr-latin.exe" />
                                 <File Id="fil4AA5388A35434AB40B4A6B3E8DA4A8CD" DiskId="1" Source="InputFiles32\bin\rsvg-convert.exe" />
-                                <File Id="fil0B95FDFC3D490887F6AB82C312987F2F" DiskId="1" Source="InputFiles32\bin\rsvg-view-3.exe" />
                                 <File Id="fil06C1CBF17AD57026F33E9A06C023952C" DiskId="1" Source="InputFiles32\bin\sccmap.exe" />
                                 <File Id="fil3B04F26DD169763AF6D684F68B6D3D4A" DiskId="1" Source="InputFiles32\bin\sdl2-config" />
                                 <File Id="filC4FBE91D807BC9FE311B40A8453D7DAC" DiskId="1" Source="InputFiles32\bin\SDL2.dll" />
@@ -699,15 +691,15 @@
                                 <File Id="fil8082B647BEF4A34DC52E060B98B497F0" DiskId="1" Source="InputFiles32\bin\update-ca-trust" />
                                 <File Id="fil491C113FD9A84970479B4C448005E209" DiskId="1" Source="InputFiles32\bin\update-mime-database.exe" />
                                 <File Id="filADD608D70CD0E004F24B12EFB66FF9F4" DiskId="1" Source="InputFiles32\bin\update-mime-database.exe.manifest" />
-                                <File Id="filCB3E494F8615AE1A1E722DAD320C98CF" DiskId="1" Source="InputFiles32\bin\vala-0.44.exe" />
+                                <File Id="filCB3E494F8615AE1A1E722DAD320C98CF" DiskId="1" Source="InputFiles32\bin\vala-0.46.exe" />
                                 <File Id="filDCCC505C84B88C91256CE1BE3BCC5F13" DiskId="1" Source="InputFiles32\bin\vala-gen-introspect" />
-                                <File Id="fil6922DFD941978E8204B1810AEB35B2F3" DiskId="1" Source="InputFiles32\bin\vala-gen-introspect-0.44" />
+                                <File Id="fil6922DFD941978E8204B1810AEB35B2F3" DiskId="1" Source="InputFiles32\bin\vala-gen-introspect-0.46" />
                                 <File Id="filEF0C87794D7D223FF0F59E13BC21A0EC" DiskId="1" Source="InputFiles32\bin\vala.exe" />
-                                <File Id="fil0316321E1FA290A4AF9BFEC886C6F3CC" DiskId="1" Source="InputFiles32\bin\valac-0.44.exe" />
+                                <File Id="fil0316321E1FA290A4AF9BFEC886C6F3CC" DiskId="1" Source="InputFiles32\bin\valac-0.46.exe" />
                                 <File Id="fil4D6C58B239D72D413992E17C62700944" DiskId="1" Source="InputFiles32\bin\valac.exe" />
-                                <File Id="filB00842F8CD20665397FEB03362EBEECF" DiskId="1" Source="InputFiles32\bin\valadoc-0.44.exe" />
+                                <File Id="filB00842F8CD20665397FEB03362EBEECF" DiskId="1" Source="InputFiles32\bin\valadoc-0.46.exe" />
                                 <File Id="fil37A3571421C38BA5786323FDA96DC825" DiskId="1" Source="InputFiles32\bin\valadoc.exe" />
-                                <File Id="filF15BFCAC7364059A380F16291C7D6597" DiskId="1" Source="InputFiles32\bin\vapigen-0.44.exe" />
+                                <File Id="filF15BFCAC7364059A380F16291C7D6597" DiskId="1" Source="InputFiles32\bin\vapigen-0.46.exe" />
                                 <File Id="filB27B33332A758C35085099AFEBF3952E" DiskId="1" Source="InputFiles32\bin\vapigen.exe" />
                                 <File Id="filFC947CCEB50D748BA37EE9F9D88FD1DE" DiskId="1" Source="InputFiles32\bin\webpinfo.exe" />
                                 <File Id="filB4DC9AC4D2ED698E26DB73D179B3A0B8" DiskId="1" Source="InputFiles32\bin\webpmux.exe" />
@@ -2678,7 +2670,7 @@
                                                         <File Id="filF3903E868EBD8864BF00E3CE48ED93AA" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\24x24\apps\gimp-display-filter-contrast.svg" />
                                                         <File Id="filDFA82E814F4A0B67EA34897D3E61BBFC" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\24x24\apps\gimp-display-filter-gamma.svg" />
                                                         <File Id="fil9A6DBFEEEA25A6C48E1DC9CE360ECB99" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\24x24\apps\gimp-display-filter-lcms.svg" />
-                                                        <File Id="fil237A1A5BFC2CAA890C7746261C653B1B" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\24x24\apps\gimp-display-filter-proof.svg" />>
+                                                        <File Id="fil237A1A5BFC2CAA890C7746261C653B1B" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\24x24\apps\gimp-display-filter-proof.svg" />
                                                         <File Id="fil466DD44AB910CFF2314B978F2F67F936" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\24x24\apps\gimp-display-filter.svg" />
                                                         <File Id="fil36D41E9B3330BA52822A3A29FF85A5EE" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\24x24\apps\gimp-display.svg" />
                                                         <File Id="fil0871FF13F0E183AD1774F63EBA390C7C" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\24x24\apps\gimp-dynamics.svg" />
