@@ -2934,6 +2934,7 @@ icons/Symbolic/Makefile
 icons/Symbolic-Inverted/Makefile
 themes/Makefile
 themes/System/Makefile
+themes/Gray/Makefile
 themes/Dark/Makefile
 themes/Light/Makefile
 data/Makefile
