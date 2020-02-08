@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gimp-plug-ins trunk\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2007-07-27 16:29+0300\n"
-"PO-Revision-Date: 2007-07-27 16:29+0300\n"
+"PO-Revision-Date: 2020-02-08 11:57-0800\n"
 "Last-Translator: Victor Dachev <vdachev@gmail.com>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
 "Language: bg\n"
@@ -18,10 +18,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.3\n"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:547
-#: ../plug-ins/gfig/gfig-dialog.c:274 ../plug-ins/gflare/gflare.c:883
-#: ../plug-ins/gimpressionist/utils.c:124
+#: ../plug-ins/FractalExplorer/Dialogs.c:547 ../plug-ins/gfig/gfig-dialog.c:274
+#: ../plug-ins/gflare/gflare.c:883 ../plug-ins/gimpressionist/utils.c:124
 #, c-format
 msgid ""
 "No %s in gimprc:\n"
@@ -250,11 +250,10 @@ msgstr "Косинус"
 #: ../plug-ins/FractalExplorer/Dialogs.c:999
 #: ../plug-ins/FractalExplorer/Dialogs.c:1040
 #: ../plug-ins/FractalExplorer/Dialogs.c:1081
-#: ../plug-ins/Lighting/lighting_ui.c:416
-#: ../plug-ins/common/CML_explorer.c:166 ../plug-ins/common/align_layers.c:422
-#: ../plug-ins/common/align_layers.c:453 ../plug-ins/common/postscript.c:3228
-#: ../plug-ins/common/postscript.c:3240 ../plug-ins/common/psp.c:418
-#: ../plug-ins/fits/fits.c:1026
+#: ../plug-ins/Lighting/lighting_ui.c:416 ../plug-ins/common/CML_explorer.c:166
+#: ../plug-ins/common/align_layers.c:422 ../plug-ins/common/align_layers.c:453
+#: ../plug-ins/common/postscript.c:3228 ../plug-ins/common/postscript.c:3240
+#: ../plug-ins/common/psp.c:418 ../plug-ins/fits/fits.c:1026
 msgid "None"
 msgstr "Няма"
 
@@ -1215,10 +1214,10 @@ msgstr "Неподдържана или грешна височина на из�
 #: ../plug-ins/common/tga.c:1029 ../plug-ins/common/tiff-load.c:917
 #: ../plug-ins/common/tile.c:266 ../plug-ins/common/xbm.c:880
 #: ../plug-ins/faxg3/faxg3.c:464 ../plug-ins/fits/fits.c:511
-#: ../plug-ins/gfig/gfig-dialog.c:1284
-#: ../plug-ins/gimpressionist/general.c:122 ../plug-ins/jpeg/jpeg-load.c:244
-#: ../plug-ins/jpeg/jpeg-load.c:783 ../plug-ins/sgi/sgi.c:369
-#: ../plug-ins/twain/twain.c:571 ../plug-ins/winsnap/winsnap.c:1155
+#: ../plug-ins/gfig/gfig-dialog.c:1284 ../plug-ins/gimpressionist/general.c:122
+#: ../plug-ins/jpeg/jpeg-load.c:244 ../plug-ins/jpeg/jpeg-load.c:783
+#: ../plug-ins/sgi/sgi.c:369 ../plug-ins/twain/twain.c:571
+#: ../plug-ins/winsnap/winsnap.c:1155
 msgid "Background"
 msgstr "Фон"
 
@@ -9334,8 +9333,7 @@ msgstr "Показване на контролни точки"
 msgid "Max undo:"
 msgstr "Максимално отменяне:"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1283
-#: ../plug-ins/gimpressionist/general.c:167
+#: ../plug-ins/gfig/gfig-dialog.c:1283 ../plug-ins/gimpressionist/general.c:167
 msgid "Transparent"
 msgstr "Прозрачно"
 
@@ -9953,16 +9951,18 @@ msgid "Performs various artistic operations"
 msgstr "Изпълнява различни артистични операции"
 
 #: ../plug-ins/gimpressionist/gimp.c:79
+#, fuzzy
 msgid "_Impressionist..."
-msgstr "_GIMPресионист..."
+msgstr "_Импресионист..."
 
 #: ../plug-ins/gimpressionist/gimp.c:350
 msgid "Painting"
 msgstr "Рисуване"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:121
+#, fuzzy
 msgid "Impressionist"
-msgstr "GIMPресионист"
+msgstr "Импресионист"
 
 #: ../plug-ins/gimpressionist/orientation.c:74
 msgid "Or_ientation"
@@ -10243,6 +10243,7 @@ msgid "Save Current"
 msgstr "Запазване на текущото"
 
 #: ../plug-ins/gimpressionist/presets.c:874
+#, fuzzy
 msgid "Impressionist Defaults"
 msgstr "Стойности по подразбиране"
 
@@ -10645,8 +10646,7 @@ msgstr "Център по _хоризонтал"
 #: ../plug-ins/imagemap/imap_circle.c:269
 #: ../plug-ins/imagemap/imap_circle.c:276
 #: ../plug-ins/imagemap/imap_circle.c:282 ../plug-ins/imagemap/imap_grid.c:250
-#: ../plug-ins/imagemap/imap_grid.c:256
-#: ../plug-ins/imagemap/imap_polygon.c:505
+#: ../plug-ins/imagemap/imap_grid.c:256 ../plug-ins/imagemap/imap_polygon.c:505
 #: ../plug-ins/imagemap/imap_polygon.c:513
 #: ../plug-ins/imagemap/imap_rectangle.c:394
 #: ../plug-ins/imagemap/imap_rectangle.c:401
@@ -10823,8 +10823,7 @@ msgstr "Вмъкване"
 msgid "Select"
 msgstr "Избиране"
 
-#: ../plug-ins/imagemap/imap_cmd_select_all.c:51
-#: ../plug-ins/rcm/rcm_stock.c:41
+#: ../plug-ins/imagemap/imap_cmd_select_all.c:51 ../plug-ins/rcm/rcm_stock.c:41
 msgid "Select All"
 msgstr "Избиране на всичко"
 
