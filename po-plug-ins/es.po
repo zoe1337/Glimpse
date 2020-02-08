@@ -9048,7 +9048,7 @@ msgid "Performs various artistic operations"
 msgstr "Realiza varias operaciones artísticas"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "_GIMPresionista…"
 
 #: ../plug-ins/gimpressionist/gimp.c:164
@@ -9060,7 +9060,7 @@ msgid "Painting"
 msgstr "Pintando"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
+msgid "Impressionist"
 msgstr "GIMPresionista"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
@@ -9351,7 +9351,7 @@ msgid "Save Current"
 msgstr "Guardar el actual"
 
 #: ../plug-ins/gimpressionist/presets.c:893
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Configuración de fábrica de Gimpresionista"
 
 # //R ¿Esto existe?

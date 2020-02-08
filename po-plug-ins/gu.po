@@ -9072,19 +9072,19 @@ msgid "A bailout-value for adaptive selections"
 msgstr "અનૂકુલનીય પસંદગીઓ માટે બેઈલઆઉટ-કિંમત"
 
 #: ../plug-ins/gimpressionist/gimp.c:79
-msgid "_GIMPressionist..."
-msgstr "_GIMPressionist..."
+msgid "_Impressionist..."
+msgstr "_Impressionist..."
 
 #: ../plug-ins/gimpressionist/gimp.c:350
 msgid "Painting..."
 msgstr "રંગકામ..."
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:117
-msgid "The GIMPressionist"
-msgstr "GIMPressionist"
+msgid "The Impressionist"
+msgstr "The Impressionist"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:196
-msgid "Gimpressionist"
+msgid "Impressionist"
 msgstr "Gimpressionist"
 
 #: ../plug-ins/gimpressionist/orientation.c:74
@@ -9362,7 +9362,7 @@ msgid "Save Current"
 msgstr "વર્તમાન સંગ્રહો"
 
 #: ../plug-ins/gimpressionist/presets.c:874
-msgid "The Gimpressionist Defaults"
+msgid "The Impressionist Defaults"
 msgstr "Gimpressionist મૂળભૂતો"
 
 #: ../plug-ins/gimpressionist/presets.c:990

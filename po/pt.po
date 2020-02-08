@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 20:06+0000\n"
+"POT-Creation-Date: 2020-02-08 08:54+0000\n"
 "PO-Revision-Date: 2017-01-16 21:06+0000\n"
 "Last-Translator: Tiago Santos <tiagofsantos81@sapo.pt>\n"
 "Language-Team: Português\n"
@@ -87,14 +87,14 @@ msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "Glimpse. If not, see: https://www.gnu.org/licenses/"
 msgstr ""
-"O Glimpse é um programa grátis; pode redistribui-lo e/ou modificá-lo segundo os "
-"termos da Licença Pública Geral GNU, sempre com base nos termos da versão em "
-"inglês da GNU General Public License, tal como foi publicada pela Free "
+"O Glimpse é um programa grátis; pode redistribui-lo e/ou modificá-lo segundo "
+"os termos da Licença Pública Geral GNU, sempre com base nos termos da versão "
+"em inglês da GNU General Public License, tal como foi publicada pela Free "
 "Software Foundation; quer seja a versão 3 da Licença, ou (à sua discrição) "
 "qualquer versão posterior.\n"
 "\n"
-"O Glimpse é distribuído na esperança de lhe ser útil, mas SEM QUALQUER TIPO DE "
-"GARANTIAS; não incluindo mesmo a garantia implícita de COMERCIALIZAÇÃO OU "
+"O Glimpse é distribuído na esperança de lhe ser útil, mas SEM QUALQUER TIPO "
+"DE GARANTIAS; não incluindo mesmo a garantia implícita de COMERCIALIZAÇÃO OU "
 "ADEQUAÇÃO A UM USO ESPECÍFICO. Consulte o texto original em inglês da GNU "
 "General Public License para mais detalhes.\n"
 "\n"
@@ -235,7 +235,8 @@ msgstr "Já se encontra em execução outra instância do Glimpse."
 #: ../app/main.c:601
 #, fuzzy
 msgid "Glimpse output. Type any character to close this window."
-msgstr "Saída de dados do Glimpse. Prima qualquer tecla para fechar esta janela."
+msgstr ""
+"Saída de dados do Glimpse. Prima qualquer tecla para fechar esta janela."
 
 #: ../app/main.c:602
 #, c-format
@@ -245,7 +246,8 @@ msgstr "(prima qualquer tecla para fechar esta janela)\n"
 #: ../app/main.c:619
 #, fuzzy
 msgid "Glimpse output. You can minimize this window, but don't close it."
-msgstr "Saída de dados do Glimpse. Pode minimizar esta janela, mas não a feche."
+msgstr ""
+"Saída de dados do Glimpse. Pode minimizar esta janela, mas não a feche."
 
 #: ../app/sanity.c:562
 #, c-format
@@ -10749,7 +10751,8 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:358
 msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
-msgstr "Gravar as posições e tamanhos dos diálogos principais ao sair do Glimpse."
+msgstr ""
+"Gravar as posições e tamanhos dos diálogos principais ao sair do Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:361
 msgid "Save the tool options when Glimpse exits."
@@ -12361,8 +12364,8 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Parece que já usou o Glimpse %s antes. O Glimpse migrará as suas configurações "
-"de utilizador para \"%s\"."
+"Parece que já usou o Glimpse %s antes. O Glimpse migrará as suas "
+"configurações de utilizador para \"%s\"."
 
 #: ../app/core/gimp-user-install.c:220
 #, c-format

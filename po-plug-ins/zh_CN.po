@@ -10134,7 +10134,7 @@ msgid "Performs various artistic operations"
 msgstr "执行多种艺术化操作"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "印象派艺术家(_GIMPressionist)..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
@@ -10146,8 +10146,7 @@ msgid "Painting"
 msgstr "绘制"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-#, fuzzy
-msgid "GIMPressionist"
+msgid "GImpressionist"
 msgstr "印象派艺术家(GIMPressionist)"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
@@ -10426,7 +10425,7 @@ msgid "Save Current"
 msgstr "保存当前值"
 
 #: ../plug-ins/gimpressionist/presets.c:894
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "GIMPressionist 默认值"
 
 #: ../plug-ins/gimpressionist/presets.c:1015

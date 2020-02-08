@@ -9665,7 +9665,7 @@ msgstr ""
 
 #: ../plug-ins/gimpressionist/gimp.c:79
 #, fuzzy
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "_Inkohliso..."
 
 #: ../plug-ins/gimpressionist/gimp.c:350
@@ -9674,12 +9674,12 @@ msgid "Painting..."
 msgstr "Umfanekiso we-oli..."
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:117
-msgid "The GIMPressionist"
+msgid "The Impressionist"
 msgstr ""
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:196
 #, fuzzy
-msgid "Gimpressionist"
+msgid "Impressionist"
 msgstr "Ubulunga boshwankathelo lwe-JPEG:"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:200
@@ -9987,7 +9987,7 @@ msgid "Save Current"
 msgstr "Yangoku:"
 
 #: ../plug-ins/gimpressionist/presets.c:874
-msgid "The Gimpressionist Defaults"
+msgid "The Impressionist Defaults"
 msgstr ""
 
 #: ../plug-ins/gimpressionist/presets.c:990

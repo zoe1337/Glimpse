@@ -9903,16 +9903,16 @@ msgid "Performs various artistic operations"
 msgstr "អនុវត្ត​ប្រតិបត្តិការវិចិត្រ​ផ្សេង"
 
 #: ../plug-ins/gimpressionist/gimp.c:79
-msgid "_GIMPressionist..."
-msgstr "GIMPressionist..."
+msgid "_Impressionist..."
+msgstr "Impressionist..."
 
 #: ../plug-ins/gimpressionist/gimp.c:350
 msgid "Painting"
 msgstr "កំពុង​គូរ"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:121
-msgid "GIMPressionist"
-msgstr "GIMPressionist"
+msgid "Impressionist"
+msgstr ""
 
 #: ../plug-ins/gimpressionist/orientation.c:74
 msgid "Or_ientation"
@@ -10189,7 +10189,7 @@ msgid "Save Current"
 msgstr "រក្សាទុក​បច្ចុប្បន្ន"
 
 #: ../plug-ins/gimpressionist/presets.c:874
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "លំនាំ​ដើម​របស់ Gimpressionist"
 
 #: ../plug-ins/gimpressionist/presets.c:995

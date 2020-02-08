@@ -8944,7 +8944,7 @@ msgid "Performs various artistic operations"
 msgstr "執行各種不同的藝術操作"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "印象派風格(_G)..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
@@ -8956,7 +8956,7 @@ msgid "Painting"
 msgstr "繪畫"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
+msgid "Impressionist"
 msgstr "印象派風格"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
@@ -9244,7 +9244,7 @@ msgid "Save Current"
 msgstr "儲存目前設定"
 
 #: ../plug-ins/gimpressionist/presets.c:893
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "印象派風格預設值"
 
 #: ../plug-ins/gimpressionist/presets.c:1014

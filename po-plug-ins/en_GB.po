@@ -9160,8 +9160,8 @@ msgid "Performs various artistic operations"
 msgstr "Performs various artistic operations"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
-msgstr "_GIMPressionist..."
+msgid "_Impressionist..."
+msgstr "_Impressionist..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -9172,8 +9172,8 @@ msgid "Painting"
 msgstr "Painting"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPressionist"
+msgid "Impressionist"
+msgstr "Impressionist"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -9461,8 +9461,8 @@ msgid "Save Current"
 msgstr "Save Current"
 
 #: ../plug-ins/gimpressionist/presets.c:893
-msgid "Gimpressionist Defaults"
-msgstr "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
+msgstr "Impressionist Defaults"
 
 #: ../plug-ins/gimpressionist/presets.c:1014
 msgid "_Presets"
@@ -15954,11 +15954,8 @@ msgstr "Transferring data from scanner/camera"
 #~ msgid "Hue Rotation:"
 #~ msgstr "Hue Rotation:"
 
-#~ msgid "The GIMPressionist"
-#~ msgstr "The GIMPressionist"
-
-#~ msgid "Gimpressionist"
-#~ msgstr "Gimpressionist"
+#~ msgid "The Impressionist"
+#~ msgstr "The Impressionist"
 
 #~ msgid "A_bout"
 #~ msgstr "A_bout"

@@ -10070,7 +10070,7 @@ msgid "Performs various artistic operations"
 msgstr "མཛེས་ཆ་ཅན་གྱི་བཀོལ་སྤྱོད་འདྲ་མིན་སྣ་ཚོགས་ ལཱ་འགན་འགྲུབ་ཨིན།"
 
 #: ../plug-ins/gimpressionist/gimp.c:79
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "ཇི་ཨའི་ཨེམ་པི་ རེ་ཤོ་ནིསིཊི...(_G)"
 
 #: ../plug-ins/gimpressionist/gimp.c:350
@@ -10078,7 +10078,7 @@ msgid "Painting"
 msgstr "ཚོན་བཏང་ནི།"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:121
-msgid "GIMPressionist"
+msgid "Impressionist"
 msgstr "ཇི་ཨའི་ཨེམ་པི་ རེ་ཤོ་ནིསིཊི།"
 
 #: ../plug-ins/gimpressionist/orientation.c:74
@@ -10346,7 +10346,7 @@ msgid "Save Current"
 msgstr "ད་ལྟོ་གི་སྲུང་བཞག་འབད།"
 
 #: ../plug-ins/gimpressionist/presets.c:874
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "ཇིམ་པེརི་ཤོ་ནིསིཊི་ སྔོན་སྒྲིག་འབདཝ་ཨིན།"
 
 #: ../plug-ins/gimpressionist/presets.c:995

@@ -10428,7 +10428,7 @@ msgid "Performs various artistic operations"
 msgstr ""
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "_GIMPresjonist …"
 
 #: ../plug-ins/gimpressionist/gimp.c:162
@@ -10440,7 +10440,7 @@ msgid "Painting"
 msgstr "Maleri"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
+msgid "Impressionist"
 msgstr "GIMPresjonist"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
@@ -10720,7 +10720,7 @@ msgid "Save Current"
 msgstr "Lagre aktiv"
 
 #: ../plug-ins/gimpressionist/presets.c:894
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Standardverdier for Gimpresjonist"
 
 #: ../plug-ins/gimpressionist/presets.c:1015

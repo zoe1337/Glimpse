@@ -9210,7 +9210,7 @@ msgid "A bailout-value for adaptive selections"
 msgstr ""
 
 #: plug-ins/gimpressionist/gimp.c:79
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr ""
 
 #: plug-ins/gimpressionist/gimp.c:350
@@ -9218,11 +9218,11 @@ msgid "Painting..."
 msgstr ""
 
 #: plug-ins/gimpressionist/gimpressionist.c:117
-msgid "The GIMPressionist"
+msgid "The Impressionist"
 msgstr ""
 
 #: plug-ins/gimpressionist/gimpressionist.c:196
-msgid "Gimpressionist"
+msgid "Impressionist"
 msgstr ""
 
 #: plug-ins/gimpressionist/gimpressionist.c:200
@@ -9498,7 +9498,7 @@ msgid "Save Current"
 msgstr ""
 
 #: plug-ins/gimpressionist/presets.c:863
-msgid "The Gimpressionist Defaults"
+msgid "The Impressionist Defaults"
 msgstr ""
 
 #: plug-ins/gimpressionist/presets.c:979

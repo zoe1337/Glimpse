@@ -9771,19 +9771,19 @@ msgstr "Vrijednost u problematičnom slučaju za prilagodljive odabire"
 
 #: plug-ins/gimpressionist/gimp.c:79
 #, fuzzy
-msgid "_GIMPressionist..."
-msgstr "GIMPressionist"
+msgid "_Impressionist..."
+msgstr "Impressionist"
 
 #: plug-ins/gimpressionist/gimp.c:350
 msgid "Painting..."
 msgstr "Slikanje..."
 
 #: plug-ins/gimpressionist/gimpressionist.c:117
-msgid "The GIMPressionist"
-msgstr "GIMPressionist"
+msgid "The Impressionist"
+msgstr "The Impressionist"
 
 #: plug-ins/gimpressionist/gimpressionist.c:196
-msgid "Gimpressionist"
+msgid "Impressionist"
 msgstr "Gimpressionist"
 
 #: plug-ins/gimpressionist/gimpressionist.c:200
@@ -10066,7 +10066,7 @@ msgstr "Spremi trenutni"
 
 #: plug-ins/gimpressionist/presets.c:863
 #, fuzzy
-msgid "The Gimpressionist Defaults"
+msgid "The Impressionist Defaults"
 msgstr "Gimpressionist"
 
 #: plug-ins/gimpressionist/presets.c:979
@@ -13460,8 +13460,8 @@ msgstr "Greška XJT datoteka %s je prazna."
 #~ msgid "Brush Preview:"
 #~ msgstr "Pregled kista:"
 
-#~ msgid "<Image>/Filters/Artistic/_GIMPressionist..."
-#~ msgstr "<Image>/Filteri/Umjetnički/GIMPressionist..."
+#~ msgid "<Image>/Filters/Artistic/_Impressionist..."
+#~ msgstr "<Image>/Filteri/Umjetnički/Impressionist..."
 
 #~ msgid "Paper Preview:"
 #~ msgstr "Pregled papira:"

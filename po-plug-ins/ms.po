@@ -9864,20 +9864,19 @@ msgid "A bailout-value for adaptive selections"
 msgstr "Satu nilai-bailout untuk pemilihan mudah suai"
 
 #: plug-ins/gimpressionist/gimp.c:79
-#, fuzzy
-msgid "_GIMPressionist..."
-msgstr "GIMPressionist"
+msgid "_Impressionist..."
+msgstr "_Impressionist..."
 
 #: plug-ins/gimpressionist/gimp.c:350
 msgid "Painting..."
 msgstr "Mengecat..."
 
 #: plug-ins/gimpressionist/gimpressionist.c:117
-msgid "The GIMPressionist"
-msgstr "GIMPressionist"
+msgid "The Impressionist"
+msgstr "The Impressionist"
 
 #: plug-ins/gimpressionist/gimpressionist.c:196
-msgid "Gimpressionist"
+msgid "Impressionist"
 msgstr "Gimpressionist"
 
 #: plug-ins/gimpressionist/gimpressionist.c:200
@@ -10162,7 +10161,7 @@ msgstr "Simpan Semasa"
 
 #: plug-ins/gimpressionist/presets.c:863
 #, fuzzy
-msgid "The Gimpressionist Defaults"
+msgid "The Impressionist Defaults"
 msgstr "Gimpressionist"
 
 #: plug-ins/gimpressionist/presets.c:979
@@ -13591,8 +13590,8 @@ msgstr "Ralat: failciri XJT %s kosong"
 #~ msgid "Brush Preview:"
 #~ msgstr "Pralihat Berus"
 
-#~ msgid "<Image>/Filters/Artistic/_GIMPressionist..."
-#~ msgstr "<Image>/Filters/Artistic/_GIMPressionist..."
+#~ msgid "<Image>/Filters/Artistic/_Impressionist..."
+#~ msgstr "<Image>/Filters/Artistic/_Impressionist..."
 
 #~ msgid "Paper Preview:"
 #~ msgstr "Pralihat Kertas:"

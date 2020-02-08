@@ -9880,7 +9880,7 @@ msgid "Performs various artistic operations"
 msgstr "विभिन्न कलात्मक सञ्चालनहरू कार्यसम्पादन गर्दछ"
 
 #: ../plug-ins/gimpressionist/gimp.c:79
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "गिम्प रेस्सिनिस्ट..."
 
 #: ../plug-ins/gimpressionist/gimp.c:350
@@ -9888,7 +9888,7 @@ msgid "Painting"
 msgstr "चित्र"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:121
-msgid "GIMPressionist"
+msgid "Impressionist"
 msgstr "गिम्प रेस्सिनिस्ट"
 
 #: ../plug-ins/gimpressionist/orientation.c:74
@@ -10166,7 +10166,7 @@ msgid "Save Current"
 msgstr "हालको बचत गर्नुहोस्"
 
 #: ../plug-ins/gimpressionist/presets.c:874
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "गिमप्रेसोनिष्ट पूर्वनिर्धारितहरू"
 
 #: ../plug-ins/gimpressionist/presets.c:995

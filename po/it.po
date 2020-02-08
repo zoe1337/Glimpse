@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Glimpse 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 20:06+0000\n"
+"POT-Creation-Date: 2020-02-08 08:54+0000\n"
 "PO-Revision-Date: 2019-06-03 11:17+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: gimp@erlug.linux.it\n"
@@ -113,12 +113,12 @@ msgstr ""
 "della GNU General Public License come pubblicato dalla Free Software "
 "Foundation versione 3 o (a proprio giudizio) successive.\n"
 "\n"
-"Glimpse è distribuito sperando sia utile, ma SENZA ALCUNA GARANZIA espressa o "
-"implicita, di COMMERCIABILITÀ o di IDONEITÀ AD UNO SCOPO PARTICOLARE. Vedere "
-"la GNU General Public License per ulteriori dettagli.\n"
+"Glimpse è distribuito sperando sia utile, ma SENZA ALCUNA GARANZIA espressa "
+"o implicita, di COMMERCIABILITÀ o di IDONEITÀ AD UNO SCOPO PARTICOLARE. "
+"Vedere la GNU General Public License per ulteriori dettagli.\n"
 "\n"
-"Dovresti aver ricevuto una copia della GNU General Public License con Glimpse. "
-"Se così non fosse, vedere https://www.gnu.org/licenses/."
+"Dovresti aver ricevuto una copia della GNU General Public License con "
+"Glimpse. Se così non fosse, vedere https://www.gnu.org/licenses/."
 
 #: ../app/gimp-version.c:66 ../app/gimp-version.c:164
 #, c-format
@@ -10692,9 +10692,9 @@ msgid ""
 "that is shared by other users."
 msgstr ""
 "Imposta la cartella per la memorizzazione temporanea. Durante una sessione "
-"di Glimpse, qui appariranno i file. Alcuni verranno cancellati alla chiusura di "
-"Glimpse ma altri potrebbero restare, perciò è meglio che questa cartella non "
-"venga condivisa con altri utenti. "
+"di Glimpse, qui appariranno i file. Alcuni verranno cancellati alla chiusura "
+"di Glimpse ma altri potrebbero restare, perciò è meglio che questa cartella "
+"non venga condivisa con altri utenti. "
 
 #: ../app/config/gimprc-blurbs.h:474
 msgid "The name of the theme to use."
@@ -18615,7 +18615,8 @@ msgstr "Regola luminosità e contrasto"
 #, fuzzy
 msgid "Compute a set of coefficient buffer for the GNU I.M.P cage tool"
 msgstr ""
-"Calcola un insieme di coefficienti di buffer per lo strumento GNU I.M.P gabbia"
+"Calcola un insieme di coefficienti di buffer per lo strumento GNU I.M.P "
+"gabbia"
 
 #: ../app/operations/gimpoperationcagetransform.c:104
 #, fuzzy
@@ -24470,8 +24471,8 @@ msgstr "Apri tracker dei bug"
 msgid ""
 "To help us improve Glimpse, you can report the bug with these simple steps:"
 msgstr ""
-"Per aiutarci a migliorare Glimpse, è possibile fare rapporto sul bug con questi "
-"semplici passi:"
+"Per aiutarci a migliorare Glimpse, è possibile fare rapporto sul bug con "
+"questi semplici passi:"
 
 #: ../app/widgets/gimpcriticaldialog.c:134
 #: ../app/widgets/gimpcriticaldialog.c:457
@@ -25334,9 +25335,9 @@ msgid ""
 "The Glimpse help browser plug-in appears to be missing from your "
 "installation. You may instead use the web browser for reading the help pages."
 msgstr ""
-"Manca dall'installazione il plug-in di visualizzazione dell'aiuto di Glimpse. È "
-"comunque possibile usare un visualizzatore di pagine web per leggere le "
-"pagine dell'aiuto."
+"Manca dall'installazione il plug-in di visualizzazione dell'aiuto di "
+"Glimpse. È comunque possibile usare un visualizzatore di pagine web per "
+"leggere le pagine dell'aiuto."
 
 #: ../app/widgets/gimphelp.c:419
 msgid "Help browser doesn't start"
@@ -26878,7 +26879,8 @@ msgstr "Debug di Glimpse"
 
 #~ msgid "New dashboard dockable to monitor Glimpse resource usage"
 #~ msgstr ""
-#~ "Nuovo cruscotto agganciabile per controllare l'uso delle risorse di Glimpse"
+#~ "Nuovo cruscotto agganciabile per controllare l'uso delle risorse di "
+#~ "Glimpse"
 
 #~ msgid ""
 #~ "New debug dialog to produce back traces and other debug data, encouraging "

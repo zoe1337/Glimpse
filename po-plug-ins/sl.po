@@ -8962,7 +8962,7 @@ msgid "Performs various artistic operations"
 msgstr "Izvede različne umetniške operacije"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "_GIMPresionist ..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
@@ -8974,7 +8974,7 @@ msgid "Painting"
 msgstr "Slikanje ..."
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
+msgid "Impressionist"
 msgstr "GIMPresionist "
 
 #: ../plug-ins/gimpressionist/orientation.c:91
@@ -9256,7 +9256,7 @@ msgid "Save Current"
 msgstr "Shrani trenutno"
 
 #: ../plug-ins/gimpressionist/presets.c:893
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Privzete vrednosti Gimpresionista "
 
 #: ../plug-ins/gimpressionist/presets.c:1014

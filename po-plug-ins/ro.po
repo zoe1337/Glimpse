@@ -9100,7 +9100,7 @@ msgid "Performs various artistic operations"
 msgstr "Efectuează diferite operații artistice"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "_GIMPresionist..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
@@ -9113,7 +9113,7 @@ msgid "Painting"
 msgstr "Desenare"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
+msgid "Impressionist"
 msgstr "GIMPresionist"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
@@ -9399,7 +9399,7 @@ msgid "Save Current"
 msgstr "Salvare configurări curente"
 
 #: ../plug-ins/gimpressionist/presets.c:893
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Configurări implicite GIMPresionist"
 
 # titlu pe tab

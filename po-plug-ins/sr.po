@@ -9267,7 +9267,7 @@ msgid "Performs various artistic operations"
 msgstr "Изводи разне уметничке радње"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "_Гимпресиониста…"
 
 #: ../plug-ins/gimpressionist/gimp.c:164
@@ -9279,7 +9279,7 @@ msgid "Painting"
 msgstr "Сликам"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
+msgid "Impressionist"
 msgstr "Гимпресиониста"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
@@ -9564,7 +9564,7 @@ msgid "Save Current"
 msgstr "Сачувај текући"
 
 #: ../plug-ins/gimpressionist/presets.c:893
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "Подразумевани Гимпрессиониста"
 
 #: ../plug-ins/gimpressionist/presets.c:1014
