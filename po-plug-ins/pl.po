@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gimp-plug-ins\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-02 14:01+0200\n"
-"PO-Revision-Date: 2019-06-02 14:02+0200\n"
+"PO-Revision-Date: 2020-02-08 14:54-0800\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -21,6 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/common/align-layers.c:158
 msgid "Align all visible layers of the image"
@@ -9005,7 +9006,7 @@ msgstr "Wykonuje różne działania artystyczne"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
 msgid "_Impressionist..."
-msgstr "_GIMPresjonista…"
+msgstr "_Impresjonista…"
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -9017,7 +9018,7 @@ msgstr "Malowanie"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
 msgid "Impressionist"
-msgstr "GIMPresjonista"
+msgstr "Impresjonista"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -9302,7 +9303,7 @@ msgstr "Zapis bieżących ustawień"
 
 #: ../plug-ins/gimpressionist/presets.c:893
 msgid "Impressionist Defaults"
-msgstr "Domyślne ustawienia GIMPresjonisty"
+msgstr "Domyślne ustawienia Impresjonisty"
 
 #: ../plug-ins/gimpressionist/presets.c:1014
 msgid "_Presets"

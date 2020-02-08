@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: gimp 2.0\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2018-06-12 14:17+0000\n"
-"PO-Revision-Date: 2018-06-12 16:21+0200\n"
+"PO-Revision-Date: 2020-02-08 14:46-0800\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/common/align-layers.c:158
 msgid "Align all visible layers of the image"
@@ -44,41 +44,38 @@ msgstr "Zichtbare lagen uitlijnen"
 #: ../plug-ins/common/align-layers.c:630 ../plug-ins/common/blinds.c:225
 #: ../plug-ins/common/border-average.c:362 ../plug-ins/common/busy-dialog.c:219
 #: ../plug-ins/common/cartoon.c:813 ../plug-ins/common/checkerboard.c:350
-#: ../plug-ins/common/cml-explorer.c:1189
-#: ../plug-ins/common/cml-explorer.c:1986
+#: ../plug-ins/common/cml-explorer.c:1189 ../plug-ins/common/cml-explorer.c:1986
 #: ../plug-ins/common/cml-explorer.c:2119 ../plug-ins/common/colorify.c:257
 #: ../plug-ins/common/colormap-remap.c:621 ../plug-ins/common/compose.c:1076
-#: ../plug-ins/common/contrast-retinex.c:289
-#: ../plug-ins/common/curve-bend.c:1227 ../plug-ins/common/curve-bend.c:2065
-#: ../plug-ins/common/curve-bend.c:2100 ../plug-ins/common/decompose.c:822
-#: ../plug-ins/common/depth-merge.c:655 ../plug-ins/common/despeckle.c:445
-#: ../plug-ins/common/destripe.c:444 ../plug-ins/common/edge-dog.c:306
-#: ../plug-ins/common/edge-neon.c:700 ../plug-ins/common/emboss.c:453
-#: ../plug-ins/common/file-cel.c:936 ../plug-ins/common/file-gif-save.c:1089
-#: ../plug-ins/common/file-heif.c:927 ../plug-ins/common/file-jp2-load.c:949
-#: ../plug-ins/common/file-pdf-load.c:707
-#: ../plug-ins/common/file-pdf-load.c:1272
-#: ../plug-ins/common/file-pdf-save.c:1009 ../plug-ins/common/file-ps.c:3392
-#: ../plug-ins/common/file-raw-data.c:1833 ../plug-ins/common/file-svg.c:727
-#: ../plug-ins/common/file-wmf.c:505 ../plug-ins/common/film.c:1270
-#: ../plug-ins/common/filter-pack.c:1206 ../plug-ins/common/fractal-trace.c:711
-#: ../plug-ins/common/grid.c:647 ../plug-ins/common/hot.c:594
-#: ../plug-ins/common/jigsaw.c:2397 ../plug-ins/common/mail.c:499
-#: ../plug-ins/common/max-rgb.c:261 ../plug-ins/common/newsprint.c:1183
-#: ../plug-ins/common/nl-filter.c:1021 ../plug-ins/common/oilify.c:785
-#: ../plug-ins/common/photocopy.c:840 ../plug-ins/common/qbist.c:720
-#: ../plug-ins/common/qbist.c:762 ../plug-ins/common/qbist.c:816
-#: ../plug-ins/common/sharpen.c:476 ../plug-ins/common/smooth-palette.c:438
-#: ../plug-ins/common/softglow.c:632 ../plug-ins/common/sparkle.c:341
-#: ../plug-ins/common/sphere-designer.c:2207
+#: ../plug-ins/common/contrast-retinex.c:289 ../plug-ins/common/curve-bend.c:1227
+#: ../plug-ins/common/curve-bend.c:2065 ../plug-ins/common/curve-bend.c:2100
+#: ../plug-ins/common/decompose.c:822 ../plug-ins/common/depth-merge.c:655
+#: ../plug-ins/common/despeckle.c:445 ../plug-ins/common/destripe.c:444
+#: ../plug-ins/common/edge-dog.c:306 ../plug-ins/common/edge-neon.c:700
+#: ../plug-ins/common/emboss.c:453 ../plug-ins/common/file-cel.c:936
+#: ../plug-ins/common/file-gif-save.c:1089 ../plug-ins/common/file-heif.c:927
+#: ../plug-ins/common/file-jp2-load.c:949 ../plug-ins/common/file-pdf-load.c:707
+#: ../plug-ins/common/file-pdf-load.c:1272 ../plug-ins/common/file-pdf-save.c:1009
+#: ../plug-ins/common/file-ps.c:3392 ../plug-ins/common/file-raw-data.c:1833
+#: ../plug-ins/common/file-svg.c:727 ../plug-ins/common/file-wmf.c:505
+#: ../plug-ins/common/film.c:1270 ../plug-ins/common/filter-pack.c:1206
+#: ../plug-ins/common/fractal-trace.c:711 ../plug-ins/common/grid.c:647
+#: ../plug-ins/common/hot.c:594 ../plug-ins/common/jigsaw.c:2397
+#: ../plug-ins/common/mail.c:499 ../plug-ins/common/max-rgb.c:261
+#: ../plug-ins/common/newsprint.c:1183 ../plug-ins/common/nl-filter.c:1021
+#: ../plug-ins/common/oilify.c:785 ../plug-ins/common/photocopy.c:840
+#: ../plug-ins/common/qbist.c:720 ../plug-ins/common/qbist.c:762
+#: ../plug-ins/common/qbist.c:816 ../plug-ins/common/sharpen.c:476
+#: ../plug-ins/common/smooth-palette.c:438 ../plug-ins/common/softglow.c:632
+#: ../plug-ins/common/sparkle.c:341 ../plug-ins/common/sphere-designer.c:2207
 #: ../plug-ins/common/sphere-designer.c:2561 ../plug-ins/common/tile.c:438
 #: ../plug-ins/common/tile-small.c:373 ../plug-ins/common/unit-editor.c:209
 #: ../plug-ins/common/unsharp-mask.c:842 ../plug-ins/common/van-gogh-lic.c:647
 #: ../plug-ins/common/warp.c:378 ../plug-ins/common/wavelet-decompose.c:354
 #: ../plug-ins/common/web-page.c:234 ../plug-ins/file-fits/fits.c:1150
-#: ../plug-ins/file-fli/fli-gimp.c:870
-#: ../plug-ins/file-tiff/file-tiff-load.c:147 ../plug-ins/flame/flame.c:473
-#: ../plug-ins/flame/flame.c:649 ../plug-ins/flame/flame.c:971
+#: ../plug-ins/file-fli/fli-gimp.c:870 ../plug-ins/file-tiff/file-tiff-load.c:147
+#: ../plug-ins/flame/flame.c:473 ../plug-ins/flame/flame.c:649
+#: ../plug-ins/flame/flame.c:971
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:566
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1641
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1679
@@ -99,15 +96,14 @@ msgstr "Zichtbare lagen uitlijnen"
 #: ../plug-ins/imagemap/imap_browse.c:80
 #: ../plug-ins/imagemap/imap_default_dialog.c:106
 #: ../plug-ins/imagemap/imap_file.c:71 ../plug-ins/imagemap/imap_file.c:124
-#: ../plug-ins/lighting/lighting-ui.c:1037
-#: ../plug-ins/lighting/lighting-ui.c:1162
+#: ../plug-ins/lighting/lighting-ui.c:1037 ../plug-ins/lighting/lighting-ui.c:1162
 #: ../plug-ins/lighting/lighting-ui.c:1306
 #: ../plug-ins/map-object/map-object-ui.c:1333
 #: ../plug-ins/metadata/metadata-editor.c:547
 #: ../plug-ins/metadata/metadata-editor.c:765
 #: ../plug-ins/metadata/metadata-editor.c:5648
-#: ../plug-ins/metadata/metadata-editor.c:5683
-#: ../plug-ins/pagecurl/pagecurl.c:439 ../plug-ins/screenshot/screenshot.c:486
+#: ../plug-ins/metadata/metadata-editor.c:5683 ../plug-ins/pagecurl/pagecurl.c:439
+#: ../plug-ins/screenshot/screenshot.c:486
 #: ../plug-ins/selection-to-path/selection-to-path.c:309
 msgid "_Cancel"
 msgstr "_Annuleren"
@@ -147,8 +143,7 @@ msgstr "_Annuleren"
 #: ../plug-ins/ifs-compose/ifs-compose.c:764
 #: ../plug-ins/imagemap/imap_default_dialog.c:109
 #: ../plug-ins/lighting/lighting-ui.c:1038
-#: ../plug-ins/map-object/map-object-ui.c:1334
-#: ../plug-ins/pagecurl/pagecurl.c:440
+#: ../plug-ins/map-object/map-object-ui.c:1334 ../plug-ins/pagecurl/pagecurl.c:440
 #: ../plug-ins/selection-to-path/selection-to-path.c:310
 msgid "_OK"
 msgstr "_OK"
@@ -290,8 +285,7 @@ msgid "_Playback..."
 msgstr "_Afspelen..."
 
 #. list is given in "fps" - frames per second
-#: ../plug-ins/common/animation-play.c:354
-#: ../plug-ins/common/animation-play.c:406
+#: ../plug-ins/common/animation-play.c:354 ../plug-ins/common/animation-play.c:406
 #: ../plug-ins/common/animation-play.c:865
 #, c-format
 msgid "%.1f %%"
@@ -384,13 +378,11 @@ msgid "Playback speed"
 msgstr "Afspeelsnelheid"
 
 #. 2 styles of default frame disposals: cumulative layers and one frame per layer.
-#: ../plug-ins/common/animation-play.c:931
-#: ../plug-ins/common/file-gif-save.c:1298
+#: ../plug-ins/common/animation-play.c:931 ../plug-ins/common/file-gif-save.c:1298
 msgid "Cumulative layers (combine)"
 msgstr "Cumulatieve lagen (combineren)"
 
-#: ../plug-ins/common/animation-play.c:935
-#: ../plug-ins/common/file-gif-save.c:1300
+#: ../plug-ins/common/animation-play.c:935 ../plug-ins/common/file-gif-save.c:1300
 msgid "One frame per layer (replace)"
 msgstr "Eén frame per laag (vervangen)"
 
@@ -451,18 +443,17 @@ msgstr "_Verticaal"
 #: ../plug-ins/common/file-jp2-load.c:1275 ../plug-ins/common/file-pcx.c:445
 #: ../plug-ins/common/file-pcx.c:453 ../plug-ins/common/file-pix.c:400
 #: ../plug-ins/common/file-png.c:1079 ../plug-ins/common/file-pnm.c:685
-#: ../plug-ins/common/file-raw-data.c:1392
-#: ../plug-ins/common/file-sunras.c:1049 ../plug-ins/common/file-tga.c:1097
-#: ../plug-ins/common/file-xbm.c:904 ../plug-ins/common/film.c:745
-#: ../plug-ins/common/smooth-palette.c:259 ../plug-ins/common/tile.c:354
-#: ../plug-ins/file-bmp/bmp-load.c:734 ../plug-ins/file-exr/file-exr.c:258
-#: ../plug-ins/file-faxg3/faxg3.c:525 ../plug-ins/file-fits/fits.c:529
-#: ../plug-ins/file-jpeg/jpeg-load.c:240
+#: ../plug-ins/common/file-raw-data.c:1392 ../plug-ins/common/file-sunras.c:1049
+#: ../plug-ins/common/file-tga.c:1097 ../plug-ins/common/file-xbm.c:904
+#: ../plug-ins/common/film.c:745 ../plug-ins/common/smooth-palette.c:259
+#: ../plug-ins/common/tile.c:354 ../plug-ins/file-bmp/bmp-load.c:734
+#: ../plug-ins/file-exr/file-exr.c:258 ../plug-ins/file-faxg3/faxg3.c:525
+#: ../plug-ins/file-fits/fits.c:529 ../plug-ins/file-jpeg/jpeg-load.c:240
 #: ../plug-ins/file-psd/psd-image-res-load.c:1033
 #: ../plug-ins/file-psd/psd-load.c:1833 ../plug-ins/file-sgi/sgi.c:411
 #: ../plug-ins/file-tiff/file-tiff-load.c:924
-#: ../plug-ins/file-webp/file-webp-load.c:149
-#: ../plug-ins/gfig/gfig-dialog.c:1321 ../plug-ins/gimpressionist/general.c:139
+#: ../plug-ins/file-webp/file-webp-load.c:149 ../plug-ins/gfig/gfig-dialog.c:1321
+#: ../plug-ins/gimpressionist/general.c:139
 #: ../plug-ins/map-object/map-object-apply.c:252
 #: ../plug-ins/screenshot/screenshot-win32.c:312 ../plug-ins/twain/twain.c:567
 msgid "Background"
@@ -793,8 +784,7 @@ msgid "Randoms from seed (shared)"
 msgstr "Willekeurig met beginwaarde (gedeeld)"
 
 #: ../plug-ins/common/cml-explorer.c:300 ../plug-ins/common/cml-explorer.c:308
-#: ../plug-ins/common/decompose.c:184
-#: ../plug-ins/gimpressionist/orientation.c:179
+#: ../plug-ins/common/decompose.c:184 ../plug-ins/gimpressionist/orientation.c:179
 #: ../plug-ins/gimpressionist/size.c:182
 msgid "Hue"
 msgstr "Tint"
@@ -805,8 +795,7 @@ msgid "Saturation"
 msgstr "Verzadiging"
 
 #: ../plug-ins/common/cml-explorer.c:302 ../plug-ins/common/cml-explorer.c:310
-#: ../plug-ins/common/decompose.c:186
-#: ../plug-ins/gimpressionist/orientation.c:155
+#: ../plug-ins/common/decompose.c:186 ../plug-ins/gimpressionist/orientation.c:155
 #: ../plug-ins/gimpressionist/size.c:158
 #: ../plug-ins/ui/plug-in-metadata-viewer.ui.h:2
 msgid "Value"
@@ -847,10 +836,9 @@ msgid "Random Seed"
 msgstr "Willekeurige beginwaarde"
 
 #. The Load button
-#: ../plug-ins/common/cml-explorer.c:1269
-#: ../plug-ins/common/cml-explorer.c:2120 ../plug-ins/common/curve-bend.c:1488
-#: ../plug-ins/common/curve-bend.c:2066 ../plug-ins/common/file-cel.c:937
-#: ../plug-ins/common/file-jp2-load.c:950
+#: ../plug-ins/common/cml-explorer.c:1269 ../plug-ins/common/cml-explorer.c:2120
+#: ../plug-ins/common/curve-bend.c:1488 ../plug-ins/common/curve-bend.c:2066
+#: ../plug-ins/common/file-cel.c:937 ../plug-ins/common/file-jp2-load.c:950
 #: ../plug-ins/common/file-raw-data.c:1834 ../plug-ins/common/qbist.c:721
 #: ../plug-ins/common/qbist.c:885 ../plug-ins/common/sphere-designer.c:2210
 #: ../plug-ins/common/sphere-designer.c:2610 ../plug-ins/file-fits/fits.c:1151
@@ -861,26 +849,23 @@ msgstr "Willekeurige beginwaarde"
 #: ../plug-ins/gfig/gfig-dialog.c:640 ../plug-ins/ifs-compose/ifs-compose.c:760
 #: ../plug-ins/ifs-compose/ifs-compose.c:2568
 #: ../plug-ins/imagemap/imap_browse.c:81 ../plug-ins/imagemap/imap_file.c:72
-#: ../plug-ins/lighting/lighting-ui.c:600
-#: ../plug-ins/lighting/lighting-ui.c:1307
+#: ../plug-ins/lighting/lighting-ui.c:600 ../plug-ins/lighting/lighting-ui.c:1307
 msgid "_Open"
 msgstr "_Openen"
 
 #. The Save button
-#: ../plug-ins/common/cml-explorer.c:1277
-#: ../plug-ins/common/cml-explorer.c:1987 ../plug-ins/common/curve-bend.c:1500
-#: ../plug-ins/common/curve-bend.c:2101 ../plug-ins/common/file-pdf-save.c:1008
-#: ../plug-ins/common/qbist.c:763 ../plug-ins/common/qbist.c:893
-#: ../plug-ins/common/sphere-designer.c:2210
+#: ../plug-ins/common/cml-explorer.c:1277 ../plug-ins/common/cml-explorer.c:1987
+#: ../plug-ins/common/curve-bend.c:1500 ../plug-ins/common/curve-bend.c:2101
+#: ../plug-ins/common/file-pdf-save.c:1008 ../plug-ins/common/qbist.c:763
+#: ../plug-ins/common/qbist.c:893 ../plug-ins/common/sphere-designer.c:2210
 #: ../plug-ins/common/sphere-designer.c:2618 ../plug-ins/flame/flame.c:475
 #: ../plug-ins/flame/flame.c:1053
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:822
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1680
 #: ../plug-ins/gfig/gfig-dialog.c:689 ../plug-ins/gimpressionist/brush.c:257
 #: ../plug-ins/ifs-compose/ifs-compose.c:761
-#: ../plug-ins/ifs-compose/ifs-compose.c:2531
-#: ../plug-ins/imagemap/imap_file.c:125 ../plug-ins/lighting/lighting-ui.c:593
-#: ../plug-ins/lighting/lighting-ui.c:1163
+#: ../plug-ins/ifs-compose/ifs-compose.c:2531 ../plug-ins/imagemap/imap_file.c:125
+#: ../plug-ins/lighting/lighting-ui.c:593 ../plug-ins/lighting/lighting-ui.c:1163
 msgid "_Save"
 msgstr "Op_slaan"
 
@@ -937,13 +922,13 @@ msgstr "Schakel naar \"Met beginwaarde\" met de laatste beginwaarde"
 msgid ""
 "\"Fix seed\" button is an alias of me.\n"
 "The same seed produces the same image, if (1) the widths of images are same "
-"(this is the reason why image on drawable is different from preview), and "
-"(2) all mutation rates equal to zero."
+"(this is the reason why image on drawable is different from preview), and (2) "
+"all mutation rates equal to zero."
 msgstr ""
 "\"Vaste beginwaarde\"-knop is een alias van mij.\n"
-"De zelfde beginwaarde resulteert in dezelfde afbeelding als (1) de breedten "
-"van afbeeldingen hetzelfde zijn (dit is de reden dat het voorbeeld verschilt "
-"van de uiteindelijke afbeelding) en (2) alle mutatieratios nul zijn."
+"De zelfde beginwaarde resulteert in dezelfde afbeelding als (1) de breedten van "
+"afbeeldingen hetzelfde zijn (dit is de reden dat het voorbeeld verschilt van de "
+"uiteindelijke afbeelding) en (2) alle mutatieratios nul zijn."
 
 #: ../plug-ins/common/cml-explorer.c:1413
 msgid "O_thers"
@@ -957,8 +942,7 @@ msgstr "Instellingen kopiëren"
 msgid "Source channel:"
 msgstr "Bronkanaal:"
 
-#: ../plug-ins/common/cml-explorer.c:1462
-#: ../plug-ins/common/cml-explorer.c:1510
+#: ../plug-ins/common/cml-explorer.c:1462 ../plug-ins/common/cml-explorer.c:1510
 msgid "Destination channel:"
 msgstr "Doelkanaal:"
 
@@ -1052,10 +1036,9 @@ msgstr "Grafiek van de huidige instellingen"
 #: ../plug-ins/common/color-cube-analyze.c:364
 #: ../plug-ins/common/plugin-browser.c:550
 #: ../plug-ins/common/procedure-browser.c:129
-#: ../plug-ins/common/sample-colorize.c:1331
-#: ../plug-ins/common/unit-editor.c:417 ../plug-ins/gfig/gfig-dialog.c:292
-#: ../plug-ins/gfig/gfig-dialog.c:880 ../plug-ins/gfig/gfig-dialog.c:1246
-#: ../plug-ins/gfig/gfig-dialog.c:1394
+#: ../plug-ins/common/sample-colorize.c:1331 ../plug-ins/common/unit-editor.c:417
+#: ../plug-ins/gfig/gfig-dialog.c:292 ../plug-ins/gfig/gfig-dialog.c:880
+#: ../plug-ins/gfig/gfig-dialog.c:1246 ../plug-ins/gfig/gfig-dialog.c:1394
 #: ../plug-ins/ifs-compose/ifs-compose.c:1165
 #: ../plug-ins/metadata/metadata-viewer.c:227
 msgid "_Close"
@@ -1073,10 +1056,9 @@ msgstr "CML-verkennerparameters opslaan"
 #: ../plug-ins/common/file-dicom.c:1371 ../plug-ins/common/file-mng.c:648
 #: ../plug-ins/common/file-mng.c:985 ../plug-ins/common/file-pcx.c:854
 #: ../plug-ins/common/file-pdf-save.c:468 ../plug-ins/common/file-png.c:1582
-#: ../plug-ins/common/file-raw-data.c:1192
-#: ../plug-ins/common/file-raw-data.c:1220 ../plug-ins/common/file-sunras.c:610
-#: ../plug-ins/common/file-tga.c:1208 ../plug-ins/common/file-xmc.c:1490
-#: ../plug-ins/common/sphere-designer.c:2121
+#: ../plug-ins/common/file-raw-data.c:1192 ../plug-ins/common/file-raw-data.c:1220
+#: ../plug-ins/common/file-sunras.c:610 ../plug-ins/common/file-tga.c:1208
+#: ../plug-ins/common/file-xmc.c:1490 ../plug-ins/common/sphere-designer.c:2121
 #: ../plug-ins/file-bmp/bmp-save.c:318 ../plug-ins/file-fits/fits.c:481
 #: ../plug-ins/file-fli/fli-gimp.c:750 ../plug-ins/file-ico/ico-save.c:1087
 #: ../plug-ins/file-jpeg/jpeg-save.c:328 ../plug-ins/file-psd/psd-save.c:1599
@@ -1105,22 +1087,21 @@ msgstr "CML-verkennerparameters laden"
 #: ../plug-ins/common/file-pcx.c:375 ../plug-ins/common/file-png.c:927
 #: ../plug-ins/common/file-ps.c:1071 ../plug-ins/common/file-ps.c:3342
 #: ../plug-ins/common/file-psp.c:1772 ../plug-ins/common/file-psp.c:1826
-#: ../plug-ins/common/file-raw-data.c:477
-#: ../plug-ins/common/file-raw-data.c:1301 ../plug-ins/common/file-sunras.c:436
-#: ../plug-ins/common/file-svg.c:329 ../plug-ins/common/file-svg.c:711
-#: ../plug-ins/common/file-tga.c:446 ../plug-ins/common/file-xbm.c:747
-#: ../plug-ins/common/file-xmc.c:665 ../plug-ins/common/file-xmc.c:848
-#: ../plug-ins/common/file-xwd.c:455 ../plug-ins/common/sphere-designer.c:2010
-#: ../plug-ins/file-bmp/bmp-load.c:226 ../plug-ins/file-faxg3/faxg3.c:234
-#: ../plug-ins/file-fits/fits.c:360 ../plug-ins/file-fli/fli-gimp.c:462
-#: ../plug-ins/file-fli/fli-gimp.c:501 ../plug-ins/file-ico/ico-load.c:672
-#: ../plug-ins/file-ico/ico-load.c:750 ../plug-ins/file-jpeg/jpeg-load.c:96
-#: ../plug-ins/file-jpeg/jpeg-load.c:541 ../plug-ins/file-psd/psd-load.c:138
-#: ../plug-ins/file-psd/psd-thumb-load.c:82 ../plug-ins/flame/flame.c:411
+#: ../plug-ins/common/file-raw-data.c:477 ../plug-ins/common/file-raw-data.c:1301
+#: ../plug-ins/common/file-sunras.c:436 ../plug-ins/common/file-svg.c:329
+#: ../plug-ins/common/file-svg.c:711 ../plug-ins/common/file-tga.c:446
+#: ../plug-ins/common/file-xbm.c:747 ../plug-ins/common/file-xmc.c:665
+#: ../plug-ins/common/file-xmc.c:848 ../plug-ins/common/file-xwd.c:455
+#: ../plug-ins/common/sphere-designer.c:2010 ../plug-ins/file-bmp/bmp-load.c:226
+#: ../plug-ins/file-faxg3/faxg3.c:234 ../plug-ins/file-fits/fits.c:360
+#: ../plug-ins/file-fli/fli-gimp.c:462 ../plug-ins/file-fli/fli-gimp.c:501
+#: ../plug-ins/file-ico/ico-load.c:672 ../plug-ins/file-ico/ico-load.c:750
+#: ../plug-ins/file-jpeg/jpeg-load.c:96 ../plug-ins/file-jpeg/jpeg-load.c:541
+#: ../plug-ins/file-psd/psd-load.c:138 ../plug-ins/file-psd/psd-thumb-load.c:82
+#: ../plug-ins/flame/flame.c:411
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1865
-#: ../plug-ins/fractal-explorer/fractal-explorer.c:924
-#: ../plug-ins/gfig/gfig.c:426 ../plug-ins/help/gimphelplocale.c:222
-#: ../plug-ins/help/gimphelplocale.c:238
+#: ../plug-ins/fractal-explorer/fractal-explorer.c:924 ../plug-ins/gfig/gfig.c:426
+#: ../plug-ins/help/gimphelplocale.c:222 ../plug-ins/help/gimphelplocale.c:238
 #: ../plug-ins/lighting/lighting-ui.c:1376
 #, c-format
 msgid "Could not open '%s' for reading: %s"
@@ -1233,13 +1214,11 @@ msgstr "Twee kleuren in een kleurenkaart omwisselen"
 msgid "_Swap Colors"
 msgstr "_Kleuren omwisselen"
 
-#: ../plug-ins/common/colormap-remap.c:287
-#: ../plug-ins/common/colormap-remap.c:298
+#: ../plug-ins/common/colormap-remap.c:287 ../plug-ins/common/colormap-remap.c:298
 #: ../plug-ins/common/colormap-remap.c:309
 msgid "Invalid remap array was passed to remap function"
 msgstr ""
-"Er is een ongeldige herprojectie-array doorgegeven aan de herprojectie-"
-"functie"
+"Er is een ongeldige herprojectie-array doorgegeven aan de herprojectie-functie"
 
 #: ../plug-ins/common/colormap-remap.c:333
 msgid "Rearranging the colormap"
@@ -1271,10 +1250,8 @@ msgstr "Kleurenkaart opnieuw ordenen"
 
 #. The Reset button
 #: ../plug-ins/common/colormap-remap.c:620 ../plug-ins/common/curve-bend.c:1471
-#: ../plug-ins/common/filter-pack.c:1205
-#: ../plug-ins/common/sample-colorize.c:1329
-#: ../plug-ins/common/sphere-designer.c:2560
-#: ../plug-ins/common/tile-small.c:452
+#: ../plug-ins/common/filter-pack.c:1205 ../plug-ins/common/sample-colorize.c:1329
+#: ../plug-ins/common/sphere-designer.c:2560 ../plug-ins/common/tile-small.c:452
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:813
 #: ../plug-ins/gimpressionist/preview.c:182
 #: ../plug-ins/ifs-compose/ifs-compose.c:762
@@ -1287,8 +1264,8 @@ msgid ""
 "Drag and drop colors to rearrange the colormap.  The numbers shown are the "
 "original indices.  Right-click for a menu with sort options."
 msgstr ""
-"Sleep en zet kleuren neer om de kleurenkaart te herordenen. De getoonde "
-"nummers zijn de oorspronkelijke aanduidingen. Rechts-klik voor een menu met "
+"Sleep en zet kleuren neer om de kleurenkaart te herordenen. De getoonde nummers "
+"zijn de oorspronkelijke aanduidingen. Rechts-klik voor een menu met "
 "sorteeropties."
 
 #. Decompositions availables.
@@ -1446,8 +1423,8 @@ msgstr "YCbCr_ITU_R709_256"
 #: ../plug-ins/common/compose.c:400
 msgid "Create an image using multiple gray images as color channels"
 msgstr ""
-"Een afbeelding aanmaken met gebruik van verschillende "
-"grijswaardenafbeeldingen als kleurkanalen"
+"Een afbeelding aanmaken met gebruik van verschillende grijswaardenafbeeldingen "
+"als kleurkanalen"
 
 #: ../plug-ins/common/compose.c:406
 msgid "C_ompose..."
@@ -1600,8 +1577,7 @@ msgstr "Retinex: filteren"
 
 #: ../plug-ins/common/crop-zealous.c:69
 msgid "Autocrop unused space from edges and middle"
-msgstr ""
-"Ongebruikte ruimte aan de randen en in het midden automatisch wegsnijden"
+msgstr "Ongebruikte ruimte aan de randen en in het midden automatisch wegsnijden"
 
 #: ../plug-ins/common/crop-zealous.c:74
 msgid "_Zealous Crop"
@@ -1648,8 +1624,7 @@ msgstr "Ombuigen"
 
 #. Preview area, top of column
 #. preview
-#: ../plug-ins/common/curve-bend.c:1260
-#: ../plug-ins/gimpressionist/orientmap.c:590
+#: ../plug-ins/common/curve-bend.c:1260 ../plug-ins/gimpressionist/orientmap.c:590
 #: ../plug-ins/gimpressionist/sizemap.c:458
 #: ../plug-ins/print/print-page-layout.c:176
 msgid "Preview"
@@ -1935,8 +1910,7 @@ msgstr "Geel_K"
 
 #: ../plug-ins/common/decompose.c:271 ../plug-ins/common/decompose.c:285
 msgid "Decompose an image into separate colorspace components"
-msgstr ""
-"Een afbeelding ontleden in afzonderlijke componenten van de kleurruimte"
+msgstr "Een afbeelding ontleden in afzonderlijke componenten van de kleurruimte"
 
 #: ../plug-ins/common/decompose.c:277 ../plug-ins/common/decompose.c:295
 msgid "_Decompose..."
@@ -1972,8 +1946,8 @@ msgid ""
 "can be used for things like crop marks that have to show up on all channels."
 msgstr ""
 "Beeldpunten in de voorgrondkleur zullen als zwart weergegeven worden in alle "
-"uitvoerafbeeldingen. Dit kan gebruikt worden voor zaken zoals snijtekens die "
-"op alle kanalen moeten verschijnen."
+"uitvoerafbeeldingen. Dit kan gebruikt worden voor zaken zoals snijtekens die op "
+"alle kanalen moeten verschijnen."
 
 #: ../plug-ins/common/depth-merge.c:183
 msgid "Combine two images using depth maps (z-buffers)"
@@ -2077,9 +2051,8 @@ msgstr "Ontstrepen"
 
 #: ../plug-ins/common/destripe.c:476 ../plug-ins/common/file-html-table.c:641
 #: ../plug-ins/common/file-ps.c:3467 ../plug-ins/common/file-ps.c:3672
-#: ../plug-ins/common/file-raw-data.c:1986
-#: ../plug-ins/common/smooth-palette.c:458 ../plug-ins/common/tile.c:465
-#: ../plug-ins/imagemap/imap_cmd_guides.c:163
+#: ../plug-ins/common/file-raw-data.c:1986 ../plug-ins/common/smooth-palette.c:458
+#: ../plug-ins/common/tile.c:465 ../plug-ins/imagemap/imap_cmd_guides.c:163
 #: ../plug-ins/imagemap/imap_rectangle.c:399
 #: ../plug-ins/print/print-page-layout.c:284
 msgid "_Width:"
@@ -2276,8 +2249,8 @@ msgid ""
 "illegal image dimensions: width: %d, horizontal offset: %d, height: %d, "
 "vertical offset: %d"
 msgstr ""
-"ongeldige beeldafmetingen: breedte: %d, horizontale verschuiving: %d, "
-"hoogte: %d, verticale verschuiving: %d"
+"ongeldige beeldafmetingen: breedte: %d, horizontale verschuiving: %d, hoogte: "
+"%d, verticale verschuiving: %d"
 
 #: ../plug-ins/common/file-cel.c:432
 #, c-format
@@ -2410,8 +2383,7 @@ msgstr "xz-archief"
 
 #: ../plug-ins/common/file-compressor.c:421
 msgid "No sensible file extension, saving as compressed XCF."
-msgstr ""
-"Geen zinvolle extensie, bestand wordt opgeslagen als gecomprimeerd XCF."
+msgstr "Geen zinvolle extensie, bestand wordt opgeslagen als gecomprimeerd XCF."
 
 #: ../plug-ins/common/file-compressor.c:444
 #, c-format
@@ -2420,8 +2392,7 @@ msgstr "Comprimeren van ‘%s’"
 
 #: ../plug-ins/common/file-compressor.c:481
 msgid "No sensible file extension, attempting to load with file magic."
-msgstr ""
-"Geen zinvolle extensie, probeer bestand te laden met \"bestandsmagie\"."
+msgstr "Geen zinvolle extensie, probeer bestand te laden met \"bestandsmagie\"."
 
 #: ../plug-ins/common/file-desktop-link.c:83
 msgid "Desktop Link"
@@ -2519,8 +2490,7 @@ msgstr "OpenEXR-afbeelding"
 msgid "Could not open '%s'"
 msgstr "Kon ‘%s’ niet openen"
 
-#: ../plug-ins/common/file-gif-load.c:148
-#: ../plug-ins/common/file-gif-save.c:167
+#: ../plug-ins/common/file-gif-load.c:148 ../plug-ins/common/file-gif-save.c:167
 #: ../plug-ins/common/file-gif-save.c:186
 msgid "GIF image"
 msgstr "GIF-afbeelding"
@@ -2563,8 +2533,8 @@ msgid ""
 "GIF: Undocumented GIF composite type %d is not handled.  Animation might not "
 "play or re-save perfectly."
 msgstr ""
-"GIF: niet-gedocumenteerd GIF compositietype %d wordt niet ondersteund. "
-"Animatie kan gebrekkig afspelen of opgeslagen worden."
+"GIF: niet-gedocumenteerd GIF compositietype %d wordt niet ondersteund. Animatie "
+"kan gebrekkig afspelen of opgeslagen worden."
 
 #: ../plug-ins/common/file-gif-save.c:541
 msgid "Couldn't simply reduce colors further. Exporting as opaque."
@@ -2577,8 +2547,8 @@ msgid ""
 "Unable to export '%s'.  The GIF file format does not support images that are "
 "more than %d pixels wide or tall."
 msgstr ""
-"Kon '%s' niet exporteren. Het GIF-bestandsformaat ondersteunt geen "
-"afbeeldingen die meer dan %d pixels breed of hoog zijn."
+"Kon '%s' niet exporteren. Het GIF-bestandsformaat ondersteunt geen afbeeldingen "
+"die meer dan %d pixels breed of hoog zijn."
 
 #: ../plug-ins/common/file-gif-save.c:773
 msgid ""
@@ -2592,19 +2562,18 @@ msgstr ""
 msgid ""
 "Cannot export RGB color images. Convert to indexed color or grayscale first."
 msgstr ""
-"Kan RGB-afbeeldingen niet exporteren. Converteer eerst naar Geïndexeerde "
-"kleur of Grijswaarden."
+"Kan RGB-afbeeldingen niet exporteren. Converteer eerst naar Geïndexeerde kleur "
+"of Grijswaarden."
 
 #: ../plug-ins/common/file-gif-save.c:1035
 msgid "Delay inserted to prevent evil CPU-sucking animation."
 msgstr ""
-"Wachttijd ingevoegd om te verhinderen dat boosaardige animatie rekentijd "
-"vreet."
+"Wachttijd ingevoegd om te verhinderen dat boosaardige animatie rekentijd vreet."
 
 #: ../plug-ins/common/file-gif-save.c:1084
 msgid ""
-"The image you are trying to export as a GIF contains layers which extend "
-"beyond the actual borders of the image."
+"The image you are trying to export as a GIF contains layers which extend beyond "
+"the actual borders of the image."
 msgstr ""
 "De afbeelding die u probeert op te slaan in het GIF-formaat bevat lagen die "
 "voorbij de grenzen van de afbeelding strekken."
@@ -2615,8 +2584,8 @@ msgstr "_Bijsnijden"
 
 #: ../plug-ins/common/file-gif-save.c:1101
 msgid ""
-"The GIF file format does not allow this.  You may choose whether to crop all "
-"of the layers to the image borders, or cancel this export."
+"The GIF file format does not allow this.  You may choose whether to crop all of "
+"the layers to the image borders, or cancel this export."
 msgstr ""
 "Dit is niet toegestaan in GIF-bestanden. U kunt kiezen om alle lagen op de "
 "afbeeldingsgrenzen bij te snijden of om het exporteren te annuleren."
@@ -2719,8 +2688,8 @@ msgstr "Laad HEIF-afbeeldingen"
 
 #: ../plug-ins/common/file-heif.c:107
 msgid ""
-"Load image stored in HEIF format (High Efficiency Image File Format). "
-"Typical suffices for HEIF files are .heif, .heic."
+"Load image stored in HEIF format (High Efficiency Image File Format). Typical "
+"suffices for HEIF files are .heif, .heic."
 msgstr ""
 "Laad afbeelding in het HEIF-formaat (High Efficiency Image File Format). "
 "Typische extensies zijn .heif, .heic."
@@ -2820,11 +2789,11 @@ msgstr "_Genereer volledig HTML-document"
 
 #: ../plug-ins/common/file-html-table.c:512
 msgid ""
-"If checked GTM will output a full HTML document with <HTML>, <BODY>, etc. "
-"tags instead of just the table html."
+"If checked GTM will output a full HTML document with <HTML>, <BODY>, etc. tags "
+"instead of just the table html."
 msgstr ""
-"Indien geselecteerd zal GTM een compleet HTML-document produceren met tags "
-"als <HTML>, <BODY> enz. in plaats van slechts de HTML-code voor de tabel."
+"Indien geselecteerd zal GTM een compleet HTML-document produceren met tags als "
+"<HTML>, <BODY> enz. in plaats van slechts de HTML-code voor de tabel."
 
 #. HTML Table Creation Options
 #: ../plug-ins/common/file-html-table.c:525
@@ -2840,8 +2809,8 @@ msgid ""
 "If checked GTM will replace any rectangular sections of identically colored "
 "blocks with one large cell with ROWSPAN and COLSPAN values."
 msgstr ""
-"Indien geselecteerd zal GTM rechthoekige delen van identiek gekleurde "
-"blokken vervangen door een grote cel met ROWSPAN- en COLSPAN-waarden."
+"Indien geselecteerd zal GTM rechthoekige delen van identiek gekleurde blokken "
+"vervangen door een grote cel met ROWSPAN- en COLSPAN-waarden."
 
 #: ../plug-ins/common/file-html-table.c:548
 msgid "Co_mpress TD tags"
@@ -2849,9 +2818,8 @@ msgstr "Comprimeer TD-tags"
 
 #: ../plug-ins/common/file-html-table.c:554
 msgid ""
-"Checking this tag will cause GTM to leave no whitespace between the TD tags "
-"and the cellcontent.  This is only necessary for pixel level positioning "
-"control."
+"Checking this tag will cause GTM to leave no whitespace between the TD tags and "
+"the cellcontent.  This is only necessary for pixel level positioning control."
 msgstr ""
 "Indien geselecteerd zal GTM geen witruimte plaatsen tussen TD-tags en de "
 "celinhoud. Dit is alleen nodig als u tot op het beeldpunt controle wilt."
@@ -2907,8 +2875,7 @@ msgstr "_Hoogte:"
 #: ../plug-ins/common/file-html-table.c:661
 msgid "The height for each table cell.  Can be a number or a percent."
 msgstr ""
-"De hoogte voor elke tabelcel. Kan een aantal beeldpunten of een percentage "
-"zijn."
+"De hoogte voor elke tabelcel. Kan een aantal beeldpunten of een percentage zijn."
 
 #: ../plug-ins/common/file-html-table.c:674
 msgid "Cell-_padding:"
@@ -2936,18 +2903,15 @@ msgstr "JPEG 2000 codestream"
 
 #. Can be RGB, YUV and YCC.
 #. Can be RGB, YUV and YCC with alpha or CMYK.
-#: ../plug-ins/common/file-jp2-load.c:974
-#: ../plug-ins/common/file-jp2-load.c:982
+#: ../plug-ins/common/file-jp2-load.c:974 ../plug-ins/common/file-jp2-load.c:982
 msgid "sRGB"
 msgstr "sRGB"
 
-#: ../plug-ins/common/file-jp2-load.c:975
-#: ../plug-ins/common/file-jp2-load.c:983
+#: ../plug-ins/common/file-jp2-load.c:975 ../plug-ins/common/file-jp2-load.c:983
 msgid "YCbCr"
 msgstr "YCbCr"
 
-#: ../plug-ins/common/file-jp2-load.c:976
-#: ../plug-ins/common/file-jp2-load.c:984
+#: ../plug-ins/common/file-jp2-load.c:976 ../plug-ins/common/file-jp2-load.c:984
 msgid "xvYCC"
 msgstr "xvYCC"
 
@@ -3023,8 +2987,8 @@ msgstr "Niet-ondersteunde kleurmodus: %s."
 #: ../plug-ins/common/file-mng.c:533 ../plug-ins/common/file-png.c:2285
 msgid "Couldn't losslessly save transparency, saving opacity instead."
 msgstr ""
-"Kon de transparantie niet zonder verlies opslaan, in de plaats daarvan wordt "
-"de dekking opgeslagen."
+"Kon de transparantie niet zonder verlies opslaan, in de plaats daarvan wordt de "
+"dekking opgeslagen."
 
 #: ../plug-ins/common/file-mng.c:1337
 msgid "MNG"
@@ -3124,8 +3088,7 @@ msgid "Default frame delay:"
 msgstr "Standaard framevertraging:"
 
 #. label for 'ms' adjustment
-#: ../plug-ins/common/file-mng.c:1546
-#: ../plug-ins/file-webp/file-webp-dialog.c:349
+#: ../plug-ins/common/file-mng.c:1546 ../plug-ins/file-webp/file-webp-dialog.c:349
 #: ../plug-ins/ui/plug-in-file-gif.ui.h:8
 msgid "milliseconds"
 msgstr "milliseconden"
@@ -3135,9 +3098,8 @@ msgid ""
 "These options are only available when the exported image has more than one "
 "layer. The image you are exporting only has one layer."
 msgstr ""
-"Deze opties zijn alleen beschikbaar als het geëxporteerde bestand meer dan "
-"één laag heeft. De afbeelding die u wilt exporteren bevat slechts een enkele "
-"laag."
+"Deze opties zijn alleen beschikbaar als het geëxporteerde bestand meer dan één "
+"laag heeft. De afbeelding die u wilt exporteren bevat slechts een enkele laag."
 
 #: ../plug-ins/common/file-mng.c:1622
 msgid "MNG animation"
@@ -3228,10 +3190,8 @@ msgstr "Onderkant valt buiten grens (moet < %d zijn): %d"
 msgid "Writing to file '%s' failed: %s"
 msgstr "Fout bij schrijven naar bestand '%s': %s"
 
-#: ../plug-ins/common/file-pdf-load.c:321
-#: ../plug-ins/common/file-pdf-load.c:340
-#: ../plug-ins/common/file-pdf-save.c:338
-#: ../plug-ins/common/file-pdf-save.c:355
+#: ../plug-ins/common/file-pdf-load.c:321 ../plug-ins/common/file-pdf-load.c:340
+#: ../plug-ins/common/file-pdf-save.c:338 ../plug-ins/common/file-pdf-save.c:355
 msgid "Portable Document Format"
 msgstr "Portable Document Format"
 
@@ -3248,16 +3208,14 @@ msgstr[0] ""
 msgstr[1] ""
 "PDF-document ‘%1$s’ heeft %3$d pagina's. Pagina %2$d valt buiten het bereik."
 
-#: ../plug-ins/common/file-pdf-load.c:679
-#: ../plug-ins/common/file-pdf-load.c:749
+#: ../plug-ins/common/file-pdf-load.c:679 ../plug-ins/common/file-pdf-load.c:749
 #, c-format
 msgid "Could not load '%s': %s"
 msgstr "Laden mislukt van '%s': %s"
 
 #: ../plug-ins/common/file-pdf-load.c:694
 msgid "PDF is password protected, please input the password:"
-msgstr ""
-"PDF wordt beschermd met een wachtwoord, alstublieft wachtwoord ingeven:"
+msgstr "PDF wordt beschermd met een wachtwoord, alstublieft wachtwoord ingeven:"
 
 #: ../plug-ins/common/file-pdf-load.c:704
 msgid "Encrypted PDF"
@@ -3308,9 +3266,9 @@ msgstr "_Resolutie:"
 msgid "Use _Anti-aliasing"
 msgstr "Gebruik _anti-aliasing"
 
-#: ../plug-ins/common/file-pdf-load.c:1644
-#: ../plug-ins/common/file-pdf-load.c:1645 ../plug-ins/common/file-svg.c:916
-#: ../plug-ins/common/file-wmf.c:700 ../plug-ins/print/print-page-layout.c:305
+#: ../plug-ins/common/file-pdf-load.c:1644 ../plug-ins/common/file-pdf-load.c:1645
+#: ../plug-ins/common/file-svg.c:916 ../plug-ins/common/file-wmf.c:700
+#: ../plug-ins/print/print-page-layout.c:305
 #, c-format
 msgid "pixels/%a"
 msgstr "beeldpunten/%a"
@@ -3336,23 +3294,19 @@ msgstr ""
 "Wees er zeker van dat u een geldige bestandsnaam hebt opgegeven en dat de "
 "gekozen locatie niet beschermd is tegen schrijven!"
 
-#: ../plug-ins/common/file-pdf-save.c:907
-#: ../plug-ins/common/file-pdf-save.c:1056
+#: ../plug-ins/common/file-pdf-save.c:907 ../plug-ins/common/file-pdf-save.c:1056
 msgid "Omit hidden layers and layers with zero opacity"
 msgstr "Laat verborgen lagen en lagen met volledige transparantie weg"
 
-#: ../plug-ins/common/file-pdf-save.c:912
-#: ../plug-ins/common/file-pdf-save.c:1061
+#: ../plug-ins/common/file-pdf-save.c:912 ../plug-ins/common/file-pdf-save.c:1061
 msgid "Convert bitmaps to vector graphics where possible"
 msgstr "Converteer bitmaps naar vectorafbeeldingen waar mogelijk"
 
-#: ../plug-ins/common/file-pdf-save.c:917
-#: ../plug-ins/common/file-pdf-save.c:1066
+#: ../plug-ins/common/file-pdf-save.c:917 ../plug-ins/common/file-pdf-save.c:1066
 msgid "Apply layer masks before saving"
 msgstr "Pas laagmaskers toe alvorens te bewaren"
 
-#: ../plug-ins/common/file-pdf-save.c:921
-#: ../plug-ins/common/file-pdf-save.c:1070
+#: ../plug-ins/common/file-pdf-save.c:921 ../plug-ins/common/file-pdf-save.c:1070
 msgid "Keeping the masks will not change the output"
 msgstr "De maskers behouden zal de uitvoer niet veranderen"
 
@@ -3385,8 +3339,7 @@ msgstr "Verwijder geselecteerde pagina's"
 msgid "Add this image"
 msgstr "Deze afbeelding toevoegen"
 
-#: ../plug-ins/common/file-pdf-save.c:1159
-#: ../plug-ins/common/file-pdf-save.c:1227
+#: ../plug-ins/common/file-pdf-save.c:1159 ../plug-ins/common/file-pdf-save.c:1227
 #: ../plug-ins/common/file-pdf-save.c:1325 ../plug-ins/common/file-ps.c:1886
 #: ../plug-ins/file-tiff/file-tiff-load.c:926
 #, c-format
@@ -3396,15 +3349,13 @@ msgstr "Pagina %d"
 #: ../plug-ins/common/file-pdf-save.c:1196
 msgid "Error! In order to save the file, at least one image should be added!"
 msgstr ""
-"Fout! Om het bestand te bewaren moet er minimaal één afbeelding aan "
-"toegevoegd worden!"
+"Fout! Om het bestand te bewaren moet er minimaal één afbeelding aan toegevoegd "
+"worden!"
 
-#: ../plug-ins/common/file-pdf-save.c:1372
-#: ../plug-ins/print/print-draw-page.c:123
+#: ../plug-ins/common/file-pdf-save.c:1372 ../plug-ins/print/print-draw-page.c:123
 msgid "Cannot handle the size (either width or height) of the image."
 msgstr ""
-"Afstand van de linkerkant van het papier tot de rechterkant van de "
-"afbeelding."
+"Afstand van de linkerkant van het papier tot de rechterkant van de afbeelding."
 
 #: ../plug-ins/common/file-pix.c:143 ../plug-ins/common/file-pix.c:159
 msgid "Alias Pix image"
@@ -3423,8 +3374,7 @@ msgstr "Fout bij openen van PNG-bestand: %s"
 #: ../plug-ins/common/file-png.c:885
 #, c-format
 msgid "Error creating PNG read struct while loading '%s'."
-msgstr ""
-"Fout tijdens het maken van de PNG read-struct tijdens het laden van ‘%s’."
+msgstr "Fout tijdens het maken van de PNG read-struct tijdens het laden van ‘%s’."
 
 #: ../plug-ins/common/file-png.c:894
 #, c-format
@@ -3449,11 +3399,11 @@ msgstr "Kon geen nieuw beeld maken voor '%s': %s"
 
 #: ../plug-ins/common/file-png.c:1126
 msgid ""
-"The PNG file specifies an offset that caused the layer to be positioned "
-"outside the image."
+"The PNG file specifies an offset that caused the layer to be positioned outside "
+"the image."
 msgstr ""
-"Het PNG-bestand geeft een versprining op die de laag buiten de "
-"afbeeldingsgrens plaatst."
+"Het PNG-bestand geeft een versprining op die de laag buiten de afbeeldingsgrens "
+"plaatst."
 
 #: ../plug-ins/common/file-png.c:1403
 msgid "Apply PNG Offset"
@@ -3470,18 +3420,17 @@ msgstr "Pas PNG-verschuiving toe op laag"
 #: ../plug-ins/common/file-png.c:1433
 #, c-format
 msgid ""
-"The PNG image you are importing specifies an offset of %d, %d. Do you want "
-"to apply this offset to the layer?"
+"The PNG image you are importing specifies an offset of %d, %d. Do you want to "
+"apply this offset to the layer?"
 msgstr ""
-"Het PNG-bestand dat u importeert specificeert een verschuiving van %d,%d. "
-"Wilt u deze verschuiving toepassen op de laag?"
+"Het PNG-bestand dat u importeert specificeert een verschuiving van %d,%d. Wilt "
+"u deze verschuiving toepassen op de laag?"
 
 #: ../plug-ins/common/file-png.c:1541
 #, c-format
 msgid "Error creating PNG write struct while exporting '%s'."
 msgstr ""
-"Fout tijdens het maken van de PNG write-struct tijdens het exporteren van "
-"‘%s’."
+"Fout tijdens het maken van de PNG write-struct tijdens het exporteren van ‘%s’."
 
 #: ../plug-ins/common/file-png.c:1550
 #, c-format
@@ -3668,8 +3617,7 @@ msgid "Gray"
 msgstr "Grijs"
 
 #: ../plug-ins/common/file-ps.c:3534 ../plug-ins/common/file-xpm.c:483
-#: ../plug-ins/gimpressionist/color.c:65
-#: ../plug-ins/gimpressionist/general.c:169
+#: ../plug-ins/gimpressionist/color.c:65 ../plug-ins/gimpressionist/general.c:169
 #: ../plug-ins/imagemap/imap_menu.c:227
 msgid "Color"
 msgstr "Kleur"
@@ -3745,8 +3693,7 @@ msgid "_Millimeter"
 msgstr "_Millimeter"
 
 #. Rotation
-#: ../plug-ins/common/file-ps.c:3746
-#: ../plug-ins/map-object/map-object-ui.c:1019
+#: ../plug-ins/common/file-ps.c:3746 ../plug-ins/map-object/map-object-ui.c:1019
 msgid "Rotation"
 msgstr "Draaiing"
 
@@ -3925,14 +3872,12 @@ msgstr ""
 msgid "Exporting not implemented yet."
 msgstr ""
 
-#: ../plug-ins/common/file-raw-data.c:283
-#: ../plug-ins/common/file-raw-data.c:319
+#: ../plug-ins/common/file-raw-data.c:283 ../plug-ins/common/file-raw-data.c:319
 #: ../plug-ins/common/file-raw-data.c:331
 msgid "Raw image data"
 msgstr "Ruwe beelddata"
 
-#: ../plug-ins/common/file-raw-data.c:304
-#: ../plug-ins/common/file-raw-data.c:1882
+#: ../plug-ins/common/file-raw-data.c:304 ../plug-ins/common/file-raw-data.c:1882
 msgid "Digital Elevation Model data"
 msgstr ""
 
@@ -3950,9 +3895,9 @@ msgstr ""
 #: ../plug-ins/common/file-raw-data.c:520
 #, c-format
 msgid ""
-"Auto-detection of sample spacing failed. \"%s\" does not appear to be a "
-"valid HGT file or its variant is not supported yet. Supported HGT files are: "
-"SRTM-1 and SRTM-3. If you know the variant, run with argument 1 or 3."
+"Auto-detection of sample spacing failed. \"%s\" does not appear to be a valid "
+"HGT file or its variant is not supported yet. Supported HGT files are: SRTM-1 "
+"and SRTM-3. If you know the variant, run with argument 1 or 3."
 msgstr ""
 
 #: ../plug-ins/common/file-raw-data.c:1829
@@ -4068,13 +4013,11 @@ msgstr "Afbeeldings_type:"
 msgid "Palette"
 msgstr "Palet"
 
-#: ../plug-ins/common/file-raw-data.c:2029
-#: ../plug-ins/ui/plug-in-file-raw.ui.h:4
+#: ../plug-ins/common/file-raw-data.c:2029 ../plug-ins/ui/plug-in-file-raw.ui.h:4
 msgid "R, G, B (normal)"
 msgstr "R, G, B (normaal)"
 
-#: ../plug-ins/common/file-raw-data.c:2030
-#: ../plug-ins/ui/plug-in-file-raw.ui.h:5
+#: ../plug-ins/common/file-raw-data.c:2030 ../plug-ins/ui/plug-in-file-raw.ui.h:5
 msgid "B, G, R, X (BMP style)"
 msgstr "B, G, R, X (BMP-stijl)"
 
@@ -4362,11 +4305,10 @@ msgid ""
 "\n"
 "Please convert it to a black and white (1-bit) indexed image and try again."
 msgstr ""
-"De afbeelding die u tracht op te slaan als een XBM-bestand bevat meer dan "
-"twee kleuren.\n"
+"De afbeelding die u tracht op te slaan als een XBM-bestand bevat meer dan twee "
+"kleuren.\n"
 "\n"
-"Converteer de afbeelding naar zwart-wit geïndexeerd (1 bit)  en probeer "
-"opnieuw."
+"Converteer de afbeelding naar zwart-wit geïndexeerd (1 bit)  en probeer opnieuw."
 
 #: ../plug-ins/common/file-xbm.c:1009
 msgid ""
@@ -4487,8 +4429,7 @@ msgstr "'%s' is te breed voor een X-cursor."
 
 #: ../plug-ins/common/file-xmc.c:1119
 msgid "Enter the Y coordinate of the hot spot. The origin is top left corner."
-msgstr ""
-"Voer Y-coördinaat van de hotspot in. De oorsprong is de hoek linksboven."
+msgstr "Voer Y-coördinaat van de hotspot in. De oorsprong is de hoek linksboven."
 
 #: ../plug-ins/common/file-xmc.c:1128
 msgid "_Auto-Crop all frames."
@@ -4510,26 +4451,24 @@ msgstr ""
 #: ../plug-ins/common/file-xmc.c:1164
 msgid ""
 "Choose the nominal size of frames.\n"
-"If you don't have plans to make multi-sized cursor, or you have no idea, "
-"leave it \"32px\".\n"
+"If you don't have plans to make multi-sized cursor, or you have no idea, leave "
+"it \"32px\".\n"
 "Nominal size has no relation with the actual size (width or height).\n"
-"It is only used to determine which frame depends on which animation "
-"sequence, and which sequence is used based on the value of \"gtk-cursor-"
-"theme-size\"."
+"It is only used to determine which frame depends on which animation sequence, "
+"and which sequence is used based on the value of \"gtk-cursor-theme-size\"."
 msgstr ""
 "Kies de nominale frame-grootte.\n"
 "Indien u geen cursors met meerdere afmetingen wilt maken, of als u niet weet "
 "wat te kiezen, gebruik de instelling \"32px\".\n"
 "Nominale grootte staat los van de werkelijke grootte (breedte of hoogte).\n"
-"Het wordt alleen gebruikt om vast te stellen welk frame van welke "
-"animatiereeks afhankelijk is en welke reeks gebruikt wordt op basis van de "
-"waarde van \"gtk-cursor-theme-size\"."
+"Het wordt alleen gebruikt om vast te stellen welk frame van welke animatiereeks "
+"afhankelijk is en welke reeks gebruikt wordt op basis van de waarde van \"gtk-"
+"cursor-theme-size\"."
 
 #: ../plug-ins/common/file-xmc.c:1181
 msgid "_Use this value only for a frame which size is not specified."
 msgstr ""
-"Gebruik deze waarde alleen voor de frame waarvan de grootte niet is "
-"opgegeven."
+"Gebruik deze waarde alleen voor de frame waarvan de grootte niet is opgegeven."
 
 #: ../plug-ins/common/file-xmc.c:1184
 msgid "_Replace the size of all frames even if it is specified."
@@ -4596,8 +4535,7 @@ msgid "Comment is limited to %d characters."
 msgstr "Het commentaar is beperkt tot %d tekens."
 
 #. Begin displaying export progress
-#: ../plug-ins/common/file-xmc.c:1479
-#: ../plug-ins/file-webp/file-webp-save.c:173
+#: ../plug-ins/common/file-xmc.c:1479 ../plug-ins/file-webp/file-webp-save.c:173
 #: ../plug-ins/file-webp/file-webp-save.c:507
 #, c-format
 msgid "Saving '%s'"
@@ -4622,23 +4560,22 @@ msgstr ""
 #, c-format
 msgid ""
 "Cannot export the cursor because the hot spot is not on frame '%s'.\n"
-"Try to change the hot spot position, layer geometry or export without auto-"
-"crop."
+"Try to change the hot spot position, layer geometry or export without auto-crop."
 msgstr ""
 
 #: ../plug-ins/common/file-xmc.c:1765
 #, c-format
 msgid ""
-"Your cursor was successfully exported but it contains one or more frames "
-"whose width or height is more than %ipx, a historical max dimension value "
-"for X bitmap cursors.\n"
+"Your cursor was successfully exported but it contains one or more frames whose "
+"width or height is more than %ipx, a historical max dimension value for X "
+"bitmap cursors.\n"
 "It might be unsupported by some environments."
 msgstr ""
 
 #: ../plug-ins/common/file-xmc.c:1773
 msgid ""
-"Your cursor was successfully exported but it contains one or more frames "
-"whose nominal size is not supported by GNOME settings.\n"
+"Your cursor was successfully exported but it contains one or more frames whose "
+"nominal size is not supported by GNOME settings.\n"
 "You can satisfy it by checking \"Replace the size of all frames...\" in the "
 "export dialog, or your cursor may not appear in GNOME settings."
 msgstr ""
@@ -4646,15 +4583,14 @@ msgstr ""
 #: ../plug-ins/common/file-xmc.c:2010
 #, c-format
 msgid ""
-"The parasite \"%s\" is too long for an X cursor comment. It was cut off to "
-"fit."
+"The parasite \"%s\" is too long for an X cursor comment. It was cut off to fit."
 msgstr ""
 
 #: ../plug-ins/common/file-xmc.c:2125
 #, c-format
 msgid ""
-"Your cursor was successfully exported but it contains one or more frames "
-"whose size is over 8 digits.\n"
+"Your cursor was successfully exported but it contains one or more frames whose "
+"size is over 8 digits.\n"
 "We clamped it to %dpx. You should check the exported cursor."
 msgstr ""
 
@@ -5062,8 +4998,7 @@ msgstr "Afbeeldingen transformeren met de Mandelbrotfractal"
 msgid "_Fractal Trace (legacy)..."
 msgstr "_Fractaltransformatie (oud)…"
 
-#: ../plug-ins/common/fractal-trace.c:471
-#: ../plug-ins/common/fractal-trace.c:707
+#: ../plug-ins/common/fractal-trace.c:471 ../plug-ins/common/fractal-trace.c:707
 msgid "Fractal Trace"
 msgstr "Fractaltekenen"
 
@@ -5114,8 +5049,7 @@ msgstr "Geitenoefening"
 
 #: ../plug-ins/common/gradient-map.c:77
 msgid "Recolor the image using colors from the active gradient"
-msgstr ""
-"De afbeelding opnieuw inkleuren met kleuren van het huidige kleurverloop"
+msgstr "De afbeelding opnieuw inkleuren met kleuren van het huidige kleurverloop"
 
 #: ../plug-ins/common/gradient-map.c:90
 msgid "_Gradient Map"
@@ -5667,18 +5601,15 @@ msgstr "Plug-inverkenner"
 msgid "Name"
 msgstr "Naam"
 
-#: ../plug-ins/common/plugin-browser.c:597
-#: ../plug-ins/common/plugin-browser.c:660
+#: ../plug-ins/common/plugin-browser.c:597 ../plug-ins/common/plugin-browser.c:660
 msgid "Menu Path"
 msgstr "Menupad"
 
-#: ../plug-ins/common/plugin-browser.c:605
-#: ../plug-ins/common/plugin-browser.c:669
+#: ../plug-ins/common/plugin-browser.c:605 ../plug-ins/common/plugin-browser.c:669
 msgid "Image Types"
 msgstr "Afbeeldingstypen"
 
-#: ../plug-ins/common/plugin-browser.c:615
-#: ../plug-ins/common/plugin-browser.c:678
+#: ../plug-ins/common/plugin-browser.c:615 ../plug-ins/common/plugin-browser.c:678
 msgid "Installation Date"
 msgstr "Installatiedatum"
 
@@ -5728,8 +5659,7 @@ msgstr "G-Qbist"
 
 #: ../plug-ins/common/qbist.c:877
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:690
-#: ../plug-ins/gfig/gfig-dialog.c:886
-#: ../plug-ins/ifs-compose/ifs-compose.c:1035
+#: ../plug-ins/gfig/gfig-dialog.c:886 ../plug-ins/ifs-compose/ifs-compose.c:1035
 msgid "_Undo"
 msgstr "_Ongedaan maken"
 
@@ -5751,8 +5681,7 @@ msgstr "Inkleuren met monsters"
 msgid "Get _Sample Colors"
 msgstr "_Kleurmonsters ophalen"
 
-#: ../plug-ins/common/sample-colorize.c:1332
-#: ../plug-ins/common/tile-small.c:561
+#: ../plug-ins/common/sample-colorize.c:1332 ../plug-ins/common/tile-small.c:561
 #: ../plug-ins/fractal-explorer/fractal-explorer.c:1070
 #: ../plug-ins/gimpressionist/orientmap.c:527
 #: ../plug-ins/gimpressionist/presets.c:1060
@@ -6263,8 +6192,7 @@ msgstr "Kleine tegels"
 
 #. Area for buttons etc
 #. Flip
-#: ../plug-ins/common/tile-small.c:419
-#: ../plug-ins/ifs-compose/ifs-compose.c:596
+#: ../plug-ins/common/tile-small.c:419 ../plug-ins/ifs-compose/ifs-compose.c:596
 msgid "Flip"
 msgstr "Spiegelen"
 
@@ -6306,16 +6234,15 @@ msgid ""
 "A unit definition will only be saved before GIMP exits if this column is "
 "checked."
 msgstr ""
-"De definitie van een eenheid zal alleen worden opgeslagen voor GIMP afsluit "
-"als deze kolom is aangevinkt."
+"De definitie van een eenheid zal alleen worden opgeslagen voor GIMP afsluit als "
+"deze kolom is aangevinkt."
 
 #: ../plug-ins/common/unit-editor.c:96
 msgid "ID"
 msgstr "ID"
 
 #: ../plug-ins/common/unit-editor.c:96
-msgid ""
-"This string will be used to identify a unit in GIMP's configuration files."
+msgid "This string will be used to identify a unit in GIMP's configuration files."
 msgstr ""
 "Deze string wordt gebruikt om een eenheid te identificeren in de "
 "configuratiebestanden van GIMP."
@@ -6334,9 +6261,9 @@ msgstr "Cijfers"
 
 #: ../plug-ins/common/unit-editor.c:99
 msgid ""
-"This field is a hint for numerical input fields. It specifies how many "
-"decimal digits the input field should provide to get approximately the same "
-"accuracy as an \"inch\" input field with two decimal digits."
+"This field is a hint for numerical input fields. It specifies how many decimal "
+"digits the input field should provide to get approximately the same accuracy as "
+"an \"inch\" input field with two decimal digits."
 msgstr ""
 "Dit veld is een hint voor numerieke invoervelden. Hij geeft aan hoe veel "
 "decimale cijfers een invoerveld groot moet zijn om ongeveer dezelfde "
@@ -6349,12 +6276,11 @@ msgstr "Symbool"
 
 #: ../plug-ins/common/unit-editor.c:104
 msgid ""
-"The unit's symbol if it has one (e.g. \" for inches). The unit's "
-"abbreviation is used if doesn't have a symbol."
+"The unit's symbol if it has one (e.g. \" for inches). The unit's abbreviation "
+"is used if doesn't have a symbol."
 msgstr ""
-"Het symbool voor de eenheid als dat bestaat (bijvoorbeeld \"'\" voor "
-"duimen). De afkorting van de eenheid wordt gebruikt als er geen symbool voor "
-"bestaat."
+"Het symbool voor de eenheid als dat bestaat (bijvoorbeeld \"'\" voor duimen). "
+"De afkorting van de eenheid wordt gebruikt als er geen symbool voor bestaat."
 
 #: ../plug-ins/common/unit-editor.c:107
 msgid "Abbreviation"
@@ -6386,8 +6312,7 @@ msgstr "Een nieuwe eenheid aanmaken"
 
 #: ../plug-ins/common/unit-editor.c:127
 msgid "Create a new unit using the currently selected unit as template"
-msgstr ""
-"Een nieuwe eenheid aanmaken op basis van de huidige geselecteerde eenheid"
+msgstr "Een nieuwe eenheid aanmaken op basis van de huidige geselecteerde eenheid"
 
 #: ../plug-ins/common/unit-editor.c:145
 msgid "Create or alter units used in GIMP"
@@ -6728,8 +6653,7 @@ msgstr "Opgegeven pad niet gevonden."
 msgid ""
 "The .exe file is invalid (non-Microsoft Win32 .exe or error in .exe image)."
 msgstr ""
-"Het .exe-bestand is ongeldig (non-Microsoft Win32 .exe of fout in .exe-"
-"bestand)."
+"Het .exe-bestand is ongeldig (non-Microsoft Win32 .exe of fout in .exe-bestand)."
 
 #: ../plug-ins/common/web-browser.c:153
 msgid "The operating system denied access to the specified file."
@@ -6909,9 +6833,9 @@ msgstr ""
 
 #: ../plug-ins/file-bmp/bmp-save.c:935
 msgid ""
-"Some applications can not read BMP images that include color space "
-"information. GIMP writes color space information by default. Enabling this "
-"option will cause GIMP to not write color space information to the file."
+"Some applications can not read BMP images that include color space information. "
+"GIMP writes color space information by default. Enabling this option will cause "
+"GIMP to not write color space information to the file."
 msgstr ""
 
 #. Advanced Options
@@ -7031,8 +6955,7 @@ msgstr "Frame (%i)"
 
 #: ../plug-ins/file-fli/fli-gimp.c:714
 msgid "Sorry, I can export only INDEXED and GRAY images."
-msgstr ""
-"Sorry, ik kan alleen Geïndexeerde of Grijswaardenafbeeldingen exporteren."
+msgstr "Sorry, ik kan alleen Geïndexeerde of Grijswaardenafbeeldingen exporteren."
 
 #: ../plug-ins/file-fli/fli-gimp.c:866
 msgid "GFLI 1.3 - Load framestack"
@@ -7065,8 +6988,8 @@ msgid ""
 "Large icons and compression are not supported by all programs. Older "
 "applications may not open this file correctly."
 msgstr ""
-"Grote iconen en compressie wordt niet door alle programma's ondersteund. "
-"Oudere toepassingen kunnen dit bestand mogelijk niet correct openen."
+"Grote iconen en compressie wordt niet door alle programma's ondersteund. Oudere "
+"toepassingen kunnen dit bestand mogelijk niet correct openen."
 
 #: ../plug-ins/file-ico/ico-dialog.c:169
 msgid "1 bpp, 1-bit alpha, 2-slot palette"
@@ -7262,8 +7185,7 @@ msgstr "Drijvende komma"
 msgid "Comment"
 msgstr "Commentaar"
 
-#: ../plug-ins/file-jpeg/jpeg-save.c:1174
-#: ../plug-ins/ui/plug-in-file-png.ui.h:10
+#: ../plug-ins/file-jpeg/jpeg-save.c:1174 ../plug-ins/ui/plug-in-file-png.ui.h:10
 #: ../plug-ins/ui/plug-in-file-raw.ui.h:6
 #: ../plug-ins/print/print-page-layout.c:335
 msgid "_Load Defaults"
@@ -7281,8 +7203,7 @@ msgstr "JPEG-afbeelding"
 msgid "Export Preview"
 msgstr "Exportvoorbeeld"
 
-#: ../plug-ins/file-psd/psd-load.c:219
-#: ../plug-ins/file-psd/psd-thumb-load.c:130
+#: ../plug-ins/file-psd/psd-load.c:219 ../plug-ins/file-psd/psd-thumb-load.c:130
 #, c-format
 msgid "Error loading PSD file: %s"
 msgstr "Fout bij laden PSD-bestand: %s"
@@ -7393,8 +7314,8 @@ msgstr ""
 #: ../plug-ins/file-psd/psd-save.c:1584
 #, c-format
 msgid ""
-"Unable to export '%s'.  The PSD file format does not support images with "
-"layers that are more than 30,000 pixels wide or tall."
+"Unable to export '%s'.  The PSD file format does not support images with layers "
+"that are more than 30,000 pixels wide or tall."
 msgstr ""
 "Kon '%s' niet opslaan. Het PSD-bestandsformaat ondersteunt geen afbeeldingen "
 "met lagen die meer dan 30.000 beeldpunten breed of hoog zijn."
@@ -7612,8 +7533,8 @@ msgid ""
 "Only monochrome pictures can be compressed with \"CCITT Group 4\" or \"CCITT "
 "Group 3\"."
 msgstr ""
-"Alleen monochrome beelden kunnen gecomprimeerd worden met \"CCITT Group 4\" "
-"of \"CCITT Group 3\"."
+"Alleen monochrome beelden kunnen gecomprimeerd worden met \"CCITT Group 4\" of "
+"\"CCITT Group 3\"."
 
 #: ../plug-ins/file-tiff/file-tiff-save.c:632
 msgid "Indexed pictures cannot be compressed with \"JPEG\"."
@@ -8045,14 +7966,12 @@ msgstr "Camera"
 msgid "_Zoom:"
 msgstr "Zoom:"
 
-#: ../plug-ins/flame/flame.c:1250
-#: ../plug-ins/gradient-flare/gradient-flare.c:2724
+#: ../plug-ins/flame/flame.c:1250 ../plug-ins/gradient-flare/gradient-flare.c:2724
 #: ../plug-ins/lighting/lighting-ui.c:489
 msgid "_X:"
 msgstr "_X:"
 
-#: ../plug-ins/flame/flame.c:1264
-#: ../plug-ins/gradient-flare/gradient-flare.c:2728
+#: ../plug-ins/flame/flame.c:1264 ../plug-ins/gradient-flare/gradient-flare.c:2728
 #: ../plug-ins/lighting/lighting-ui.c:504
 msgid "_Y:"
 msgstr "_Y:"
@@ -8084,8 +8003,7 @@ msgstr "Realtime-voorbeeld"
 
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:645
 msgid "If enabled the preview will be redrawn automatically"
-msgstr ""
-"Indien ingeschakeld zal het voorbeeld automatisch opnieuw worden getekend"
+msgstr "Indien ingeschakeld zal het voorbeeld automatisch opnieuw worden getekend"
 
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:648
 msgid "R_edraw preview"
@@ -8141,10 +8059,8 @@ msgid "Bottom:"
 msgstr "Onder:"
 
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:774
-msgid ""
-"The higher the number of iterations, the more details will be calculated"
-msgstr ""
-"Hoe hoger het aantal iteraties is, des te meer details worden er berekend"
+msgid "The higher the number of iterations, the more details will be calculated"
+msgstr "Hoe hoger het aantal iteraties is, des te meer details worden er berekend"
 
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:782
 msgid "CX:"
@@ -8282,8 +8198,8 @@ msgid ""
 "Use linear mapping instead of any trigonometrical function for this color "
 "channel"
 msgstr ""
-"Lineaire mapping gebruiken in plaats van een trigonometrische functie voor "
-"dit kleurkanaal"
+"Lineaire mapping gebruiken in plaats van een trigonometrische functie voor dit "
+"kleurkanaal"
 
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1021
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1062
@@ -8295,11 +8211,11 @@ msgstr "Inversie"
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1070
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1111
 msgid ""
-"If you enable this option higher color values will be swapped with lower "
-"ones and vice versa"
+"If you enable this option higher color values will be swapped with lower ones "
+"and vice versa"
 msgstr ""
-"Als u deze optie inschakelt zullen hogere kleurwaarden worden gewisseld "
-"tegen lagere en omgekeerd"
+"Als u deze optie inschakelt zullen hogere kleurwaarden worden gewisseld tegen "
+"lagere en omgekeerd"
 
 #. Colormode toggle box
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1116
@@ -8317,8 +8233,7 @@ msgid ""
 "function). The result is visible in the preview image"
 msgstr ""
 "Een kleurenkaart aanmaken met de opties die u hierboven heeft aangegeven "
-"(kleurdichtheid/functie). Het resultaat is zichtbaar in de "
-"voorbeeldkafbeelding"
+"(kleurdichtheid/functie). Het resultaat is zichtbaar in de voorbeeldkafbeelding"
 
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1147
 msgid "Apply active gradient to final image"
@@ -8378,8 +8293,7 @@ msgstr "Fractal wordt gerenderd"
 #: ../plug-ins/gradient-flare/gradient-flare.c:3201
 #, c-format
 msgid "Are you sure you want to delete \"%s\" from the list and from disk?"
-msgstr ""
-"Weet u zeker dat u \"%s\" uit de lijst en van de schijf wilt verwijderen?"
+msgstr "Weet u zeker dat u \"%s\" uit de lijst en van de schijf wilt verwijderen?"
 
 #: ../plug-ins/fractal-explorer/fractal-explorer.c:756
 msgid "Delete Fractal"
@@ -8676,11 +8590,11 @@ msgstr "Kopiëren"
 
 #: ../plug-ins/gfig/gfig-dialog.c:1333
 msgid ""
-"Layer background type. Copy causes the previous layer to be copied before "
-"the draw is performed."
+"Layer background type. Copy causes the previous layer to be copied before the "
+"draw is performed."
 msgstr ""
-"Laagachtergrondtype. Kopiëren zorgt ervoor dat de vorige laag wordt "
-"gekopieerd voordat het tekenen wordt uitgevoerd."
+"Laagachtergrondtype. Kopiëren zorgt ervoor dat de vorige laag wordt gekopieerd "
+"voordat het tekenen wordt uitgevoerd."
 
 #: ../plug-ins/gfig/gfig-dialog.c:1339
 msgid "Background:"
@@ -8810,8 +8724,8 @@ msgstr "_Gfig..."
 msgid ""
 "Error trying to save figure as a parasite: can't attach parasite to drawable."
 msgstr ""
-"Fout bij opslaan van figuur als een parasiet: parasiet kan niet aan "
-"tekengebied worden toegevoegd."
+"Fout bij opslaan van figuur als een parasiet: parasiet kan niet aan tekengebied "
+"worden toegevoegd."
 
 #  Do not rely on librsvg setting GError on failure!
 #: ../plug-ins/gfig/gfig.c:758
@@ -8858,13 +8772,11 @@ msgstr "Aspectratio:"
 msgid "Specifies the aspect ratio of the brush"
 msgstr "Geeft de aspectratio van het penseel aan"
 
-#: ../plug-ins/gimpressionist/brush.c:612
-#: ../plug-ins/gimpressionist/paper.c:205
+#: ../plug-ins/gimpressionist/brush.c:612 ../plug-ins/gimpressionist/paper.c:205
 msgid "Relief:"
 msgstr "Reliëf:"
 
-#: ../plug-ins/gimpressionist/brush.c:616
-#: ../plug-ins/gimpressionist/paper.c:209
+#: ../plug-ins/gimpressionist/brush.c:616 ../plug-ins/gimpressionist/paper.c:209
 msgid "Specifies the amount of embossing to apply to the image (in percent)"
 msgstr ""
 "Bepaalt de hoeveelheid reliëf die op de afbeelding moet worden toegepast (in "
@@ -8885,8 +8797,7 @@ msgstr "Midden van penseel"
 #: ../plug-ins/gimpressionist/color.c:78
 msgid "Color is computed from the average of all pixels under the brush"
 msgstr ""
-"Kleur wordt berekend uit het gemiddelde van alle beeldpunten onder het "
-"penseel"
+"Kleur wordt berekend uit het gemiddelde van alle beeldpunten onder het penseel"
 
 #: ../plug-ins/gimpressionist/color.c:82
 msgid "Samples the color from the pixel in the center of the brush"
@@ -8980,8 +8891,7 @@ msgstr "Schaduwdiepte:"
 msgid ""
 "The depth of the drop shadow, i.e. how far apart from the object it should be"
 msgstr ""
-"De diepte van de slagschaduw: hoe ver deze van het object verwijderd moet "
-"zijn"
+"De diepte van de slagschaduw: hoe ver deze van het object verwijderd moet zijn"
 
 #: ../plug-ins/gimpressionist/general.c:266
 msgid "Shadow blur:"
@@ -9050,8 +8960,7 @@ msgstr "De hoekweidte van het eerste penseel dat wordt aangemaakt"
 
 #: ../plug-ins/gimpressionist/orientation.c:156
 msgid ""
-"Let the value (brightness) of the region determine the direction of the "
-"stroke"
+"Let the value (brightness) of the region determine the direction of the stroke"
 msgstr ""
 "Laat de helderheid van het gebied de richting van de penseelstreek bepalen"
 
@@ -9062,8 +8971,7 @@ msgstr "Straal"
 
 #: ../plug-ins/gimpressionist/orientation.c:160
 msgid ""
-"The distance from the center of the image determines the direction of the "
-"stroke"
+"The distance from the center of the image determines the direction of the stroke"
 msgstr ""
 "De afstand tot het midden van de afbeelding bepaalt de richting van de "
 "penseelstreek"
@@ -9080,8 +8988,8 @@ msgstr "Radiaal"
 #: ../plug-ins/gimpressionist/orientation.c:168
 msgid "Let the direction from the center determine the direction of the stroke"
 msgstr ""
-"Laat de richting naar het midden bepalen wat de richting van de "
-"penseelstreek wordt"
+"Laat de richting naar het midden bepalen wat de richting van de penseelstreek "
+"wordt"
 
 #: ../plug-ins/gimpressionist/orientation.c:175
 #: ../plug-ins/gimpressionist/size.c:178
@@ -9131,12 +9039,12 @@ msgstr "Vectors"
 
 #: ../plug-ins/gimpressionist/orientmap.c:564
 msgid ""
-"The vector-field. Left-click to move selected vector, Right-click to point "
-"it towards mouse, Middle-click to add a new vector."
+"The vector-field. Left-click to move selected vector, Right-click to point it "
+"towards mouse, Middle-click to add a new vector."
 msgstr ""
-"Het vectorveld. Klik LMB om de geselecteerde vector te bewegen, klik RMB om "
-"hem naar de muisaanwijzer te laten wijzen, klik MMB om een nieuwe vector toe "
-"te voegen."
+"Het vectorveld. Klik LMB om de geselecteerde vector te bewegen, klik RMB om hem "
+"naar de muisaanwijzer te laten wijzen, klik MMB om een nieuwe vector toe te "
+"voegen."
 
 #: ../plug-ins/gimpressionist/orientmap.c:588
 #: ../plug-ins/gimpressionist/sizemap.c:456
@@ -9199,11 +9107,10 @@ msgstr "Voronoi"
 
 #: ../plug-ins/gimpressionist/orientmap.c:661
 msgid ""
-"Voronoi-mode makes only the vector closest to the given point have any "
-"influence"
+"Voronoi-mode makes only the vector closest to the given point have any influence"
 msgstr ""
-"Voronoi-modus zorgt ervoor dat alleen de vector die het dichtst bij een "
-"bepaald punt is invloed heeft"
+"Voronoi-modus zorgt ervoor dat alleen de vector die het dichtst bij een bepaald "
+"punt is invloed heeft"
 
 #: ../plug-ins/gimpressionist/orientmap.c:671
 msgid "A_ngle:"
@@ -9257,8 +9164,8 @@ msgstr "Past het papier zo toe (zonder een reliëf toe te passen)"
 #: ../plug-ins/gimpressionist/paper.c:197
 msgid "Specifies the scale of the texture (in percent of original file)"
 msgstr ""
-"Geeft de schaal van de textuur aan (als een percentage van het "
-"oorspronkelijke bestand)"
+"Geeft de schaal van de textuur aan (als een percentage van het oorspronkelijke "
+"bestand)"
 
 #: ../plug-ins/gimpressionist/placement.c:66
 msgid "Pl_acement"
@@ -9315,7 +9222,7 @@ msgstr "Huidige opslaan"
 
 #: ../plug-ins/gimpressionist/presets.c:893
 msgid "Impressionist Defaults"
-msgstr "Standaardwaarden GIMPressionist"
+msgstr "Standaardwaarden Impressionist"
 
 #: ../plug-ins/gimpressionist/presets.c:1014
 msgid "_Presets"
@@ -9343,8 +9250,7 @@ msgstr "De map met instellingen opnieuw inlezen"
 
 #: ../plug-ins/gimpressionist/preview.c:174
 #: ../plug-ins/gimpressionist/repaint.c:1197
-#: ../plug-ins/imagemap/imap_polygon.c:512
-#: ../plug-ins/lighting/lighting-ui.c:1092
+#: ../plug-ins/imagemap/imap_polygon.c:512 ../plug-ins/lighting/lighting-ui.c:1092
 msgid "_Update"
 msgstr "_Vernieuw"
 
@@ -9389,11 +9295,9 @@ msgid "Size depends on:"
 msgstr ""
 
 #: ../plug-ins/gimpressionist/size.c:159
-msgid ""
-"Let the value (brightness) of the region determine the size of the stroke"
+msgid "Let the value (brightness) of the region determine the size of the stroke"
 msgstr ""
-"Laat de waarde helderheid van het gebied de grootte van de penseelstreek "
-"bepalen"
+"Laat de waarde helderheid van het gebied de grootte van de penseelstreek bepalen"
 
 #: ../plug-ins/gimpressionist/size.c:163
 msgid ""
@@ -9408,8 +9312,7 @@ msgstr "Kies een willekeurige grootte voor elke penseelstreek"
 
 #: ../plug-ins/gimpressionist/size.c:171
 msgid "Let the direction from the center determine the size of the stroke"
-msgstr ""
-"Laat de richting naar het midden de grootte van de penseelstreek bepalen"
+msgstr "Laat de richting naar het midden de grootte van de penseelstreek bepalen"
 
 #: ../plug-ins/gimpressionist/size.c:183
 msgid "The hue of the region determines the size of the stroke"
@@ -9439,8 +9342,8 @@ msgstr "Smvectors"
 
 #: ../plug-ins/gimpressionist/sizemap.c:435
 msgid ""
-"The smvector-field. Left-click to move selected smvector, Right-click to "
-"point it towards mouse, Middle-click to add a new smvector."
+"The smvector-field. Left-click to move selected smvector, Right-click to point "
+"it towards mouse, Middle-click to add a new smvector."
 msgstr ""
 "Het smvectorveld. Klik LMB om de geselecteerde smvector te verplaatsen, klik "
 "RMB om hem naar de muisaanwijzer te laten wijzen of klik MMB om een nieuwe "
@@ -9558,8 +9461,7 @@ msgstr "O_pmerking opslaan"
 msgid "Save color _values from transparent pixels"
 msgstr "Kleurwaarden van transparante beeldpunten opslaan"
 
-#: ../plug-ins/ui/plug-in-file-png.ui.h:11
-#: ../plug-ins/ui/plug-in-file-raw.ui.h:7
+#: ../plug-ins/ui/plug-in-file-png.ui.h:11 ../plug-ins/ui/plug-in-file-raw.ui.h:7
 msgid "S_ave Defaults"
 msgstr "Standaardwaarden op_slaan"
 
@@ -9582,8 +9484,7 @@ msgstr "XMP-data opslaan"
 msgid "Save thumbnail"
 msgstr "Miniatuur opslaan"
 
-#: ../plug-ins/ui/plug-in-file-png.ui.h:16
-#: ../plug-ins/ui/plug-in-file-tiff.ui.h:7
+#: ../plug-ins/ui/plug-in-file-png.ui.h:16 ../plug-ins/ui/plug-in-file-tiff.ui.h:7
 msgid "Advanced"
 msgstr "Geavanceerd"
 
@@ -10625,8 +10526,7 @@ msgstr "Kleurtransformatie"
 msgid "Relative probability:"
 msgstr "Relatieve waarschijnlijkheid:"
 
-#: ../plug-ins/ifs-compose/ifs-compose.c:1043
-#: ../plug-ins/imagemap/imap_menu.c:174
+#: ../plug-ins/ifs-compose/ifs-compose.c:1043 ../plug-ins/imagemap/imap_menu.c:174
 msgid "Select _All"
 msgstr "_Alles selecteren"
 
@@ -10728,8 +10628,7 @@ msgstr "_Cirkel"
 msgid "Center _x:"
 msgstr "Midden _x:"
 
-#: ../plug-ins/imagemap/imap_circle.c:266
-#: ../plug-ins/imagemap/imap_circle.c:273
+#: ../plug-ins/imagemap/imap_circle.c:266 ../plug-ins/imagemap/imap_circle.c:273
 #: ../plug-ins/imagemap/imap_circle.c:279 ../plug-ins/imagemap/imap_grid.c:249
 #: ../plug-ins/imagemap/imap_grid.c:255 ../plug-ins/imagemap/imap_polygon.c:502
 #: ../plug-ins/imagemap/imap_polygon.c:510
@@ -10759,8 +10658,7 @@ msgstr "Aamaken"
 msgid "Cut"
 msgstr "Knippen"
 
-#: ../plug-ins/imagemap/imap_cmd_delete.c:56
-#: ../plug-ins/imagemap/imap_menu.c:172
+#: ../plug-ins/imagemap/imap_cmd_delete.c:56 ../plug-ins/imagemap/imap_menu.c:172
 msgid "Delete"
 msgstr "Wissen"
 
@@ -10824,15 +10722,15 @@ msgstr "Resulterende hulplijngrenzen: %d,%d naar %d,%d (%d gebieden)"
 
 #: ../plug-ins/imagemap/imap_cmd_guides.c:142
 msgid ""
-"Guides are pre-defined rectangles covering the image. You define them by "
-"their width, height, and spacing from each other. This allows you to rapidly "
-"create the most common image map type - image collection of \"thumbnails\", "
-"suitable for navigation bars."
+"Guides are pre-defined rectangles covering the image. You define them by their "
+"width, height, and spacing from each other. This allows you to rapidly create "
+"the most common image map type - image collection of \"thumbnails\", suitable "
+"for navigation bars."
 msgstr ""
-"Hulplijnen zijn vooraf gedefinieerde rechthoeken die de afbeelding bedekken. "
-"U definieert ze op breedte, hoogte en tussenruimte. Dit laat u snel de meest "
-"gebruikte afbeeldingskaart maken: een verzameling van miniaturen, geschikt "
-"voor navigatiebalken."
+"Hulplijnen zijn vooraf gedefinieerde rechthoeken die de afbeelding bedekken. U "
+"definieert ze op breedte, hoogte en tussenruimte. Dit laat u snel de meest "
+"gebruikte afbeeldingskaart maken: een verzameling van miniaturen, geschikt voor "
+"navigatiebalken."
 
 #: ../plug-ins/imagemap/imap_cmd_guides.c:168
 msgid "_Left start at:"
@@ -10900,8 +10798,7 @@ msgstr "Naar voren halen"
 msgid "Move Up"
 msgstr "Naar boven"
 
-#: ../plug-ins/imagemap/imap_cmd_paste.c:50
-#: ../plug-ins/imagemap/imap_menu.c:170
+#: ../plug-ins/imagemap/imap_cmd_paste.c:50 ../plug-ins/imagemap/imap_menu.c:170
 msgid "Paste"
 msgstr "Plakken"
 
@@ -10975,8 +10872,7 @@ msgstr "e-_mail"
 
 #: ../plug-ins/imagemap/imap_edit_area_info.c:261
 msgid "_URL to activate when this area is clicked: (required)"
-msgstr ""
-"_URL die geactiveerd wordt als op dit gebied wordt geklikt (verplicht):"
+msgstr "_URL die geactiveerd wordt als op dit gebied wordt geklikt (verplicht):"
 
 #: ../plug-ins/imagemap/imap_edit_area_info.c:263
 msgid "Select HTML file"
@@ -11091,8 +10987,7 @@ msgstr "Een klikbare beeldkaart aanmaken"
 msgid "_Image Map..."
 msgstr "_Beeldkaart..."
 
-#: ../plug-ins/imagemap/imap_main.c:484
-#: ../plug-ins/imagemap/imap_settings.c:169
+#: ../plug-ins/imagemap/imap_main.c:484 ../plug-ins/imagemap/imap_settings.c:169
 msgid "<Untitled>"
 msgstr "<Naamloos>"
 
@@ -11906,8 +11801,7 @@ msgstr "Reflectie"
 
 #: ../plug-ins/map-object/map-object-ui.c:877
 msgid "Higher values makes the object reflect more light (appear lighter)"
-msgstr ""
-"Hogere waarden laten een object meer licht terugkaatsen (lichter lijken)"
+msgstr "Hogere waarden laten een object meer licht terugkaatsen (lichter lijken)"
 
 #: ../plug-ins/map-object/map-object-ui.c:891
 msgid "Specular:"
@@ -12472,8 +12366,7 @@ msgstr "Een schermafdruk van een enkel _venster maken"
 msgid "Include window _decoration"
 msgstr "Inclusief _vensterranden"
 
-#: ../plug-ins/screenshot/screenshot.c:570
-#: ../plug-ins/screenshot/screenshot.c:615
+#: ../plug-ins/screenshot/screenshot.c:570 ../plug-ins/screenshot/screenshot.c:615
 msgid "Include _mouse pointer"
 msgstr "_Inclusief muiscursor"
 
@@ -12495,17 +12388,14 @@ msgid "Selection delay: "
 msgstr "Vertraging selectiefoto: "
 
 #. translators: this is the unit label of a spinbutton
-#: ../plug-ins/screenshot/screenshot.c:700
-#: ../plug-ins/screenshot/screenshot.c:763
+#: ../plug-ins/screenshot/screenshot.c:700 ../plug-ins/screenshot/screenshot.c:763
 msgid "seconds"
 msgstr "seconden"
 
 #: ../plug-ins/screenshot/screenshot.c:714
-msgid ""
-"After the delay, drag your mouse to select the region for the screenshot."
+msgid "After the delay, drag your mouse to select the region for the screenshot."
 msgstr ""
-"Sleep de muis na de wachttijd om het gebied voor de schermafdruk te "
-"selecteren."
+"Sleep de muis na de wachttijd om het gebied voor de schermafdruk te selecteren."
 
 #: ../plug-ins/screenshot/screenshot.c:718
 msgid "Click in a window to snap it after delay."
@@ -12532,8 +12422,8 @@ msgstr ""
 #: ../plug-ins/screenshot/screenshot.c:782
 msgid "Once the window is selected, it will be captured after this delay."
 msgstr ""
-"Zodra het venster is geselecteerd, zal het na deze vertraging als foto "
-"worden opgeslagen."
+"Zodra het venster is geselecteerd, zal het na deze vertraging als foto worden "
+"opgeslagen."
 
 #: ../plug-ins/screenshot/screenshot.c:788
 msgid "After the delay, the active window will be captured."
@@ -12598,9 +12488,9 @@ msgstr "Hoe altijd drempelwaarde:"
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:115
 msgid ""
-"If the angle defined by a point and its predecessors and successors is "
-"smaller than this, it's a corner, even if it's within `corner_surround' "
-"pixels of a point with a smaller angle."
+"If the angle defined by a point and its predecessors and successors is smaller "
+"than this, it's a corner, even if it's within `corner_surround' pixels of a "
+"point with a smaller angle."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:126
@@ -12618,8 +12508,8 @@ msgstr "Drempelwaarde hoek:"
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:143
 msgid ""
-"If a point, its predecessors, and its successors define an angle smaller "
-"than this, it's a corner."
+"If a point, its predecessors, and its successors define an angle smaller than "
+"this, it's a corner."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:154
@@ -12647,8 +12537,8 @@ msgstr "Filter Epsilon:"
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:187
 msgid ""
 "If the angles between the vectors produced by filter_surround and "
-"filter_alternative_surround points differ by more than this, use the one "
-"from filter_alternative_surround."
+"filter_alternative_surround points differ by more than this, use the one from "
+"filter_alternative_surround."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:198
@@ -12658,9 +12548,9 @@ msgstr "Filterherhaling:"
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:202
 msgid ""
 "Number of times to smooth original data points.  Increasing this number "
-"dramatically --- to 50 or so --- can produce vastly better results.  But if "
-"any points that ``should'' be corners aren't found, the curve goes to hell "
-"around that point."
+"dramatically --- to 50 or so --- can produce vastly better results.  But if any "
+"points that ``should'' be corners aren't found, the curve goes to hell around "
+"that point."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:214
@@ -12668,8 +12558,7 @@ msgid "Filter Percent:"
 msgstr "Filterpercentage:"
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:218
-msgid ""
-"To produce the new point, use the old point plus this times the neighbors."
+msgid "To produce the new point, use the old point plus this times the neighbors."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:227
@@ -12695,8 +12584,7 @@ msgid "Keep Knees"
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:258
-msgid ""
-"Says whether or not to remove ``knee'' points after finding the outline."
+msgid "Says whether or not to remove ``knee'' points after finding the outline."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:269
@@ -12707,10 +12595,9 @@ msgstr "Afwijkingsdrempel:"
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:273
 msgid ""
-"If a spline is closer to a straight line than this, it remains a straight "
-"line, even if it would otherwise be changed back to a curve. This is "
-"weighted by the square of the curve length, to make shorter curves more "
-"likely to be reverted."
+"If a spline is closer to a straight line than this, it remains a straight line, "
+"even if it would otherwise be changed back to a curve. This is weighted by the "
+"square of the curve length, to make shorter curves more likely to be reverted."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:285
@@ -12721,8 +12608,8 @@ msgstr "Drempelwaarde:"
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:289
 msgid ""
-"How many pixels (on the average) a spline can diverge from the line "
-"determined by its endpoints before it is changed to a straight line."
+"How many pixels (on the average) a spline can diverge from the line determined "
+"by its endpoints before it is changed to a straight line."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:299
@@ -12731,8 +12618,8 @@ msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:303
 msgid ""
-"If reparameterization doesn't improve the fit by this much percent, stop "
-"doing it. Amount of error at which it is pointless to reparameterize."
+"If reparameterization doesn't improve the fit by this much percent, stop doing "
+"it. Amount of error at which it is pointless to reparameterize."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:313
@@ -12743,11 +12630,11 @@ msgstr "Afwijkingsdrempel:"
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:317
 msgid ""
-"Amount of error at which it is pointless to reparameterize.  This happens, "
-"for example, when we are trying to fit the outline of the outside of an `O' "
-"with a single spline.  The initial fit is not good enough for the Newton-"
-"Raphson iteration to improve it.  It may be that it would be better to "
-"detect the cases where we didn't find any corners."
+"Amount of error at which it is pointless to reparameterize.  This happens, for "
+"example, when we are trying to fit the outline of the outside of an `O' with a "
+"single spline.  The initial fit is not good enough for the Newton-Raphson "
+"iteration to improve it.  It may be that it would be better to detect the cases "
+"where we didn't find any corners."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:330
@@ -12758,8 +12645,8 @@ msgstr "Onderverdeling:"
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:334
 msgid ""
-"Percentage of the curve away from the worst point to look for a better place "
-"to subdivide."
+"Percentage of the curve away from the worst point to look for a better place to "
+"subdivide."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:343
@@ -12962,8 +12849,7 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ msgstr "Probeerde een ongeldige laag te tonen."
 
 #~ msgid "Antialias using the Scale3X edge-extrapolation algorithm"
-#~ msgstr ""
-#~ "Anti-alias met gebruik van het Scale3X-algoritme voor randextrapolatie"
+#~ msgstr "Anti-alias met gebruik van het Scale3X-algoritme voor randextrapolatie"
 
 #~ msgid "_Antialias"
 #~ msgstr "_Anti-aliasing"
@@ -12997,8 +12883,7 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 
 #~ msgid "Blur neighboring pixels, but only in low-contrast areas"
 #~ msgstr ""
-#~ "Nabijgelegen beeldpunten vervagen, maar enkel in gebieden met weinig "
-#~ "contrast"
+#~ "Nabijgelegen beeldpunten vervagen, maar enkel in gebieden met weinig contrast"
 
 #~ msgid "_Selective Gaussian Blur..."
 #~ msgstr "_Selectief Gaussiaans vervagen..."
@@ -13106,8 +12991,8 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ "The offset can be adjusted by dragging the preview using the middle mouse "
 #~ "button."
 #~ msgstr ""
-#~ "De verschuiving kan worden aangepast door het voorbeeld te verslepen met "
-#~ "de middelste muisknop."
+#~ "De verschuiving kan worden aangepast door het voorbeeld te verslepen met de "
+#~ "middelste muisknop."
 
 #~ msgid "_Waterlevel:"
 #~ msgstr "_Waterniveau:"
@@ -13571,14 +13456,14 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ msgstr "PDF-document"
 
 #~ msgid ""
-#~ "Error starting Ghostscript. Make sure that Ghostscript is installed and - "
-#~ "if necessary - use the environment variable GS_PROG to tell GIMP about "
-#~ "its location.\n"
+#~ "Error starting Ghostscript. Make sure that Ghostscript is installed and - if "
+#~ "necessary - use the environment variable GS_PROG to tell GIMP about its "
+#~ "location.\n"
 #~ "(%s)"
 #~ msgstr ""
 #~ "Fout bij het starten van Ghostscript. Controleer of Ghostscript "
-#~ "geïnstalleerd is en gebruik -indien nodig- de omgevingsvariabele GS_PROG "
-#~ "om GIMP de locatie ervan te vertellen.\n"
+#~ "geïnstalleerd is en gebruik -indien nodig- de omgevingsvariabele GS_PROG om "
+#~ "GIMP de locatie ervan te vertellen.\n"
 #~ "(%s)"
 
 #~ msgid "Save as PSP"
@@ -13597,9 +13482,9 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ "this conversion."
 #~ msgstr ""
 #~ "Waarschuwing:\n"
-#~ "De afbeelding die u laadt heeft 16 bits per kanaal. GIMP ondersteunt "
-#~ "slechts 8 bits; de afbeelding zal voor u worden omgezet, waarbij "
-#~ "informatie verloren gaat."
+#~ "De afbeelding die u laadt heeft 16 bits per kanaal. GIMP ondersteunt slechts "
+#~ "8 bits; de afbeelding zal voor u worden omgezet, waarbij informatie verloren "
+#~ "gaat."
 
 #~ msgid "Save as TIFF"
 #~ msgstr "Opslaan als TIFF"
@@ -14122,8 +14007,7 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ msgstr "Middelpunt van Supernova"
 
 #~ msgid "Simplify image into an array of solid-colored squares"
-#~ msgstr ""
-#~ "Afbeelding vereenvoudigen tot een reeks van effengekleurde vierkanten"
+#~ msgstr "Afbeelding vereenvoudigen tot een reeks van effengekleurde vierkanten"
 
 #~ msgid "_Pixelize..."
 #~ msgstr "_Pixeliseren..."
@@ -14178,16 +14062,16 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ msgstr "_Achterwaarts projecteren"
 
 #~ msgid ""
-#~ "If checked the mapping will begin at the right side, as opposed to "
-#~ "beginning at the left."
+#~ "If checked the mapping will begin at the right side, as opposed to beginning "
+#~ "at the left."
 #~ msgstr "Indien geselecteerd zal het projecteren rechts beginnen."
 
 #~ msgid "Map from _top"
 #~ msgstr "Vanaf _bovenkant projecteren"
 
 #~ msgid ""
-#~ "If unchecked the mapping will put the bottom row in the middle and the "
-#~ "top row on the outside.  If checked it will be the opposite."
+#~ "If unchecked the mapping will put the bottom row in the middle and the top "
+#~ "row on the outside.  If checked it will be the opposite."
 #~ msgstr ""
 #~ "Indien geselecteerd zal het projecteren de bovenste rij in het midden "
 #~ "plaatsen en de onderste rij aan de buitenkant."
@@ -14200,8 +14084,8 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ "checked the image will be mapped onto a circle."
 #~ msgstr ""
 #~ "Indien niet geselecteerd zal de afbeelding cirkelvormig op een rechthoek "
-#~ "geprojecteerd worden. Indien geselecteerd zal de afbeelding naar een "
-#~ "cirkel worden geprojecteerd."
+#~ "geprojecteerd worden. Indien geselecteerd zal de afbeelding naar een cirkel "
+#~ "worden geprojecteerd."
 
 #~ msgid "Remove the red eye effect caused by camera flashes"
 #~ msgstr "De rode ogen verwijderen die door cameraflitsen veroorzaakt worden"
@@ -14271,8 +14155,7 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ msgstr "Er was een fout bij het maken van de schermafdruk."
 
 #~ msgid "Replace partial transparency with the current background color"
-#~ msgstr ""
-#~ "Gedeeltelijke transparantie vervangen door de huidige achtergrondkleur"
+#~ msgstr "Gedeeltelijke transparantie vervangen door de huidige achtergrondkleur"
 
 #~ msgid "_Semi-Flatten"
 #~ msgstr "_Gedeeltelijke transparantie verwijderen"
@@ -14281,8 +14164,7 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ msgstr "Gedeeltelijke transparantie wordt verwijderd"
 
 #~ msgid "Shift each row of pixels by a random amount"
-#~ msgstr ""
-#~ "Elke rij van beeldpunten met een willekeurige hoeveelheid verschuiven"
+#~ msgstr "Elke rij van beeldpunten met een willekeurige hoeveelheid verschuiven"
 
 #~ msgid "_Shift..."
 #~ msgstr "Ver_schuiven..."
@@ -14403,8 +14285,7 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 
 #~ msgid "Simulate distortion caused by square glass tiles"
 #~ msgstr ""
-#~ "Een vervorming nabootsen die veroorzaakt wordt door vierkante glazen "
-#~ "tegels"
+#~ "Een vervorming nabootsen die veroorzaakt wordt door vierkante glazen tegels"
 
 #~ msgid "_Glass Tile..."
 #~ msgstr "_Glazen tegels..."
@@ -14638,8 +14519,8 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ "\n"
 #~ "%s"
 #~ msgstr ""
-#~ "Kon de webbrowserinstructie opgegeven in het Voorkeurendialoogvenster "
-#~ "niet verwerken:\n"
+#~ "Kon de webbrowserinstructie opgegeven in het Voorkeurendialoogvenster niet "
+#~ "verwerken:\n"
 #~ "\n"
 #~ "%s"
 
@@ -14648,8 +14529,7 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ "\n"
 #~ "%s"
 #~ msgstr ""
-#~ "Kon de webbrowser opgegeven in het Voorkeurendialoogvenster niet "
-#~ "uitvoeren:\n"
+#~ "Kon de webbrowser opgegeven in het Voorkeurendialoogvenster niet uitvoeren:\n"
 #~ "\n"
 #~ "%s"
 
@@ -14754,8 +14634,8 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ msgstr "2x2,1x1,1x1 (kleinste bestand)"
 
 #~ msgid ""
-#~ "Unable to save layer with mode '%s'.  Either the PSD file format or the "
-#~ "save plug-in does not support that, using normal mode instead."
+#~ "Unable to save layer with mode '%s'.  Either the PSD file format or the save "
+#~ "plug-in does not support that, using normal mode instead."
 #~ msgstr ""
 #~ "Kon de laag niet opslaan met modus '%s'. Het PSD-bestandsformaat of de "
 #~ "exportplug-in ondersteunt dit niet, de normale modus wordt in de plaats "
@@ -15061,15 +14941,15 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ "Change the CX value (changes aspect of fractal, active with every fractal "
 #~ "but Mandelbrot and Sierpinski)"
 #~ msgstr ""
-#~ "Verander de CX-waarde (verandert aspect van fractal, actief met elke "
-#~ "fractal behalve Mandelbrot en Sierpinski)"
+#~ "Verander de CX-waarde (verandert aspect van fractal, actief met elke fractal "
+#~ "behalve Mandelbrot en Sierpinski)"
 
 #~ msgid ""
 #~ "Change the CY value (changes aspect of fractal, active with every fractal "
 #~ "but Mandelbrot and Sierpinski)"
 #~ msgstr ""
-#~ "Verander de CY-waarde (verandert aspect van fractal, actief met elke "
-#~ "fractal behalve Mandelbrot en Sierpinski)"
+#~ "Verander de CY-waarde (verandert aspect van fractal, actief met elke fractal "
+#~ "behalve Mandelbrot en Sierpinski)"
 
 #, fuzzy
 #~ msgid "Cannot operate on grayscale images with alpha channel."
@@ -15138,12 +15018,12 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 
 #~ msgid ""
 #~ "Warning:\n"
-#~ "Transparent color in written file might be incorrect on viewers which "
-#~ "don't support transparency."
+#~ "Transparent color in written file might be incorrect on viewers which don't "
+#~ "support transparency."
 #~ msgstr ""
 #~ "Waarschuwing:\n"
-#~ "Transparante kleur in geschreven bestand kan incorrect zijn in "
-#~ "programma's die transparantie niet ondersteunen."
+#~ "Transparante kleur in geschreven bestand kan incorrect zijn in programma's "
+#~ "die transparantie niet ondersteunen."
 
 #~ msgid "GIF Warning"
 #~ msgstr "GIF-waarschuwing"
@@ -15272,8 +15152,8 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ "The number of seconds to wait after selecting the window or region and "
 #~ "actually taking the screenshot."
 #~ msgstr ""
-#~ "Het aantal seconden voordat de schermafdruk wordt gemaakt, nadat het "
-#~ "venster of het gebied is geselecteerd."
+#~ "Het aantal seconden voordat de schermafdruk wordt gemaakt, nadat het venster "
+#~ "of het gebied is geselecteerd."
 
 #, fuzzy
 #~ msgid "Scalable SVG image"
@@ -15436,8 +15316,8 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ msgstr "Dichtheid:"
 
 #~ msgid ""
-#~ "Adjust the density (amount of ink) of the print. Reduce the density if "
-#~ "the ink bleeds through the paper or smears; increase the density if black "
+#~ "Adjust the density (amount of ink) of the print. Reduce the density if the "
+#~ "ink bleeds through the paper or smears; increase the density if black "
 #~ "regions are not solid."
 #~ msgstr ""
 #~ "Pas de dichtheid van de afdruk aan  (hoeveelheid inkt). Verminder de "
@@ -15446,13 +15326,12 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 
 #~ msgid ""
 #~ "Adjust the gamma of the print. Larger values will produce a generally "
-#~ "brighter print, while smaller values will produce a generally darker "
-#~ "print. Black and white will remain the same, unlike with the brightness "
-#~ "adjustment."
+#~ "brighter print, while smaller values will produce a generally darker print. "
+#~ "Black and white will remain the same, unlike with the brightness adjustment."
 #~ msgstr ""
-#~ "Pas de gamma van de afdruk aan. Grotere waarden zullen over het algemeen "
-#~ "een heldere afdruk opleveren, kleiner een donkerdere afdruk. Zwart en wit "
-#~ "zullen hetzelfde blijven, in tegenstelling tot een helderheidsaanpassing."
+#~ "Pas de gamma van de afdruk aan. Grotere waarden zullen over het algemeen een "
+#~ "heldere afdruk opleveren, kleiner een donkerdere afdruk. Zwart en wit zullen "
+#~ "hetzelfde blijven, in tegenstelling tot een helderheidsaanpassing."
 
 # What is the Dutch translation for the word "dither"?
 #, fuzzy
@@ -15463,8 +15342,8 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ "Choose the dither algorithm to be used.\n"
 #~ "Adaptive Hybrid usually produces the best all-around quality.\n"
 #~ "Ordered is faster and produces almost as good quality on photographs.\n"
-#~ "Fast and Very Fast are considerably faster, and work well for text and "
-#~ "line art.\n"
+#~ "Fast and Very Fast are considerably faster, and work well for text and line "
+#~ "art.\n"
 #~ "Hybrid Floyd-Steinberg generally produces inferior output."
 #~ msgstr ""
 #~ "Kies het te gebruiken kleurbenaderingsalgoritme.\n"
@@ -15497,20 +15376,20 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ "Click and drag with the primary button to position the image.\n"
 #~ "Click and drag with the second button to move the image with finer "
 #~ "precision; each unit of motion moves the image one point (1/72\")\n"
-#~ "Click and drag with the third (middle) button to move the image in units "
-#~ "of the image size.\n"
-#~ "Holding down the shift key while clicking and dragging constrains the "
-#~ "image to only horizontal or vertical motion.\n"
-#~ "If you click another button while dragging the mouse, the image will "
-#~ "return to its original position."
+#~ "Click and drag with the third (middle) button to move the image in units of "
+#~ "the image size.\n"
+#~ "Holding down the shift key while clicking and dragging constrains the image "
+#~ "to only horizontal or vertical motion.\n"
+#~ "If you click another button while dragging the mouse, the image will return "
+#~ "to its original position."
 #~ msgstr ""
 #~ "Plaat de afbeelding op de pagina.\n"
 #~ "Klik en sleep met de eerste knop om de afbeelding te plaatsen.\n"
-#~ "Klik en sleep met de tweede knop om de afbeelding met een fijnere "
-#~ "precisie te verplaatsen; elke eenheid van beweging verplaatst de "
-#~ "afbeelding één punt (1/72\")\n"
-#~ "Klik en sleep met de derde (middelste) knop om de afbeelding in eenheden "
-#~ "van de afbeeldingsgrootte te verplaatsen.\n"
+#~ "Klik en sleep met de tweede knop om de afbeelding met een fijnere precisie "
+#~ "te verplaatsen; elke eenheid van beweging verplaatst de afbeelding één punt "
+#~ "(1/72\")\n"
+#~ "Klik en sleep met de derde (middelste) knop om de afbeelding in eenheden van "
+#~ "de afbeeldingsgrootte te verplaatsen.\n"
 #~ "Als u de Shift-toets tijdens klikken en slepen ingedrukt houdt, blijft de "
 #~ "beweging tot een horizontale of verticale beperkt.\n"
 #~ "Als u een andere knop klikt terwijl u de muis sleept, gaat de afbeelding "
@@ -15535,8 +15414,7 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ "Select the orientation: portrait, landscape, upside down, or seascape "
 #~ "(upside down landscape)"
 #~ msgstr ""
-#~ "Kies de oriëntatie: staand, liggend, ondersteboven staand of liggend "
-#~ "staand"
+#~ "Kies de oriëntatie: staand, liggend, ondersteboven staand of liggend staand"
 
 #~ msgid "Distance from the left of the paper to the image"
 #~ msgstr "Afstand van de linkerkant van het papier tot de afbeelding"
@@ -15594,13 +15472,12 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 
 #, fuzzy
 #~ msgid ""
-#~ "Enter the command to print to your printer. Note: Please do not remove "
-#~ "the `-l' or `-oraw' from the command string, or printing will probably "
-#~ "fail!"
+#~ "Enter the command to print to your printer. Note: Please do not remove the `-"
+#~ "l' or `-oraw' from the command string, or printing will probably fail!"
 #~ msgstr ""
-#~ "Voer de juiste instructie in om op uw printer af te drukken. Noot: "
-#~ "verwijder niet de '-l' of '-oraw' van de instructieregel, anders mislukt "
-#~ "het afdrukken waarschijnlijk!"
+#~ "Voer de juiste instructie in om op uw printer af te drukken. Noot: verwijder "
+#~ "niet de '-l' of '-oraw' van de instructieregel, anders mislukt het afdrukken "
+#~ "waarschijnlijk!"
 
 #, fuzzy
 #~ msgid "Choose PPD File"
@@ -15641,8 +15518,7 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ "\n"
 #~ "You should have received a copy of the GNU General Public License\n"
 #~ "along with this program; if not, write to the Free Software\n"
-#~ "Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  "
-#~ "USA\n"
+#~ "Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n"
 #~ msgstr ""
 #~ "\n"
 #~ "\n"
@@ -15663,18 +15539,17 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ "\n"
 #~ "You should have received a copy of the GNU General Public License\n"
 #~ "along with this program; if not, write to the Free Software\n"
-#~ "Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  "
-#~ "USA\n"
+#~ "Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n"
 
 #~ msgid "Printer Settings"
 #~ msgstr "Printerinstellingen"
 
 #~ msgid ""
-#~ "Select the name of the printer (not the type, or model, of printer) that "
-#~ "you wish to print to"
+#~ "Select the name of the printer (not the type, or model, of printer) that you "
+#~ "wish to print to"
 #~ msgstr ""
-#~ "Selecteer de naam van de printer (niet het type of model) waar u naar "
-#~ "wenst af te drukken"
+#~ "Selecteer de naam van de printer (niet het type of model) waar u naar wenst "
+#~ "af te drukken"
 
 #~ msgid "Printer model:"
 #~ msgstr "Printer model:"
@@ -15687,8 +15562,8 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ "Choose the printer model, PPD file, and command that is used to print to "
 #~ "this printer"
 #~ msgstr ""
-#~ "Kies het printermodel, PPD-bestand en instructie die nodig zijn om op "
-#~ "deze printer af te drukken"
+#~ "Kies het printermodel, PPD-bestand en instructie die nodig zijn om op deze "
+#~ "printer af te drukken"
 
 #, fuzzy
 #~ msgid "New Printer..."
@@ -15699,8 +15574,8 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ "settings that you wish to remember for future use."
 #~ msgstr ""
 #~ "Definieer een nieuwe logische printer. Dit kunt u gebruiken om een "
-#~ "verzameling instellingen te benoemen die u voor toekomstig gebruik wenst "
-#~ "te herinneren."
+#~ "verzameling instellingen te benoemen die u voor toekomstig gebruik wenst te "
+#~ "herinneren."
 
 #~ msgid "Size of paper that you wish to print to"
 #~ msgstr "Grootte van papier waar u op wilt afdrukken."
@@ -15809,8 +15684,8 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 
 #~ msgid "Best for images dominated by regions of solid color"
 #~ msgstr ""
-#~ "Best voor afbeeldingend die door aaneengesloten gebieden van dezelfde "
-#~ "kleur worden overheerst"
+#~ "Best voor afbeeldingend die door aaneengesloten gebieden van dezelfde kleur "
+#~ "worden overheerst"
 
 #~ msgid "Photograph"
 #~ msgstr "Foto"
@@ -15819,8 +15694,8 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ "Slowest, but most accurate and smoothest color for continuous tone images "
 #~ "and photographs"
 #~ msgstr ""
-#~ "Traagste, maar accuraatste en gladste kleur voor foto's en afbeeldingen "
-#~ "met continuë toon"
+#~ "Traagste, maar accuraatste en gladste kleur voor foto's en afbeeldingen met "
+#~ "continuë toon"
 
 #~ msgid "Output type:"
 #~ msgstr "Uitvoertype:"
@@ -15848,11 +15723,10 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ msgstr "Uitvoer aanpassen..."
 
 #~ msgid ""
-#~ "Adjust color balance, brightness, contrast, saturation, and dither "
-#~ "algorithm"
+#~ "Adjust color balance, brightness, contrast, saturation, and dither algorithm"
 #~ msgstr ""
-#~ "Kleurbalans, helderheid, contrast, verzadiging en "
-#~ "kleurbenaderingsalgoritme aanpassen"
+#~ "Kleurbalans, helderheid, contrast, verzadiging en kleurbenaderingsalgoritme "
+#~ "aanpassen"
 
 #~ msgid "File"
 #~ msgstr "Bestand"
@@ -15963,11 +15837,11 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ msgstr "GEE-SLIME"
 
 #~ msgid ""
-#~ "A less-obsolete creation of Adam D. Moss / adam@gimp.org / adam@foxbox."
-#~ "org / 1998-2000"
+#~ "A less-obsolete creation of Adam D. Moss / adam@gimp.org / adam@foxbox.org / "
+#~ "1998-2000"
 #~ msgstr ""
-#~ "Een minder verouderde creatie van Adam D. Moss / adam@gimp.org / "
-#~ "adam@foxbox.org / 1998-2000"
+#~ "Een minder verouderde creatie van Adam D. Moss / adam@gimp.org / adam@foxbox."
+#~ "org / 1998-2000"
 
 #~ msgid "GEE-ZOOM"
 #~ msgstr "GEE-ZOOM"
@@ -15976,8 +15850,8 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ "An obsolete creation of Adam D. Moss / adam@gimp.org / adam@foxbox.org / "
 #~ "1998-2000"
 #~ msgstr ""
-#~ "Een verouderde creatie van Adam D. Moss / adam@gimp.org / adam@foxbox."
-#~ "org / 1998-2000"
+#~ "Een verouderde creatie van Adam D. Moss / adam@gimp.org / adam@foxbox.org / "
+#~ "1998-2000"
 
 #, fuzzy
 #~ msgid "_Interlace"
@@ -16387,9 +16261,9 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ "before reporting this error as a bug."
 #~ msgstr ""
 #~ "Het gevraagde document kon niet in uw GIMP-Helppad worden gevonden zoals "
-#~ "boven getoond. Dit betekent dat het onderwerp nog niet beschreven is of "
-#~ "dat uw installatie incompleet is. Zorg ervoor dat uw installatie compleet "
-#~ "en recent is voordat u dit als fout meldt."
+#~ "boven getoond. Dit betekent dat het onderwerp nog niet beschreven is of dat "
+#~ "uw installatie incompleet is. Zorg ervoor dat uw installatie compleet en "
+#~ "recent is voordat u dit als fout meldt."
 
 #~ msgid "Save: No filename given"
 #~ msgstr "Opslaan: geen bestandsnaam opgegeven"

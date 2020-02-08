@@ -9,13 +9,15 @@ msgstr ""
 "Project-Id-Version: gimp-std-plug-ins 2.1.6\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2011-01-01 19:43+0800\n"
-"PO-Revision-Date: 2011-01-01 19:43+0800\n"
+"PO-Revision-Date: 2020-02-08 15:23-0800\n"
 "Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
 "Language: zh_HK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/color-rotate/color-rotate-dialog.c:118
 msgid "Original"
@@ -634,9 +636,8 @@ msgstr "垂直(_V)"
 #: ../plug-ins/file-jpeg/jpeg-load.c:248 ../plug-ins/file-jpeg/jpeg-load.c:760
 #: ../plug-ins/file-psd/psd-image-res-load.c:997
 #: ../plug-ins/file-psd/psd-load.c:1576 ../plug-ins/file-sgi/sgi.c:406
-#: ../plug-ins/gfig/gfig-dialog.c:1284
-#: ../plug-ins/gimpressionist/general.c:139 ../plug-ins/twain/twain.c:567
-#: ../plug-ins/win-snap/winsnap.c:1155
+#: ../plug-ins/gfig/gfig-dialog.c:1284 ../plug-ins/gimpressionist/general.c:139
+#: ../plug-ins/twain/twain.c:567 ../plug-ins/win-snap/winsnap.c:1155
 msgid "Background"
 msgstr "背景"
 
@@ -1029,10 +1030,9 @@ msgstr "載入色版混合器設定"
 #: ../plug-ins/common/channel-mixer.c:982
 #: ../plug-ins/common/cml-explorer.c:2207 ../plug-ins/common/curve-bend.c:891
 #: ../plug-ins/common/file-cel.c:311 ../plug-ins/common/file-compressor.c:497
-#: ../plug-ins/common/file-compressor.c:666
-#: ../plug-ins/common/file-dicom.c:339 ../plug-ins/common/file-gbr.c:367
-#: ../plug-ins/common/file-gif-load.c:355 ../plug-ins/common/file-gih.c:644
-#: ../plug-ins/common/file-jp2-load.c:197
+#: ../plug-ins/common/file-compressor.c:666 ../plug-ins/common/file-dicom.c:339
+#: ../plug-ins/common/file-gbr.c:367 ../plug-ins/common/file-gif-load.c:355
+#: ../plug-ins/common/file-gih.c:644 ../plug-ins/common/file-jp2-load.c:197
 #: ../plug-ins/common/file-jp2-load.c:206 ../plug-ins/common/file-mng.c:1107
 #: ../plug-ins/common/file-pat.c:336 ../plug-ins/common/file-pcx.c:360
 #: ../plug-ins/common/file-pix.c:342 ../plug-ins/common/file-png.c:720
@@ -1781,7 +1781,9 @@ msgstr "修改色票項目 #%d"
 msgid ""
 "Drag and drop colors to rearrange the colormap.  The numbers shown are the "
 "original indices.  Right-click for a menu with sort options."
-msgstr "拖放顏色重新排列顏色表。這些數字顯示的是原來的指標。右鍵點選一個選單選項與排序"
+msgstr ""
+"拖放顏色重新排列顏色表。這些數字顯示的是原來的指標。右鍵點選一個選單選項與排"
+"序"
 
 #: ../plug-ins/common/compose.c:188 ../plug-ins/common/decompose.c:169
 #: ../plug-ins/common/file-raw.c:1098
@@ -2002,8 +2004,7 @@ msgstr "未知的值"
 msgid "Stretch brightness values to cover the full range"
 msgstr "伸展整體亮度值"
 
-#: ../plug-ins/common/contrast-normalize.c:91
-#: ../plug-ins/common/edge-dog.c:361
+#: ../plug-ins/common/contrast-normalize.c:91 ../plug-ins/common/edge-dog.c:361
 msgid "_Normalize"
 msgstr "提高對比度(_N)"
 
@@ -2120,9 +2121,9 @@ msgstr "透明(_A)"
 msgid "E_xtend"
 msgstr "延伸(_X)"
 
-#: ../plug-ins/common/convolution-matrix.c:73
-#: ../plug-ins/common/displace.c:472 ../plug-ins/common/edge.c:705
-#: ../plug-ins/common/fractal-trace.c:736 ../plug-ins/common/ripple.c:584
+#: ../plug-ins/common/convolution-matrix.c:73 ../plug-ins/common/displace.c:472
+#: ../plug-ins/common/edge.c:705 ../plug-ins/common/fractal-trace.c:736
+#: ../plug-ins/common/ripple.c:584
 msgid "_Wrap"
 msgstr "繞到另一邊(_W)"
 
@@ -2611,7 +2612,9 @@ msgstr "前景顏色當作登記顏色(_F)"
 msgid ""
 "Pixels in the foreground color will appear black in all output images.  This "
 "can be used for things like crop marks that have to show up on all channels."
-msgstr "前景色的像素將出現黑色在所有輸出圖片。這可以用於裁切線類的東西，是要顯示在所有色版。"
+msgstr ""
+"前景色的像素將出現黑色在所有輸出圖片。這可以用於裁切線類的東西，是要顯示在所"
+"有色版。"
 
 #: ../plug-ins/common/deinterlace.c:90
 msgid "Fix images where every other row is missing"
@@ -3337,7 +3340,8 @@ msgstr "不能儲存「%s」。GIF 檔案格式不支持超過 %d 像素寬或�
 msgid ""
 "The GIF format only supports comments in 7bit ASCII encoding. No comment is "
 "saved."
-msgstr "GIF 圖片格式只接受 7 位元的 ASCII 編碼文字作為備註，因此這些備註不會儲存。"
+msgstr ""
+"GIF 圖片格式只接受 7 位元的 ASCII 編碼文字作為備註，因此這些備註不會儲存。"
 
 #: ../plug-ins/common/file-gif-save.c:752
 msgid ""
@@ -3355,7 +3359,8 @@ msgid ""
 "The image you are trying to save as a GIF contains layers which extend "
 "beyond the actual borders of the image."
 msgstr ""
-"在準備儲存成為 GIF 的圖片中，有一些圖層的位置超出圖片範圍之外。GIF 應該不允許這種情況發生。\n"
+"在準備儲存成為 GIF 的圖片中，有一些圖層的位置超出圖片範圍之外。GIF 應該不允許"
+"這種情況發生。\n"
 "\n"
 "你可以選擇裁剪所有圖層，令它們限制在圖片之內，或者不儲存圖片。"
 
@@ -3365,7 +3370,8 @@ msgid ""
 "The GIF file format does not allow this.  You may choose whether to crop all "
 "of the layers to the image borders, or cancel this save."
 msgstr ""
-"在準備儲存成為 GIF 的圖片中，有一些圖層的位置超出圖片範圍之外。GIF 應該不允許這種情況發生。\n"
+"在準備儲存成為 GIF 的圖片中，有一些圖層的位置超出圖片範圍之外。GIF 應該不允許"
+"這種情況發生。\n"
 "\n"
 "你可以選擇裁剪所有圖層，令它們限制在圖片之內，或者不儲存圖片。"
 
@@ -3396,7 +3402,9 @@ msgstr "每個圖層佔用一個畫格 (取代)"
 msgid ""
 "You can only export as animation when the image has more than one layer. The "
 "image you are trying to export only has one layer."
-msgstr "當圖片有不只一個圖層時，你才可以將它匯出成為動畫。但是你正嘗試匯出的圖片卻只有一個圖層！"
+msgstr ""
+"當圖片有不只一個圖層時，你才可以將它匯出成為動畫。但是你正嘗試匯出的圖片卻只"
+"有一個圖層！"
 
 #: ../plug-ins/common/file-gif-save.c:2349
 msgid "Error writing output file."
@@ -3513,7 +3521,9 @@ msgstr "產生完整的 _HTML 文件"
 msgid ""
 "If checked GTM will output a full HTML document with <HTML>, <BODY>, etc. "
 "tags instead of just the table html."
-msgstr "若選取本選項，GTM 會輸出一個包含 <HTML>、<BODY> 等標籤的完整 HTML 檔，而非只有表格部份的 HTML。"
+msgstr ""
+"若選取本選項，GTM 會輸出一個包含 <HTML>、<BODY> 等標籤的完整 HTML 檔，而非只"
+"有表格部份的 HTML。"
 
 #. HTML Table Creation Options
 #: ../plug-ins/common/file-html-table.c:468
@@ -3528,7 +3538,9 @@ msgstr "使用 _Cellspan"
 msgid ""
 "If checked GTM will replace any rectangular sections of identically colored "
 "blocks with one large cell with ROWSPAN and COLSPAN values."
-msgstr "若選上此選項，GTM 會將任何成矩型區域而且顏色相同的格子合成一個有 ROWSPAN 和 COLSPAN 值的大型方格。"
+msgstr ""
+"若選上此選項，GTM 會將任何成矩型區域而且顏色相同的格子合成一個有 ROWSPAN 和 "
+"COLSPAN 值的大型方格。"
 
 #: ../plug-ins/common/file-html-table.c:491
 msgid "Co_mpress TD tags"
@@ -3539,7 +3551,9 @@ msgid ""
 "Checking this tag will cause GTM to leave no whitespace between the TD tags "
 "and the cellcontent.  This is only necessary for pixel level positioning "
 "control."
-msgstr "若選上此選項，GTM 將不會在 TD 標籤及格子內容之間留下任何空白字符。這只在需要以像素的程度控制位置才有需要使用。"
+msgstr ""
+"若選上此選項，GTM 將不會在 TD 標籤及格子內容之間留下任何空白字符。這只在需要"
+"以像素的程度控制位置才有需要使用。"
 
 #: ../plug-ins/common/file-html-table.c:507
 msgid "C_aption"
@@ -4570,8 +4584,7 @@ msgstr " 頁"
 msgid "TIFF Channel"
 msgstr "TIFF 色版"
 
-#: ../plug-ins/common/file-tiff-load.c:1025
-#: ../plug-ins/file-psd/psd-load.c:333
+#: ../plug-ins/common/file-tiff-load.c:1025 ../plug-ins/file-psd/psd-load.c:333
 msgid ""
 "Warning:\n"
 "The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
@@ -4579,13 +4592,15 @@ msgid ""
 "this conversion."
 msgstr ""
 "警告：\n"
-"準備載入的圖片的色版是 16 位元色版。GIMP 只支援 8 位元色版，因此它會自動進行轉換，而在這個過程中將會失去一部份資訊。"
+"準備載入的圖片的色版是 16 位元色版。GIMP 只支援 8 位元色版，因此它會自動進行"
+"轉換，而在這個過程中將會失去一部份資訊。"
 
 #: ../plug-ins/common/file-tiff-save.c:887
 msgid ""
 "The TIFF format only supports comments in\n"
 "7bit ASCII encoding. No comment is saved."
-msgstr "TIFF 圖片格式只接受 7 位元的 ASCII 編碼文字作為備註，因此這些備註不會儲存。"
+msgstr ""
+"TIFF 圖片格式只接受 7 位元的 ASCII 編碼文字作為備註，因此這些備註不會儲存。"
 
 #: ../plug-ins/common/file-tiff-save.c:1061
 #, fuzzy
@@ -6664,7 +6679,9 @@ msgstr "從四週開始映射(_T)"
 msgid ""
 "If unchecked the mapping will put the bottom row in the middle and the top "
 "row on the outside.  If checked it will be the opposite."
-msgstr "如果不選用本選項，映射後的圖片底部表示原來圖片的中心點，而頂端表示原來圖片的四周。如果選用則會以相反方向映射。"
+msgstr ""
+"如果不選用本選項，映射後的圖片底部表示原來圖片的中心點，而頂端表示原來圖片的"
+"四周。如果選用則會以相反方向映射。"
 
 #: ../plug-ins/common/polar-coords.c:694
 msgid "To _polar"
@@ -6674,7 +6691,9 @@ msgstr "變成圓形(_P)"
 msgid ""
 "If unchecked the image will be circularly mapped onto a rectangle.  If "
 "checked the image will be mapped onto a circle."
-msgstr "如果不選用本選項，圖片會以旋轉方式映射至另一個長方形。如果選上則會映射至圓形。"
+msgstr ""
+"如果不選用本選項，圖片會以旋轉方式映射至另一個長方形。如果選上則會映射至圓"
+"形。"
 
 #: ../plug-ins/common/procedure-browser.c:82
 #, fuzzy
@@ -7772,7 +7791,9 @@ msgid ""
 "This field is a hint for numerical input fields. It specifies how many "
 "decimal digits the input field should provide to get approximately the same "
 "accuracy as an \"inch\" input field with two decimal digits."
-msgstr "本欄是數值輸入欄位的提示。它指定了輸入欄位應提供多少個小數點，使得準確度大致上等於「英吋」的小數點後兩位。"
+msgstr ""
+"本欄是數值輸入欄位的提示。它指定了輸入欄位應提供多少個小數點，使得準確度大致"
+"上等於「英吋」的小數點後兩位。"
 
 #: ../plug-ins/common/unit-editor.c:103
 msgid "Symbol"
@@ -7783,7 +7804,9 @@ msgstr "符號"
 msgid ""
 "The unit's symbol if it has one (e.g. \" for inches). The unit's "
 "abbreviation is used if doesn't have a symbol."
-msgstr "本單位的符號 (如果有的話，例如英吋的「'」)。如果沒有該單位的相應符號則使用縮寫。"
+msgstr ""
+"本單位的符號 (如果有的話，例如英吋的「'」)。如果沒有該單位的相應符號則使用縮"
+"寫。"
 
 #: ../plug-ins/common/unit-editor.c:106
 msgid "Abbreviation"
@@ -8931,7 +8954,9 @@ msgstr "Photoshop 圖片"
 msgid ""
 "Unable to save layer with mode '%s'.  Either the PSD file format or the save "
 "plug-in does not support that, using normal mode instead."
-msgstr "無法以「%s」模式儲存圖層。可能是 PSD 檔案格式或儲存插件不支援，使用正常的模式代替。"
+msgstr ""
+"無法以「%s」模式儲存圖層。可能是 PSD 檔案格式或儲存插件不支援，使用正常的模式"
+"代替。"
 
 #: ../plug-ins/file-psd/psd-save.c:633
 msgid "Error: Can't convert GIMP base imagetype to PSD mode"
@@ -9442,7 +9467,8 @@ msgstr "下："
 #, fuzzy
 msgid ""
 "The higher the number of iterations, the more details will be calculated"
-msgstr "更改計算的次數。如果數值越高，計算出來的圖形細節也越多，但會消耗較多時間"
+msgstr ""
+"更改計算的次數。如果數值越高，計算出來的圖形細節也越多，但會消耗較多時間"
 
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:780
 msgid "CX:"
@@ -9901,8 +9927,7 @@ msgstr "顯示控制點"
 msgid "Max undo:"
 msgstr "復原次數上限："
 
-#: ../plug-ins/gfig/gfig-dialog.c:1283
-#: ../plug-ins/gimpressionist/general.c:184
+#: ../plug-ins/gfig/gfig-dialog.c:1283 ../plug-ins/gimpressionist/general.c:184
 msgid "Transparent"
 msgstr "透明"
 
@@ -10229,7 +10254,7 @@ msgstr "執行各種不同的藝術操作"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
 msgid "_Impressionist..."
-msgstr "印象派風格(_G)..."
+msgstr "印象派風格(_I)..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -10970,8 +10995,7 @@ msgstr "隨機數種子："
 msgid "_Second Flares"
 msgstr "第二光斑(_S)"
 
-#: ../plug-ins/help-browser/dialog.c:185
-#: ../plug-ins/help-browser/dialog.c:1114
+#: ../plug-ins/help-browser/dialog.c:185 ../plug-ins/help-browser/dialog.c:1114
 #, fuzzy
 msgid "GIMP Help Browser"
 msgstr "執行說明文件瀏覽器"
@@ -11301,8 +11325,7 @@ msgstr "中心點水平位置(_X)："
 #: ../plug-ins/imagemap/imap_circle.c:268
 #: ../plug-ins/imagemap/imap_circle.c:275
 #: ../plug-ins/imagemap/imap_circle.c:281 ../plug-ins/imagemap/imap_grid.c:250
-#: ../plug-ins/imagemap/imap_grid.c:256
-#: ../plug-ins/imagemap/imap_polygon.c:504
+#: ../plug-ins/imagemap/imap_grid.c:256 ../plug-ins/imagemap/imap_polygon.c:504
 #: ../plug-ins/imagemap/imap_polygon.c:512
 #: ../plug-ins/imagemap/imap_rectangle.c:393
 #: ../plug-ins/imagemap/imap_rectangle.c:400

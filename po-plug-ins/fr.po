@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: gimp-plugins HEAD fr\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2018-08-07 17:06+0000\n"
-"PO-Revision-Date: 2018-08-08 09:50+0200\n"
+"PO-Revision-Date: 2020-02-08 12:28-0800\n"
 "Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "Language: fr\n"
@@ -28,6 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/common/align-layers.c:158
 msgid "Align all visible layers of the image"
@@ -2453,8 +2454,7 @@ msgstr "Format de brosse non pris en charge"
 #, c-format
 msgid "Invalid header data in '%s': Brush name is too long: %lu"
 msgstr ""
-"Données d’en-tête non valides dans « %s » : nom de brosse trop long :"
-"%lu"
+"Données d’en-tête non valides dans « %s » : nom de brosse trop long :%lu"
 
 #: ../plug-ins/common/file-gbr.c:482
 #, c-format
@@ -3129,11 +3129,9 @@ msgid "GIMP pattern"
 msgstr "Motif GIMP"
 
 #: ../plug-ins/common/file-pat.c:373
-#,c-format
 msgid "Invalid header data in '%s': Pattern name is too long: %lu"
 msgstr ""
-"Données d’en-tête non valides dans « %s » : nom de motif trop long : "
-"%lu"
+"Données d’en-tête non valides dans « %s » : nom de motif trop long : %lu"
 
 #: ../plug-ins/common/file-pat.c:392
 #, c-format
@@ -8985,7 +8983,7 @@ msgstr "Exécute diverses opérations artistiques"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
 msgid "_Impressionist..."
-msgstr "_GIMPressionniste…"
+msgstr "_Impressionniste…"
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -8997,7 +8995,7 @@ msgstr "Peinture"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
 msgid "Impressionist"
-msgstr "GIMPressionniste"
+msgstr "Impressionniste"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -9286,7 +9284,7 @@ msgstr "Enregistrer courants"
 
 #: ../plug-ins/gimpressionist/presets.c:893
 msgid "Impressionist Defaults"
-msgstr "Valeurs par défaut de GIMPressionniste"
+msgstr "Valeurs par défaut de Impressionniste"
 
 #: ../plug-ins/gimpressionist/presets.c:1014
 msgid "_Presets"
