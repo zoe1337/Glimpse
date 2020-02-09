@@ -17,6 +17,12 @@ Overview of Changes in Glimpse 0.1.1
 * Moved build/ folder to build-aux/ so that we follow GNOME conventions
 * Fixed `make dist` to assist Linux and BSD distribution package maintainers
 * Fixed "legacy" UI theme in Snapcraft packages
+* Reinstated the "Color" icon theme
+* Reinstated the "Legacy" UI theme
+* Added foreign language translations to the Windows installer
+* Refactored UI translation of "Gimpressionist" to "Impressionist"
+* Fixed branding in the text editor color picker
+* Updated `make check` to provide more verbose output for Flatpak validation
 * TO BE DETERMINED - Still in development
 
 Overview of Changes from GNU Image Manipulation Program to Glimpse 0.1.0
