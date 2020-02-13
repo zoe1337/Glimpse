@@ -14,3 +14,7 @@
 <!ELEMENT contributor (#PCDATA)>
 <!ATTLIST contributor role CDATA #REQUIRED>
 <!ATTLIST contributor last-active CDATA #REQUIRED>
+
+<!ELEMENT upstream (#PCDATA)>
+<!ATTLIST upstream role CDATA #REQUIRED>
+<!ATTLIST upstream last-active CDATA #REQUIRED>

@@ -60,15 +60,34 @@ For GNU Image Manipulation Program authors, check the ORIGINAL_AUTHORS file in t
     <xsl:call-template name="contributor">
       <xsl:with-param name="role" select="'documenter'"/>
     </xsl:call-template>
-    <xsl:text>
 
-## The following people sponsored Glimpse on Patreon:
+## The following people have contributed code to the GNU Image Manipulation Program:
 
-*Contributing money towards the cost of running the project.*
+*Contributing patches, fixes, plugins, extensions, scripts and other [improvements to the code](/develop/).*
 
 </xsl:text>
-    <xsl:call-template name="contributor">
-      <xsl:with-param name="role" select="'sponsor'"/>
+    <xsl:call-template name="upstream">
+      <xsl:with-param name="role" select="'author'"/>
+    </xsl:call-template>
+    <xsl:text>
+
+## The following people have contributed art to the GNU Image Manipulation Program:
+
+*Contributing icons, cursors, brushes, gradients, patterns, etc.*
+
+</xsl:text>
+    <xsl:call-template name="upstream">
+      <xsl:with-param name="role" select="'artist'"/>
+    </xsl:call-template>
+    <xsl:text>
+
+## The following people have helped to document the GNU Image Manipulation Program:
+
+*Contributing [documentation](/docs/).*
+
+</xsl:text>
+    <xsl:call-template name="upstream">
+      <xsl:with-param name="role" select="'documenter'"/>
     </xsl:call-template>
 
   </xsl:template>

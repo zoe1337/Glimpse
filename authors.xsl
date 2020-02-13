@@ -13,6 +13,11 @@
     <xsl:apply-templates select="dc:contributor[contains(@role, $role)]" />
   </xsl:template>
 
+  <xsl:template name="upstream">
+    <xsl:param name="role" />
+    <xsl:apply-templates select="dc:upstream[contains(@role, $role)]" />
+  </xsl:template>
+
   <xsl:template match="/dc:glimpse-authors">
     <xsl:text>!! To see the authors of GNU Image Manipulation Program (which Glimpse is based on) check the ORIGINAL_AUTHORS file. !!
 -- This file is generated from authors.xml, do not edit it directly. --
@@ -51,6 +56,34 @@ The following people have helped to document Glimpse:
     <xsl:call-template name="contributor">
       <xsl:with-param name="role" select="'documenter'"/>
     </xsl:call-template>
+    <xsl:text>
+
+A special thank you to the GNU Image Manipulation Program developers:
+
+</xsl:text>
+
+    <xsl:call-template name="upstream">
+      <xsl:with-param name="role" select="'author'"/>
+    </xsl:call-template>
+    <xsl:text>
+
+A further thank you to the GNU Image Manipulation Program artists:
+
+</xsl:text>
+    <xsl:call-template name="upstream">
+      <xsl:with-param name="role" select="'artist'"/>
+    </xsl:call-template>
+    <xsl:text>
+
+Also thank you to the people who documented GNU Image Manipulation Program:
+
+</xsl:text>
+    <xsl:call-template name="upstream">
+      <xsl:with-param name="role" select="'documenter'"/>
+    </xsl:call-template>
+    <xsl:text>
+
+</xsl:text>
 
   </xsl:template>
 
@@ -65,6 +98,11 @@ The following people have helped to document Glimpse:
   </xsl:template>
 
   <xsl:template match="dc:contributor">
+    <xsl:text> </xsl:text><xsl:apply-templates /><xsl:text>
+</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="dc:upstream">
     <xsl:text> </xsl:text><xsl:apply-templates /><xsl:text>
 </xsl:text>
   </xsl:template>

@@ -57,7 +57,7 @@ typedef struct
   PangoLayout *layout;
 
   gint         n_authors;
-  gint         shuffle[G_N_ELEMENTS (authors) - 1];  /* NULL terminated */
+  gint         shuffle[G_N_ELEMENTS (glimpse_authors) - 1];  /* NULL terminated */
 
   guint        timer;
 
@@ -103,7 +103,7 @@ about_dialog_create (GimpContext *context)
       GList     *children;
       gchar     *copyright;
 
-      dialog.n_authors = G_N_ELEMENTS (authors) - 1;
+      dialog.n_authors = G_N_ELEMENTS (glimpse_authors) - 1;
 
       pixbuf = about_dialog_load_logo ();
 
@@ -125,7 +125,6 @@ about_dialog_create (GimpContext *context)
                              "authors",            authors,
                              "artists",            artists,
                              "documenters",        documenters,
-                             "sponsors",           sponsors,
                              /* Translators: insert your names here,
                                 separated by newline */
                              "translator-credits", _("translator-credits"),
@@ -535,7 +534,7 @@ about_dialog_timer (gpointer data)
           if (! (dialog->index < dialog->n_authors))
             dialog->index = 0;
 
-          text = insert_spacers (authors[dialog->shuffle[dialog->index]]);
+          text = insert_spacers (glimpse_authors[dialog->shuffle[dialog->index]]);
           dialog->index += 1;
           break;
 
