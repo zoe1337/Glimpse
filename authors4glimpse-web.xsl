@@ -20,8 +20,6 @@ Date: </xsl:text><xsl:value-of select="$today"/><xsl:text>
 Modified: </xsl:text><xsl:value-of select="$today"/><xsl:text>
 Author: generated from authors.xml.
 
-For GNU Image Manipulation Program authors, check the ORIGINAL_AUTHORS file in the git repository.
-
 ## Glimpse was originally written by:
 
 </xsl:text>
