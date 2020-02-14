@@ -19,8 +19,7 @@
   </xsl:template>
 
   <xsl:template match="/dc:glimpse-authors">
-    <xsl:text>!! To see the authors of GNU Image Manipulation Program (which Glimpse is based on) check the ORIGINAL_AUTHORS file. !!
--- This file is generated from authors.xml, do not edit it directly. --
+    <xsl:text>-- This file is generated from authors.xml, do not edit it directly. --
 
 Glimpse fork was started by:
 
