@@ -23,6 +23,8 @@ Overview of Changes in Glimpse 0.1.1
 * Refactored UI translation of "Gimpressionist" to "Impressionist"
 * Fixed branding in the text editor color picker
 * Updated `make check` to provide more verbose output for Flatpak validation
+* Revamped how upstream maintainers are credited
+* Displays recent upstream contributors through the UI
 * TO BE DETERMINED - Still in development
 
 Overview of Changes from GNU Image Manipulation Program to Glimpse 0.1.0
