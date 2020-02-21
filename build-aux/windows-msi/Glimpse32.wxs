@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1252" ?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-    <Product Name="Glimpse 0.1 DEV" Manufacturer="Glimpse Project" Id="*" UpgradeCode="b3a61b97-744b-4fdd-bebb-aa458e0af443" Language="1033" Codepage="1252" Version="0.1.1">
-        <Package Id="*" Keywords="Installer" Description="Glimpse 0.1 Installer" Comments="Glimpse Image Editor is provided under the GNU General Public License version 3." Manufacturer="Glimpse Project" InstallerVersion="100" Languages="1033" Compressed="yes" SummaryCodepage="1252" />
+    <Product Name="Glimpse 0.2 DEV" Manufacturer="Glimpse Project" Id="*" UpgradeCode="b3a61b97-744b-4fdd-bebb-aa458e0af443" Language="1033" Codepage="1252" Version="0.1.9">
+        <Package Id="*" Keywords="Installer" Description="Glimpse 0.2 Installer" Comments="Glimpse Image Editor is provided under the GNU General Public License version 3." Manufacturer="Glimpse Project" InstallerVersion="100" Languages="1033" Compressed="yes" SummaryCodepage="1252" />
         <Condition Message="You must be an administrator to install Glimpse Image Editor.">
             Privileged
         </Condition>
@@ -15,16 +15,16 @@
           DisallowUpgradeErrorMessage = "Setup detected that an older version of Glimpse Image Editor is already installed."
           DowngradeErrorMessage = "Setup detected that a later version of Glimpse Image Editor is already installed." />
         <Media Id="1" Cabinet="Glimpse.cab" EmbedCab="yes" DiskPrompt="CD-ROM #1" />
-        <Property Id="DiskPrompt" Value="Glimpse 0.1 Installation [1]" />
+        <Property Id="DiskPrompt" Value="Glimpse 0.2 Installation [1]" />
         <Directory Id="TARGETDIR" Name="SourceDir">
             <Directory Id="ProgramFilesFolder" Name="PFiles">
                 <Directory Id="Glimpse" Name="Glimpse Image Editor">
-                    <Directory Id="INSTALLDIR" Name="Glimpse 0.1 DEV">
+                    <Directory Id="INSTALLDIR" Name="Glimpse 0.2 DEV">
                         <Directory Id="bin" Name="bin">
                             <Component Id="MainExecutable" Guid="YOUR-GUID-HERE">
                                 <File Id="GlimpseEXE" Name="Glimpse.exe" DiskId="1" Source="InputFiles32\bin\glimpse.exe" KeyPath="yes">
-                                    <Shortcut Id="startmenuGlimpse01" Directory="ProgramMenuDir" Name="Glimpse 0.1 DEV" WorkingDirectory="INSTALLDIR" Icon="Glimpse.exe" IconIndex="0" Advertise="yes" />
-                                    <Shortcut Id="desktopGlimpse01" Directory="DesktopFolder" Name="Glimpse 0.1 DEV" WorkingDirectory="INSTALLDIR" Icon="Glimpse.exe" IconIndex="0" Advertise="yes" />
+                                    <Shortcut Id="startmenuGlimpse01" Directory="ProgramMenuDir" Name="Glimpse 0.2 DEV" WorkingDirectory="INSTALLDIR" Icon="Glimpse.exe" IconIndex="0" Advertise="yes" />
+                                    <Shortcut Id="desktopGlimpse01" Directory="DesktopFolder" Name="Glimpse 0.2 DEV" WorkingDirectory="INSTALLDIR" Icon="Glimpse.exe" IconIndex="0" Advertise="yes" />
                                 </File>
                                 <File Id="fil71B798DBEB07E7F6C4FA95E0C226B628" DiskId="1" Source="InputFiles32\bin\2to3" />
                                 <File Id="fil30E4CEC67D78A4B395FF10B811FF36C4" DiskId="1" Source="InputFiles32\bin\2to3-2.7" />
@@ -4376,13 +4376,6 @@
                                                 <File Id="fil9168E9CE8FB9CD74D3C36A6146FCB8B8" DiskId="1" Source="InputFiles32\share\glimpse\2.0\brushes\Basic\Star.vbr" />
                                             </Component>
                                         </Directory>
-                                        <Directory Id="dir8FE8A2FD0E722F2A1418514D8E712FC7" Name="Fun">
-                                            <Component Id="cmp8956DAECCEF92B2E96C59BD025A01C4C" Guid="YOUR-GUID-HERE">
-                                                <File Id="filB86C66F005001BAF828164E7269CC134" DiskId="1" Source="InputFiles32\share\glimpse\2.0\brushes\Fun\GEGL-goat.gih" />
-                                                <File Id="fil9FB0389EE9ACDDCB214A74EE8F2D3CB2" DiskId="1" Source="InputFiles32\share\glimpse\2.0\brushes\Fun\pepper.gbr" />
-                                                <File Id="fil223F362B2F7BECFCAC57C7DE56BAA468" DiskId="1" Source="InputFiles32\share\glimpse\2.0\brushes\Fun\Wilber.gih" />
-                                            </Component>
-                                        </Directory>
                                         <Directory Id="dir3D5CD70DB2939781AF1620F45364D553" Name="gimp-obsolete-files">
                                             <Component Id="cmp3413CA7A5A3ABB4C5A44E542B451CD10" Guid="YOUR-GUID-HERE">
                                                 <File Id="filC8CCA462A099BAA443358176CE741A9C" DiskId="1" Source="InputFiles32\share\glimpse\2.0\brushes\gimp-obsolete-files\10x10square.gbr" />
@@ -7933,7 +7926,6 @@
             <ComponentRef Id="glimpseLogo4848" />
             <ComponentRef Id="glimpseLogo256256" />
             <ComponentRef Id="cmp97E3C2A7A5E8A9AA35EAD882074C0D60" />
-            <ComponentRef Id="cmp8956DAECCEF92B2E96C59BD025A01C4C" />
             <ComponentRef Id="cmp3413CA7A5A3ABB4C5A44E542B451CD10" />
             <ComponentRef Id="cmp96D836644F4A120C48A71941D5718D6B" />
             <ComponentRef Id="cmp0BCBA518192BBC10C65E648B8A47EDD7" />
