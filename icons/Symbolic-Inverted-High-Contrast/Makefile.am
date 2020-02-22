@@ -1,13 +1,13 @@
 ## Process this file with automake to produce Makefile.in
 
-iconsdir = $(gimpdatadir)/icons/Symbolic-Inverted
+iconsdir = $(gimpdatadir)/icons/Symbolic-Inverted-High-Contrast
 
 icons_DATA = \
 	index.theme
 
 include $(top_srcdir)/icons/icon-list.mk
 
-CONTRAST = -1
+CONTRAST = -1.5
 
 MAKE_ICON = \
 	mkdir -p `dirname $@` && \
@@ -30,12 +30,6 @@ scalable/gimp-default-colors.svg: ../Symbolic/scalable/gimp-default-colors.svg M
 %/gimp-toilet-paper.png: $(top_srcdir)/icons/Symbolic/$(@D)/gimp-toilet-paper.png Makefile.am
 	mkdir -p `dirname $@` && cp -f $< $@
 scalable/gimp-toilet-paper.svg: ../Symbolic/scalable/gimp-toilet-paper.svg Makefile.am
-	mkdir -p `dirname $@` && cp -f $< $@
-
-# Glimpse icons are also exceptions. We should fetch them from the Legacy folder instead
-%/glimpse-icon.png: $(top_srcdir)/icons/Legacy/$(@D)/glimpse-icon.png
-	mkdir -p `dirname $@` && cp -f $< $@
-scalable/glimpse-icon.svg: ../Legacy/scalable/glimpse-icon.svg
 	mkdir -p `dirname $@` && cp -f $< $@
 
 # Other exceptions: inverted gimp-color-picker-white|black are generated

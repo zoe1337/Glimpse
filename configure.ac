@@ -2931,7 +2931,9 @@ icons/Makefile
 icons/Legacy/Makefile
 icons/Color/Makefile
 icons/Symbolic/Makefile
+icons/Symbolic-High-Contrast/Makefile
 icons/Symbolic-Inverted/Makefile
+icons/Symbolic-Inverted-High-Contrast/Makefile
 themes/Makefile
 themes/System/Makefile
 themes/Gray/Makefile
