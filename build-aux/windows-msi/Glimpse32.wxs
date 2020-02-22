@@ -4376,13 +4376,6 @@
                                                 <File Id="fil9168E9CE8FB9CD74D3C36A6146FCB8B8" DiskId="1" Source="InputFiles32\share\glimpse\2.0\brushes\Basic\Star.vbr" />
                                             </Component>
                                         </Directory>
-                                        <Directory Id="dir8FE8A2FD0E722F2A1418514D8E712FC7" Name="Fun">
-                                            <Component Id="cmp8956DAECCEF92B2E96C59BD025A01C4C" Guid="YOUR-GUID-HERE">
-                                                <File Id="filB86C66F005001BAF828164E7269CC134" DiskId="1" Source="InputFiles32\share\glimpse\2.0\brushes\Fun\GEGL-goat.gih" />
-                                                <File Id="fil9FB0389EE9ACDDCB214A74EE8F2D3CB2" DiskId="1" Source="InputFiles32\share\glimpse\2.0\brushes\Fun\pepper.gbr" />
-                                                <File Id="fil223F362B2F7BECFCAC57C7DE56BAA468" DiskId="1" Source="InputFiles32\share\glimpse\2.0\brushes\Fun\Wilber.gih" />
-                                            </Component>
-                                        </Directory>
                                         <Directory Id="dir3D5CD70DB2939781AF1620F45364D553" Name="gimp-obsolete-files">
                                             <Component Id="cmp3413CA7A5A3ABB4C5A44E542B451CD10" Guid="YOUR-GUID-HERE">
                                                 <File Id="filC8CCA462A099BAA443358176CE741A9C" DiskId="1" Source="InputFiles32\share\glimpse\2.0\brushes\gimp-obsolete-files\10x10square.gbr" />
@@ -7933,7 +7926,6 @@
             <ComponentRef Id="glimpseLogo4848" />
             <ComponentRef Id="glimpseLogo256256" />
             <ComponentRef Id="cmp97E3C2A7A5E8A9AA35EAD882074C0D60" />
-            <ComponentRef Id="cmp8956DAECCEF92B2E96C59BD025A01C4C" />
             <ComponentRef Id="cmp3413CA7A5A3ABB4C5A44E542B451CD10" />
             <ComponentRef Id="cmp96D836644F4A120C48A71941D5718D6B" />
             <ComponentRef Id="cmp0BCBA518192BBC10C65E648B8A47EDD7" />
