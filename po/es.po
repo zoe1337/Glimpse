@@ -14339,11 +14339,11 @@ msgstr "Visite el sitio web de Glimpse"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2015\n"
-"Alonso Lara\n"
-"Francisco Javier F. Serrador\n"
-"Pablo G. del Campo\n"
-"Francisco Vila"
+"Daniel Mustieles (GNU I.M.P) <daniel.mustieles@gmail.com>\n"
+"Alonso Lara (GNU I.M.P)\n"
+"Francisco Javier F. Serrador (GNU I.M.P)\n"
+"Pablo G. del Campo (GNU I.M.P)\n"
+"Francisco Vila (GNU I.M.P)"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

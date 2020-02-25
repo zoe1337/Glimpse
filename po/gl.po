@@ -14724,10 +14724,10 @@ msgstr "Visite o sitio web de Glimpse"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Mar Castro Pereiro para mancomun.org\n"
-"imaxin software para mancomun.org\n"
-" Ignacio Casal Quinteiro  <nacho.resa@gmail.com>\n"
-" Francisco Xosé Vázquez Grandal\n"
+"Mar Castro Pereiro para mancomun.org (GNU I.M.P)\n"
+"imaxin software para mancomun.org (GNU I.M.P)\n"
+" Ignacio Casal Quinteiro (GNU I.M.P) <nacho.resa@gmail.com>\n"
+" Francisco Xosé Vázquez Grandal (GNU I.M.P)\n"
 " Proxecto Trasno: http://www.trasno.net"
 
 #: ../app/dialogs/about-dialog.c:530

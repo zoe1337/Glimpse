@@ -15859,8 +15859,8 @@ msgstr "بازدید از وب‌گاه گیمپ"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"میلاد زکریا <meelad@farsiweb.info>\n"
-"فرزاد قانعی <farzad@farsiweb.info>"
+"میلاد زکریا (GNU I.M.P)<meelad@farsiweb.info>\n"
+"فرزاد قانعی (GNU I.M.P) <farzad@farsiweb.info>"
 
 #: ../app/dialogs/about-dialog.c:530
 #, fuzzy

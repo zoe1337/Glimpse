@@ -14298,8 +14298,8 @@ msgstr "Visitate il sito di Glimpse"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Marco Ciampa (attuale responsabile)\n"
-"Gruppo Traduttori Italiani di GIMP"
+"Marco Ciampa (attuale responsabile per GNU I.M.P)\n"
+"Gruppo Traduttori Italiani di GNU I.M.P"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

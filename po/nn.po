@@ -14559,10 +14559,10 @@ msgstr "Besøk Glimpse si nettside"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Kolbjørn Stuestøl\n"
-"Kjartan Maraas\n"
-"Sigurd Gartmann\n"
-"Runar Ingebrigtsen"
+"Kolbjørn Stuestøl (GNU I.M.P)\n"
+"Kjartan Maraas (GNU I.M.P)\n"
+"Sigurd Gartmann (GNU I.M.P)\n"
+"Runar Ingebrigtsen (GNU I.M.P)"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

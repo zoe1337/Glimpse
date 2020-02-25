@@ -14203,10 +14203,10 @@ msgstr "Посетите сайт Glimpse"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Roxana Kolosova\n"
-"Anatoly A. Yakushin\n"
-"Alexandre Prokoudine\n"
-"Olesya Gerasimenko"
+"Roxana Kolosova (GNU I.M.P)\n"
+"Anatoly A. Yakushin (GNU I.M.P)\n"
+"Alexandre Prokoudine (GNU I.M.P)\n"
+"Olesya Gerasimenko (GNU I.M.P)"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

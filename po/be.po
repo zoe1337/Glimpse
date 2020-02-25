@@ -14718,7 +14718,7 @@ msgstr "Наведаць старонку Glimpse"
 #. separated by newline
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
-msgstr "Глеб Валошка <375gnu@gmail.com>"
+msgstr "Глеб Валошка (GNU I.M.P) <375gnu@gmail.com>"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

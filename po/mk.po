@@ -15911,7 +15911,7 @@ msgstr "Посетете ја страницата на GIMP"
 #. separated by newline
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
-msgstr "Марко Дода"
+msgstr "Марко Дода (GNU I.M.P)"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

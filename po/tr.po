@@ -14214,9 +14214,9 @@ msgstr "Glimpse web sitesini ziyaret edin"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Muhammet Kara <muhammetk@gmail.com>\n"
-"Sabri Ünal <libreajans@gmail.com>, 2019\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2019."
+"Muhammet Kara (GNU I.M.P) <muhammetk@gmail.com>\n"
+"Sabri Ünal (GNU I.M.P) <libreajans@gmail.com>, 2019\n"
+"Emin Tufan Çetin (GNU I.M.P) <etcetin@gmail.com>, 2019."
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

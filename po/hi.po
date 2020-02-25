@@ -14757,8 +14757,8 @@ msgstr ""
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"रविशंकर श्रीवास्तव (raviratlami@yahoo.com)\n"
-"राजेश रंजन (rajeshkajha@yahoo.com)"
+"रविशंकर श्रीवास्तव (GNU I.M.P) (raviratlami@yahoo.com)\n"
+"राजेश रंजन (GNU I.M.P) (rajeshkajha@yahoo.com)"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

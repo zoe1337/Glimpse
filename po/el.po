@@ -14374,9 +14374,9 @@ msgstr "Επισκεφτείτε την ιστοσελίδα του GIMP"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Δημήτρης Σπίγγος <dmtrs32@gmail.com>\n"
-"Τζένη Πετούμενου <epetoumenou@gmail.com>\n"
-"Φώτης Τσάμης <ftsamis@gmail.com>"
+"Δημήτρης Σπίγγος (GNU I.M.P) <dmtrs32@gmail.com>\n"
+"Τζένη Πετούμενου (GNU I.M.P) <epetoumenou@gmail.com>\n"
+"Φώτης Τσάμης (GNU I.M.P) <ftsamis@gmail.com>"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

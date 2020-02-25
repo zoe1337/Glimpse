@@ -15106,7 +15106,7 @@ msgstr "Glimpse säxifäsen açu"
 #. separated by newline
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
-msgstr "Albert Fazlí <tatarish.l10n@gmail.com>"
+msgstr "Albert Fazlí (GNU I.M.P) <tatarish.l10n@gmail.com>"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

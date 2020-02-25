@@ -14312,6 +14312,7 @@ msgstr "Visiteu el web del Glimpse"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
+"De GNU I.M.P:\n"
 "Softcatalà - www.softcatala.org\n"
 " Diversos contribuïdors, 2000-2008.\n"
 " Quim Perez i Noguer <noguer a gmail.com>, 2005-2011\n"

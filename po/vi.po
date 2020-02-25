@@ -14733,7 +14733,7 @@ msgstr "Xin hãy ghé thăm nơi Mạng GIMP"
 #. separated by newline
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
-msgstr "Nhóm Việt hóa Gnome <gnomevi-list@lists.sourceforge.net>"
+msgstr "Nhóm Việt hóa Gnome (GNU I.M.P) <gnomevi-list@lists.sourceforge.net>"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

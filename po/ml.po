@@ -14387,7 +14387,7 @@ msgstr "ജിമ്പ് വെബ്സൈറ്റ് സന്ദര്‍�
 #. separated by newline
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
-msgstr "Mohammed Sadik <sadiqpkp@gmail.com>"
+msgstr "Mohammed Sadik (GNU I.M.P) <sadiqpkp@gmail.com>"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

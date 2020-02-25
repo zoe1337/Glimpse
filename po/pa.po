@@ -14666,8 +14666,8 @@ msgstr "ਜੈਮਪ ਵੈੱਬਸਾਇਟ ਵੇਖੋ"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ\n"
-"A S Alam"
+"ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ (GNU I.M.P)\n"
+"A S Alam (GNU I.M.P)"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

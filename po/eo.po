@@ -14547,8 +14547,14 @@ msgstr "Viziti la retpaĝaron de GIMPo"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Antonio C. CODAZZI, Alekĉjo, Kristjan SCHMIDT, Michael MORONI, Nicolas "
-"RAMOND, OlivierWeb, Petr Adam Dohnálek, Yekrats"
+"Antonio C. CODAZZI (GNU I.M.P)\n"
+"Alekĉjo (GNU I.M.P)\n"
+"Kristjan SCHMIDT (GNU I.M.P)\n"
+"Michael MORONI (GNU I.M.P)\n"
+"Nicolas RAMOND (GNU I.M.P)\n"
+"OlivierWeb (GNU I.M.P)\n"
+"Petr Adam Dohnálek (GNU I.M.P)\n"
+"Yekrats (GNU I.M.P)"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"
