@@ -14881,10 +14881,10 @@ msgstr "Vizitați saitul web GIMP"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Robert Claudiu Gheorghe <rgheorghe AT writeme DOT com>\n"
-"Lucian Adrian Grijincu <lucian DOT grijincu AT gmail DOT com>\n"
-"Nandor Licker <lickernandor AT yahoo DOT com>\n"
-"Cristian Secară <cristi AT secarica DOT ro>"
+"Robert Claudiu Gheorghe (GNU I.M.P) <rgheorghe AT writeme DOT com>\n"
+"Lucian Adrian Grijincu (GNU I.M.P) <lucian DOT grijincu AT gmail DOT com>\n"
+"Nandor Licker (GNU I.M.P) <lickernandor AT yahoo DOT com>\n"
+"Cristian Secară (GNU I.M.P) <cristi AT secarica DOT ro>"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

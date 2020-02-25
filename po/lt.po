@@ -14718,12 +14718,12 @@ msgstr "Aplankykite Glimpse svetainę"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Žygimantas Beručka <zygis@gnome.org>\n"
-"Giedrius Naudžiūnas <gimpng@gmail.com>\n"
-"Linas Vasiliauskas <linasv@centras.lt>\n"
-"Mantas Kriaučiūnas <mantas@akl.lt>\n"
-"Eglė Kriaučiūnienė <egle@akl.lt>\n"
-"Karina Gribanova <buratina@delfi.lt>"
+"Žygimantas Beručka (GNU I.M.P) <zygis@gnome.org>\n"
+"Giedrius Naudžiūnas (GNU I.M.P) <gimpng@gmail.com>\n"
+"Linas Vasiliauskas (GNU I.M.P) <linasv@centras.lt>\n"
+"Mantas Kriaučiūnas (GNU I.M.P) <mantas@akl.lt>\n"
+"Eglė Kriaučiūnienė (GNU I.M.P) <egle@akl.lt>\n"
+"Karina Gribanova (GNU I.M.P) <buratina@delfi.lt>"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

@@ -15675,7 +15675,7 @@ msgstr "GIMP વેબસાઈટની મુલાકાત લો"
 #. separated by newline
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
-msgstr "અંકિત પટેલ <ankit644@yahoo.com>"
+msgstr "અંકિત પટેલ (GNU I.M.P) <ankit644@yahoo.com>"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

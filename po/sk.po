@@ -15713,8 +15713,8 @@ msgstr "Navštíviť webovú stránku programu GIMP"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Peter Mráz <etkinator@gmail.com>, 2010\n"
-"Dušan Kazik <prescott66@gmail.com>, 2017"
+"Peter Mráz (GNU I.M.P) <etkinator@gmail.com>, 2010\n"
+"Dušan Kazik (GNU I.M.P) <prescott66@gmail.com>, 2017"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

@@ -14670,7 +14670,7 @@ msgstr "Visitatz lo site Web de Glimpse"
 #. separated by newline
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
-msgstr "Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>"
+msgstr "Cédric Valmary (GNU I.M.P) totenoc.eu <cvalmary@yahoo.fr> "
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

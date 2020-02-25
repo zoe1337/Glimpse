@@ -14167,10 +14167,10 @@ msgstr "Відвідайте сайт GIMP"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Юрій Сирота\n"
-"Андрій Бандура <andriykopanytsia@gmail.com>\n"
-"Максим Дзюманенко <dziumanenko@gmail.com>\n"
-"Daniel Korostil <ted.korostiled@gmail.com>"
+"Юрій Сирота (GNU I.M.P)\n"
+"Андрій Бандура (GNU I.M.P) <andriykopanytsia@gmail.com>\n"
+"Максим Дзюманенко (GNU I.M.P) <dziumanenko@gmail.com>\n"
+"Daniel Korostil (GNU I.M.P) <ted.korostiled@gmail.com>"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

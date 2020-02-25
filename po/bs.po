@@ -14653,13 +14653,13 @@ msgstr "Posjetite web stranicu Gimpa"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"branko Ivanović\n"
-"Danilo Šegan\n"
+"branko Ivanović (GNU I.M.P)\n"
+"Danilo Šegan (GNU I.M.P)\n"
 "\n"
 "Prijevod.org — prijevod na srpski jezik\n"
 "\n"
-"   Emin Šehić https://launchpad.net/~esehic3\n"
-"  Samir Ribić https://launchpad.net/~megaribi"
+"   Emin Šehić (GNU I.M.P) https://launchpad.net/~esehic3\n"
+"  Samir Ribić (GNU I.M.P) https://launchpad.net/~megaribi"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

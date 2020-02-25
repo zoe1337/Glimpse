@@ -14249,12 +14249,12 @@ msgstr "Witryna programu Glimpse"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Paweł Dziekoński, 1999-2000\n"
-"Bartosz Kosiorek <gang65@poczta.onet.pl>, 2005-2011\n"
-"Piotr Zaryk <pzaryk@aviary.pl>, 2008\n"
-"Robert Gomulka <carramba@epf.pl>, 2008\n"
-"Piotr Drąg <piotrdrag@gmail.com>, 2011-2019\n"
-"Aviary.pl <community-poland@mozilla.org>, 2011-2019"
+"Paweł Dziekoński (GNU I.M.P), 1999-2000\n"
+"Bartosz Kosiorek (GNU I.M.P) <gang65@poczta.onet.pl>, 2005-2011\n"
+"Piotr Zaryk (GNU I.M.P) <pzaryk@aviary.pl>, 2008\n"
+"Robert Gomulka (GNU I.M.P) <carramba@epf.pl>, 2008\n"
+"Piotr Drąg (GNU I.M.P) <piotrdrag@gmail.com>, 2011-2019\n"
+"Aviary.pl (GNU I.M.P) <community-poland@mozilla.org>, 2011-2019"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

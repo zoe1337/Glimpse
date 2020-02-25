@@ -14218,7 +14218,7 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
-"  Mark Kwidzińsczi https://launchpad.net/~kaszeba"
+"  Mark Kwidzińsczi (GNU I.M.P) https://launchpad.net/~kaszeba"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

@@ -14276,7 +14276,7 @@ msgstr ""
 #. separated by newline
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
-msgstr "Nils-Christoph Fiedler <fiedler@medienkompanie.de>"
+msgstr "Nils-Christoph Fiedler (GNU I.M.P) <fiedler@medienkompanie.de>"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

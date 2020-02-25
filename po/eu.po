@@ -14230,8 +14230,8 @@ msgstr "Bisitatu GIMPen webgunea"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Hizkuntza Politikarako Sailburuordetza <hizkpol@ej-gv.es>\n"
-"Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>"
+"Hizkuntza Politikarako Sailburuordetza (GNU I.M.P) <hizkpol@ej-gv.es>\n"
+"Iñaki Larrañaga Murgoitio (GNU I.M.P) <dooteo@euskalgnu.org>"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

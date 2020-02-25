@@ -14213,12 +14213,12 @@ msgstr "زُر موقع جمب"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"فريق عربايز للترجمة http://www.arabeyes.org:\n"
-"ضيف الله العتيبي <daif55@gmail.com>\n"
-"أنس الحسيني <linux.anas@gmail.com>\n"
-"جهاد عفيفي <djihed@gmail.com>\n"
-"أسامة خالد <osamak.wfm@gmail.com>\n"
-"خالد حسني <khaledhosny@eglug.org>"
+"فريق عربايز للترجمة (GNU I.M.P) http://www.arabeyes.org\n"
+"ضيف الله العتيبي (GNU I.M.P) <daif55@gmail.com>\n"
+"أنس الحسيني (GNU I.M.P) <linux.anas@gmail.com>\n"
+"جهاد عفيفي (GNU I.M.P) <djihed@gmail.com>\n"
+"أسامة خالد (GNU I.M.P) <osamak.wfm@gmail.com>\n"
+"خالد حسني (GNU I.M.P) <khaledhosny@eglug.org>"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

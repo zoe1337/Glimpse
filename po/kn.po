@@ -15302,7 +15302,7 @@ msgstr ""
 #. separated by newline
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
-msgstr "ಶಂಕರ್ ಪ್ರಸಾದ್ <svenkate@redhat.com>"
+msgstr "ಶಂಕರ್ ಪ್ರಸಾದ್ (GNU I.M.P) <svenkate@redhat.com>"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

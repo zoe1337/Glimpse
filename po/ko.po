@@ -14652,11 +14652,11 @@ msgstr "김프 웹사이트 방문하기"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Seong-ho Cho <darkcircle.0426@gmail.com>, 2012\n"
-"세벌 <sebuls@gmail.com>, 2012\n"
-"최지희 <like.a.dust@gmail.com>, 2007\n"
-"장동수 <iolo@hellocity.net>, 2003-2006\n"
-"남성현 <namsh@kldp.org>, 1998, 1999"
+"Seong-ho Cho (GNU I.M.P) <darkcircle.0426@gmail.com>, 2012\n"
+"세벌 (GNU I.M.P) <sebuls@gmail.com>, 2012\n"
+"최지희 (GNU I.M.P) <like.a.dust@gmail.com>, 2007\n"
+"장동수 (GNU I.M.P) <iolo@hellocity.net>, 2003-2006\n"
+"남성현 (GNU I.M.P) <namsh@kldp.org>, 1998, 1999"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"
