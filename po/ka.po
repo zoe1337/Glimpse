@@ -15267,7 +15267,7 @@ msgstr ""
 #. separated by newline
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
-msgstr "გიორგი მაჩიტიძე"
+msgstr "გიორგი მაჩიტიძე (GNU I.M.P)"
 
 #: ../app/dialogs/about-dialog.c:530
 #, fuzzy

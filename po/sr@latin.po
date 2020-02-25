@@ -14771,9 +14771,9 @@ msgstr "Posetite veb stranicu Gimpa"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Branko Ivanović\n"
-"Danilo Šegan\n"
-"Miloš Popović\n"
+"Branko Ivanović (GNU I.M.P)\n"
+"Danilo Šegan (GNU I.M.P)\n"
+"Miloš Popović (GNU I.M.P)\n"
 "\n"
 "Prevod.org — prevod na srpski jezik"
 

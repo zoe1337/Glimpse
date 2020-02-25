@@ -13925,7 +13925,7 @@ msgstr ""
 #. separated by newline
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
-msgstr "Baurzhan Muftakhidinov <baurthefirst@gmail.com>"
+msgstr "Baurzhan Muftakhidinov (GNU I.M.P) <baurthefirst@gmail.com>"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

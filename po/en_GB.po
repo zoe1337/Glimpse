@@ -14114,10 +14114,10 @@ msgstr "Visit the Glimpse website"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Robert Brady\n"
-"Piers Cornwell\n"
-"Gareth Owen\n"
-"Bruce Cowan"
+"Robert Brady (GNU I.M.P)\n"
+"Piers Cornwell (GNU I.M.P)\n"
+"Gareth Owen (GNU I.M.P)\n"
+"Bruce Cowan (GNU I.M.P)"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

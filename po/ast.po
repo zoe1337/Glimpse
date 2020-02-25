@@ -14609,7 +14609,7 @@ msgstr "Visite'l sitiu web de Glimpse"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Launchpad Contributions:\n"
+"Launchpad Contributions (GNU I.M.P):\n"
 "  Ciso https://launchpad.net/~narcisoantunez\n"
 "  Iñigo Varela https://launchpad.net/~ivarela\n"
 "  Xandru https://launchpad.net/~xandruarmesto\n"

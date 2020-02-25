@@ -14854,8 +14854,8 @@ msgstr "Kunjungi situs web GIMP"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Mohammad DAMT  <mdamt@bisnisweb.com>, 2003.\n"
-"Andika Triwidada <andika@gmail.com>, 2012, 2014"
+"Mohammad DAMT  (GNU I.M.P) <mdamt@bisnisweb.com>, 2003.\n"
+"Andika Triwidada (GNU I.M.P) <andika@gmail.com>, 2012, 2014"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

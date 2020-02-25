@@ -15834,7 +15834,7 @@ msgstr ""
 #. separated by newline
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
-msgstr "Canonical Ltd <translations@canonical.com>"
+msgstr "Canonical Ltd (GNU I.M.P) <translations@canonical.com>"
 
 #: ../app/dialogs/about-dialog.c:530
 #, fuzzy

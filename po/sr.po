@@ -14282,9 +14282,9 @@ msgstr "Посетите веб страницу Гимпа"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Бранко Ивановић\n"
-"Данило Шеган\n"
-"Милош Поповић\n"
+"Бранко Ивановић (GNU I.M.P)\n"
+"Данило Шеган (GNU I.M.P)\n"
+"Милош Поповић (GNU I.M.P)\n"
 "\n"
 "Prevod.org — превод на српски језик"
 

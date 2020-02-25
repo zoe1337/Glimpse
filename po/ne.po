@@ -15715,7 +15715,7 @@ msgstr "गिम्प वेबसाइट हेर्नुहोस्"
 #. separated by newline
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
-msgstr "Mahesh Subedi <submanesh@gmail.com>"
+msgstr "Mahesh Subedi (GNU I.M.P) <submanesh@gmail.com>"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

@@ -14709,9 +14709,9 @@ msgstr "Besøk nettsiden til GIMP"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Kjartan Maraas\n"
-"Sigurd Gartmann\n"
-"Runar Ingebrigtsen"
+"Kjartan Maraas (GNU I.M.P)\n"
+"Sigurd Gartmann (GNU I.M.P)\n"
+"Runar Ingebrigtsen (GNU I.M.P)"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

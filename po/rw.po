@@ -16640,7 +16640,7 @@ msgstr ""
 #: ../app/dialogs/about-dialog.c:131
 #, fuzzy
 msgid "translator-credits"
-msgstr "Umusemuzi"
+msgstr "Umusemuzi (GNU I.M.P)"
 
 #: ../app/dialogs/about-dialog.c:530
 #, fuzzy

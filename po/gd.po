@@ -14859,7 +14859,7 @@ msgstr "Tadhail air làrach-lìn GIMP"
 #. separated by newline
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
-msgstr "Michael Bauer 'Akerbeltz'"
+msgstr "Michael Bauer 'Akerbeltz' (GNU I.M.P)"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

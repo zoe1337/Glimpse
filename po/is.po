@@ -14130,10 +14130,10 @@ msgstr "Heimsækja Glimpse vefsvæðið"
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
 msgstr ""
-"Áki G. Karlsson aki@akademia.is, 2004.\n"
-"Helgi Þormar Þorbjörnsson  helgi@trance.is, 2004.\n"
-"Anna Jonna Ármansdóttir annajonna@gmail.com, 2008.\n"
-"Sveinn í Felli sv1@fellsnet.is, 2009-2016."
+"Áki G. Karlsson (GNU I.M.P)aki@akademia.is, 2004.\n"
+"Helgi Þormar Þorbjörnsson (GNU I.M.P) helgi@trance.is, 2004.\n"
+"Anna Jonna Ármansdóttir (GNU I.M.P) annajonna@gmail.com, 2008.\n"
+"Sveinn í Felli sv1@fellsnet.is (GNU I.M.P), 2009-2016."
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

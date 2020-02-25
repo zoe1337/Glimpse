@@ -14886,7 +14886,7 @@ msgstr "GIMP ကွန်ရက်စာမျက်နှာကို လည်
 #. separated by newline
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
-msgstr "BIT"
+msgstr "BIT (GNU I.M.P)"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"

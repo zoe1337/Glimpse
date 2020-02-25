@@ -14792,7 +14792,7 @@ msgstr "Kit da welet lec'hienn Glimpse"
 #. separated by newline
 #: ../app/dialogs/about-dialog.c:131
 msgid "translator-credits"
-msgstr "Alan Monfort <alan.monfort@free.fr>"
+msgstr "Alan Monfort (GNU I.M.P) <alan.monfort@free.fr>"
 
 #: ../app/dialogs/about-dialog.c:530
 msgid "Glimpse is brought to you by"
