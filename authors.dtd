@@ -1,6 +1,6 @@
 <!-- simple DTD for Glimpse authors -->
 
-<!ELEMENT glimpse-authors (creator+, maintainer+, contributor+)>
+<!ELEMENT glimpse-authors (creator+, maintainer+, contributor+, upstream+)>
 <!ATTLIST glimpse-authors xmlns CDATA #FIXED "http://purl.org/dc/elements/1.1/">
 
 <!ELEMENT creator (#PCDATA)>
