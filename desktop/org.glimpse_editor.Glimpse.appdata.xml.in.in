@@ -48,6 +48,32 @@
   <launchable type="desktop-id">org.glimpse_editor.Glimpse.desktop</launchable>
 
   <releases>
+    <release version="0.1.2" date="2020-03-02">
+      <url type="details">https://glimpse-editor.org/posts/glimpse-0-1-2-release-notes/</url>
+      <description>
+        <_p>
+          Glimpse 0.1.2 builds on our very first "minimum viable product" 
+          release with minor tweaks and bug fixes.
+        </_p>
+        <_ul>
+          <li>
+            Improved non-English translations and rebranding
+          </li>
+          <li>
+            Upstream contributors are better credited in the UI
+          </li>
+          <li>
+            "Color" icon pack and the "Gray" UI theme are back
+          </li>
+          <li>
+            Rebranded "Gimpressionist" plug-in and text color chooser
+          </li>
+          <li>
+            Unnecessary "fun" brushes have been removed
+          </li>
+        </_ul>
+      </description>
+    </release>
     <release version="0.1.0" date="2019-11-20">
       <url type="details">https://glimpse-editor.org/posts/glimpse-0-1-0-release-notes/</url>
       <description>
