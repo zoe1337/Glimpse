@@ -46,7 +46,7 @@ There are a number of ways to request support:
 
 * Raise an issue on our [Github project](https://github.com/glimpse-editor/Glimpse) using the "question" template
 * Reach out to us on the #glimpse:matrix.org Matrix channel
-* Send us a message on social media (we monitor accounts on [the fediverse](https://bobadon.co.uk/@glimpse), [Facebook](https://www.facebook.com/glimpse.editor) and [Twitter](https://twitter.com/glimpse_editor))
+* Send us a message on social media (we monitor accounts on [the fediverse](https://mastodon.art/@glimpse), [Facebook](https://www.facebook.com/glimpse.editor) and [Twitter](https://twitter.com/glimpse_editor))
 
 [Return to top](#top)
 
@@ -55,7 +55,7 @@ There are a number of ways to report a bug:
 
 * Raise an issue on our [Github project](https://github.com/glimpse-editor/Glimpse) using the "bug report" template
 * Reach out to us on the #glimpse:matrix.org Matrix channel
-* Send us a message on social media (we monitor accounts on [the fediverse](https://bobadon.co.uk/@glimpse), [Facebook](https://www.facebook.com/glimpse.editor) and [Twitter](https://twitter.com/glimpse_editor))
+* Send us a message on social media (we monitor accounts on [the fediverse](https://mastodon.art/@glimpse), [Facebook](https://www.facebook.com/glimpse.editor) and [Twitter](https://twitter.com/glimpse_editor))
 
 [Return to top](#top)
 
@@ -64,7 +64,7 @@ There are a number of ways to request a new feature:
 
 * Raise an issue on our [Github project](https://github.com/glimpse-editor/Glimpse) using the "feature request" template
 * Reach out to us on the #glimpse:matrix.org Matrix channel
-* Send us a message on social media (we monitor accounts on [the fediverse](https://bobadon.co.uk/@glimpse), [Twitter](https://twitter.com/glimpse_editor) and [Facebook](https://www.facebook.com/glimpse.editor))
+* Send us a message on social media (we monitor accounts on [the fediverse](https://mastodon.art/@glimpse), [Twitter](https://twitter.com/glimpse_editor) and [Facebook](https://www.facebook.com/glimpse.editor))
 
 [Return to top](#top)
 
@@ -117,7 +117,7 @@ You can also scrutinize how much we receive in donations and what we spend that 
 ## Follow project news
 We provide regular blog post updates on our project website and its "full text" RSS feed: https://glimpse-editor.org.
 
-You can also follow us on social media platforms such as [the fediverse](https://bobadon.co.uk/@glimpse), [Facebook](https://www.facebook.com/glimpse.editor) and [Twitter](https://twitter.com/glimpse_editor).
+You can also follow us on social media platforms such as [the fediverse](https://mastodon.art/@glimpse), [Facebook](https://www.facebook.com/glimpse.editor) and [Twitter](https://twitter.com/glimpse_editor).
 
 [Return to top](#top)
 

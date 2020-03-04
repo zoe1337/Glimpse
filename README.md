@@ -21,7 +21,7 @@ We do not work to fixed timelines. Instead we select a month we want to aim for,
 ## How can I keep up to date with Glimpse's progress?
 Our official project website is now live at https://glimpse-editor.org.
 
-You can also follow us on [the fediverse](https://bobadon.co.uk/@glimpse), [Facebook](https://www.facebook.com/glimpse.editor) and [Twitter](https://twitter.com/glimpse_editor).
+You can also follow us on [the fediverse](https://mastodon.art/@glimpse), [Facebook](https://www.facebook.com/glimpse.editor) and [Twitter](https://twitter.com/glimpse_editor).
 
 ## How can I build Glimpse?
 All of the build instructions can be found in the `HACKING` file.
