@@ -1,6 +1,7 @@
 name: glimpse-editor
 summary: Open Source Image Editor
 adopt-info: glimpse
+version: 0.1.2
 description: |
   Glimpse is a freely distributed program for such tasks as photo
   retouching, image composition and image authoring.
@@ -344,6 +345,7 @@ parts:
     - mypaint-brushes
     plugin: autotools
     source: .
+    source-tag: 'v0.1.2'
     configflags:
     #from glimpse flatpack
     - --disable-docs
@@ -355,22 +357,12 @@ parts:
     #End from glimpse flatpack
     - --prefix=/usr
     - --sysconfdir=/etc
+    parse-info: [ usr/share/metainfo/org.glimpse_editor.Glimpse.appdata.xml ]
     build-environment:
       - BABL_PATH: $SNAPCRAFT_STAGE/usr/lib/babl-0.1
       - GEGL_PATH: $SNAPCRAFT_STAGE/usr/lib/gegl-0.4
       - XDG_DATA_DIRS: $SNAPCRAFT_STAGE/usr/share:/usr/local/share:/usr/share
       - PYTHON: /usr/bin/python2.7
-    override-pull: |
-      snapcraftctl pull
-      last_committed_tag="$(git describe --tags --abbrev=0)"
-      last_released_tag="$(snap info glimpse-editor | awk '$1 == "beta:" { print $2 }')"
-      # If the latest tag from the upstream project has not been released to
-      # beta, build that tag instead of master.
-      if [ "${last_committed_tag}" != "${last_released_tag}" ]; then
-        git fetch
-        git checkout "${last_committed_tag}"
-      fi
-      snapcraftctl set-version "$(git describe --tags | tr -d 'v')"
     override-build: |
       sed -i 's|^Icon=.*|Icon=/usr/share/icons/hicolor/256x256/apps/org.glimpse_editor.Glimpse.png|' desktop/org.glimpse_editor.Glimpse.desktop.in.in
       snapcraftctl build
