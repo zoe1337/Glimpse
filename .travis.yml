@@ -76,6 +76,9 @@ addons:
     - appstream-util
     - desktop-file-utils
 
+    # Meson
+    - python3
+
 env:
   global:
     - INSTALL_PREFIX=/tmp/glimpse-prefix
@@ -89,7 +92,10 @@ before_install:
 - mkdir -p $INSTALL_PREFIX/share/aclocal
 - git submodule update --init
 before_script:
+- python3 -m install meson ninja
 - cd $SRC_PREFIX/babl
+- "meson builddir --prefix=$INSTALL_PREFIX --buildtype=release -Db_lto=true -Dwith-docs=false"
+- cd $SRC_PREFIX/babl/builddir && ninja && ninja install
 - "./autogen.sh --prefix=$INSTALL_PREFIX --disable-docs"
 - make && make install
 - cd $SRC_PREFIX/mypaint-brushes
@@ -101,8 +107,8 @@ before_script:
 - "./configure --prefix=$INSTALL_PREFIX"
 - make && make install
 - cd $SRC_PREFIX/gegl
-- "./autogen.sh --prefix=$INSTALL_PREFIX --enable-gtk-doc-html=no --disable-docs"
-- make && make install
+- "meson builddir --prefix=$INSTALL_PREFIX --buildtype=release -Db_lto=true -Ddocs=false"
+- cd $SRC_PREFIX/gegl/builddir && ninja && ninja install
 script:
 - cd $SRC_PREFIX
 - "./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc --without-xvfb-run"
