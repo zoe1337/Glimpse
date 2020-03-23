@@ -1,15 +1,9 @@
-[submodule "babl"]
-	path = babl
-	url = https://gitlab.gnome.org/GNOME/babl.git
 [submodule "mypaint-brushes"]
 	path = mypaint-brushes
 	url = https://github.com/mypaint/mypaint-brushes.git
 [submodule "libmypaint"]
 	path = libmypaint
 	url = https://github.com/mypaint/libmypaint.git
-[submodule "gegl"]
-	path = gegl
-	url = https://gitlab.gnome.org/GNOME/gegl.git
 [submodule "build-aux/flatpak/shared-modules"]
 	path = build-aux/flatpak/shared-modules
 	url = https://github.com/flathub/shared-modules.git

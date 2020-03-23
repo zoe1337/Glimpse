@@ -66,6 +66,7 @@ addons:
     - libspiro-dev
     - libsuitesparse-dev
     - libumfpack5
+    - libnss3-dev
 
     # Python support
     - python-cairo-dev
@@ -78,6 +79,39 @@ addons:
 
     # Meson
     - python3
+    - python3-pip
+    - python3-setuptools
+    - python3-wheel
+    - ninja-build
+
+    # Upstream recommended packages
+    - libtool 
+    - gjs
+    - gtk-3-examples
+    - jasper
+    - libappstream-glib-dev
+    - libarchive-dev
+    - libavcodec-dev
+    - libavformat-dev
+    - libavutil-dev
+    - libgs-dev
+    - libgtk-3-dev
+    - gobject-introspection
+    - libgudev-1.0-dev
+    - liblcms2-dev
+    - liblensfun-dev
+    - librsvg2-bin
+    - libsdl2-dev
+    - libswscale-dev
+    - libv4l-dev
+    - libwebkit2gtk-4.0-dev
+    - luajit
+    - python-gi-dev
+    - python3-venv
+    - ruby
+    - w3m
+    - asciidoc
+    - libgirepository1.0-dev
 
 env:
   global:
@@ -88,16 +122,20 @@ env:
       PKG_CONFIG_PATH=$INSTALL_PREFIX/lib/pkgconfig:$INSTALL_PREFIX/lib/x86_64-linux-gnu/pkgconfig:$INSTALL_PREFIX/share/pkgconfig:$PKG_CONFIG_PATH
       LD_LIBRARY_PATH=$INSTALL_PREFIX/lib:$INSTALL_PREFIX/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
       ACLOCAL_FLAGS="-I $INSTALL_PREFIX/share/aclocal $ACLOCAL_FLAGS"
+      arch="$(dpkg-architecture -qDEB_HOST_MULTIARCH 2> /dev/null)"
+      XDG_DATA_DIRS=$INSTALL_PREFIX/share:/usr/local/share:/usr/share
+
 before_install:
 - mkdir -p $INSTALL_PREFIX/share/aclocal
 - git submodule update --init
+- git clone https://gitlab.gnome.org/GNOME/babl.git $SRC_PREFIX/babl
+- git clone https://gitlab.gnome.org/GNOME/gegl.git $SRC_PREFIX/gegl
+- pip3 install meson
 before_script:
-- python3 -m install meson ninja
 - cd $SRC_PREFIX/babl
 - "meson builddir --prefix=$INSTALL_PREFIX --buildtype=release -Db_lto=true -Dwith-docs=false"
-- cd $SRC_PREFIX/babl/builddir && ninja && ninja install
-- "./autogen.sh --prefix=$INSTALL_PREFIX --disable-docs"
-- make && make install
+- cd $SRC_PREFIX/babl/builddir
+- ninja && ninja install
 - cd $SRC_PREFIX/mypaint-brushes
 - ./autogen.sh
 - "./configure --prefix=$INSTALL_PREFIX"
@@ -108,7 +146,8 @@ before_script:
 - make && make install
 - cd $SRC_PREFIX/gegl
 - "meson builddir --prefix=$INSTALL_PREFIX --buildtype=release -Db_lto=true -Ddocs=false"
-- cd $SRC_PREFIX/gegl/builddir && ninja && ninja install
+- cd $SRC_PREFIX/gegl/builddir
+- ninja && ninja install
 script:
 - cd $SRC_PREFIX
 - "./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc --without-xvfb-run"
