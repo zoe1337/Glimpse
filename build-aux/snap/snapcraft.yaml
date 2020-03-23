@@ -186,8 +186,8 @@ parts:
     after:
     - fix-pkgconfig-files
     plugin: autotools
-    source: https://download.gimp.org/pub/babl/0.1/babl-0.1.74.tar.xz
-    source-checksum: sha256/9a710b6950da37ada94cd9e2046cbce26de12473da32a7b79b7d1432fc66ce0e
+    source: https://download.gimp.org/pub/babl/0.1/babl-0.1.66.tar.bz2
+    source-checksum: sha256/369dd89345489a3949e83d5ad63295029088230626f64a05e530761b176fa163
     configflags:
     - --prefix=/usr
     - --disable-static
@@ -211,8 +211,8 @@ parts:
     after:
     - babl
     - fix-pkgconfig-files
-    source: https://download.gimp.org/pub/gegl/0.4/gegl-0.4.22.tar.xz
-    source-checksum: sha256/9a710b6950da37ada94cd9e2046cbce26de12473da32a7b79b7d1432fc66ce0e
+    source: https://download.gimp.org/pub/gegl/0.4/gegl-0.4.16.tar.bz2
+    source-checksum: sha256/0112df690301d9eb993cc48965fc71b7751c9021a4f4ee08fcae366c326b5e5a
     plugin: autotools
     configflags:
     - --prefix=/usr
