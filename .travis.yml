@@ -133,6 +133,7 @@ before_install:
 - pip3 install meson
 before_script:
 - cd $SRC_PREFIX/babl
+- git checkout BABL_0_1_74
 - "meson builddir --prefix=$INSTALL_PREFIX --buildtype=release -Db_lto=true -Dwith-docs=false"
 - cd $SRC_PREFIX/babl/builddir
 - ninja && ninja install
@@ -145,6 +146,7 @@ before_script:
 - "./configure --prefix=$INSTALL_PREFIX"
 - make && make install
 - cd $SRC_PREFIX/gegl
+- git checkout GEGL_0_4_22
 - "meson builddir --prefix=$INSTALL_PREFIX --buildtype=release -Db_lto=true -Ddocs=false"
 - cd $SRC_PREFIX/gegl/builddir
 - ninja && ninja install
