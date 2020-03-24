@@ -1,33 +1,26 @@
 Quick start
 -----------
 Ensure you have Vagrant and Oracle Virtualbox installed, then follow
-these steps from the top directory of this git repository:
+these steps from the `build-aux/vagrant` folder:
 
 $ vagrant up
 $ vagrant ssh
-$ cd /vagrant
-$ sh glimpse-vagrant.sh
-$ ./glimpse-prefix/bin/glimpse
+$ sh /vagrant/build-aux/vagrant/build.sh
+$ sh /vagrant/build-aux/vagrant/run-glimpse.sh
 
-If you copy the glimpse-vagrant.sh, give it a new name, then remove the steps
-for BABL, GEGL and MyPaint dependencies you will have a quick and easy way of
-rebuilding Glimpse after you make a code change.
-
+For convenience we have also provided a `rebuild.sh` script that rebuilds the code more quickly with the same dependencies after the first run.
 
 Detailed build instructions
 ---------------------------
 Glimpse 0.1.0 depends on the following subcomponents:
 * GNU Image Manipulation Program 2.10.12
-* BABL 0.1.68
+* BABL 0.1.74
 * MyPaint 1.3.0
-* GEGL 0.4.16
+* GEGL 0.4.22
 
-For convenience the babl, gegl, mypaint-brushes and libmypaint components have been linked as git submodules. Ensure you initialize them before proceeding further.
+For convenience the mypaint-brushes and libmypaint components have been linked as git submodules. Ensure you initialize them before proceeding further.
 
-The build commands are as follows:
-$ ./autogen.sh
-$ ./configure
-$ make && make install
+babl and gegl must be clone separately because of an upstream bug filed here: https://gitlab.gnome.org/GNOME/babl/-/issues/51
 
 You must build the components in this order:
 1. babl
@@ -36,15 +29,29 @@ You must build the components in this order:
 4. gegl
 5. glimpse
 
+The build commands for babl and gegl are:
+$ meson build
+$ ninja && ninja install
+
+The build commands for mypaint-brushes, libmypaint and glimpse are:
+$ ./autogen.sh
+$ ./configure
+$ make && make install
+
 The parameters/flags you add to ./autogen.sh must be the same for ./configure. You only need the ./configure step for mypaint-brushes and libmypaint.
 
-To speed up the build, add the following tags to the GEGL build step:
-./autogen.sh --enable-gtk-doc-html=no --disable-docs
+To speed up the build, add these tags for the BABL build step:
+meson build --buildtype=release -Dwith-docs=false
+
+You can do the same for the GEGL build step:
+meson build --buildtype=release -Ddocs=false
 
 You can do the same for the Glimpse build step:
 ./autogen.sh --disable-gtk-doc
 
 Use the --prefix tag to define a specific build output directory. If you choose to do that, ensure it is the same for every ./autogen.sh command.
+
+If you get stuck, the scripts provided in the `build-aux` folder contain working examples with environment variables set.
 
 
 Detailed build instructions for Linux
