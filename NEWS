@@ -19,10 +19,12 @@ Overview of Changes in Glimpse 0.1.3
 * Updated Vagrant build process to use 2GB RAM, 2 CPUs and new `meson` builds
 * Updated the `README.MD` file with more current information
 * Backported high contrast icon themes from GNU Image Manipulation Program 2.10.18
-* Reverted preview icon for icon packs in Edit > Preferences to Wilber temporarily
-* Added sticker border to application icon so it works on light and dark themes
+* Set the Symbolic-High-Contrast icon pack as the default choice
+* Added sticker border to application icon in About window
+* Added sticker border logo to the rest of the application
+* Replaced dozens of icons that previously used Wilber's face in icon packs
+* Fixed the icon pack previewer in the Preferences menu
 * TO BE DETERMINED - Still in development
-
 
 Overview of Changes in Glimpse 0.1.2
 ====================================

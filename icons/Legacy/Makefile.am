@@ -139,7 +139,7 @@ icons16_DATA = \
 	16/gimp-prefs-image-windows.png			\
 	16/gimp-prefs-interface.png			\
 	16/gimp-prefs-theme.png				\
-	16/gimp-prefs-icon-theme.png			\
+	16/glimpse-prefs-icon-theme.png			\
 	16/gimp-prefs-toolbox.png			\
 	16/gimp-prefs-window-management.png		\
 	16/gimp-print-resolution.png			\
@@ -280,12 +280,12 @@ icons22_DATA = \
 	22/gimp-prefs-session.png		\
 	22/gimp-prefs-system-resources.png	\
 	22/gimp-prefs-theme.png			\
-	22/gimp-prefs-icon-theme.png		\
+	22/glimpse-prefs-icon-theme.png		\
 	22/gimp-prefs-tool-options.png		\
 	22/gimp-prefs-toolbox.png		\
 	22/gimp-prefs-window-management.png	\
 	22/gimp-tool-preset.png			\
-	22/glimpse-icon.png				\
+	22/glimpse-icon.png			\
 	22/gimp-wilber.png
 
 tools22_DATA = \
@@ -422,7 +422,7 @@ icons32_DATA = \
 	32/gimp-layer.png		\
 	32/gimp-text-layer.png		\
 	32/gimp-user-manual.png		\
-	32/glimpse-icon.png				\
+	32/glimpse-icon.png		\
 	32/gimp-wilber.png
 
 icons48_DATA = \
@@ -460,7 +460,7 @@ icons48_DATA = \
 	48/gimp-prefs-folders-tools.png		\
 	48/gimp-prefs-folders.png		\
 	48/gimp-prefs-help-system.png		\
-	48/gimp-prefs-icon-theme.png		\
+	48/glimpse-prefs-icon-theme.png		\
 	48/gimp-prefs-image-title.png		\
 	48/gimp-prefs-image-windows.png		\
 	48/gimp-prefs-input-devices.png		\
@@ -474,7 +474,7 @@ icons48_DATA = \
 	48/gimp-prefs-toolbox.png		\
 	48/gimp-prefs-window-management.png	\
 	48/gimp-text-layer.png			\
-	48/glimpse-icon.png				\
+	48/glimpse-icon.png			\
 	48/gimp-wilber.png
 
 icons64_DATA = \
@@ -486,7 +486,7 @@ icons64_DATA = \
 	64/gimp-user-manual.png		\
 	64/gimp-warning.png		\
 	64/gimp-wilber-eek.png		\
-	64/glimpse-icon.png				\
+	64/glimpse-icon.png		\
 	64/gimp-wilber.png		\
 	64/gimp-wilber-outline.png
 

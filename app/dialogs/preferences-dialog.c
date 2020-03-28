@@ -1968,7 +1968,7 @@ prefs_dialog_new (Gimp       *gimp,
   /*  Interface / Icon Theme  */
   /****************************/
   vbox = gimp_prefs_box_add_page (GIMP_PREFS_BOX (prefs_box),
-                                  "gimp-prefs-icon-theme",
+                                  "glimpse-prefs-icon-theme",
                                   _("Icon Theme"),
                                   _("Icon Theme"),
                                   GIMP_HELP_PREFS_ICON_THEME,

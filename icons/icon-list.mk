@@ -209,7 +209,7 @@ scalable_images = \
 	scalable/gimp-prefs-folders-tool-presets.svg		\
 	scalable/gimp-prefs-folders-tools.svg			\
 	scalable/gimp-prefs-help-system.svg			\
-	scalable/gimp-prefs-icon-theme.svg			\
+	scalable/glimpse-prefs-icon-theme.svg			\
 	scalable/gimp-prefs-image-title.svg			\
 	scalable/gimp-prefs-image-windows.svg			\
 	scalable/gimp-prefs-image-windows-appearance.svg	\
@@ -420,7 +420,7 @@ vector24_images = \
 	24/gimp-prefs-folders-tool-presets.svg			\
 	24/gimp-prefs-folders-tools.svg				\
 	24/gimp-prefs-help-system.svg				\
-	24/gimp-prefs-icon-theme.svg				\
+	24/glimpse-prefs-icon-theme.svg				\
 	24/gimp-prefs-image-title.svg				\
 	24/gimp-prefs-image-windows.svg				\
 	24/gimp-prefs-image-windows-appearance.svg		\
@@ -505,7 +505,7 @@ vector24_images = \
 	24/gimp-video.svg					\
 	24/gimp-warning.svg					\
 	24/gimp-web.svg						\
-	24/glimpse-icon.svg				\
+	24/glimpse-icon.svg					\
 	24/gimp-wilber.svg
 
 icons12_images = \
@@ -698,7 +698,7 @@ icons16_images = \
 	16/gimp-prefs-folders-tool-plug-ins.png			\
 	16/gimp-prefs-folders-tool-presets.png			\
 	16/gimp-prefs-folders-tools.png				\
-	16/gimp-prefs-icon-theme.png				\
+	16/glimpse-prefs-icon-theme.png				\
 	16/gimp-prefs-image-windows.png				\
 	16/gimp-prefs-import-export.png				\
 	16/gimp-prefs-interface.png				\
@@ -816,7 +816,6 @@ icons22_images = \
 	22/format-justify-fill.png				\
 	22/format-justify-left.png				\
 	22/format-justify-right.png				\
-	\
 	22/gimp-char-picker.png					\
 	22/gimp-dynamics.png					\
 	22/gimp-histogram.png					\
@@ -850,7 +849,7 @@ icons22_images = \
 	22/gimp-prefs-folders-tool-presets.png			\
 	22/gimp-prefs-folders-tools.png				\
 	22/gimp-prefs-help-system.png				\
-	22/gimp-prefs-icon-theme.png				\
+	22/glimpse-prefs-icon-theme.png				\
 	22/gimp-prefs-image-title.png				\
 	22/gimp-prefs-image-windows.png				\
 	22/gimp-prefs-image-windows-appearance.png		\
@@ -1072,7 +1071,7 @@ icons48_images = \
 	48/gimp-prefs-folders-tool-presets.png			\
 	48/gimp-prefs-folders-tools.png				\
 	48/gimp-prefs-help-system.png				\
-	48/gimp-prefs-icon-theme.png				\
+	48/glimpse-prefs-icon-theme.png				\
 	48/gimp-prefs-image-title.png				\
 	48/gimp-prefs-image-windows.png				\
 	48/gimp-prefs-image-windows-appearance.png		\
