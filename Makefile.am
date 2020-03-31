@@ -60,7 +60,7 @@ endif
 EXTRA_DIST = \
 	AUTHORS			\
 	COPYING			\
-	HACKING			\
+	HACKING.md		\
 	INSTALL			\
 	LICENSE			\
 	NEWS			\
