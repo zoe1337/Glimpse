@@ -20,9 +20,9 @@ layout:
     bind: $SNAP/etc/glimpse
   /etc/ld.so.cache:
     bind-file: $SNAP_DATA/etc/ld.so.cache
-  /usr/lib/babl-0.1:
+  /usr/lib/$SNAPCRAFT_ARCH_TRIPLET/babl-0.1:
     bind: $SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/babl-0.1
-  /usr/lib/gegl-0.4:
+  /usr/lib/$SNAPCRAFT_ARCH_TRIPLET/gegl-0.4:
     bind: $SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/gegl-0.4
   /usr/lib/glimpse:
     bind: $SNAP/usr/lib/glimpse
@@ -49,6 +49,14 @@ plugs:
     interface: content
     target: $SNAP/share/themes
     default-provider: gtk2-common-themes
+  gtk-3-themes:
+    default-provider: gtk-common-themes
+    interface: content
+    target: $SNAP/data-dir/themes
+  gnome-3-28-1804:
+    default-provider: gnome-3-28-1804
+    interface: content
+    target: $SNAP/gnome-platform
   icon-themes:
     interface: content
     target: $SNAP/data-dir/icons
@@ -66,15 +74,21 @@ slots:
 
 apps:
   glimpse-editor:
-    command: desktop-launch $SNAP/usr/bin/glimpse
+    command: usr/bin/glimpse
+    command-chain:
+      - snap/command-chain/desktop-launch
+      - bin/check-ld-cache
     desktop: usr/share/applications/org.glimpse_editor.Glimpse.desktop
     common-id: org.glimpse_editor.Glimpse
     environment:
+      SNAP_DESKTOP_RUNTIME: $SNAP/gnome-platform
       GTK_EXE_PREFIX: $SNAP/usr
       GIMP2_LOCALEDIR: $SNAP/usr/share/locale
+      LD_LIBRARY_PATH: $SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/lapack:$SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/blas:$LD_LIBRARY_PATH
       PYTHONPATH: $SNAP/usr/lib/python2.7:$SNAP/usr/lib/python2.7/site-packages:$PYTHONPATH
       GTK_PATH: $SNAP/lib/gtk-2.0
       GTK_DATA_PREFIX: $SNAP
+      FINAL_BINARY: $SNAP/usr/bin/glimpse
       XDG_DATA_DIRS: $SNAP/share:$XDG_DATA_DIRS
 
     slots:
@@ -122,50 +136,59 @@ parts:
     prime:
       - -*
 
-  desktop-gtk:
-    source: https://github.com/ubuntu/snapcraft-desktop-helpers.git
-    source-subdir: gtk
-    plugin: make
-    make-parameters: ["FLAVOR=gtk2"]
+  gnome-extension:
+    after: [patches]
     build-packages:
-      - libgtk2.0-dev
-      - libgtk-3-dev
+    - libgail-dev
+    - libgtk-3-dev
+    - libgtk2.0-dev
     stage-packages:
-      - libxkbcommon0  # XKB_CONFIG_ROOT
-      - ttf-ubuntu-font-family
-      - dmz-cursor-theme
-      - light-themes
-      - adwaita-icon-theme
-      - gnome-themes-standard
-      - shared-mime-info
-      - libgtk2.0-0
-      - libgtk-3-0
-      - libgdk-pixbuf2.0-0
-      - libglib2.0-bin
-      - libgtk2.0-bin
-      - libgtk-3-bin
-      - unity-gtk2-module
-      - unity-gtk3-module
-      - libappindicator3-1
-      - locales-all
-      - xdg-user-dirs
-      - ibus-gtk
-      - ibus-gtk3
-      - libibus-1.0-5
-    after: [desktop-patch]
+    - appmenu-gtk2-module
+    - gtk2-engines
+    - gtk2-engines-pixbuf
+    - libatk-adaptor
+    - libcanberra-gtk-module
+    - libgail-common
+    - libgtk2.0-0
+    - libgtk2.0-bin
+    - unity-gtk2-module
+    - ibus-gtk
+    plugin: make
+    source: $SNAPCRAFT_EXTENSIONS_DIR/desktop
+    source-subdir: gnome
     override-pull: |
       snapcraftctl pull
-      patch -Np1 < $SNAPCRAFT_STAGE/desktop-launch.patch
-    organize:
-      usr/lib/$SNAPCRAFT_ARCH_TRIPLET/gtk-2.0: usr/lib/gtk-2.0
-      usr/lib/$SNAPCRAFT_ARCH_TRIPLET/gtk-3.0: usr/lib/gtk-3.0
+      # Remove GTK_PATH setting from launch script...
+      # ... we use GTK_EXE_PREFIX instead to support both GTK2 *AND* 3 without conflict
+      patch -Np3 < $SNAPCRAFT_STAGE/desktop-launch.patch
+    override-build: |
+      snapcraftctl build
+      mkdir -p $SNAPCRAFT_PART_INSTALL/lib/gtk-2.0
+      # Make GTK3 available via GTK_EXE_PREFIX expansion instead of GTK_PATH
+      ln -sf ../../gnome-platform/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/gtk-3.0 \
+        $SNAPCRAFT_PART_INSTALL/usr/lib/gtk-3.0
+      # Make GTK2 available via GTK_EXE_PREFIX expansion instead of GTK_PATH
+      mv $SNAPCRAFT_PART_INSTALL/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/gtk-2.0 \
+        $SNAPCRAFT_PART_INSTALL/usr/lib/gtk-2.0
+      ## DISABLED (2 of 4) because gtk2-common-themes only available on amd64
+      # Make GTK2 engines available from content snap via GTK_EXE_PREFIX expansion
+      rm -rf $SNAPCRAFT_PART_INSTALL/usr/lib/gtk-2.0/2.10.0/engines
+      ln -sf ../../../../lib/gtk-2.0/2.10.0/engines \
+        $SNAPCRAFT_PART_INSTALL/usr/lib/gtk-2.0/2.10.0/
 
-  desktop-patch:
+  patches:
     source: build-aux/snap/local/patches
     source-type: local
     plugin: dump
     prime:
       - -*
+
+  scripts:
+    source: build-aux/snap/local/scripts
+    plugin: dump
+    organize:
+      build-ld-cache: bin/build-ld-cache
+      check-ld-cache: bin/check-ld-cache
 
   gtk-locales:
     plugin: nil
@@ -382,7 +405,7 @@ parts:
   # https://github.com/psymole/Glimpse
   glimpse:
     after:
-      - desktop-gtk
+      - gnome-extension
       - babl
       - gegl
       - libmypaint
@@ -412,6 +435,7 @@ parts:
       sed -i 's|^Icon=.*|Icon=/usr/share/icons/hicolor/256x256/apps/org.glimpse_editor.Glimpse.png|' desktop/org.glimpse_editor.Glimpse.desktop.in.in
       snapcraftctl build
       sed -i -E 's|^# \(mypaint-brush-path .*$|(mypaint-brush-path "/usr/share/mypaint-data/1.0/brushes:~/.mypaint/brushes")|' $SNAPCRAFT_PART_INSTALL/etc/glimpse/2.0/gimprc
+      sed -i -E "s|^(.*python2?=).*|\1/snap/$SNAPCRAFT_PROJECT_NAME/current/usr/bin/python|" $SNAPCRAFT_PART_INSTALL/usr/lib/glimpse/2.0/interpreters/pygimp.interp || true
     build-packages:
       - automake
       - glib-networking
@@ -475,6 +499,7 @@ parts:
       - libpoppler-glib8
       - libslang2
       - libwebkitgtk-1.0-0
+      - libwebpdemux2
       - libwebpmux3
       - libwmf0.2-7
       - libxmu6
@@ -493,3 +518,42 @@ parts:
       - -**/*.la
       - -etc/dbus-1
 
+
+  # Ship a default set of GSettings schemas so that the correct theme is used
+  # in Wayland sessions on Ubuntu (see https://forum.snapcraft.io/t/7806/3).
+  desktop-settings-packages:
+    after: [ gnome-extension ]
+    plugin: nil
+    build-packages:
+    - libglib2.0-bin
+    stage-packages:
+    - gsettings-desktop-schemas
+    - ubuntu-settings
+    prime:
+    - usr/share/glib-2.0/schemas/*
+
+  desktop-settings-build:
+    plugin: nil
+    after: [ glimpse, desktop-settings-packages ]
+    override-prime: |
+      set -eux
+      glib-compile-schemas usr/share/glib-2.0/schemas
+
+  cleanup:
+    after: [ glimpse, desktop-settings-build ]
+    plugin: nil
+    build-snaps:
+    - core18
+    - gnome-3-28-1804
+    - gtk-common-themes
+    - gtk2-common-themes
+    override-prime: |
+      set -eux
+      for snap in "core18" "gnome-3-28-1804" "gtk-common-themes" "gtk2-common-themes"; do  # List all content-snaps you're using here
+        cd "/snap/$snap/current" && find . -type f,l -exec rm -f "$SNAPCRAFT_PRIME/{}" \;
+      done
+      for CRUFT in bug lintian man; do
+        rm -rf $SNAPCRAFT_PRIME/usr/share/$CRUFT
+      done
+      find $SNAPCRAFT_PRIME/usr/share/doc/ -type f -not -name 'copyright' -delete
+      find $SNAPCRAFT_PRIME/usr/share -type d -empty -not -path "$SNAPCRAFT_PRIME/usr/share/gimp/*" -delete
