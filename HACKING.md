@@ -14,7 +14,7 @@ For convenience we have also provided a `rebuild.sh` script that rebuilds the co
 
 ## Detailed build instructions
 
-Glimpse 0.1.0 depends on the following subcomponents:
+Glimpse 0.1.3 depends on the following subcomponents:
 
 - GNU Image Manipulation Program 2.10.12
 - BABL 0.1.74
