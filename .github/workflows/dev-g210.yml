@@ -85,11 +85,6 @@ jobs:
         cd $SRC_PREFIX
         ./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc --without-xvfb-run
         make && make install
-        
-    - name: Run make check
-      run: |
-        cd $SRC_PREFIX
-        make check VERBOSE=1
     
     - uses: actions/upload-artifact@v1
       with:
