@@ -36,8 +36,8 @@ msgid "_Start Server..."
 msgstr "_Запустити сервер…"
 
 #: ../plug-ins/script-fu/script-fu.c:306
-msgid "_GIMP Online"
-msgstr "GIMP у _Інтернет"
+msgid "_Glimpse online"
+msgstr "Glimpse у _Інтернет"
 
 #: ../plug-ins/script-fu/script-fu.c:307
 msgid "_User Manual"
@@ -820,7 +820,7 @@ msgstr "_Використання контурів"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (GNU I.M.P)"
 msgstr "Посилання на посібник користувача"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -858,7 +858,7 @@ msgstr "_Головна веб-сторінка"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "Закладка на сайт GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
@@ -890,7 +890,7 @@ msgid "Bookmark to the bug tracker of GIMP"
 msgstr "Закладка для сторінки системи стеження за вадами у GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (GNU I.M.P)"
 msgstr "_Сайт з посібником користувача"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69

@@ -18,15 +18,15 @@ msgstr ""
 "Project-Id-Version: gimp-plug-ins.HEAD\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2008-09-05 07:33+0000\n"
-"PO-Revision-Date: 2008-10-01 18:55+1000\n"
+"PO-Revision-Date: 2020-02-08 14:36-0800\n"
 "Last-Translator: Marko Doda <marko@lugola.net>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
 "Language: mk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural= n==1 || n%10==1 ? 0 : 1\n"
-"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=3; plural= n==1 || n%10==1 ? 0 : 1;\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/color-rotate/color-rotate-dialog.c:119
 msgid "Original"
@@ -403,8 +403,7 @@ msgstr "_Користи го (невидливиот) долен слој как
 #: ../plug-ins/common/animation-optimize.c:133
 msgid "Modify image to reduce size when saved as GIF animation"
 msgstr ""
-"Промени ја сликата за да се намали големината кога се снима како GIF "
-"анимација"
+"Промени ја сликата за да се намали големината кога се снима како GIF анимација"
 
 #: ../plug-ins/common/animation-optimize.c:145
 msgid "Optimize (for _GIF)"
@@ -638,9 +637,8 @@ msgstr "_Вертикално"
 #: ../plug-ins/file-jpeg/jpeg-load.c:758
 #: ../plug-ins/file-psd/psd-image-res-load.c:995
 #: ../plug-ins/file-psd/psd-load.c:1514 ../plug-ins/file-sgi/sgi.c:384
-#: ../plug-ins/gfig/gfig-dialog.c:1284
-#: ../plug-ins/gimpressionist/general.c:140 ../plug-ins/twain/twain.c:568
-#: ../plug-ins/win-snap/winsnap.c:1155
+#: ../plug-ins/gfig/gfig-dialog.c:1284 ../plug-ins/gimpressionist/general.c:140
+#: ../plug-ins/twain/twain.c:568 ../plug-ins/win-snap/winsnap.c:1155
 msgid "Background"
 msgstr "Позадина"
 
@@ -782,16 +780,14 @@ msgstr "Средина на заматувањето"
 
 #: ../plug-ins/common/blur-motion.c:1094 ../plug-ins/common/lens-flare.c:772
 #: ../plug-ins/common/nova.c:463 ../plug-ins/common/tile-paper.c:282
-#: ../plug-ins/flame/flame.c:1251
-#: ../plug-ins/gradient-flare/gradient-flare.c:2726
+#: ../plug-ins/flame/flame.c:1251 ../plug-ins/gradient-flare/gradient-flare.c:2726
 #: ../plug-ins/lighting/lighting-ui.c:477
 msgid "_X:"
 msgstr "X:"
 
 #: ../plug-ins/common/blur-motion.c:1099 ../plug-ins/common/lens-flare.c:777
 #: ../plug-ins/common/nova.c:468 ../plug-ins/common/tile-paper.c:291
-#: ../plug-ins/flame/flame.c:1265
-#: ../plug-ins/gradient-flare/gradient-flare.c:2730
+#: ../plug-ins/flame/flame.c:1265 ../plug-ins/gradient-flare/gradient-flare.c:2730
 #: ../plug-ins/lighting/lighting-ui.c:492
 msgid "_Y:"
 msgstr "Y:"
@@ -986,8 +982,7 @@ msgstr "Мешање на каналите"
 #. printf("Channel Mixer:: Mode:%d  r %f  g %f  b %f\n ",
 #. param[3].data.d_int32, mix.black.red_gain,
 #. mix.black.green_gain, mix.black.blue_gain);
-#: ../plug-ins/common/channel-mixer.c:271
-#: ../plug-ins/common/channel-mixer.c:492
+#: ../plug-ins/common/channel-mixer.c:271 ../plug-ins/common/channel-mixer.c:492
 msgid "Channel Mixer"
 msgstr "Мешање на каналите"
 
@@ -1014,27 +1009,27 @@ msgstr "Зелена"
 msgid "Blue"
 msgstr "Плава"
 
-#: ../plug-ins/common/channel-mixer.c:583
-#: ../plug-ins/common/color-exchange.c:398 ../plug-ins/common/compose.c:190
-#: ../plug-ins/common/compose.c:201 ../plug-ins/common/diffraction.c:501
-#: ../plug-ins/common/diffraction.c:539 ../plug-ins/common/diffraction.c:577
-#: ../plug-ins/common/noise-rgb.c:530 ../plug-ins/common/noise-rgb.c:537
+#: ../plug-ins/common/channel-mixer.c:583 ../plug-ins/common/color-exchange.c:398
+#: ../plug-ins/common/compose.c:190 ../plug-ins/common/compose.c:201
+#: ../plug-ins/common/diffraction.c:501 ../plug-ins/common/diffraction.c:539
+#: ../plug-ins/common/diffraction.c:577 ../plug-ins/common/noise-rgb.c:530
+#: ../plug-ins/common/noise-rgb.c:537
 msgid "_Red:"
 msgstr "Црвена:"
 
-#: ../plug-ins/common/channel-mixer.c:601
-#: ../plug-ins/common/color-exchange.c:458 ../plug-ins/common/compose.c:191
-#: ../plug-ins/common/compose.c:202 ../plug-ins/common/diffraction.c:510
-#: ../plug-ins/common/diffraction.c:548 ../plug-ins/common/diffraction.c:586
-#: ../plug-ins/common/noise-rgb.c:531 ../plug-ins/common/noise-rgb.c:538
+#: ../plug-ins/common/channel-mixer.c:601 ../plug-ins/common/color-exchange.c:458
+#: ../plug-ins/common/compose.c:191 ../plug-ins/common/compose.c:202
+#: ../plug-ins/common/diffraction.c:510 ../plug-ins/common/diffraction.c:548
+#: ../plug-ins/common/diffraction.c:586 ../plug-ins/common/noise-rgb.c:531
+#: ../plug-ins/common/noise-rgb.c:538
 msgid "_Green:"
 msgstr "Зелена:"
 
-#: ../plug-ins/common/channel-mixer.c:620
-#: ../plug-ins/common/color-exchange.c:519 ../plug-ins/common/compose.c:192
-#: ../plug-ins/common/compose.c:203 ../plug-ins/common/diffraction.c:519
-#: ../plug-ins/common/diffraction.c:557 ../plug-ins/common/diffraction.c:595
-#: ../plug-ins/common/noise-rgb.c:532 ../plug-ins/common/noise-rgb.c:539
+#: ../plug-ins/common/channel-mixer.c:620 ../plug-ins/common/color-exchange.c:519
+#: ../plug-ins/common/compose.c:192 ../plug-ins/common/compose.c:203
+#: ../plug-ins/common/diffraction.c:519 ../plug-ins/common/diffraction.c:557
+#: ../plug-ins/common/diffraction.c:595 ../plug-ins/common/noise-rgb.c:532
+#: ../plug-ins/common/noise-rgb.c:539
 msgid "_Blue:"
 msgstr "Сина:"
 
@@ -1052,36 +1047,33 @@ msgid "Load Channel Mixer Settings"
 msgstr "Вчитај подесувања за мешања на каналот"
 
 #. stat error (file does not exist)
-#: ../plug-ins/common/channel-mixer.c:982
-#: ../plug-ins/common/cml-explorer.c:2178 ../plug-ins/common/curve-bend.c:869
-#: ../plug-ins/common/file-cel.c:312 ../plug-ins/common/file-compressor.c:498
-#: ../plug-ins/common/file-compressor.c:666
-#: ../plug-ins/common/file-dicom.c:325 ../plug-ins/common/file-gbr.c:361
-#: ../plug-ins/common/file-gif-load.c:340 ../plug-ins/common/file-gih.c:662
-#: ../plug-ins/common/file-mng.c:1073 ../plug-ins/common/file-pat.c:330
-#: ../plug-ins/common/file-pcx.c:361 ../plug-ins/common/file-pdf.c:541
-#: ../plug-ins/common/file-pix.c:343 ../plug-ins/common/file-png.c:721
-#: ../plug-ins/common/file-pnm.c:493 ../plug-ins/common/file-ps.c:1036
-#: ../plug-ins/common/file-ps.c:3048 ../plug-ins/common/file-psp.c:1751
-#: ../plug-ins/common/file-raw.c:249 ../plug-ins/common/file-raw.c:666
-#: ../plug-ins/common/file-sunras.c:391 ../plug-ins/common/file-svg.c:333
-#: ../plug-ins/common/file-svg.c:718 ../plug-ins/common/file-tga.c:442
-#: ../plug-ins/common/file-tiff-load.c:291 ../plug-ins/common/file-xbm.c:737
-#: ../plug-ins/common/file-xwd.c:433 ../plug-ins/common/sphere-designer.c:2002
-#: ../plug-ins/file-bmp/bmp-read.c:154 ../plug-ins/file-faxg3/faxg3.c:233
-#: ../plug-ins/file-fits/fits.c:358 ../plug-ins/file-fli/fli-gimp.c:460
-#: ../plug-ins/file-fli/fli-gimp.c:497 ../plug-ins/file-ico/ico-load.c:653
-#: ../plug-ins/file-ico/ico-load.c:732 ../plug-ins/file-jpeg/jpeg-load.c:109
-#: ../plug-ins/file-jpeg/jpeg-load.c:828 ../plug-ins/file-psd/psd-load.c:127
-#: ../plug-ins/file-psd/psd-thumb-load.c:80
+#: ../plug-ins/common/channel-mixer.c:982 ../plug-ins/common/cml-explorer.c:2178
+#: ../plug-ins/common/curve-bend.c:869 ../plug-ins/common/file-cel.c:312
+#: ../plug-ins/common/file-compressor.c:498
+#: ../plug-ins/common/file-compressor.c:666 ../plug-ins/common/file-dicom.c:325
+#: ../plug-ins/common/file-gbr.c:361 ../plug-ins/common/file-gif-load.c:340
+#: ../plug-ins/common/file-gih.c:662 ../plug-ins/common/file-mng.c:1073
+#: ../plug-ins/common/file-pat.c:330 ../plug-ins/common/file-pcx.c:361
+#: ../plug-ins/common/file-pdf.c:541 ../plug-ins/common/file-pix.c:343
+#: ../plug-ins/common/file-png.c:721 ../plug-ins/common/file-pnm.c:493
+#: ../plug-ins/common/file-ps.c:1036 ../plug-ins/common/file-ps.c:3048
+#: ../plug-ins/common/file-psp.c:1751 ../plug-ins/common/file-raw.c:249
+#: ../plug-ins/common/file-raw.c:666 ../plug-ins/common/file-sunras.c:391
+#: ../plug-ins/common/file-svg.c:333 ../plug-ins/common/file-svg.c:718
+#: ../plug-ins/common/file-tga.c:442 ../plug-ins/common/file-tiff-load.c:291
+#: ../plug-ins/common/file-xbm.c:737 ../plug-ins/common/file-xwd.c:433
+#: ../plug-ins/common/sphere-designer.c:2002 ../plug-ins/file-bmp/bmp-read.c:154
+#: ../plug-ins/file-faxg3/faxg3.c:233 ../plug-ins/file-fits/fits.c:358
+#: ../plug-ins/file-fli/fli-gimp.c:460 ../plug-ins/file-fli/fli-gimp.c:497
+#: ../plug-ins/file-ico/ico-load.c:653 ../plug-ins/file-ico/ico-load.c:732
+#: ../plug-ins/file-jpeg/jpeg-load.c:109 ../plug-ins/file-jpeg/jpeg-load.c:828
+#: ../plug-ins/file-psd/psd-load.c:127 ../plug-ins/file-psd/psd-thumb-load.c:80
 #: ../plug-ins/file-uri/uri-backend-gnomevfs.c:272
-#: ../plug-ins/file-uri/uri-backend-libcurl.c:188
-#: ../plug-ins/file-xjt/xjt.c:2560 ../plug-ins/file-xjt/xjt.c:2568
-#: ../plug-ins/flame/flame.c:412
+#: ../plug-ins/file-uri/uri-backend-libcurl.c:188 ../plug-ins/file-xjt/xjt.c:2560
+#: ../plug-ins/file-xjt/xjt.c:2568 ../plug-ins/flame/flame.c:412
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1863
-#: ../plug-ins/fractal-explorer/fractal-explorer.c:929
-#: ../plug-ins/gfig/gfig.c:434 ../plug-ins/help/gimphelplocale.c:223
-#: ../plug-ins/help/gimphelplocale.c:239
+#: ../plug-ins/fractal-explorer/fractal-explorer.c:929 ../plug-ins/gfig/gfig.c:434
+#: ../plug-ins/help/gimphelplocale.c:223 ../plug-ins/help/gimphelplocale.c:239
 #: ../plug-ins/lighting/lighting-ui.c:1354
 #, c-format
 msgid "Could not open '%s' for reading: %s"
@@ -1091,30 +1083,29 @@ msgstr "Не може да се отвори „%s“ за читање: %s"
 msgid "Save Channel Mixer Settings"
 msgstr "Зачувај ги подесувањата за мешање на каналот"
 
-#: ../plug-ins/common/channel-mixer.c:1060
-#: ../plug-ins/common/cml-explorer.c:2005 ../plug-ins/common/curve-bend.c:817
-#: ../plug-ins/common/file-cel.c:583 ../plug-ins/common/file-compressor.c:426
+#: ../plug-ins/common/channel-mixer.c:1060 ../plug-ins/common/cml-explorer.c:2005
+#: ../plug-ins/common/curve-bend.c:817 ../plug-ins/common/file-cel.c:583
+#: ../plug-ins/common/file-compressor.c:426
 #: ../plug-ins/common/file-compressor.c:508
 #: ../plug-ins/common/file-compressor.c:590
-#: ../plug-ins/common/file-compressor.c:677
-#: ../plug-ins/common/file-csource.c:406 ../plug-ins/common/file-dicom.c:801
-#: ../plug-ins/common/file-gbr.c:632 ../plug-ins/common/file-gif-save.c:761
-#: ../plug-ins/common/file-gih.c:1275 ../plug-ins/common/file-html-table.c:236
-#: ../plug-ins/common/file-mng.c:575 ../plug-ins/common/file-mng.c:909
-#: ../plug-ins/common/file-pat.c:462 ../plug-ins/common/file-pcx.c:666
-#: ../plug-ins/common/file-pix.c:524 ../plug-ins/common/file-png.c:1270
-#: ../plug-ins/common/file-pnm.c:973 ../plug-ins/common/file-ps.c:1213
-#: ../plug-ins/common/file-raw.c:546 ../plug-ins/common/file-raw.c:574
-#: ../plug-ins/common/file-sunras.c:563 ../plug-ins/common/file-tga.c:1170
-#: ../plug-ins/common/file-tiff-save.c:683 ../plug-ins/common/file-xbm.c:1035
-#: ../plug-ins/common/file-xwd.c:614 ../plug-ins/common/sphere-designer.c:2112
-#: ../plug-ins/file-bmp/bmp-write.c:296 ../plug-ins/file-fits/fits.c:476
-#: ../plug-ins/file-fli/fli-gimp.c:750 ../plug-ins/file-ico/ico-save.c:1008
-#: ../plug-ins/file-jpeg/jpeg-save.c:323 ../plug-ins/file-psd/psd-save.c:1582
+#: ../plug-ins/common/file-compressor.c:677 ../plug-ins/common/file-csource.c:406
+#: ../plug-ins/common/file-dicom.c:801 ../plug-ins/common/file-gbr.c:632
+#: ../plug-ins/common/file-gif-save.c:761 ../plug-ins/common/file-gih.c:1275
+#: ../plug-ins/common/file-html-table.c:236 ../plug-ins/common/file-mng.c:575
+#: ../plug-ins/common/file-mng.c:909 ../plug-ins/common/file-pat.c:462
+#: ../plug-ins/common/file-pcx.c:666 ../plug-ins/common/file-pix.c:524
+#: ../plug-ins/common/file-png.c:1270 ../plug-ins/common/file-pnm.c:973
+#: ../plug-ins/common/file-ps.c:1213 ../plug-ins/common/file-raw.c:546
+#: ../plug-ins/common/file-raw.c:574 ../plug-ins/common/file-sunras.c:563
+#: ../plug-ins/common/file-tga.c:1170 ../plug-ins/common/file-tiff-save.c:683
+#: ../plug-ins/common/file-xbm.c:1035 ../plug-ins/common/file-xwd.c:614
+#: ../plug-ins/common/sphere-designer.c:2112 ../plug-ins/file-bmp/bmp-write.c:296
+#: ../plug-ins/file-fits/fits.c:476 ../plug-ins/file-fli/fli-gimp.c:750
+#: ../plug-ins/file-ico/ico-save.c:1008 ../plug-ins/file-jpeg/jpeg-save.c:323
+#: ../plug-ins/file-psd/psd-save.c:1582
 #: ../plug-ins/file-uri/uri-backend-gnomevfs.c:283
-#: ../plug-ins/file-uri/uri-backend-libcurl.c:161
-#: ../plug-ins/file-xjt/xjt.c:1292 ../plug-ins/file-xjt/xjt.c:1729
-#: ../plug-ins/flame/flame.c:443
+#: ../plug-ins/file-uri/uri-backend-libcurl.c:161 ../plug-ins/file-xjt/xjt.c:1292
+#: ../plug-ins/file-xjt/xjt.c:1729 ../plug-ins/flame/flame.c:443
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1546
 #: ../plug-ins/gfig/gfig.c:794 ../plug-ins/ifs-compose/ifs-compose.c:2374
 #: ../plug-ins/lighting/lighting-ui.c:1211
@@ -1122,8 +1113,7 @@ msgstr "Зачувај ги подесувањата за мешање на ка
 msgid "Could not open '%s' for writing: %s"
 msgstr "Не може да се отвори „%s“ за запишување: %s"
 
-#: ../plug-ins/common/channel-mixer.c:1068
-#: ../plug-ins/common/cml-explorer.c:2060
+#: ../plug-ins/common/channel-mixer.c:1068 ../plug-ins/common/cml-explorer.c:2060
 #, c-format
 msgid "Parameters were saved to '%s'"
 msgstr "Параметрите се зачувани во „%s“"
@@ -1144,8 +1134,7 @@ msgstr "Додавам шаховска табла"
 msgid "Checkerboard"
 msgstr "Шаховска табла"
 
-#: ../plug-ins/common/checkerboard.c:412
-#: ../plug-ins/gimpressionist/sizemap.c:511
+#: ../plug-ins/common/checkerboard.c:412 ../plug-ins/gimpressionist/sizemap.c:511
 msgid "_Size:"
 msgstr "_Големина:"
 
@@ -1344,8 +1333,7 @@ msgid "Randoms from seed (shared)"
 msgstr "Случајно од семето (доделено)"
 
 #: ../plug-ins/common/cml-explorer.c:300 ../plug-ins/common/cml-explorer.c:308
-#: ../plug-ins/common/decompose.c:188
-#: ../plug-ins/gimpressionist/orientation.c:180
+#: ../plug-ins/common/decompose.c:188 ../plug-ins/gimpressionist/orientation.c:180
 #: ../plug-ins/gimpressionist/size.c:183
 msgid "Hue"
 msgstr "Нијанса"
@@ -1356,8 +1344,7 @@ msgid "Saturation"
 msgstr "Заситување"
 
 #: ../plug-ins/common/cml-explorer.c:302 ../plug-ins/common/cml-explorer.c:310
-#: ../plug-ins/common/decompose.c:190
-#: ../plug-ins/gimpressionist/orientation.c:156
+#: ../plug-ins/common/decompose.c:190 ../plug-ins/gimpressionist/orientation.c:156
 #: ../plug-ins/gimpressionist/size.c:159
 msgid "Value"
 msgstr "Вредност"
@@ -1452,13 +1439,13 @@ msgstr "Промени во \"Од семе\" со последното семе
 msgid ""
 "\"Fix seed\" button is an alias of me.\n"
 "The same seed produces the same image, if (1) the widths of images are same "
-"(this is the reason why image on drawable is different from preview), and "
-"(2) all mutation rates equal to zero."
+"(this is the reason why image on drawable is different from preview), and (2) "
+"all mutation rates equal to zero."
 msgstr ""
 "Копчето „Поправи семе“ е друг начин да ме повикате.\n"
 "Истото семе ја произведува истата слика, ако (1) ширините на сликите се исти "
-"(ова е причина зошто сликата на цртежот се разликува од прегледот), и (2) "
-"сите степени на мутација се еднаки на нула."
+"(ова е причина зошто сликата на цртежот се разликува од прегледот), и (2) сите "
+"степени на мутација се еднаки на нула."
 
 #: ../plug-ins/common/cml-explorer.c:1405
 msgid "O_thers"
@@ -1475,8 +1462,7 @@ msgid "Source channel:"
 msgstr "Изворен канал:"
 
 #
-#: ../plug-ins/common/cml-explorer.c:1454
-#: ../plug-ins/common/cml-explorer.c:1502
+#: ../plug-ins/common/cml-explorer.c:1454 ../plug-ins/common/cml-explorer.c:1502
 msgid "Destination channel:"
 msgstr "Одредишен канал:"
 
@@ -1668,8 +1654,7 @@ msgid "_Color Exchange..."
 msgstr "Размена на _бои..."
 
 #
-#: ../plug-ins/common/color-exchange.c:213
-#: ../plug-ins/common/color-exchange.c:287
+#: ../plug-ins/common/color-exchange.c:213 ../plug-ins/common/color-exchange.c:287
 msgid "Color Exchange"
 msgstr "Размена на бои..."
 
@@ -1780,8 +1765,7 @@ msgstr "Замени една боја со друга во мапата на б
 msgid "_Swap Colors"
 msgstr "_Замени бои"
 
-#: ../plug-ins/common/colormap-remap.c:286
-#: ../plug-ins/common/colormap-remap.c:297
+#: ../plug-ins/common/colormap-remap.c:286 ../plug-ins/common/colormap-remap.c:297
 #: ../plug-ins/common/colormap-remap.c:308
 msgid "Invalid remap array was passed to remap function"
 msgstr "Неправилна низа за ремапирање беше пропуштена во функцијата за ремапирање"
@@ -1959,8 +1943,8 @@ msgid ""
 "You can only run 'Recompose' if the active image was originally produced by "
 "'Decompose'."
 msgstr ""
-"Можете да извршите „Рекомпонирање“ само ако активната слика изворно е "
-"создадена со „Декомпонирање“."
+"Можете да извршите „Рекомпонирање“ само ако активната слика изворно е создадена "
+"со „Декомпонирање“."
 
 #: ../plug-ins/common/compose.c:512
 msgid "Error scanning 'decompose-data' parasite: too few layers found"
@@ -2040,8 +2024,7 @@ msgstr "Вредност на маската:"
 msgid "Stretch brightness values to cover the full range"
 msgstr "Развлечи ги вредностите за осветленост за да се покрие целиот опсег"
 
-#: ../plug-ins/common/contrast-normalize.c:92
-#: ../plug-ins/common/edge-dog.c:339
+#: ../plug-ins/common/contrast-normalize.c:92 ../plug-ins/common/edge-dog.c:339
 msgid "_Normalize"
 msgstr "_Нормализирај"
 
@@ -2138,13 +2121,11 @@ msgstr "_Сива"
 msgid "Re_d"
 msgstr "_Црвена"
 
-#: ../plug-ins/common/convolution-matrix.c:66
-#: ../plug-ins/common/newsprint.c:353
+#: ../plug-ins/common/convolution-matrix.c:66 ../plug-ins/common/newsprint.c:353
 msgid "_Green"
 msgstr "_Зелена:"
 
-#: ../plug-ins/common/convolution-matrix.c:67
-#: ../plug-ins/common/newsprint.c:361
+#: ../plug-ins/common/convolution-matrix.c:67 ../plug-ins/common/newsprint.c:361
 msgid "_Blue"
 msgstr "Си_на:"
 
@@ -2156,9 +2137,9 @@ msgstr "_Алфа:"
 msgid "E_xtend"
 msgstr "Про_ширено"
 
-#: ../plug-ins/common/convolution-matrix.c:74
-#: ../plug-ins/common/displace.c:472 ../plug-ins/common/edge.c:709
-#: ../plug-ins/common/fractal-trace.c:736 ../plug-ins/common/ripple.c:564
+#: ../plug-ins/common/convolution-matrix.c:74 ../plug-ins/common/displace.c:472
+#: ../plug-ins/common/edge.c:709 ../plug-ins/common/fractal-trace.c:736
+#: ../plug-ins/common/ripple.c:564
 msgid "_Wrap"
 msgstr "За_мотај"
 
@@ -2315,8 +2296,7 @@ msgstr "Свиеност на кривата"
 
 #. Preview area, top of column
 #. preview
-#: ../plug-ins/common/curve-bend.c:1231
-#: ../plug-ins/gimpressionist/orientmap.c:592
+#: ../plug-ins/common/curve-bend.c:1231 ../plug-ins/gimpressionist/orientmap.c:592
 #: ../plug-ins/gimpressionist/sizemap.c:461
 #: ../plug-ins/print/print-page-layout.c:159
 msgid "Preview"
@@ -2644,9 +2624,9 @@ msgid ""
 "Pixels in the foreground color will appear black in all output images.  This "
 "can be used for things like crop marks that have to show up on all channels."
 msgstr ""
-"Пикселите во бојата на четката ќе се појават како црни во сите излезни "
-"слики.  Ова може да се користи на пример за маркери за отсекување кои треба "
-"да појават врз сите канали."
+"Пикселите во бојата на четката ќе се појават како црни во сите излезни слики.  "
+"Ова може да се користи на пример за маркери за отсекување кои треба да појават "
+"врз сите канали."
 
 #: ../plug-ins/common/deinterlace.c:91
 msgid "Fix images where every other row is missing"
@@ -3368,8 +3348,7 @@ msgid "Description:"
 msgstr "Опис:"
 
 #
-#: ../plug-ins/common/file-gif-load.c:142
-#: ../plug-ins/common/file-gif-save.c:168
+#: ../plug-ins/common/file-gif-load.c:142 ../plug-ins/common/file-gif-save.c:168
 msgid "GIF image"
 msgstr "GIF Слика"
 
@@ -3419,8 +3398,8 @@ msgstr "Не можев едноставно да ги редуцирам бои
 #: ../plug-ins/common/file-gif-save.c:562
 #, c-format
 msgid ""
-"Unable to save '%s'.  The GIF file format does not support images that are "
-"more than %d pixels wide or tall."
+"Unable to save '%s'.  The GIF file format does not support images that are more "
+"than %d pixels wide or tall."
 msgstr ""
 "Не можам да зачувам '%s'. GIF форматот не подржува слики кои се поголеми од %d "
 "пиксели."
@@ -3430,8 +3409,8 @@ msgid ""
 "The GIF format only supports comments in 7bit ASCII encoding. No comment is "
 "saved."
 msgstr ""
-"GIF форматот подржува само коментари во 7битно ASCII кодирање. Коментарот не "
-"е зачуван."
+"GIF форматот подржува само коментари во 7битно ASCII кодирање. Коментарот не е "
+"зачуван."
 
 #: ../plug-ins/common/file-gif-save.c:732
 msgid "Cannot save RGB color images. Convert to indexed color or grayscale first."
@@ -3446,16 +3425,16 @@ msgstr ""
 
 #: ../plug-ins/common/file-gif-save.c:950
 msgid ""
-"The image you are trying to save as a GIF contains layers which extend "
-"beyond the actual borders of the image."
+"The image you are trying to save as a GIF contains layers which extend beyond "
+"the actual borders of the image."
 msgstr ""
-"Сликата која што сакате да ја зачувате како GIF содржи слоеви што се "
-"поголеми од нејзините димензии."
+"Сликата која што сакате да ја зачувате како GIF содржи слоеви што се поголеми "
+"од нејзините димензии."
 
 #: ../plug-ins/common/file-gif-save.c:967
 msgid ""
-"The GIF file format does not allow this.  You may choose whether to crop all "
-"of the layers to the image borders, or cancel this save."
+"The GIF file format does not allow this.  You may choose whether to crop all of "
+"the layers to the image borders, or cancel this save."
 msgstr ""
 "Ова не е дозволено во GIF сликите,\n"
 "За жал.\n"
@@ -3654,11 +3633,11 @@ msgstr "_Генерирај целосен HTML документ"
 
 #: ../plug-ins/common/file-html-table.c:469
 msgid ""
-"If checked GTM will output a full HTML document with <HTML>, <BODY>, etc. "
-"tags instead of just the table html."
+"If checked GTM will output a full HTML document with <HTML>, <BODY>, etc. tags "
+"instead of just the table html."
 msgstr ""
-"Ако сте го означиле GTM истиот ќе даде потполен HTML документ со <HTML>,"
-"<BODY>, итн. тагови наместо обични html табели."
+"Ако сте го означиле GTM истиот ќе даде потполен HTML документ со <HTML>,<BODY>, "
+"итн. тагови наместо обични html табели."
 
 #
 #. HTML Table Creation Options
@@ -3684,9 +3663,8 @@ msgstr "Ко_мпресирај ги TD таговите"
 
 #: ../plug-ins/common/file-html-table.c:511
 msgid ""
-"Checking this tag will cause GTM to leave no whitespace between the TD tags "
-"and the cellcontent.  This is only necessary for pixel level positioning "
-"control."
+"Checking this tag will cause GTM to leave no whitespace between the TD tags and "
+"the cellcontent.  This is only necessary for pixel level positioning control."
 msgstr ""
 "Со избирање на овој таг, GTM нема да остава раздел помеѓу TD таговите и "
 "содржината на ќелиите. Ова е неопходно само за контрола на позицијата на "
@@ -4012,11 +3990,11 @@ msgstr "Непознат модел на боја во PNG датотеката 
 
 #: ../plug-ins/common/file-png.c:889
 msgid ""
-"The PNG file specifies an offset that caused the layer to be positioned "
-"outside the image."
+"The PNG file specifies an offset that caused the layer to be positioned outside "
+"the image."
 msgstr ""
-"PNG датотеката го одредува поместувањето кое предизвикува слојот да се "
-"измести надвор од опсегот на сликата."
+"PNG датотеката го одредува поместувањето кое предизвикува слојот да се измести "
+"надвор од опсегот на сликата."
 
 #: ../plug-ins/common/file-png.c:1254
 #, c-format
@@ -4121,7 +4099,7 @@ msgid "Invalid X resolution."
 msgstr "Погрешна Х резолуција."
 
 #: ../plug-ins/common/file-pnm.c:554
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "Големината на сликата е преголема за GIMP"
 
 #: ../plug-ins/common/file-pnm.c:561
@@ -4129,7 +4107,7 @@ msgid "Invalid Y resolution."
 msgstr "Погрешна Y резолуција."
 
 #: ../plug-ins/common/file-pnm.c:563
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "Височината на сликата е преголема за GIMP"
 
 #: ../plug-ins/common/file-pnm.c:575
@@ -4187,9 +4165,9 @@ msgid ""
 "location.\n"
 "(%s)"
 msgstr ""
-"Грешка при стартувањето на Ghostscript. Проверете дали Ghostscript е "
-"инсталиран и - ако е неопходно - користете ја варијаблата на опкружување "
-"GS_PROG за да му кажете на ГИМП за неговата локација.\n"
+"Грешка при стартувањето на Ghostscript. Проверете дали Ghostscript е инсталиран "
+"и - ако е неопходно - користете ја варијаблата на опкружување GS_PROG за да му "
+"кажете на ГИМП за неговата локација.\n"
 "(%s)"
 
 #: ../plug-ins/common/file-ps.c:1930 ../plug-ins/common/file-tiff-load.c:999
@@ -4257,8 +4235,7 @@ msgid "B/W"
 msgstr "B/W"
 
 #: ../plug-ins/common/file-ps.c:3232 ../plug-ins/common/file-xpm.c:479
-#: ../plug-ins/gimpressionist/color.c:66
-#: ../plug-ins/gimpressionist/general.c:170
+#: ../plug-ins/gimpressionist/color.c:66 ../plug-ins/gimpressionist/general.c:170
 #: ../plug-ins/imagemap/imap_menu.c:213
 msgid "Color"
 msgstr "Боја"
@@ -4324,8 +4301,7 @@ msgid "_Millimeter"
 msgstr "Милиметар"
 
 #. Rotation
-#: ../plug-ins/common/file-ps.c:3445
-#: ../plug-ins/map-object/map-object-ui.c:1035
+#: ../plug-ins/common/file-ps.c:3445 ../plug-ins/map-object/map-object-ui.c:1035
 msgid "Rotation"
 msgstr "Ротација"
 
@@ -4495,7 +4471,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "Ширината на сликата е преголема за GIMP"
@@ -4515,7 +4491,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "Висината на сликата е преголема за GIMP"
@@ -4626,8 +4602,8 @@ msgstr "Увези _патеки"
 msgid ""
 "Import path elements of the SVG so they can be used with the GIMP path tool"
 msgstr ""
-"Увези ги елементите на патеките за SVG, за да бидат користени во ГИМП "
-"алатките за патеки"
+"Увези ги елементите на патеките за SVG, за да бидат користени во ГИМП алатките "
+"за патеки"
 
 #: ../plug-ins/common/file-svg.c:961
 msgid "Merge imported paths"
@@ -4673,8 +4649,7 @@ msgstr "Доле лево"
 msgid "Top left"
 msgstr "Горе лево"
 
-#: ../plug-ins/common/file-tiff-load.c:240
-#: ../plug-ins/common/file-tiff-save.c:182
+#: ../plug-ins/common/file-tiff-load.c:240 ../plug-ins/common/file-tiff-save.c:182
 #: ../plug-ins/common/file-tiff-save.c:199
 msgid "TIFF image"
 msgstr "TIFF слика"
@@ -4697,17 +4672,16 @@ msgstr "%s-%d-of-%d-страници"
 msgid "TIFF Channel"
 msgstr "TIFF канал"
 
-#: ../plug-ins/common/file-tiff-load.c:1024
-#: ../plug-ins/file-psd/psd-load.c:321
+#: ../plug-ins/common/file-tiff-load.c:1024 ../plug-ins/file-psd/psd-load.c:321
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
-"bit, so it will be converted for you. Information will be lost because of "
-"this conversion."
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
+"bit, so it will be converted for you. Information will be lost because of this "
+"conversion."
 msgstr ""
 "Предупредување:\n"
-"Сликата која ја вчитувате има 16 бита по канал. ГИПМ може да работи само со "
-"8 бита, така да ова ќе се преведе. Ќе бидат изгубени информации поради ова "
+"Сликата која ја вчитувате има 16 бита по канал. ГИПМ може да работи само со 8 "
+"бита, така да ова ќе се преведе. Ќе бидат изгубени информации поради ова "
 "преведување."
 
 #: ../plug-ins/common/file-tiff-save.c:887
@@ -5266,8 +5240,7 @@ msgid "_Fractal Trace..."
 msgstr "_Фрактално следење..."
 
 #
-#: ../plug-ins/common/fractal-trace.c:460
-#: ../plug-ins/common/fractal-trace.c:691
+#: ../plug-ins/common/fractal-trace.c:460 ../plug-ins/common/fractal-trace.c:691
 msgid "Fractal Trace"
 msgstr "Фрактално следење"
 
@@ -5600,8 +5573,7 @@ msgstr "I Изобличување"
 
 #: ../plug-ins/common/iwarp.c:1299
 msgid ""
-"Click and drag in the preview to define the distortions to apply to the "
-"image."
+"Click and drag in the preview to define the distortions to apply to the image."
 msgstr ""
 "Кликнете и повлечете во прегледот за да одредите која дистрорзија да ја "
 "примените на сликата."
@@ -6322,8 +6294,7 @@ msgstr "_Одбери..."
 msgid "_Slur..."
 msgstr "_Загади..."
 
-#: ../plug-ins/common/noise-randomize.c:771
-#: ../plug-ins/common/noise-solid.c:602
+#: ../plug-ins/common/noise-randomize.c:771 ../plug-ins/common/noise-solid.c:602
 msgid "_Random seed:"
 msgstr "_Случајно семе:"
 
@@ -6649,19 +6620,16 @@ msgid "Name"
 msgstr "Име"
 
 #
-#: ../plug-ins/common/plugin-browser.c:605
-#: ../plug-ins/common/plugin-browser.c:668
+#: ../plug-ins/common/plugin-browser.c:605 ../plug-ins/common/plugin-browser.c:668
 msgid "Menu Path"
 msgstr "Патека на менито"
 
 #
-#: ../plug-ins/common/plugin-browser.c:613
-#: ../plug-ins/common/plugin-browser.c:677
+#: ../plug-ins/common/plugin-browser.c:613 ../plug-ins/common/plugin-browser.c:677
 msgid "Image Types"
 msgstr "Типови на слики"
 
-#: ../plug-ins/common/plugin-browser.c:623
-#: ../plug-ins/common/plugin-browser.c:686
+#: ../plug-ins/common/plugin-browser.c:623 ../plug-ins/common/plugin-browser.c:686
 msgid "Installation Date"
 msgstr "Дата на инсталација"
 
@@ -6703,8 +6671,8 @@ msgstr "_Мапирај наназад"
 
 #: ../plug-ins/common/polar-coords.c:664
 msgid ""
-"If checked the mapping will begin at the right side, as opposed to beginning "
-"at the left."
+"If checked the mapping will begin at the right side, as opposed to beginning at "
+"the left."
 msgstr ""
 "Ако е означено мапирање, ќе почне на десната страна, како спротивност на "
 "почетокот од левата страна."
@@ -6715,8 +6683,8 @@ msgstr "Мапа од _врвот"
 
 #: ../plug-ins/common/polar-coords.c:681
 msgid ""
-"If unchecked the mapping will put the bottom row in the middle and the top "
-"row on the outside.  If checked it will be the opposite."
+"If unchecked the mapping will put the bottom row in the middle and the top row "
+"on the outside.  If checked it will be the opposite."
 msgstr ""
 "Ако не е избрано мапирањето ќе го постави последниот ред во средина и првиот "
 "ред надвор. Ако е избрано, ќе биде обратно."
@@ -6727,8 +6695,8 @@ msgstr "Кон _половите"
 
 #: ../plug-ins/common/polar-coords.c:699
 msgid ""
-"If unchecked the image will be circularly mapped onto a rectangle.  If "
-"checked the image will be mapped onto a circle."
+"If unchecked the image will be circularly mapped onto a rectangle.  If checked "
+"the image will be mapped onto a circle."
 msgstr ""
 "Ако не е избрано, сликата ќе биде кружно мапирана во правоаголник. Ако е "
 "избрано, сликата ќе биде мапирана во круг."
@@ -6782,9 +6750,8 @@ msgstr "Отстранување на _црвено око..."
 msgid "Red Eye Removal"
 msgstr "Отстранување на црвено око"
 
-#: ../plug-ins/common/red-eye-removal.c:170
-#: ../plug-ins/common/unsharp-mask.c:706 ../plug-ins/common/wind.c:1008
-#: ../plug-ins/imagemap/imap_preferences.c:441
+#: ../plug-ins/common/red-eye-removal.c:170 ../plug-ins/common/unsharp-mask.c:706
+#: ../plug-ins/common/wind.c:1008 ../plug-ins/imagemap/imap_preferences.c:441
 #: ../plug-ins/map-object/map-object-ui.c:585
 msgid "_Threshold:"
 msgstr "Праг:"
@@ -7811,8 +7778,7 @@ msgstr "Мали делчиња"
 
 #. Area for buttons etc
 #. Flip
-#: ../plug-ins/common/tile-small.c:414
-#: ../plug-ins/ifs-compose/ifs-compose.c:610
+#: ../plug-ins/common/tile-small.c:414 ../plug-ins/ifs-compose/ifs-compose.c:610
 msgid "Flip"
 msgstr "Огледало"
 
@@ -7877,8 +7843,8 @@ msgid ""
 "A unit definition will only be saved before GIMP exits if this column is "
 "checked."
 msgstr ""
-"Дефиницијата на единицата ќе биде зачувана само ако е штиклирано ова поле "
-"пред излегувањето од ГИМП-от."
+"Дефиницијата на единицата ќе биде зачувана само ако е штиклирано ова поле пред "
+"излегувањето од ГИМП-от."
 
 #: ../plug-ins/common/unit-editor.c:96
 msgid "ID"
@@ -7887,8 +7853,8 @@ msgstr "Ознака"
 #: ../plug-ins/common/unit-editor.c:96
 msgid "This string will be used to identify a unit in GIMP's configuration files."
 msgstr ""
-"Овој израз ќе се користи за идентификација на единицата во ГИМП-овата "
-"датотека за подесувања."
+"Овој израз ќе се користи за идентификација на единицата во ГИМП-овата датотека "
+"за подесувања."
 
 #: ../plug-ins/common/unit-editor.c:98
 msgid "Factor"
@@ -7904,9 +7870,9 @@ msgstr "Бројки"
 
 #: ../plug-ins/common/unit-editor.c:99
 msgid ""
-"This field is a hint for numerical input fields. It specifies how many "
-"decimal digits the input field should provide to get approximately the same "
-"accuracy as an \"inch\" input field with two decimal digits."
+"This field is a hint for numerical input fields. It specifies how many decimal "
+"digits the input field should provide to get approximately the same accuracy as "
+"an \"inch\" input field with two decimal digits."
 msgstr ""
 "Ова поле служи за внесување на нумерички знакови. Во него одредуваме колку "
 "децимални броеви ќе имаат приближно иста точност како \"инч\" полето со две "
@@ -7921,8 +7887,8 @@ msgid ""
 "The unit's symbol if it has one (e.g. \"'\" for inches). The unit's "
 "abbreviation is used if doesn't have a symbol."
 msgstr ""
-"Симбол на мерната единица (пр. „'“ за инчи). Да се употреби кратенка ако "
-"нема симбол."
+"Симбол на мерната единица (пр. „'“ за инчи). Да се употреби кратенка ако нема "
+"симбол."
 
 #: ../plug-ins/common/unit-editor.c:107
 msgid "Abbreviation"
@@ -8456,8 +8422,7 @@ msgstr ""
 #: ../plug-ins/common/web-browser.c:161
 #, c-format
 msgid ""
-"Could not parse the web browser command specified in the Preferences "
-"dialog:\n"
+"Could not parse the web browser command specified in the Preferences dialog:\n"
 "\n"
 "%s"
 msgstr ""
@@ -8876,8 +8841,8 @@ msgid ""
 "quality and file size."
 msgstr ""
 "Доколку оригиналната слика е е земена од JPEG датотека со нестандардни "
-"поставувања за квалитет (табели за квантизација), овозможете ја оваа опција "
-"да добиете речиси ист квалитет и големина на датотеката"
+"поставувања за квалитет (табели за квантизација), овозможете ја оваа опција да "
+"добиете речиси ист квалитет и големина на датотеката"
 
 #. Subsampling
 #: ../plug-ins/file-jpeg/jpeg-save.c:1076
@@ -8937,8 +8902,7 @@ msgstr "JPEG слика"
 msgid "Export Preview"
 msgstr "Извези Преглед"
 
-#: ../plug-ins/file-psd/psd-load.c:211
-#: ../plug-ins/file-psd/psd-thumb-load.c:131
+#: ../plug-ins/file-psd/psd-load.c:211 ../plug-ins/file-psd/psd-thumb-load.c:131
 #, c-format
 msgid "Error loading PSD file: %s"
 msgstr "Грешка во вчитувањето на PSD датотеката :%s"
@@ -9010,8 +8974,7 @@ msgid ""
 "plug-in does not support that, using normal mode instead."
 msgstr ""
 "Не можам да го зачувам слојот со режим '%s'. Или датотечниот формат PSD или "
-"додатокот за снимање не го подржуваат тоа, користам нормален режим наместо "
-"тоа. "
+"додатокот за снимање не го подржуваат тоа, користам нормален режим наместо тоа. "
 
 #: ../plug-ins/file-psd/psd-save.c:623
 msgid "Error: Can't convert GIMP base imagetype to PSD mode"
@@ -9021,17 +8984,17 @@ msgstr ""
 #: ../plug-ins/file-psd/psd-save.c:1552
 #, c-format
 msgid ""
-"Unable to save '%s'.  The PSD file format does not support images that are "
-"more than 30,000 pixels wide or tall."
+"Unable to save '%s'.  The PSD file format does not support images that are more "
+"than 30,000 pixels wide or tall."
 msgstr ""
-"Не можам да ја зачувам '%s'. Датотечниот формат PSD не подржува слики кои "
-"се повеќе од 30,000 пиксели широки или високи."
+"Не можам да ја зачувам '%s'. Датотечниот формат PSD не подржува слики кои се "
+"повеќе од 30,000 пиксели широки или високи."
 
 #: ../plug-ins/file-psd/psd-save.c:1567
 #, c-format
 msgid ""
-"Unable to save '%s'.  The PSD file format does not support images with "
-"layers that are more than 30,000 pixels wide or tall."
+"Unable to save '%s'.  The PSD file format does not support images with layers "
+"that are more than 30,000 pixels wide or tall."
 msgstr ""
 "Не можам да ја зачувам '%s'. Датотечниот формат PSD, не подржува слики со "
 "слоеви кои се повеќе од 30,000 пиксели широки или високи."
@@ -9704,8 +9667,8 @@ msgid ""
 "Use linear mapping instead of any trigonometrical function for this color "
 "channel"
 msgstr ""
-"Користи линеарно мапирање наместо било која тригонометриска функција за "
-"каналот на оваа боја"
+"Користи линеарно мапирање наместо било која тригонометриска функција за каналот "
+"на оваа боја"
 
 #
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1019
@@ -9718,11 +9681,11 @@ msgstr "Инверзија"
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1068
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1109
 msgid ""
-"If you enable this option higher color values will be swapped with lower "
-"ones and vice versa"
+"If you enable this option higher color values will be swapped with lower ones "
+"and vice versa"
 msgstr ""
-"Ако ја вклучите оваа опција, поголемите вредности на бојата ќе бидат "
-"заменети со помали и обратно"
+"Ако ја вклучите оваа опција, поголемите вредности на бојата ќе бидат заменети "
+"со помали и обратно"
 
 #
 #. Colormode toggle box
@@ -10053,8 +10016,7 @@ msgstr "Прикажи ги контролните точки"
 msgid "Max undo:"
 msgstr "Макс. наназад:"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1283
-#: ../plug-ins/gimpressionist/general.c:185
+#: ../plug-ins/gfig/gfig-dialog.c:1283 ../plug-ins/gimpressionist/general.c:185
 msgid "Transparent"
 msgstr "Провидно"
 
@@ -10070,8 +10032,8 @@ msgstr "Копирај"
 
 #: ../plug-ins/gfig/gfig-dialog.c:1296
 msgid ""
-"Layer background type. Copy causes the previous layer to be copied before "
-"the draw is performed."
+"Layer background type. Copy causes the previous layer to be copied before the "
+"draw is performed."
 msgstr ""
 "Тип на слојот на позадината. Копирањето предизвикува претходниот слој да се "
 "копира пред да се изведе цртање."
@@ -10245,13 +10207,11 @@ msgstr "Облик на размерот:"
 msgid "Specifies the aspect ratio of the brush"
 msgstr "Го одредува обликот на размерот на четката"
 
-#: ../plug-ins/gimpressionist/brush.c:612
-#: ../plug-ins/gimpressionist/paper.c:206
+#: ../plug-ins/gimpressionist/brush.c:612 ../plug-ins/gimpressionist/paper.c:206
 msgid "Relief:"
 msgstr "Релјеф:"
 
-#: ../plug-ins/gimpressionist/brush.c:616
-#: ../plug-ins/gimpressionist/paper.c:210
+#: ../plug-ins/gimpressionist/brush.c:616 ../plug-ins/gimpressionist/paper.c:210
 msgid "Specifies the amount of embossing to apply to the image (in percent)"
 msgstr ""
 "Ја одредува количината на испапченост за примена на сликата (процентуално)"
@@ -10384,16 +10344,16 @@ msgid "Performs various artistic operations"
 msgstr "Изведува различни уметнички операции"
 
 #: ../plug-ins/gimpressionist/gimp.c:95
-msgid "_GIMPressionist..."
-msgstr "_ГИМПресионист..."
+msgid "_Impressionist..."
+msgstr "_Импресионист..."
 
 #: ../plug-ins/gimpressionist/gimp.c:371
 msgid "Painting"
 msgstr "Сликање"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:139
-msgid "GIMPressionist"
-msgstr "ГИМПресионист"
+msgid "Impressionist"
+msgstr "Импресионист"
 
 #: ../plug-ins/gimpressionist/orientation.c:92
 msgid "Or_ientation"
@@ -10425,8 +10385,7 @@ msgstr "Лак на аголот на првата четка за креира�
 
 #: ../plug-ins/gimpressionist/orientation.c:157
 msgid ""
-"Let the value (brightness) of the region determine the direction of the "
-"stroke"
+"Let the value (brightness) of the region determine the direction of the stroke"
 msgstr "Нека вредноста (светлост) на подрачјето ја одреди насоката на потегот"
 
 #: ../plug-ins/gimpressionist/orientation.c:160
@@ -10436,8 +10395,7 @@ msgstr "Радиус"
 
 #: ../plug-ins/gimpressionist/orientation.c:161
 msgid ""
-"The distance from the center of the image determines the direction of the "
-"stroke"
+"The distance from the center of the image determines the direction of the stroke"
 msgstr "Растојанието од средината на сликата ја одредува насоката на потегот"
 
 #: ../plug-ins/gimpressionist/orientation.c:165
@@ -10499,8 +10457,8 @@ msgstr "Вектори"
 
 #: ../plug-ins/gimpressionist/orientmap.c:567
 msgid ""
-"The vector-field. Left-click to move selected vector, Right-click to point "
-"it towards mouse, Middle-click to add a new vector."
+"The vector-field. Left-click to move selected vector, Right-click to point it "
+"towards mouse, Middle-click to add a new vector."
 msgstr ""
 "Векторско поле. Лев клик да го помести избраниот вектор, десен клик да го "
 "заврти кон глушецот, Среден клик за додавање на нов вектор."
@@ -10564,8 +10522,7 @@ msgstr "_Voronoi"
 
 #: ../plug-ins/gimpressionist/orientmap.c:662
 msgid ""
-"Voronoi-mode makes only the vector closest to the given point have any "
-"influence"
+"Voronoi-mode makes only the vector closest to the given point have any influence"
 msgstr ""
 "Voronoi режимот прави да само векторот кој е најблиску до избраната точка да "
 "има некое влијание"
@@ -10673,8 +10630,9 @@ msgid "Save Current"
 msgstr "Зачувај тековен"
 
 #: ../plug-ins/gimpressionist/presets.c:892
-msgid "Gimpressionist Defaults"
-msgstr "Преддефинирани опции на Гимпресионист"
+#, fuzzy
+msgid "Impressionist Defaults"
+msgstr "Преддефинирани опции на Импресионист"
 
 #: ../plug-ins/gimpressionist/presets.c:1013
 msgid "_Presets"
@@ -10702,8 +10660,7 @@ msgstr "Повторно прочитај го доректориумот со �
 
 #: ../plug-ins/gimpressionist/preview.c:174
 #: ../plug-ins/gimpressionist/repaint.c:1184
-#: ../plug-ins/imagemap/imap_polygon.c:515
-#: ../plug-ins/lighting/lighting-ui.c:1075
+#: ../plug-ins/imagemap/imap_polygon.c:515 ../plug-ins/lighting/lighting-ui.c:1075
 msgid "_Update"
 msgstr "Освежи"
 
@@ -10790,8 +10747,8 @@ msgstr "Sm-вектори"
 
 #: ../plug-ins/gimpressionist/sizemap.c:439
 msgid ""
-"The smvector-field. Left-click to move selected smvector, Right-click to "
-"point it towards mouse, Middle-click to add a new smvector."
+"The smvector-field. Left-click to move selected smvector, Right-click to point "
+"it towards mouse, Middle-click to add a new smvector."
 msgstr ""
 "Sm-векторско поле. Лев клик го поместува избраниот вектор, десен го завртува "
 "кон глушецот, среден клик додава нов Sm-вектор."
@@ -10833,8 +10790,8 @@ msgid ""
 "Voronoi-mode makes only the smvector closest to the given point have any "
 "influence"
 msgstr ""
-"Voronoi режимот предизвикува само Sm-векторот најблизок до избраната точка "
-"да има некое влијание"
+"Voronoi режимот предизвикува само Sm-векторот најблизок до избраната точка да "
+"има некое влијание"
 
 #: ../plug-ins/gradient-flare/gradient-flare.c:552
 msgid "Addition"
@@ -11122,8 +11079,7 @@ msgstr "Случајно семе:"
 msgid "_Second Flares"
 msgstr "_Втори пламени"
 
-#: ../plug-ins/help-browser/dialog.c:184
-#: ../plug-ins/help-browser/dialog.c:1096
+#: ../plug-ins/help-browser/dialog.c:184 ../plug-ins/help-browser/dialog.c:1096
 msgid "GIMP Help Browser"
 msgstr "ГИМП прелистувач на помош"
 
@@ -11203,7 +11159,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "Помошните страници за '%s' не се достапни."
 
 #: ../plug-ins/help/gimphelpdomain.c:187
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "Корисничкото упатство на GIMP не е достапно."
 
 #: ../plug-ins/help/gimphelpdomain.c:188
@@ -11344,8 +11300,7 @@ msgstr "Трансформација на бојата"
 msgid "Relative probability:"
 msgstr "Релативна можност:"
 
-#: ../plug-ins/ifs-compose/ifs-compose.c:1059
-#: ../plug-ins/imagemap/imap_menu.c:163
+#: ../plug-ins/ifs-compose/ifs-compose.c:1059 ../plug-ins/imagemap/imap_menu.c:163
 msgid "Select _All"
 msgstr "Избери _се"
 
@@ -11454,11 +11409,9 @@ msgstr "_Круг"
 msgid "Center _x:"
 msgstr "Центар _x:"
 
-#: ../plug-ins/imagemap/imap_circle.c:269
-#: ../plug-ins/imagemap/imap_circle.c:276
+#: ../plug-ins/imagemap/imap_circle.c:269 ../plug-ins/imagemap/imap_circle.c:276
 #: ../plug-ins/imagemap/imap_circle.c:282 ../plug-ins/imagemap/imap_grid.c:250
-#: ../plug-ins/imagemap/imap_grid.c:256
-#: ../plug-ins/imagemap/imap_polygon.c:505
+#: ../plug-ins/imagemap/imap_grid.c:256 ../plug-ins/imagemap/imap_polygon.c:505
 #: ../plug-ins/imagemap/imap_polygon.c:513
 #: ../plug-ins/imagemap/imap_rectangle.c:394
 #: ../plug-ins/imagemap/imap_rectangle.c:401
@@ -11486,8 +11439,7 @@ msgstr "Создади"
 msgid "Cut"
 msgstr "Исечи"
 
-#: ../plug-ins/imagemap/imap_cmd_delete.c:57
-#: ../plug-ins/imagemap/imap_menu.c:162
+#: ../plug-ins/imagemap/imap_cmd_delete.c:57 ../plug-ins/imagemap/imap_menu.c:162
 msgid "Delete"
 msgstr "Избриши"
 
@@ -11552,15 +11504,15 @@ msgstr "Граница на водичот: %d,%d до %d,%d (%d подрачј�
 
 #: ../plug-ins/imagemap/imap_cmd_guides.c:144
 msgid ""
-"Guides are pre-defined rectangles covering the image. You define them by "
-"their width, height, and spacing from each other. This allows you to rapidly "
-"create the most common image map type - image collection of \"thumbnails\", "
-"suitable for navigation bars."
+"Guides are pre-defined rectangles covering the image. You define them by their "
+"width, height, and spacing from each other. This allows you to rapidly create "
+"the most common image map type - image collection of \"thumbnails\", suitable "
+"for navigation bars."
 msgstr ""
-"Водичите се преддефинирани правоаголници кои ја покриваат сликата.Ги "
-"одредувате по ширина, висина и разделот помеѓу нив. Ова ви овозможувабрзо "
-"креирање на најчестите мапи на слики-колекции од \"сликички\",подобни за "
-"навигационите ленти."
+"Водичите се преддефинирани правоаголници кои ја покриваат сликата.Ги одредувате "
+"по ширина, висина и разделот помеѓу нив. Ова ви овозможувабрзо креирање на "
+"најчестите мапи на слики-колекции од \"сликички\",подобни за навигационите "
+"ленти."
 
 #: ../plug-ins/imagemap/imap_cmd_guides.c:170
 msgid "_Left start at:"
@@ -11627,8 +11579,7 @@ msgstr "Помести нанапред"
 msgid "Move Up"
 msgstr "Помести нагоре"
 
-#: ../plug-ins/imagemap/imap_cmd_paste.c:51
-#: ../plug-ins/imagemap/imap_menu.c:161
+#: ../plug-ins/imagemap/imap_cmd_paste.c:51 ../plug-ins/imagemap/imap_menu.c:161
 msgid "Paste"
 msgstr "Вметни"
 
@@ -11816,8 +11767,7 @@ msgstr "Создади кликлива мапа на сликата"
 msgid "_Image Map..."
 msgstr "Мапа на _сликата..."
 
-#: ../plug-ins/imagemap/imap_main.c:517
-#: ../plug-ins/imagemap/imap_settings.c:171
+#: ../plug-ins/imagemap/imap_main.c:517 ../plug-ins/imagemap/imap_settings.c:171
 msgid "<Untitled>"
 msgstr "<Untitled>"
 
@@ -12234,8 +12184,8 @@ msgstr "_Проѕирна позадина"
 #: ../plug-ins/lighting/lighting-ui.c:313
 msgid "Make destination image transparent where bump height is zero"
 msgstr ""
-"Направи ја дестинационата слика проѕирна каде висината на издигнување е "
-"еднаква на нула"
+"Направи ја дестинационата слика проѕирна каде висината на издигнување е еднаква "
+"на нула"
 
 #
 #: ../plug-ins/lighting/lighting-ui.c:316
@@ -13182,8 +13132,8 @@ msgstr "Нема фатени податоци"
 
 #~ msgid "Map colors sending foreground to black, background to white"
 #~ msgstr ""
-#~ "Мапирај ги боите со поставување боја на четка на црна, боја на позадина "
-#~ "на бела"
+#~ "Мапирај ги боите со поставување боја на четка на црна, боја на позадина на "
+#~ "бела"
 
 #
 #~ msgid "Adjust _Foreground & Background"
@@ -13249,8 +13199,7 @@ msgstr "Нема фатени податоци"
 
 #~ msgid "Cannot handle PSD files in CMYK color with more than 5 channels"
 #~ msgstr ""
-#~ "Неможе да се справи со PSD датотеки во CMYK бои со повеќе од 5 канали на "
-#~ "боја"
+#~ "Неможе да се справи со PSD датотеки во CMYK бои со повеќе од 5 канали на боја"
 
 #~ msgid "Cannot handle image mode %d (%s)"
 #~ msgstr "Неможе да се справи со %d (%s) типови"
@@ -13270,10 +13219,10 @@ msgstr "Нема фатени податоци"
 #~ msgid "checkbutton|Snap to grid"
 #~ msgstr "Држи во мрежа"
 
-#~ msgid "The GIMP help files are not found."
+#~ msgid "The Glimpse help files are not found."
 #~ msgstr "ГИМП датотеките за помош не се најдени."
 
-#~ msgid "There is a problem with the GIMP help files."
+#~ msgid "There is a problem with the Glimpse help files."
 #~ msgstr "Има проблем со ГИМП датотеките за помош."
 
 #~ msgid "Please check your installation."
@@ -13300,4 +13249,3 @@ msgstr "Нема фатени податоци"
 
 #~ msgid "Could not open output file for writing"
 #~ msgstr "Не може да се отвори 'излезната датотека за пишување"
-

@@ -36,8 +36,8 @@ msgstr "_Qalaq iseva..."
 
 #: ../plug-ins/script-fu/script-fu.c:307
 #, fuzzy
-msgid "_GIMP Online"
-msgstr "Ulwandiso lwe-GIMP"
+msgid "_Glimpse online"
+msgstr "Ulwandiso lwe-Glimpse"
 
 #: ../plug-ins/script-fu/script-fu.c:308
 msgid "_User Manual"
@@ -807,7 +807,7 @@ msgstr ""
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (GNU I.M.P)"
 msgstr ""
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -847,7 +847,7 @@ msgstr "i-Web Site engu_Ndoqo"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:192
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:205
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:218
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr ""
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
@@ -856,7 +856,7 @@ msgstr "i-Web Site yo_Mphuhlisi"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
 #, fuzzy
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (GNU I.M.P)"
 msgstr "i-Web Site engu_Ndoqo"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217
@@ -1769,10 +1769,10 @@ msgstr "Faka isithunzi sokungamiselwanga kuka-Y"
 #~ msgid "Additional Information"
 #~ msgstr "Ulwazi olongezelelekileyo"
 
-#~ msgid "Internal GIMP procedure"
-#~ msgstr "Inkqubo ye-GIMP yangaphakathi"
+#~ msgid "Internal Glimpse procedure"
+#~ msgstr "Inkqubo ye-Glimpse yangaphakathi"
 
-#~ msgid "GIMP Plug-In"
+#~ msgid "GNU I.M.P Plug-In"
 #~ msgstr "Ungeniso lwe-GIMP"
 
 #~ msgid "Temporary Procedure"
@@ -2492,5 +2492,5 @@ msgstr "Faka isithunzi sokungamiselwanga kuka-Y"
 #~ msgid "<Toolbox>/Xtns/Script-Fu/Misc"
 #~ msgstr "<Ibhokisi yezixhobo>/Xtns/iSkripti-Fu/Misc"
 
-#~ msgid "<Toolbox>/Help/The GIMP Online"
+#~ msgid "<Toolbox>/Help/The Glimpse online"
 #~ msgstr "<Ibhokisi yezixhobo>/uNcedo/i-GIMP inonxibelelwano"

@@ -157,12 +157,12 @@ gimpdir-output:
 	mkdir -p gimpdir-output/gradients
 
 gimp-test-icon-theme:
-	mkdir -p $$(echo $$(find $(top_srcdir)/icons/Color -name [0-9][0-9] -type d | sed 's@.*/\([0-9][0-9]\)$$@gimp-test-icon-theme/hicolor/\1x\1@'))
-	for dir in $$(echo $$(find $(top_srcdir)/icons/Color/ -name [0-9][0-9] -type d | sed 's@.*/\([0-9][0-9]\)$$@\1@')); do \
+	mkdir -p $$(echo $$(find $(top_srcdir)/icons/Legacy -name [0-9][0-9] -type d | sed 's@.*/\([0-9][0-9]\)$$@gimp-test-icon-theme/hicolor/\1x\1@'))
+	for dir in $$(echo $$(find $(top_srcdir)/icons/Legacy/ -name [0-9][0-9] -type d | sed 's@.*/\([0-9][0-9]\)$$@\1@')); do \
 		(cd gimp-test-icon-theme/hicolor/$${dir}x$${dir}/ && \
-		$(LN_S) $(abs_top_srcdir)/icons/Color/$${dir} apps); \
+		$(LN_S) $(abs_top_srcdir)/icons/Legacy/$${dir} apps); \
 	done
-	(cd gimp-test-icon-theme/hicolor && $(LN_S) $(abs_top_srcdir)/icons/Color/index.theme index.theme)
+	(cd gimp-test-icon-theme/hicolor && $(LN_S) $(abs_top_srcdir)/icons/Legacy/index.theme index.theme)
 
 clean-local:
 	rm -rf gimpdir-output

@@ -4,7 +4,8 @@ build/windows/installer/lang/setup.isl.in
 data/tags
 data/tips
 desktop
-desktop/gimp.desktop.in
+desktop/org.glimpse_editor.Glimpse.desktop.in
+gegl
 libgimp
 libgimpbase
 libgimpcolor
@@ -13,6 +14,7 @@ libgimpmath
 libgimpmodule
 libgimpthumb
 libgimpwidgets
+libmypaint
 modules
 plug-ins/color-rotate
 plug-ins/common

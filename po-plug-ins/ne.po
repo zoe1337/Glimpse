@@ -15,19 +15,17 @@ msgstr ""
 "Project-Id-Version: gimp-plug-ins.HEAD.ne\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2007-07-27 04:16+0100\n"
-"PO-Revision-Date: 2007-07-27 16:04+0545\n"
+"PO-Revision-Date: 2020-02-08 14:43-0800\n"
 "Last-Translator: Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>\n"
 "Language-Team: Nepali <info@mpp.org.np>\n"
 "Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:547
-#: ../plug-ins/gfig/gfig-dialog.c:274 ../plug-ins/gflare/gflare.c:883
-#: ../plug-ins/gimpressionist/utils.c:124
+#: ../plug-ins/FractalExplorer/Dialogs.c:547 ../plug-ins/gfig/gfig-dialog.c:274 ../plug-ins/gflare/gflare.c:883 ../plug-ins/gimpressionist/utils.c:124
 #, c-format
 msgid ""
 "No %s in gimprc:\n"
@@ -73,28 +71,23 @@ msgstr "परिमितिहरू"
 msgid "Fractal Parameters"
 msgstr "आंशीक परिमितिहरू"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:734
-#: ../plug-ins/MapObject/mapobject_ui.c:1111
+#: ../plug-ins/FractalExplorer/Dialogs.c:734 ../plug-ins/MapObject/mapobject_ui.c:1111
 msgid "Left:"
 msgstr "बायाँ:"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:743
-#: ../plug-ins/MapObject/mapobject_ui.c:1111
+#: ../plug-ins/FractalExplorer/Dialogs.c:743 ../plug-ins/MapObject/mapobject_ui.c:1111
 msgid "Right:"
 msgstr "दायाँ:"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:752
-#: ../plug-ins/MapObject/mapobject_ui.c:1110
+#: ../plug-ins/FractalExplorer/Dialogs.c:752 ../plug-ins/MapObject/mapobject_ui.c:1110
 msgid "Top:"
 msgstr "माथि:"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:761
-#: ../plug-ins/MapObject/mapobject_ui.c:1110
+#: ../plug-ins/FractalExplorer/Dialogs.c:761 ../plug-ins/MapObject/mapobject_ui.c:1110
 msgid "Bottom:"
 msgstr "तल:"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:770 ../plug-ins/common/warp.c:434
-#: ../plug-ins/ifscompose/ifscompose.c:1210
+#: ../plug-ins/FractalExplorer/Dialogs.c:770 ../plug-ins/common/warp.c:434 ../plug-ins/ifscompose/ifscompose.c:1210
 msgid "Iterations:"
 msgstr "पुनरावृतिहरू:"
 
@@ -106,8 +99,7 @@ msgstr "परिवर्तनको उच्च सङ्ख्याहर�
 msgid "CX:"
 msgstr "CX:"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:784
-#: ../plug-ins/FractalExplorer/Dialogs.c:794
+#: ../plug-ins/FractalExplorer/Dialogs.c:784 ../plug-ins/FractalExplorer/Dialogs.c:794
 msgid "Changes aspect of fractal"
 msgstr "आंशिक पक्ष परिवर्तन गर्दछ"
 
@@ -173,8 +165,7 @@ msgid "Co_lors"
 msgstr "रङहरू"
 
 #. Number of Colors frame
-#: ../plug-ins/FractalExplorer/Dialogs.c:908
-#: ../plug-ins/common/borderaverage.c:415
+#: ../plug-ins/FractalExplorer/Dialogs.c:908 ../plug-ins/common/borderaverage.c:415
 msgid "Number of Colors"
 msgstr "रङहरूको सङ्ख्या"
 
@@ -232,81 +223,51 @@ msgid "Color Function"
 msgstr "रङ प्रकार्य"
 
 #. Redmode radio frame
-#: ../plug-ins/FractalExplorer/Dialogs.c:991
-#: ../plug-ins/common/channel_mixer.c:537 ../plug-ins/common/decompose.c:174
+#: ../plug-ins/FractalExplorer/Dialogs.c:991 ../plug-ins/common/channel_mixer.c:537 ../plug-ins/common/decompose.c:174
 msgid "Red"
 msgstr "रातो"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:995
-#: ../plug-ins/FractalExplorer/Dialogs.c:1036
-#: ../plug-ins/FractalExplorer/Dialogs.c:1077
+#: ../plug-ins/FractalExplorer/Dialogs.c:995 ../plug-ins/FractalExplorer/Dialogs.c:1036 ../plug-ins/FractalExplorer/Dialogs.c:1077
 msgid "Sine"
 msgstr "साइन"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:997
-#: ../plug-ins/FractalExplorer/Dialogs.c:1038
-#: ../plug-ins/FractalExplorer/Dialogs.c:1079
+#: ../plug-ins/FractalExplorer/Dialogs.c:997 ../plug-ins/FractalExplorer/Dialogs.c:1038 ../plug-ins/FractalExplorer/Dialogs.c:1079
 msgid "Cosine"
 msgstr "कोसाइन"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:999
-#: ../plug-ins/FractalExplorer/Dialogs.c:1040
-#: ../plug-ins/FractalExplorer/Dialogs.c:1081
-#: ../plug-ins/Lighting/lighting_ui.c:416
-#: ../plug-ins/common/CML_explorer.c:166 ../plug-ins/common/align_layers.c:422
-#: ../plug-ins/common/align_layers.c:453 ../plug-ins/common/postscript.c:3228
-#: ../plug-ins/common/postscript.c:3240 ../plug-ins/common/psp.c:418
-#: ../plug-ins/fits/fits.c:1026
+#: ../plug-ins/FractalExplorer/Dialogs.c:999 ../plug-ins/FractalExplorer/Dialogs.c:1040 ../plug-ins/FractalExplorer/Dialogs.c:1081
+#: ../plug-ins/Lighting/lighting_ui.c:416 ../plug-ins/common/CML_explorer.c:166 ../plug-ins/common/align_layers.c:422 ../plug-ins/common/align_layers.c:453
+#: ../plug-ins/common/postscript.c:3228 ../plug-ins/common/postscript.c:3240 ../plug-ins/common/psp.c:418 ../plug-ins/fits/fits.c:1026
 msgid "None"
 msgstr "कुनै पनि होइन"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:1004
-#: ../plug-ins/FractalExplorer/Dialogs.c:1045
-#: ../plug-ins/FractalExplorer/Dialogs.c:1086
+#: ../plug-ins/FractalExplorer/Dialogs.c:1004 ../plug-ins/FractalExplorer/Dialogs.c:1045 ../plug-ins/FractalExplorer/Dialogs.c:1086
 msgid "Use sine-function for this color component"
 msgstr "यो रङ अवयवका लागि साइन-प्रकार्य प्रयोग गर्नुहोस्"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:1007
-#: ../plug-ins/FractalExplorer/Dialogs.c:1048
-#: ../plug-ins/FractalExplorer/Dialogs.c:1089
+#: ../plug-ins/FractalExplorer/Dialogs.c:1007 ../plug-ins/FractalExplorer/Dialogs.c:1048 ../plug-ins/FractalExplorer/Dialogs.c:1089
 msgid "Use cosine-function for this color component"
 msgstr "यो रङको अवयवका लागि कोसाइन-प्रकार्य प्रयोग गर्नुहोस्"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:1010
-#: ../plug-ins/FractalExplorer/Dialogs.c:1051
-#: ../plug-ins/FractalExplorer/Dialogs.c:1092
-msgid ""
-"Use linear mapping instead of any trigonometrical function for this color "
-"channel"
-msgstr ""
-"यो रङ च्यानलका लागि कुनै त्रिकोणमितिय प्रकार्यको सट्टा रेखात्मक मानचित्राङ्कन प्रयोग "
-"गर्नुहोस्"
+#: ../plug-ins/FractalExplorer/Dialogs.c:1010 ../plug-ins/FractalExplorer/Dialogs.c:1051 ../plug-ins/FractalExplorer/Dialogs.c:1092
+msgid "Use linear mapping instead of any trigonometrical function for this color channel"
+msgstr "यो रङ च्यानलका लागि कुनै त्रिकोणमितिय प्रकार्यको सट्टा रेखात्मक मानचित्राङ्कन प्रयोग गर्नुहोस्"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:1019
-#: ../plug-ins/FractalExplorer/Dialogs.c:1060
-#: ../plug-ins/FractalExplorer/Dialogs.c:1101
+#: ../plug-ins/FractalExplorer/Dialogs.c:1019 ../plug-ins/FractalExplorer/Dialogs.c:1060 ../plug-ins/FractalExplorer/Dialogs.c:1101
 msgid "Inversion"
 msgstr "उल्टाई"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:1027
-#: ../plug-ins/FractalExplorer/Dialogs.c:1068
-#: ../plug-ins/FractalExplorer/Dialogs.c:1109
-msgid ""
-"If you enable this option higher color values will be swapped with lower "
-"ones and vice versa"
-msgstr ""
-"यदि तपाईँले यस विकल्पलाई सक्षम पार्नु भयो भने उच्च रङ मानहरू तल्लो चाहिंसँग साटिनेछ र "
-"विपरित क्रमको हुन्छ।"
+#: ../plug-ins/FractalExplorer/Dialogs.c:1027 ../plug-ins/FractalExplorer/Dialogs.c:1068 ../plug-ins/FractalExplorer/Dialogs.c:1109
+msgid "If you enable this option higher color values will be swapped with lower ones and vice versa"
+msgstr "यदि तपाईँले यस विकल्पलाई सक्षम पार्नु भयो भने उच्च रङ मानहरू तल्लो चाहिंसँग साटिनेछ र विपरित क्रमको हुन्छ।"
 
 #. Greenmode radio frame
-#: ../plug-ins/FractalExplorer/Dialogs.c:1032
-#: ../plug-ins/common/channel_mixer.c:542 ../plug-ins/common/decompose.c:175
+#: ../plug-ins/FractalExplorer/Dialogs.c:1032 ../plug-ins/common/channel_mixer.c:542 ../plug-ins/common/decompose.c:175
 msgid "Green"
 msgstr "हरियो"
 
 #. Bluemode radio frame
-#: ../plug-ins/FractalExplorer/Dialogs.c:1073
-#: ../plug-ins/common/channel_mixer.c:547 ../plug-ins/common/decompose.c:176
+#: ../plug-ins/FractalExplorer/Dialogs.c:1073 ../plug-ins/common/channel_mixer.c:547 ../plug-ins/common/decompose.c:176
 msgid "Blue"
 msgstr "नीलो"
 
@@ -320,12 +281,8 @@ msgid "As specified above"
 msgstr "माथि निर्दिष्ट गरिएको रूपमा"
 
 #: ../plug-ins/FractalExplorer/Dialogs.c:1135
-msgid ""
-"Create a color-map with the options you specified above (color density/"
-"function). The result is visible in the preview image"
-msgstr ""
-"तपाईँले माथि निर्दिष्ट गरिएको विकल्पहरू (रङ घनत्त्व/प्रकार्य)सँगै रङ-मानचित्र सिर्जना "
-"गर्नुहोस्। परिणाम पूर्वावलोकन छविमा देखिन्छ।"
+msgid "Create a color-map with the options you specified above (color density/function). The result is visible in the preview image"
+msgstr "तपाईँले माथि निर्दिष्ट गरिएको विकल्पहरू (रङ घनत्त्व/प्रकार्य)सँगै रङ-मानचित्र सिर्जना गर्नुहोस्। परिणाम पूर्वावलोकन छविमा देखिन्छ।"
 
 #: ../plug-ins/FractalExplorer/Dialogs.c:1145
 msgid "Apply active gradient to final image"
@@ -343,29 +300,16 @@ msgstr "आंशीक खोजी गर्ने ग्रेडियन्
 msgid "_Fractals"
 msgstr "आंशीक"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:1546
-#: ../plug-ins/Lighting/lighting_ui.c:1180 ../plug-ins/bmp/bmpwrite.c:294
-#: ../plug-ins/common/CEL.c:568 ../plug-ins/common/CML_explorer.c:2004
-#: ../plug-ins/common/channel_mixer.c:1059 ../plug-ins/common/compressor.c:410
-#: ../plug-ins/common/compressor.c:473 ../plug-ins/common/compressor.c:563
-#: ../plug-ins/common/compressor.c:632 ../plug-ins/common/curve_bend.c:817
-#: ../plug-ins/common/dicom.c:706 ../plug-ins/common/gbr.c:616
-#: ../plug-ins/common/gif-save.c:986 ../plug-ins/common/gih.c:1258
-#: ../plug-ins/common/gtm.c:225 ../plug-ins/common/mng.c:561
-#: ../plug-ins/common/mng.c:950 ../plug-ins/common/pat.c:447
-#: ../plug-ins/common/pcx.c:605 ../plug-ins/common/pix.c:508
-#: ../plug-ins/common/png.c:1239 ../plug-ins/common/pnm.c:936
-#: ../plug-ins/common/postscript.c:1194 ../plug-ins/common/psd-save.c:1549
-#: ../plug-ins/common/raw.c:528 ../plug-ins/common/raw.c:555
-#: ../plug-ins/common/spheredesigner.c:2120 ../plug-ins/common/sunras.c:543
-#: ../plug-ins/common/tga.c:1133 ../plug-ins/common/tiff-save.c:653
-#: ../plug-ins/common/xbm.c:1016 ../plug-ins/common/xwd.c:598
-#: ../plug-ins/fits/fits.c:457 ../plug-ins/flame/flame.c:442
-#: ../plug-ins/gfig/gfig.c:794 ../plug-ins/gfli/gfli.c:715
-#: ../plug-ins/ifscompose/ifscompose.c:2376 ../plug-ins/jpeg/jpeg-save.c:317
-#: ../plug-ins/uri/uri-backend-gnomevfs.c:282
-#: ../plug-ins/winicon/icosave.c:1020 ../plug-ins/xjt/xjt.c:1280
-#: ../plug-ins/xjt/xjt.c:1714
+#: ../plug-ins/FractalExplorer/Dialogs.c:1546 ../plug-ins/Lighting/lighting_ui.c:1180 ../plug-ins/bmp/bmpwrite.c:294 ../plug-ins/common/CEL.c:568
+#: ../plug-ins/common/CML_explorer.c:2004 ../plug-ins/common/channel_mixer.c:1059 ../plug-ins/common/compressor.c:410 ../plug-ins/common/compressor.c:473
+#: ../plug-ins/common/compressor.c:563 ../plug-ins/common/compressor.c:632 ../plug-ins/common/curve_bend.c:817 ../plug-ins/common/dicom.c:706
+#: ../plug-ins/common/gbr.c:616 ../plug-ins/common/gif-save.c:986 ../plug-ins/common/gih.c:1258 ../plug-ins/common/gtm.c:225 ../plug-ins/common/mng.c:561
+#: ../plug-ins/common/mng.c:950 ../plug-ins/common/pat.c:447 ../plug-ins/common/pcx.c:605 ../plug-ins/common/pix.c:508 ../plug-ins/common/png.c:1239
+#: ../plug-ins/common/pnm.c:936 ../plug-ins/common/postscript.c:1194 ../plug-ins/common/psd-save.c:1549 ../plug-ins/common/raw.c:528 ../plug-ins/common/raw.c:555
+#: ../plug-ins/common/spheredesigner.c:2120 ../plug-ins/common/sunras.c:543 ../plug-ins/common/tga.c:1133 ../plug-ins/common/tiff-save.c:653
+#: ../plug-ins/common/xbm.c:1016 ../plug-ins/common/xwd.c:598 ../plug-ins/fits/fits.c:457 ../plug-ins/flame/flame.c:442 ../plug-ins/gfig/gfig.c:794
+#: ../plug-ins/gfli/gfli.c:715 ../plug-ins/ifscompose/ifscompose.c:2376 ../plug-ins/jpeg/jpeg-save.c:317 ../plug-ins/uri/uri-backend-gnomevfs.c:282
+#: ../plug-ins/winicon/icosave.c:1020 ../plug-ins/xjt/xjt.c:1280 ../plug-ins/xjt/xjt.c:1714
 #, c-format
 msgid "Could not open '%s' for writing: %s"
 msgstr "लेख्नका लागि '%s' खोल्न सकिएन: %s"
@@ -385,34 +329,18 @@ msgstr "आंशीक परिमिति बचत गर्नुहोस
 
 #. Do not rely on librsvg setting GError on failure!
 #. stat error (file does not exist)
-#: ../plug-ins/FractalExplorer/Dialogs.c:1863
-#: ../plug-ins/FractalExplorer/FractalExplorer.c:933
-#: ../plug-ins/Lighting/lighting_ui.c:1323 ../plug-ins/bmp/bmpread.c:149
-#: ../plug-ins/common/CEL.c:299 ../plug-ins/common/CML_explorer.c:2177
-#: ../plug-ins/common/channel_mixer.c:981 ../plug-ins/common/compressor.c:464
-#: ../plug-ins/common/compressor.c:622 ../plug-ins/common/curve_bend.c:869
-#: ../plug-ins/common/dicom.c:296 ../plug-ins/common/gbr.c:348
-#: ../plug-ins/common/gif-load.c:309 ../plug-ins/common/gih.c:649
-#: ../plug-ins/common/lcms.c:741 ../plug-ins/common/lcms.c:936
-#: ../plug-ins/common/mng.c:1121 ../plug-ins/common/pat.c:317
-#: ../plug-ins/common/pcx.c:309 ../plug-ins/common/pix.c:329
-#: ../plug-ins/common/png.c:703 ../plug-ins/common/pnm.c:482
-#: ../plug-ins/common/poppler.c:500 ../plug-ins/common/postscript.c:1021
-#: ../plug-ins/common/postscript.c:3029 ../plug-ins/common/psd-load.c:2121
-#: ../plug-ins/common/psp.c:1432 ../plug-ins/common/raw.c:243
-#: ../plug-ins/common/raw.c:645 ../plug-ins/common/spheredesigner.c:2010
-#: ../plug-ins/common/sunras.c:378 ../plug-ins/common/svg.c:320
-#: ../plug-ins/common/svg.c:683 ../plug-ins/common/tga.c:423
-#: ../plug-ins/common/tiff-load.c:271 ../plug-ins/common/xbm.c:720
-#: ../plug-ins/common/xwd.c:420 ../plug-ins/faxg3/faxg3.c:219
-#: ../plug-ins/fits/fits.c:345 ../plug-ins/flame/flame.c:411
-#: ../plug-ins/gfig/gfig.c:434 ../plug-ins/gfli/gfli.c:429
-#: ../plug-ins/gfli/gfli.c:464 ../plug-ins/help/gimphelplocale.c:193
-#: ../plug-ins/jpeg/jpeg-load.c:93 ../plug-ins/jpeg/jpeg-load.c:870
-#: ../plug-ins/uri/uri-backend-gnomevfs.c:271
-#: ../plug-ins/uri/uri-backend-libcurl.c:186 ../plug-ins/winicon/icoload.c:651
-#: ../plug-ins/winicon/icoload.c:728 ../plug-ins/xjt/xjt.c:2545
-#: ../plug-ins/xjt/xjt.c:2553
+#: ../plug-ins/FractalExplorer/Dialogs.c:1863 ../plug-ins/FractalExplorer/FractalExplorer.c:933 ../plug-ins/Lighting/lighting_ui.c:1323 ../plug-ins/bmp/bmpread.c:149
+#: ../plug-ins/common/CEL.c:299 ../plug-ins/common/CML_explorer.c:2177 ../plug-ins/common/channel_mixer.c:981 ../plug-ins/common/compressor.c:464
+#: ../plug-ins/common/compressor.c:622 ../plug-ins/common/curve_bend.c:869 ../plug-ins/common/dicom.c:296 ../plug-ins/common/gbr.c:348 ../plug-ins/common/gif-load.c:309
+#: ../plug-ins/common/gih.c:649 ../plug-ins/common/lcms.c:741 ../plug-ins/common/lcms.c:936 ../plug-ins/common/mng.c:1121 ../plug-ins/common/pat.c:317
+#: ../plug-ins/common/pcx.c:309 ../plug-ins/common/pix.c:329 ../plug-ins/common/png.c:703 ../plug-ins/common/pnm.c:482 ../plug-ins/common/poppler.c:500
+#: ../plug-ins/common/postscript.c:1021 ../plug-ins/common/postscript.c:3029 ../plug-ins/common/psd-load.c:2121 ../plug-ins/common/psp.c:1432
+#: ../plug-ins/common/raw.c:243 ../plug-ins/common/raw.c:645 ../plug-ins/common/spheredesigner.c:2010 ../plug-ins/common/sunras.c:378 ../plug-ins/common/svg.c:320
+#: ../plug-ins/common/svg.c:683 ../plug-ins/common/tga.c:423 ../plug-ins/common/tiff-load.c:271 ../plug-ins/common/xbm.c:720 ../plug-ins/common/xwd.c:420
+#: ../plug-ins/faxg3/faxg3.c:219 ../plug-ins/fits/fits.c:345 ../plug-ins/flame/flame.c:411 ../plug-ins/gfig/gfig.c:434 ../plug-ins/gfli/gfli.c:429
+#: ../plug-ins/gfli/gfli.c:464 ../plug-ins/help/gimphelplocale.c:193 ../plug-ins/jpeg/jpeg-load.c:93 ../plug-ins/jpeg/jpeg-load.c:870
+#: ../plug-ins/uri/uri-backend-gnomevfs.c:271 ../plug-ins/uri/uri-backend-libcurl.c:186 ../plug-ins/winicon/icoload.c:651 ../plug-ins/winicon/icoload.c:728
+#: ../plug-ins/xjt/xjt.c:2545 ../plug-ins/xjt/xjt.c:2553
 #, c-format
 msgid "Could not open '%s' for reading: %s"
 msgstr "पढ्नका लागि '%s' खोल्न सकेन: %s"
@@ -439,8 +367,7 @@ msgstr "आंशीक एक्सप्लोरर..."
 msgid "Rendering fractal"
 msgstr "आंशीक रेन्डरिङ..."
 
-#: ../plug-ins/FractalExplorer/FractalExplorer.c:760
-#: ../plug-ins/gflare/gflare.c:3126
+#: ../plug-ins/FractalExplorer/FractalExplorer.c:760 ../plug-ins/gflare/gflare.c:3126
 #, c-format
 msgid "Are you sure you want to delete \"%s\" from the list and from disk?"
 msgstr "के तपाईँ निश्चित रूपमा सूची र डिस्कबाट \"%s\" मेट्न चाहनुहुन्छ ?"
@@ -487,8 +414,7 @@ msgstr "आंशीकका लागि पुन: स्क्यान ग�
 msgid "Add FractalExplorer Path"
 msgstr "आंशिक एक्सप्लोरर बाटो थप्नुहोस्"
 
-#: ../plug-ins/Lighting/lighting_apply.c:104
-#: ../plug-ins/Lighting/lighting_ui.c:988
+#: ../plug-ins/Lighting/lighting_apply.c:104 ../plug-ins/Lighting/lighting_ui.c:988
 msgid "Lighting Effects"
 msgstr "प्रकाश प्रभावहरू"
 
@@ -501,8 +427,7 @@ msgid "_Lighting Effects..."
 msgstr "प्रकाश प्रभावहरू..."
 
 #. General options
-#: ../plug-ins/Lighting/lighting_ui.c:294
-#: ../plug-ins/MapObject/mapobject_ui.c:473
+#: ../plug-ins/Lighting/lighting_ui.c:294 ../plug-ins/MapObject/mapobject_ui.c:473
 msgid "General Options"
 msgstr "साधारण विकल्पहरू"
 
@@ -518,8 +443,7 @@ msgstr "गन्तव्य छवि पारदर्शी बनाउन
 msgid "Cre_ate new image"
 msgstr "नयाँ छवि सिर्जना गर्नुहोस्"
 
-#: ../plug-ins/Lighting/lighting_ui.c:325
-#: ../plug-ins/MapObject/mapobject_ui.c:547
+#: ../plug-ins/Lighting/lighting_ui.c:325 ../plug-ins/MapObject/mapobject_ui.c:547
 msgid "Create a new image when applying filter"
 msgstr "फिल्टर लागू गर्दा नयाँ छवि सिर्जना गर्नुहोस्"
 
@@ -535,8 +459,7 @@ msgstr "उच्च गुणस्तरको पूर्वावलोक�
 msgid "Distance:"
 msgstr "दुरी:"
 
-#: ../plug-ins/Lighting/lighting_ui.c:378
-#: ../plug-ins/MapObject/mapobject_ui.c:626
+#: ../plug-ins/Lighting/lighting_ui.c:378 ../plug-ins/MapObject/mapobject_ui.c:626
 msgid "Light Settings"
 msgstr "प्रकाश सेटिङ"
 
@@ -565,8 +488,7 @@ msgid "Light 6"
 msgstr "प्रकाश ६"
 
 #. row labels
-#: ../plug-ins/Lighting/lighting_ui.c:405
-#: ../plug-ins/common/spheredesigner.c:2706
+#: ../plug-ins/Lighting/lighting_ui.c:405 ../plug-ins/common/spheredesigner.c:2706
 msgid "Type:"
 msgstr "प्रकार:"
 
@@ -582,18 +504,15 @@ msgstr "दिशानिर्देशात्मक"
 msgid "Point"
 msgstr "बिन्दु"
 
-#: ../plug-ins/Lighting/lighting_ui.c:433
-#: ../plug-ins/MapObject/mapobject_ui.c:654
+#: ../plug-ins/Lighting/lighting_ui.c:433 ../plug-ins/MapObject/mapobject_ui.c:654
 msgid "Type of light source to apply"
 msgstr "लागू गर्न प्रकाश स्रोत प्रकार"
 
-#: ../plug-ins/Lighting/lighting_ui.c:435
-#: ../plug-ins/MapObject/mapobject_ui.c:656
+#: ../plug-ins/Lighting/lighting_ui.c:435 ../plug-ins/MapObject/mapobject_ui.c:656
 msgid "Select lightsource color"
 msgstr "प्रकाश स्रोत रङ चयन गर्नुहोस्"
 
-#: ../plug-ins/Lighting/lighting_ui.c:447
-#: ../plug-ins/MapObject/mapobject_ui.c:669
+#: ../plug-ins/Lighting/lighting_ui.c:447 ../plug-ins/MapObject/mapobject_ui.c:669
 msgid "Set light source color"
 msgstr "प्रकाश स्रोत रङ सेट गर्नुहोस्"
 
@@ -605,33 +524,25 @@ msgstr "तीब्रता:"
 msgid "Light intensity"
 msgstr "प्रकाशको तीब्रता"
 
-#: ../plug-ins/Lighting/lighting_ui.c:464
-#: ../plug-ins/MapObject/mapobject_ui.c:671
-#: ../plug-ins/MapObject/mapobject_ui.c:998
+#: ../plug-ins/Lighting/lighting_ui.c:464 ../plug-ins/MapObject/mapobject_ui.c:671 ../plug-ins/MapObject/mapobject_ui.c:998
 msgid "Position"
 msgstr "अवस्था"
 
-#: ../plug-ins/Lighting/lighting_ui.c:474 ../plug-ins/common/flarefx.c:772
-#: ../plug-ins/common/mblur.c:1082 ../plug-ins/common/nova.c:463
-#: ../plug-ins/common/papertile.c:282 ../plug-ins/flame/flame.c:1227
-#: ../plug-ins/gflare/gflare.c:2651
+#: ../plug-ins/Lighting/lighting_ui.c:474 ../plug-ins/common/flarefx.c:772 ../plug-ins/common/mblur.c:1082 ../plug-ins/common/nova.c:463
+#: ../plug-ins/common/papertile.c:282 ../plug-ins/flame/flame.c:1227 ../plug-ins/gflare/gflare.c:2651
 msgid "_X:"
 msgstr "X:"
 
-#: ../plug-ins/Lighting/lighting_ui.c:480
-#: ../plug-ins/MapObject/mapobject_ui.c:695
+#: ../plug-ins/Lighting/lighting_ui.c:480 ../plug-ins/MapObject/mapobject_ui.c:695
 msgid "Light source X position in XYZ space"
 msgstr "XYZ स्थानमा प्रकाश स्रोत X अवस्थामा"
 
-#: ../plug-ins/Lighting/lighting_ui.c:487 ../plug-ins/common/flarefx.c:777
-#: ../plug-ins/common/mblur.c:1087 ../plug-ins/common/nova.c:468
-#: ../plug-ins/common/papertile.c:291 ../plug-ins/flame/flame.c:1241
-#: ../plug-ins/gflare/gflare.c:2655
+#: ../plug-ins/Lighting/lighting_ui.c:487 ../plug-ins/common/flarefx.c:777 ../plug-ins/common/mblur.c:1087 ../plug-ins/common/nova.c:468
+#: ../plug-ins/common/papertile.c:291 ../plug-ins/flame/flame.c:1241 ../plug-ins/gflare/gflare.c:2655
 msgid "_Y:"
 msgstr "Y:"
 
-#: ../plug-ins/Lighting/lighting_ui.c:493
-#: ../plug-ins/MapObject/mapobject_ui.c:709
+#: ../plug-ins/Lighting/lighting_ui.c:493 ../plug-ins/MapObject/mapobject_ui.c:709
 msgid "Light source Y position in XYZ space"
 msgstr "XYZ स्थानमा प्रकाश स्रोत Y अवस्थामा"
 
@@ -639,61 +550,43 @@ msgstr "XYZ स्थानमा प्रकाश स्रोत Y अवस
 msgid "_Z:"
 msgstr "Z:"
 
-#: ../plug-ins/Lighting/lighting_ui.c:506
-#: ../plug-ins/MapObject/mapobject_ui.c:723
+#: ../plug-ins/Lighting/lighting_ui.c:506 ../plug-ins/MapObject/mapobject_ui.c:723
 msgid "Light source Z position in XYZ space"
 msgstr "XYZ स्थानमा प्रकाश स्रोत Z अवस्थामा"
 
 #. *****************************************************
 #. radio buttons for choosing LEFT or RIGHT
 #. *************************************************
-#: ../plug-ins/Lighting/lighting_ui.c:509 ../plug-ins/common/struc.c:1294
-#: ../plug-ins/common/wind.c:936
+#: ../plug-ins/Lighting/lighting_ui.c:509 ../plug-ins/common/struc.c:1294 ../plug-ins/common/wind.c:936
 msgid "Direction"
 msgstr "दिशा"
 
 #. X
-#: ../plug-ins/Lighting/lighting_ui.c:518
-#: ../plug-ins/MapObject/mapobject_ui.c:687
-#: ../plug-ins/MapObject/mapobject_ui.c:741
-#: ../plug-ins/MapObject/mapobject_ui.c:1009
-#: ../plug-ins/MapObject/mapobject_ui.c:1058
-#: ../plug-ins/ifscompose/ifscompose.c:525
+#: ../plug-ins/Lighting/lighting_ui.c:518 ../plug-ins/MapObject/mapobject_ui.c:687 ../plug-ins/MapObject/mapobject_ui.c:741 ../plug-ins/MapObject/mapobject_ui.c:1009
+#: ../plug-ins/MapObject/mapobject_ui.c:1058 ../plug-ins/ifscompose/ifscompose.c:525
 msgid "X:"
 msgstr "X:"
 
-#: ../plug-ins/Lighting/lighting_ui.c:524
-#: ../plug-ins/MapObject/mapobject_ui.c:749
+#: ../plug-ins/Lighting/lighting_ui.c:524 ../plug-ins/MapObject/mapobject_ui.c:749
 msgid "Light source X direction in XYZ space"
 msgstr "XYZ स्थानमा प्रकाश स्रोत X दिशा"
 
 #. Y
-#: ../plug-ins/Lighting/lighting_ui.c:530
-#: ../plug-ins/MapObject/mapobject_ui.c:701
-#: ../plug-ins/MapObject/mapobject_ui.c:754
-#: ../plug-ins/MapObject/mapobject_ui.c:1022
-#: ../plug-ins/MapObject/mapobject_ui.c:1069
-#: ../plug-ins/MapObject/mapobject_ui.c:1167
-#: ../plug-ins/ifscompose/ifscompose.c:539
+#: ../plug-ins/Lighting/lighting_ui.c:530 ../plug-ins/MapObject/mapobject_ui.c:701 ../plug-ins/MapObject/mapobject_ui.c:754 ../plug-ins/MapObject/mapobject_ui.c:1022
+#: ../plug-ins/MapObject/mapobject_ui.c:1069 ../plug-ins/MapObject/mapobject_ui.c:1167 ../plug-ins/ifscompose/ifscompose.c:539
 msgid "Y:"
 msgstr "Y:"
 
-#: ../plug-ins/Lighting/lighting_ui.c:536
-#: ../plug-ins/MapObject/mapobject_ui.c:762
+#: ../plug-ins/Lighting/lighting_ui.c:536 ../plug-ins/MapObject/mapobject_ui.c:762
 msgid "Light source Y direction in XYZ space"
 msgstr "XYZ स्थानमा प्रकाश स्रोत Y दिशा"
 
-#: ../plug-ins/Lighting/lighting_ui.c:542
-#: ../plug-ins/MapObject/mapobject_ui.c:715
-#: ../plug-ins/MapObject/mapobject_ui.c:767
-#: ../plug-ins/MapObject/mapobject_ui.c:1035
-#: ../plug-ins/MapObject/mapobject_ui.c:1080
-#: ../plug-ins/MapObject/mapobject_ui.c:1179
+#: ../plug-ins/Lighting/lighting_ui.c:542 ../plug-ins/MapObject/mapobject_ui.c:715 ../plug-ins/MapObject/mapobject_ui.c:767 ../plug-ins/MapObject/mapobject_ui.c:1035
+#: ../plug-ins/MapObject/mapobject_ui.c:1080 ../plug-ins/MapObject/mapobject_ui.c:1179
 msgid "Z:"
 msgstr "Z:"
 
-#: ../plug-ins/Lighting/lighting_ui.c:548
-#: ../plug-ins/MapObject/mapobject_ui.c:775
+#: ../plug-ins/Lighting/lighting_ui.c:548 ../plug-ins/MapObject/mapobject_ui.c:775
 msgid "Light source Z direction in XYZ space"
 msgstr "XYZ स्थानमा प्रकाश स्रोत Z दिशा"
 
@@ -713,8 +606,7 @@ msgstr "पदार्थ गुण"
 msgid "_Glowing:"
 msgstr "उज्जवल:"
 
-#: ../plug-ins/Lighting/lighting_ui.c:640
-#: ../plug-ins/MapObject/mapobject_ui.c:836
+#: ../plug-ins/Lighting/lighting_ui.c:640 ../plug-ins/MapObject/mapobject_ui.c:836
 msgid "Amount of original color to show where no direct light falls"
 msgstr "सिधै प्रकाश नझर्ने ठाउँमा देखाउनका लागि मौलिक रङको परिणाम"
 
@@ -722,8 +614,7 @@ msgstr "सिधै प्रकाश नझर्ने ठाउँमा �
 msgid "_Bright:"
 msgstr "उज्यालो:"
 
-#: ../plug-ins/Lighting/lighting_ui.c:669
-#: ../plug-ins/MapObject/mapobject_ui.c:865
+#: ../plug-ins/Lighting/lighting_ui.c:669 ../plug-ins/MapObject/mapobject_ui.c:865
 msgid "Intensity of original color when lit by a light source"
 msgstr "प्रकाश स्रोतद्वारा झिलमिल पार्दा मौलिक रङको तीब्रता"
 
@@ -731,8 +622,7 @@ msgstr "प्रकाश स्रोतद्वारा झिलमिल 
 msgid "_Shiny:"
 msgstr "चमकदार"
 
-#: ../plug-ins/Lighting/lighting_ui.c:698
-#: ../plug-ins/MapObject/mapobject_ui.c:937
+#: ../plug-ins/Lighting/lighting_ui.c:698 ../plug-ins/MapObject/mapobject_ui.c:937
 msgid "Controls how intense the highlights will be"
 msgstr "हाइलाइट कतिसम्म तिब्र हुन्छ नियन्त्रण गर्नुहोस्"
 
@@ -740,8 +630,7 @@ msgstr "हाइलाइट कतिसम्म तिब्र हुन्
 msgid "_Polished:"
 msgstr "टल्काएको:"
 
-#: ../plug-ins/Lighting/lighting_ui.c:726
-#: ../plug-ins/MapObject/mapobject_ui.c:966
+#: ../plug-ins/Lighting/lighting_ui.c:726 ../plug-ins/MapObject/mapobject_ui.c:966
 msgid "Higher values makes the highlights more focused"
 msgstr "उच्च मानले हाइलाइटलाई अझ धेरै केन्द्रित गर्दछ"
 
@@ -763,8 +652,7 @@ msgid "Bumpm_ap image:"
 msgstr "बम्प मानचित्र छवि:"
 
 #. Map type menu
-#: ../plug-ins/Lighting/lighting_ui.c:806 ../plug-ins/common/bumpmap.c:835
-#: ../plug-ins/flame/flame.c:746
+#: ../plug-ins/Lighting/lighting_ui.c:806 ../plug-ins/common/bumpmap.c:835 ../plug-ins/flame/flame.c:746
 msgid "Linear"
 msgstr "रेखात्मक"
 
@@ -772,13 +660,11 @@ msgstr "रेखात्मक"
 msgid "Logarithmic"
 msgstr "लगारिदमिक"
 
-#: ../plug-ins/Lighting/lighting_ui.c:808 ../plug-ins/common/bumpmap.c:837
-#: ../plug-ins/flame/flame.c:747
+#: ../plug-ins/Lighting/lighting_ui.c:808 ../plug-ins/common/bumpmap.c:837 ../plug-ins/flame/flame.c:747
 msgid "Sinusoidal"
 msgstr "साइनसोइडल"
 
-#: ../plug-ins/Lighting/lighting_ui.c:809 ../plug-ins/common/bumpmap.c:836
-#: ../plug-ins/flame/flame.c:748
+#: ../plug-ins/Lighting/lighting_ui.c:809 ../plug-ins/common/bumpmap.c:836 ../plug-ins/flame/flame.c:748
 msgid "Spherical"
 msgstr "गोलाकार"
 
@@ -814,13 +700,11 @@ msgstr "प्रयोगका लागि वातावरण छवि"
 msgid "Op_tions"
 msgstr "विकल्पहरू"
 
-#: ../plug-ins/Lighting/lighting_ui.c:923
-#: ../plug-ins/MapObject/mapobject_ui.c:1303
+#: ../plug-ins/Lighting/lighting_ui.c:923 ../plug-ins/MapObject/mapobject_ui.c:1303
 msgid "_Light"
 msgstr "प्रकाश"
 
-#: ../plug-ins/Lighting/lighting_ui.c:927
-#: ../plug-ins/MapObject/mapobject_ui.c:1307
+#: ../plug-ins/Lighting/lighting_ui.c:927 ../plug-ins/MapObject/mapobject_ui.c:1307
 msgid "_Material"
 msgstr "पदार्थ"
 
@@ -832,15 +716,11 @@ msgstr "बम्प मानचित्र"
 msgid "_Environment Map"
 msgstr "वातावरण मानचित्र"
 
-#: ../plug-ins/Lighting/lighting_ui.c:1044
-#: ../plug-ins/gimpressionist/preview.c:186
-#: ../plug-ins/gimpressionist/repaint.c:1166
-#: ../plug-ins/imagemap/imap_polygon.c:515
+#: ../plug-ins/Lighting/lighting_ui.c:1044 ../plug-ins/gimpressionist/preview.c:186 ../plug-ins/gimpressionist/repaint.c:1166 ../plug-ins/imagemap/imap_polygon.c:515
 msgid "_Update"
 msgstr "अद्यावधिक"
 
-#: ../plug-ins/Lighting/lighting_ui.c:1051
-#: ../plug-ins/MapObject/mapobject_ui.c:1409
+#: ../plug-ins/Lighting/lighting_ui.c:1051 ../plug-ins/MapObject/mapobject_ui.c:1409
 msgid "Recompute preview image"
 msgstr "पूर्वावलोकन छवि पुन: गणना गर्नुहोस्"
 
@@ -884,13 +764,11 @@ msgstr "एउटा वस्तु (प्लेन, स्फेयर, ब�
 msgid "Map _Object..."
 msgstr "मानचित्र वस्तु..."
 
-#: ../plug-ins/MapObject/mapobject_ui.c:248
-#: ../plug-ins/MapObject/mapobject_ui.c:1317
+#: ../plug-ins/MapObject/mapobject_ui.c:248 ../plug-ins/MapObject/mapobject_ui.c:1317
 msgid "_Box"
 msgstr "बाकस"
 
-#: ../plug-ins/MapObject/mapobject_ui.c:266
-#: ../plug-ins/MapObject/mapobject_ui.c:1323
+#: ../plug-ins/MapObject/mapobject_ui.c:266 ../plug-ins/MapObject/mapobject_ui.c:1323
 msgid "C_ylinder"
 msgstr "सिलिन्डर"
 
@@ -946,8 +824,7 @@ msgstr "एन्टिलाइजिङ सक्रिय पार्नु�
 msgid "Enable/disable jagged edges removal (antialiasing)"
 msgstr "असमान किनाराहरू परिवर्तन (एन्टिलाइजिङ्ग) सक्षम/अक्षम पार्नुहोस्"
 
-#: ../plug-ins/MapObject/mapobject_ui.c:579 ../plug-ins/common/bumpmap.c:916
-#: ../plug-ins/common/emboss.c:525 ../plug-ins/common/fractaltrace.c:796
+#: ../plug-ins/MapObject/mapobject_ui.c:579 ../plug-ins/common/bumpmap.c:916 ../plug-ins/common/emboss.c:525 ../plug-ins/common/fractaltrace.c:796
 #: ../plug-ins/common/struc.c:1326
 msgid "_Depth:"
 msgstr "गहिराइ:"
@@ -956,8 +833,7 @@ msgstr "गहिराइ:"
 msgid "Antialiasing quality. Higher is better, but slower"
 msgstr "इन्टिलाइजिङ गुण: उच्च उत्तम हुन्छ, तर ढिलो छ"
 
-#: ../plug-ins/MapObject/mapobject_ui.c:591 ../plug-ins/common/redeye.c:173
-#: ../plug-ins/common/unsharp.c:707 ../plug-ins/common/wind.c:999
+#: ../plug-ins/MapObject/mapobject_ui.c:591 ../plug-ins/common/redeye.c:173 ../plug-ins/common/unsharp.c:707 ../plug-ins/common/wind.c:999
 #: ../plug-ins/imagemap/imap_preferences.c:441
 msgid "_Threshold:"
 msgstr "थ्रेसहोल्ड:"
@@ -998,8 +874,7 @@ msgstr "तिब्र तहहरू"
 msgid "Ambient:"
 msgstr "व्यापक:"
 
-#: ../plug-ins/MapObject/mapobject_ui.c:850
-#: ../plug-ins/MapObject/mapobject_ui.c:893
+#: ../plug-ins/MapObject/mapobject_ui.c:850 ../plug-ins/MapObject/mapobject_ui.c:893
 msgid "Diffuse:"
 msgstr "खुकुलो पार्नु:"
 
@@ -1032,8 +907,7 @@ msgid "Object Z position in XYZ space"
 msgstr "XYZ स्थानमा वस्तु Z अवस्था"
 
 #. Rotation
-#: ../plug-ins/MapObject/mapobject_ui.c:1047
-#: ../plug-ins/common/postscript.c:3426
+#: ../plug-ins/MapObject/mapobject_ui.c:1047 ../plug-ins/common/postscript.c:3426
 msgid "Rotation"
 msgstr "परिक्रमण"
 
@@ -1061,8 +935,7 @@ msgstr "पछाडि:"
 msgid "Map Images to Box Faces"
 msgstr "बाकसको अग्रभागमा मानचित्र छविचि छित्रहरू"
 
-#: ../plug-ins/MapObject/mapobject_ui.c:1155
-#: ../plug-ins/common/spheredesigner.c:2800
+#: ../plug-ins/MapObject/mapobject_ui.c:1155 ../plug-ins/common/spheredesigner.c:2800
 msgid "Scale X:"
 msgstr "मापन X:"
 
@@ -1078,8 +951,7 @@ msgstr "Y मापन (साइज)"
 msgid "Z scale (size)"
 msgstr "Z मापन (साइज)"
 
-#: ../plug-ins/MapObject/mapobject_ui.c:1205
-#: ../plug-ins/print/print-page-layout.c:430
+#: ../plug-ins/MapObject/mapobject_ui.c:1205 ../plug-ins/print/print-page-layout.c:430
 msgid "_Top:"
 msgstr "माथि:"
 
@@ -1123,8 +995,7 @@ msgstr "अभिमुखिकरण"
 msgid "Map to Object"
 msgstr "वस्तुका लागि मानचित्र"
 
-#: ../plug-ins/MapObject/mapobject_ui.c:1400
-#: ../plug-ins/common/diffraction.c:477
+#: ../plug-ins/MapObject/mapobject_ui.c:1400 ../plug-ins/common/diffraction.c:477
 msgid "_Preview!"
 msgstr "पूर्वावलोकन !"
 
@@ -1144,35 +1015,24 @@ msgstr "खराब रङमान छवि"
 #. column, highest column ever used
 #. -1  assume fsel is not available (and not attached to any drawable)
 #. -1  assume there is no floating selection
-#: ../plug-ins/bmp/bmpread.c:154 ../plug-ins/common/CEL.c:304
-#: ../plug-ins/common/dicom.c:301 ../plug-ins/common/gbr.c:353
-#: ../plug-ins/common/gif-load.c:314 ../plug-ins/common/gih.c:654
-#: ../plug-ins/common/pat.c:322 ../plug-ins/common/pcx.c:314
-#: ../plug-ins/common/pix.c:334 ../plug-ins/common/png.c:710
-#: ../plug-ins/common/pnm.c:487 ../plug-ins/common/poppler.c:545
-#: ../plug-ins/common/postscript.c:1027 ../plug-ins/common/psd-load.c:2126
-#: ../plug-ins/common/raw.c:650 ../plug-ins/common/sunras.c:469
-#: ../plug-ins/common/tga.c:428 ../plug-ins/common/tiff-load.c:535
-#: ../plug-ins/common/wmf.c:956 ../plug-ins/common/xbm.c:725
-#: ../plug-ins/common/xpm.c:343 ../plug-ins/common/xwd.c:506
-#: ../plug-ins/faxg3/faxg3.c:204 ../plug-ins/gfli/gfli.c:469
-#: ../plug-ins/jpeg/jpeg-load.c:99 ../plug-ins/sgi/sgi.c:318
-#: ../plug-ins/winicon/icoload.c:645 ../plug-ins/xjt/xjt.c:3344
+#: ../plug-ins/bmp/bmpread.c:154 ../plug-ins/common/CEL.c:304 ../plug-ins/common/dicom.c:301 ../plug-ins/common/gbr.c:353 ../plug-ins/common/gif-load.c:314
+#: ../plug-ins/common/gih.c:654 ../plug-ins/common/pat.c:322 ../plug-ins/common/pcx.c:314 ../plug-ins/common/pix.c:334 ../plug-ins/common/png.c:710
+#: ../plug-ins/common/pnm.c:487 ../plug-ins/common/poppler.c:545 ../plug-ins/common/postscript.c:1027 ../plug-ins/common/psd-load.c:2126 ../plug-ins/common/raw.c:650
+#: ../plug-ins/common/sunras.c:469 ../plug-ins/common/tga.c:428 ../plug-ins/common/tiff-load.c:535 ../plug-ins/common/wmf.c:956 ../plug-ins/common/xbm.c:725
+#: ../plug-ins/common/xpm.c:343 ../plug-ins/common/xwd.c:506 ../plug-ins/faxg3/faxg3.c:204 ../plug-ins/gfli/gfli.c:469 ../plug-ins/jpeg/jpeg-load.c:99
+#: ../plug-ins/sgi/sgi.c:318 ../plug-ins/winicon/icoload.c:645 ../plug-ins/xjt/xjt.c:3344
 #, c-format
 msgid "Opening '%s'"
 msgstr "'%s' खुल्दैछ"
 
-#: ../plug-ins/bmp/bmpread.c:164 ../plug-ins/bmp/bmpread.c:173
-#: ../plug-ins/bmp/bmpread.c:179 ../plug-ins/bmp/bmpread.c:187
-#: ../plug-ins/bmp/bmpread.c:201 ../plug-ins/bmp/bmpread.c:382
+#: ../plug-ins/bmp/bmpread.c:164 ../plug-ins/bmp/bmpread.c:173 ../plug-ins/bmp/bmpread.c:179 ../plug-ins/bmp/bmpread.c:187 ../plug-ins/bmp/bmpread.c:201
+#: ../plug-ins/bmp/bmpread.c:382
 #, c-format
 msgid "'%s' is not a valid BMP file"
 msgstr "'%s' वैध BMP फाइल होइन।"
 
-#: ../plug-ins/bmp/bmpread.c:214 ../plug-ins/bmp/bmpread.c:240
-#: ../plug-ins/bmp/bmpread.c:266 ../plug-ins/bmp/bmpread.c:329
-#: ../plug-ins/bmp/bmpread.c:353 ../plug-ins/bmp/bmpread.c:375
-#: ../plug-ins/bmp/bmpread.c:388 ../plug-ins/bmp/bmpread.c:394
+#: ../plug-ins/bmp/bmpread.c:214 ../plug-ins/bmp/bmpread.c:240 ../plug-ins/bmp/bmpread.c:266 ../plug-ins/bmp/bmpread.c:329 ../plug-ins/bmp/bmpread.c:353
+#: ../plug-ins/bmp/bmpread.c:375 ../plug-ins/bmp/bmpread.c:388 ../plug-ins/bmp/bmpread.c:394
 #, c-format
 msgid "Error reading BMP file header from '%s'"
 msgstr "'%s' बाट BMP फाइल शीर्षक पढ्ने क्रममा त्रुटि"
@@ -1198,27 +1058,17 @@ msgstr "असमर्थित वा अवैध छवि उचाइ: %d"
 #.
 #. * Create the "background" layer to hold the image...
 #.
-#: ../plug-ins/bmp/bmpread.c:559 ../plug-ins/common/CEL.c:349
-#: ../plug-ins/common/CEL.c:352 ../plug-ins/common/blinds.c:277
-#: ../plug-ins/common/compose.c:924 ../plug-ins/common/decompose.c:703
-#: ../plug-ins/common/dicom.c:501 ../plug-ins/common/film.c:746
-#: ../plug-ins/common/gif-load.c:879 ../plug-ins/common/pcx.c:356
-#: ../plug-ins/common/pcx.c:362 ../plug-ins/common/pix.c:368
-#: ../plug-ins/common/png.c:831 ../plug-ins/common/pnm.c:570
-#: ../plug-ins/common/psd-load.c:2549 ../plug-ins/common/raw.c:691
-#: ../plug-ins/common/smooth_palette.c:257 ../plug-ins/common/sunras.c:955
-#: ../plug-ins/common/tga.c:1029 ../plug-ins/common/tiff-load.c:917
-#: ../plug-ins/common/tile.c:266 ../plug-ins/common/xbm.c:880
-#: ../plug-ins/faxg3/faxg3.c:464 ../plug-ins/fits/fits.c:511
-#: ../plug-ins/gfig/gfig-dialog.c:1284
-#: ../plug-ins/gimpressionist/general.c:122 ../plug-ins/jpeg/jpeg-load.c:244
-#: ../plug-ins/jpeg/jpeg-load.c:783 ../plug-ins/sgi/sgi.c:369
-#: ../plug-ins/twain/twain.c:571 ../plug-ins/winsnap/winsnap.c:1155
+#: ../plug-ins/bmp/bmpread.c:559 ../plug-ins/common/CEL.c:349 ../plug-ins/common/CEL.c:352 ../plug-ins/common/blinds.c:277 ../plug-ins/common/compose.c:924
+#: ../plug-ins/common/decompose.c:703 ../plug-ins/common/dicom.c:501 ../plug-ins/common/film.c:746 ../plug-ins/common/gif-load.c:879 ../plug-ins/common/pcx.c:356
+#: ../plug-ins/common/pcx.c:362 ../plug-ins/common/pix.c:368 ../plug-ins/common/png.c:831 ../plug-ins/common/pnm.c:570 ../plug-ins/common/psd-load.c:2549
+#: ../plug-ins/common/raw.c:691 ../plug-ins/common/smooth_palette.c:257 ../plug-ins/common/sunras.c:955 ../plug-ins/common/tga.c:1029 ../plug-ins/common/tiff-load.c:917
+#: ../plug-ins/common/tile.c:266 ../plug-ins/common/xbm.c:880 ../plug-ins/faxg3/faxg3.c:464 ../plug-ins/fits/fits.c:511 ../plug-ins/gfig/gfig-dialog.c:1284
+#: ../plug-ins/gimpressionist/general.c:122 ../plug-ins/jpeg/jpeg-load.c:244 ../plug-ins/jpeg/jpeg-load.c:783 ../plug-ins/sgi/sgi.c:369 ../plug-ins/twain/twain.c:571
+#: ../plug-ins/winsnap/winsnap.c:1155
 msgid "Background"
 msgstr "पृष्ठभूमि"
 
-#: ../plug-ins/bmp/bmpread.c:730 ../plug-ins/bmp/bmpread.c:771
-#: ../plug-ins/bmp/bmpread.c:821
+#: ../plug-ins/bmp/bmpread.c:730 ../plug-ins/bmp/bmpread.c:771 ../plug-ins/bmp/bmpread.c:821
 msgid "The bitmap ends unexpectedly."
 msgstr "बिटम्याप अनपेक्षित अन्त्य"
 
@@ -1232,19 +1082,11 @@ msgstr "अल्फा च्यानल उपेक्षा गरिने
 
 #. And let's begin the progress
 #. init the progress meter
-#: ../plug-ins/bmp/bmpwrite.c:305 ../plug-ins/common/CEL.c:573
-#: ../plug-ins/common/gbr.c:621 ../plug-ins/common/gif-save.c:993
-#: ../plug-ins/common/gih.c:1263 ../plug-ins/common/gtm.c:245
-#: ../plug-ins/common/pat.c:452 ../plug-ins/common/pcx.c:567
-#: ../plug-ins/common/pix.c:513 ../plug-ins/common/png.c:1246
-#: ../plug-ins/common/pnm.c:941 ../plug-ins/common/postscript.c:1199
-#: ../plug-ins/common/psd-save.c:1554 ../plug-ins/common/sunras.c:548
-#: ../plug-ins/common/tga.c:1138 ../plug-ins/common/tiff-save.c:661
-#: ../plug-ins/common/xbm.c:1021 ../plug-ins/common/xpm.c:623
-#: ../plug-ins/common/xwd.c:603 ../plug-ins/fits/fits.c:462
-#: ../plug-ins/gfli/gfli.c:684 ../plug-ins/jpeg/jpeg-save.c:275
-#: ../plug-ins/sgi/sgi.c:537 ../plug-ins/winicon/icosave.c:1015
-#: ../plug-ins/xjt/xjt.c:1697
+#: ../plug-ins/bmp/bmpwrite.c:305 ../plug-ins/common/CEL.c:573 ../plug-ins/common/gbr.c:621 ../plug-ins/common/gif-save.c:993 ../plug-ins/common/gih.c:1263
+#: ../plug-ins/common/gtm.c:245 ../plug-ins/common/pat.c:452 ../plug-ins/common/pcx.c:567 ../plug-ins/common/pix.c:513 ../plug-ins/common/png.c:1246
+#: ../plug-ins/common/pnm.c:941 ../plug-ins/common/postscript.c:1199 ../plug-ins/common/psd-save.c:1554 ../plug-ins/common/sunras.c:548 ../plug-ins/common/tga.c:1138
+#: ../plug-ins/common/tiff-save.c:661 ../plug-ins/common/xbm.c:1021 ../plug-ins/common/xpm.c:623 ../plug-ins/common/xwd.c:603 ../plug-ins/fits/fits.c:462
+#: ../plug-ins/gfli/gfli.c:684 ../plug-ins/jpeg/jpeg-save.c:275 ../plug-ins/sgi/sgi.c:537 ../plug-ins/winicon/icosave.c:1015 ../plug-ins/xjt/xjt.c:1697
 #, c-format
 msgid "Saving '%s'"
 msgstr "'%s' बचत गर्दै"
@@ -1361,19 +1203,16 @@ msgstr "एलिन मानचित्र: परिवर्तन गर�
 msgid "Alien Map"
 msgstr "एलिन मानचित्र"
 
-#: ../plug-ins/common/AlienMap2.c:440 ../plug-ins/common/AlienMap2.c:464
-#: ../plug-ins/common/AlienMap2.c:488
+#: ../plug-ins/common/AlienMap2.c:440 ../plug-ins/common/AlienMap2.c:464 ../plug-ins/common/AlienMap2.c:488
 msgid "Number of cycles covering full value range"
 msgstr "चक्रको सङ्ख्याले पूरै मान क्षेत्र ओगट्दैछ"
 
-#: ../plug-ins/common/AlienMap2.c:452 ../plug-ins/common/AlienMap2.c:476
-#: ../plug-ins/common/AlienMap2.c:500
+#: ../plug-ins/common/AlienMap2.c:452 ../plug-ins/common/AlienMap2.c:476 ../plug-ins/common/AlienMap2.c:500
 msgid "Phase angle, range 0-360"
 msgstr "स्थिति कोण, क्षेत्र ०-३६० सम्म"
 
 #. Propagate Mode
-#: ../plug-ins/common/AlienMap2.c:514 ../plug-ins/common/hot.c:595
-#: ../plug-ins/common/vpropagate.c:1098 ../plug-ins/common/waves.c:276
+#: ../plug-ins/common/AlienMap2.c:514 ../plug-ins/common/hot.c:595 ../plug-ins/common/vpropagate.c:1098 ../plug-ins/common/waves.c:276
 msgid "Mode"
 msgstr "मोड"
 
@@ -1590,21 +1429,16 @@ msgstr "सिडबाट अनियमित"
 msgid "Randoms from seed (shared)"
 msgstr "सिडबाट अनियमित (भाग लागईएको)"
 
-#: ../plug-ins/common/CML_explorer.c:300 ../plug-ins/common/CML_explorer.c:308
-#: ../plug-ins/common/decompose.c:188
-#: ../plug-ins/gimpressionist/orientation.c:162
+#: ../plug-ins/common/CML_explorer.c:300 ../plug-ins/common/CML_explorer.c:308 ../plug-ins/common/decompose.c:188 ../plug-ins/gimpressionist/orientation.c:162
 #: ../plug-ins/gimpressionist/size.c:165
 msgid "Hue"
 msgstr "ह्यु"
 
-#: ../plug-ins/common/CML_explorer.c:301 ../plug-ins/common/CML_explorer.c:309
-#: ../plug-ins/common/decompose.c:189
+#: ../plug-ins/common/CML_explorer.c:301 ../plug-ins/common/CML_explorer.c:309 ../plug-ins/common/decompose.c:189
 msgid "Saturation"
 msgstr "अतितृप्त"
 
-#: ../plug-ins/common/CML_explorer.c:302 ../plug-ins/common/CML_explorer.c:310
-#: ../plug-ins/common/decompose.c:190
-#: ../plug-ins/gimpressionist/orientation.c:138
+#: ../plug-ins/common/CML_explorer.c:302 ../plug-ins/common/CML_explorer.c:310 ../plug-ins/common/decompose.c:190 ../plug-ins/gimpressionist/orientation.c:138
 #: ../plug-ins/gimpressionist/size.c:141
 msgid "Value"
 msgstr "मान"
@@ -1641,8 +1475,7 @@ msgstr "स्थिर सिड"
 msgid "Random Seed"
 msgstr "अनियमित सिड"
 
-#: ../plug-ins/common/CML_explorer.c:1288 ../plug-ins/common/fp.c:699
-#: ../plug-ins/common/lic.c:671
+#: ../plug-ins/common/CML_explorer.c:1288 ../plug-ins/common/fp.c:699 ../plug-ins/common/lic.c:671
 msgid "_Hue"
 msgstr "ह्यु"
 
@@ -1689,14 +1522,11 @@ msgstr "अन्तिम सिडसँग \"सिड बाट\"मा स�
 #: ../plug-ins/common/CML_explorer.c:1397
 msgid ""
 "\"Fix seed\" button is an alias of me.\n"
-"The same seed produces the same image, if (1) the widths of images are same "
-"(this is the reason why image on drawable is different from preview), and "
-"(2) all mutation rates equal to zero."
+"The same seed produces the same image, if (1) the widths of images are same (this is the reason why image on drawable is different from preview), and (2) all "
+"mutation rates equal to zero."
 msgstr ""
 "\"स्थिर सिड\" बटन मेरो उपनाम हो।\n"
-"उस्तै सिडले उस्तै छवि उत्पादन गर्दछ, यदि (१) छविहरूको चौडाइ उस्तै भएमा (यो यसको कारण "
-"हो कि किन छवि रेखाङ्कन गर्न सकिनेमा पूर्वावलोकन भन्दा फरक हुन्छ), (२) सबै परिवर्तन दरहरू "
-"शून्य बराबर हुन्छ।"
+"उस्तै सिडले उस्तै छवि उत्पादन गर्दछ, यदि (१) छविहरूको चौडाइ उस्तै भएमा (यो यसको कारण हो कि किन छवि रेखाङ्कन गर्न सकिनेमा पूर्वावलोकन भन्दा फरक हुन्छ), (२) सबै परिवर्तन दरहरू शून्य बराबर हुन्छ।"
 
 #: ../plug-ins/common/CML_explorer.c:1405
 msgid "O_thers"
@@ -1710,8 +1540,7 @@ msgstr "प्रतिलपि सेटिङ"
 msgid "Source channel:"
 msgstr "स्रोत च्यानल:"
 
-#: ../plug-ins/common/CML_explorer.c:1454
-#: ../plug-ins/common/CML_explorer.c:1502
+#: ../plug-ins/common/CML_explorer.c:1454 ../plug-ins/common/CML_explorer.c:1502
 msgid "Destination channel:"
 msgstr "गन्तव्य च्यानल:"
 
@@ -1807,8 +1636,7 @@ msgstr "चेतावनी: स्रोत र गन्तव्यहर�
 msgid "Save CML Explorer Parameters"
 msgstr "सीएमएल खोजी परिमित बचत गर्नुहोस्"
 
-#: ../plug-ins/common/CML_explorer.c:2059
-#: ../plug-ins/common/channel_mixer.c:1067
+#: ../plug-ins/common/CML_explorer.c:2059 ../plug-ins/common/channel_mixer.c:1067
 #, c-format
 msgid "Parameters were saved to '%s'"
 msgstr "परिमितिहरू '%s' मा बचत गरेको छ"
@@ -1888,8 +1716,7 @@ msgstr "तेर्सो शैली:"
 msgid "Left edge"
 msgstr "बायाँ किनारा"
 
-#: ../plug-ins/common/align_layers.c:440 ../plug-ins/common/align_layers.c:470
-#: ../plug-ins/gflare/gflare.c:2639
+#: ../plug-ins/common/align_layers.c:440 ../plug-ins/common/align_layers.c:470 ../plug-ins/gflare/gflare.c:2639
 msgid "Center"
 msgstr "केन्द्र"
 
@@ -1981,8 +1808,7 @@ msgstr "गति रिसेट गर्नुहोस्"
 msgid "Reset the speed of the animation"
 msgstr "एनिमेशनको गति रिसेट गर्नुहोस्"
 
-#: ../plug-ins/common/animationplay.c:483
-#: ../plug-ins/common/animationplay.c:1445
+#: ../plug-ins/common/animationplay.c:483 ../plug-ins/common/animationplay.c:1445
 msgid "Start playback"
 msgstr "प्रतिश्रवण सुरु गर्नुहोस्"
 
@@ -2168,18 +1994,15 @@ msgstr "गुप्तहरू"
 msgid "Orientation"
 msgstr "अभिमुखीकरण"
 
-#: ../plug-ins/common/blinds.c:263 ../plug-ins/common/ripple.c:542
-#: ../plug-ins/common/tileit.c:425 ../plug-ins/pagecurl/pagecurl.c:534
+#: ../plug-ins/common/blinds.c:263 ../plug-ins/common/ripple.c:542 ../plug-ins/common/tileit.c:425 ../plug-ins/pagecurl/pagecurl.c:534
 msgid "_Horizontal"
 msgstr "तेर्सो"
 
-#: ../plug-ins/common/blinds.c:264 ../plug-ins/common/ripple.c:543
-#: ../plug-ins/common/tileit.c:435 ../plug-ins/pagecurl/pagecurl.c:533
+#: ../plug-ins/common/blinds.c:264 ../plug-ins/common/ripple.c:543 ../plug-ins/common/tileit.c:435 ../plug-ins/pagecurl/pagecurl.c:533
 msgid "_Vertical"
 msgstr "ठाडो"
 
-#: ../plug-ins/common/blinds.c:281 ../plug-ins/common/fractaltrace.c:738
-#: ../plug-ins/common/papertile.c:384
+#: ../plug-ins/common/blinds.c:281 ../plug-ins/common/fractaltrace.c:738 ../plug-ins/common/papertile.c:384
 msgid "_Transparent"
 msgstr "पारदर्शक"
 
@@ -2283,9 +2106,7 @@ msgid "_X offset:"
 msgstr "X अफसेट:"
 
 #: ../plug-ins/common/bumpmap.c:933 ../plug-ins/common/bumpmap.c:947
-msgid ""
-"The offset can be adjusted by dragging the preview using the middle mouse "
-"button."
+msgid "The offset can be adjusted by dragging the preview using the middle mouse button."
 msgstr "अफसेट मध्य माउस बटन प्रयोग गरेर पूर्वावलोकन तानेर समायोजन गर्न सकिन्छ।"
 
 #: ../plug-ins/common/bumpmap.c:944 ../plug-ins/common/postscript.c:3388
@@ -2324,11 +2145,8 @@ msgstr "किनाराहरू बढाउदै एउटा कार्
 msgid "Ca_rtoon..."
 msgstr "कार्टुन..."
 
-#: ../plug-ins/common/cartoon.c:231 ../plug-ins/common/dog.c:253
-#: ../plug-ins/common/gauss.c:445 ../plug-ins/common/neon.c:225
-#: ../plug-ins/common/photocopy.c:243 ../plug-ins/common/sel_gauss.c:213
-#: ../plug-ins/common/softglow.c:221 ../plug-ins/gflare/gflare.c:965
-#: ../plug-ins/sgi/sgi.c:520 ../plug-ins/xjt/xjt.c:1688
+#: ../plug-ins/common/cartoon.c:231 ../plug-ins/common/dog.c:253 ../plug-ins/common/gauss.c:445 ../plug-ins/common/neon.c:225 ../plug-ins/common/photocopy.c:243
+#: ../plug-ins/common/sel_gauss.c:213 ../plug-ins/common/softglow.c:221 ../plug-ins/gflare/gflare.c:965 ../plug-ins/sgi/sgi.c:520 ../plug-ins/xjt/xjt.c:1688
 msgid "Cannot operate on indexed color images."
 msgstr "अनुक्रमण गरिएको रङ छविहरू सञ्चालन हुन सकेन।"
 
@@ -2357,8 +2175,7 @@ msgid "Colorcube Analysis"
 msgstr "रङ घनाकार विश्लेषण"
 
 #. output results
-#: ../plug-ins/common/ccanalyze.c:384
-#: ../plug-ins/imagemap/imap_cmd_guides.c:231
+#: ../plug-ins/common/ccanalyze.c:384 ../plug-ins/imagemap/imap_cmd_guides.c:231
 #, c-format
 msgid "Image dimensions: %d × %d"
 msgstr "छवि आयामहरू: %d x %d "
@@ -2387,8 +2204,7 @@ msgstr "च्यानल मिश्रण..."
 #. printf("Channel Mixer:: Mode:%d  r %f  g %f  b %f\n ",
 #. param[3].data.d_int32, mix.black.red_gain,
 #. mix.black.green_gain, mix.black.blue_gain);
-#: ../plug-ins/common/channel_mixer.c:271
-#: ../plug-ins/common/channel_mixer.c:492
+#: ../plug-ins/common/channel_mixer.c:271 ../plug-ins/common/channel_mixer.c:492
 msgid "Channel Mixer"
 msgstr "च्यानल मिश्रण"
 
@@ -2396,26 +2212,20 @@ msgstr "च्यानल मिश्रण"
 msgid "O_utput channel:"
 msgstr "प्रतिफल च्यानल:"
 
-#: ../plug-ins/common/channel_mixer.c:582 ../plug-ins/common/compose.c:190
-#: ../plug-ins/common/compose.c:201 ../plug-ins/common/diffraction.c:501
-#: ../plug-ins/common/diffraction.c:539 ../plug-ins/common/diffraction.c:577
-#: ../plug-ins/common/exchange.c:400 ../plug-ins/common/noisify.c:530
+#: ../plug-ins/common/channel_mixer.c:582 ../plug-ins/common/compose.c:190 ../plug-ins/common/compose.c:201 ../plug-ins/common/diffraction.c:501
+#: ../plug-ins/common/diffraction.c:539 ../plug-ins/common/diffraction.c:577 ../plug-ins/common/exchange.c:400 ../plug-ins/common/noisify.c:530
 #: ../plug-ins/common/noisify.c:537
 msgid "_Red:"
 msgstr "रातो:"
 
-#: ../plug-ins/common/channel_mixer.c:600 ../plug-ins/common/compose.c:191
-#: ../plug-ins/common/compose.c:202 ../plug-ins/common/diffraction.c:510
-#: ../plug-ins/common/diffraction.c:548 ../plug-ins/common/diffraction.c:586
-#: ../plug-ins/common/exchange.c:460 ../plug-ins/common/noisify.c:531
+#: ../plug-ins/common/channel_mixer.c:600 ../plug-ins/common/compose.c:191 ../plug-ins/common/compose.c:202 ../plug-ins/common/diffraction.c:510
+#: ../plug-ins/common/diffraction.c:548 ../plug-ins/common/diffraction.c:586 ../plug-ins/common/exchange.c:460 ../plug-ins/common/noisify.c:531
 #: ../plug-ins/common/noisify.c:538
 msgid "_Green:"
 msgstr "हरियो:"
 
-#: ../plug-ins/common/channel_mixer.c:619 ../plug-ins/common/compose.c:192
-#: ../plug-ins/common/compose.c:203 ../plug-ins/common/diffraction.c:519
-#: ../plug-ins/common/diffraction.c:557 ../plug-ins/common/diffraction.c:595
-#: ../plug-ins/common/exchange.c:521 ../plug-ins/common/noisify.c:532
+#: ../plug-ins/common/channel_mixer.c:619 ../plug-ins/common/compose.c:192 ../plug-ins/common/compose.c:203 ../plug-ins/common/diffraction.c:519
+#: ../plug-ins/common/diffraction.c:557 ../plug-ins/common/diffraction.c:595 ../plug-ins/common/exchange.c:521 ../plug-ins/common/noisify.c:532
 #: ../plug-ins/common/noisify.c:539
 msgid "_Blue:"
 msgstr "नीलो:"
@@ -2452,8 +2262,7 @@ msgstr "जाँचबोर्ड थप्दै"
 msgid "Checkerboard"
 msgstr "जाँचबोर्ड"
 
-#: ../plug-ins/common/checkerboard.c:412
-#: ../plug-ins/gimpressionist/sizemap.c:493
+#: ../plug-ins/common/checkerboard.c:412 ../plug-ins/gimpressionist/sizemap.c:493
 msgid "_Size:"
 msgstr "साइज:"
 
@@ -2513,9 +2322,7 @@ msgstr "रङ मानचित्रमा दुई रङहरू सा�
 msgid "_Swap Colors"
 msgstr "स्वाप रङ"
 
-#: ../plug-ins/common/colormap-remap.c:288
-#: ../plug-ins/common/colormap-remap.c:299
-#: ../plug-ins/common/colormap-remap.c:310
+#: ../plug-ins/common/colormap-remap.c:288 ../plug-ins/common/colormap-remap.c:299 ../plug-ins/common/colormap-remap.c:310
 msgid "Invalid remap array was passed to remap function"
 msgstr "अवैध पुन: मानचित्र एरे पुन: मानचित्र प्रकार्यमा पास भयो"
 
@@ -2548,9 +2355,7 @@ msgid "Rearrange Colormap"
 msgstr "रङ मानचित्र पुन: मिलाउनुहोस्"
 
 #: ../plug-ins/common/colormap-remap.c:701
-msgid ""
-"Drag and drop colors to rearrange the colormap.  The numbers shown are the "
-"original indices.  Right-click for a menu with sort options."
+msgid "Drag and drop colors to rearrange the colormap.  The numbers shown are the original indices.  Right-click for a menu with sort options."
 msgstr "रङ मानचित्र पुन: मिलाउन रङहरू तान्नुहोस् र छोड्नुहोस् । देखाइएका नम्बरहरू मौलिक अनुक्रमणिकाहरू हुन् । क्रमबद्ध विकल्पहरूसँग मेनुका लागि दायाँ-क्लिक गर्नुहोस् ।"
 
 #: ../plug-ins/common/colortoalpha.c:96
@@ -2570,9 +2375,8 @@ msgid "Color to Alpha"
 msgstr "अल्फामा रङ लगाउनुहोस्"
 
 #. spinbutton 1
-#: ../plug-ins/common/colortoalpha.c:411 ../plug-ins/common/mapcolor.c:424
-#: ../plug-ins/gfli/gfli.c:840 ../plug-ins/gfli/gfli.c:910
-#: ../plug-ins/rcm/rcm_dialog.c:299 ../plug-ins/rcm/rcm_dialog.c:377
+#: ../plug-ins/common/colortoalpha.c:411 ../plug-ins/common/mapcolor.c:424 ../plug-ins/gfli/gfli.c:840 ../plug-ins/gfli/gfli.c:910 ../plug-ins/rcm/rcm_dialog.c:299
+#: ../plug-ins/rcm/rcm_dialog.c:377
 msgid "From:"
 msgstr "द्वारा:"
 
@@ -2584,8 +2388,7 @@ msgstr "अल्फा रङ फिल्टरमा रङ लगाउन�
 msgid "to alpha"
 msgstr "अल्फामा"
 
-#: ../plug-ins/common/compose.c:189 ../plug-ins/common/decompose.c:170
-#: ../plug-ins/common/raw.c:1002
+#: ../plug-ins/common/compose.c:189 ../plug-ins/common/decompose.c:170 ../plug-ins/common/raw.c:1002
 msgid "RGB"
 msgstr "RGB"
 
@@ -2593,8 +2396,7 @@ msgstr "RGB"
 msgid "RGBA"
 msgstr "RGBA"
 
-#: ../plug-ins/common/compose.c:204 ../plug-ins/common/noisify.c:525
-#: ../plug-ins/common/noisify.c:540
+#: ../plug-ins/common/compose.c:204 ../plug-ins/common/noisify.c:525 ../plug-ins/common/noisify.c:540
 msgid "_Alpha:"
 msgstr "अल्फा:"
 
@@ -2606,8 +2408,7 @@ msgstr "HSV"
 msgid "_Hue:"
 msgstr "ह्यु:"
 
-#: ../plug-ins/common/compose.c:213 ../plug-ins/common/compose.c:221
-#: ../plug-ins/common/scatter_hsv.c:413
+#: ../plug-ins/common/compose.c:213 ../plug-ins/common/compose.c:221 ../plug-ins/common/scatter_hsv.c:413
 msgid "_Saturation:"
 msgstr "अतितृप्त:"
 
@@ -2716,12 +2517,8 @@ msgid "R_ecompose"
 msgstr "फेरि रचना गर्नुहोस्"
 
 #: ../plug-ins/common/compose.c:475
-msgid ""
-"You can only run 'Recompose' if the active image was originally produced by "
-"'Decompose'."
-msgstr ""
-"यदि सक्रिय छवि मौलिकरूपमा 'रचना नगर्नुहोस्' बाट उत्पादन गरिएको हो भने तपाईँले मात्र "
-"'रचना गर्नुहोस्' चलाउन सक्नुहुन्छ।"
+msgid "You can only run 'Recompose' if the active image was originally produced by 'Decompose'."
+msgstr "यदि सक्रिय छवि मौलिकरूपमा 'रचना नगर्नुहोस्' बाट उत्पादन गरिएको हो भने तपाईँले मात्र 'रचना गर्नुहोस्' चलाउन सक्नुहुन्छ।"
 
 #: ../plug-ins/common/compose.c:499
 msgid "Error scanning 'decompose-data' parasite: too few layers found"
@@ -2828,8 +2625,7 @@ msgstr "अल्फा"
 msgid "E_xtend"
 msgstr "फैलाउनुहोस्"
 
-#: ../plug-ins/common/convmatrix.c:111 ../plug-ins/common/displace.c:474
-#: ../plug-ins/common/edge.c:710 ../plug-ins/common/fractaltrace.c:736
+#: ../plug-ins/common/convmatrix.c:111 ../plug-ins/common/displace.c:474 ../plug-ins/common/edge.c:710 ../plug-ins/common/fractaltrace.c:736
 #: ../plug-ins/common/ripple.c:563
 msgid "_Wrap"
 msgstr "बेर्नुहोस्"
@@ -2866,8 +2662,7 @@ msgstr "म्यट्रिक्स"
 msgid "D_ivisor:"
 msgstr "भाजक:"
 
-#: ../plug-ins/common/convmatrix.c:1052 ../plug-ins/common/depthmerge.c:767
-#: ../plug-ins/common/raw.c:1022
+#: ../plug-ins/common/convmatrix.c:1052 ../plug-ins/common/depthmerge.c:767 ../plug-ins/common/raw.c:1022
 msgid "O_ffset:"
 msgstr "अफसेट:"
 
@@ -2995,9 +2790,7 @@ msgid "Curve Bend"
 msgstr "वक्र मोड"
 
 #. Preview area, top of column
-#: ../plug-ins/common/curve_bend.c:1231
-#: ../plug-ins/gimpressionist/orientmap.c:574
-#: ../plug-ins/gimpressionist/sizemap.c:443
+#: ../plug-ins/common/curve_bend.c:1231 ../plug-ins/gimpressionist/orientmap.c:574 ../plug-ins/gimpressionist/sizemap.c:443
 msgid "Preview"
 msgstr "पूर्वावलोकन"
 
@@ -3013,8 +2806,7 @@ msgstr "स्वचालित पूर्वावलोकन"
 
 #. Options area, bottom of column
 #. Options section
-#: ../plug-ins/common/curve_bend.c:1279 ../plug-ins/common/ripple.c:504
-#: ../plug-ins/gfig/gfig-dialog.c:1207
+#: ../plug-ins/common/curve_bend.c:1279 ../plug-ins/common/ripple.c:504 ../plug-ins/gfig/gfig-dialog.c:1207
 msgid "Options"
 msgstr "विकल्पहरू"
 
@@ -3029,8 +2821,7 @@ msgid "Smoo_thing"
 msgstr "सम्म परेको"
 
 #. The antialiasing toggle
-#: ../plug-ins/common/curve_bend.c:1322 ../plug-ins/common/gqbist.c:853
-#: ../plug-ins/common/mosaic.c:730 ../plug-ins/common/ripple.c:513
+#: ../plug-ins/common/curve_bend.c:1322 ../plug-ins/common/gqbist.c:853 ../plug-ins/common/mosaic.c:730 ../plug-ins/common/ripple.c:513
 msgid "_Antialiasing"
 msgstr "एन्टालिजिङ्ग"
 
@@ -3115,18 +2906,15 @@ msgstr "फाइलबाट वक्र बिन्दुहरू लोड
 msgid "Save Curve Points to File"
 msgstr "फाइलमा वक्र बिन्दुहरू बचत गर्नुहोस्"
 
-#: ../plug-ins/common/decompose.c:170 ../plug-ins/common/decompose.c:174
-#: ../plug-ins/common/decompose.c:178
+#: ../plug-ins/common/decompose.c:170 ../plug-ins/common/decompose.c:174 ../plug-ins/common/decompose.c:178
 msgid "red"
 msgstr "रातो"
 
-#: ../plug-ins/common/decompose.c:171 ../plug-ins/common/decompose.c:175
-#: ../plug-ins/common/decompose.c:179
+#: ../plug-ins/common/decompose.c:171 ../plug-ins/common/decompose.c:175 ../plug-ins/common/decompose.c:179
 msgid "green"
 msgstr "हरियो"
 
-#: ../plug-ins/common/decompose.c:172 ../plug-ins/common/decompose.c:176
-#: ../plug-ins/common/decompose.c:180
+#: ../plug-ins/common/decompose.c:172 ../plug-ins/common/decompose.c:176 ../plug-ins/common/decompose.c:180
 msgid "blue"
 msgstr "नीलो"
 
@@ -3303,9 +3091,7 @@ msgid "_Foreground as registration color"
 msgstr "दर्ता रङको रूपमा अग्रभूमि"
 
 #: ../plug-ins/common/decompose.c:1542
-msgid ""
-"Pixels in the foreground color will appear black in all output images.  This "
-"can be used for things like crop marks that have to show up on all channels."
+msgid "Pixels in the foreground color will appear black in all output images.  This can be used for things like crop marks that have to show up on all channels."
 msgstr "अग्रभूमि रङमा भएको पिक्सेल सबै निर्गत छविहरूमा कालो देखिनेछन् । यो क्रप मार्क जस्ता चिजका लागि प्रयोग गर्न सकिन्छ जुन सबै च्यानलमा देखाउनुपर्ने हुन्छ ।"
 
 #: ../plug-ins/common/deinterlace.c:93
@@ -3401,10 +3187,8 @@ msgstr "अनुकूलक"
 msgid "R_ecursive"
 msgstr "पुनरावृतिक"
 
-#: ../plug-ins/common/despeckle.c:464 ../plug-ins/common/neon.c:730
-#: ../plug-ins/common/nlfilt.c:1090 ../plug-ins/common/nova.c:366
-#: ../plug-ins/common/unsharp.c:681 ../plug-ins/common/whirlpinch.c:587
-#: ../plug-ins/gflare/gflare.c:2684 ../plug-ins/imagemap/imap_circle.c:278
+#: ../plug-ins/common/despeckle.c:464 ../plug-ins/common/neon.c:730 ../plug-ins/common/nlfilt.c:1090 ../plug-ins/common/nova.c:366 ../plug-ins/common/unsharp.c:681
+#: ../plug-ins/common/whirlpinch.c:587 ../plug-ins/gflare/gflare.c:2684 ../plug-ins/imagemap/imap_circle.c:278
 msgid "_Radius:"
 msgstr "अर्धव्यास:"
 
@@ -3432,13 +3216,9 @@ msgstr "डेस्ट्राइपिङ"
 msgid "Destripe"
 msgstr "डेस्ट्राइप"
 
-#: ../plug-ins/common/destripe.c:472 ../plug-ins/common/gtm.c:584
-#: ../plug-ins/common/papertile.c:302 ../plug-ins/common/postscript.c:3152
-#: ../plug-ins/common/postscript.c:3361 ../plug-ins/common/raw.c:1035
-#: ../plug-ins/common/smooth_palette.c:436 ../plug-ins/common/tile.c:424
-#: ../plug-ins/imagemap/imap_cmd_guides.c:165
-#: ../plug-ins/imagemap/imap_rectangle.c:403
-#: ../plug-ins/print/print-page-layout.c:294
+#: ../plug-ins/common/destripe.c:472 ../plug-ins/common/gtm.c:584 ../plug-ins/common/papertile.c:302 ../plug-ins/common/postscript.c:3152
+#: ../plug-ins/common/postscript.c:3361 ../plug-ins/common/raw.c:1035 ../plug-ins/common/smooth_palette.c:436 ../plug-ins/common/tile.c:424
+#: ../plug-ins/imagemap/imap_cmd_guides.c:165 ../plug-ins/imagemap/imap_rectangle.c:403 ../plug-ins/print/print-page-layout.c:294
 msgid "_Width:"
 msgstr "चौडाइ:"
 
@@ -3459,14 +3239,11 @@ msgstr "मेडिसिन छविमा डिजिटल इमेजि
 msgid "'%s' is not a DICOM file."
 msgstr "'%s' DICOM फाइल होइन।"
 
-#: ../plug-ins/common/dicom.c:676 ../plug-ins/common/pcx.c:599
-#: ../plug-ins/common/pnm.c:927
+#: ../plug-ins/common/dicom.c:676 ../plug-ins/common/pcx.c:599 ../plug-ins/common/pnm.c:927
 msgid "Cannot save images with alpha channel."
 msgstr "अल्फा च्यानलसँग छविहरू बचत गर्न सकिँदैन।"
 
-#: ../plug-ins/common/dicom.c:691 ../plug-ins/common/postscript.c:1185
-#: ../plug-ins/common/xwd.c:589 ../plug-ins/fits/fits.c:448
-#: ../plug-ins/xjt/xjt.c:1692
+#: ../plug-ins/common/dicom.c:691 ../plug-ins/common/postscript.c:1185 ../plug-ins/common/xwd.c:589 ../plug-ins/fits/fits.c:448 ../plug-ins/xjt/xjt.c:1692
 msgid "Cannot operate on unknown image types."
 msgstr "अज्ञात छवि प्रकारमा सञ्चालन गर्न सक्दैन "
 
@@ -3498,8 +3275,7 @@ msgstr "रूपरेखा"
 msgid "Sharp Edges"
 msgstr "तिखो किनारा"
 
-#: ../plug-ins/common/diffraction.c:615 ../plug-ins/common/softglow.c:681
-#: ../plug-ins/flame/flame.c:1057
+#: ../plug-ins/common/diffraction.c:615 ../plug-ins/common/softglow.c:681 ../plug-ins/flame/flame.c:1057
 msgid "_Brightness:"
 msgstr "चम्किलोपन:"
 
@@ -3573,13 +3349,11 @@ msgstr "ध्रुवीय"
 msgid "Edge Behavior"
 msgstr "किनारा गुण"
 
-#: ../plug-ins/common/displace.c:476 ../plug-ins/common/edge.c:723
-#: ../plug-ins/common/ripple.c:564 ../plug-ins/common/waves.c:280
+#: ../plug-ins/common/displace.c:476 ../plug-ins/common/edge.c:723 ../plug-ins/common/ripple.c:564 ../plug-ins/common/waves.c:280
 msgid "_Smear"
 msgstr "दाग"
 
-#: ../plug-ins/common/displace.c:478 ../plug-ins/common/edge.c:736
-#: ../plug-ins/common/fractaltrace.c:740 ../plug-ins/common/newsprint.c:400
+#: ../plug-ins/common/displace.c:478 ../plug-ins/common/edge.c:736 ../plug-ins/common/fractaltrace.c:740 ../plug-ins/common/newsprint.c:400
 msgid "_Black"
 msgstr "कालो"
 
@@ -3707,13 +3481,9 @@ msgstr "इन्ग्रेभिङ"
 msgid "Engrave"
 msgstr "इन्ग्रेभ"
 
-#: ../plug-ins/common/engrave.c:245 ../plug-ins/common/film.c:1003
-#: ../plug-ins/common/gtm.c:600 ../plug-ins/common/papertile.c:313
-#: ../plug-ins/common/postscript.c:3162 ../plug-ins/common/postscript.c:3370
-#: ../plug-ins/common/raw.c:1048 ../plug-ins/common/smooth_palette.c:441
-#: ../plug-ins/common/tile.c:428 ../plug-ins/imagemap/imap_cmd_guides.c:175
-#: ../plug-ins/imagemap/imap_rectangle.c:410
-#: ../plug-ins/print/print-page-layout.c:296
+#: ../plug-ins/common/engrave.c:245 ../plug-ins/common/film.c:1003 ../plug-ins/common/gtm.c:600 ../plug-ins/common/papertile.c:313 ../plug-ins/common/postscript.c:3162
+#: ../plug-ins/common/postscript.c:3370 ../plug-ins/common/raw.c:1048 ../plug-ins/common/smooth_palette.c:441 ../plug-ins/common/tile.c:428
+#: ../plug-ins/imagemap/imap_cmd_guides.c:175 ../plug-ins/imagemap/imap_rectangle.c:410 ../plug-ins/print/print-page-layout.c:296
 msgid "_Height:"
 msgstr "उचाइ:"
 
@@ -3781,8 +3551,7 @@ msgstr "फिल्म स्ट्रिप..."
 msgid "Composing images"
 msgstr "छविहरू रचना गर्दैछ"
 
-#: ../plug-ins/common/film.c:425 ../plug-ins/common/guillotine.c:185
-#: ../plug-ins/helpbrowser/dialog.c:1143
+#: ../plug-ins/common/film.c:425 ../plug-ins/common/guillotine.c:185 ../plug-ins/helpbrowser/dialog.c:1143
 msgid "Untitled"
 msgstr "शीर्षक विहिन"
 
@@ -3795,8 +3564,7 @@ msgid "On film:"
 msgstr "फिल्ममा: "
 
 #. Create selection
-#: ../plug-ins/common/film.c:966 ../plug-ins/imagemap/imap_selection.c:367
-#: ../plug-ins/rcm/rcm_dialog.c:173 ../plug-ins/sel2path/sel2path.c:430
+#: ../plug-ins/common/film.c:966 ../plug-ins/imagemap/imap_selection.c:367 ../plug-ins/rcm/rcm_dialog.c:173 ../plug-ins/sel2path/sel2path.c:430
 msgid "Selection"
 msgstr "चयन"
 
@@ -3815,8 +3583,7 @@ msgstr "छविमा उचाइ मिलाउनुहोस्"
 msgid "Select Film Color"
 msgstr "फिल्म रङ चयन गर्नुहोस्"
 
-#: ../plug-ins/common/film.c:1026 ../plug-ins/common/film.c:1076
-#: ../plug-ins/common/nova.c:353
+#: ../plug-ins/common/film.c:1026 ../plug-ins/common/film.c:1076 ../plug-ins/common/nova.c:353
 msgid "Co_lor:"
 msgstr "रङ:"
 
@@ -4124,8 +3891,7 @@ msgstr "सरल, ब्युरिङ गर्ने सबैभन्द�
 msgid "_Gaussian Blur..."
 msgstr "ग्यास्सियन अस्पष्ट..."
 
-#: ../plug-ins/common/gauss.c:179 ../plug-ins/common/gauss.c:199
-#: ../plug-ins/common/gauss.c:219 ../plug-ins/common/gauss.c:239
+#: ../plug-ins/common/gauss.c:179 ../plug-ins/common/gauss.c:199 ../plug-ins/common/gauss.c:219 ../plug-ins/common/gauss.c:239
 msgid "Apply a gaussian blur"
 msgstr "ग्यास्सियन अस्पष्ट लागू गर्नुहोस्"
 
@@ -4138,13 +3904,11 @@ msgstr "ग्यास्सियन अस्पष्ट"
 msgid "Blur Radius"
 msgstr "अस्पष्ट अर्धव्यास"
 
-#: ../plug-ins/common/gauss.c:520 ../plug-ins/common/jigsaw.c:2458
-#: ../plug-ins/common/spread.c:386
+#: ../plug-ins/common/gauss.c:520 ../plug-ins/common/jigsaw.c:2458 ../plug-ins/common/spread.c:386
 msgid "_Horizontal:"
 msgstr "तेर्सो:"
 
-#: ../plug-ins/common/gauss.c:524 ../plug-ins/common/jigsaw.c:2475
-#: ../plug-ins/common/spread.c:390
+#: ../plug-ins/common/gauss.c:524 ../plug-ins/common/jigsaw.c:2475 ../plug-ins/common/spread.c:390
 msgid "_Vertical:"
 msgstr "ठाडो:"
 
@@ -4178,8 +3942,7 @@ msgstr "गिम्प ब्रुस फाइल '%s' मा त्रुट
 msgid "Invalid UTF-8 string in brush file '%s'."
 msgstr "ब्रुस फाइल '%s' मा अवैध युटिएफ-८ स्ट्रिङ छ।"
 
-#: ../plug-ins/common/gbr.c:425 ../plug-ins/common/gih.c:499
-#: ../plug-ins/common/gih.c:1158 ../plug-ins/gflare/gflare.c:2989
+#: ../plug-ins/common/gbr.c:425 ../plug-ins/common/gih.c:499 ../plug-ins/common/gih.c:1158 ../plug-ins/gflare/gflare.c:2989
 msgid "Unnamed"
 msgstr "बेनामी"
 
@@ -4196,8 +3959,7 @@ msgstr "ब्रुसको रूपमा बचत गर्नुहोस
 msgid "Spacing:"
 msgstr "खाली स्थान:"
 
-#: ../plug-ins/common/gbr.c:742 ../plug-ins/common/gih.c:910
-#: ../plug-ins/common/pat.c:541 ../plug-ins/gimpressionist/presets.c:646
+#: ../plug-ins/common/gbr.c:742 ../plug-ins/common/gih.c:910 ../plug-ins/common/pat.c:541 ../plug-ins/gimpressionist/presets.c:646
 msgid "Description:"
 msgstr "वर्णन:"
 
@@ -4249,8 +4011,7 @@ msgstr "पृष्ठभूमि (%d%s)"
 msgid "Opening '%s' (frame %d)"
 msgstr "'%s' खोल्दैछ (फ्रेम %d)"
 
-#: ../plug-ins/common/gif-load.c:933 ../plug-ins/common/iwarp.c:796
-#: ../plug-ins/common/iwarp.c:831
+#: ../plug-ins/common/gif-load.c:933 ../plug-ins/common/iwarp.c:796 ../plug-ins/common/iwarp.c:831
 #, c-format
 msgid "Frame %d"
 msgstr "फ्रेम %d"
@@ -4262,21 +4023,15 @@ msgstr "फ्रेम %d (%d%s)"
 
 #: ../plug-ins/common/gif-load.c:966
 #, c-format
-msgid ""
-"GIF: Undocumented GIF composite type %d is not handled.  Animation might not "
-"play or re-save perfectly."
-msgstr ""
-"GIF: दस्तावेज नगरिएको GIF समिश्रण प्रकार %d प्रबन्ध गरिएको छैन। एनिमेसन बजाउन वा ठीक "
-"तरिकासँग पुन: बचत गर्न सकिँदैन।"
+msgid "GIF: Undocumented GIF composite type %d is not handled.  Animation might not play or re-save perfectly."
+msgstr "GIF: दस्तावेज नगरिएको GIF समिश्रण प्रकार %d प्रबन्ध गरिएको छैन। एनिमेसन बजाउन वा ठीक तरिकासँग पुन: बचत गर्न सकिँदैन।"
 
 #: ../plug-ins/common/gif-save.c:683
 msgid "Couldn't simply reduce colors further. Saving as opaque."
 msgstr "रङको बढाईलाई सजिलै घटाउन सकिँदैन। अस्पष्टको रूपमा नै बचत गर्दैछ।"
 
 #: ../plug-ins/common/gif-save.c:899
-msgid ""
-"The GIF format only supports comments in 7bit ASCII encoding. No comment is "
-"saved."
+msgid "The GIF format only supports comments in 7bit ASCII encoding. No comment is saved."
 msgstr "GIF ढाँचाले ७बिट ASCII सङ्केतनमा टिप्पणीहरू मात्र समर्थन गर्दछ। कुनै टिप्पणी बचत भएको छैन।"
 
 #: ../plug-ins/common/gif-save.c:958
@@ -4288,15 +4043,11 @@ msgid "Delay inserted to prevent evil CPU-sucking animation."
 msgstr "खराब CPU-चुस्ने एनिमेशन प्रतिबन्ध गर्न ढिला प्रवेश गरियो।"
 
 #: ../plug-ins/common/gif-save.c:1175
-msgid ""
-"The image you are trying to save as a GIF contains layers which extend "
-"beyond the actual borders of the image."
+msgid "The image you are trying to save as a GIF contains layers which extend beyond the actual borders of the image."
 msgstr "तपाईँले GIF को रूपमा बचत गर्न प्रयास गर्नु भएको छविले तहहरू समाविष्ट गर्दछ जसले छविको वास्तविक किनाराहरू भित्र विस्तार गर्दछ ।"
 
 #: ../plug-ins/common/gif-save.c:1192
-msgid ""
-"The GIF file format does not allow this.  You may choose whether to crop all "
-"of the layers to the image borders, or cancel this save."
+msgid "The GIF file format does not allow this.  You may choose whether to crop all of the layers to the image borders, or cancel this save."
 msgstr "GIF फाइल ढाँचाले यसलाई अनुमति दिइदैन । तपाईँले या त छवि किनराहरूमा सबै तहहरू काँटछाँट गर्ने, वा यो बचतलाई रद्द गर्ने भन्ने छनौट गर्नुपर्नेछ ।"
 
 #: ../plug-ins/common/gif-save.c:1233
@@ -4516,8 +4267,7 @@ msgstr "ग्रिड..."
 msgid "Drawing grid"
 msgstr "ग्रिड कोर्दै..."
 
-#: ../plug-ins/common/grid.c:635 ../plug-ins/gfig/gfig-dialog.c:1355
-#: ../plug-ins/imagemap/imap_menu.c:209
+#: ../plug-ins/common/grid.c:635 ../plug-ins/gfig/gfig-dialog.c:1355 ../plug-ins/imagemap/imap_menu.c:209
 msgid "Grid"
 msgstr "ग्रिड"
 
@@ -4535,8 +4285,7 @@ msgid "Intersection"
 msgstr "पारस्परिक"
 
 #. Width and Height
-#: ../plug-ins/common/grid.c:724 ../plug-ins/common/svg.c:758
-#: ../plug-ins/common/wmf.c:551
+#: ../plug-ins/common/grid.c:724 ../plug-ins/common/svg.c:758 ../plug-ins/common/wmf.c:551
 msgid "Width:"
 msgstr "चौडाइ:"
 
@@ -4590,12 +4339,8 @@ msgid "_Generate full HTML document"
 msgstr "पूरै HTML कागजात उत्पादन गर्नुहोस्"
 
 #: ../plug-ins/common/gtm.c:458
-msgid ""
-"If checked GTM will output a full HTML document with <HTML>, <BODY>, etc. "
-"tags instead of just the table html."
-msgstr ""
-"यदि जाँचिएको HTML तालिका HTML मात्र नभएर <HTML>, <BODY>, आदि ट्यागसँग पूरै HTML "
-"कागजात प्रतिफल दिन्छ।"
+msgid "If checked GTM will output a full HTML document with <HTML>, <BODY>, etc. tags instead of just the table html."
+msgstr "यदि जाँचिएको HTML तालिका HTML मात्र नभएर <HTML>, <BODY>, आदि ट्यागसँग पूरै HTML कागजात प्रतिफल दिन्छ।"
 
 #. HTML Table Creation Options
 #: ../plug-ins/common/gtm.c:471
@@ -4607,25 +4352,16 @@ msgid "_Use cellspan"
 msgstr "सेलस्प्यान प्रयोग गर्नुहोस्"
 
 #: ../plug-ins/common/gtm.c:485
-msgid ""
-"If checked GTM will replace any rectangular sections of identically colored "
-"blocks with one large cell with ROWSPAN and COLSPAN values."
-msgstr ""
-"यदि जाँचिएको GTM ROWSPAN र COLSPAN मानहरूसँग एउटा ठूलो कक्षसँग समान रूपले रङ गरिएको "
-"खण्डहरूको कुनै आयातकार सेक्सनहरूमा बदलिन्छ।"
+msgid "If checked GTM will replace any rectangular sections of identically colored blocks with one large cell with ROWSPAN and COLSPAN values."
+msgstr "यदि जाँचिएको GTM ROWSPAN र COLSPAN मानहरूसँग एउटा ठूलो कक्षसँग समान रूपले रङ गरिएको खण्डहरूको कुनै आयातकार सेक्सनहरूमा बदलिन्छ।"
 
 #: ../plug-ins/common/gtm.c:494
 msgid "Co_mpress TD tags"
 msgstr "TD ट्यागहरू दबाउनुहोस्"
 
 #: ../plug-ins/common/gtm.c:500
-msgid ""
-"Checking this tag will cause GTM to leave no whitespace between the TD tags "
-"and the cellcontent.  This is only necessary for pixel level positioning "
-"control."
-msgstr ""
-"यो ट्याग जाँच्नुको कारण GTMले TD ट्याग र कक्ष सामाग्री बिच सेतो खाली स्थान छोड्न दिदैन। "
-"यो मात्र पिक्सेल तहको स्थान नियन्त्रण गर्नका लागि आवश्यक छ।"
+msgid "Checking this tag will cause GTM to leave no whitespace between the TD tags and the cellcontent.  This is only necessary for pixel level positioning control."
+msgstr "यो ट्याग जाँच्नुको कारण GTMले TD ट्याग र कक्ष सामाग्री बिच सेतो खाली स्थान छोड्न दिदैन। यो मात्र पिक्सेल तहको स्थान नियन्त्रण गर्नका लागि आवश्यक छ।"
 
 #: ../plug-ins/common/gtm.c:510
 msgid "C_aption"
@@ -4849,8 +4585,7 @@ msgstr "अधिकतम गहिराइ:"
 msgid "Thresho_ld:"
 msgstr "थ्रेसहोल्ड:"
 
-#: ../plug-ins/common/iwarp.c:1219 ../plug-ins/common/sinus.c:771
-#: ../plug-ins/gflare/gflare.c:2793
+#: ../plug-ins/common/iwarp.c:1219 ../plug-ins/common/sinus.c:771 ../plug-ins/gflare/gflare.c:2793
 msgid "_Settings"
 msgstr "सेटिङ"
 
@@ -4859,9 +4594,7 @@ msgid "IWarp"
 msgstr "IWarp"
 
 #: ../plug-ins/common/iwarp.c:1304
-msgid ""
-"Click and drag in the preview to define the distortions to apply to the "
-"image."
+msgid "Click and drag in the preview to define the distortions to apply to the image."
 msgstr "छविमा लागू गर्न विकृत परिभाषित गर्न पूर्वावलोकनमा तान्नुहोस् र क्लिक गर्नुहोस्।"
 
 #: ../plug-ins/common/jigsaw.c:356
@@ -5248,9 +4981,7 @@ msgid "Destination Color Range"
 msgstr "गन्तव्य रङ दायरा"
 
 #. spinbutton 2
-#: ../plug-ins/common/mapcolor.c:424 ../plug-ins/gfli/gfli.c:849
-#: ../plug-ins/gfli/gfli.c:919 ../plug-ins/rcm/rcm_dialog.c:325
-#: ../plug-ins/rcm/rcm_dialog.c:378
+#: ../plug-ins/common/mapcolor.c:424 ../plug-ins/gfli/gfli.c:849 ../plug-ins/gfli/gfli.c:919 ../plug-ins/rcm/rcm_dialog.c:325 ../plug-ins/rcm/rcm_dialog.c:378
 msgid "To:"
 msgstr "लाई:"
 
@@ -5935,8 +5666,7 @@ msgstr "फोटोकपि..."
 msgid "Photocopy"
 msgstr "फोटोकपि"
 
-#: ../plug-ins/common/photocopy.c:890 ../plug-ins/common/sharpen.c:514
-#: ../plug-ins/common/softglow.c:695
+#: ../plug-ins/common/photocopy.c:890 ../plug-ins/common/sharpen.c:514 ../plug-ins/common/softglow.c:695
 msgid "_Sharpness:"
 msgstr "तिखोपन:"
 
@@ -6038,18 +5768,15 @@ msgstr "प्लगइन ब्राउजर"
 msgid "Name"
 msgstr "नाम"
 
-#: ../plug-ins/common/plugin-browser.c:605
-#: ../plug-ins/common/plugin-browser.c:668
+#: ../plug-ins/common/plugin-browser.c:605 ../plug-ins/common/plugin-browser.c:668
 msgid "Menu Path"
 msgstr "मेनु बाटो"
 
-#: ../plug-ins/common/plugin-browser.c:613
-#: ../plug-ins/common/plugin-browser.c:677
+#: ../plug-ins/common/plugin-browser.c:613 ../plug-ins/common/plugin-browser.c:677
 msgid "Image Types"
 msgstr "छवि प्रकार:"
 
-#: ../plug-ins/common/plugin-browser.c:623
-#: ../plug-ins/common/plugin-browser.c:686
+#: ../plug-ins/common/plugin-browser.c:623 ../plug-ins/common/plugin-browser.c:686
 msgid "Installation Date"
 msgstr "स्थापना मिति"
 
@@ -6061,8 +5788,7 @@ msgstr "सूची दृश्य"
 msgid "Tree View"
 msgstr "ट्री दृश्य"
 
-#: ../plug-ins/common/png.c:261 ../plug-ins/common/png.c:282
-#: ../plug-ins/common/png.c:302 ../plug-ins/common/png.c:319
+#: ../plug-ins/common/png.c:261 ../plug-ins/common/png.c:282 ../plug-ins/common/png.c:302 ../plug-ins/common/png.c:319
 msgid "PNG image"
 msgstr "PNG छवि"
 
@@ -6083,9 +5809,7 @@ msgid "Unknown color model in PNG file '%s'."
 msgstr "PNG फाइल '%s' मा अज्ञात रङ नमूना।"
 
 #: ../plug-ins/common/png.c:868
-msgid ""
-"The PNG file specifies an offset that caused the layer to be positioned "
-"outside the image."
+msgid "The PNG file specifies an offset that caused the layer to be positioned outside the image."
 msgstr "PNG फाइलले अफसेट निर्दिष्ट गर्दछ जसले गर्दा तह छवि भन्दा बाहिरी स्थानमा रहन्छ।"
 
 #: ../plug-ins/common/png.c:1224
@@ -6161,9 +5885,8 @@ msgstr "PGM छवि"
 msgid "PPM image"
 msgstr "PPM छवि"
 
-#: ../plug-ins/common/pnm.c:513 ../plug-ins/common/pnm.c:535
-#: ../plug-ins/common/pnm.c:544 ../plug-ins/common/pnm.c:555
-#: ../plug-ins/common/pnm.c:631 ../plug-ins/common/pnm.c:692
+#: ../plug-ins/common/pnm.c:513 ../plug-ins/common/pnm.c:535 ../plug-ins/common/pnm.c:544 ../plug-ins/common/pnm.c:555 ../plug-ins/common/pnm.c:631
+#: ../plug-ins/common/pnm.c:692
 msgid "Premature end of file."
 msgstr "फाइलको असामयिक अन्त्य ।"
 
@@ -6180,7 +5903,7 @@ msgid "Invalid X resolution."
 msgstr "अवैध X रिजोल्युसन ।"
 
 #: ../plug-ins/common/pnm.c:540
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "छवि चौडा गिम्पले ह्यान्डल गर्न सक्ने भन्दा ठूलो छ ।"
 
 #: ../plug-ins/common/pnm.c:547
@@ -6188,7 +5911,7 @@ msgid "Invalid Y resolution."
 msgstr "अवैध Y रिजोल्युसन ।"
 
 #: ../plug-ins/common/pnm.c:549
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "छवि उचाइ गिम्पले ह्यान्डल गर्न सक्ने भन्दा ठूलो छ ।"
 
 #: ../plug-ins/common/pnm.c:561
@@ -6245,9 +5968,7 @@ msgid "_Map backwards"
 msgstr "मानचित्र पछाडिपट्टि"
 
 #: ../plug-ins/common/polar.c:652
-msgid ""
-"If checked the mapping will begin at the right side, as opposed to beginning "
-"at the left."
+msgid "If checked the mapping will begin at the right side, as opposed to beginning at the left."
 msgstr "यदि जाँचिएमा मानचित्राङ्कन बायाँपट्टि सुरु हुनुभन्दा दायाँ पट्टी सुरु हुन्छ।"
 
 #: ../plug-ins/common/polar.c:663
@@ -6255,24 +5976,16 @@ msgid "Map from _top"
 msgstr "मानचित्र माथिबाट"
 
 #: ../plug-ins/common/polar.c:669
-msgid ""
-"If unchecked the mapping will put the bottom row in the middle and the top "
-"row on the outside.  If checked it will be the opposite."
-msgstr ""
-"यदि नजाँचिएमा मानचित्राङ्कनले तल्लो पङ्क्ति बीचमा र माथिल्लो पङ्क्ति बाहिरपट्टी राख्दछ। "
-"यदि जाँचिएमा यसको उल्टो हुन्छ।"
+msgid "If unchecked the mapping will put the bottom row in the middle and the top row on the outside.  If checked it will be the opposite."
+msgstr "यदि नजाँचिएमा मानचित्राङ्कनले तल्लो पङ्क्ति बीचमा र माथिल्लो पङ्क्ति बाहिरपट्टी राख्दछ। यदि जाँचिएमा यसको उल्टो हुन्छ।"
 
 #: ../plug-ins/common/polar.c:681
 msgid "To _polar"
 msgstr "ध्रुवमा"
 
 #: ../plug-ins/common/polar.c:687
-msgid ""
-"If unchecked the image will be circularly mapped onto a rectangle.  If "
-"checked the image will be mapped onto a circle."
-msgstr ""
-"यदि नजाँचिएमा छवि आयात भित्र वृत्ताकार रूपमा मानचित्र बन्छ। यदि जाँचिएमा छवि वृत्त "
-"भित्र नै मानचित्र बन्छ।"
+msgid "If unchecked the image will be circularly mapped onto a rectangle.  If checked the image will be mapped onto a circle."
+msgstr "यदि नजाँचिएमा छवि आयात भित्र वृत्ताकार रूपमा मानचित्र बन्छ। यदि जाँचिएमा छवि वृत्त भित्र नै मानचित्र बन्छ।"
 
 #: ../plug-ins/common/poppler.c:282
 msgid "Portable Document Format"
@@ -6292,8 +6005,7 @@ msgstr "%s-पृष्ठहरू"
 msgid "Import from PDF"
 msgstr "PDF बाट आयात गर्नुहोस्"
 
-#: ../plug-ins/common/poppler.c:764 ../plug-ins/common/postscript.c:3081
-#: ../plug-ins/common/tiff-load.c:417
+#: ../plug-ins/common/poppler.c:764 ../plug-ins/common/postscript.c:3081 ../plug-ins/common/tiff-load.c:417
 msgid "_Import"
 msgstr "आयात गर्नुहोस्"
 
@@ -6338,14 +6050,10 @@ msgstr "पोष्टस्क्रिप्ट बचतले अल्फ�
 #: ../plug-ins/common/postscript.c:1711 ../plug-ins/common/postscript.c:1744
 #, c-format
 msgid ""
-"Error starting Ghostscript. Make sure that Ghostscript is installed and - if "
-"necessary - use the environment variable GS_PROG to tell GIMP about its "
-"location.\n"
+"Error starting Ghostscript. Make sure that Ghostscript is installed and - if necessary - use the environment variable GS_PROG to tell GIMP about its location.\n"
 "(%s)"
 msgstr ""
-"गोस्टस्क्रिप्ट सुरु गर्दा त्रुटि। गोस्टस्क्रिप्ट स्थापना भएकोमा निश्चित बनाउनुहोस् र - यदि "
-"आवश्यक परेमा - गिम्प र यसको स्थानका बारेमा भन्नका लागि वातावरणिय चल GS_PROG प्रयोग "
-"गर्नुहोस्।\n"
+"गोस्टस्क्रिप्ट सुरु गर्दा त्रुटि। गोस्टस्क्रिप्ट स्थापना भएकोमा निश्चित बनाउनुहोस् र - यदि आवश्यक परेमा - गिम्प र यसको स्थानका बारेमा भन्नका लागि वातावरणिय चल GS_PROG प्रयोग गर्नुहोस्।\n"
 "(%s)"
 
 #: ../plug-ins/common/postscript.c:1911 ../plug-ins/common/tiff-load.c:919
@@ -6353,10 +6061,8 @@ msgstr ""
 msgid "Page %d"
 msgstr "पृष्ठ %d"
 
-#: ../plug-ins/common/postscript.c:2581 ../plug-ins/common/postscript.c:2714
-#: ../plug-ins/common/postscript.c:2866 ../plug-ins/common/postscript.c:2992
-#: ../plug-ins/common/sunras.c:1484 ../plug-ins/common/sunras.c:1592
-#: ../plug-ins/fits/fits.c:831 ../plug-ins/fits/fits.c:955
+#: ../plug-ins/common/postscript.c:2581 ../plug-ins/common/postscript.c:2714 ../plug-ins/common/postscript.c:2866 ../plug-ins/common/postscript.c:2992
+#: ../plug-ins/common/sunras.c:1484 ../plug-ins/common/sunras.c:1592 ../plug-ins/fits/fits.c:831 ../plug-ins/fits/fits.c:955
 msgid "Write error occurred"
 msgstr "लेख्दा आएको त्रुटि"
 
@@ -6370,8 +6076,7 @@ msgid "Rendering"
 msgstr "रेन्डरिङ"
 
 #. Resolution
-#: ../plug-ins/common/postscript.c:3135 ../plug-ins/common/svg.c:879
-#: ../plug-ins/common/wmf.c:672
+#: ../plug-ins/common/postscript.c:3135 ../plug-ins/common/svg.c:879 ../plug-ins/common/wmf.c:672
 msgid "Resolution:"
 msgstr "रिजोल्युसन:"
 
@@ -6383,8 +6088,7 @@ msgstr "पृष्ठहरू:"
 msgid "Pages to load (e.g.: 1-4 or 1,3,5-7)"
 msgstr "पृष्ठहरू लोड गर्न (उदाहरण: १-४ वा १,३,५-७)"
 
-#: ../plug-ins/common/postscript.c:3185
-#: ../plug-ins/common/spheredesigner.c:2650
+#: ../plug-ins/common/postscript.c:3185 ../plug-ins/common/spheredesigner.c:2650
 msgid "Layers"
 msgstr "तहहरू"
 
@@ -6409,14 +6113,11 @@ msgstr "रङ गर्दै"
 msgid "B/W"
 msgstr "B/W"
 
-#: ../plug-ins/common/postscript.c:3212 ../plug-ins/imagemap/imap_menu.c:214
-#: ../plug-ins/rcm/rcm_dialog.c:419
+#: ../plug-ins/common/postscript.c:3212 ../plug-ins/imagemap/imap_menu.c:214 ../plug-ins/rcm/rcm_dialog.c:419
 msgid "Gray"
 msgstr "ग्रे"
 
-#: ../plug-ins/common/postscript.c:3213 ../plug-ins/common/xpm.c:468
-#: ../plug-ins/gimpressionist/color.c:48
-#: ../plug-ins/gimpressionist/general.c:152
+#: ../plug-ins/common/postscript.c:3213 ../plug-ins/common/xpm.c:468 ../plug-ins/gimpressionist/color.c:48 ../plug-ins/gimpressionist/general.c:152
 #: ../plug-ins/imagemap/imap_menu.c:213
 msgid "Color"
 msgstr "रङ"
@@ -6446,8 +6147,7 @@ msgid "Save as PostScript"
 msgstr "पोष्टस्क्रिप्टको रूपमा बचत गर्नुहोस्"
 
 #. Image Size
-#: ../plug-ins/common/postscript.c:3345
-#: ../plug-ins/print/print-page-layout.c:261
+#: ../plug-ins/common/postscript.c:3345 ../plug-ins/print/print-page-layout.c:261
 msgid "Image Size"
 msgstr "छवि साइज"
 
@@ -6456,12 +6156,8 @@ msgid "_Keep aspect ratio"
 msgstr "साइज औसत राख्नुहोस्"
 
 #: ../plug-ins/common/postscript.c:3400
-msgid ""
-"When toggled, the resulting image will be scaled to fit into the given size "
-"without changing the aspect ratio."
-msgstr ""
-"जब टोगल गरिन्छ, छविको परिणाम साइज अनुपात परिवर्तन बिना नै दिइएको साइजमा उपयुक्त हुने "
-"किसिमले मापन गरिन्छ।"
+msgid "When toggled, the resulting image will be scaled to fit into the given size without changing the aspect ratio."
+msgstr "जब टोगल गरिन्छ, छविको परिणाम साइज अनुपात परिवर्तन बिना नै दिइएको साइजमा उपयुक्त हुने किसिमले मापन गरिन्छ।"
 
 #. Unit
 #: ../plug-ins/common/postscript.c:3410
@@ -6572,12 +6268,8 @@ msgstr "फोटोसप छवि"
 
 #: ../plug-ins/common/psd-save.c:353
 #, c-format
-msgid ""
-"Unable to save layer with mode '%s'.  Either the PSD file format or the save "
-"plug-in does not support that, using normal mode instead."
-msgstr ""
-"मोड '%s' सँग तह बचत गर्न अक्षम । psd फाइल ढाँचाले त्यसलाई समर्थन गर्दैन, साट्टोमा सामान्य "
-"मोड प्रयोग गर्दै ।"
+msgid "Unable to save layer with mode '%s'.  Either the PSD file format or the save plug-in does not support that, using normal mode instead."
+msgstr "मोड '%s' सँग तह बचत गर्न अक्षम । psd फाइल ढाँचाले त्यसलाई समर्थन गर्दैन, साट्टोमा सामान्य मोड प्रयोग गर्दै ।"
 
 #: ../plug-ins/common/psd-save.c:608
 msgid "Error: Can't convert GIMP base imagetype to PSD mode"
@@ -6585,21 +6277,13 @@ msgstr "त्रुटि: गिम्प आधारित प्रका�
 
 #: ../plug-ins/common/psd-save.c:1525
 #, c-format
-msgid ""
-"Unable to save '%s'.  The psd file format does not support images that are "
-"more than 30000 pixels wide or tall."
-msgstr ""
-"'%s' बचत गर्न अक्षम।  पि एस डि फाइल ढाँचाले ३०००० पिक्सेल भन्दा चौडा र अग्लो "
-"छविहरूलाई समर्थन गर्दैन।"
+msgid "Unable to save '%s'.  The psd file format does not support images that are more than 30000 pixels wide or tall."
+msgstr "'%s' बचत गर्न अक्षम।  पि एस डि फाइल ढाँचाले ३०००० पिक्सेल भन्दा चौडा र अग्लो छविहरूलाई समर्थन गर्दैन।"
 
 #: ../plug-ins/common/psd-save.c:1537
 #, c-format
-msgid ""
-"Unable to save '%s'.  The psd file format does not support images with "
-"layers that are more than 30000 pixels wide or tall."
-msgstr ""
-"'%s' बचत गर्न अक्षम।  पि एस डि फाइल ढाँचाले ३०००० पिक्सेल भन्दा चौडा र अग्लो तहसँगको "
-"छविहरूलाई समर्थन गर्दैन।"
+msgid "Unable to save '%s'.  The psd file format does not support images with layers that are more than 30000 pixels wide or tall."
+msgstr "'%s' बचत गर्न अक्षम।  पि एस डि फाइल ढाँचाले ३०००० पिक्सेल भन्दा चौडा र अग्लो तहसँगको छविहरूलाई समर्थन गर्दैन।"
 
 #: ../plug-ins/common/psp.c:356 ../plug-ins/common/psp.c:380
 msgid "Paint Shop Pro image"
@@ -6931,14 +6615,12 @@ msgid "From gradient"
 msgstr "वृद्धिदर बाट"
 
 #. check button
-#: ../plug-ins/common/sample_colorize.c:1399
-#: ../plug-ins/common/sample_colorize.c:1426
+#: ../plug-ins/common/sample_colorize.c:1399 ../plug-ins/common/sample_colorize.c:1426
 msgid "Show selection"
 msgstr "चयन देखाउनुहोस्"
 
 #. check button
-#: ../plug-ins/common/sample_colorize.c:1410
-#: ../plug-ins/common/sample_colorize.c:1437
+#: ../plug-ins/common/sample_colorize.c:1410 ../plug-ins/common/sample_colorize.c:1437
 msgid "Show color"
 msgstr "रङ देखाउनुहोस्"
 
@@ -7210,8 +6892,7 @@ msgstr "आदर्श"
 msgid "_Distorted"
 msgstr "क्रमबद्ध नगरिएको"
 
-#: ../plug-ins/common/sinus.c:782 ../plug-ins/common/sinus.c:798
-#: ../plug-ins/imagemap/imap_preferences.c:422
+#: ../plug-ins/common/sinus.c:782 ../plug-ins/common/sinus.c:798 ../plug-ins/imagemap/imap_preferences.c:422
 msgid "Colors"
 msgstr "रङहरू"
 
@@ -7515,8 +7196,7 @@ msgstr "अग्रभूमी रङ प्रयोग गर्नुहो
 msgid "Use the background color"
 msgstr "पृष्ठभूमि रङ प्रयोग गर्नुहोस्"
 
-#: ../plug-ins/common/spheredesigner.c:291
-#: ../plug-ins/gimpressionist/general.c:148
+#: ../plug-ins/common/spheredesigner.c:291 ../plug-ins/gimpressionist/general.c:148
 msgid "Solid"
 msgstr "ठोस"
 
@@ -7552,8 +7232,7 @@ msgstr "चक्राकार"
 msgid "Spots"
 msgstr "दागहरू"
 
-#: ../plug-ins/common/spheredesigner.c:1750
-#: ../plug-ins/common/spheredesigner.c:2697
+#: ../plug-ins/common/spheredesigner.c:1750 ../plug-ins/common/spheredesigner.c:2697
 msgid "Texture"
 msgstr "वनावट"
 
@@ -7561,8 +7240,7 @@ msgstr "वनावट"
 msgid "Bumpmap"
 msgstr "बम्पमानचित्र"
 
-#: ../plug-ins/common/spheredesigner.c:1754
-#: ../plug-ins/common/spheredesigner.c:2699
+#: ../plug-ins/common/spheredesigner.c:1754 ../plug-ins/common/spheredesigner.c:2699
 msgid "Light"
 msgstr "हल्का"
 
@@ -7599,15 +7277,12 @@ msgstr "बनावट:"
 msgid "Colors:"
 msgstr "रङहरू:"
 
-#: ../plug-ins/common/spheredesigner.c:2733
-#: ../plug-ins/common/spheredesigner.c:2744
+#: ../plug-ins/common/spheredesigner.c:2733 ../plug-ins/common/spheredesigner.c:2744
 msgid "Color Selection Dialog"
 msgstr "रङ चयन संवाद"
 
 #. Scale
-#: ../plug-ins/common/spheredesigner.c:2755
-#: ../plug-ins/gimpressionist/paper.c:176
-#: ../plug-ins/ifscompose/ifscompose.c:553
+#: ../plug-ins/common/spheredesigner.c:2755 ../plug-ins/gimpressionist/paper.c:176 ../plug-ins/ifscompose/ifscompose.c:553
 msgid "Scale:"
 msgstr "मापन:"
 
@@ -7749,8 +7424,7 @@ msgstr "'%s' बाट रङ प्रविष्टिहरू गर्न 
 msgid "Type of colormap not supported"
 msgstr "रङ मानचित्र जस्तो प्रकारले समर्थन गरेन"
 
-#: ../plug-ins/common/sunras.c:439 ../plug-ins/common/xbm.c:810
-#: ../plug-ins/common/xwd.c:475
+#: ../plug-ins/common/sunras.c:439 ../plug-ins/common/xbm.c:810 ../plug-ins/common/xwd.c:475
 #, c-format
 msgid ""
 "'%s':\n"
@@ -7759,18 +7433,16 @@ msgstr ""
 "'%s':\n"
 "छविको चौडाइ निर्दिष्ट गरिएको छैन"
 
-#: ../plug-ins/common/sunras.c:447 ../plug-ins/common/xbm.c:817
-#: ../plug-ins/common/xwd.c:484
+#: ../plug-ins/common/sunras.c:447 ../plug-ins/common/xbm.c:817 ../plug-ins/common/xwd.c:484
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "छवि चौडा गिम्पले ह्यान्डल गर्न सक्ने भन्दा ठूला छन्"
 
-#: ../plug-ins/common/sunras.c:455 ../plug-ins/common/xbm.c:824
-#: ../plug-ins/common/xwd.c:492
+#: ../plug-ins/common/sunras.c:455 ../plug-ins/common/xbm.c:824 ../plug-ins/common/xwd.c:492
 #, c-format
 msgid ""
 "'%s':\n"
@@ -7779,12 +7451,11 @@ msgstr ""
 "'%s':\n"
 "छविको उचाइ निर्दिष्ट गरिएको छैन"
 
-#: ../plug-ins/common/sunras.c:463 ../plug-ins/common/xbm.c:831
-#: ../plug-ins/common/xwd.c:500
+#: ../plug-ins/common/sunras.c:463 ../plug-ins/common/xbm.c:831 ../plug-ins/common/xwd.c:500
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "छवि उचाइ गिम्पले ह्यान्डल गर्न सक्ने भन्दा ठूला छन्"
@@ -7801,11 +7472,8 @@ msgstr "SUNRAS बचतले अल्फा च्यानलहरूसँ
 msgid "Can't operate on unknown image types"
 msgstr "अज्ञात छवि प्रकारहरूमा सञ्चालन हुन सकेन"
 
-#: ../plug-ins/common/sunras.c:1062 ../plug-ins/common/sunras.c:1153
-#: ../plug-ins/common/sunras.c:1234 ../plug-ins/common/sunras.c:1329
-#: ../plug-ins/common/xwd.c:1332 ../plug-ins/common/xwd.c:1433
-#: ../plug-ins/common/xwd.c:1591 ../plug-ins/common/xwd.c:1791
-#: ../plug-ins/common/xwd.c:2048 ../plug-ins/fits/fits.c:678
+#: ../plug-ins/common/sunras.c:1062 ../plug-ins/common/sunras.c:1153 ../plug-ins/common/sunras.c:1234 ../plug-ins/common/sunras.c:1329 ../plug-ins/common/xwd.c:1332
+#: ../plug-ins/common/xwd.c:1433 ../plug-ins/common/xwd.c:1591 ../plug-ins/common/xwd.c:1791 ../plug-ins/common/xwd.c:2048 ../plug-ins/fits/fits.c:678
 msgid "EOF encountered on reading"
 msgstr "EOF पठनमा भेटिन्छ"
 
@@ -7872,8 +7540,7 @@ msgstr "Y अनुपात:"
 msgid "Constrain aspect ratio"
 msgstr "साइज अनुपात सम्हाल्नुहोस्"
 
-#: ../plug-ins/common/svg.c:885 ../plug-ins/common/wmf.c:678
-#: ../plug-ins/print/print-page-layout.c:315
+#: ../plug-ins/common/svg.c:885 ../plug-ins/common/wmf.c:678 ../plug-ins/print/print-page-layout.c:315
 #, c-format
 msgid "pixels/%a"
 msgstr "पिक्सेल/%a"
@@ -7947,8 +7614,7 @@ msgstr "थ्रेसहोल्ड अल्फा"
 msgid "Threshold:"
 msgstr "थ्रेसहोल्ड:"
 
-#: ../plug-ins/common/tiff-load.c:222 ../plug-ins/common/tiff-save.c:165
-#: ../plug-ins/common/tiff-save.c:182
+#: ../plug-ins/common/tiff-load.c:222 ../plug-ins/common/tiff-save.c:165 ../plug-ins/common/tiff-save.c:182
 msgid "TIFF image"
 msgstr "TIFF छवि"
 
@@ -7968,13 +7634,11 @@ msgstr "TIFF च्यानल"
 #: ../plug-ins/common/tiff-load.c:944
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
-"bit, so it will be converted for you. Information will be lost because of "
-"this conversion."
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 bit, so it will be converted for you. Information will be lost because of this "
+"conversion."
 msgstr ""
 "चेतावनी:\n"
-"तपाईँले लोड गरी राख्नु भएको छविमा प्रति च्यानल १६ बिट छ। गिम्पले मात्र ८ बिट ह्यान्डल "
-"गर्न सक्छ, यसैले तपाईँका लागि परिवर्तन गरिदिन्छ। यस्तो परिवर्तनले सूचनाहरू हराउन सक्छ।"
+"तपाईँले लोड गरी राख्नु भएको छविमा प्रति च्यानल १६ बिट छ। गिम्पले मात्र ८ बिट ह्यान्डल गर्न सक्छ, यसैले तपाईँका लागि परिवर्तन गरिदिन्छ। यस्तो परिवर्तनले सूचनाहरू हराउन सक्छ।"
 
 #: ../plug-ins/common/tiff-save.c:853
 msgid ""
@@ -8123,9 +7787,7 @@ msgid "Saved"
 msgstr "बचत गरियो"
 
 #: ../plug-ins/common/uniteditor.c:94
-msgid ""
-"A unit definition will only be saved before GIMP exits if this column is "
-"checked."
+msgid "A unit definition will only be saved before GIMP exits if this column is checked."
 msgstr "यदि यो स्तम्भ जाँचिएको छ भने एकाइ परिभाषा गिम्प बन्द हुनु भन्दा अगाडि मात्र बचत गरिन्छ।"
 
 #: ../plug-ins/common/uniteditor.c:96
@@ -8150,25 +7812,17 @@ msgstr "अङ्कहरू"
 
 #: ../plug-ins/common/uniteditor.c:99
 msgid ""
-"This field is a hint for numerical input fields. It specifies how many "
-"decimal digits the input field should provide to get approximately the same "
-"accuracy as an \"inch\" input field with two decimal digits."
-msgstr ""
-"यो क्षेत्र सङ्ख्यात्मक निवेश क्षेत्रका लागि सङ्केत हो। यसले निवेश क्षेत्रले दुई वटा बिन्दु सङ्ख्या "
-"भएको \"ईन्च\" निवेश क्षेत्र जस्तै यथार्थता लिनलाई कतिवटा बिन्दु सङ्ख्या दिनुपर्छ, निर्दिष्ट "
-"गर्दछ।"
+"This field is a hint for numerical input fields. It specifies how many decimal digits the input field should provide to get approximately the same accuracy as an "
+"\"inch\" input field with two decimal digits."
+msgstr "यो क्षेत्र सङ्ख्यात्मक निवेश क्षेत्रका लागि सङ्केत हो। यसले निवेश क्षेत्रले दुई वटा बिन्दु सङ्ख्या भएको \"ईन्च\" निवेश क्षेत्र जस्तै यथार्थता लिनलाई कतिवटा बिन्दु सङ्ख्या दिनुपर्छ, निर्दिष्ट गर्दछ।"
 
 #: ../plug-ins/common/uniteditor.c:104
 msgid "Symbol"
 msgstr "प्रतिक"
 
 #: ../plug-ins/common/uniteditor.c:104
-msgid ""
-"The unit's symbol if it has one (e.g. \"'\" for inches). The unit's "
-"abbreviation is used if doesn't have a symbol."
-msgstr ""
-"एकाइको चिन्ह यदि त्यससँग एउटा छ (उदाहरण \"'\" ईन्चहरूका लागि)। यदि चिन्ह छैन भने "
-"एकाइको संक्षेप प्रयोग गरिन्छ।"
+msgid "The unit's symbol if it has one (e.g. \"'\" for inches). The unit's abbreviation is used if doesn't have a symbol."
+msgstr "एकाइको चिन्ह यदि त्यससँग एउटा छ (उदाहरण \"'\" ईन्चहरूका लागि)। यदि चिन्ह छैन भने एकाइको संक्षेप प्रयोग गरिन्छ।"
 
 #: ../plug-ins/common/uniteditor.c:107
 msgid "Abbreviation"
@@ -8483,8 +8137,7 @@ msgstr "बेर्नुहोस्"
 msgid "Smear"
 msgstr "दाग"
 
-#: ../plug-ins/common/warp.c:502 ../plug-ins/fits/fits.c:1002
-#: ../plug-ins/flame/flame.c:1151 ../plug-ins/gfig/gfig-dialog.c:1460
+#: ../plug-ins/common/warp.c:502 ../plug-ins/fits/fits.c:1002 ../plug-ins/flame/flame.c:1151 ../plug-ins/gfig/gfig-dialog.c:1460
 msgid "Black"
 msgstr "कालो"
 
@@ -8775,16 +8428,13 @@ msgstr ""
 #. The image is not black-and-white.
 #: ../plug-ins/common/xbm.c:980
 msgid ""
-"The image which you are trying to save as an XBM contains more than two "
-"colors.\n"
+"The image which you are trying to save as an XBM contains more than two colors.\n"
 "\n"
 "Please convert it to a black and white (1-bit) indexed image and try again."
 msgstr ""
-"तपाईँले XBM को रूपमा बचत गर्न कोशिश गरिराख्नु भएको छविमा दुई भन्दा बढी रङहरू समावेश "
-"छ।\n"
+"तपाईँले XBM को रूपमा बचत गर्न कोशिश गरिराख्नु भएको छविमा दुई भन्दा बढी रङहरू समावेश छ।\n"
 "\n"
-"कृपया त्यसलाई कालो र सेतो (१-बिट) अनुक्रमण गरिएको छविमा उल्टाउनुहोस् र पुन:कोशिश "
-"गर्नुहोस्।"
+"कृपया त्यसलाई कालो र सेतो (१-बिट) अनुक्रमण गरिएको छविमा उल्टाउनुहोस् र पुन:कोशिश गर्नुहोस्।"
 
 #: ../plug-ins/common/xbm.c:991
 msgid ""
@@ -8874,9 +8524,7 @@ msgstr "रङ प्रविष्टहरू पढ्न सकिँदै
 
 #: ../plug-ins/common/xwd.c:555
 #, c-format
-msgid ""
-"XWD-file %s has format %d, depth %d and bits per pixel %d. Currently this is "
-"not supported."
+msgid "XWD-file %s has format %d, depth %d and bits per pixel %d. Currently this is not supported."
 msgstr "XWD- फाइल %sसँग ढाँचा %d, गहिराइ %d र प्रति पिक्सेल विटहरू %d छ। हाल यो समर्थन गर्दैन।"
 
 #: ../plug-ins/common/xwd.c:578
@@ -8935,8 +8583,7 @@ msgstr "FITS फाइल लोड गर्नुहोस्"
 msgid "Replacement for undefined pixels"
 msgstr "अपरिभाषित पिक्सेलका लागि विस्थापन"
 
-#: ../plug-ins/fits/fits.c:1003 ../plug-ins/gfig/gfig-dialog.c:1286
-#: ../plug-ins/gfig/gfig-dialog.c:1461
+#: ../plug-ins/fits/fits.c:1003 ../plug-ins/gfig/gfig-dialog.c:1286 ../plug-ins/gfig/gfig-dialog.c:1461
 msgid "White"
 msgstr "सेतो"
 
@@ -8997,8 +8644,7 @@ msgstr "अनियमित तवरले"
 msgid "Same"
 msgstr "उस्तै"
 
-#: ../plug-ins/flame/flame.c:745 ../plug-ins/gimpressionist/orientation.c:146
-#: ../plug-ins/gimpressionist/size.c:149
+#: ../plug-ins/flame/flame.c:745 ../plug-ins/gimpressionist/orientation.c:146 ../plug-ins/gimpressionist/size.c:149
 msgid "Random"
 msgstr "अनियमित"
 
@@ -9269,8 +8915,7 @@ msgstr "नियन्त्रण बिन्दुहरू देखाउ�
 msgid "Max undo:"
 msgstr "अधिक पूर्वस्थितिमा फर्काउनुहोस्:"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1283
-#: ../plug-ins/gimpressionist/general.c:167
+#: ../plug-ins/gfig/gfig-dialog.c:1283 ../plug-ins/gimpressionist/general.c:167
 msgid "Transparent"
 msgstr "पारदर्शी"
 
@@ -9278,19 +8923,13 @@ msgstr "पारदर्शी"
 msgid "Foreground"
 msgstr "अग्रभूमि"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1287 ../plug-ins/imagemap/imap_cmd_copy.c:54
-#: ../plug-ins/imagemap/imap_cmd_copy_object.c:55
-#: ../plug-ins/imagemap/imap_menu.c:160
+#: ../plug-ins/gfig/gfig-dialog.c:1287 ../plug-ins/imagemap/imap_cmd_copy.c:54 ../plug-ins/imagemap/imap_cmd_copy_object.c:55 ../plug-ins/imagemap/imap_menu.c:160
 msgid "Copy"
 msgstr "प्रतिलपि गर्नुहोस्"
 
 #: ../plug-ins/gfig/gfig-dialog.c:1296
-msgid ""
-"Layer background type. Copy causes the previous layer to be copied before "
-"the draw is performed."
-msgstr ""
-"तह पृष्ठभूमि प्रकार। प्रतिलपिले रेखाङ्कन पूरा हुनु भन्दा पहिले अघिल्लो तहलाई प्रतिलपि "
-"गराउँदछ।"
+msgid "Layer background type. Copy causes the previous layer to be copied before the draw is performed."
+msgstr "तह पृष्ठभूमि प्रकार। प्रतिलपिले रेखाङ्कन पूरा हुनु भन्दा पहिले अघिल्लो तहलाई प्रतिलपि गराउँदछ।"
 
 #: ../plug-ins/gfig/gfig-dialog.c:1302
 msgid "Background:"
@@ -9364,8 +9003,7 @@ msgstr "दायाँ"
 msgid "Left"
 msgstr "बायाँ"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1718
-#: ../plug-ins/gimpressionist/orientation.c:130
+#: ../plug-ins/gfig/gfig-dialog.c:1718 ../plug-ins/gimpressionist/orientation.c:130
 msgid "Orientation:"
 msgstr "अभिमुखिकरण:"
 
@@ -9416,9 +9054,7 @@ msgstr "Gfig..."
 
 #: ../plug-ins/gfig/gfig.c:731
 msgid "Error trying to save figure as a parasite: can't attach parasite to drawable."
-msgstr ""
-"पारासाइटको रूपमा आकृति बचत गर्न प्रयास गर्दा त्रुटि: पारासाइट चित्राङ्कन गर्न योग्य "
-"संलग्र गर्न सकिँदैन।"
+msgstr "पारासाइटको रूपमा आकृति बचत गर्न प्रयास गर्दा त्रुटि: पारासाइट चित्राङ्कन गर्न योग्य संलग्र गर्न सकिँदैन।"
 
 #: ../plug-ins/gfig/gfig.c:758
 #, c-format
@@ -9470,11 +9106,9 @@ msgid ""
 "(gflare-path \"%s\")\n"
 "and make a folder '%s', then you can save your own GFlares into that folder."
 msgstr ""
-"ग्रेडियन्ट फ्लेयर '%s' बचत गरिएको छैन। यदि तपाईँले '%s' मा नयाँ प्रविष्टि थप्नु भयोभने, "
-"जस्तै:\n"
+"ग्रेडियन्ट फ्लेयर '%s' बचत गरिएको छैन। यदि तपाईँले '%s' मा नयाँ प्रविष्टि थप्नु भयोभने, जस्तै:\n"
 "(ग्रेडियन्ट फ्लेयर-बाटो \"%s\")\n"
-"र फोल्डर '%s' बनाउनु भयो भने, तपाईँले आफ्नै ग्रेडियन्टग्रेडियन्ट त्यस फोल्डरमा बचत गर्न "
-"सक्नुहुन्छ।"
+"र फोल्डर '%s' बनाउनु भयो भने, तपाईँले आफ्नै ग्रेडियन्टग्रेडियन्ट त्यस फोल्डरमा बचत गर्न सक्नुहुन्छ।"
 
 #: ../plug-ins/gflare/gflare.c:1475
 #, c-format
@@ -9499,8 +9133,7 @@ msgstr "पूर्वनिर्धारित"
 #.
 #. *    Scales
 #.
-#: ../plug-ins/gflare/gflare.c:2671 ../plug-ins/gflare/gflare.c:3508
-#: ../plug-ins/gflare/gflare.c:3613 ../plug-ins/gflare/gflare.c:3750
+#: ../plug-ins/gflare/gflare.c:2671 ../plug-ins/gflare/gflare.c:3508 ../plug-ins/gflare/gflare.c:3613 ../plug-ins/gflare/gflare.c:3750
 msgid "Parameters"
 msgstr "परिमिति"
 
@@ -9588,13 +9221,11 @@ msgstr "ग्रेडियन्ट पुन: स्क्यान गर�
 msgid "Glow Paint Options"
 msgstr "रङ लगाउने विकल्पहरू चम्काउनुहोस्"
 
-#: ../plug-ins/gflare/gflare.c:3383 ../plug-ins/gflare/gflare.c:3411
-#: ../plug-ins/gflare/gflare.c:3439
+#: ../plug-ins/gflare/gflare.c:3383 ../plug-ins/gflare/gflare.c:3411 ../plug-ins/gflare/gflare.c:3439
 msgid "Opacity:"
 msgstr "अस्पष्टता:"
 
-#: ../plug-ins/gflare/gflare.c:3396 ../plug-ins/gflare/gflare.c:3424
-#: ../plug-ins/gflare/gflare.c:3452
+#: ../plug-ins/gflare/gflare.c:3396 ../plug-ins/gflare/gflare.c:3424 ../plug-ins/gflare/gflare.c:3452
 msgid "Paint mode:"
 msgstr "चित्रण मोड:"
 
@@ -9615,13 +9246,11 @@ msgstr "साधारण"
 #.
 #. *  Gradient Menus
 #.
-#: ../plug-ins/gflare/gflare.c:3481 ../plug-ins/gflare/gflare.c:3584
-#: ../plug-ins/gflare/gflare.c:3723
+#: ../plug-ins/gflare/gflare.c:3481 ../plug-ins/gflare/gflare.c:3584 ../plug-ins/gflare/gflare.c:3723
 msgid "Gradients"
 msgstr "ग्रेडियन्टहरू"
 
-#: ../plug-ins/gflare/gflare.c:3492 ../plug-ins/gflare/gflare.c:3597
-#: ../plug-ins/gflare/gflare.c:3734
+#: ../plug-ins/gflare/gflare.c:3492 ../plug-ins/gflare/gflare.c:3597 ../plug-ins/gflare/gflare.c:3734
 msgid "Radial gradient:"
 msgstr "ग्रेडियन्ट फेरि डायल गर्नुहोस्:"
 
@@ -9633,18 +9262,15 @@ msgstr "कोणिय ग्रेडियन्ट:"
 msgid "Angular size gradient:"
 msgstr "कोणिय साइज ग्रेडियन्ट:"
 
-#: ../plug-ins/gflare/gflare.c:3520 ../plug-ins/gflare/gflare.c:3625
-#: ../plug-ins/gflare/gflare.c:3762
+#: ../plug-ins/gflare/gflare.c:3520 ../plug-ins/gflare/gflare.c:3625 ../plug-ins/gflare/gflare.c:3762
 msgid "Size (%):"
 msgstr "साइज (%):"
 
-#: ../plug-ins/gflare/gflare.c:3532 ../plug-ins/gflare/gflare.c:3637
-#: ../plug-ins/gflare/gflare.c:3774
+#: ../plug-ins/gflare/gflare.c:3532 ../plug-ins/gflare/gflare.c:3637 ../plug-ins/gflare/gflare.c:3774
 msgid "Rotation:"
 msgstr "परिक्रमण:"
 
-#: ../plug-ins/gflare/gflare.c:3544 ../plug-ins/gflare/gflare.c:3650
-#: ../plug-ins/gflare/gflare.c:3787
+#: ../plug-ins/gflare/gflare.c:3544 ../plug-ins/gflare/gflare.c:3650 ../plug-ins/gflare/gflare.c:3787
 msgid "Hue rotation:"
 msgstr "ह्यु परिक्रमण:"
 
@@ -9748,13 +9374,11 @@ msgstr "आकार अनुपात:"
 msgid "Specifies the aspect ratio of the brush"
 msgstr "ब्रुसको साइज अनुपात निर्दिष्ट गर्नुहोस्"
 
-#: ../plug-ins/gimpressionist/brush.c:595
-#: ../plug-ins/gimpressionist/paper.c:188
+#: ../plug-ins/gimpressionist/brush.c:595 ../plug-ins/gimpressionist/paper.c:188
 msgid "Relief:"
 msgstr "आराम:"
 
-#: ../plug-ins/gimpressionist/brush.c:599
-#: ../plug-ins/gimpressionist/paper.c:192
+#: ../plug-ins/gimpressionist/brush.c:599 ../plug-ins/gimpressionist/paper.c:192
 msgid "Specifies the amount of embossing to apply to the image (in percent)"
 msgstr "छवि (प्रतिशतमा)मा प्रयोग गर्न बुट्टा काट्ने परिमाण निर्दिष्ट गर्दछ"
 
@@ -9880,7 +9504,8 @@ msgid "Performs various artistic operations"
 msgstr "विभिन्न कलात्मक सञ्चालनहरू कार्यसम्पादन गर्दछ"
 
 #: ../plug-ins/gimpressionist/gimp.c:79
-msgid "_GIMPressionist..."
+#, fuzzy
+msgid "_Impressionist..."
 msgstr "गिम्प रेस्सिनिस्ट..."
 
 #: ../plug-ins/gimpressionist/gimp.c:350
@@ -9888,7 +9513,8 @@ msgid "Painting"
 msgstr "चित्र"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:121
-msgid "GIMPressionist"
+#, fuzzy
+msgid "Impressionist"
 msgstr "गिम्प रेस्सिनिस्ट"
 
 #: ../plug-ins/gimpressionist/orientation.c:74
@@ -9920,28 +9546,22 @@ msgid "The angle span of the first brush to create"
 msgstr "पहिलो ब्रुस सिर्जना गर्न कोण स्पान"
 
 #: ../plug-ins/gimpressionist/orientation.c:139
-msgid ""
-"Let the value (brightness) of the region determine the direction of the "
-"stroke"
+msgid "Let the value (brightness) of the region determine the direction of the stroke"
 msgstr "मानौ क्षेत्रको मान (चम्किलोपन) ले स्ट्रोकको दिशा निर्धारण गर्दछ"
 
-#: ../plug-ins/gimpressionist/orientation.c:142
-#: ../plug-ins/gimpressionist/size.c:145
+#: ../plug-ins/gimpressionist/orientation.c:142 ../plug-ins/gimpressionist/size.c:145
 msgid "Radius"
 msgstr "अर्धव्यास"
 
 #: ../plug-ins/gimpressionist/orientation.c:143
-msgid ""
-"The distance from the center of the image determines the direction of the "
-"stroke"
+msgid "The distance from the center of the image determines the direction of the stroke"
 msgstr "छविको केन्द्रबाटको दुरीले स्ट्रोकको दिशा निर्धारण गर्दछ"
 
 #: ../plug-ins/gimpressionist/orientation.c:147
 msgid "Selects a random direction of each stroke"
 msgstr "हरेक स्ट्रोकको अनियमित दिशा चयन गर्दछ"
 
-#: ../plug-ins/gimpressionist/orientation.c:150
-#: ../plug-ins/gimpressionist/size.c:153
+#: ../plug-ins/gimpressionist/orientation.c:150 ../plug-ins/gimpressionist/size.c:153
 msgid "Radial"
 msgstr "अर्धव्यास"
 
@@ -9949,13 +9569,11 @@ msgstr "अर्धव्यास"
 msgid "Let the direction from the center determine the direction of the stroke"
 msgstr "मानौ केन्द्रबाटको दुरीले स्ट्रोकको दिशा निर्धारण गर्दछ"
 
-#: ../plug-ins/gimpressionist/orientation.c:158
-#: ../plug-ins/gimpressionist/size.c:161
+#: ../plug-ins/gimpressionist/orientation.c:158 ../plug-ins/gimpressionist/size.c:161
 msgid "Flowing"
 msgstr "प्रवाहित"
 
-#: ../plug-ins/gimpressionist/orientation.c:159
-#: ../plug-ins/gimpressionist/size.c:162
+#: ../plug-ins/gimpressionist/orientation.c:159 ../plug-ins/gimpressionist/size.c:162
 msgid "The strokes follow a \"flowing\" pattern"
 msgstr "स्ट्रोकहरूले \"बगाई\" शैलीको अनुशरण गर्दछ"
 
@@ -9963,8 +9581,7 @@ msgstr "स्ट्रोकहरूले \"बगाई\" शैलीको
 msgid "The hue of the region determines the direction of the stroke"
 msgstr "क्षेत्रको रङले स्ट्रोकको दिशा निर्धारण गर्दछ"
 
-#: ../plug-ins/gimpressionist/orientation.c:166
-#: ../plug-ins/gimpressionist/size.c:169
+#: ../plug-ins/gimpressionist/orientation.c:166 ../plug-ins/gimpressionist/size.c:169
 msgid "Adaptive"
 msgstr "अनुकूल"
 
@@ -9972,8 +9589,7 @@ msgstr "अनुकूल"
 msgid "The direction that matches the original image the closest is selected"
 msgstr "दिशा जुन वास्तविक छविसँग मिल्दछ, नजिकको चयन गरियो।"
 
-#: ../plug-ins/gimpressionist/orientation.c:174
-#: ../plug-ins/gimpressionist/size.c:178
+#: ../plug-ins/gimpressionist/orientation.c:174 ../plug-ins/gimpressionist/size.c:178
 msgid "Manual"
 msgstr "म्यानुअल"
 
@@ -9994,15 +9610,10 @@ msgid "Vectors"
 msgstr "भेक्टरहरू"
 
 #: ../plug-ins/gimpressionist/orientmap.c:549
-msgid ""
-"The vector-field. Left-click to move selected vector, Right-click to point "
-"it towards mouse, Middle-click to add a new vector."
-msgstr ""
-"भेक्टर-क्षेत्रमा बायाँ-क्लिकले चयन गरिको भेक्टर सार्छ, दायाँ-क्लिकले माउससँगै त्यसलाई तोक्छ, "
-"विच-क्लिक नयाँ भेक्टर थप्न प्रयोग गर्दछ।"
+msgid "The vector-field. Left-click to move selected vector, Right-click to point it towards mouse, Middle-click to add a new vector."
+msgstr "भेक्टर-क्षेत्रमा बायाँ-क्लिकले चयन गरिको भेक्टर सार्छ, दायाँ-क्लिकले माउससँगै त्यसलाई तोक्छ, विच-क्लिक नयाँ भेक्टर थप्न प्रयोग गर्दछ।"
 
-#: ../plug-ins/gimpressionist/orientmap.c:572
-#: ../plug-ins/gimpressionist/sizemap.c:441
+#: ../plug-ins/gimpressionist/orientmap.c:572 ../plug-ins/gimpressionist/sizemap.c:441
 msgid "Adjust the preview's brightness"
 msgstr "पूर्वावलोकनको चम्किलोपन समायोजन गर्नुहोस्"
 
@@ -10014,8 +9625,7 @@ msgstr "अघिल्लो भेक्टर चयन गर्नुहो
 msgid "Select next vector"
 msgstr "पछिल्लो भेक्टर चयन गर्नुहोस्"
 
-#: ../plug-ins/gimpressionist/orientmap.c:602
-#: ../plug-ins/gimpressionist/sizemap.c:472
+#: ../plug-ins/gimpressionist/orientmap.c:602 ../plug-ins/gimpressionist/sizemap.c:472
 msgid "A_dd"
 msgstr "थप्नुहोस्"
 
@@ -10023,8 +9633,7 @@ msgstr "थप्नुहोस्"
 msgid "Add new vector"
 msgstr "नयाँ भेक्टर थप्नुहोस्"
 
-#: ../plug-ins/gimpressionist/orientmap.c:608
-#: ../plug-ins/gimpressionist/sizemap.c:479
+#: ../plug-ins/gimpressionist/orientmap.c:608 ../plug-ins/gimpressionist/sizemap.c:479
 msgid "_Kill"
 msgstr "नष्ट गर्नुहोस्"
 
@@ -10052,15 +9661,12 @@ msgstr "भुमरि २"
 msgid "Vortex_3"
 msgstr "भुमरि ३"
 
-#: ../plug-ins/gimpressionist/orientmap.c:636
-#: ../plug-ins/gimpressionist/sizemap.c:524
+#: ../plug-ins/gimpressionist/orientmap.c:636 ../plug-ins/gimpressionist/sizemap.c:524
 msgid "_Voronoi"
 msgstr "भोरोनोइ"
 
 #: ../plug-ins/gimpressionist/orientmap.c:644
-msgid ""
-"Voronoi-mode makes only the vector closest to the given point have any "
-"influence"
+msgid "Voronoi-mode makes only the vector closest to the given point have any influence"
 msgstr "भोरोनोई-शैलीले दिइएको बिन्दुबाट नजिकैको भेक्टरलाई कुनै प्रभाव पर्ने बनाउँदछ।"
 
 #: ../plug-ins/gimpressionist/orientmap.c:654
@@ -10087,8 +9693,7 @@ msgstr "चयन गरिको भेक्टरको शक्ति प�
 msgid "S_trength exp.:"
 msgstr "शक्ति exp.:"
 
-#: ../plug-ins/gimpressionist/orientmap.c:691
-#: ../plug-ins/gimpressionist/sizemap.c:519
+#: ../plug-ins/gimpressionist/orientmap.c:691 ../plug-ins/gimpressionist/sizemap.c:519
 msgid "Change the exponent of the strength"
 msgstr "शक्तिको घाताङ्क परिवर्तन गर्नुहोस्"
 
@@ -10166,7 +9771,8 @@ msgid "Save Current"
 msgstr "हालको बचत गर्नुहोस्"
 
 #: ../plug-ins/gimpressionist/presets.c:874
-msgid "Gimpressionist Defaults"
+#, fuzzy
+msgid "Impressionist Defaults"
 msgstr "गिमप्रेसोनिष्ट पूर्वनिर्धारितहरू"
 
 #: ../plug-ins/gimpressionist/presets.c:995
@@ -10274,12 +9880,8 @@ msgid "Smvectors"
 msgstr "Smvectors"
 
 #: ../plug-ins/gimpressionist/sizemap.c:421
-msgid ""
-"The smvector-field. Left-click to move selected smvector, Right-click to "
-"point it towards mouse, Middle-click to add a new smvector."
-msgstr ""
-"smvector-क्षेत्र। चयन गरिको smvector सार्न बायाँ-क्लिक, दायाँ-क्लिकले माउससँगै त्यसलाई "
-"तोक्छ, नयाँ smvector थप्न बिच-क्लिक।"
+msgid "The smvector-field. Left-click to move selected smvector, Right-click to point it towards mouse, Middle-click to add a new smvector."
+msgstr "smvector-क्षेत्र। चयन गरिको smvector सार्न बायाँ-क्लिक, दायाँ-क्लिकले माउससँगै त्यसलाई तोक्छ, नयाँ smvector थप्न बिच-क्लिक।"
 
 #: ../plug-ins/gimpressionist/sizemap.c:463
 msgid "Select previous smvector"
@@ -10314,25 +9916,19 @@ msgid "St_rength exp.:"
 msgstr "शक्ति exp:"
 
 #: ../plug-ins/gimpressionist/sizemap.c:531
-msgid ""
-"Voronoi-mode makes only the smvector closest to the given point have any "
-"influence"
+msgid "Voronoi-mode makes only the smvector closest to the given point have any influence"
 msgstr "भोरोनोई-शैलीले दिइएको बिन्दुबाट नजिकैको smvector लाई कुनै प्रभाव पर्ने बनाउँदछ।"
 
 #: ../plug-ins/help/gimphelpdomain.c:178
-msgid "The GIMP help files are not found."
+msgid "The Glimpse help files are not found."
 msgstr "गिम्प मद्दत फाइलहरू फेला परेन।"
 
 #: ../plug-ins/help/gimphelpdomain.c:179
-msgid ""
-"Please install the additional help package or use the online user manual at "
-"http://docs.gimp.org/."
-msgstr ""
-"कृपया http://docs.gimp.org/. मा अनलाइन प्रयोगकर्ता म्यानुअल प्रयोग गर्नुहोस् वा थप "
-"मद्दत प्याकेजहरू स्थापना गर्नुहोस्।"
+msgid "Please install the additional help package or use the online user manual at http://docs.gimp.org/."
+msgstr "कृपया http://docs.gimp.org/. मा अनलाइन प्रयोगकर्ता म्यानुअल प्रयोग गर्नुहोस् वा थप मद्दत प्याकेजहरू स्थापना गर्नुहोस्।"
 
 #: ../plug-ins/help/gimphelpdomain.c:185
-msgid "There is a problem with the GIMP help files."
+msgid "There is a problem with the Glimpse help files."
 msgstr "त्यहाँ मद्दत फाइलहरू मा समस्या छ।"
 
 #: ../plug-ins/help/gimphelpdomain.c:187
@@ -10457,8 +10053,7 @@ msgstr "रङ रूपान्तरण"
 msgid "Relative probability:"
 msgstr "सापेक्ष सम्भावना:"
 
-#: ../plug-ins/ifscompose/ifscompose.c:1058
-#: ../plug-ins/imagemap/imap_menu.c:163
+#: ../plug-ins/ifscompose/ifscompose.c:1058 ../plug-ins/imagemap/imap_menu.c:163
 msgid "Select _All"
 msgstr "सबै चयन गर्नुहोस्"
 
@@ -10474,9 +10069,7 @@ msgstr "केन्द्र पुन: गणना गर्नुहोस�
 msgid "Render Options"
 msgstr "विकल्पहरू रेन्डर गर्नुहोस्"
 
-#: ../plug-ins/ifscompose/ifscompose.c:1072
-#: ../plug-ins/imagemap/imap_cmd_move.c:86
-#: ../plug-ins/imagemap/imap_cmd_object_move.c:57
+#: ../plug-ins/ifscompose/ifscompose.c:1072 ../plug-ins/imagemap/imap_cmd_move.c:86 ../plug-ins/imagemap/imap_cmd_object_move.c:57
 msgid "Move"
 msgstr "सार्नुहोस्"
 
@@ -10522,8 +10115,7 @@ msgstr "%s रूपान्तरण"
 msgid "Save failed"
 msgstr "बचत असफल भयो"
 
-#: ../plug-ins/ifscompose/ifscompose.c:2462
-#: ../plug-ins/ifscompose/ifscompose.c:2475
+#: ../plug-ins/ifscompose/ifscompose.c:2462 ../plug-ins/ifscompose/ifscompose.c:2475
 msgid "Open failed"
 msgstr "खोल्न असफल भयो"
 
@@ -10560,16 +10152,9 @@ msgstr "वृत्त"
 msgid "Center _x:"
 msgstr "केन्द्र x:"
 
-#: ../plug-ins/imagemap/imap_circle.c:269
-#: ../plug-ins/imagemap/imap_circle.c:276
-#: ../plug-ins/imagemap/imap_circle.c:282 ../plug-ins/imagemap/imap_grid.c:250
-#: ../plug-ins/imagemap/imap_grid.c:256
-#: ../plug-ins/imagemap/imap_polygon.c:505
-#: ../plug-ins/imagemap/imap_polygon.c:513
-#: ../plug-ins/imagemap/imap_rectangle.c:394
-#: ../plug-ins/imagemap/imap_rectangle.c:401
-#: ../plug-ins/imagemap/imap_rectangle.c:408
-#: ../plug-ins/imagemap/imap_rectangle.c:415
+#: ../plug-ins/imagemap/imap_circle.c:269 ../plug-ins/imagemap/imap_circle.c:276 ../plug-ins/imagemap/imap_circle.c:282 ../plug-ins/imagemap/imap_grid.c:250
+#: ../plug-ins/imagemap/imap_grid.c:256 ../plug-ins/imagemap/imap_polygon.c:505 ../plug-ins/imagemap/imap_polygon.c:513 ../plug-ins/imagemap/imap_rectangle.c:394
+#: ../plug-ins/imagemap/imap_rectangle.c:401 ../plug-ins/imagemap/imap_rectangle.c:408 ../plug-ins/imagemap/imap_rectangle.c:415
 msgid "pixels"
 msgstr "पिक्सेल"
 
@@ -10581,24 +10166,19 @@ msgstr "केन्द्र y:"
 msgid "Clear"
 msgstr "खाली गर्नुहोस्"
 
-#: ../plug-ins/imagemap/imap_cmd_create.c:58
-#: ../plug-ins/imagemap/imap_cmd_gimp_guides.c:151
+#: ../plug-ins/imagemap/imap_cmd_create.c:58 ../plug-ins/imagemap/imap_cmd_gimp_guides.c:151
 msgid "Create"
 msgstr "सिर्जना गर्नुहोस्"
 
-#: ../plug-ins/imagemap/imap_cmd_cut.c:55
-#: ../plug-ins/imagemap/imap_cmd_cut_object.c:51
-#: ../plug-ins/imagemap/imap_menu.c:159
+#: ../plug-ins/imagemap/imap_cmd_cut.c:55 ../plug-ins/imagemap/imap_cmd_cut_object.c:51 ../plug-ins/imagemap/imap_menu.c:159
 msgid "Cut"
 msgstr "काट्नुहोस्"
 
-#: ../plug-ins/imagemap/imap_cmd_delete.c:57
-#: ../plug-ins/imagemap/imap_menu.c:162
+#: ../plug-ins/imagemap/imap_cmd_delete.c:57 ../plug-ins/imagemap/imap_menu.c:162
 msgid "Delete"
 msgstr "मेट्नुहोस्"
 
-#: ../plug-ins/imagemap/imap_cmd_delete_point.c:61
-#: ../plug-ins/imagemap/imap_menu.c:179
+#: ../plug-ins/imagemap/imap_cmd_delete_point.c:61 ../plug-ins/imagemap/imap_menu.c:179
 msgid "Delete Point"
 msgstr "बिन्दु मेट्नुहोस्"
 
@@ -10607,9 +10187,7 @@ msgid "Edit Object"
 msgstr "वस्तु सम्पादन गर्नुहोस्"
 
 #. Create the areas
-#: ../plug-ins/imagemap/imap_cmd_gimp_guides.c:117
-#: ../plug-ins/imagemap/imap_cmd_gimp_guides.c:147
-#: ../plug-ins/imagemap/imap_cmd_gimp_guides.c:251
+#: ../plug-ins/imagemap/imap_cmd_gimp_guides.c:117 ../plug-ins/imagemap/imap_cmd_gimp_guides.c:147 ../plug-ins/imagemap/imap_cmd_gimp_guides.c:251
 msgid "Use Gimp Guides"
 msgstr "गिम्प मार्गदर्शक प्रयोग गर्नुहोस्"
 
@@ -10645,8 +10223,7 @@ msgstr "तल्लो किनारा"
 msgid "_Base URL:"
 msgstr "आधार URL:"
 
-#: ../plug-ins/imagemap/imap_cmd_guides.c:74
-#: ../plug-ins/imagemap/imap_cmd_guides.c:140
+#: ../plug-ins/imagemap/imap_cmd_guides.c:74 ../plug-ins/imagemap/imap_cmd_guides.c:140
 msgid "Create Guides"
 msgstr "मार्गदर्शकहरू सिर्जना गर्नुहोस्"
 
@@ -10657,15 +10234,11 @@ msgstr "मार्गदर्शक सिमाहरूको परिण�
 
 #: ../plug-ins/imagemap/imap_cmd_guides.c:144
 msgid ""
-"Guides are pre-defined rectangles covering the image. You define them by "
-"their width, height, and spacing from each other. This allows you to rapidly "
-"create the most common image map type - image collection of \"thumbnails\", "
-"suitable for navigation bars."
+"Guides are pre-defined rectangles covering the image. You define them by their width, height, and spacing from each other. This allows you to rapidly create the most "
+"common image map type - image collection of \"thumbnails\", suitable for navigation bars."
 msgstr ""
-"मार्गदर्शकहरू पुर्व परिभाषित छवि ढाक्दै गरेको आयातकारहरू हुन्। तपाईँले तिनिहरूलाई एक "
-"अर्काको खाली ठाउँ, उचाइ, र चौडाइबाट परिभाषित गर्नहुन्छ। यसले तपाईँलाई छिटोसँग सबभन्दा "
-"प्रचलित मानचित्र प्रकार सिर्जना गर्न अनुमति दिन्छ - नेभिगेसन बारका लागि उपयुक्त "
-"\"thumbnails\",को छवि सङ्ग्रह।"
+"मार्गदर्शकहरू पुर्व परिभाषित छवि ढाक्दै गरेको आयातकारहरू हुन्। तपाईँले तिनिहरूलाई एक अर्काको खाली ठाउँ, उचाइ, र चौडाइबाट परिभाषित गर्नहुन्छ। यसले तपाईँलाई छिटोसँग सबभन्दा प्रचलित मानचित्र "
+"प्रकार सिर्जना गर्न अनुमति दिन्छ - नेभिगेसन बारका लागि उपयुक्त \"thumbnails\",को छवि सङ्ग्रह।"
 
 #: ../plug-ins/imagemap/imap_cmd_guides.c:170
 msgid "_Left start at:"
@@ -10703,14 +10276,11 @@ msgstr "मार्गदर्शकको सिमाहरूको पर�
 msgid "Guides"
 msgstr "मार्गदर्शकहरू"
 
-#: ../plug-ins/imagemap/imap_cmd_insert_point.c:62
-#: ../plug-ins/imagemap/imap_menu.c:178
+#: ../plug-ins/imagemap/imap_cmd_insert_point.c:62 ../plug-ins/imagemap/imap_menu.c:178
 msgid "Insert Point"
 msgstr "बिन्दु प्रवेश गर्नुहोस्"
 
-#: ../plug-ins/imagemap/imap_cmd_move_down.c:53
-#: ../plug-ins/imagemap/imap_cmd_object_down.c:55
-#: ../plug-ins/imagemap/imap_menu.c:176
+#: ../plug-ins/imagemap/imap_cmd_move_down.c:53 ../plug-ins/imagemap/imap_cmd_object_down.c:55 ../plug-ins/imagemap/imap_menu.c:176
 msgid "Move Down"
 msgstr "तल सार्नुहोस्"
 
@@ -10726,14 +10296,11 @@ msgstr "चयन गरिएको वस्तुहरू सार्नु
 msgid "Move To Front"
 msgstr "अगाडि सार्नुहोस्"
 
-#: ../plug-ins/imagemap/imap_cmd_move_up.c:53
-#: ../plug-ins/imagemap/imap_cmd_object_up.c:55
-#: ../plug-ins/imagemap/imap_menu.c:175
+#: ../plug-ins/imagemap/imap_cmd_move_up.c:53 ../plug-ins/imagemap/imap_cmd_object_up.c:55 ../plug-ins/imagemap/imap_menu.c:175
 msgid "Move Up"
 msgstr "माथि सार्नु"
 
-#: ../plug-ins/imagemap/imap_cmd_paste.c:51
-#: ../plug-ins/imagemap/imap_menu.c:161
+#: ../plug-ins/imagemap/imap_cmd_paste.c:51 ../plug-ins/imagemap/imap_menu.c:161
 msgid "Paste"
 msgstr "टाँस्नुहोस्"
 
@@ -10741,8 +10308,7 @@ msgstr "टाँस्नुहोस्"
 msgid "Select"
 msgstr "चयन गर्नुहोस्"
 
-#: ../plug-ins/imagemap/imap_cmd_select_all.c:51
-#: ../plug-ins/rcm/rcm_stock.c:41
+#: ../plug-ins/imagemap/imap_cmd_select_all.c:51 ../plug-ins/rcm/rcm_stock.c:41
 msgid "Select All"
 msgstr "सबै चयन गर्नुहोस्"
 
@@ -10923,8 +10489,7 @@ msgstr "क्लिक योग्य छविमानचित्र सि
 msgid "_Image Map..."
 msgstr "छवि मानचित्र..."
 
-#: ../plug-ins/imagemap/imap_main.c:519
-#: ../plug-ins/imagemap/imap_settings.c:171
+#: ../plug-ins/imagemap/imap_main.c:519 ../plug-ins/imagemap/imap_settings.c:171
 msgid "<Untitled>"
 msgstr "<Untitled>"
 
@@ -11839,15 +11404,12 @@ msgstr "स्क्यानर/क्यामेरा..."
 msgid "Transferring data from scanner/camera"
 msgstr "स्क्यानर/क्यामेराबाट डेटाहरू स्थानान्तरण गर्दै"
 
-#: ../plug-ins/uri/uri-backend-gnomevfs.c:162
-#: ../plug-ins/uri/uri-backend-libcurl.c:126
+#: ../plug-ins/uri/uri-backend-gnomevfs.c:162 ../plug-ins/uri/uri-backend-libcurl.c:126
 #, c-format
 msgid "Downloading %s of image data..."
 msgstr "छवि डेटाको %s डाउनलोड गर्दै..."
 
-#: ../plug-ins/uri/uri-backend-gnomevfs.c:163
-#: ../plug-ins/uri/uri-backend-libcurl.c:133
-#: ../plug-ins/uri/uri-backend-wget.c:348
+#: ../plug-ins/uri/uri-backend-gnomevfs.c:163 ../plug-ins/uri/uri-backend-libcurl.c:133 ../plug-ins/uri/uri-backend-wget.c:348
 #, c-format
 msgid "Downloaded %s of image data"
 msgstr "डाउनलोड गरिएको छविको डेटा %s"
@@ -11862,9 +11424,7 @@ msgstr "छवि डेटाको %s अपलोड गरिँदै..."
 msgid "Uploaded %s of image data"
 msgstr "अपलोड गरिएको छविको डेटा %s"
 
-#: ../plug-ins/uri/uri-backend-gnomevfs.c:252
-#: ../plug-ins/uri/uri-backend-libcurl.c:155
-#: ../plug-ins/uri/uri-backend-wget.c:197
+#: ../plug-ins/uri/uri-backend-gnomevfs.c:252 ../plug-ins/uri/uri-backend-libcurl.c:155 ../plug-ins/uri/uri-backend-wget.c:197
 msgid "Connecting to server"
 msgstr "सर्भरमा जडान गर्दै"
 
@@ -11891,10 +11451,7 @@ msgstr "लेखनका लागि निर्गत फाइल खो�
 msgid "Opening '%s' for reading resulted in HTTP response code: %d"
 msgstr "एचटीटीपीमा नतिजा गरिएको पढाइका लागि '%s' खोल्नाले कोड प्रतिक्रिया गर्दछ: %d"
 
-#: ../plug-ins/uri/uri-backend-wget.c:164
-#: ../plug-ins/uri/uri-backend-wget.c:184
-#: ../plug-ins/uri/uri-backend-wget.c:203
-#: ../plug-ins/uri/uri-backend-wget.c:226
+#: ../plug-ins/uri/uri-backend-wget.c:164 ../plug-ins/uri/uri-backend-wget.c:184 ../plug-ins/uri/uri-backend-wget.c:203 ../plug-ins/uri/uri-backend-wget.c:226
 #: ../plug-ins/uri/uri-backend-wget.c:255
 #, c-format
 msgid "wget exited abnormally on URI '%s'"
@@ -11913,8 +11470,7 @@ msgstr[1] "(समय समाप्त %d सेकेण्ड)"
 msgid "Opening URI"
 msgstr "URI खुल्दैछ"
 
-#: ../plug-ins/uri/uri-backend-wget.c:232
-#: ../plug-ins/uri/uri-backend-wget.c:265
+#: ../plug-ins/uri/uri-backend-wget.c:232 ../plug-ins/uri/uri-backend-wget.c:265
 #, c-format
 msgid "A network error occurred: %s"
 msgstr "एउटा सञ्जाल त्रुटि भयो: %s"
@@ -11941,9 +11497,7 @@ msgid "Icon Details"
 msgstr "प्रतिमा विवरण"
 
 #: ../plug-ins/winicon/icodialog.c:106
-msgid ""
-"Large icons and compression are not supported by all programs. Older "
-"applications may not open this file correctly."
+msgid "Large icons and compression are not supported by all programs. Older applications may not open this file correctly."
 msgstr "ठूला प्रतिमा र संकुचनलाई सबै कार्यक्रमद्वारा समर्थन गरिएको छैन । पुरानो अनुप्रयोगले यो फाइल सही तरीकाले खोल्न सक्दैन ।"
 
 #: ../plug-ins/winicon/icodialog.c:178
@@ -12080,4 +11634,3 @@ msgstr "त्रुटि: XJT गुण फाइल '%s' पढ्न सक�
 #, c-format
 msgid "Error: XJT property file '%s' is empty."
 msgstr "त्रुटि: XJT गुण फाइल '%s' खाली छ।"
-

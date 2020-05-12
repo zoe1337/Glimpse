@@ -150,8 +150,8 @@ msgid "_Start Server..."
 msgstr "_Aviar lo servidor..."
 
 #: ../tiny-fu/tiny-fu.c:353
-msgid "_GIMP Online"
-msgstr "_GIMP en linha"
+msgid "_Glimpse online"
+msgstr "_Glimpse en linha"
 
 #: ../tiny-fu/tiny-fu.c:354
 msgid "_User Manual"
@@ -2743,7 +2743,7 @@ msgstr "Utilizar los _camins"
 #: ../scripts/web-browser.scm:87 ../scripts/web-browser.scm:100
 #: ../scripts/web-browser.scm:113 ../scripts/web-browser.scm:126
 #: ../scripts/web-browser.scm:139 ../scripts/web-browser.scm:152
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (GNU I.M.P)"
 msgstr "Signet cap al manual utilizaire"
 
 #: ../scripts/web-browser.scm:73
@@ -2780,7 +2780,7 @@ msgstr "Site Web _oficial"
 
 #: ../scripts/web-browser.scm:180 ../scripts/web-browser.scm:193
 #: ../scripts/web-browser.scm:206 ../scripts/web-browser.scm:219
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "Signet cap al site Web de GIMP"
 
 #: ../scripts/web-browser.scm:192
@@ -2788,7 +2788,7 @@ msgid "_Developer Web Site"
 msgstr "Site Web dels _desvolopaires"
 
 #: ../scripts/web-browser.scm:205
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (GNU I.M.P)"
 msgstr "Site Web del _manual utilizaire"
 
 #: ../scripts/web-browser.scm:218

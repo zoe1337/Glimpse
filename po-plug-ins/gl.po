@@ -11,14 +11,14 @@ msgstr ""
 "Project-Id-Version: gimp-plug-ins.HEAD\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2011-10-02 01:18+0200\n"
-"PO-Revision-Date: 2011-10-02 01:17+0200\n"
+"PO-Revision-Date: 2020-02-08 12:31-0800\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <gnome-l10n-gl@gnome.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: ../plug-ins/color-rotate/color-rotate-dialog.c:118
@@ -628,8 +628,7 @@ msgstr "_Vertical"
 #: ../plug-ins/file-jpeg/jpeg-load.c:255 ../plug-ins/file-jpeg/jpeg-load.c:819
 #: ../plug-ins/file-psd/psd-image-res-load.c:997
 #: ../plug-ins/file-psd/psd-load.c:1637 ../plug-ins/file-sgi/sgi.c:407
-#: ../plug-ins/gfig/gfig-dialog.c:1306
-#: ../plug-ins/gimpressionist/general.c:139
+#: ../plug-ins/gfig/gfig-dialog.c:1306 ../plug-ins/gimpressionist/general.c:139
 #: ../plug-ins/map-object/map-object-apply.c:252 ../plug-ins/twain/twain.c:567
 #: ../plug-ins/win-snap/winsnap.c:1156
 msgid "Background"
@@ -1028,10 +1027,9 @@ msgstr "Cargar a configuración do mesturador de canles"
 #: ../plug-ins/common/channel-mixer.c:983
 #: ../plug-ins/common/cml-explorer.c:2208 ../plug-ins/common/curve-bend.c:892
 #: ../plug-ins/common/file-cel.c:312 ../plug-ins/common/file-compressor.c:497
-#: ../plug-ins/common/file-compressor.c:666
-#: ../plug-ins/common/file-dicom.c:340 ../plug-ins/common/file-gbr.c:368
-#: ../plug-ins/common/file-gif-load.c:355 ../plug-ins/common/file-gih.c:645
-#: ../plug-ins/common/file-jp2-load.c:197
+#: ../plug-ins/common/file-compressor.c:666 ../plug-ins/common/file-dicom.c:340
+#: ../plug-ins/common/file-gbr.c:368 ../plug-ins/common/file-gif-load.c:355
+#: ../plug-ins/common/file-gih.c:645 ../plug-ins/common/file-jp2-load.c:197
 #: ../plug-ins/common/file-jp2-load.c:206 ../plug-ins/common/file-mng.c:1156
 #: ../plug-ins/common/file-pat.c:337 ../plug-ins/common/file-pcx.c:361
 #: ../plug-ins/common/file-pix.c:343 ../plug-ins/common/file-png.c:757
@@ -1974,8 +1972,7 @@ msgstr "Valor da máscara"
 msgid "Stretch brightness values to cover the full range"
 msgstr "Ampliar os valores do brillo para que cubran todo o rango"
 
-#: ../plug-ins/common/contrast-normalize.c:91
-#: ../plug-ins/common/edge-dog.c:362
+#: ../plug-ins/common/contrast-normalize.c:91 ../plug-ins/common/edge-dog.c:362
 msgid "_Normalize"
 msgstr "_Normalizar"
 
@@ -2089,9 +2086,9 @@ msgstr "_Alfa"
 msgid "E_xtend"
 msgstr "E_stendido"
 
-#: ../plug-ins/common/convolution-matrix.c:74
-#: ../plug-ins/common/displace.c:477 ../plug-ins/common/edge.c:706
-#: ../plug-ins/common/fractal-trace.c:737 ../plug-ins/common/ripple.c:585
+#: ../plug-ins/common/convolution-matrix.c:74 ../plug-ins/common/displace.c:477
+#: ../plug-ins/common/edge.c:706 ../plug-ins/common/fractal-trace.c:737
+#: ../plug-ins/common/ripple.c:585
 msgid "_Wrap"
 msgstr "A_xustar"
 
@@ -4001,7 +3998,7 @@ msgid "Invalid X resolution."
 msgstr "A resolución X non é válida."
 
 #: ../plug-ins/common/file-pnm.c:555
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "A largura da imaxe é maior da que GIMP pode manexar."
 
 #: ../plug-ins/common/file-pnm.c:562
@@ -4009,7 +4006,7 @@ msgid "Invalid Y resolution."
 msgstr "A resolución Y non é válida."
 
 #: ../plug-ins/common/file-pnm.c:564
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "A altura da imaxe é maior da que GIMP pode manexar."
 
 #: ../plug-ins/common/file-pnm.c:574
@@ -4194,8 +4191,7 @@ msgid "_Millimeter"
 msgstr "_Milímetro"
 
 #. Rotation
-#: ../plug-ins/common/file-ps.c:3439
-#: ../plug-ins/map-object/map-object-ui.c:989
+#: ../plug-ins/common/file-ps.c:3439 ../plug-ins/map-object/map-object-ui.c:989
 msgid "Rotation"
 msgstr "Rotación"
 
@@ -4362,7 +4358,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "A largura da imaxe é maior do que GIMP pode procesar"
@@ -4382,7 +4378,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "A altura da imaxe é maior do que GIMP pode procesar"
@@ -4563,11 +4559,10 @@ msgstr "%s-%d de %d páxinas"
 msgid "TIFF Channel"
 msgstr "Canle TIFF"
 
-#: ../plug-ins/common/file-tiff-load.c:1026
-#: ../plug-ins/file-psd/psd-load.c:333
+#: ../plug-ins/common/file-tiff-load.c:1026 ../plug-ins/file-psd/psd-load.c:333
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 "bit, so it will be converted for you. Information will be lost because of "
 "this conversion."
 msgstr ""
@@ -9999,8 +9994,7 @@ msgstr "Amosar os puntos de control"
 msgid "Max undo:"
 msgstr "Máx. desfacer:"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1305
-#: ../plug-ins/gimpressionist/general.c:184
+#: ../plug-ins/gfig/gfig-dialog.c:1305 ../plug-ins/gimpressionist/general.c:184
 msgid "Transparent"
 msgstr "Transparente"
 
@@ -10331,8 +10325,8 @@ msgid "Performs various artistic operations"
 msgstr "Realiza varias operacións artísticas"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
-msgstr "_GIMPresionista..."
+msgid "_Impressionist..."
+msgstr "_Impresionista..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -10343,8 +10337,8 @@ msgid "Painting"
 msgstr "A pintar"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPresionista"
+msgid "Impressionist"
+msgstr "Impresionista"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -10624,8 +10618,8 @@ msgid "Save Current"
 msgstr "Gardar o actual"
 
 #: ../plug-ins/gimpressionist/presets.c:894
-msgid "Gimpressionist Defaults"
-msgstr "Configuración predeterminada do GIMPresionista"
+msgid "Impressionist Defaults"
+msgstr "Configuración predeterminada do Impresionista"
 
 #: ../plug-ins/gimpressionist/presets.c:1015
 msgid "_Presets"
@@ -11069,8 +11063,7 @@ msgstr "Semente aleatoria:"
 msgid "_Second Flares"
 msgstr "_Destellos secundarios"
 
-#: ../plug-ins/help-browser/dialog.c:186
-#: ../plug-ins/help-browser/dialog.c:1115
+#: ../plug-ins/help-browser/dialog.c:186 ../plug-ins/help-browser/dialog.c:1115
 msgid "GIMP Help Browser"
 msgstr "Visor de axuda do GIMP"
 
@@ -11150,7 +11143,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "As páxinas de axuda para '%s' non están dispoñíbeis."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "O manual de usuario de GIMP non está dispoñíbel."
 
 #: ../plug-ins/help/gimphelpdomain.c:187
@@ -11385,8 +11378,7 @@ msgstr "Centro _x:"
 #: ../plug-ins/imagemap/imap_circle.c:268
 #: ../plug-ins/imagemap/imap_circle.c:275
 #: ../plug-ins/imagemap/imap_circle.c:281 ../plug-ins/imagemap/imap_grid.c:249
-#: ../plug-ins/imagemap/imap_grid.c:255
-#: ../plug-ins/imagemap/imap_polygon.c:505
+#: ../plug-ins/imagemap/imap_grid.c:255 ../plug-ins/imagemap/imap_polygon.c:505
 #: ../plug-ins/imagemap/imap_polygon.c:513
 #: ../plug-ins/imagemap/imap_rectangle.c:392
 #: ../plug-ins/imagemap/imap_rectangle.c:399

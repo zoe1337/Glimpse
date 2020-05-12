@@ -1,18 +1,46 @@
- -- This file is generated from authors.xml, do not edit it directly. --
+-- This file is generated from authors.xml, do not edit it directly. --
 
-GIMP was originally written by:
+Glimpse fork was started by:
 
- Spencer Kimball
- Peter Mattis
+ Bobby Moss
 
 
 The current maintainers are:
 
+ chaomodus
+ Christopher Davis
+ Luna
+
+
+The following people have contributed code to Glimpse:
+
+ Cynthia Revström
+ Heather Ellsworth
+ igalic
+ Ken VanDine
+ Mathieu Bridon
+ Mike Burns
+ psymole
+ skyejonke
+
+
+The following people have contributed art to Glimpse:
+
+ Cristiano Vitorino
+ James Daniel
+
+
+The following people have helped to document Glimpse:
+
+ Dave Kretz
+ melody
+
+
+A special thank you to the GNU Image Manipulation Program developers:
+
+ Spencer Kimball
+ Peter Mattis
  Michael Natterer
-
-
-The following people have contributed code to GIMP:
-
  Lauri Alanko
  Fredrik Alströmer
  Shawn Amundson
@@ -329,7 +357,7 @@ The following people have contributed code to GIMP:
  Robert Ögren
 
 
-The following people have contributed art to GIMP:
+A further thank you to the GNU Image Manipulation Program artists:
 
  Lapo Calamandrei
  Paul Davey
@@ -348,7 +376,7 @@ The following people have contributed art to GIMP:
  William Szilveszter
 
 
-The following people have helped to document GIMP:
+Also thank you to the people who documented GNU Image Manipulation Program:
 
  Ignacio AntI
  Žygimantas Beručka
@@ -379,3 +407,5 @@ The following people have helped to document GIMP:
  Patrycja Stawiarska
  Kolbjørn Stuestøl
  Axel Wernicke
+
+

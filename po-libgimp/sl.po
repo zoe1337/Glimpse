@@ -1153,18 +1153,18 @@ msgstr "naraščajoča"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Notranja procedura GIMP"
+msgid "Internal Glimpse procedure"
+msgstr "Notranja procedura Glimpse"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "Vtičnik GIMP"
+msgid "GNU I.M.P Plug-In"
+msgstr "Vtičnik GNU I.M.P"
 
 #: ../libgimpbase/gimpbaseenums.c:1391
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "Razširitev GIMP"
+msgid "GNU I.M.P Extension"
+msgstr "Razširitev GNU I.M.P"
 
 #: ../libgimpbase/gimpbaseenums.c:1392
 msgctxt "pdb-proc-type"
@@ -1604,11 +1604,11 @@ msgstr "Barvni profil vašega (primarnega) zaslona."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Če je vključeno, bo GIMP uporabil prikazani barvni profil okenskega "
+"Če je vključeno, bo Glimpse uporabil prikazani barvni profil okenskega "
 "sistema.  Nastavljeni profil monitorja bo tedaj uporabljen le kot nadomestni."
 
 #: ../libgimpconfig/gimpcolorconfig.c:63

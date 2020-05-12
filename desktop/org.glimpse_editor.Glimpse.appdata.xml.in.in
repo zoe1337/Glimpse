@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>org.glimpse_editor.Glimpse</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+ AND LGPL-3.0+</project_license>
+  <_name>Glimpse</_name>
+  <_summary>Create images and edit photographs</_summary>
+  <description>
+    <_p>
+      Glimpse Image Editor is a usability-focused free software application
+      capable of expert level image manipulation.
+    </_p>
+    <_p>
+      Simple tasks like cropping, transforming and retouching photos can be
+      achieved in just a few clicks. Professional features like batch image
+      processing, color balance correction and automated format conversions are
+      also included.
+    </_p>
+    <_p>
+      Glimpse is based on the GNU Image Manipulation Program 2.10, so it is
+      extensible and fully compatible with the same plug-ins, themes and save
+      files. It is available for Windows and Linux.
+    </_p>
+  </description>
+  <url type="homepage">https://glimpse-editor.org</url>
+  <!-- url type="help">https://glimpse-editor.org/TODO</url -->
+  <url type="donation">https://opencollective.com/glimpse</url>
+  <url type="bugtracker">@BUG_REPORT_URL@</url>
+  <update_contact>glimpse_AT_bobbymoss.com</update_contact>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://glimpse-editor.org/flatpak/0.1/dark-theme1.png</image>
+      <_caption>Crop and transform images in just a few clicks</_caption>
+    </screenshot>
+    <screenshot>
+      <image>https://glimpse-editor.org/flatpak/0.1/light-theme2.png</image>
+      <_caption>Apply professional filters and create animations</_caption>
+    </screenshot>
+  </screenshots>
+
+  <keywords>
+    <keyword>GIMP</keyword>
+    <keyword>Photoshop</keyword>
+  </keywords>
+  <translation type="gettext">gimp20</translation>
+
+  <launchable type="desktop-id">org.glimpse_editor.Glimpse.desktop</launchable>
+
+  <releases>
+    <release version="0.1.2" date="2020-03-02">
+      <url type="details">https://glimpse-editor.org/posts/glimpse-0-1-2-release-notes/</url>
+      <description>
+        <_p>
+          Glimpse 0.1.2 builds on our very first "minimum viable product" 
+          release with minor tweaks and bug fixes.
+        </_p>
+        <_ul>
+          <li>
+            Improved non-English translations and rebranding
+          </li>
+          <li>
+            Upstream contributors are better credited in the UI
+          </li>
+          <li>
+            "Color" icon pack and the "Gray" UI theme are back
+          </li>
+          <li>
+            Rebranded "Gimpressionist" plug-in and text color chooser
+          </li>
+          <li>
+            Unnecessary "fun" brushes have been removed
+          </li>
+        </_ul>
+      </description>
+    </release>
+    <release version="0.1.0" date="2019-11-20">
+      <url type="details">https://glimpse-editor.org/posts/glimpse-0-1-0-release-notes/</url>
+      <description>
+        <_p>
+          After four months of intensive effort, Glimpse 0.1.0 is our very
+          first binary release. We would like to thank everyone that has
+          supported the project so far and look forward to building on this
+          work in future releases.
+        </_p>
+        <_ul>
+          <li>
+            Every feature in the GNU Image Manipulation Program 2.10.12
+          </li>
+          <li>
+            Professional branding throughout the application
+          </li>
+          <li>
+            De-cluttered user interface without animal mascots and "easter eggs"
+          </li>
+          <li>
+            Full plug-in, theme and save file compatibility with the GNU Image Manipulation Program
+          </li>
+          <li>
+            Improved build/packaging tools and developer documentation
+          </li>
+        </_ul>
+      </description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1" />
+</component>

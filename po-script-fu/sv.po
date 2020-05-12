@@ -38,8 +38,8 @@ msgid "_Start Server..."
 msgstr "_Starta servern…"
 
 #: ../plug-ins/script-fu/script-fu.c:306
-msgid "_GIMP Online"
-msgstr "_GIMP på nätet"
+msgid "_Glimpse online"
+msgstr "_Glimpse på nätet"
 
 #: ../plug-ins/script-fu/script-fu.c:307
 msgid "_User Manual"
@@ -830,7 +830,7 @@ msgstr "Användning av _banor"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (GNU I.M.P)"
 msgstr "Bokmärke till användarhandboken"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -868,7 +868,7 @@ msgstr "_Huvudwebbplats"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "Bokmärke till GIMP:s webbplats"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
@@ -900,7 +900,7 @@ msgid "Bookmark to the bug tracker of GIMP"
 msgstr "Bokmärke till GIMP:s felrapporteringssystem"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (GNU I.M.P)"
 msgstr "Webbplats för _användarhandbok"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69
@@ -2787,10 +2787,10 @@ msgstr "Y-avstånd för skuggkastning"
 #~ msgid "Additional Information"
 #~ msgstr "Mer information"
 
-#~ msgid "Internal GIMP procedure"
-#~ msgstr "Intern GIMP-procedur"
+#~ msgid "Internal Glimpse procedure"
+#~ msgstr "Intern Glimpse-procedur"
 
-#~ msgid "GIMP Plug-In"
+#~ msgid "GNU I.M.P Plug-In"
 #~ msgstr "GIMP insticksmodul"
 
 #~ msgid "Temporary Procedure"
@@ -2907,7 +2907,7 @@ msgstr "Y-avstånd för skuggkastning"
 #~ msgid "_Unsharp Mask..."
 #~ msgstr "_Oskarp mask..."
 
-#~ msgid "<Toolbox>/Help/The GIMP Online"
+#~ msgid "<Toolbox>/Help/The Glimpse online"
 #~ msgstr "<Toolbox>/Hjälp/GIMP på nätet"
 
 #~ msgid "Cubic"
@@ -3297,10 +3297,10 @@ msgstr "Y-avstånd för skuggkastning"
 #~ msgid "<Image>/Script-Fu/Alchemy/_Weave..."
 #~ msgstr "<Image>/Script-Fu/Alkemi/_Väv..."
 
-#~ msgid "<Toolbox>/Help/The GIMP Online/Plug-in _Registry"
+#~ msgid "<Toolbox>/Help/The Glimpse online/Plug-in _Registry"
 #~ msgstr "<Toolbox>/Hjälp/GIMP på nätet/Register över insticksmoduler"
 
-#~ msgid "<Toolbox>/Help/The GIMP Online/_Developer Web Site"
+#~ msgid "<Toolbox>/Help/The Glimpse online/_Developer Web Site"
 #~ msgstr "<Toolbox>/Hjälp/GIMP på nätet/_Utvecklarnas webbsajt"
 
 #~ msgid "<Image>/Script-Fu/Shadow/_Xach-Effect..."

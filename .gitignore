@@ -50,3 +50,9 @@
 /stamp-h.in
 /stamp-h1
 /test-driver
+*.log
+glimpse-vagrant.retry
+glimpse-prefix/
+.vagrant/
+*.snap
+.vscode/

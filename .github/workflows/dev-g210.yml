@@ -1,0 +1,92 @@
+name: Glimpse Dev Sanity Check CI
+
+# Triggers the workflow on push or pull request events, but only for the dev-g210 branch
+on:
+  push:
+    branches: [ dev-g210 ]
+  pull_request:
+    branches: [ dev-g210 ]
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-18.04
+          
+    steps:
+    - uses: actions/checkout@v2
+      
+    - name: Set up Ubuntu 18.04 runner
+      run: sudo apt-get --quiet update --yes
+            
+    - name: Install build dependencies
+      run: sudo apt-get --quiet install --yes autoconf automake autopoint build-essential git gtk-doc-tools intltool iso-codes libtool libxml2-utils perl xsltproc libasound-dev libatk1.0-dev libcairo-dev libfontconfig1-dev libfreetype6-dev libgdk-pixbuf2.0-dev libglib2.0-dev libgtk2.0-dev libharfbuzz-dev libjson-glib-dev libpango1.0-dev libwebkitgtk-dev libxcursor-dev libxext-dev libaa1-dev libgexiv2-dev libgs-dev libheif-dev libjpeg-dev libmng-dev libopenexr-dev libopenjp2-7-dev libpng-dev libpoppler-glib-dev libraw-dev librsvg2-dev libtiff-dev libwebp-dev libwmf-dev libxpm-dev libxmu-dev libxt-dev shared-mime-info libbz2-dev liblzma-dev zlib1g-dev libjson-c-dev libspiro-dev libsuitesparse-dev libumfpack5 libnss3-dev python-cairo-dev python-dev python-gtk2-dev appstream-util desktop-file-utils python3 python3-pip python3-setuptools python3-wheel libtool gjs gtk-3-examples jasper libappstream-glib-dev libarchive-dev libavcodec-dev libavformat-dev libavutil-dev libgs-dev libgtk-3-dev gobject-introspection libgudev-1.0-dev liblcms2-dev liblensfun-dev librsvg2-bin libsdl2-dev libswscale-dev libv4l-dev libwebkit2gtk-4.0-dev luajit python-gi-dev python3-venv ruby w3m asciidoc libgirepository1.0-dev ninja-build
+      
+    - name: Install meson
+      run: yes | sudo pip3 install meson
+        
+    - name: Initialize git submodules
+      run: git submodule update --init
+      
+    - name: Set global environment variables
+      run: |
+        echo ::set-env name=SRC_PREFIX::${{ github.workspace }}
+        echo ::set-env name=INSTALL_PREFIX::${{ github.workspace }}/glimpse-prefix
+        echo ::set-env name="$(dpkg-architecture -qDEB_HOST_MULTIARCH 2> /dev/null)"
+        
+    - name: Set build environment variables
+      run: |
+        echo ::set-env name=PKG_CONFIG_PATH::$INSTALL_PREFIX/lib/pkgconfig:$INSTALL_PREFIX/lib/x86_64-linux-gnu/pkgconfig:$INSTALL_PREFIX/share/pkgconfig:$PKG_CONFIG_PATH
+        echo ::set-env name=LD_LIBRARY_PATH::$INSTALL_PREFIX/lib:$INSTALL_PREFIX/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
+        echo ::set-env name=ACLOCAL_FLAGS::"-I $INSTALL_PREFIX/share/aclocal $ACLOCAL_FLAGS"
+        echo ::set-env name=XDG_DATA_DIRS::$INSTALL_PREFIX/share:/usr/local/share:/usr/share
+        echo ::set-env name=PATH::$HOME/.local/bin:$INSTALL_PREFIX/bin:$PATH
+    
+    - name: Clone BABL from GNOME gitlab server
+      run: git clone https://gitlab.gnome.org/GNOME/babl.git $SRC_PREFIX/babl
+      
+    - name: Clone GEGL from GNOME gitlab server
+      run: git clone https://gitlab.gnome.org/GNOME/gegl.git $SRC_PREFIX/gegl
+      
+    - name: Create install prefix
+      run: |
+        mkdir -p $INSTALL_PREFIX/share/aclocal
+      
+    - name: Build BABL 0.1.74
+      run: |
+        cd $SRC_PREFIX/babl
+        git checkout BABL_0_1_74
+        meson builddir --prefix=$INSTALL_PREFIX --buildtype=release -Db_lto=true -Dwith-docs=false
+        cd $SRC_PREFIX/babl/builddir
+        ninja && ninja install
+        
+    - name: Build mypaint-brushes submodule
+      run: |
+        cd $SRC_PREFIX/mypaint-brushes
+        ./autogen.sh
+        ./configure --prefix=$INSTALL_PREFIX
+        make && make install
+    
+    - name: Build libmypaint submodule
+      run: |
+        cd $SRC_PREFIX/libmypaint
+        ./autogen.sh
+        ./configure --prefix=$INSTALL_PREFIX
+        make && make install
+        
+    - name: Build GEGL 0.4.22
+      run: |
+        cd $SRC_PREFIX/gegl
+        git checkout GEGL_0_4_22
+        meson builddir --prefix=$INSTALL_PREFIX --buildtype=release -Db_lto=true -Ddocs=false
+        cd $SRC_PREFIX/gegl/builddir
+        ninja && ninja install
+        
+    - name: Build in-development version of Glimpse Image Editor
+      run: |
+        cd $SRC_PREFIX
+        ./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc --without-xvfb-run
+        make && make install
+    
+    - uses: actions/upload-artifact@v1
+      with:
+        name: glimpse-dev-x86_64-linux-gnu
+        path: ${{ github.workspace }}/glimpse-prefix

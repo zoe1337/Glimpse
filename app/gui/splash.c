@@ -135,7 +135,7 @@ splash_create (gboolean   be_verbose,
     g_object_new (GTK_TYPE_WINDOW,
                   "type",            GTK_WINDOW_TOPLEVEL,
                   "type-hint",       GDK_WINDOW_TYPE_HINT_SPLASHSCREEN,
-                  "title",           _("GIMP Startup"),
+                  "title",           _("Glimpse Startup"),
                   "role",            "gimp-startup",
                   "screen",          screen,
                   "window-position", GTK_WIN_POS_CENTER,
@@ -493,7 +493,7 @@ splash_image_load (gint      max_width,
   GList              *list;
 
   /* File "gimp-splash.png" in personal configuration directory. */
-  filename = gimp_personal_rc_file ("gimp-splash.png");
+  filename = gimp_personal_rc_file ("glimpse-splash.png");
   animation = splash_image_load_from_path (filename,
                                            max_width, max_height,
                                            be_verbose);
@@ -516,7 +516,7 @@ splash_image_load (gint      max_width,
 
   /* Release splash image. */
   filename = g_build_filename (gimp_data_directory (),
-                               "images", "gimp-splash.png", NULL);
+                               "images", "glimpse-splash.png", NULL);
   animation = splash_image_load_from_path (filename,
                                            max_width, max_height,
                                            be_verbose);

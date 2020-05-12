@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gimp\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2012-03-10 17:30+0000\n"
-"PO-Revision-Date: 2012-04-06 23:03+0100\n"
+"PO-Revision-Date: 2020-02-08 12:06-0800\n"
 "Last-Translator: Alan Monfort <alan.monfort@free.fr>\n"
 "Language-Team: An Drouizig <drouizig@drouizig.org>\n"
 "Language: br\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/color-rotate/color-rotate-dialog.c:118
 msgid "Original"
@@ -39,8 +40,7 @@ msgstr "Treuzfollenn a-bezh"
 
 #. Create selection
 #: ../plug-ins/color-rotate/color-rotate-dialog.c:172
-#: ../plug-ins/common/film.c:965
-#: ../plug-ins/imagemap/imap_selection.c:339
+#: ../plug-ins/common/film.c:965 ../plug-ins/imagemap/imap_selection.c:339
 #: ../plug-ins/selection-to-path/selection-to-path.c:434
 msgid "Selection"
 msgstr "Diuzad"
@@ -72,8 +72,7 @@ msgid "To:"
 msgstr "Da :"
 
 #: ../plug-ins/color-rotate/color-rotate-dialog.c:416
-#: ../plug-ins/common/file-ps.c:3096
-#: ../plug-ins/imagemap/imap_menu.c:213
+#: ../plug-ins/common/file-ps.c:3096 ../plug-ins/imagemap/imap_menu.c:213
 msgid "Gray"
 msgstr "Loued"
 
@@ -255,23 +254,19 @@ msgstr "Kartenn Alien : o treuzfurmiñ..."
 msgid "Alien Map"
 msgstr "Kartenn Alien"
 
-#: ../plug-ins/common/alien-map.c:442
-#: ../plug-ins/common/alien-map.c:466
+#: ../plug-ins/common/alien-map.c:442 ../plug-ins/common/alien-map.c:466
 #: ../plug-ins/common/alien-map.c:490
 msgid "Number of cycles covering full value range"
 msgstr "Niver a gelc'hiad o c'holeiñ ledad klok ar gwerzhioù"
 
-#: ../plug-ins/common/alien-map.c:454
-#: ../plug-ins/common/alien-map.c:478
+#: ../plug-ins/common/alien-map.c:454 ../plug-ins/common/alien-map.c:478
 #: ../plug-ins/common/alien-map.c:502
 msgid "Phase angle, range 0-360"
 msgstr "Korn ar skoulz, ledad 0-360"
 
 #. Propagate Mode
-#: ../plug-ins/common/alien-map.c:516
-#: ../plug-ins/common/hot.c:613
-#: ../plug-ins/common/value-propagate.c:1121
-#: ../plug-ins/common/waves.c:279
+#: ../plug-ins/common/alien-map.c:516 ../plug-ins/common/hot.c:613
+#: ../plug-ins/common/value-propagate.c:1121 ../plug-ins/common/waves.c:279
 msgid "Mode"
 msgstr "Mod"
 
@@ -300,14 +295,12 @@ msgstr "N'eus ket treuzfollennoù a-walc'h da zesteudañ."
 msgid "Align Visible Layers"
 msgstr "Desteudañ an treuzfollennoù hewel"
 
-#: ../plug-ins/common/align-layers.c:424
-#: ../plug-ins/common/align-layers.c:455
+#: ../plug-ins/common/align-layers.c:424 ../plug-ins/common/align-layers.c:455
 msgctxt "align-style"
 msgid "None"
 msgstr "Tra ebet"
 
-#: ../plug-ins/common/align-layers.c:425
-#: ../plug-ins/common/align-layers.c:456
+#: ../plug-ins/common/align-layers.c:425 ../plug-ins/common/align-layers.c:456
 msgid "Collect"
 msgstr "Dastum"
 
@@ -319,8 +312,7 @@ msgstr "Leuniañ (eus an tu kleiz d'an tu dehou)"
 msgid "Fill (right to left)"
 msgstr "Leuniañ (eus an tu dehou d'an tu kleiz)"
 
-#: ../plug-ins/common/align-layers.c:428
-#: ../plug-ins/common/align-layers.c:459
+#: ../plug-ins/common/align-layers.c:428 ../plug-ins/common/align-layers.c:459
 msgid "Snap to grid"
 msgstr "Steudañ ouzh ar gael"
 
@@ -332,8 +324,7 @@ msgstr "Stil a-_zremm :"
 msgid "Left edge"
 msgstr "Riblenn gleiz"
 
-#: ../plug-ins/common/align-layers.c:442
-#: ../plug-ins/common/align-layers.c:472
+#: ../plug-ins/common/align-layers.c:442 ../plug-ins/common/align-layers.c:472
 #: ../plug-ins/gradient-flare/gradient-flare.c:2712
 msgid "Center"
 msgstr "Kreizañ"
@@ -550,8 +541,7 @@ msgstr "Arloañ ar steuenn"
 #. *****************************************************
 #. radio buttons for choosing LEFT or RIGHT
 #. *************************************************
-#: ../plug-ins/common/apply-canvas.c:1293
-#: ../plug-ins/common/wind.c:943
+#: ../plug-ins/common/apply-canvas.c:1293 ../plug-ins/common/wind.c:943
 #: ../plug-ins/lighting/lighting-ui.c:520
 msgid "Direction"
 msgstr "Roud"
@@ -572,10 +562,8 @@ msgstr "En _traoñ war an tu kleiz"
 msgid "Bottom-_right"
 msgstr "En _traoñ war an tu dehou"
 
-#: ../plug-ins/common/apply-canvas.c:1325
-#: ../plug-ins/common/bump-map.c:922
-#: ../plug-ins/common/emboss.c:525
-#: ../plug-ins/common/fractal-trace.c:797
+#: ../plug-ins/common/apply-canvas.c:1325 ../plug-ins/common/bump-map.c:922
+#: ../plug-ins/common/emboss.c:525 ../plug-ins/common/fractal-trace.c:797
 #: ../plug-ins/map-object/map-object-ui.c:527
 msgid "_Depth:"
 msgstr "_Donder :"
@@ -597,68 +585,46 @@ msgid "Blinds"
 msgstr "Stignoù"
 
 #. Orientation toggle box
-#: ../plug-ins/common/blinds.c:258
-#: ../plug-ins/common/ripple.c:557
+#: ../plug-ins/common/blinds.c:258 ../plug-ins/common/ripple.c:557
 msgid "Orientation"
 msgstr "Reteradur"
 
-#: ../plug-ins/common/blinds.c:262
-#: ../plug-ins/common/ripple.c:561
-#: ../plug-ins/common/tile-small.c:434
-#: ../plug-ins/pagecurl/pagecurl.c:537
+#: ../plug-ins/common/blinds.c:262 ../plug-ins/common/ripple.c:561
+#: ../plug-ins/common/tile-small.c:434 ../plug-ins/pagecurl/pagecurl.c:537
 msgid "_Horizontal"
 msgstr "A-_zremm"
 
-#: ../plug-ins/common/blinds.c:265
-#: ../plug-ins/common/ripple.c:564
-#: ../plug-ins/common/tile-small.c:444
-#: ../plug-ins/pagecurl/pagecurl.c:536
+#: ../plug-ins/common/blinds.c:265 ../plug-ins/common/ripple.c:564
+#: ../plug-ins/common/tile-small.c:444 ../plug-ins/pagecurl/pagecurl.c:536
 msgid "_Vertical"
 msgstr "A-_serzh"
 
 #.
 #. * Create the "background" layer to hold the image...
 #.
-#: ../plug-ins/common/blinds.c:279
-#: ../plug-ins/common/compose.c:936
-#: ../plug-ins/common/decompose.c:729
-#: ../plug-ins/common/file-cel.c:363
-#: ../plug-ins/common/file-cel.c:366
-#: ../plug-ins/common/file-dicom.c:612
+#: ../plug-ins/common/blinds.c:279 ../plug-ins/common/compose.c:936
+#: ../plug-ins/common/decompose.c:729 ../plug-ins/common/file-cel.c:363
+#: ../plug-ins/common/file-cel.c:366 ../plug-ins/common/file-dicom.c:612
 #: ../plug-ins/common/file-gif-load.c:943
-#: ../plug-ins/common/file-jp2-load.c:354
-#: ../plug-ins/common/file-pcx.c:425
-#: ../plug-ins/common/file-pcx.c:431
-#: ../plug-ins/common/file-pix.c:382
-#: ../plug-ins/common/file-png.c:891
-#: ../plug-ins/common/file-pnm.c:583
-#: ../plug-ins/common/file-raw.c:763
-#: ../plug-ins/common/file-sunras.c:977
-#: ../plug-ins/common/file-tga.c:1064
-#: ../plug-ins/common/file-tiff-load.c:997
-#: ../plug-ins/common/file-xbm.c:897
-#: ../plug-ins/common/film.c:745
-#: ../plug-ins/common/smooth-palette.c:257
-#: ../plug-ins/common/tile.c:262
-#: ../plug-ins/file-bmp/bmp-read.c:380
-#: ../plug-ins/file-bmp/bmp-read.c:647
-#: ../plug-ins/file-faxg3/faxg3.c:474
-#: ../plug-ins/file-fits/fits.c:530
-#: ../plug-ins/file-jpeg/jpeg-load.c:255
-#: ../plug-ins/file-jpeg/jpeg-load.c:819
+#: ../plug-ins/common/file-jp2-load.c:354 ../plug-ins/common/file-pcx.c:425
+#: ../plug-ins/common/file-pcx.c:431 ../plug-ins/common/file-pix.c:382
+#: ../plug-ins/common/file-png.c:891 ../plug-ins/common/file-pnm.c:583
+#: ../plug-ins/common/file-raw.c:763 ../plug-ins/common/file-sunras.c:977
+#: ../plug-ins/common/file-tga.c:1064 ../plug-ins/common/file-tiff-load.c:997
+#: ../plug-ins/common/file-xbm.c:897 ../plug-ins/common/film.c:745
+#: ../plug-ins/common/smooth-palette.c:257 ../plug-ins/common/tile.c:262
+#: ../plug-ins/file-bmp/bmp-read.c:380 ../plug-ins/file-bmp/bmp-read.c:647
+#: ../plug-ins/file-faxg3/faxg3.c:474 ../plug-ins/file-fits/fits.c:530
+#: ../plug-ins/file-jpeg/jpeg-load.c:255 ../plug-ins/file-jpeg/jpeg-load.c:819
 #: ../plug-ins/file-psd/psd-image-res-load.c:1001
-#: ../plug-ins/file-psd/psd-load.c:1637
-#: ../plug-ins/file-sgi/sgi.c:407
-#: ../plug-ins/gfig/gfig-dialog.c:1321
-#: ../plug-ins/gimpressionist/general.c:139
-#: ../plug-ins/map-object/map-object-apply.c:252
-#: ../plug-ins/twain/twain.c:567
+#: ../plug-ins/file-psd/psd-load.c:1637 ../plug-ins/file-sgi/sgi.c:407
+#: ../plug-ins/gfig/gfig-dialog.c:1321 ../plug-ins/gimpressionist/general.c:139
+#: ../plug-ins/map-object/map-object-apply.c:252 ../plug-ins/twain/twain.c:567
 #: ../plug-ins/win-snap/winsnap.c:1162
 msgid "Background"
 msgstr "Drekva"
 
-#: ../plug-ins/common/blinds.c:283
-#: ../plug-ins/common/fractal-trace.c:739
+#: ../plug-ins/common/blinds.c:283 ../plug-ins/common/fractal-trace.c:739
 #: ../plug-ins/common/tile-paper.c:385
 msgid "_Transparent"
 msgstr "_Treuzwelus"
@@ -685,16 +651,11 @@ msgid "Selective Gaussian Blur"
 msgstr "Ruzed Gauss diuzus"
 
 #: ../plug-ins/common/blur-gauss-selective.c:211
-#: ../plug-ins/common/blur-gauss.c:448
-#: ../plug-ins/common/cartoon.c:232
-#: ../plug-ins/common/edge-dog.c:269
-#: ../plug-ins/common/edge-neon.c:228
-#: ../plug-ins/common/edge-sobel.c:212
-#: ../plug-ins/common/photocopy.c:244
-#: ../plug-ins/common/pixelize.c:293
-#: ../plug-ins/common/softglow.c:224
-#: ../plug-ins/file-sgi/sgi.c:558
-#: ../plug-ins/file-xjt/xjt.c:1687
+#: ../plug-ins/common/blur-gauss.c:448 ../plug-ins/common/cartoon.c:232
+#: ../plug-ins/common/edge-dog.c:269 ../plug-ins/common/edge-neon.c:228
+#: ../plug-ins/common/edge-sobel.c:212 ../plug-ins/common/photocopy.c:244
+#: ../plug-ins/common/pixelize.c:293 ../plug-ins/common/softglow.c:224
+#: ../plug-ins/file-sgi/sgi.c:558 ../plug-ins/file-xjt/xjt.c:1687
 #: ../plug-ins/gradient-flare/gradient-flare.c:966
 msgid "Cannot operate on indexed color images."
 msgstr "N'haller ket gwerediñ war skeudennoù o livioù ibiliet."
@@ -715,15 +676,12 @@ msgstr "Eeunañ, an doare boutinañ evit lakaat ruzed"
 msgid "_Gaussian Blur..."
 msgstr "Ruzed _Gauss..."
 
-#: ../plug-ins/common/blur-gauss.c:179
-#: ../plug-ins/common/blur-gauss.c:199
-#: ../plug-ins/common/blur-gauss.c:219
-#: ../plug-ins/common/blur-gauss.c:239
+#: ../plug-ins/common/blur-gauss.c:179 ../plug-ins/common/blur-gauss.c:199
+#: ../plug-ins/common/blur-gauss.c:219 ../plug-ins/common/blur-gauss.c:239
 msgid "Apply a gaussian blur"
 msgstr "Arloañ ar ruzed mod Gausse"
 
-#: ../plug-ins/common/blur-gauss.c:428
-#: ../plug-ins/common/blur-gauss.c:478
+#: ../plug-ins/common/blur-gauss.c:428 ../plug-ins/common/blur-gauss.c:478
 msgid "Gaussian Blur"
 msgstr "Ruzed Gauss"
 
@@ -732,14 +690,12 @@ msgstr "Ruzed Gauss"
 msgid "Blur Radius"
 msgstr "Skin ar ruzed"
 
-#: ../plug-ins/common/blur-gauss.c:523
-#: ../plug-ins/common/jigsaw.c:2435
+#: ../plug-ins/common/blur-gauss.c:523 ../plug-ins/common/jigsaw.c:2435
 #: ../plug-ins/common/noise-spread.c:385
 msgid "_Horizontal:"
 msgstr "A-_zremm :"
 
-#: ../plug-ins/common/blur-gauss.c:527
-#: ../plug-ins/common/jigsaw.c:2452
+#: ../plug-ins/common/blur-gauss.c:527 ../plug-ins/common/jigsaw.c:2452
 #: ../plug-ins/common/noise-spread.c:389
 msgid "_Vertical:"
 msgstr "A-_serzh :"
@@ -756,13 +712,11 @@ msgstr "_IIR"
 msgid "_RLE"
 msgstr "_RLE"
 
-#: ../plug-ins/common/blur-motion.c:157
-#: ../plug-ins/common/blur-motion.c:171
+#: ../plug-ins/common/blur-motion.c:157 ../plug-ins/common/blur-motion.c:171
 msgid "Simulate movement using directional blur"
 msgstr "Darvanañ un dilec'hiadur en ur arverañ ar ruzed roudel"
 
-#: ../plug-ins/common/blur-motion.c:164
-#: ../plug-ins/common/blur-motion.c:177
+#: ../plug-ins/common/blur-motion.c:164 ../plug-ins/common/blur-motion.c:177
 msgid "_Motion Blur..."
 msgstr "Ruzed fiñvek..."
 
@@ -797,20 +751,16 @@ msgstr "_Zoum"
 msgid "Blur Center"
 msgstr "Kreiz ar ruzed"
 
-#: ../plug-ins/common/blur-motion.c:1095
-#: ../plug-ins/common/lens-flare.c:764
-#: ../plug-ins/common/nova.c:454
-#: ../plug-ins/common/tile-paper.c:283
+#: ../plug-ins/common/blur-motion.c:1095 ../plug-ins/common/lens-flare.c:764
+#: ../plug-ins/common/nova.c:454 ../plug-ins/common/tile-paper.c:283
 #: ../plug-ins/flame/flame.c:1250
 #: ../plug-ins/gradient-flare/gradient-flare.c:2724
 #: ../plug-ins/lighting/lighting-ui.c:479
 msgid "_X:"
 msgstr "_X :"
 
-#: ../plug-ins/common/blur-motion.c:1100
-#: ../plug-ins/common/lens-flare.c:769
-#: ../plug-ins/common/nova.c:459
-#: ../plug-ins/common/tile-paper.c:292
+#: ../plug-ins/common/blur-motion.c:1100 ../plug-ins/common/lens-flare.c:769
+#: ../plug-ins/common/nova.c:459 ../plug-ins/common/tile-paper.c:292
 #: ../plug-ins/flame/flame.c:1264
 #: ../plug-ins/gradient-flare/gradient-flare.c:2728
 #: ../plug-ins/lighting/lighting-ui.c:494
@@ -830,8 +780,7 @@ msgstr "Arventennoù ar ruzed"
 msgid "L_ength:"
 msgstr "L_ed :"
 
-#: ../plug-ins/common/blur-motion.c:1139
-#: ../plug-ins/common/newsprint.c:992
+#: ../plug-ins/common/blur-motion.c:1139 ../plug-ins/common/newsprint.c:992
 msgid "_Angle:"
 msgstr "_Korn :"
 
@@ -843,8 +792,7 @@ msgstr "Ruzed eeun, herrek met ket kreñv kenañ"
 msgid "_Blur"
 msgstr "_Ruzed"
 
-#: ../plug-ins/common/blur.c:177
-#: ../plug-ins/common/unsharp-mask.c:582
+#: ../plug-ins/common/blur.c:177 ../plug-ins/common/unsharp-mask.c:582
 msgid "Blurring"
 msgstr "Lakaat ruzed"
 
@@ -905,20 +853,17 @@ msgid "_Bump map:"
 msgstr "Koagenniñ :"
 
 #. Map type menu
-#: ../plug-ins/common/bump-map.c:841
-#: ../plug-ins/flame/flame.c:747
+#: ../plug-ins/common/bump-map.c:841 ../plug-ins/flame/flame.c:747
 #: ../plug-ins/lighting/lighting-ui.c:845
 msgid "Linear"
 msgstr "Linennek"
 
-#: ../plug-ins/common/bump-map.c:842
-#: ../plug-ins/flame/flame.c:749
+#: ../plug-ins/common/bump-map.c:842 ../plug-ins/flame/flame.c:749
 #: ../plug-ins/lighting/lighting-ui.c:848
 msgid "Spherical"
 msgstr "Pellennek"
 
-#: ../plug-ins/common/bump-map.c:843
-#: ../plug-ins/flame/flame.c:748
+#: ../plug-ins/common/bump-map.c:843 ../plug-ins/flame/flame.c:748
 #: ../plug-ins/lighting/lighting-ui.c:847
 msgid "Sinusoidal"
 msgstr "Sinuzoidel"
@@ -942,8 +887,7 @@ msgstr "Tuginañ ar c'hoagenniñ"
 msgid "_Tile bumpmap"
 msgstr "Koagenniñ marellek"
 
-#: ../plug-ins/common/bump-map.c:898
-#: ../plug-ins/common/emboss.c:501
+#: ../plug-ins/common/bump-map.c:898 ../plug-ins/common/emboss.c:501
 msgid "_Azimuth:"
 msgstr "_Azimut :"
 
@@ -951,18 +895,15 @@ msgstr "_Azimut :"
 msgid "_Elevation:"
 msgstr "_Savidigezh :"
 
-#: ../plug-ins/common/bump-map.c:936
-#: ../plug-ins/common/file-ps.c:3250
+#: ../plug-ins/common/bump-map.c:936 ../plug-ins/common/file-ps.c:3250
 msgid "_X offset:"
 msgstr "Linkañ _X :"
 
-#: ../plug-ins/common/bump-map.c:939
-#: ../plug-ins/common/bump-map.c:953
+#: ../plug-ins/common/bump-map.c:939 ../plug-ins/common/bump-map.c:953
 msgid "The offset can be adjusted by dragging the preview using the middle mouse button."
 msgstr "Kengeidet e vez al linkadur dre riklañ an alberz gant rodig kreiz al logodenn."
 
-#: ../plug-ins/common/bump-map.c:950
-#: ../plug-ins/common/file-ps.c:3259
+#: ../plug-ins/common/bump-map.c:950 ../plug-ins/common/file-ps.c:3259
 msgid "_Y offset:"
 msgstr "Linkañ _Y :"
 
@@ -986,8 +927,7 @@ msgstr "T_resadenn fiñv..."
 msgid "Cartoon"
 msgstr "Tresadenn fiñv"
 
-#: ../plug-ins/common/cartoon.c:847
-#: ../plug-ins/common/photocopy.c:878
+#: ../plug-ins/common/cartoon.c:847 ../plug-ins/common/photocopy.c:878
 msgid "_Mask radius:"
 msgstr "Skin ar _maskl :"
 
@@ -1016,59 +956,44 @@ msgid "O_utput channel:"
 msgstr "Sanell ec'hankañ :"
 
 #. Redmode radio frame
-#: ../plug-ins/common/channel-mixer.c:539
-#: ../plug-ins/common/decompose.c:174
+#: ../plug-ins/common/channel-mixer.c:539 ../plug-ins/common/decompose.c:174
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:993
 msgid "Red"
 msgstr "Ruz"
 
 #. Greenmode radio frame
-#: ../plug-ins/common/channel-mixer.c:544
-#: ../plug-ins/common/decompose.c:175
+#: ../plug-ins/common/channel-mixer.c:544 ../plug-ins/common/decompose.c:175
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1034
 msgid "Green"
 msgstr "Gwer"
 
 #. Bluemode radio frame
-#: ../plug-ins/common/channel-mixer.c:549
-#: ../plug-ins/common/decompose.c:176
+#: ../plug-ins/common/channel-mixer.c:549 ../plug-ins/common/decompose.c:176
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1075
 msgid "Blue"
 msgstr "Glas"
 
 #: ../plug-ins/common/channel-mixer.c:584
-#: ../plug-ins/common/color-exchange.c:412
-#: ../plug-ins/common/compose.c:190
-#: ../plug-ins/common/compose.c:201
-#: ../plug-ins/common/diffraction.c:506
-#: ../plug-ins/common/diffraction.c:544
-#: ../plug-ins/common/diffraction.c:582
-#: ../plug-ins/common/noise-rgb.c:533
-#: ../plug-ins/common/noise-rgb.c:540
+#: ../plug-ins/common/color-exchange.c:412 ../plug-ins/common/compose.c:190
+#: ../plug-ins/common/compose.c:201 ../plug-ins/common/diffraction.c:506
+#: ../plug-ins/common/diffraction.c:544 ../plug-ins/common/diffraction.c:582
+#: ../plug-ins/common/noise-rgb.c:533 ../plug-ins/common/noise-rgb.c:540
 msgid "_Red:"
 msgstr "_Ruz :"
 
 #: ../plug-ins/common/channel-mixer.c:602
-#: ../plug-ins/common/color-exchange.c:468
-#: ../plug-ins/common/compose.c:191
-#: ../plug-ins/common/compose.c:202
-#: ../plug-ins/common/diffraction.c:515
-#: ../plug-ins/common/diffraction.c:553
-#: ../plug-ins/common/diffraction.c:591
-#: ../plug-ins/common/noise-rgb.c:534
-#: ../plug-ins/common/noise-rgb.c:541
+#: ../plug-ins/common/color-exchange.c:468 ../plug-ins/common/compose.c:191
+#: ../plug-ins/common/compose.c:202 ../plug-ins/common/diffraction.c:515
+#: ../plug-ins/common/diffraction.c:553 ../plug-ins/common/diffraction.c:591
+#: ../plug-ins/common/noise-rgb.c:534 ../plug-ins/common/noise-rgb.c:541
 msgid "_Green:"
 msgstr "_Gwer :"
 
 #: ../plug-ins/common/channel-mixer.c:621
-#: ../plug-ins/common/color-exchange.c:524
-#: ../plug-ins/common/compose.c:192
-#: ../plug-ins/common/compose.c:203
-#: ../plug-ins/common/diffraction.c:524
-#: ../plug-ins/common/diffraction.c:562
-#: ../plug-ins/common/diffraction.c:600
-#: ../plug-ins/common/noise-rgb.c:535
-#: ../plug-ins/common/noise-rgb.c:542
+#: ../plug-ins/common/color-exchange.c:524 ../plug-ins/common/compose.c:192
+#: ../plug-ins/common/compose.c:203 ../plug-ins/common/diffraction.c:524
+#: ../plug-ins/common/diffraction.c:562 ../plug-ins/common/diffraction.c:600
+#: ../plug-ins/common/noise-rgb.c:535 ../plug-ins/common/noise-rgb.c:542
 msgid "_Blue:"
 msgstr "Gl_as :"
 
@@ -1086,55 +1011,33 @@ msgstr "Kargañ an arventennoù evit ar mesker sanelloù"
 
 #. stat error (file does not exist)
 #: ../plug-ins/common/channel-mixer.c:980
-#: ../plug-ins/common/cml-explorer.c:2208
-#: ../plug-ins/common/curve-bend.c:892
-#: ../plug-ins/common/file-cel.c:312
-#: ../plug-ins/common/file-dicom.c:340
-#: ../plug-ins/common/file-gbr.c:368
-#: ../plug-ins/common/file-gif-load.c:355
-#: ../plug-ins/common/file-gih.c:640
-#: ../plug-ins/common/file-jp2-load.c:194
-#: ../plug-ins/common/file-jp2-load.c:203
-#: ../plug-ins/common/file-mng.c:1156
-#: ../plug-ins/common/file-pat.c:337
-#: ../plug-ins/common/file-pcx.c:361
-#: ../plug-ins/common/file-pix.c:343
-#: ../plug-ins/common/file-png.c:756
-#: ../plug-ins/common/file-pnm.c:494
-#: ../plug-ins/common/file-ps.c:1014
-#: ../plug-ins/common/file-ps.c:2910
-#: ../plug-ins/common/file-psp.c:1717
-#: ../plug-ins/common/file-raw.c:256
-#: ../plug-ins/common/file-raw.c:711
-#: ../plug-ins/common/file-sunras.c:391
-#: ../plug-ins/common/file-svg.c:333
-#: ../plug-ins/common/file-svg.c:713
-#: ../plug-ins/common/file-tga.c:442
-#: ../plug-ins/common/file-tiff-load.c:291
-#: ../plug-ins/common/file-xbm.c:737
-#: ../plug-ins/common/file-xmc.c:663
-#: ../plug-ins/common/file-xmc.c:848
-#: ../plug-ins/common/file-xwd.c:433
-#: ../plug-ins/common/sphere-designer.c:2010
-#: ../plug-ins/file-bmp/bmp-read.c:153
-#: ../plug-ins/file-faxg3/faxg3.c:229
-#: ../plug-ins/file-fits/fits.c:358
-#: ../plug-ins/file-fli/fli-gimp.c:459
-#: ../plug-ins/file-fli/fli-gimp.c:496
-#: ../plug-ins/file-ico/ico-load.c:651
-#: ../plug-ins/file-ico/ico-load.c:729
-#: ../plug-ins/file-jpeg/jpeg-load.c:117
-#: ../plug-ins/file-jpeg/jpeg-load.c:889
-#: ../plug-ins/file-psd/psd-load.c:130
+#: ../plug-ins/common/cml-explorer.c:2208 ../plug-ins/common/curve-bend.c:892
+#: ../plug-ins/common/file-cel.c:312 ../plug-ins/common/file-dicom.c:340
+#: ../plug-ins/common/file-gbr.c:368 ../plug-ins/common/file-gif-load.c:355
+#: ../plug-ins/common/file-gih.c:640 ../plug-ins/common/file-jp2-load.c:194
+#: ../plug-ins/common/file-jp2-load.c:203 ../plug-ins/common/file-mng.c:1156
+#: ../plug-ins/common/file-pat.c:337 ../plug-ins/common/file-pcx.c:361
+#: ../plug-ins/common/file-pix.c:343 ../plug-ins/common/file-png.c:756
+#: ../plug-ins/common/file-pnm.c:494 ../plug-ins/common/file-ps.c:1014
+#: ../plug-ins/common/file-ps.c:2910 ../plug-ins/common/file-psp.c:1717
+#: ../plug-ins/common/file-raw.c:256 ../plug-ins/common/file-raw.c:711
+#: ../plug-ins/common/file-sunras.c:391 ../plug-ins/common/file-svg.c:333
+#: ../plug-ins/common/file-svg.c:713 ../plug-ins/common/file-tga.c:442
+#: ../plug-ins/common/file-tiff-load.c:291 ../plug-ins/common/file-xbm.c:737
+#: ../plug-ins/common/file-xmc.c:663 ../plug-ins/common/file-xmc.c:848
+#: ../plug-ins/common/file-xwd.c:433 ../plug-ins/common/sphere-designer.c:2010
+#: ../plug-ins/file-bmp/bmp-read.c:153 ../plug-ins/file-faxg3/faxg3.c:229
+#: ../plug-ins/file-fits/fits.c:358 ../plug-ins/file-fli/fli-gimp.c:459
+#: ../plug-ins/file-fli/fli-gimp.c:496 ../plug-ins/file-ico/ico-load.c:651
+#: ../plug-ins/file-ico/ico-load.c:729 ../plug-ins/file-jpeg/jpeg-load.c:117
+#: ../plug-ins/file-jpeg/jpeg-load.c:889 ../plug-ins/file-psd/psd-load.c:130
 #: ../plug-ins/file-psd/psd-thumb-load.c:79
 #: ../plug-ins/file-uri/uri-backend-libcurl.c:193
-#: ../plug-ins/file-xjt/xjt.c:2529
-#: ../plug-ins/file-xjt/xjt.c:2537
+#: ../plug-ins/file-xjt/xjt.c:2529 ../plug-ins/file-xjt/xjt.c:2537
 #: ../plug-ins/flame/flame.c:411
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1865
 #: ../plug-ins/fractal-explorer/fractal-explorer.c:923
-#: ../plug-ins/gfig/gfig.c:433
-#: ../plug-ins/help/gimphelplocale.c:222
+#: ../plug-ins/gfig/gfig.c:433 ../plug-ins/help/gimphelplocale.c:222
 #: ../plug-ins/help/gimphelplocale.c:238
 #: ../plug-ins/lighting/lighting-ui.c:1367
 #, c-format
@@ -1146,45 +1049,27 @@ msgid "Save Channel Mixer Settings"
 msgstr "Enrollañ an arventennoù evit ar mesker sanelloù"
 
 #: ../plug-ins/common/channel-mixer.c:1058
-#: ../plug-ins/common/cml-explorer.c:2035
-#: ../plug-ins/common/curve-bend.c:840
-#: ../plug-ins/common/file-cel.c:585
-#: ../plug-ins/common/file-csource.c:407
-#: ../plug-ins/common/file-dicom.c:1351
-#: ../plug-ins/common/file-gbr.c:663
-#: ../plug-ins/common/file-gif-save.c:782
-#: ../plug-ins/common/file-gih.c:1258
-#: ../plug-ins/common/file-html-table.c:236
-#: ../plug-ins/common/file-mng.c:649
-#: ../plug-ins/common/file-mng.c:984
-#: ../plug-ins/common/file-pat.c:486
-#: ../plug-ins/common/file-pcx.c:712
-#: ../plug-ins/common/file-pix.c:526
-#: ../plug-ins/common/file-png.c:1358
-#: ../plug-ins/common/file-pnm.c:1010
-#: ../plug-ins/common/file-ps.c:1190
-#: ../plug-ins/common/file-raw.c:591
-#: ../plug-ins/common/file-raw.c:619
-#: ../plug-ins/common/file-sunras.c:565
-#: ../plug-ins/common/file-tga.c:1171
-#: ../plug-ins/common/file-tiff-save.c:684
-#: ../plug-ins/common/file-xbm.c:1036
-#: ../plug-ins/common/file-xmc.c:1455
-#: ../plug-ins/common/file-xwd.c:619
-#: ../plug-ins/common/sphere-designer.c:2121
-#: ../plug-ins/file-bmp/bmp-write.c:306
-#: ../plug-ins/file-fits/fits.c:476
-#: ../plug-ins/file-fli/fli-gimp.c:750
-#: ../plug-ins/file-ico/ico-save.c:1007
-#: ../plug-ins/file-jpeg/jpeg-save.c:332
-#: ../plug-ins/file-psd/psd-save.c:1652
+#: ../plug-ins/common/cml-explorer.c:2035 ../plug-ins/common/curve-bend.c:840
+#: ../plug-ins/common/file-cel.c:585 ../plug-ins/common/file-csource.c:407
+#: ../plug-ins/common/file-dicom.c:1351 ../plug-ins/common/file-gbr.c:663
+#: ../plug-ins/common/file-gif-save.c:782 ../plug-ins/common/file-gih.c:1258
+#: ../plug-ins/common/file-html-table.c:236 ../plug-ins/common/file-mng.c:649
+#: ../plug-ins/common/file-mng.c:984 ../plug-ins/common/file-pat.c:486
+#: ../plug-ins/common/file-pcx.c:712 ../plug-ins/common/file-pix.c:526
+#: ../plug-ins/common/file-png.c:1358 ../plug-ins/common/file-pnm.c:1010
+#: ../plug-ins/common/file-ps.c:1190 ../plug-ins/common/file-raw.c:591
+#: ../plug-ins/common/file-raw.c:619 ../plug-ins/common/file-sunras.c:565
+#: ../plug-ins/common/file-tga.c:1171 ../plug-ins/common/file-tiff-save.c:684
+#: ../plug-ins/common/file-xbm.c:1036 ../plug-ins/common/file-xmc.c:1455
+#: ../plug-ins/common/file-xwd.c:619 ../plug-ins/common/sphere-designer.c:2121
+#: ../plug-ins/file-bmp/bmp-write.c:306 ../plug-ins/file-fits/fits.c:476
+#: ../plug-ins/file-fli/fli-gimp.c:750 ../plug-ins/file-ico/ico-save.c:1007
+#: ../plug-ins/file-jpeg/jpeg-save.c:332 ../plug-ins/file-psd/psd-save.c:1652
 #: ../plug-ins/file-uri/uri-backend-libcurl.c:166
-#: ../plug-ins/file-xjt/xjt.c:1276
-#: ../plug-ins/file-xjt/xjt.c:1715
+#: ../plug-ins/file-xjt/xjt.c:1276 ../plug-ins/file-xjt/xjt.c:1715
 #: ../plug-ins/flame/flame.c:442
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1548
-#: ../plug-ins/gfig/gfig.c:797
-#: ../plug-ins/ifs-compose/ifs-compose.c:2408
+#: ../plug-ins/gfig/gfig.c:797 ../plug-ins/ifs-compose/ifs-compose.c:2408
 #: ../plug-ins/lighting/lighting-ui.c:1223
 #, c-format
 msgid "Could not open '%s' for writing: %s"
@@ -1212,8 +1097,7 @@ msgstr "Oc'h ouzhpennañ un damer"
 msgid "Checkerboard"
 msgstr "Damer"
 
-#: ../plug-ins/common/checkerboard.c:413
-#: ../plug-ins/common/file-xmc.c:1162
+#: ../plug-ins/common/checkerboard.c:413 ../plug-ins/common/file-xmc.c:1162
 #: ../plug-ins/gimpressionist/sizemap.c:510
 msgid "_Size:"
 msgstr "_Ment :"
@@ -1335,8 +1219,7 @@ msgstr "Izek (x-d, -), (x < 0.5)"
 msgid "Min (x-d, -), (0.5 < x)"
 msgstr "Izek (x-d, -), (0.5 < x)"
 
-#: ../plug-ins/common/cml-explorer.c:200
-#: ../plug-ins/common/file-sunras.c:1635
+#: ../plug-ins/common/cml-explorer.c:200 ../plug-ins/common/file-sunras.c:1635
 msgid "Standard"
 msgstr "Skoueriek"
 
@@ -1416,22 +1299,19 @@ msgstr "Dargouezhek, diouzh un hadenn"
 msgid "Randoms from seed (shared)"
 msgstr "Dargouezhek, diouzh un hadenn (rannet)"
 
-#: ../plug-ins/common/cml-explorer.c:300
-#: ../plug-ins/common/cml-explorer.c:308
+#: ../plug-ins/common/cml-explorer.c:300 ../plug-ins/common/cml-explorer.c:308
 #: ../plug-ins/common/decompose.c:188
 #: ../plug-ins/gimpressionist/orientation.c:179
 #: ../plug-ins/gimpressionist/size.c:182
 msgid "Hue"
 msgstr "Arliv"
 
-#: ../plug-ins/common/cml-explorer.c:301
-#: ../plug-ins/common/cml-explorer.c:309
+#: ../plug-ins/common/cml-explorer.c:301 ../plug-ins/common/cml-explorer.c:309
 #: ../plug-ins/common/decompose.c:189
 msgid "Saturation"
 msgstr "Peurvec'hiañ"
 
-#: ../plug-ins/common/cml-explorer.c:302
-#: ../plug-ins/common/cml-explorer.c:310
+#: ../plug-ins/common/cml-explorer.c:302 ../plug-ins/common/cml-explorer.c:310
 #: ../plug-ins/common/decompose.c:190
 #: ../plug-ins/gimpressionist/orientation.c:155
 #: ../plug-ins/gimpressionist/size.c:158
@@ -1470,8 +1350,7 @@ msgstr "Festañ an hadennoù"
 msgid "Random Seed"
 msgstr "Hadennoù dargouezhek"
 
-#: ../plug-ins/common/cml-explorer.c:1293
-#: ../plug-ins/common/filter-pack.c:702
+#: ../plug-ins/common/cml-explorer.c:1293 ../plug-ins/common/filter-pack.c:702
 #: ../plug-ins/common/van-gogh-lic.c:675
 msgid "_Hue"
 msgstr "_Arliv"
@@ -1480,8 +1359,7 @@ msgstr "_Arliv"
 msgid "Sat_uration"
 msgstr "_Peurvec'hiañ"
 
-#: ../plug-ins/common/cml-explorer.c:1301
-#: ../plug-ins/common/filter-pack.c:710
+#: ../plug-ins/common/cml-explorer.c:1301 ../plug-ins/common/filter-pack.c:710
 msgid "_Value"
 msgstr "G_werzh"
 
@@ -1509,8 +1387,7 @@ msgstr "Linkadur derou :"
 msgid "Seed of Random (only for \"From Seed\" Modes)"
 msgstr "Hadenn ar grouerez dargouezhek (evit ar modoù gant hadenn hepken)"
 
-#: ../plug-ins/common/cml-explorer.c:1377
-#: ../plug-ins/maze/maze-dialog.c:251
+#: ../plug-ins/common/cml-explorer.c:1377 ../plug-ins/maze/maze-dialog.c:251
 msgid "Seed:"
 msgstr "Hadenn :"
 
@@ -1858,46 +1735,38 @@ msgstr "Adkempenn kartennad al livioù"
 msgid "Drag and drop colors to rearrange the colormap.  The numbers shown are the original indices.  Right-click for a menu with sort options."
 msgstr "Riklañ ha leuskel al livioù evit adkempenn kartennad al livioù. An niverennoù diskouezet a dalv ar feurioù orin. Klikañ a-zehou evit kaout ul lañser gant dibarzhioù rummañ."
 
-#: ../plug-ins/common/compose.c:189
-#: ../plug-ins/common/decompose.c:170
+#: ../plug-ins/common/compose.c:189 ../plug-ins/common/decompose.c:170
 #: ../plug-ins/common/file-raw.c:1100
 msgid "RGB"
 msgstr "RGG"
 
-#: ../plug-ins/common/compose.c:200
-#: ../plug-ins/common/decompose.c:178
+#: ../plug-ins/common/compose.c:200 ../plug-ins/common/decompose.c:178
 msgid "RGBA"
 msgstr "RGGA"
 
-#: ../plug-ins/common/compose.c:204
-#: ../plug-ins/common/noise-rgb.c:528
+#: ../plug-ins/common/compose.c:204 ../plug-ins/common/noise-rgb.c:528
 #: ../plug-ins/common/noise-rgb.c:543
 msgid "_Alpha:"
 msgstr "_Alfa :"
 
-#: ../plug-ins/common/compose.c:211
-#: ../plug-ins/common/decompose.c:184
+#: ../plug-ins/common/compose.c:211 ../plug-ins/common/decompose.c:184
 msgid "HSV"
 msgstr "APG"
 
-#: ../plug-ins/common/compose.c:212
-#: ../plug-ins/common/compose.c:220
+#: ../plug-ins/common/compose.c:212 ../plug-ins/common/compose.c:220
 msgid "_Hue:"
 msgstr "_Arliv :"
 
-#: ../plug-ins/common/compose.c:213
-#: ../plug-ins/common/compose.c:221
+#: ../plug-ins/common/compose.c:213 ../plug-ins/common/compose.c:221
 #: ../plug-ins/common/noise-hsv.c:425
 msgid "_Saturation:"
 msgstr "_Peurvec'hiañ :"
 
-#: ../plug-ins/common/compose.c:214
-#: ../plug-ins/common/noise-hsv.c:437
+#: ../plug-ins/common/compose.c:214 ../plug-ins/common/noise-hsv.c:437
 msgid "_Value:"
 msgstr "_Gwerzh :"
 
-#: ../plug-ins/common/compose.c:219
-#: ../plug-ins/common/decompose.c:193
+#: ../plug-ins/common/compose.c:219 ../plug-ins/common/decompose.c:193
 msgid "HSL"
 msgstr "APL"
 
@@ -1905,28 +1774,23 @@ msgstr "APL"
 msgid "_Lightness:"
 msgstr "_Lintr :"
 
-#: ../plug-ins/common/compose.c:227
-#: ../plug-ins/common/decompose.c:202
+#: ../plug-ins/common/compose.c:227 ../plug-ins/common/decompose.c:202
 msgid "CMY"
 msgstr "SMM"
 
-#: ../plug-ins/common/compose.c:228
-#: ../plug-ins/common/compose.c:236
+#: ../plug-ins/common/compose.c:228 ../plug-ins/common/compose.c:236
 msgid "_Cyan:"
 msgstr "_Siañ :"
 
-#: ../plug-ins/common/compose.c:229
-#: ../plug-ins/common/compose.c:237
+#: ../plug-ins/common/compose.c:229 ../plug-ins/common/compose.c:237
 msgid "_Magenta:"
 msgstr "_Majenta :"
 
-#: ../plug-ins/common/compose.c:230
-#: ../plug-ins/common/compose.c:238
+#: ../plug-ins/common/compose.c:230 ../plug-ins/common/compose.c:238
 msgid "_Yellow:"
 msgstr "_Melen"
 
-#: ../plug-ins/common/compose.c:235
-#: ../plug-ins/common/decompose.c:211
+#: ../plug-ins/common/compose.c:235 ../plug-ins/common/decompose.c:211
 msgid "CMYK"
 msgstr "SMMD"
 
@@ -1934,8 +1798,7 @@ msgstr "SMMD"
 msgid "_Black:"
 msgstr "_Du :"
 
-#: ../plug-ins/common/compose.c:243
-#: ../plug-ins/common/decompose.c:224
+#: ../plug-ins/common/compose.c:243 ../plug-ins/common/decompose.c:224
 msgid "LAB"
 msgstr "LAB"
 
@@ -2020,13 +1883,11 @@ msgstr "N'haller ket kaout treuzfollennoù evit ar skeudenn %d"
 msgid "Composing"
 msgstr "O kenaozañ"
 
-#: ../plug-ins/common/compose.c:697
-#: ../plug-ins/common/compose.c:1731
+#: ../plug-ins/common/compose.c:697 ../plug-ins/common/compose.c:1731
 msgid "At least one image is needed to compose"
 msgstr "Da vihanañ ez eus ezhomm ur skeudenn evit kenaozañ"
 
-#: ../plug-ins/common/compose.c:708
-#: ../plug-ins/common/compose.c:722
+#: ../plug-ins/common/compose.c:708 ../plug-ins/common/compose.c:722
 #, c-format
 msgid "Specified layer %d not found"
 msgstr "Treuzfollenn erspizet %d n'eo ket bet kavet"
@@ -2061,8 +1922,7 @@ msgstr "Kenaozañ"
 msgid "Compose Channels"
 msgstr "Kenaozañ ar sanelloù"
 
-#: ../plug-ins/common/compose.c:1521
-#: ../plug-ins/common/decompose.c:1528
+#: ../plug-ins/common/compose.c:1521 ../plug-ins/common/decompose.c:1528
 msgid "Color _model:"
 msgstr "_Skouer liv :"
 
@@ -2079,8 +1939,7 @@ msgstr "Gwerzh ar maskl"
 msgid "Stretch brightness values to cover the full range"
 msgstr "Astenn gwerzhioù al lintr evit goleiñ al ledad a-bezh"
 
-#: ../plug-ins/common/contrast-normalize.c:91
-#: ../plug-ins/common/edge-dog.c:362
+#: ../plug-ins/common/contrast-normalize.c:91 ../plug-ins/common/edge-dog.c:362
 msgid "_Normalize"
 msgstr "Skoue_riekaat"
 
@@ -2194,10 +2053,8 @@ msgstr "_Alfa"
 msgid "E_xtend"
 msgstr "Le_danaat"
 
-#: ../plug-ins/common/convolution-matrix.c:74
-#: ../plug-ins/common/displace.c:477
-#: ../plug-ins/common/edge.c:700
-#: ../plug-ins/common/fractal-trace.c:737
+#: ../plug-ins/common/convolution-matrix.c:74 ../plug-ins/common/displace.c:477
+#: ../plug-ins/common/edge.c:700 ../plug-ins/common/fractal-trace.c:737
 #: ../plug-ins/common/ripple.c:585
 msgid "_Wrap"
 msgstr "Kle_uriañ"
@@ -2235,8 +2092,7 @@ msgid "D_ivisor:"
 msgstr "D_isranner :"
 
 #: ../plug-ins/common/convolution-matrix.c:1001
-#: ../plug-ins/common/depth-merge.c:775
-#: ../plug-ins/common/file-raw.c:1121
+#: ../plug-ins/common/depth-merge.c:775 ../plug-ins/common/file-raw.c:1121
 msgid "O_ffset:"
 msgstr "Lin_kañ :"
 
@@ -2328,8 +2184,7 @@ msgstr "Krommañ ar skeudenn en ur arverañ daou reoler krommennoù"
 msgid "_Curve Bend..."
 msgstr "_Krommaat..."
 
-#: ../plug-ins/common/curve-bend.c:684
-#: ../plug-ins/common/edge-dog.c:178
+#: ../plug-ins/common/curve-bend.c:684 ../plug-ins/common/edge-dog.c:178
 msgid "Can operate on layers only (but was called on channel or mask)."
 msgstr "Gwerediñ a ra war dreuzfollennoù hepken (galvet eo bet diouzh ur sanell pe ur maskl avat)."
 
@@ -2348,8 +2203,7 @@ msgstr "Fazi e-pad ma oa o lenn '%s' : %s"
 
 #. Possibly retrieve data from a previous run
 #. The shell and main vbox
-#: ../plug-ins/common/curve-bend.c:1225
-#: ../plug-ins/common/curve-bend.c:2956
+#: ../plug-ins/common/curve-bend.c:1225 ../plug-ins/common/curve-bend.c:2956
 msgid "Curve Bend"
 msgstr "Krommaat..."
 
@@ -2374,8 +2228,7 @@ msgstr "Alber_z emgefreek"
 
 #. Options area, bottom of column
 #. Options section
-#: ../plug-ins/common/curve-bend.c:1310
-#: ../plug-ins/common/ripple.c:523
+#: ../plug-ins/common/curve-bend.c:1310 ../plug-ins/common/ripple.c:523
 #: ../plug-ins/gfig/gfig-dialog.c:1243
 msgid "Options"
 msgstr "Dibarzhioù"
@@ -2391,10 +2244,8 @@ msgid "Smoo_thing"
 msgstr "Kuñvaa_t"
 
 #. The antialiasing toggle
-#: ../plug-ins/common/curve-bend.c:1353
-#: ../plug-ins/common/mosaic.c:729
-#: ../plug-ins/common/qbist.c:858
-#: ../plug-ins/common/ripple.c:532
+#: ../plug-ins/common/curve-bend.c:1353 ../plug-ins/common/mosaic.c:729
+#: ../plug-ins/common/qbist.c:858 ../plug-ins/common/ripple.c:532
 msgid "_Antialiasing"
 msgstr "Lufr_añ"
 
@@ -2479,56 +2330,46 @@ msgstr "Kargañ pikennoù ar grommenn diouzh ur restr"
 msgid "Save Curve Points to File"
 msgstr "Enrollañ pikennoù ar grommenn en ur restr"
 
-#: ../plug-ins/common/decompose.c:170
-#: ../plug-ins/common/decompose.c:174
+#: ../plug-ins/common/decompose.c:170 ../plug-ins/common/decompose.c:174
 #: ../plug-ins/common/decompose.c:178
 msgid "red"
 msgstr "ruz"
 
-#: ../plug-ins/common/decompose.c:171
-#: ../plug-ins/common/decompose.c:175
+#: ../plug-ins/common/decompose.c:171 ../plug-ins/common/decompose.c:175
 #: ../plug-ins/common/decompose.c:179
 msgid "green"
 msgstr "gwer"
 
-#: ../plug-ins/common/decompose.c:172
-#: ../plug-ins/common/decompose.c:176
+#: ../plug-ins/common/decompose.c:172 ../plug-ins/common/decompose.c:176
 #: ../plug-ins/common/decompose.c:180
 msgid "blue"
 msgstr "glas"
 
-#: ../plug-ins/common/decompose.c:181
-#: ../plug-ins/common/decompose.c:221
+#: ../plug-ins/common/decompose.c:181 ../plug-ins/common/decompose.c:221
 msgid "alpha"
 msgstr "alfa"
 
-#: ../plug-ins/common/decompose.c:184
-#: ../plug-ins/common/decompose.c:188
+#: ../plug-ins/common/decompose.c:184 ../plug-ins/common/decompose.c:188
 msgid "hue"
 msgstr "arliv"
 
-#: ../plug-ins/common/decompose.c:185
-#: ../plug-ins/common/decompose.c:189
+#: ../plug-ins/common/decompose.c:185 ../plug-ins/common/decompose.c:189
 msgid "saturation"
 msgstr "peurvec'hiañ"
 
-#: ../plug-ins/common/decompose.c:186
-#: ../plug-ins/common/decompose.c:190
+#: ../plug-ins/common/decompose.c:186 ../plug-ins/common/decompose.c:190
 msgid "value"
 msgstr "gwerzh"
 
-#: ../plug-ins/common/decompose.c:193
-#: ../plug-ins/common/decompose.c:197
+#: ../plug-ins/common/decompose.c:193 ../plug-ins/common/decompose.c:197
 msgid "hue_l"
 msgstr "arliv_l"
 
-#: ../plug-ins/common/decompose.c:194
-#: ../plug-ins/common/decompose.c:198
+#: ../plug-ins/common/decompose.c:194 ../plug-ins/common/decompose.c:198
 msgid "saturation_l"
 msgstr "peurvec'hiañ_l"
 
-#: ../plug-ins/common/decompose.c:195
-#: ../plug-ins/common/decompose.c:199
+#: ../plug-ins/common/decompose.c:195 ../plug-ins/common/decompose.c:199
 msgid "lightness"
 msgstr "lintr"
 
@@ -2544,18 +2385,15 @@ msgstr "Peurvec'hiañ (APL)"
 msgid "Lightness"
 msgstr "Lintr"
 
-#: ../plug-ins/common/decompose.c:202
-#: ../plug-ins/common/decompose.c:206
+#: ../plug-ins/common/decompose.c:202 ../plug-ins/common/decompose.c:206
 msgid "cyan"
 msgstr "siañ"
 
-#: ../plug-ins/common/decompose.c:203
-#: ../plug-ins/common/decompose.c:207
+#: ../plug-ins/common/decompose.c:203 ../plug-ins/common/decompose.c:207
 msgid "magenta"
 msgstr "majenta"
 
-#: ../plug-ins/common/decompose.c:204
-#: ../plug-ins/common/decompose.c:208
+#: ../plug-ins/common/decompose.c:204 ../plug-ins/common/decompose.c:208
 msgid "yellow"
 msgstr "melen"
 
@@ -2571,18 +2409,15 @@ msgstr "Majenta"
 msgid "Yellow"
 msgstr "Melen"
 
-#: ../plug-ins/common/decompose.c:211
-#: ../plug-ins/common/decompose.c:216
+#: ../plug-ins/common/decompose.c:211 ../plug-ins/common/decompose.c:216
 msgid "cyan-k"
 msgstr "siañ-k"
 
-#: ../plug-ins/common/decompose.c:212
-#: ../plug-ins/common/decompose.c:217
+#: ../plug-ins/common/decompose.c:212 ../plug-ins/common/decompose.c:217
 msgid "magenta-k"
 msgstr "majenta-k"
 
-#: ../plug-ins/common/decompose.c:213
-#: ../plug-ins/common/decompose.c:218
+#: ../plug-ins/common/decompose.c:213 ../plug-ins/common/decompose.c:218
 msgid "yellow-k"
 msgstr "melen-k"
 
@@ -2654,13 +2489,11 @@ msgstr "livdez glas-cb709f"
 msgid "redness-cr709f"
 msgstr "livdez ruz-cr709f"
 
-#: ../plug-ins/common/decompose.c:312
-#: ../plug-ins/common/decompose.c:326
+#: ../plug-ins/common/decompose.c:312 ../plug-ins/common/decompose.c:326
 msgid "Decompose an image into separate colorspace components"
 msgstr "Digedaozañ ar skeudenn e parzhioù egor livventerezhel disrannet"
 
-#: ../plug-ins/common/decompose.c:318
-#: ../plug-ins/common/decompose.c:336
+#: ../plug-ins/common/decompose.c:318 ../plug-ins/common/decompose.c:336
 msgid "_Decompose..."
 msgstr "_Digenaozañ..."
 
@@ -2696,8 +2529,7 @@ msgstr "Ratreañ ar skeudennoù e lec'h ma vankfe renkoù all"
 msgid "_Deinterlace..."
 msgstr "_Digenweañ..."
 
-#: ../plug-ins/common/deinterlace.c:157
-#: ../plug-ins/common/deinterlace.c:323
+#: ../plug-ins/common/deinterlace.c:157 ../plug-ins/common/deinterlace.c:323
 msgid "Deinterlace"
 msgstr "Digenweañ"
 
@@ -2729,8 +2561,7 @@ msgstr "Toueziañ gant donder"
 msgid "Source 1:"
 msgstr "Tarzh 1 :"
 
-#: ../plug-ins/common/depth-merge.c:718
-#: ../plug-ins/common/depth-merge.c:748
+#: ../plug-ins/common/depth-merge.c:718 ../plug-ins/common/depth-merge.c:748
 msgid "Depth map:"
 msgstr "Kartenn an donderioù :"
 
@@ -2758,8 +2589,7 @@ msgstr "Dilemel an trouz brizhet diwar ar skeudenn"
 msgid "Des_peckle..."
 msgstr "Di_saotrañ..."
 
-#: ../plug-ins/common/despeckle.c:441
-#: ../plug-ins/common/despeckle.c:872
+#: ../plug-ins/common/despeckle.c:441 ../plug-ins/common/despeckle.c:872
 msgid "Despeckle"
 msgstr "Disaotrañ"
 
@@ -2775,12 +2605,9 @@ msgstr "_Azasaus"
 msgid "R_ecursive"
 msgstr "As_kizat"
 
-#: ../plug-ins/common/despeckle.c:510
-#: ../plug-ins/common/edge-neon.c:734
-#: ../plug-ins/common/nl-filter.c:1091
-#: ../plug-ins/common/nova.c:362
-#: ../plug-ins/common/unsharp-mask.c:865
-#: ../plug-ins/common/whirl-pinch.c:591
+#: ../plug-ins/common/despeckle.c:510 ../plug-ins/common/edge-neon.c:734
+#: ../plug-ins/common/nl-filter.c:1091 ../plug-ins/common/nova.c:362
+#: ../plug-ins/common/unsharp-mask.c:865 ../plug-ins/common/whirl-pinch.c:591
 #: ../plug-ins/gradient-flare/gradient-flare.c:2757
 #: ../plug-ins/imagemap/imap_circle.c:277
 msgid "_Radius:"
@@ -2810,14 +2637,10 @@ msgstr "O tiroudennañ"
 msgid "Destripe"
 msgstr "Diroudennañ"
 
-#: ../plug-ins/common/destripe.c:476
-#: ../plug-ins/common/file-html-table.c:584
-#: ../plug-ins/common/file-ps.c:3034
-#: ../plug-ins/common/file-ps.c:3232
-#: ../plug-ins/common/file-raw.c:1134
-#: ../plug-ins/common/smooth-palette.c:437
-#: ../plug-ins/common/tile-paper.c:303
-#: ../plug-ins/common/tile.c:428
+#: ../plug-ins/common/destripe.c:476 ../plug-ins/common/file-html-table.c:584
+#: ../plug-ins/common/file-ps.c:3034 ../plug-ins/common/file-ps.c:3232
+#: ../plug-ins/common/file-raw.c:1134 ../plug-ins/common/smooth-palette.c:437
+#: ../plug-ins/common/tile-paper.c:303 ../plug-ins/common/tile.c:428
 #: ../plug-ins/imagemap/imap_cmd_guides.c:164
 #: ../plug-ins/imagemap/imap_rectangle.c:401
 #: ../plug-ins/print/print-page-layout.c:280
@@ -2861,8 +2684,7 @@ msgstr "Trolinennoù"
 msgid "Sharp Edges"
 msgstr "Riblennoù lemm"
 
-#: ../plug-ins/common/diffraction.c:620
-#: ../plug-ins/common/softglow.c:685
+#: ../plug-ins/common/diffraction.c:620 ../plug-ins/common/softglow.c:685
 #: ../plug-ins/flame/flame.c:1080
 msgid "_Brightness:"
 msgstr "_Lintr :"
@@ -2938,17 +2760,13 @@ msgstr "_Bleinek"
 msgid "Edge Behavior"
 msgstr "Emzalc'h ar riblenn"
 
-#: ../plug-ins/common/displace.c:479
-#: ../plug-ins/common/edge.c:713
-#: ../plug-ins/common/ripple.c:586
-#: ../plug-ins/common/waves.c:283
+#: ../plug-ins/common/displace.c:479 ../plug-ins/common/edge.c:713
+#: ../plug-ins/common/ripple.c:586 ../plug-ins/common/waves.c:283
 msgid "_Smear"
 msgstr "Ledañ"
 
-#: ../plug-ins/common/displace.c:481
-#: ../plug-ins/common/edge.c:726
-#: ../plug-ins/common/fractal-trace.c:741
-#: ../plug-ins/common/newsprint.c:389
+#: ../plug-ins/common/displace.c:481 ../plug-ins/common/edge.c:726
+#: ../plug-ins/common/fractal-trace.c:741 ../plug-ins/common/newsprint.c:389
 msgid "_Black"
 msgstr "_Du"
 
@@ -2960,8 +2778,7 @@ msgstr "Dinoadur ar riblenn gant reoliadur tevder ar riblenn"
 msgid "_Difference of Gaussians..."
 msgstr "_Diforc'h gaussek..."
 
-#: ../plug-ins/common/edge-dog.c:245
-#: ../plug-ins/common/edge-dog.c:302
+#: ../plug-ins/common/edge-dog.c:245 ../plug-ins/common/edge-dog.c:302
 msgid "DoG Edge Detect"
 msgstr "Dinoiñ diforc'h gaussek ar riblennoù"
 
@@ -2977,8 +2794,7 @@ msgstr "_Skin 1 :"
 msgid "R_adius 2:"
 msgstr "Skin _2 :"
 
-#: ../plug-ins/common/edge-dog.c:373
-#: ../plug-ins/gimpressionist/paper.c:166
+#: ../plug-ins/common/edge-dog.c:373 ../plug-ins/gimpressionist/paper.c:166
 msgid "_Invert"
 msgstr "Tug_inañ"
 
@@ -2990,8 +2806,7 @@ msgstr "Dinoadur riblennoù gant un diarunusted uhel"
 msgid "_Laplace"
 msgstr "_Laplace"
 
-#: ../plug-ins/common/edge-laplace.c:243
-#: ../plug-ins/common/edge.c:664
+#: ../plug-ins/common/edge-laplace.c:243 ../plug-ins/common/edge.c:664
 msgid "Laplace"
 msgstr "Laplace"
 
@@ -3015,8 +2830,7 @@ msgstr "Neon"
 msgid "Neon Detection"
 msgstr "Dinoadur an neon"
 
-#: ../plug-ins/common/edge-neon.c:749
-#: ../plug-ins/common/unsharp-mask.c:878
+#: ../plug-ins/common/edge-neon.c:749 ../plug-ins/common/unsharp-mask.c:878
 msgid "_Amount:"
 msgstr "Kreñv_der :"
 
@@ -3072,8 +2886,7 @@ msgstr "Sobel"
 msgid "Prewitt compass"
 msgstr "Kelc'hier Prewitt"
 
-#: ../plug-ins/common/edge.c:661
-#: ../plug-ins/common/sinus.c:905
+#: ../plug-ins/common/edge.c:661 ../plug-ins/common/sinus.c:905
 msgid "Gradient"
 msgstr "Ilrezenn"
 
@@ -3101,8 +2914,7 @@ msgstr "Darvanañ ur skeudenn krouet dre goagenniñ"
 msgid "_Emboss..."
 msgstr "_Stampiñ..."
 
-#: ../plug-ins/common/emboss.c:385
-#: ../plug-ins/common/emboss.c:447
+#: ../plug-ins/common/emboss.c:385 ../plug-ins/common/emboss.c:447
 msgid "Emboss"
 msgstr "Stampiñ"
 
@@ -3139,16 +2951,11 @@ msgstr "Oc'h engravañ"
 msgid "Engrave"
 msgstr "Engravañ"
 
-#: ../plug-ins/common/engrave.c:245
-#: ../plug-ins/common/file-html-table.c:600
-#: ../plug-ins/common/file-ps.c:3044
-#: ../plug-ins/common/file-ps.c:3241
-#: ../plug-ins/common/file-raw.c:1147
-#: ../plug-ins/common/film.c:1002
-#: ../plug-ins/common/smooth-palette.c:442
-#: ../plug-ins/common/tile-paper.c:314
-#: ../plug-ins/common/tile.c:432
-#: ../plug-ins/imagemap/imap_cmd_guides.c:174
+#: ../plug-ins/common/engrave.c:245 ../plug-ins/common/file-html-table.c:600
+#: ../plug-ins/common/file-ps.c:3044 ../plug-ins/common/file-ps.c:3241
+#: ../plug-ins/common/file-raw.c:1147 ../plug-ins/common/film.c:1002
+#: ../plug-ins/common/smooth-palette.c:442 ../plug-ins/common/tile-paper.c:314
+#: ../plug-ins/common/tile.c:432 ../plug-ins/imagemap/imap_cmd_guides.c:174
 #: ../plug-ins/imagemap/imap_rectangle.c:408
 #: ../plug-ins/print/print-page-layout.c:282
 msgid "_Height:"
@@ -3171,8 +2978,7 @@ msgstr "Testenn"
 msgid "_Format:"
 msgstr "_Mentrezh :"
 
-#: ../plug-ins/common/file-cel.c:111
-#: ../plug-ins/common/file-cel.c:129
+#: ../plug-ins/common/file-cel.c:111 ../plug-ins/common/file-cel.c:129
 msgid "KISS CEL"
 msgstr "KISS CEL"
 
@@ -3184,36 +2990,21 @@ msgstr "Kargañ ul livaoueg KISS"
 #. column, highest column ever used
 #. -1  assume fsel is not available (and not attached to any drawable)
 #. -1  assume there is no floating selection
-#: ../plug-ins/common/file-cel.c:317
-#: ../plug-ins/common/file-dicom.c:345
-#: ../plug-ins/common/file-gbr.c:373
-#: ../plug-ins/common/file-gif-load.c:360
-#: ../plug-ins/common/file-gih.c:645
-#: ../plug-ins/common/file-jp2-load.c:187
-#: ../plug-ins/common/file-pat.c:342
-#: ../plug-ins/common/file-pcx.c:366
-#: ../plug-ins/common/file-pdf-load.c:861
-#: ../plug-ins/common/file-pix.c:348
-#: ../plug-ins/common/file-png.c:763
-#: ../plug-ins/common/file-pnm.c:499
-#: ../plug-ins/common/file-ps.c:1020
-#: ../plug-ins/common/file-raw.c:716
-#: ../plug-ins/common/file-sunras.c:487
-#: ../plug-ins/common/file-tga.c:447
-#: ../plug-ins/common/file-tiff-load.c:603
-#: ../plug-ins/common/file-wmf.c:994
-#: ../plug-ins/common/file-xbm.c:742
-#: ../plug-ins/common/file-xmc.c:675
-#: ../plug-ins/common/file-xpm.c:352
-#: ../plug-ins/common/file-xwd.c:524
-#: ../plug-ins/file-bmp/bmp-read.c:158
-#: ../plug-ins/file-faxg3/faxg3.c:213
-#: ../plug-ins/file-fli/fli-gimp.c:501
-#: ../plug-ins/file-ico/ico-load.c:644
-#: ../plug-ins/file-jpeg/jpeg-load.c:123
-#: ../plug-ins/file-psd/psd-load.c:135
-#: ../plug-ins/file-sgi/sgi.c:330
-#: ../plug-ins/file-xjt/xjt.c:3333
+#: ../plug-ins/common/file-cel.c:317 ../plug-ins/common/file-dicom.c:345
+#: ../plug-ins/common/file-gbr.c:373 ../plug-ins/common/file-gif-load.c:360
+#: ../plug-ins/common/file-gih.c:645 ../plug-ins/common/file-jp2-load.c:187
+#: ../plug-ins/common/file-pat.c:342 ../plug-ins/common/file-pcx.c:366
+#: ../plug-ins/common/file-pdf-load.c:861 ../plug-ins/common/file-pix.c:348
+#: ../plug-ins/common/file-png.c:763 ../plug-ins/common/file-pnm.c:499
+#: ../plug-ins/common/file-ps.c:1020 ../plug-ins/common/file-raw.c:716
+#: ../plug-ins/common/file-sunras.c:487 ../plug-ins/common/file-tga.c:447
+#: ../plug-ins/common/file-tiff-load.c:603 ../plug-ins/common/file-wmf.c:994
+#: ../plug-ins/common/file-xbm.c:742 ../plug-ins/common/file-xmc.c:675
+#: ../plug-ins/common/file-xpm.c:352 ../plug-ins/common/file-xwd.c:524
+#: ../plug-ins/file-bmp/bmp-read.c:158 ../plug-ins/file-faxg3/faxg3.c:213
+#: ../plug-ins/file-fli/fli-gimp.c:501 ../plug-ins/file-ico/ico-load.c:644
+#: ../plug-ins/file-jpeg/jpeg-load.c:123 ../plug-ins/file-psd/psd-load.c:135
+#: ../plug-ins/file-sgi/sgi.c:330 ../plug-ins/file-xjt/xjt.c:3333
 #, c-format
 msgid "Opening '%s'"
 msgstr "O tigeriñ '%s'"
@@ -3229,32 +3020,19 @@ msgstr "Donder bit anskor (%d) !"
 
 #. init the progress meter
 #. And let's begin the progress
-#: ../plug-ins/common/file-cel.c:590
-#: ../plug-ins/common/file-gbr.c:668
-#: ../plug-ins/common/file-gif-save.c:789
-#: ../plug-ins/common/file-gih.c:1263
-#: ../plug-ins/common/file-html-table.c:257
-#: ../plug-ins/common/file-pat.c:491
-#: ../plug-ins/common/file-pcx.c:644
-#: ../plug-ins/common/file-pix.c:531
-#: ../plug-ins/common/file-png.c:1365
-#: ../plug-ins/common/file-pnm.c:1015
-#: ../plug-ins/common/file-ps.c:1195
-#: ../plug-ins/common/file-sunras.c:570
-#: ../plug-ins/common/file-tga.c:1176
-#: ../plug-ins/common/file-tiff-save.c:694
-#: ../plug-ins/common/file-xbm.c:1041
-#: ../plug-ins/common/file-xmc.c:1460
-#: ../plug-ins/common/file-xpm.c:638
-#: ../plug-ins/common/file-xwd.c:624
-#: ../plug-ins/file-bmp/bmp-write.c:317
-#: ../plug-ins/file-fits/fits.c:481
-#: ../plug-ins/file-fli/fli-gimp.c:718
-#: ../plug-ins/file-ico/ico-save.c:1001
-#: ../plug-ins/file-jpeg/jpeg-save.c:289
-#: ../plug-ins/file-psd/psd-save.c:1657
-#: ../plug-ins/file-sgi/sgi.c:576
-#: ../plug-ins/file-xjt/xjt.c:1696
+#: ../plug-ins/common/file-cel.c:590 ../plug-ins/common/file-gbr.c:668
+#: ../plug-ins/common/file-gif-save.c:789 ../plug-ins/common/file-gih.c:1263
+#: ../plug-ins/common/file-html-table.c:257 ../plug-ins/common/file-pat.c:491
+#: ../plug-ins/common/file-pcx.c:644 ../plug-ins/common/file-pix.c:531
+#: ../plug-ins/common/file-png.c:1365 ../plug-ins/common/file-pnm.c:1015
+#: ../plug-ins/common/file-ps.c:1195 ../plug-ins/common/file-sunras.c:570
+#: ../plug-ins/common/file-tga.c:1176 ../plug-ins/common/file-tiff-save.c:694
+#: ../plug-ins/common/file-xbm.c:1041 ../plug-ins/common/file-xmc.c:1460
+#: ../plug-ins/common/file-xpm.c:638 ../plug-ins/common/file-xwd.c:624
+#: ../plug-ins/file-bmp/bmp-write.c:317 ../plug-ins/file-fits/fits.c:481
+#: ../plug-ins/file-fli/fli-gimp.c:718 ../plug-ins/file-ico/ico-save.c:1001
+#: ../plug-ins/file-jpeg/jpeg-save.c:289 ../plug-ins/file-psd/psd-save.c:1657
+#: ../plug-ins/file-sgi/sgi.c:576 ../plug-ins/file-xjt/xjt.c:1696
 #, c-format
 msgid "Saving '%s'"
 msgstr "Oc'h enrollañ '%s'"
@@ -3331,34 +3109,27 @@ msgstr "Skeudenn DICOM (Digital Imaging and Communications in Medicine)"
 msgid "'%s' is not a DICOM file."
 msgstr "'%s' n'eo ket ur restr DICOM."
 
-#: ../plug-ins/common/file-dicom.c:1319
-#: ../plug-ins/common/file-pcx.c:676
+#: ../plug-ins/common/file-dicom.c:1319 ../plug-ins/common/file-pcx.c:676
 #: ../plug-ins/common/file-pnm.c:1000
 msgid "Cannot save images with alpha channel."
 msgstr "N'haller ket enrollañ skeudennoù gant sanelloù alfa."
 
-#: ../plug-ins/common/file-dicom.c:1334
-#: ../plug-ins/common/file-ps.c:1180
-#: ../plug-ins/common/file-ps.c:1212
-#: ../plug-ins/common/file-xwd.c:609
-#: ../plug-ins/file-fits/fits.c:466
-#: ../plug-ins/file-xjt/xjt.c:1691
+#: ../plug-ins/common/file-dicom.c:1334 ../plug-ins/common/file-ps.c:1180
+#: ../plug-ins/common/file-ps.c:1212 ../plug-ins/common/file-xwd.c:609
+#: ../plug-ins/file-fits/fits.c:466 ../plug-ins/file-xjt/xjt.c:1691
 msgid "Cannot operate on unknown image types."
 msgstr "N'haller ket gwerediñ war rizhioù skeudennoù dianav."
 
-#: ../plug-ins/common/file-gbr.c:154
-#: ../plug-ins/common/file-gbr.c:175
+#: ../plug-ins/common/file-gbr.c:154 ../plug-ins/common/file-gbr.c:175
 msgid "GIMP brush"
 msgstr "Broust GIMP"
 
-#: ../plug-ins/common/file-gbr.c:399
-#: ../plug-ins/common/file-pat.c:418
+#: ../plug-ins/common/file-gbr.c:399 ../plug-ins/common/file-pat.c:418
 #, c-format
 msgid "Invalid header data in '%s': width=%lu, height=%lu, bytes=%lu"
 msgstr "Roadennoù talbenn didalvoudek e '%s': led=%lu, sav=%lu, eizhbitoù=%lu"
 
-#: ../plug-ins/common/file-gbr.c:423
-#: ../plug-ins/common/file-gbr.c:435
+#: ../plug-ins/common/file-gbr.c:423 ../plug-ins/common/file-gbr.c:435
 msgid "Unsupported brush format"
 msgstr "Mentrezh broust anskor"
 
@@ -3372,8 +3143,7 @@ msgstr "Fazi e restr broust GIMP '%s'"
 msgid "Invalid UTF-8 string in brush file '%s'."
 msgstr "Hedad nodoù UTF-8 didalvoudek er restr broust '%s'."
 
-#: ../plug-ins/common/file-gbr.c:461
-#: ../plug-ins/common/file-gih.c:487
+#: ../plug-ins/common/file-gbr.c:461 ../plug-ins/common/file-gih.c:487
 #: ../plug-ins/common/file-gih.c:1137
 #: ../plug-ins/gradient-flare/gradient-flare.c:3064
 msgid "Unnamed"
@@ -3388,15 +3158,12 @@ msgid "Brush"
 msgstr "Broust"
 
 #. attach labels
-#: ../plug-ins/common/file-gbr.c:784
-#: ../plug-ins/common/grid.c:792
+#: ../plug-ins/common/file-gbr.c:784 ../plug-ins/common/grid.c:792
 msgid "Spacing:"
 msgstr "Esaouiñ :"
 
-#: ../plug-ins/common/file-gbr.c:795
-#: ../plug-ins/common/file-gih.c:888
-#: ../plug-ins/common/file-pat.c:568
-#: ../plug-ins/gimpressionist/presets.c:666
+#: ../plug-ins/common/file-gbr.c:795 ../plug-ins/common/file-gih.c:888
+#: ../plug-ins/common/file-pat.c:568 ../plug-ins/gimpressionist/presets.c:666
 msgid "Description:"
 msgstr "Deskrivadur :"
 
@@ -3423,8 +3190,7 @@ msgstr "Drekva (%d%s)"
 msgid "Opening '%s' (frame %d)"
 msgstr "O tigeriñ '%s' (frammad %d)"
 
-#: ../plug-ins/common/file-gif-load.c:997
-#: ../plug-ins/common/iwarp.c:792
+#: ../plug-ins/common/file-gif-load.c:997 ../plug-ins/common/iwarp.c:792
 #: ../plug-ins/common/iwarp.c:827
 #, c-format
 msgid "Frame %d"
@@ -3508,8 +3274,7 @@ msgstr "Fazi e-pad skrivadur ar restr ec'hankañ."
 msgid "The default comment is limited to %d characters."
 msgstr "Bevennet eo an askellenn dre ziouer ouzh %d arouezennoù."
 
-#: ../plug-ins/common/file-gih.c:209
-#: ../plug-ins/common/file-gih.c:230
+#: ../plug-ins/common/file-gih.c:209 ../plug-ins/common/file-gih.c:230
 msgid "GIMP brush (animated)"
 msgstr "Broust GIMP (fiñv)"
 
@@ -3743,8 +3508,7 @@ msgstr "Sinet eo parzh skeudenn %d ar skeudenn '%s' . N'eo ket skoret gant GIMP.
 
 #. Inform the user that we couldn't losslessly save the
 #. * transparency & just use the full palette
-#: ../plug-ins/common/file-mng.c:534
-#: ../plug-ins/common/file-png.c:1902
+#: ../plug-ins/common/file-mng.c:534 ../plug-ins/common/file-png.c:1902
 msgid "Couldn't losslessly save transparency, saving opacity instead."
 msgstr "N'haller ket enrollañ ar boullder hep koll, oc'h enrollañ an demerez en e lec'h."
 
@@ -3764,8 +3528,7 @@ msgstr "Kenweañ"
 msgid "Save background color"
 msgstr "Enrollañ liv an drekva"
 
-#: ../plug-ins/common/file-mng.c:1371
-#: ../plug-ins/ui/plug-in-file-png.ui.h:3
+#: ../plug-ins/common/file-mng.c:1371 ../plug-ins/ui/plug-in-file-png.ui.h:3
 msgid "Save gamma"
 msgstr "Enrollañ ar gamma"
 
@@ -3778,8 +3541,7 @@ msgid "Save creation time"
 msgstr "Enrollañ deiziad ar c'hrouiñ"
 
 #. Dialog init
-#: ../plug-ins/common/file-mng.c:1411
-#: ../plug-ins/common/file-png.c:1951
+#: ../plug-ins/common/file-mng.c:1411 ../plug-ins/common/file-png.c:1951
 msgid "PNG"
 msgstr "PNG"
 
@@ -3823,8 +3585,7 @@ msgstr "Didroc'hadur ar skeudennoù dre ziouer :"
 msgid "PNG compression level:"
 msgstr "Live koazhañ PNG :"
 
-#: ../plug-ins/common/file-mng.c:1465
-#: ../plug-ins/ui/plug-in-file-png.ui.h:10
+#: ../plug-ins/common/file-mng.c:1465 ../plug-ins/ui/plug-in-file-png.ui.h:10
 msgid "Choose a high compression level for small file size"
 msgstr "Dibab un derez uhel a goazhadur evit kaout restroù bihan o ment"
 
@@ -3848,8 +3609,7 @@ msgstr "Dol"
 msgid "Default frame delay:"
 msgstr "Dale skrammañ ur skeudenn dre ziouer :"
 
-#: ../plug-ins/common/file-mng.c:1542
-#: ../plug-ins/ui/plug-in-file-gif.ui.h:7
+#: ../plug-ins/common/file-mng.c:1542 ../plug-ins/ui/plug-in-file-gif.ui.h:7
 msgid "milliseconds"
 msgstr "a vilieilennoù"
 
@@ -3861,8 +3621,7 @@ msgstr "Hegerz eo an dibarzhioù-mañ mard ez eus muioc'h eget un dreuzfollenn g
 msgid "MNG animation"
 msgstr "Bliverezh MNG"
 
-#: ../plug-ins/common/file-pat.c:123
-#: ../plug-ins/common/file-pat.c:145
+#: ../plug-ins/common/file-pat.c:123 ../plug-ins/common/file-pat.c:145
 msgid "GIMP pattern"
 msgstr "Goustur GIMP"
 
@@ -3875,8 +3634,7 @@ msgstr "Hedad nodoù UTF-8 didalvoudek er restr goustur '%s'."
 msgid "Pattern"
 msgstr "Goustur"
 
-#: ../plug-ins/common/file-pcx.c:133
-#: ../plug-ins/common/file-pcx.c:152
+#: ../plug-ins/common/file-pcx.c:133 ../plug-ins/common/file-pcx.c:152
 msgid "ZSoft PCX image"
 msgstr "Skeudenn ZSoft PCX"
 
@@ -3890,15 +3648,13 @@ msgstr "N'haller ket lenn an talbenn adalek '%s'"
 msgid "'%s' is not a PCX file"
 msgstr "'%s' n'eo ket ur restr PCX"
 
-#: ../plug-ins/common/file-pcx.c:397
-#: ../plug-ins/file-bmp/bmp-read.c:636
+#: ../plug-ins/common/file-pcx.c:397 ../plug-ins/file-bmp/bmp-read.c:636
 #: ../plug-ins/file-psd/psd-load.c:301
 #, c-format
 msgid "Unsupported or invalid image width: %d"
 msgstr "Donder skeudenn anskor pe zidalvoudek : %d"
 
-#: ../plug-ins/common/file-pcx.c:403
-#: ../plug-ins/file-bmp/bmp-read.c:642
+#: ../plug-ins/common/file-pcx.c:403 ../plug-ins/file-bmp/bmp-read.c:642
 #: ../plug-ins/file-psd/psd-load.c:293
 #, c-format
 msgid "Unsupported or invalid image height: %d"
@@ -3958,8 +3714,7 @@ msgstr "N'haller ket kargañ '%s' : %s"
 msgid "%s-%s"
 msgstr "%s-%s"
 
-#: ../plug-ins/common/file-pdf-load.c:897
-#: ../plug-ins/common/file-ps.c:1102
+#: ../plug-ins/common/file-pdf-load.c:897 ../plug-ins/common/file-ps.c:1102
 #, c-format
 msgid "%s-pages"
 msgstr "pajennoù-%s"
@@ -3968,8 +3723,7 @@ msgstr "pajennoù-%s"
 msgid "Import from PDF"
 msgstr "Enporzhiañ diouzh ur PDF"
 
-#: ../plug-ins/common/file-pdf-load.c:1093
-#: ../plug-ins/common/file-ps.c:2962
+#: ../plug-ins/common/file-pdf-load.c:1093 ../plug-ins/common/file-ps.c:2962
 #: ../plug-ins/common/file-tiff-load.c:483
 msgid "_Import"
 msgstr "Enporzh_iañ"
@@ -3997,10 +3751,8 @@ msgid "Use _Anti-aliasing"
 msgstr "Arverañ al lufr_añ"
 
 #: ../plug-ins/common/file-pdf-load.c:1460
-#: ../plug-ins/common/file-pdf-load.c:1461
-#: ../plug-ins/common/file-svg.c:917
-#: ../plug-ins/common/file-wmf.c:698
-#: ../plug-ins/print/print-page-layout.c:301
+#: ../plug-ins/common/file-pdf-load.c:1461 ../plug-ins/common/file-svg.c:917
+#: ../plug-ins/common/file-wmf.c:698 ../plug-ins/print/print-page-layout.c:301
 #, c-format
 msgid "pixels/%a"
 msgstr "pikselioù/%a"
@@ -4068,15 +3820,12 @@ msgstr "Ouzhpennañ ar skeudenn-mañ"
 msgid "Error! In order to save the file, at least one image should be added!"
 msgstr "Fazi ! A-benn enrollañ ar restr e tlefe bezañ ouzhpennet ur skeudenn da vihanañ !"
 
-#: ../plug-ins/common/file-pix.c:142
-#: ../plug-ins/common/file-pix.c:159
+#: ../plug-ins/common/file-pix.c:142 ../plug-ins/common/file-pix.c:159
 msgid "Alias Pix image"
 msgstr "Skeudenn pix alias"
 
-#: ../plug-ins/common/file-png.c:279
-#: ../plug-ins/common/file-png.c:300
-#: ../plug-ins/common/file-png.c:320
-#: ../plug-ins/common/file-png.c:337
+#: ../plug-ins/common/file-png.c:279 ../plug-ins/common/file-png.c:300
+#: ../plug-ins/common/file-png.c:320 ../plug-ins/common/file-png.c:337
 msgid "PNG image"
 msgstr "Skeudenn PNG"
 
@@ -4168,12 +3917,9 @@ msgstr "Skeudenn PGM"
 msgid "PPM image"
 msgstr "Skeudenn PPM"
 
-#: ../plug-ins/common/file-pnm.c:528
-#: ../plug-ins/common/file-pnm.c:550
-#: ../plug-ins/common/file-pnm.c:559
-#: ../plug-ins/common/file-pnm.c:570
-#: ../plug-ins/common/file-pnm.c:656
-#: ../plug-ins/common/file-pnm.c:738
+#: ../plug-ins/common/file-pnm.c:528 ../plug-ins/common/file-pnm.c:550
+#: ../plug-ins/common/file-pnm.c:559 ../plug-ins/common/file-pnm.c:570
+#: ../plug-ins/common/file-pnm.c:656 ../plug-ins/common/file-pnm.c:738
 msgid "Premature end of file."
 msgstr "Dibenn restr re abred."
 
@@ -4190,7 +3936,7 @@ msgid "Invalid X resolution."
 msgstr "Diarunusted X didalvoudek."
 
 #: ../plug-ins/common/file-pnm.c:555
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "Brasoc'h eo led ar skeudenn eget ar pezh a vez dornataet gant GIMP."
 
 #: ../plug-ins/common/file-pnm.c:562
@@ -4198,7 +3944,7 @@ msgid "Invalid Y resolution."
 msgstr "Diarunusted Y didalvoudek."
 
 #: ../plug-ins/common/file-pnm.c:564
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "Brasoc'h eo sav ar skeudenn eget pezh a vez dornataet gant GIMP."
 
 #: ../plug-ins/common/file-pnm.c:574
@@ -4227,13 +3973,11 @@ msgstr "Diaoz"
 msgid "ASCII"
 msgstr "ASCII"
 
-#: ../plug-ins/common/file-ps.c:579
-#: ../plug-ins/common/file-ps.c:671
+#: ../plug-ins/common/file-ps.c:579 ../plug-ins/common/file-ps.c:671
 msgid "PostScript document"
 msgstr "Teuliad PostScript"
 
-#: ../plug-ins/common/file-ps.c:598
-#: ../plug-ins/common/file-ps.c:687
+#: ../plug-ins/common/file-ps.c:598 ../plug-ins/common/file-ps.c:687
 msgid "Encapsulated PostScript image"
 msgstr "Skeudenn PostScript bloc'hennet"
 
@@ -4251,20 +3995,15 @@ msgstr "N'haller ket jubenniñ ar restr mod Postcript '%s'"
 msgid "PostScript save cannot handle images with alpha channels"
 msgstr "PostScript n'hall ket labourat war ar skeudennoù gant sanelloù alfa"
 
-#: ../plug-ins/common/file-ps.c:1804
-#: ../plug-ins/common/file-tiff-load.c:999
+#: ../plug-ins/common/file-ps.c:1804 ../plug-ins/common/file-tiff-load.c:999
 #, c-format
 msgid "Page %d"
 msgstr "Pajenn %d"
 
-#: ../plug-ins/common/file-ps.c:2469
-#: ../plug-ins/common/file-ps.c:2600
-#: ../plug-ins/common/file-ps.c:2749
-#: ../plug-ins/common/file-ps.c:2873
-#: ../plug-ins/common/file-sunras.c:1504
-#: ../plug-ins/common/file-sunras.c:1610
-#: ../plug-ins/file-fits/fits.c:850
-#: ../plug-ins/file-fits/fits.c:973
+#: ../plug-ins/common/file-ps.c:2469 ../plug-ins/common/file-ps.c:2600
+#: ../plug-ins/common/file-ps.c:2749 ../plug-ins/common/file-ps.c:2873
+#: ../plug-ins/common/file-sunras.c:1504 ../plug-ins/common/file-sunras.c:1610
+#: ../plug-ins/file-fits/fits.c:850 ../plug-ins/file-fits/fits.c:973
 msgid "Write error occurred"
 msgstr "Degouezhet ez eus bet ur fazi skrivañ"
 
@@ -4278,8 +4017,7 @@ msgid "Rendering"
 msgstr "Deouez war erounit"
 
 #. Resolution
-#: ../plug-ins/common/file-ps.c:3017
-#: ../plug-ins/common/file-svg.c:911
+#: ../plug-ins/common/file-ps.c:3017 ../plug-ins/common/file-svg.c:911
 #: ../plug-ins/common/file-wmf.c:692
 msgid "Resolution:"
 msgstr "Diarunusted :"
@@ -4292,8 +4030,7 @@ msgstr "Pajennoù :"
 msgid "Pages to load (e.g.: 1-4 or 1,3,5-7)"
 msgstr "Pajennadoù da gargañ (sk. : 1-4 pe 1,3,5-7)"
 
-#: ../plug-ins/common/file-ps.c:3068
-#: ../plug-ins/common/sphere-designer.c:2657
+#: ../plug-ins/common/file-ps.c:3068 ../plug-ins/common/sphere-designer.c:2657
 msgid "Layers"
 msgstr "Treuzfollennoù"
 
@@ -4318,16 +4055,14 @@ msgstr "O tianlivañ"
 msgid "B/W"
 msgstr "G/D"
 
-#: ../plug-ins/common/file-ps.c:3097
-#: ../plug-ins/common/file-xpm.c:479
+#: ../plug-ins/common/file-ps.c:3097 ../plug-ins/common/file-xpm.c:479
 #: ../plug-ins/gimpressionist/color.c:65
 #: ../plug-ins/gimpressionist/general.c:169
 #: ../plug-ins/imagemap/imap_menu.c:212
 msgid "Color"
 msgstr "Liv"
 
-#: ../plug-ins/common/file-ps.c:3098
-#: ../plug-ins/file-fits/fits.c:1032
+#: ../plug-ins/common/file-ps.c:3098 ../plug-ins/file-fits/fits.c:1032
 msgid "Automatic"
 msgstr "Emgefreek"
 
@@ -4335,19 +4070,16 @@ msgstr "Emgefreek"
 msgid "Text antialiasing"
 msgstr "Lufradur an destenn"
 
-#: ../plug-ins/common/file-ps.c:3113
-#: ../plug-ins/common/file-ps.c:3125
+#: ../plug-ins/common/file-ps.c:3113 ../plug-ins/common/file-ps.c:3125
 msgctxt "antialiasing"
 msgid "None"
 msgstr "Tra ebet"
 
-#: ../plug-ins/common/file-ps.c:3114
-#: ../plug-ins/common/file-ps.c:3126
+#: ../plug-ins/common/file-ps.c:3114 ../plug-ins/common/file-ps.c:3126
 msgid "Weak"
 msgstr "Gwan"
 
-#: ../plug-ins/common/file-ps.c:3115
-#: ../plug-ins/common/file-ps.c:3127
+#: ../plug-ins/common/file-ps.c:3115 ../plug-ins/common/file-ps.c:3127
 msgid "Strong"
 msgstr "Kreñv"
 
@@ -4386,8 +4118,7 @@ msgid "_Millimeter"
 msgstr "_Milimetr"
 
 #. Rotation
-#: ../plug-ins/common/file-ps.c:3297
-#: ../plug-ins/map-object/map-object-ui.c:989
+#: ../plug-ins/common/file-ps.c:3297 ../plug-ins/map-object/map-object-ui.c:989
 msgid "Rotation"
 msgstr "C'hwelañ"
 
@@ -4412,8 +4143,7 @@ msgstr "_Alberz"
 msgid "Preview _size:"
 msgstr "_Ment an alberz :"
 
-#: ../plug-ins/common/file-psp.c:599
-#: ../plug-ins/common/file-psp.c:623
+#: ../plug-ins/common/file-psp.c:599 ../plug-ins/common/file-psp.c:623
 msgid "Paint Shop Pro image"
 msgstr "Skeudenn Paint Shop Pro"
 
@@ -4439,8 +4169,7 @@ msgstr "RLE"
 msgid "LZ77"
 msgstr "LZ77"
 
-#: ../plug-ins/common/file-raw.c:187
-#: ../plug-ins/common/file-raw.c:202
+#: ../plug-ins/common/file-raw.c:187 ../plug-ins/common/file-raw.c:202
 msgid "Raw image data"
 msgstr "Roadennoù skeudenn diaoz"
 
@@ -4480,13 +4209,11 @@ msgstr "_Rizh skeudenn :"
 msgid "Palette"
 msgstr "Livaoueg"
 
-#: ../plug-ins/common/file-raw.c:1170
-#: ../plug-ins/common/file-raw.c:1255
+#: ../plug-ins/common/file-raw.c:1170 ../plug-ins/common/file-raw.c:1255
 msgid "R, G, B (normal)"
 msgstr "R, G, G (reizh)"
 
-#: ../plug-ins/common/file-raw.c:1171
-#: ../plug-ins/common/file-raw.c:1257
+#: ../plug-ins/common/file-raw.c:1171 ../plug-ins/common/file-raw.c:1257
 msgid "B, G, R, X (BMP style)"
 msgstr "B, G, G, X (stil BMP)"
 
@@ -4526,8 +4253,7 @@ msgstr "Planar (RRR,GGG,GGG)"
 msgid "Indexed Palette Type"
 msgstr "Rizh livaoueg ibiliet"
 
-#: ../plug-ins/common/file-sunras.c:217
-#: ../plug-ins/common/file-sunras.c:237
+#: ../plug-ins/common/file-sunras.c:217 ../plug-ins/common/file-sunras.c:237
 msgid "SUN Rasterfile image"
 msgstr "Skeudenn Raster SUN"
 
@@ -4549,8 +4275,7 @@ msgstr "N'haller ket lenn enankadoù liv diouzh '%s'"
 msgid "Type of colormap not supported"
 msgstr "Rizh livaoueg anskor"
 
-#: ../plug-ins/common/file-sunras.c:457
-#: ../plug-ins/common/file-xbm.c:827
+#: ../plug-ins/common/file-sunras.c:457 ../plug-ins/common/file-xbm.c:827
 #: ../plug-ins/common/file-xwd.c:489
 #, c-format
 msgid ""
@@ -4560,19 +4285,17 @@ msgstr ""
 "'%s':\n"
 "Led skeudenn ebet bet erspizet"
 
-#: ../plug-ins/common/file-sunras.c:465
-#: ../plug-ins/common/file-xbm.c:834
+#: ../plug-ins/common/file-sunras.c:465 ../plug-ins/common/file-xbm.c:834
 #: ../plug-ins/common/file-xwd.c:499
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s' :\n"
 "brasoc'h eo led ar skeudenn eget pezh a vez dornataet gant GIMP"
 
-#: ../plug-ins/common/file-sunras.c:473
-#: ../plug-ins/common/file-xbm.c:841
+#: ../plug-ins/common/file-sunras.c:473 ../plug-ins/common/file-xbm.c:841
 #: ../plug-ins/common/file-xwd.c:508
 #, c-format
 msgid ""
@@ -4582,13 +4305,12 @@ msgstr ""
 "'%s':\n"
 "Sav skeudenn ebet bet erspizet"
 
-#: ../plug-ins/common/file-sunras.c:481
-#: ../plug-ins/common/file-xbm.c:848
+#: ../plug-ins/common/file-sunras.c:481 ../plug-ins/common/file-xbm.c:848
 #: ../plug-ins/common/file-xwd.c:517
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s'\n"
 "Brasoc'h eo sav ar skeudenn eget ar pezh a vez dornataet gant GIMP."
@@ -4606,16 +4328,11 @@ msgstr "SUNRAS n'hall ket labourat war skeudennoù gant ur sanell alfa"
 msgid "Can't operate on unknown image types"
 msgstr "N'haller ket gwerediñ war rizhioù skeudennoù dianav"
 
-#: ../plug-ins/common/file-sunras.c:1084
-#: ../plug-ins/common/file-sunras.c:1175
-#: ../plug-ins/common/file-sunras.c:1256
-#: ../plug-ins/common/file-sunras.c:1351
-#: ../plug-ins/common/file-xwd.c:1357
-#: ../plug-ins/common/file-xwd.c:1458
-#: ../plug-ins/common/file-xwd.c:1616
-#: ../plug-ins/common/file-xwd.c:1817
-#: ../plug-ins/common/file-xwd.c:2069
-#: ../plug-ins/file-fits/fits.c:698
+#: ../plug-ins/common/file-sunras.c:1084 ../plug-ins/common/file-sunras.c:1175
+#: ../plug-ins/common/file-sunras.c:1256 ../plug-ins/common/file-sunras.c:1351
+#: ../plug-ins/common/file-xwd.c:1357 ../plug-ins/common/file-xwd.c:1458
+#: ../plug-ins/common/file-xwd.c:1616 ../plug-ins/common/file-xwd.c:1817
+#: ../plug-ins/common/file-xwd.c:2069 ../plug-ins/file-fits/fits.c:698
 msgid "EOF encountered on reading"
 msgstr "Dibenn restr kejet outañ pa oa o lenn"
 
@@ -4636,8 +4353,7 @@ msgstr "Enbonegañ RunLength"
 msgid "SVG image"
 msgstr "Skeudenn mod SVG"
 
-#: ../plug-ins/common/file-svg.c:335
-#: ../plug-ins/common/file-svg.c:715
+#: ../plug-ins/common/file-svg.c:335 ../plug-ins/common/file-svg.c:715
 msgid "Unknown reason"
 msgstr "Abeg dianav"
 
@@ -4649,8 +4365,7 @@ msgstr "Deouez SVG war erounit"
 msgid "Rendered SVG"
 msgstr "Deouet SVG graet"
 
-#: ../plug-ins/common/file-svg.c:549
-#: ../plug-ins/common/file-wmf.c:358
+#: ../plug-ins/common/file-svg.c:549 ../plug-ins/common/file-wmf.c:358
 #, c-format
 msgid "%d × %d"
 msgstr "%d × %d"
@@ -4669,29 +4384,24 @@ msgid "Render Scalable Vector Graphics"
 msgstr "Deouez Scalable Vector Graphics"
 
 #. Width and Height
-#: ../plug-ins/common/file-svg.c:790
-#: ../plug-ins/common/file-wmf.c:571
+#: ../plug-ins/common/file-svg.c:790 ../plug-ins/common/file-wmf.c:571
 #: ../plug-ins/common/grid.c:726
 msgid "Width:"
 msgstr "Led :"
 
-#: ../plug-ins/common/file-svg.c:796
-#: ../plug-ins/common/file-wmf.c:577
+#: ../plug-ins/common/file-svg.c:796 ../plug-ins/common/file-wmf.c:577
 msgid "Height:"
 msgstr "Sav :"
 
-#: ../plug-ins/common/file-svg.c:870
-#: ../plug-ins/common/file-wmf.c:651
+#: ../plug-ins/common/file-svg.c:870 ../plug-ins/common/file-wmf.c:651
 msgid "_X ratio:"
 msgstr "Argement _X :"
 
-#: ../plug-ins/common/file-svg.c:892
-#: ../plug-ins/common/file-wmf.c:673
+#: ../plug-ins/common/file-svg.c:892 ../plug-ins/common/file-wmf.c:673
 msgid "_Y ratio:"
 msgstr "Argement _Y :"
 
-#: ../plug-ins/common/file-svg.c:906
-#: ../plug-ins/common/file-wmf.c:687
+#: ../plug-ins/common/file-svg.c:906 ../plug-ins/common/file-wmf.c:687
 msgid "Constrain aspect ratio"
 msgstr "Mirout ar c'henfeurioù"
 
@@ -4708,8 +4418,7 @@ msgstr "Enporzhiañ elfennoù an treug eus an SVG a-benn ma vo arveret gant benv
 msgid "Merge imported paths"
 msgstr "Toueziañ an treugoù enporzhiet"
 
-#: ../plug-ins/common/file-tga.c:245
-#: ../plug-ins/common/file-tga.c:264
+#: ../plug-ins/common/file-tga.c:245 ../plug-ins/common/file-tga.c:264
 msgid "TarGA image"
 msgstr "Skeudenn TarGA"
 
@@ -4773,11 +4482,10 @@ msgstr "%s-%d-eus-%d-a bajennoù"
 msgid "TIFF Channel"
 msgstr "Sanell TIFF"
 
-#: ../plug-ins/common/file-tiff-load.c:1024
-#: ../plug-ins/file-psd/psd-load.c:333
+#: ../plug-ins/common/file-tiff-load.c:1024 ../plug-ins/file-psd/psd-load.c:333
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 bit, so it will be converted for you. Information will be lost because of this conversion."
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 bit, so it will be converted for you. Information will be lost because of this conversion."
 msgstr ""
 "Evezh :\n"
 "16 eizhbit dre sanell zo d'ar skeudenn emaoc'h o kargañ. 8 eizhbit hepken a vez dornataet gant GIMP, amdroet e vo evideoc'h. Kollet e vo stlennoù zo en abeg d'an amdreiñ-mañ."
@@ -4831,8 +4539,7 @@ msgstr "Pelleiler Strollad _4 CCITT"
 msgid "Save _color values from transparent pixels"
 msgstr "Enrollañ gwerzhioù al livioù diouzh ar pikselioù treuzwelus"
 
-#: ../plug-ins/common/file-tiff-save.c:1118
-#: ../plug-ins/common/file-xbm.c:1235
+#: ../plug-ins/common/file-tiff-save.c:1118 ../plug-ins/common/file-xbm.c:1235
 msgid "Comment:"
 msgstr "Askelenn :"
 
@@ -4861,8 +4568,7 @@ msgstr "N'haller ket digeriñ '%s' evit lenn."
 msgid "Rendered WMF"
 msgstr "Deouez WMF"
 
-#: ../plug-ins/common/file-xbm.c:177
-#: ../plug-ins/common/file-xbm.c:195
+#: ../plug-ins/common/file-xbm.c:177 ../plug-ins/common/file-xbm.c:195
 msgid "X BitMap image"
 msgstr "Skeudenn bitmap X"
 
@@ -4926,8 +4632,7 @@ msgstr "Rakrann hennad_iñ :"
 msgid "_Write hot spot values"
 msgstr "Skrivañ gwerzh ar pikennoù tomm"
 
-#: ../plug-ins/common/file-xbm.c:1266
-#: ../plug-ins/common/file-xmc.c:1089
+#: ../plug-ins/common/file-xbm.c:1266 ../plug-ins/common/file-xmc.c:1089
 msgid "Hot spot _X:"
 msgstr "Pikenn domm _X :"
 
@@ -4948,8 +4653,7 @@ msgstr "Skrivañ ar restr maskl dibarzhel"
 msgid "_Mask file extension:"
 msgstr "Askouezhadenn ar restr maskl :"
 
-#: ../plug-ins/common/file-xmc.c:333
-#: ../plug-ins/common/file-xmc.c:373
+#: ../plug-ins/common/file-xmc.c:333 ../plug-ins/common/file-xmc.c:373
 #: ../plug-ins/common/file-xmc.c:1052
 msgid "X11 Mouse Cursor"
 msgstr "Biz al logodenn X11"
@@ -5111,8 +4815,7 @@ msgstr "Bevennet eo an askellenn ouzh %d arouezenn."
 
 #: ../plug-ins/common/file-xmc.c:1489
 #, c-format
-#| msgid ""
-#| "This plug-in can only handle RGBA image format with 8bit color depth."
+#| msgid "This plug-in can only handle RGBA image format with 8bit color depth."
 msgid "This plug-in can only handle RGBA image files with 8bit color depth."
 msgstr "Gant an enlugellad e vez dornataet mentrezh skeudennoù mod RGBA hepken gant donder liv 8 eizhbit."
 
@@ -5137,8 +4840,7 @@ msgstr "Sav ha/pe led ar skeudenn '%s' a dalv da vann !"
 #, c-format
 #| msgid ""
 #| "Cannot save the cursor because the hot spot is not on '%s'.\n"
-#| "Try to change the hot spot position, layer geometry or save without auto-"
-#| "crop."
+#| "Try to change the hot spot position, layer geometry or save without auto-crop."
 msgid ""
 "Cannot save the cursor because the hot spot is not on frame '%s'.\n"
 "Try to change the hot spot position, layer geometry or save without auto-crop."
@@ -5149,8 +4851,7 @@ msgstr ""
 #: ../plug-ins/common/file-xmc.c:1718
 #, c-format
 #| msgid ""
-#| "Your cursor was successfully saved but it contains one or more frames "
-#| "which width or height is more than %ipx.\n"
+#| "Your cursor was successfully saved but it contains one or more frames which width or height is more than %ipx.\n"
 #| "It will clutter the screen in some environments."
 msgid ""
 "Your cursor was successfully saved but it contains one or more frames whose width or height is more than %ipx.\n"
@@ -5161,11 +4862,8 @@ msgstr ""
 
 #: ../plug-ins/common/file-xmc.c:1725
 #| msgid ""
-#| "Your cursor was successfully saved but it contains one or more frames "
-#| "whose nominal size is not supported by gnome-appearance-properties.\n"
-#| "You can satisfy it by checking \"Replace the size of all frame...\" in "
-#| "the save dialog, or your cursor may not appear in gnome-appearance-"
-#| "properties."
+#| "Your cursor was successfully saved but it contains one or more frames whose nominal size is not supported by gnome-appearance-properties.\n"
+#| "You can satisfy it by checking \"Replace the size of all frame...\" in the save dialog, or your cursor may not appear in gnome-appearance-properties."
 msgid ""
 "Your cursor was successfully saved but it contains one or more frames whose nominal size is not supported by GNOME settings.\n"
 "You can satisfy it by checking \"Replace the size of all frames...\" in the save dialog, or your cursor may not appear in GNOME settings."
@@ -5187,19 +4885,16 @@ msgstr "Re hir eo an arvevad \"%s\" evit askelenn ur biz X. Troc'het eo bet a-be
 msgid "Sorry, this plug-in cannot handle a cursor which contains over %i different nominal sizes."
 msgstr "Digarez, n'hall ket an enlugellad-mañ dornata ur biz gant muioc'h eget %i a ventoù merkel ennañ."
 
-#: ../plug-ins/common/file-xpm.c:174
-#: ../plug-ins/common/file-xpm.c:199
+#: ../plug-ins/common/file-xpm.c:174 ../plug-ins/common/file-xpm.c:199
 msgid "X PixMap image"
 msgstr "Skeudenn pixmap X"
 
-#: ../plug-ins/common/file-xpm.c:363
-#: ../plug-ins/common/file-xpm.c:775
+#: ../plug-ins/common/file-xpm.c:363 ../plug-ins/common/file-xpm.c:775
 #, c-format
 msgid "Error opening file '%s'"
 msgstr "Fazi e-pad ma oa o tigeriñ ar restr '%s'"
 
-#: ../plug-ins/common/file-xpm.c:369
-#: ../plug-ins/common/file-xpm.c:781
+#: ../plug-ins/common/file-xpm.c:369 ../plug-ins/common/file-xpm.c:781
 msgid "XPM file invalid"
 msgstr "Restr XPM didalvoudek"
 
@@ -5211,8 +4906,7 @@ msgstr "XPM"
 msgid "_Alpha threshold:"
 msgstr "Gwehin _alfa :"
 
-#: ../plug-ins/common/file-xwd.c:278
-#: ../plug-ins/common/file-xwd.c:298
+#: ../plug-ins/common/file-xwd.c:278 ../plug-ins/common/file-xwd.c:298
 msgid "X window dump"
 msgstr "Dump X window"
 
@@ -5254,8 +4948,7 @@ msgstr "_Film..."
 msgid "Composing images"
 msgstr "O kenaozañ ar skeudennoù"
 
-#: ../plug-ins/common/film.c:423
-#: ../plug-ins/common/guillotine.c:215
+#: ../plug-ins/common/film.c:423 ../plug-ins/common/guillotine.c:215
 #: ../plug-ins/help-browser/dialog.c:1132
 msgid "Untitled"
 msgstr "Hep titl"
@@ -5269,8 +4962,7 @@ msgid "On film:"
 msgstr "War ar film :"
 
 #. Film height/colour
-#: ../plug-ins/common/film.c:975
-#: ../plug-ins/common/film.c:1251
+#: ../plug-ins/common/film.c:975 ../plug-ins/common/film.c:1251
 msgid "Filmstrip"
 msgstr "Film"
 
@@ -5284,8 +4976,7 @@ msgstr "Kengeidañ ar sav ouzh ar skeudennoù"
 msgid "Select Film Color"
 msgstr "Diuzañ liv ar film"
 
-#: ../plug-ins/common/film.c:1028
-#: ../plug-ins/common/film.c:1078
+#: ../plug-ins/common/film.c:1028 ../plug-ins/common/film.c:1078
 #: ../plug-ins/common/nova.c:349
 msgid "Co_lor:"
 msgstr "_Liv :"
@@ -5403,8 +5094,7 @@ msgstr "Muioc'h a beurv. :"
 msgid "Less Sat:"
 msgstr "Nebeutoc'h a beurv. :"
 
-#: ../plug-ins/common/filter-pack.c:233
-#: ../plug-ins/common/filter-pack.c:532
+#: ../plug-ins/common/filter-pack.c:233 ../plug-ins/common/filter-pack.c:532
 msgid "Current:"
 msgstr "Bremanel :"
 
@@ -5440,8 +5130,7 @@ msgstr "Argemmoù arliv"
 msgid "Roughness"
 msgstr "Garvded"
 
-#: ../plug-ins/common/filter-pack.c:676
-#: ../plug-ins/common/filter-pack.c:1320
+#: ../plug-ins/common/filter-pack.c:676 ../plug-ins/common/filter-pack.c:1320
 msgid "Affected Range"
 msgstr "Ledad tizhet"
 
@@ -5461,8 +5150,7 @@ msgstr "Tonennoù _sklaer"
 msgid "Windows"
 msgstr "Prenestroù"
 
-#: ../plug-ins/common/filter-pack.c:706
-#: ../plug-ins/common/van-gogh-lic.c:676
+#: ../plug-ins/common/filter-pack.c:706 ../plug-ins/common/van-gogh-lic.c:676
 msgid "_Saturation"
 msgstr "_Peurvec'hiañ"
 
@@ -5613,8 +5301,7 @@ msgstr "_Kael..."
 msgid "Drawing grid"
 msgstr "O tresañ ar gael"
 
-#: ../plug-ins/common/grid.c:636
-#: ../plug-ins/gfig/gfig-dialog.c:1391
+#: ../plug-ins/common/grid.c:636 ../plug-ins/gfig/gfig-dialog.c:1391
 #: ../plug-ins/imagemap/imap_menu.c:208
 msgid "Grid"
 msgstr "Kael"
@@ -5678,8 +5365,7 @@ msgstr "Kavout ha ratreañ ar pikselioù a vefe gwallskedus"
 msgid "_Hot..."
 msgstr "_Tomm..."
 
-#: ../plug-ins/common/hot.c:387
-#: ../plug-ins/common/hot.c:587
+#: ../plug-ins/common/hot.c:387 ../plug-ins/common/hot.c:587
 msgid "Hot"
 msgstr "Tomm"
 
@@ -5699,8 +5385,7 @@ msgstr "Bihanaat ar _sked"
 msgid "Reduce _Saturation"
 msgstr "Bihanaat ar _peurvec'hiañ"
 
-#: ../plug-ins/common/hot.c:640
-#: ../plug-ins/common/waves.c:284
+#: ../plug-ins/common/hot.c:640 ../plug-ins/common/waves.c:284
 msgid "_Blacken"
 msgstr "D_uaat"
 
@@ -5712,8 +5397,7 @@ msgstr "Gourloañ meur a eilad kemmet eus ar skeudenn"
 msgid "_Illusion..."
 msgstr "_Touell..."
 
-#: ../plug-ins/common/illusion.c:168
-#: ../plug-ins/common/illusion.c:350
+#: ../plug-ins/common/illusion.c:168 ../plug-ins/common/illusion.c:350
 msgid "Illusion"
 msgstr "Touell"
 
@@ -5750,8 +5434,7 @@ msgstr "O tistummañ ar skeudenn %d"
 msgid "Ping pong"
 msgstr "Ping pong"
 
-#: ../plug-ins/common/iwarp.c:974
-#: ../plug-ins/common/whirl-pinch.c:193
+#: ../plug-ins/common/iwarp.c:974 ../plug-ins/common/whirl-pinch.c:193
 msgid "Region affected by plug-in is empty"
 msgstr "Goullo eo ar maez tizhet gant an enlugellad"
 
@@ -5829,8 +5512,7 @@ msgstr "Donder u_c'hek :"
 msgid "Thresho_ld:"
 msgstr "G_wehin :"
 
-#: ../plug-ins/common/iwarp.c:1227
-#: ../plug-ins/common/sinus.c:772
+#: ../plug-ins/common/iwarp.c:1227 ../plug-ins/common/sinus.c:772
 #: ../plug-ins/gradient-flare/gradient-flare.c:2868
 msgid "_Settings"
 msgstr "A_rventennoù"
@@ -5995,8 +5677,7 @@ msgstr "_Mirout"
 msgid "_Convert"
 msgstr "_Amdreiñ"
 
-#: ../plug-ins/common/lcms.c:1264
-#: ../plug-ins/file-jpeg/jpeg-exif.c:436
+#: ../plug-ins/common/lcms.c:1264 ../plug-ins/file-jpeg/jpeg-exif.c:436
 msgid "_Don't ask me again"
 msgstr "Na c'houlenn _diganin en-dro"
 
@@ -6113,8 +5794,7 @@ msgstr "_Pennañ :"
 msgid "_Edge:"
 msgstr "Ribl_enn :"
 
-#: ../plug-ins/common/lens-distortion.c:546
-#: ../plug-ins/flame/flame.c:1236
+#: ../plug-ins/common/lens-distortion.c:546 ../plug-ins/flame/flame.c:1236
 msgid "_Zoom:"
 msgstr "_Zoum :"
 
@@ -6150,8 +5830,7 @@ msgstr "Trelladur ar ferenn"
 msgid "Center of Flare Effect"
 msgstr "Kreiz an efed trellañ"
 
-#: ../plug-ins/common/lens-flare.c:785
-#: ../plug-ins/common/nova.c:475
+#: ../plug-ins/common/lens-flare.c:785 ../plug-ins/common/nova.c:475
 msgid "Show _position"
 msgstr "Disk_ouez al lec'hiadur"
 
@@ -6206,8 +5885,7 @@ msgstr "Eeunaat ar skeudenn e ruz, gwer ha glas divesk"
 msgid "Maxim_um RGB..."
 msgstr "RGG _uc'hek..."
 
-#: ../plug-ins/common/max-rgb.c:134
-#: ../plug-ins/common/noise-hsv.c:158
+#: ../plug-ins/common/max-rgb.c:134 ../plug-ins/common/noise-hsv.c:158
 msgid "Can only operate on RGB drawables."
 msgstr "Gweredet e vez war dresadurioù RGG hepken ganti."
 
@@ -6273,8 +5951,7 @@ msgstr "Marelladur ken_tael :"
 msgid "Tile _size:"
 msgstr "Ment ar _marelladur :"
 
-#: ../plug-ins/common/mosaic.c:662
-#: ../plug-ins/common/tile-glass.c:304
+#: ../plug-ins/common/mosaic.c:662 ../plug-ins/common/tile-glass.c:304
 msgid "Tile _height:"
 msgstr "Sa_v ar gwerennoù :"
 
@@ -6319,8 +5996,7 @@ msgstr "Ront"
 msgid "Line"
 msgstr "Linenn"
 
-#: ../plug-ins/common/newsprint.c:136
-#: ../plug-ins/flame/flame.c:759
+#: ../plug-ins/common/newsprint.c:136 ../plug-ins/flame/flame.c:759
 msgid "Diamond"
 msgstr "Diamant"
 
@@ -6364,8 +6040,7 @@ msgstr "Hanterdonañ ar skeudenn evit krouiñ un efed heñvel ouzh paper ar gaze
 msgid "Newsprin_t..."
 msgstr "Huz _moullerezh..."
 
-#: ../plug-ins/common/newsprint.c:618
-#: ../plug-ins/common/newsprint.c:1179
+#: ../plug-ins/common/newsprint.c:618 ../plug-ins/common/newsprint.c:1179
 msgid "Newsprint"
 msgstr "Huz moullerezh"
 
@@ -6425,8 +6100,7 @@ msgid "_Factory Defaults"
 msgstr "Ar_ventennoù dre ziouer ar greanti"
 
 #. anti-alias control
-#: ../plug-ins/common/newsprint.c:1434
-#: ../plug-ins/gfig/gfig-dialog.c:1293
+#: ../plug-ins/common/newsprint.c:1434 ../plug-ins/gfig/gfig-dialog.c:1293
 msgid "Antialiasing"
 msgstr "Lufrañ"
 
@@ -6442,8 +6116,7 @@ msgstr "Sil kontell arme a vro Suis anlinennek"
 msgid "_NL Filter..."
 msgstr "Sil _NL..."
 
-#: ../plug-ins/common/nl-filter.c:952
-#: ../plug-ins/common/nl-filter.c:1016
+#: ../plug-ins/common/nl-filter.c:952 ../plug-ins/common/nl-filter.c:1016
 msgid "NL Filter"
 msgstr "Sil NL"
 
@@ -6475,8 +6148,7 @@ msgstr "Dargouezhekaat arliv/peurvec'hiañ/lintr gant un doare dizalc'h"
 msgid "HSV Noise..."
 msgstr "Trouz APL..."
 
-#: ../plug-ins/common/noise-hsv.c:215
-#: ../plug-ins/common/noise-hsv.c:364
+#: ../plug-ins/common/noise-hsv.c:215 ../plug-ins/common/noise-hsv.c:364
 msgid "HSV Noise"
 msgstr "Trouz APL"
 
@@ -6569,8 +6241,7 @@ msgstr "Trouz dre geflen"
 msgid "_Independent RGB"
 msgstr "RVB d_izalc'h"
 
-#: ../plug-ins/common/noise-rgb.c:523
-#: ../plug-ins/common/noise-rgb.c:527
+#: ../plug-ins/common/noise-rgb.c:523 ../plug-ins/common/noise-rgb.c:527
 msgid "_Gray:"
 msgstr "_Loued :"
 
@@ -6588,8 +6259,7 @@ msgid "_Solid Noise..."
 msgstr "_Trouz unvan..."
 
 #. Dialog initialization
-#: ../plug-ins/common/noise-solid.c:315
-#: ../plug-ins/common/noise-solid.c:563
+#: ../plug-ins/common/noise-solid.c:315 ../plug-ins/common/noise-solid.c:563
 msgid "Solid Noise"
 msgstr "Trouz unvan"
 
@@ -6667,8 +6337,7 @@ msgstr "Arliv _dargouezhek :"
 msgid "Center of Nova"
 msgstr "Kreiz an Nova"
 
-#: ../plug-ins/common/oilify.c:119
-#: ../plug-ins/common/oilify.c:134
+#: ../plug-ins/common/oilify.c:119 ../plug-ins/common/oilify.c:134
 msgid "Smear colors to simulate an oil painting"
 msgstr "Lakaat livioù evit darvanañ ar pentañ dre eoul"
 
@@ -6695,8 +6364,7 @@ msgstr "_Ment ar maskl :"
 msgid "Use m_ask-size map:"
 msgstr "Arverañ ur gartenn eus ment vaskl :"
 
-#: ../plug-ins/common/oilify.c:870
-#: ../plug-ins/common/sinus.c:923
+#: ../plug-ins/common/oilify.c:870 ../plug-ins/common/sinus.c:923
 msgid "_Exponent:"
 msgstr "M_ac'her :"
 
@@ -6726,8 +6394,7 @@ msgstr "_Luc'heilad..."
 msgid "Photocopy"
 msgstr "Luc'heilad"
 
-#: ../plug-ins/common/photocopy.c:892
-#: ../plug-ins/common/sharpen.c:509
+#: ../plug-ins/common/photocopy.c:892 ../plug-ins/common/sharpen.c:509
 #: ../plug-ins/common/softglow.c:699
 msgid "_Sharpness:"
 msgstr "Le_mmaat :"
@@ -6772,8 +6439,7 @@ msgstr "Krouiñ ur wiadezh plasma dargouezhek"
 msgid "_Plasma..."
 msgstr "_Plasma..."
 
-#: ../plug-ins/common/plasma.c:263
-#: ../plug-ins/common/plasma.c:300
+#: ../plug-ins/common/plasma.c:263 ../plug-ins/common/plasma.c:300
 msgid "Plasma"
 msgstr "Plasma"
 
@@ -6947,8 +6613,7 @@ msgid "Red Eye Removal"
 msgstr "Dilemel an daoulagad ruz"
 
 #: ../plug-ins/common/red-eye-removal.c:171
-#: ../plug-ins/common/unsharp-mask.c:891
-#: ../plug-ins/common/wind.c:1006
+#: ../plug-ins/common/unsharp-mask.c:891 ../plug-ins/common/wind.c:1006
 #: ../plug-ins/imagemap/imap_preferences.c:455
 #: ../plug-ins/map-object/map-object-ui.c:539
 msgid "_Threshold:"
@@ -7138,8 +6803,7 @@ msgstr "Fazi e-pad ma oa o tiuzañ ar prenestr"
 msgid "Importing screenshot"
 msgstr "Oc'h enporzhiañ ar pakad skrammad"
 
-#: ../plug-ins/common/screenshot.c:812
-#: ../plug-ins/common/screenshot.c:1085
+#: ../plug-ins/common/screenshot.c:812 ../plug-ins/common/screenshot.c:1085
 msgid "Screenshot"
 msgstr "Pakad skrammad"
 
@@ -7315,8 +6979,7 @@ msgstr "_Dispar"
 msgid "_Distorted"
 msgstr "_Distummet"
 
-#: ../plug-ins/common/sinus.c:783
-#: ../plug-ins/common/sinus.c:799
+#: ../plug-ins/common/sinus.c:783 ../plug-ins/common/sinus.c:799
 #: ../plug-ins/imagemap/imap_preferences.c:432
 msgid "Colors"
 msgstr "Livioù"
@@ -7585,8 +7248,7 @@ msgstr "Lizard"
 msgid "Phong"
 msgstr "Phong"
 
-#: ../plug-ins/common/sphere-designer.c:298
-#: ../plug-ins/flame/flame.c:773
+#: ../plug-ins/common/sphere-designer.c:298 ../plug-ins/flame/flame.c:773
 msgid "Noise"
 msgstr "Trouz"
 
@@ -7594,8 +7256,7 @@ msgstr "Trouz"
 msgid "Wood"
 msgstr "Koad"
 
-#: ../plug-ins/common/sphere-designer.c:300
-#: ../plug-ins/flame/flame.c:757
+#: ../plug-ins/common/sphere-designer.c:300 ../plug-ins/flame/flame.c:757
 msgid "Spiral"
 msgstr "Troenn"
 
@@ -7773,8 +7434,7 @@ msgstr "Darvanañ an torrgamm krouet gant karrelloù gwer karrez"
 msgid "_Glass Tile..."
 msgstr "_Gwerennoù..."
 
-#: ../plug-ins/common/tile-glass.c:210
-#: ../plug-ins/common/tile-glass.c:250
+#: ../plug-ins/common/tile-glass.c:210 ../plug-ins/common/tile-glass.c:250
 msgid "Glass Tile"
 msgstr "Gwerennoù"
 
@@ -7782,8 +7442,7 @@ msgstr "Gwerennoù"
 msgid "Tile _width:"
 msgstr "Led ar g_werennoù :"
 
-#: ../plug-ins/common/tile-paper.c:243
-#: ../plug-ins/common/tile-paper.c:557
+#: ../plug-ins/common/tile-paper.c:243 ../plug-ins/common/tile-paper.c:557
 msgid "Paper Tile"
 msgstr "Tammoù paper"
 
@@ -7888,8 +7547,7 @@ msgid "Region selected for filter is empty."
 msgstr "Goullo eo ar maez diuzet evit ar silañ."
 
 #. Set the tile cache size
-#: ../plug-ins/common/tile-small.c:328
-#: ../plug-ins/common/tile.c:185
+#: ../plug-ins/common/tile-small.c:328 ../plug-ins/common/tile.c:185
 msgid "Tiling"
 msgstr "Marelladur"
 
@@ -8208,8 +7866,7 @@ msgstr "O treledañ ar sanell _alfa"
 msgid "Propagating value channel"
 msgstr "O treledañ sanell al lintr"
 
-#: ../plug-ins/common/van-gogh-lic.c:569
-#: ../plug-ins/common/van-gogh-lic.c:644
+#: ../plug-ins/common/van-gogh-lic.c:569 ../plug-ins/common/van-gogh-lic.c:644
 msgid "Van Gogh (LIC)"
 msgstr "Van Gogh (LIC)"
 
@@ -8321,8 +7978,7 @@ msgstr "Darvanañ an torrgamm krouet gant ur skramm amspis pe gant un diarunuste
 msgid "Vi_deo..."
 msgstr "V_ideo..."
 
-#: ../plug-ins/common/video.c:1886
-#: ../plug-ins/common/video.c:2017
+#: ../plug-ins/common/video.c:1886 ../plug-ins/common/video.c:2017
 msgid "Video"
 msgstr "Video"
 
@@ -8384,10 +8040,8 @@ msgstr "Punañ"
 msgid "Smear"
 msgstr "Ledañ"
 
-#: ../plug-ins/common/warp.c:502
-#: ../plug-ins/file-fits/fits.c:1020
-#: ../plug-ins/flame/flame.c:1174
-#: ../plug-ins/gfig/gfig-dialog.c:1497
+#: ../plug-ins/common/warp.c:502 ../plug-ins/file-fits/fits.c:1020
+#: ../plug-ins/flame/flame.c:1174 ../plug-ins/gfig/gfig-dialog.c:1497
 msgid "Black"
 msgstr "Du"
 
@@ -8441,8 +8095,7 @@ msgid "Vector mag:"
 msgstr "Meurez ar sturiadell :"
 
 #. Angle
-#: ../plug-ins/common/warp.c:684
-#: ../plug-ins/ifs-compose/ifs-compose.c:567
+#: ../plug-ins/common/warp.c:684 ../plug-ins/ifs-compose/ifs-compose.c:567
 msgid "Angle:"
 msgstr "Korn :"
 
@@ -8477,8 +8130,7 @@ msgstr "Torrgammañ ar skeudenn gant gwagennoù"
 msgid "_Waves..."
 msgstr "_Houl..."
 
-#: ../plug-ins/common/waves.c:249
-#: ../plug-ins/flame/flame.c:762
+#: ../plug-ins/common/waves.c:249 ../plug-ins/flame/flame.c:762
 msgid "Waves"
 msgstr "Houl"
 
@@ -8584,8 +8236,7 @@ msgid "Enter location (URI):"
 msgstr "Enankañ al lec'hiadur (URI) :"
 
 #. entscale == Entry and Scale pair function found in pixelize.c
-#: ../plug-ins/common/web-page.c:289
-#: ../plug-ins/maze/maze-dialog.c:198
+#: ../plug-ins/common/web-page.c:289 ../plug-ins/maze/maze-dialog.c:198
 msgid "Width (pixels):"
 msgstr "Led (pikselioù) :"
 
@@ -8723,8 +8374,7 @@ msgstr "An eil hag egile"
 msgid "Higher values restrict the effect to fewer areas of the image"
 msgstr "Strishaet eo an efed ouzh maezioù bihanoc'h ar skeudenn gant gwerzhioù bras"
 
-#: ../plug-ins/common/wind.c:1025
-#: ../plug-ins/gimpressionist/orientmap.c:693
+#: ../plug-ins/common/wind.c:1025 ../plug-ins/gimpressionist/orientmap.c:693
 msgid "_Strength:"
 msgstr "_Kreñvder :"
 
@@ -8736,25 +8386,18 @@ msgstr "Brasaet e vo meurez an efed gant gwerzhioù uheloc'h"
 msgid "Bad colormap"
 msgstr "Livaoueg fall"
 
-#: ../plug-ins/file-bmp/bmp-read.c:169
-#: ../plug-ins/file-bmp/bmp-read.c:180
-#: ../plug-ins/file-bmp/bmp-read.c:187
-#: ../plug-ins/file-bmp/bmp-read.c:196
-#: ../plug-ins/file-bmp/bmp-read.c:211
-#: ../plug-ins/file-bmp/bmp-read.c:416
-#: ../plug-ins/file-bmp/bmp-read.c:437
-#: ../plug-ins/file-bmp/bmp-read.c:448
-#: ../plug-ins/file-bmp/bmp-read.c:456
-#: ../plug-ins/file-bmp/bmp-read.c:464
+#: ../plug-ins/file-bmp/bmp-read.c:169 ../plug-ins/file-bmp/bmp-read.c:180
+#: ../plug-ins/file-bmp/bmp-read.c:187 ../plug-ins/file-bmp/bmp-read.c:196
+#: ../plug-ins/file-bmp/bmp-read.c:211 ../plug-ins/file-bmp/bmp-read.c:416
+#: ../plug-ins/file-bmp/bmp-read.c:437 ../plug-ins/file-bmp/bmp-read.c:448
+#: ../plug-ins/file-bmp/bmp-read.c:456 ../plug-ins/file-bmp/bmp-read.c:464
 #: ../plug-ins/file-bmp/bmp-read.c:476
 #, c-format
 msgid "'%s' is not a valid BMP file"
 msgstr "'%s' n'eo ket ur restr BMP talvoudek"
 
-#: ../plug-ins/file-bmp/bmp-read.c:225
-#: ../plug-ins/file-bmp/bmp-read.c:252
-#: ../plug-ins/file-bmp/bmp-read.c:280
-#: ../plug-ins/file-bmp/bmp-read.c:345
+#: ../plug-ins/file-bmp/bmp-read.c:225 ../plug-ins/file-bmp/bmp-read.c:252
+#: ../plug-ins/file-bmp/bmp-read.c:280 ../plug-ins/file-bmp/bmp-read.c:345
 #: ../plug-ins/file-bmp/bmp-read.c:395
 #, c-format
 msgid "Error reading BMP file header from '%s'"
@@ -8768,19 +8411,16 @@ msgstr "Mentrezh koazhañ BMP dianav pe zidalvoudek."
 msgid "Unsupported or invalid bitdepth."
 msgstr "Donder bit anskor pe zidalvoudek."
 
-#: ../plug-ins/file-bmp/bmp-read.c:818
-#: ../plug-ins/file-bmp/bmp-read.c:859
+#: ../plug-ins/file-bmp/bmp-read.c:818 ../plug-ins/file-bmp/bmp-read.c:859
 #: ../plug-ins/file-bmp/bmp-read.c:909
 msgid "The bitmap ends unexpectedly."
 msgstr "Dic'hortoz eo echuet ar bitmap."
 
-#: ../plug-ins/file-bmp/bmp-write.c:191
-#: ../plug-ins/file-bmp/bmp-write.c:217
+#: ../plug-ins/file-bmp/bmp-write.c:191 ../plug-ins/file-bmp/bmp-write.c:217
 msgid "Cannot save indexed image with transparency in BMP file format."
 msgstr "N'haller ket enrollañ ur skeudenn ibiliet gant an treuzweluster e mentrezh restr mod BMP."
 
-#: ../plug-ins/file-bmp/bmp-write.c:193
-#: ../plug-ins/file-bmp/bmp-write.c:219
+#: ../plug-ins/file-bmp/bmp-write.c:193 ../plug-ins/file-bmp/bmp-write.c:219
 msgid "Alpha channel will be ignored."
 msgstr "Laosket a-gostez e vo ar sanell Alfa."
 
@@ -8803,8 +8443,7 @@ msgid "Some applications can not read BMP images that include color space inform
 msgstr "Arloadoù zo n'int ket barrek da lenn skeudennoù mod BMP, enno titouroù a-fet livventerezh. Titouroù a-fet livventerezh dre ziouer a skriv GIMP. Mar bez gweredekaet an dibarzh-mañ ne skrivo ket GIMP titouroù a-fet livventerezh er restr."
 
 #. Advanced Options
-#: ../plug-ins/file-bmp/bmp-write.c:902
-#: ../plug-ins/file-jpeg/jpeg-save.c:901
+#: ../plug-ins/file-bmp/bmp-write.c:902 ../plug-ins/file-jpeg/jpeg-save.c:901
 msgid "_Advanced Options"
 msgstr "Dib_arzhioù kempleshoc'h"
 
@@ -8820,8 +8459,7 @@ msgstr "24 eizhbit"
 msgid "32 bits"
 msgstr "32 eizhbit"
 
-#: ../plug-ins/file-bmp/bmp.c:123
-#: ../plug-ins/file-bmp/bmp.c:142
+#: ../plug-ins/file-bmp/bmp.c:123 ../plug-ins/file-bmp/bmp.c:142
 msgid "Windows BMP image"
 msgstr "Skeudenn Windows BMP"
 
@@ -8845,8 +8483,7 @@ msgstr "Askouezhadenn restr kizidik ebet, o klask kargañ gant ar restr hudus."
 msgid "G3 fax image"
 msgstr "Skeudenn pelleilerez G3"
 
-#: ../plug-ins/file-fits/fits.c:168
-#: ../plug-ins/file-fits/fits.c:188
+#: ../plug-ins/file-fits/fits.c:168 ../plug-ins/file-fits/fits.c:188
 msgid "Flexible Image Transport System"
 msgstr "FITS : Reizhiad dezougen skeudennoù kestouek"
 
@@ -8870,8 +8507,7 @@ msgstr "Kargañ ur restr FITS"
 msgid "Replacement for undefined pixels"
 msgstr "Amsavadur evit ar pikselioù anerspizet"
 
-#: ../plug-ins/file-fits/fits.c:1021
-#: ../plug-ins/gfig/gfig-dialog.c:1323
+#: ../plug-ins/file-fits/fits.c:1021 ../plug-ins/gfig/gfig-dialog.c:1323
 #: ../plug-ins/gfig/gfig-dialog.c:1498
 msgid "White"
 msgstr "Gwenn"
@@ -8893,8 +8529,7 @@ msgctxt "composing"
 msgid "None"
 msgstr "Tra ebet"
 
-#: ../plug-ins/file-fli/fli-gimp.c:166
-#: ../plug-ins/file-fli/fli-gimp.c:186
+#: ../plug-ins/file-fli/fli-gimp.c:166 ../plug-ins/file-fli/fli-gimp.c:186
 msgid "AutoDesk FLIC animation"
 msgstr "Bliverezh Autodesk FLIC"
 
@@ -8911,14 +8546,12 @@ msgstr "Digarez, skeudennoù o livioù ibiliet pe dre liveoù louedoù a vez enr
 msgid "GFLI 1.3 - Load framestack"
 msgstr "GFLI 1.3 - Kargañ ar bern treuzfollennoù"
 
-#: ../plug-ins/file-fli/fli-gimp.c:876
-#: ../plug-ins/file-fli/fli-gimp.c:932
+#: ../plug-ins/file-fli/fli-gimp.c:876 ../plug-ins/file-fli/fli-gimp.c:932
 msgctxt "frame-range"
 msgid "From:"
 msgstr "Diouzh :"
 
-#: ../plug-ins/file-fli/fli-gimp.c:885
-#: ../plug-ins/file-fli/fli-gimp.c:941
+#: ../plug-ins/file-fli/fli-gimp.c:885 ../plug-ins/file-fli/fli-gimp.c:941
 msgctxt "frame-range"
 msgid "To:"
 msgstr "Da :"
@@ -8969,15 +8602,13 @@ msgstr "Koazhet (PNG)"
 msgid "Icon #%i"
 msgstr "Arlun Nn. %i"
 
-#: ../plug-ins/file-ico/ico-load.c:722
-#: ../plug-ins/file-jpeg/jpeg-load.c:691
+#: ../plug-ins/file-ico/ico-load.c:722 ../plug-ins/file-jpeg/jpeg-load.c:691
 #: ../plug-ins/file-psd/psd-thumb-load.c:84
 #, c-format
 msgid "Opening thumbnail for '%s'"
 msgstr "O tigeriñ ar valvenn evit '%s'"
 
-#: ../plug-ins/file-ico/ico.c:102
-#: ../plug-ins/file-ico/ico.c:136
+#: ../plug-ins/file-ico/ico.c:102 ../plug-ins/file-ico/ico.c:136
 msgid "Microsoft Windows icon"
 msgstr "Arlunioù Microsoft Windows"
 
@@ -9010,8 +8641,7 @@ msgstr "Ment ar restr : %s"
 msgid "Calculating file size..."
 msgstr "O jediñ ment ar restr..."
 
-#: ../plug-ins/file-jpeg/jpeg-save.c:782
-#: ../plug-ins/file-jpeg/jpeg-save.c:877
+#: ../plug-ins/file-jpeg/jpeg-save.c:782 ../plug-ins/file-jpeg/jpeg-save.c:877
 msgid "File size: unknown"
 msgstr "Ment ar restr : dianav"
 
@@ -9126,8 +8756,7 @@ msgstr "_Kargañ ar gwerzhioù dre ziouer"
 msgid "Sa_ve Defaults"
 msgstr "Enrollañ ar g_werzhioù dre ziouer"
 
-#: ../plug-ins/file-jpeg/jpeg.c:139
-#: ../plug-ins/file-jpeg/jpeg.c:177
+#: ../plug-ins/file-jpeg/jpeg.c:139 ../plug-ins/file-jpeg/jpeg.c:177
 msgid "JPEG image"
 msgstr "Skeudenn JPEG"
 
@@ -9171,10 +8800,8 @@ msgstr "Mod liv anskor : %s"
 msgid "Unsupported bit depth: %d"
 msgstr "Donder bit anskor : %d"
 
-#: ../plug-ins/file-psd/psd-load.c:383
-#: ../plug-ins/file-psd/psd-load.c:393
-#: ../plug-ins/file-psd/psd-load.c:625
-#: ../plug-ins/file-psd/psd-load.c:834
+#: ../plug-ins/file-psd/psd-load.c:383 ../plug-ins/file-psd/psd-load.c:393
+#: ../plug-ins/file-psd/psd-load.c:625 ../plug-ins/file-psd/psd-load.c:834
 #, c-format
 msgid "The file is corrupt!"
 msgstr "Kontronet eo bet ar restr !"
@@ -9214,8 +8841,7 @@ msgstr "Led maskl an dreuzfollenn didalvoudek pe anskor : %d"
 msgid "Unsupported or invalid layer mask size: %dx%d"
 msgstr "Ment maskl an dtreuzfollenn didalvoudek pe anskor : %dx%d"
 
-#: ../plug-ins/file-psd/psd-load.c:1231
-#: ../plug-ins/file-psd/psd-load.c:1613
+#: ../plug-ins/file-psd/psd-load.c:1231 ../plug-ins/file-psd/psd-load.c:1613
 #, c-format
 msgid "Unsupported compression mode: %d"
 msgstr "Mod koazhañ anskor : %d"
@@ -9229,8 +8855,7 @@ msgstr "Dreistdanvez"
 msgid "Unsupported or invalid channel size"
 msgstr "Ment ar sanell anskor pe zidalvoudek."
 
-#: ../plug-ins/file-psd/psd-save.c:228
-#: ../plug-ins/file-psd/psd.c:113
+#: ../plug-ins/file-psd/psd-save.c:228 ../plug-ins/file-psd/psd.c:113
 #: ../plug-ins/file-psd/psd.c:152
 msgid "Photoshop image"
 msgstr "Skeudenn Photoshop"
@@ -9258,8 +8883,7 @@ msgstr "N'haller ket enrollañ '%s'. Ar mentrezh restr PSD ne skor ket treuzfoll
 msgid "Unexpected end of file"
 msgstr "Dibenn restr dic'hortoz"
 
-#: ../plug-ins/file-sgi/sgi.c:121
-#: ../plug-ins/file-sgi/sgi.c:141
+#: ../plug-ins/file-sgi/sgi.c:121 ../plug-ins/file-sgi/sgi.c:141
 msgid "Silicon Graphics IRIS image"
 msgstr "Skeudenn Silicon Graphic IRIS"
 
@@ -9391,13 +9015,11 @@ msgstr "Degouezhet ez eus bet ur fazi rouedad : %s"
 msgid "Downloading unknown amount of image data"
 msgstr "O pellgargañ ur gementad dianav eus roadennoù ar skeudenn"
 
-#: ../plug-ins/file-uri/uri.c:122
-#: ../plug-ins/file-uri/uri.c:143
+#: ../plug-ins/file-uri/uri.c:122 ../plug-ins/file-uri/uri.c:143
 msgid "URI"
 msgstr "URI"
 
-#: ../plug-ins/file-xjt/xjt.c:485
-#: ../plug-ins/file-xjt/xjt.c:503
+#: ../plug-ins/file-xjt/xjt.c:485 ../plug-ins/file-xjt/xjt.c:503
 msgid "GIMP compressed XJT image"
 msgstr "Skeudenn bet koazhet GIMP XJT"
 
@@ -9452,8 +9074,7 @@ msgstr "Perzhded :"
 msgid "Smoothing:"
 msgstr "O kuñvaat :"
 
-#: ../plug-ins/file-xjt/xjt.c:1705
-#: ../plug-ins/file-xjt/xjt.c:3343
+#: ../plug-ins/file-xjt/xjt.c:1705 ../plug-ins/file-xjt/xjt.c:3343
 #, c-format
 msgid "Could not create working folder '%s': %s"
 msgstr "N'haller ket krouiñ an teuliad labour '%s' : %s"
@@ -9513,8 +9134,7 @@ msgstr "_Dargouezhekaat"
 msgid "Same"
 msgstr "Arstalek"
 
-#: ../plug-ins/flame/flame.c:746
-#: ../plug-ins/gimpressionist/orientation.c:163
+#: ../plug-ins/flame/flame.c:746 ../plug-ins/gimpressionist/orientation.c:163
 #: ../plug-ins/gimpressionist/size.c:166
 msgid "Random"
 msgstr "Dargouezhek"
@@ -9527,8 +9147,7 @@ msgstr "Troenn"
 msgid "Horseshoe"
 msgstr "Houarn marc'h"
 
-#: ../plug-ins/flame/flame.c:752
-#: ../plug-ins/gfig/gfig-dialog.c:1479
+#: ../plug-ins/flame/flame.c:752 ../plug-ins/gfig/gfig-dialog.c:1479
 msgid "Polar"
 msgstr "Bleinek"
 
@@ -9600,8 +9219,7 @@ msgstr "Lagad pesk"
 msgid "Bubble"
 msgstr "Klogorennoù"
 
-#: ../plug-ins/flame/flame.c:772
-#: ../plug-ins/map-object/map-object-ui.c:431
+#: ../plug-ins/flame/flame.c:772 ../plug-ins/map-object/map-object-ui.c:431
 msgid "Cylinder"
 msgstr "Kranenn"
 
@@ -9666,8 +9284,7 @@ msgid "C_amera"
 msgstr "K_amera"
 
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:546
-#: ../plug-ins/gfig/gfig-dialog.c:275
-#: ../plug-ins/gimpressionist/utils.c:142
+#: ../plug-ins/gfig/gfig-dialog.c:275 ../plug-ins/gimpressionist/utils.c:142
 #: ../plug-ins/gradient-flare/gradient-flare.c:881
 #, c-format
 msgid ""
@@ -10092,8 +9709,7 @@ msgstr "_Dizober"
 msgid "_Clear"
 msgstr "_Skarzhañ"
 
-#: ../plug-ins/gfig/gfig-dialog.c:894
-#: ../plug-ins/imagemap/imap_menu.c:208
+#: ../plug-ins/gfig/gfig-dialog.c:894 ../plug-ins/imagemap/imap_menu.c:208
 msgid "_Grid"
 msgstr "_Kael"
 
@@ -10121,48 +9737,39 @@ msgstr "Diskouez an ergorenn gent"
 msgid "Show next object"
 msgstr "Diskouez an ergorenn war-lerc'h"
 
-#: ../plug-ins/gfig/gfig-dialog.c:926
-#: ../plug-ins/gfig/gfig-stock.c:52
+#: ../plug-ins/gfig/gfig-dialog.c:926 ../plug-ins/gfig/gfig-stock.c:52
 msgid "Show all objects"
 msgstr "Diskouez an holl ergorennoù"
 
-#: ../plug-ins/gfig/gfig-dialog.c:932
-#: ../plug-ins/gfig/gfig-stock.c:46
+#: ../plug-ins/gfig/gfig-dialog.c:932 ../plug-ins/gfig/gfig-stock.c:46
 msgid "Create line"
 msgstr "Krouiñ ul linenn"
 
-#: ../plug-ins/gfig/gfig-dialog.c:935
-#: ../plug-ins/gfig/gfig-stock.c:50
+#: ../plug-ins/gfig/gfig-dialog.c:935 ../plug-ins/gfig/gfig-stock.c:50
 msgid "Create rectangle"
 msgstr "Krouiñ ur reizhkorn"
 
-#: ../plug-ins/gfig/gfig-dialog.c:938
-#: ../plug-ins/gfig/gfig-stock.c:41
+#: ../plug-ins/gfig/gfig-dialog.c:938 ../plug-ins/gfig/gfig-stock.c:41
 msgid "Create circle"
 msgstr "Krouiñ ur c'helc'h"
 
-#: ../plug-ins/gfig/gfig-dialog.c:941
-#: ../plug-ins/gfig/gfig-stock.c:45
+#: ../plug-ins/gfig/gfig-dialog.c:941 ../plug-ins/gfig/gfig-stock.c:45
 msgid "Create ellipse"
 msgstr "Krouiñ un elipsenn"
 
-#: ../plug-ins/gfig/gfig-dialog.c:944
-#: ../plug-ins/gfig/gfig-stock.c:43
+#: ../plug-ins/gfig/gfig-dialog.c:944 ../plug-ins/gfig/gfig-stock.c:43
 msgid "Create arc"
 msgstr "Krouiñ ur wareg"
 
-#: ../plug-ins/gfig/gfig-dialog.c:947
-#: ../plug-ins/gfig/gfig-stock.c:49
+#: ../plug-ins/gfig/gfig-dialog.c:947 ../plug-ins/gfig/gfig-stock.c:49
 msgid "Create reg polygon"
 msgstr "Krouiñ ul liestueg reoliek"
 
-#: ../plug-ins/gfig/gfig-dialog.c:950
-#: ../plug-ins/gfig/gfig-stock.c:54
+#: ../plug-ins/gfig/gfig-dialog.c:950 ../plug-ins/gfig/gfig-stock.c:54
 msgid "Create star"
 msgstr "Krouiñ ur steredenn"
 
-#: ../plug-ins/gfig/gfig-dialog.c:953
-#: ../plug-ins/gfig/gfig-stock.c:53
+#: ../plug-ins/gfig/gfig-dialog.c:953 ../plug-ins/gfig/gfig-stock.c:53
 msgid "Create spiral"
 msgstr "Krouiñ un droenn"
 
@@ -10170,28 +9777,23 @@ msgstr "Krouiñ un droenn"
 msgid "Create bezier curve. Shift + Button ends object creation."
 msgstr "Krouiñ ur grommenn Bezier. Shift + afell al logodenn evit echuiñ krouidigezh an ergorenn."
 
-#: ../plug-ins/gfig/gfig-dialog.c:960
-#: ../plug-ins/gfig/gfig-stock.c:47
+#: ../plug-ins/gfig/gfig-dialog.c:960 ../plug-ins/gfig/gfig-stock.c:47
 msgid "Move an object"
 msgstr "Dilec'hiañ an ergorenn"
 
-#: ../plug-ins/gfig/gfig-dialog.c:963
-#: ../plug-ins/gfig/gfig-stock.c:48
+#: ../plug-ins/gfig/gfig-dialog.c:963 ../plug-ins/gfig/gfig-stock.c:48
 msgid "Move a single point"
 msgstr "Dilec'hiañ ur bikenn hepken"
 
-#: ../plug-ins/gfig/gfig-dialog.c:966
-#: ../plug-ins/gfig/gfig-stock.c:42
+#: ../plug-ins/gfig/gfig-dialog.c:966 ../plug-ins/gfig/gfig-stock.c:42
 msgid "Copy an object"
 msgstr "Eilañ un ergorenn"
 
-#: ../plug-ins/gfig/gfig-dialog.c:969
-#: ../plug-ins/gfig/gfig-stock.c:44
+#: ../plug-ins/gfig/gfig-dialog.c:969 ../plug-ins/gfig/gfig-stock.c:44
 msgid "Delete an object"
 msgstr "Dilemel un ergorenn"
 
-#: ../plug-ins/gfig/gfig-dialog.c:972
-#: ../plug-ins/gfig/gfig-stock.c:51
+#: ../plug-ins/gfig/gfig-dialog.c:972 ../plug-ins/gfig/gfig-stock.c:51
 msgid "Select an object"
 msgstr "Diuzañ un ergorenn"
 
@@ -10212,8 +9814,7 @@ msgstr "Diskouez ar poentoù reoliñ"
 msgid "Max undo:"
 msgstr "Uc'heg a zisoberioù :"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1320
-#: ../plug-ins/gimpressionist/general.c:184
+#: ../plug-ins/gfig/gfig-dialog.c:1320 ../plug-ins/gimpressionist/general.c:184
 msgid "Transparent"
 msgstr "Boull"
 
@@ -10221,8 +9822,7 @@ msgstr "Boull"
 msgid "Foreground"
 msgstr "Rakva"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1324
-#: ../plug-ins/imagemap/imap_cmd_copy.c:53
+#: ../plug-ins/gfig/gfig-dialog.c:1324 ../plug-ins/imagemap/imap_cmd_copy.c:53
 #: ../plug-ins/imagemap/imap_cmd_copy_object.c:54
 #: ../plug-ins/imagemap/imap_menu.c:159
 msgid "Copy"
@@ -10256,8 +9856,7 @@ msgstr "Regennoù ar gael vleinek c'hoantaet :"
 msgid "Polar grid radius interval:"
 msgstr "Etremez skinoù ar gael vleinek :"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1478
-#: ../plug-ins/imagemap/imap_menu.c:219
+#: ../plug-ins/gfig/gfig-dialog.c:1478 ../plug-ins/imagemap/imap_menu.c:219
 msgid "Rectangle"
 msgstr "Reizhkorn"
 
@@ -10473,8 +10072,7 @@ msgid "Selects if to place strokes all the way out to the edges of the image"
 msgstr "Da ziuzañ mar fell deoc'h lakaat tresadurioù a-hed da hed riblennoù ar skeudenn"
 
 #. Tileable checkbox
-#: ../plug-ins/gimpressionist/general.c:212
-#: ../plug-ins/maze/maze-dialog.c:268
+#: ../plug-ins/gimpressionist/general.c:212 ../plug-ins/maze/maze-dialog.c:268
 msgid "Tileable"
 msgstr "Marellus"
 
@@ -10536,8 +10134,8 @@ msgid "Performs various artistic operations"
 msgstr "Sevel a ra gwezhiadurioù arzhel liesseurt"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
-msgstr "_GIMPresionour..."
+msgid "_Impressionist..."
+msgstr "_Impresionour..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -10548,8 +10146,8 @@ msgid "Painting"
 msgstr "O pentañ"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPresionour"
+msgid "Impressionist"
+msgstr "Impresionour"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -10821,8 +10419,8 @@ msgid "Save Current"
 msgstr "Enrollañ ar gwerzhioù bremanel"
 
 #: ../plug-ins/gimpressionist/presets.c:894
-msgid "Gimpressionist Defaults"
-msgstr "Gwerzhioù dre ziouer GIMPresionour"
+msgid "Impressionist Defaults"
+msgstr "Gwerzhioù dre ziouer Impresionour"
 
 #: ../plug-ins/gimpressionist/presets.c:1015
 msgid "_Presets"
@@ -11334,8 +10932,7 @@ msgstr "Hadenn dargouezhek :"
 msgid "_Second Flares"
 msgstr "Strinkelladurioù eilvedel"
 
-#: ../plug-ins/help-browser/dialog.c:184
-#: ../plug-ins/help-browser/dialog.c:1133
+#: ../plug-ins/help-browser/dialog.c:184 ../plug-ins/help-browser/dialog.c:1133
 msgid "GIMP Help Browser"
 msgstr "Merdeer skoazellañ GIMP"
 
@@ -11415,7 +11012,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "N'eo ket hegerz ar pajennadoù skoazellañ evit '%s\"."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "N'eo ket hegerz dornlev an arveriad evit GIMP."
 
 #: ../plug-ins/help/gimphelpdomain.c:187
@@ -11643,10 +11240,8 @@ msgstr "Kreiz _x :"
 
 #: ../plug-ins/imagemap/imap_circle.c:268
 #: ../plug-ins/imagemap/imap_circle.c:275
-#: ../plug-ins/imagemap/imap_circle.c:281
-#: ../plug-ins/imagemap/imap_grid.c:249
-#: ../plug-ins/imagemap/imap_grid.c:255
-#: ../plug-ins/imagemap/imap_polygon.c:505
+#: ../plug-ins/imagemap/imap_circle.c:281 ../plug-ins/imagemap/imap_grid.c:249
+#: ../plug-ins/imagemap/imap_grid.c:255 ../plug-ins/imagemap/imap_polygon.c:505
 #: ../plug-ins/imagemap/imap_polygon.c:513
 #: ../plug-ins/imagemap/imap_rectangle.c:392
 #: ../plug-ins/imagemap/imap_rectangle.c:399
@@ -11920,8 +11515,7 @@ msgstr "Arventennoù ar maez"
 msgid "Area #%d Settings"
 msgstr "Arventennoù ar maez Nn. %d"
 
-#: ../plug-ins/imagemap/imap_file.c:47
-#: ../plug-ins/imagemap/imap_menu.c:70
+#: ../plug-ins/imagemap/imap_file.c:47 ../plug-ins/imagemap/imap_menu.c:70
 msgid "Error opening file"
 msgstr "Fazi e-pad ma oa o tigeriñ ar restr"
 
@@ -12936,8 +12530,7 @@ msgstr "Milendall"
 msgid "Maze Size"
 msgstr "Ment ar milendall"
 
-#: ../plug-ins/maze/maze-dialog.c:210
-#: ../plug-ins/maze/maze-dialog.c:226
+#: ../plug-ins/maze/maze-dialog.c:210 ../plug-ins/maze/maze-dialog.c:226
 msgid "Pieces:"
 msgstr "Pezhioù :"
 
@@ -13244,162 +12837,213 @@ msgstr "Roadenn ebet bet paket"
 
 #~ msgid "Ascii"
 #~ msgstr "Ascii"
+
 #~ msgid ""
-#~ "Error starting Ghostscript. Make sure that Ghostscript is installed and - "
-#~ "if necessary - use the environment variable GS_PROG to tell GIMP about "
-#~ "its location.\n"
+#~ "Error starting Ghostscript. Make sure that Ghostscript is installed and - if necessary - use the environment variable GS_PROG to tell GIMP about its location.\n"
 #~ "(%s)"
 #~ msgstr ""
-#~ "Fazi e-pad loc'hadur Ghostscript. Bezit sur emañ Ghostscript staliet ha - "
-#~ "mar bez ret - arverañ an argemmenn endro GS_PROG evit lavarout da GIMP a-"
-#~ "zivout e lec'hiadur.\n"
+#~ "Fazi e-pad loc'hadur Ghostscript. Bezit sur emañ Ghostscript staliet ha - mar bez ret - arverañ an argemmenn endro GS_PROG evit lavarout da GIMP a-zivout e lec'hiadur.\n"
 #~ "(%s)"
+
 #~ msgid "The width of frame %d of '%s' is too big for X cursor."
 #~ msgstr "Led ar skeudenn %d eus '%s' zo re vras evit ar biz X."
+
 #~ msgid "The height of frame %d of '%s' is too big for X cursor."
 #~ msgstr "Sav ar skeudenn %d eus '%s' zo re vras evit ar biz X."
+
 #~ msgid "The height of '%s' is too big for X cursor."
 #~ msgstr "Sav '%s' zo re vras evit ar biz X."
+
 #~ msgid "Width of '%s' is too large. Please reduce more than %dpx."
 #~ msgstr "Re vras eo led '%s'. Mar plij, bihanait muioc'h eget %dpx."
+
 #~ msgid "The size of '%s' is zero!"
 #~ msgstr "Ment '%s' a dalv da vann !"
+
 #~ msgid "BMP"
 #~ msgstr "BMP"
+
 #~ msgid "Adjust page size and orientation for printing"
 #~ msgstr "Kengeidañ ment ar bajenn hag he reteradur evit ar moullañ"
+
 #~ msgid "Page Set_up"
 #~ msgstr "Arventennad_ur ar bajennad"
+
 #~ msgid "pixels/%s"
 #~ msgstr "a bikselioù/%s"
+
 #~ msgid "There was an error taking the screenshot."
 #~ msgstr "Ur fazi ez eus bet e-pad ma oa o tennañ ar pakad skrammad."
+
 #~ msgid "Frequency (rows):"
 #~ msgstr "Aliested (renkoù) :"
+
 #~ msgid "2x1,1x1,1x1 (4:2:2)"
 #~ msgstr "2x1,1x1,1x1 (4:2:2)"
+
 #~ msgid "1x2,1x1,1x1"
 #~ msgstr "1x2,1x1,1x1"
+
 #~ msgid "2x2,1x1,1x1 (smallest file)"
 #~ msgstr "2x2,1x1,1x1 (restr vihanañ)"
+
 #~ msgid "Send to Back"
 #~ msgstr "Kas a-dreñv"
+
 #~ msgid "Hotspot _X:"
 #~ msgstr "Pikenn domm _X :"
+
 #~ msgid "Sizes:"
 #~ msgstr "Mentoù :"
+
 #~ msgid "Size:"
 #~ msgstr "Ment :"
+
 #~ msgid "Save _gamma"
 #~ msgstr "Enrollañ ar _gamma"
+
 #~ msgid "A big hello from the GIMP team!"
 #~ msgstr "Demat ha goulloù deoc'h a-berzh pare GIMP !"
+
 #~ msgid "Gee Zoom"
 #~ msgstr "Zoum Feiz"
+
 #~ msgid "Thank You for Choosing GIMP"
 #~ msgstr "Trugarez da vezañ dibabet GIMP"
+
 #~ msgid "An obsolete creation by %s"
 #~ msgstr "Ur grouidigezh diamzeriet gant %s"
+
 #~ msgid "Gee Slime"
 #~ msgstr "Gludek Feiz"
+
 #~ msgid "A less obsolete creation by %s"
 #~ msgstr "Ur grouidigezh n'eo ket ken diamzeriet gant %s"
+
 #~ msgid "Image type currently not supported."
 #~ msgstr "N'eo ket skoret rizh bremanel ar skeudenn."
+
 #~ msgid ""
 #~ "Web browser not specified.\n"
 #~ "Please specify a web browser using the Preferences dialog."
 #~ msgstr ""
 #~ "Merdeer web anerspizet.\n"
 #~ "Erspizañ ur merdeer web e boestad emziviz ar Gwellvezioù."
+
 #~ msgid ""
-#~ "Could not parse the web browser command specified in the Preferences "
-#~ "dialog:\n"
+#~ "Could not parse the web browser command specified in the Preferences dialog:\n"
 #~ "\n"
 #~ "%s"
 #~ msgstr ""
-#~ "N'haller ket dezrannañ arc'had ar merdeer web bet erspizet e boestad "
-#~ "emziviz ar Gwellvezioù :\n"
+#~ "N'haller ket dezrannañ arc'had ar merdeer web bet erspizet e boestad emziviz ar Gwellvezioù :\n"
 #~ "%s"
+
 #~ msgid ""
 #~ "Could not execute the web browser specified in the Preferences dialog:\n"
 #~ "\n"
 #~ "%s"
 #~ msgstr ""
-#~ "N'haller ket erounit ar merdeer web bet erspizet e boestad emziviz ar "
-#~ "Gwellvezioù :\n"
+#~ "N'haller ket erounit ar merdeer web bet erspizet e boestad emziviz ar Gwellvezioù :\n"
 #~ "%s"
+
 #~ msgid "Save as Text"
 #~ msgstr "Enrollañ evel testenn"
+
 #~ msgid "Save as C-Source"
 #~ msgstr "Enrollañ e boneg C"
+
 #~ msgid "Save as Brush"
 #~ msgstr "Enrollañ evel broust"
+
 #~ msgid "Save as GIF"
 #~ msgstr "Enrollañ evel GIF"
+
 #~ msgid "Layer %s doesn't have an alpha channel, skipped"
-#~ msgstr ""
-#~ "N'eus sanell alfa ebet gant an dreuzfollenn %s, laosket e vo a-gostez"
+#~ msgstr "N'eus sanell alfa ebet gant an dreuzfollenn %s, laosket e vo a-gostez"
+
 #~ msgid "Save as HTML table"
 #~ msgstr "Enrollañ evel un daolenn mod HTML"
+
 #~ msgid "Save as MNG"
 #~ msgstr "Enrollañ e MNG"
+
 #~ msgid "Save as Pattern"
 #~ msgstr "Enrollañ evel goustur"
+
 #~ msgid "Save as PNG"
 #~ msgstr "Enrollañ e PNG"
+
 #~ msgid "Save as PNM"
 #~ msgstr "Enrollañ e PNM"
+
 #~ msgid "Save as PSP"
 #~ msgstr "Enrollañ e PSP"
+
 #~ msgid "Save as TGA"
 #~ msgstr "Enrollañ e TGA"
+
 #~ msgid "Save as TIFF"
 #~ msgstr "Enrollañ e TIFF"
+
 #~ msgid "Save as XBM"
 #~ msgstr "Enrollañ e XBM"
+
 #~ msgid "Save as XPM"
 #~ msgstr "Enrollañ evel XPM"
+
 #~ msgid "Save as BMP"
 #~ msgstr "Enrollañ e BMP"
+
 #~ msgid "GFLI 1.3 - Save framestack"
 #~ msgstr "GFLI 1.3 - Enrollañ ar bern treuzfollennoù"
+
 #~ msgid "File size: %02.01f kB"
 #~ msgstr "Ment ar restr : %02.01f ke"
+
 #~ msgid "Save as JPEG"
 #~ msgstr "Enrollañ e JPEG"
+
 #~ msgid "Save as SGI"
 #~ msgstr "Enrollañ e SGI"
+
 #~ msgid "Co_nnect"
 #~ msgstr "Kennaskañ"
+
 #~ msgid "Connect _anonymously"
 #~ msgstr "Kennaskañ dianv"
+
 #~ msgid "Connect as u_ser:"
 #~ msgstr "Kenna_skañ evel arveriad :"
+
 #~ msgid "_Username:"
 #~ msgstr "Anv arveriad :"
+
 #~ msgid "_Domain:"
 #~ msgstr "_Domani :"
+
 #~ msgid "_Password:"
 #~ msgstr "_Ger tremen :"
+
 #~ msgid "_Forget password immediately"
 #~ msgstr "Disoñjal ar _ger-tremen diouzhtu"
+
 #~ msgid "_Remember password until you logout"
 #~ msgstr "Derc'hel soñj er _ger-tremen betek ma tikennaskot"
+
 #~ msgid "_Remember forever"
 #~ msgstr "De_rc'hel soñj da viken"
+
 #~ msgid "Uploading %s of image data"
 #~ msgstr "O pellgas %s eus roadennoù ar skeudenn..."
+
 #~ msgid "Failed to read %s from '%s': %s"
 #~ msgstr "C'hwitadenn war skrivañ  '%s' diouzh '%s' : %s"
+
 #~ msgid "Failed to write %s to '%s': %s"
 #~ msgstr "C'hwitadenn war skrivañ  '%s' e '%s' : %s"
+
 #~ msgid "Save as XJT"
 #~ msgstr "Enrollañ e XJT"
-#~ msgid ""
-#~ "Please make sure gimp-help-en is installed, or the appropriate gimp-help "
-#~ "package for your language."
-#~ msgstr ""
-#~ "Bezit sur emañ staliet gimp-help-en pe ar pakad skoazellañ evit gimp en "
-#~ "ho yezh."
 
+#~ msgid "Please make sure gimp-help-en is installed, or the appropriate gimp-help package for your language."
+#~ msgstr "Bezit sur emañ staliet gimp-help-en pe ar pakad skoazellañ evit gimp en ho yezh."

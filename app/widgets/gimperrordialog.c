@@ -165,7 +165,7 @@ gimp_error_dialog_add (GimpErrorDialog *dialog,
       g_printerr ("%s: %s\n\n", domain, message);
 
       overflow  = TRUE;
-      icon_name = GIMP_ICON_WILBER_EEK;
+      icon_name = GLIMPSE_ICON_DEFAULT;
       domain    = _("Too many error messages!");
       message   = _("Messages are redirected to stderr.");
 
@@ -190,7 +190,7 @@ gimp_error_dialog_add (GimpErrorDialog *dialog,
   else
     gimp_message_box_set_primary_text (GIMP_MESSAGE_BOX (item->box),
                                        /* %s is a message domain,
-                                        * like "GIMP Message" or
+                                        * like "Glimpse Message" or
                                         * "PNG Message"
                                         */
                                        _("%s Message"), domain);

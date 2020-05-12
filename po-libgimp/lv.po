@@ -1150,18 +1150,18 @@ msgstr "Papildinošs"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Iekšējā GIMP procedūra"
+msgid "Internal Glimpse procedure"
+msgstr "Iekšējā Glimpse procedūra"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP spraudnis"
+msgid "GNU I.M.P Plug-In"
+msgstr "GNU I.M.P spraudnis"
 
 #: ../libgimpbase/gimpbaseenums.c:1391
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP paplašinājums"
+msgid "GNU I.M.P Extension"
+msgstr "GNU I.M.P paplašinājums"
 
 #: ../libgimpbase/gimpbaseenums.c:1392
 msgctxt "pdb-proc-type"
@@ -1601,11 +1601,11 @@ msgstr "Jūsu (galvenā) ekrāna krāsu profils."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Kad ieslēgts, GIMP mēģinās izmantot krāsu profilu no logu sistēmas. "
+"Kad ieslēgts, Glimpse mēģinās izmantot krāsu profilu no logu sistēmas. "
 "Konfigurētais monitora profils tiks izmantots tikai kā rezerves variants."
 
 #: ../libgimpconfig/gimpcolorconfig.c:63

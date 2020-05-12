@@ -283,7 +283,7 @@ gimp_directory (void)
       library_dir = [path objectAtIndex:0];
 
       gimp_dir = g_build_filename ([library_dir UTF8String],
-                                   GIMPDIR, GIMP_USER_VERSION, NULL);
+                                   GIMPDIR, GLIMPSE_APP_VERSION, NULL);
 
       [pool drain];
 
@@ -292,7 +292,7 @@ gimp_directory (void)
       gchar *conf_dir = get_special_folder (CSIDL_APPDATA);
 
       gimp_dir = g_build_filename (conf_dir,
-                                   GIMPDIR, GIMP_USER_VERSION, NULL);
+                                   GIMPDIR, GLIMPSE_APP_VERSION, NULL);
       g_free(conf_dir);
 
 #else /* UNIX */
@@ -301,7 +301,7 @@ gimp_directory (void)
        * and non-empty string
        */
       gimp_dir = g_build_filename (g_get_user_config_dir (),
-                                   GIMPDIR, GIMP_USER_VERSION, NULL);
+                                   GIMPDIR, GLIMPSE_APP_VERSION, NULL);
 
 #endif /* PLATFORM_OSX */
     }
@@ -658,7 +658,7 @@ gimp_cache_directory (void)
     {
       gchar *tmp = g_build_filename (g_get_user_cache_dir (),
                                      GIMP_PACKAGE,
-                                     GIMP_USER_VERSION,
+                                     GLIMPSE_APP_VERSION,
                                      NULL);
 
       gimp_cache_dir = gimp_env_get_dir ("GIMP2_CACHEDIR", NULL, tmp);
@@ -700,7 +700,7 @@ gimp_temp_directory (void)
     {
       gchar *tmp = g_build_filename (g_get_tmp_dir (),
                                      GIMP_PACKAGE,
-                                     GIMP_USER_VERSION,
+                                     GLIMPSE_APP_VERSION,
                                      NULL);
 
       gimp_temp_dir = gimp_env_get_dir ("GIMP2_TEMPDIR", NULL, tmp);
@@ -965,7 +965,7 @@ gimp_gtkrc (void)
 
   if (! gimp_gtkrc_filename)
     gimp_gtkrc_filename = g_build_filename (gimp_data_directory (),
-                                            "themes", "System", "gtkrc",
+                                            "themes", "Light", "gtkrc",
                                             NULL);
 
   return gimp_gtkrc_filename;

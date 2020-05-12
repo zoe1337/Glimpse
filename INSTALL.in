@@ -4,6 +4,12 @@ Installation instructions for GIMP @GIMP_APP_VERSION@
 
 There are some basic steps to building and installing GIMP.
 
+  ******************************************************************
+  * Glimpse project does not maintain this file. It is kept here   *
+  * in case it is useful for package maintainers. For general      *
+  * build instructions, read the 'HACKING' file.                   *
+  ******************************************************************
+
 GIMP @GIMP_APP_VERSION@ replaces earlier GIMP 2.x versions. It is advised that you
 uninstall them before installing GIMP @GIMP_APP_VERSION@. If you want to keep your
 older GIMP 2.x installation in parallel to GIMP @GIMP_APP_VERSION@, you have to

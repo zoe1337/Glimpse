@@ -37,7 +37,7 @@ msgstr "آ_غاز کارگزار..."
 
 #: ../plug-ins/script-fu/script-fu.c:307
 #, fuzzy
-msgid "_GIMP Online"
+msgid "_Glimpse online"
 msgstr "ضمیمهٔ گیمپ"
 
 #: ../plug-ins/script-fu/script-fu.c:308
@@ -803,7 +803,7 @@ msgstr ""
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (GNU I.M.P)"
 msgstr ""
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -843,7 +843,7 @@ msgstr "وب‌گاه _اصلی"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:192
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:205
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:218
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr ""
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
@@ -852,7 +852,7 @@ msgstr "وب‌گاه _برنامه‌سازان"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
 #, fuzzy
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (GNU I.M.P)"
 msgstr "وب‌گاه _اصلی"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217
@@ -2324,10 +2324,10 @@ msgstr "فاصلهٔ‌ Y سایه"
 #~ msgid "Additional Information"
 #~ msgstr "اطلاعات بیشتر"
 
-#~ msgid "Internal GIMP procedure"
+#~ msgid "Internal Glimpse procedure"
 #~ msgstr "زیربرنامهٔ داخلی گیمپ"
 
-#~ msgid "GIMP Plug-In"
+#~ msgid "GNU I.M.P Plug-In"
 #~ msgstr "متصل‌شوندهٔ گیمپ"
 
 #~ msgid "Temporary Procedure"
@@ -2450,5 +2450,5 @@ msgstr "فاصلهٔ‌ Y سایه"
 #~ msgid "_Unsharp Mask..."
 #~ msgstr "ناتیز کردن نقاب_..."
 
-#~ msgid "<Toolbox>/Help/The GIMP Online"
+#~ msgid "<Toolbox>/Help/The Glimpse online"
 #~ msgstr "<Toolbox>/راهنما/گیمپ برخط"

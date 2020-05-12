@@ -28,7 +28,7 @@
 #undef GIMP_DISABLE_DEPRECATED
 #include "gimpicons.h"
 
-#include "icons/Color/gimp-icon-pixbufs.c"
+#include "icons/Legacy/gimp-icon-pixbufs.c"
 
 #include "libgimp/libgimp-intl.h"
 
@@ -55,7 +55,6 @@
 
 
 static GtkIconFactory *gimp_stock_factory = NULL;
-
 
 static const GtkStockItem gimp_stock_items[] =
 {
@@ -227,6 +226,7 @@ static const GtkStockItem gimp_stock_items[] =
   { GIMP_STOCK_USER_MANUAL,              NULL,        0, 0, LIBGIMP_DOMAIN },
   { GIMP_STOCK_WARNING,                  NULL,        0, 0, LIBGIMP_DOMAIN },
   { GIMP_STOCK_WILBER,                   NULL,        0, 0, LIBGIMP_DOMAIN },
+  { GLIMPSE_STOCK_ICON,                  NULL,        0, 0, LIBGIMP_DOMAIN },
   { GIMP_STOCK_WILBER_EEK,               NULL,        0, 0, LIBGIMP_DOMAIN },
 
   { GIMP_STOCK_FRAME,                    NULL,        0, 0, LIBGIMP_DOMAIN },

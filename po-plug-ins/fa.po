@@ -8156,7 +8156,7 @@ msgstr "کانال TIFF"
 #: ../plug-ins/common/tiff-load.c:926
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 "bit, so it will be converted for you. Information will be lost because of "
 "this conversion."
 msgstr ""
@@ -10121,7 +10121,7 @@ msgid "Performs various artistic operations"
 msgstr ""
 
 #: ../plug-ins/gimpressionist/gimp.c:79
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr "_گیمپرسیونیست..."
 
 #: ../plug-ins/gimpressionist/gimp.c:350
@@ -10131,7 +10131,7 @@ msgstr "در حال رنگ‌آمیزی..."
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:121
 #, fuzzy
-msgid "GIMPressionist"
+msgid "Impressionist"
 msgstr "_گیمپرسیونیست..."
 
 #: ../plug-ins/gimpressionist/orientation.c:74
@@ -10414,7 +10414,7 @@ msgstr "ذخیرهٔ فعلی"
 
 #: ../plug-ins/gimpressionist/presets.c:874
 #, fuzzy
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "پیش‌فرض‌های گیمپرسونیست"
 
 #: ../plug-ins/gimpressionist/presets.c:995
@@ -10576,7 +10576,7 @@ msgstr ""
 
 #: ../plug-ins/help/gimphelpdomain.c:177
 #, fuzzy
-msgid "The GIMP help files are not found."
+msgid "The Glimpse help files are not found."
 msgstr "پرونده‌های راهنمای گیمپ نصب نشده‌اند."
 
 #: ../plug-ins/help/gimphelpdomain.c:178
@@ -10586,7 +10586,7 @@ msgid ""
 msgstr ""
 
 #: ../plug-ins/help/gimphelpdomain.c:184
-msgid "There is a problem with the GIMP help files."
+msgid "There is a problem with the Glimpse help files."
 msgstr "پرونده‌های راهنمای گیمپ مشکلی دارند."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
@@ -12890,13 +12890,13 @@ msgstr ""
 #~ msgid "Date:"
 #~ msgstr "تاریخ:"
 
-#~ msgid "Internal GIMP procedure"
+#~ msgid "Internal Glimpse procedure"
 #~ msgstr "زیرنامهٔ داخلی گیمپ"
 
-#~ msgid "GIMP Plug-In"
+#~ msgid "GNU I.M.P Plug-In"
 #~ msgstr "متصل‌شوندهٔ گیمپ"
 
-#~ msgid "GIMP Extension"
+#~ msgid "GNU I.M.P Extension"
 #~ msgstr "ضمیمهٔ گیمپ"
 
 #~ msgid "Temporary Procedure"
@@ -12926,10 +12926,7 @@ msgstr ""
 #~ msgid "Hue Rotation:"
 #~ msgstr "چرخش فام:"
 
-#~ msgid "The GIMPressionist"
-#~ msgstr "گیمپرسیونیست"
-
-#~ msgid "Gimpressionist"
+#~ msgid "The Impressionist"
 #~ msgstr "گیمپرسیونیست"
 
 #~ msgid "A_bout"

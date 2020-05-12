@@ -141,7 +141,7 @@ gui_message (Gimp                *gimp,
           gimp_stack_trace_print (NULL, NULL, &trace);
         }
 
-      if (g_strcmp0 (GIMP_ACRONYM, domain) != 0)
+      if (g_strcmp0 (GLIMPSE_NAME, domain) != 0)
         {
           /* Handle non-GIMP messages in a multi-thread safe way,
            * because we can't know for sure whether the log message may
@@ -268,7 +268,7 @@ progress_error_dialog (GimpProgress *progress)
 
   if (! dialog)
     {
-      dialog = gimp_error_dialog_new (_("GIMP Message"));
+      dialog = gimp_error_dialog_new (_("Glimpse Message"));
 
       g_object_set_data (G_OBJECT (progress), "gimp-error-dialog", dialog);
 

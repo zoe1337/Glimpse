@@ -1521,20 +1521,20 @@ msgctxt "transform-resize"
 msgid "Crop with aspect"
 msgstr "Crop with aspect"
 
-#: ../libgimpbase/gimpmetadata.c:878
-#, c-format
-msgid "Can load metadata only from local files"
-msgstr "Can load metadata only from local files"
+#: ../libgimpbase/gimpbaseenums.c:935
+msgctxt "pdb-proc-type"
+msgid "Internal Glimpse procedure"
+msgstr "Internal Glimpse procedure"
 
-#: ../libgimpbase/gimpmetadata.c:892 ../libgimpbase/gimpmetadata.c:962
-#, c-format
-msgid "Conversion of the filename to system codepage failed."
-msgstr "Conversion of the filename to system codepage failed."
+#: ../libgimpbase/gimpbaseenums.c:936
+msgctxt "pdb-proc-type"
+msgid "GNU I.M.P Plug-In"
+msgstr "GNU I.M.P Plug-In"
 
-#: ../libgimpbase/gimpmetadata.c:949
-#, c-format
-msgid "Can save metadata only to local files"
-msgstr "Can save metadata only to local files"
+#: ../libgimpbase/gimpbaseenums.c:937
+msgctxt "pdb-proc-type"
+msgid "GNU I.M.P Extension"
+msgstr "GNU I.M.P Extension"
 
 #: ../libgimpbase/gimpmetadata.c:1011
 #, c-format
@@ -1676,11 +1676,11 @@ msgstr "The colour profile of your (primary) monitor."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"When enabled, GIMP will try to use the display colour profile from the "
+"When enabled, Glimpse will try to use the display colour profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 

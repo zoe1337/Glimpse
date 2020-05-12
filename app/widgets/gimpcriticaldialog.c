@@ -547,14 +547,14 @@ gimp_critical_dialog_add (GtkWidget   *dialog,
   /* The user text, which should be localized. */
   if (is_fatal)
     {
-      text = g_strdup_printf (_("GIMP crashed with a fatal error: %s"),
+      text = g_strdup_printf (_("Glimpse crashed with a fatal error: %s"),
                               message);
     }
   else if (! gtk_label_get_text (GTK_LABEL (critical->top_label)) ||
            strlen (gtk_label_get_text (GTK_LABEL (critical->top_label))) == 0)
     {
       /* First error. Let's just display it. */
-      text = g_strdup_printf (_("GIMP encountered an error: %s"),
+      text = g_strdup_printf (_("Glimpse encountered an error: %s"),
                               message);
     }
   else
@@ -562,7 +562,7 @@ gimp_critical_dialog_add (GtkWidget   *dialog,
       /* Let's not display all errors. They will be in the bug report
        * part anyway.
        */
-      text = g_strdup_printf (_("GIMP encountered several critical errors!"));
+      text = g_strdup_printf (_("Glimpse encountered several critical errors!"));
     }
   gtk_label_set_text (GTK_LABEL (critical->top_label),
                       text);
@@ -581,7 +581,7 @@ gimp_critical_dialog_add (GtkWidget   *dialog,
                               " \xe2\x80\xa2 %s\n"
                               " \xe2\x80\xa2 %s\n"
                               " \xe2\x80\xa2 %s",
-                              _("To help us improve GIMP, you can report the bug with "
+                              _("To help us improve Glimpse, you can report the bug with "
                                 "these simple steps:"),
                               _("Copy the bug information to the clipboard by clicking: "),
                               BUTTON1_TEXT,
@@ -614,7 +614,7 @@ gimp_critical_dialog_add (GtkWidget   *dialog,
   if (is_fatal)
     {
       gtk_dialog_add_buttons (GTK_DIALOG (dialog),
-                              _("_Restart GIMP"), GIMP_CRITICAL_RESPONSE_RESTART,
+                              _("_Restart Glimpse"), GIMP_CRITICAL_RESPONSE_RESTART,
                               NULL);
       critical->program = g_strdup (program);
       critical->pid     = pid;

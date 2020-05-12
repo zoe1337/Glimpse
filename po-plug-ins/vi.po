@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gimp-plugins HEAD\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2011-12-27 01:39+0000\n"
-"PO-Revision-Date: 2011-12-27 10:00+0700\n"
+"PO-Revision-Date: 2020-02-08 15:17-0800\n"
 "Last-Translator: Nguyễn Vũ Hưng <vuhung16plus@gmail.com>\n"
 "Language-Team: Vietnamese <du-an-most@lists.hanoilug.org>\n"
 "Language: vi\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: LocFactoryEditor 1.6fc1\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/color-rotate/color-rotate-dialog.c:118
 msgid "Original"
@@ -622,8 +622,7 @@ msgstr "_Dọc"
 #: ../plug-ins/file-jpeg/jpeg-load.c:255 ../plug-ins/file-jpeg/jpeg-load.c:819
 #: ../plug-ins/file-psd/psd-image-res-load.c:1001
 #: ../plug-ins/file-psd/psd-load.c:1637 ../plug-ins/file-sgi/sgi.c:407
-#: ../plug-ins/gfig/gfig-dialog.c:1306
-#: ../plug-ins/gimpressionist/general.c:139
+#: ../plug-ins/gfig/gfig-dialog.c:1306 ../plug-ins/gimpressionist/general.c:139
 #: ../plug-ins/map-object/map-object-apply.c:252 ../plug-ins/twain/twain.c:567
 #: ../plug-ins/win-snap/winsnap.c:1162
 msgid "Background"
@@ -1020,10 +1019,9 @@ msgstr "Tải thiết lập bộ hoà kênh"
 #: ../plug-ins/common/channel-mixer.c:980
 #: ../plug-ins/common/cml-explorer.c:2208 ../plug-ins/common/curve-bend.c:892
 #: ../plug-ins/common/file-cel.c:312 ../plug-ins/common/file-compressor.c:497
-#: ../plug-ins/common/file-compressor.c:666
-#: ../plug-ins/common/file-dicom.c:340 ../plug-ins/common/file-gbr.c:368
-#: ../plug-ins/common/file-gif-load.c:355 ../plug-ins/common/file-gih.c:640
-#: ../plug-ins/common/file-jp2-load.c:194
+#: ../plug-ins/common/file-compressor.c:666 ../plug-ins/common/file-dicom.c:340
+#: ../plug-ins/common/file-gbr.c:368 ../plug-ins/common/file-gif-load.c:355
+#: ../plug-ins/common/file-gih.c:640 ../plug-ins/common/file-jp2-load.c:194
 #: ../plug-ins/common/file-jp2-load.c:203 ../plug-ins/common/file-mng.c:1156
 #: ../plug-ins/common/file-pat.c:337 ../plug-ins/common/file-pcx.c:361
 #: ../plug-ins/common/file-pix.c:343 ../plug-ins/common/file-png.c:752
@@ -1966,8 +1964,7 @@ msgstr "Giá trị mặt nạ"
 msgid "Stretch brightness values to cover the full range"
 msgstr "Kéo giãn giá trị độ sáng để chiếm toàn bộ phạm vi"
 
-#: ../plug-ins/common/contrast-normalize.c:91
-#: ../plug-ins/common/edge-dog.c:362
+#: ../plug-ins/common/contrast-normalize.c:91 ../plug-ins/common/edge-dog.c:362
 msgid "_Normalize"
 msgstr "Chuẩ_n hóa"
 
@@ -2081,9 +2078,9 @@ msgstr "_Anpha"
 msgid "E_xtend"
 msgstr "_Mở rộng"
 
-#: ../plug-ins/common/convolution-matrix.c:74
-#: ../plug-ins/common/displace.c:477 ../plug-ins/common/edge.c:700
-#: ../plug-ins/common/fractal-trace.c:737 ../plug-ins/common/ripple.c:585
+#: ../plug-ins/common/convolution-matrix.c:74 ../plug-ins/common/displace.c:477
+#: ../plug-ins/common/edge.c:700 ../plug-ins/common/fractal-trace.c:737
+#: ../plug-ins/common/ripple.c:585
 msgid "_Wrap"
 msgstr "_Cuộn"
 
@@ -4032,7 +4029,7 @@ msgid "Invalid X resolution."
 msgstr "Độ phân giải không hợp lệ."
 
 #: ../plug-ins/common/file-pnm.c:555
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "Chiều rộng bức ảnh lớn hơn khả năng xử lý của GIMP."
 
 #: ../plug-ins/common/file-pnm.c:562
@@ -4040,7 +4037,7 @@ msgid "Invalid Y resolution."
 msgstr "Độ phân giải Y không hợp lệ."
 
 #: ../plug-ins/common/file-pnm.c:564
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "Chiều cao bức ảnh lớn hơn khả năng xử lý của GIMP."
 
 #: ../plug-ins/common/file-pnm.c:574
@@ -4232,8 +4229,7 @@ msgid "_Millimeter"
 msgstr "_Mili-mét"
 
 #. Rotation
-#: ../plug-ins/common/file-ps.c:3435
-#: ../plug-ins/map-object/map-object-ui.c:989
+#: ../plug-ins/common/file-ps.c:3435 ../plug-ins/map-object/map-object-ui.c:989
 msgid "Rotation"
 msgstr "Xoay"
 
@@ -4406,7 +4402,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s'\n"
 "Chiều rộng bức ảnh lớn hơn khả năng xử lý của GIMP"
@@ -4426,7 +4422,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s'\n"
 "Chiều cao bức ảnh lớn hơn khả năng xử lý của GIMP"
@@ -4601,11 +4597,10 @@ msgstr "%s-trang-%d-trên-%d"
 msgid "TIFF Channel"
 msgstr "Kênh TIFF"
 
-#: ../plug-ins/common/file-tiff-load.c:1024
-#: ../plug-ins/file-psd/psd-load.c:333
+#: ../plug-ins/common/file-tiff-load.c:1024 ../plug-ins/file-psd/psd-load.c:333
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 "bit, so it will be converted for you. Information will be lost because of "
 "this conversion."
 msgstr ""
@@ -10018,8 +10013,7 @@ msgstr "Hiện các điểm điều khiển"
 msgid "Max undo:"
 msgstr "Hủy bước tối đa:"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1305
-#: ../plug-ins/gimpressionist/general.c:184
+#: ../plug-ins/gfig/gfig-dialog.c:1305 ../plug-ins/gimpressionist/general.c:184
 msgid "Transparent"
 msgstr "Trong suốt"
 
@@ -10343,8 +10337,9 @@ msgid "Performs various artistic operations"
 msgstr "Thực hiện nhiều thao tác nghệ thuật khác nhau"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
-msgstr "Trường phái ấn tượng _GIMP..."
+#, fuzzy
+msgid "_Impressionist..."
+msgstr "_Trường phái ấn tượng ..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -10355,8 +10350,9 @@ msgid "Painting"
 msgstr "Đang sơn"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "Trường phái ấn tượng GIMP"
+#, fuzzy
+msgid "Impressionist"
+msgstr "Trường phái ấn tượng"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -10635,8 +10631,9 @@ msgid "Save Current"
 msgstr "Lưu điều hiện thời"
 
 #: ../plug-ins/gimpressionist/presets.c:894
-msgid "Gimpressionist Defaults"
-msgstr "Mặc định trường phái ấn tượng GIMP"
+#, fuzzy
+msgid "Impressionist Defaults"
+msgstr "Mặc định trường phái ấn tượng"
 
 #: ../plug-ins/gimpressionist/presets.c:1015
 msgid "_Presets"
@@ -11157,8 +11154,7 @@ msgstr "Hạt ngẫu nhiên:"
 msgid "_Second Flares"
 msgstr "_Sáng rực thứ hai"
 
-#: ../plug-ins/help-browser/dialog.c:184
-#: ../plug-ins/help-browser/dialog.c:1110
+#: ../plug-ins/help-browser/dialog.c:184 ../plug-ins/help-browser/dialog.c:1110
 msgid "GIMP Help Browser"
 msgstr "Bộ duyệt trợ giúp GIMP"
 
@@ -11238,7 +11234,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "Không tìm thấy trang trợ giúp của '%s'."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "Không tìm thấy tài liệu sử dụng GIMP."
 
 #: ../plug-ins/help/gimphelpdomain.c:187
@@ -11471,8 +11467,7 @@ msgstr "Giữa lại _x:"
 #: ../plug-ins/imagemap/imap_circle.c:268
 #: ../plug-ins/imagemap/imap_circle.c:275
 #: ../plug-ins/imagemap/imap_circle.c:281 ../plug-ins/imagemap/imap_grid.c:249
-#: ../plug-ins/imagemap/imap_grid.c:255
-#: ../plug-ins/imagemap/imap_polygon.c:505
+#: ../plug-ins/imagemap/imap_grid.c:255 ../plug-ins/imagemap/imap_polygon.c:505
 #: ../plug-ins/imagemap/imap_polygon.c:513
 #: ../plug-ins/imagemap/imap_rectangle.c:392
 #: ../plug-ins/imagemap/imap_rectangle.c:399
@@ -13389,10 +13384,10 @@ msgstr "Chưa bắt dữ liệu"
 #~ msgid "Size:"
 #~ msgstr "Cỡ:"
 
-#~ msgid "The GIMP help files are not found."
+#~ msgid "The Glimpse help files are not found."
 #~ msgstr "Không tìm thấy những tập tin trợ giúp GIMP"
 
-#~ msgid "There is a problem with the GIMP help files."
+#~ msgid "There is a problem with the Glimpse help files."
 #~ msgstr "Gặp lỗi với những tập tin trợ giúp GIMP."
 
 #~ msgid "Please check your installation."

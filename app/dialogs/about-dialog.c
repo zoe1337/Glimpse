@@ -62,7 +62,7 @@ typedef struct
   PangoLayout *layout;
 
   gint         n_authors;
-  gint         shuffle[G_N_ELEMENTS (authors) - 1];  /* NULL terminated */
+  gint         shuffle[G_N_ELEMENTS (glimpse_authors) - 1];  /* NULL terminated */
 
   guint        timer;
 
@@ -114,25 +114,25 @@ about_dialog_create (GimpCoreConfig *config)
       GList     *children;
       gchar     *copyright;
 
-      dialog.n_authors = G_N_ELEMENTS (authors) - 1;
+      dialog.n_authors = G_N_ELEMENTS (glimpse_authors) - 1;
 
       pixbuf = about_dialog_load_logo ();
 
-      copyright = g_strdup_printf (GIMP_COPYRIGHT, GIMP_GIT_LAST_COMMIT_YEAR);
+      copyright = g_strdup_printf (GLIMPSE_COPYRIGHT, GIMP_GIT_LAST_COMMIT_YEAR);
 
       widget = g_object_new (GTK_TYPE_ABOUT_DIALOG,
                              "role",               "gimp-about",
                              "window-position",    GTK_WIN_POS_CENTER,
-                             "title",              _("About GIMP"),
-                             "program-name",       GIMP_ACRONYM,
-                             "version",            GIMP_VERSION,
+                             "title",              _("About Glimpse"),
+                             "program-name",       GLIMPSE_NAME,
+                             "version",            GLIMPSE_VERSION,
                              "copyright",          copyright,
-                             "comments",           GIMP_NAME,
-                             "license",            GIMP_LICENSE,
+                             "comments",           GLIMPSE_SUBTITLE,
+                             "license",            GLIMPSE_LICENSE,
                              "wrap-license",       TRUE,
                              "logo",               pixbuf,
-                             "website",            "https://www.gimp.org/",
-                             "website-label",      _("Visit the GIMP website"),
+                             "website",            "https://glimpse-editor.org/",
+                             "website-label",      _("Visit the Glimpse website"),
                              "authors",            authors,
                              "artists",            artists,
                              "documenters",        documenters,
@@ -223,7 +223,7 @@ about_dialog_load_logo (void)
 #ifdef GIMP_UNSTABLE
                                    "gimp-devel-logo.png",
 #else
-                                   "gimp-logo.png",
+                                   "icon_128.png",
 #endif
                                    NULL);
 
@@ -673,7 +673,7 @@ about_dialog_timer (gpointer data)
           return FALSE;
 
         case 1:
-          text = insert_spacers (_("GIMP is brought to you by"));
+          text = insert_spacers (_("Glimpse is brought to you by"));
           dialog->state += 1;
           break;
 
@@ -681,7 +681,7 @@ about_dialog_timer (gpointer data)
           if (! (dialog->index < dialog->n_authors))
             dialog->index = 0;
 
-          text = insert_spacers (authors[dialog->shuffle[dialog->index]]);
+          text = insert_spacers (glimpse_authors[dialog->shuffle[dialog->index]]);
           dialog->index += 1;
           break;
 

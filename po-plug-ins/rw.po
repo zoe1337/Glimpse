@@ -16,13 +16,14 @@ msgstr ""
 "Project-Id-Version: gimp-plugins HEAD\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2005-04-01 13:04-0700\n"
-"PO-Revision-Date: 2005-03-31 20:55-0700\n"
+"PO-Revision-Date: 2020-02-08 15:05-0800\n"
 "Last-Translator: Steve Murphy <murf@e-tools.com>\n"
 "Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
 "Language: rw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
 
 #: plug-ins/FractalExplorer/Dialogs.c:548 plug-ins/gfig/gfig-dialog.c:280
 #: plug-ins/gflare/gflare.c:894
@@ -414,24 +415,23 @@ msgstr ""
 msgid "_Fractals"
 msgstr ""
 
-#: plug-ins/FractalExplorer/Dialogs.c:1824
-#: plug-ins/Lighting/lighting_ui.c:1151 plug-ins/bmp/bmpwrite.c:194
-#: plug-ins/common/CEL.c:573 plug-ins/common/CML_explorer.c:2005
-#: plug-ins/common/channel_mixer.c:1053 plug-ins/common/compressor.c:409
-#: plug-ins/common/compressor.c:540 plug-ins/common/curve_bend.c:860
-#: plug-ins/common/dicom.c:648 plug-ins/common/gbr.c:582
-#: plug-ins/common/gif.c:994 plug-ins/common/gih.c:1257
-#: plug-ins/common/gtm.c:222 plug-ins/common/mng.c:559
-#: plug-ins/common/mng.c:947 plug-ins/common/pat.c:433
-#: plug-ins/common/pcx.c:579 plug-ins/common/pix.c:505
-#: plug-ins/common/png.c:1173 plug-ins/common/pnm.c:810
-#: plug-ins/common/postscript.c:1120 plug-ins/common/psd_save.c:1330
-#: plug-ins/common/raw.c:522 plug-ins/common/raw.c:549
-#: plug-ins/common/spheredesigner.c:2091 plug-ins/common/sunras.c:504
-#: plug-ins/common/tga.c:1022 plug-ins/common/tiff.c:1914
-#: plug-ins/common/xbm.c:991 plug-ins/common/xwd.c:562
-#: plug-ins/fits/fits.c:445 plug-ins/flame/flame.c:443
-#: plug-ins/gfig/gfig.c:786 plug-ins/gfli/gfli.c:710
+#: plug-ins/FractalExplorer/Dialogs.c:1824 plug-ins/Lighting/lighting_ui.c:1151
+#: plug-ins/bmp/bmpwrite.c:194 plug-ins/common/CEL.c:573
+#: plug-ins/common/CML_explorer.c:2005 plug-ins/common/channel_mixer.c:1053
+#: plug-ins/common/compressor.c:409 plug-ins/common/compressor.c:540
+#: plug-ins/common/curve_bend.c:860 plug-ins/common/dicom.c:648
+#: plug-ins/common/gbr.c:582 plug-ins/common/gif.c:994
+#: plug-ins/common/gih.c:1257 plug-ins/common/gtm.c:222
+#: plug-ins/common/mng.c:559 plug-ins/common/mng.c:947
+#: plug-ins/common/pat.c:433 plug-ins/common/pcx.c:579
+#: plug-ins/common/pix.c:505 plug-ins/common/png.c:1173
+#: plug-ins/common/pnm.c:810 plug-ins/common/postscript.c:1120
+#: plug-ins/common/psd_save.c:1330 plug-ins/common/raw.c:522
+#: plug-ins/common/raw.c:549 plug-ins/common/spheredesigner.c:2091
+#: plug-ins/common/sunras.c:504 plug-ins/common/tga.c:1022
+#: plug-ins/common/tiff.c:1914 plug-ins/common/xbm.c:991
+#: plug-ins/common/xwd.c:562 plug-ins/fits/fits.c:445
+#: plug-ins/flame/flame.c:443 plug-ins/gfig/gfig.c:786 plug-ins/gfli/gfli.c:710
 #: plug-ins/ifscompose/ifscompose.c:2405 plug-ins/jpeg/jpeg-save.c:259
 #: plug-ins/uri/uri-backend-gnomevfs.c:215 plug-ins/winicon/icosave.c:244
 #: plug-ins/xjt/xjt.c:1265 plug-ins/xjt/xjt.c:1700
@@ -472,12 +472,11 @@ msgstr "Kubika"
 #: plug-ins/common/svg.c:692 plug-ins/common/tga.c:409
 #: plug-ins/common/tiff.c:526 plug-ins/common/xbm.c:715
 #: plug-ins/common/xwd.c:415 plug-ins/faxg3/faxg3.c:219
-#: plug-ins/fits/fits.c:333 plug-ins/flame/flame.c:412
-#: plug-ins/gfig/gfig.c:429 plug-ins/gfli/gfli.c:422 plug-ins/gfli/gfli.c:457
-#: plug-ins/help/domain.c:423 plug-ins/jpeg/jpeg-load.c:134
-#: plug-ins/jpeg/jpeg-load.c:836 plug-ins/uri/uri-backend-gnomevfs.c:204
-#: plug-ins/winicon/icoload.c:127 plug-ins/xjt/xjt.c:2524
-#: plug-ins/xjt/xjt.c:2532
+#: plug-ins/fits/fits.c:333 plug-ins/flame/flame.c:412 plug-ins/gfig/gfig.c:429
+#: plug-ins/gfli/gfli.c:422 plug-ins/gfli/gfli.c:457 plug-ins/help/domain.c:423
+#: plug-ins/jpeg/jpeg-load.c:134 plug-ins/jpeg/jpeg-load.c:836
+#: plug-ins/uri/uri-backend-gnomevfs.c:204 plug-ins/winicon/icoload.c:127
+#: plug-ins/xjt/xjt.c:2524 plug-ins/xjt/xjt.c:2532
 #, fuzzy, c-format
 msgid "Could not open '%s' for reading: %s"
 msgstr "OYA Gufungura kugirango"
@@ -500,8 +499,7 @@ msgstr ""
 msgid "Rendering Fractal..."
 msgstr ""
 
-#: plug-ins/FractalExplorer/FractalExplorer.c:775
-#: plug-ins/gflare/gflare.c:3136
+#: plug-ins/FractalExplorer/FractalExplorer.c:775 plug-ins/gflare/gflare.c:3136
 #, fuzzy, c-format
 msgid "Are you sure you want to delete \"%s\" from the list and from disk?"
 msgstr "Kuri Gusiba Bivuye i Urutonde Na Bivuye"
@@ -738,8 +736,7 @@ msgstr "Imbaraga"
 # #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
 # officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....BusinessCard.BusinessAddress.Position.text
 #: plug-ins/Lighting/lighting_ui.c:447 plug-ins/MapObject/mapobject_ui.c:694
-#: plug-ins/MapObject/mapobject_ui.c:1021
-#: plug-ins/print/gimp_main_window.c:472
+#: plug-ins/MapObject/mapobject_ui.c:1021 plug-ins/print/gimp_main_window.c:472
 msgid "Position"
 msgstr "Ibirindiro"
 
@@ -797,8 +794,7 @@ msgstr "Icyerekezo"
 # officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Font.Strikeout..6.text
 #. X
 #: plug-ins/Lighting/lighting_ui.c:499 plug-ins/MapObject/mapobject_ui.c:710
-#: plug-ins/MapObject/mapobject_ui.c:764
-#: plug-ins/MapObject/mapobject_ui.c:1032
+#: plug-ins/MapObject/mapobject_ui.c:764 plug-ins/MapObject/mapobject_ui.c:1032
 #: plug-ins/MapObject/mapobject_ui.c:1081 plug-ins/ifscompose/ifscompose.c:529
 #, fuzzy
 msgid "X:"
@@ -812,8 +808,7 @@ msgstr "Inkomoko Icyerekezo in Umwanya"
 # svx/source\engine3d\float3d.src:RID_SVXFLOAT3D_FIX_Y.text
 #. Y
 #: plug-ins/Lighting/lighting_ui.c:511 plug-ins/MapObject/mapobject_ui.c:724
-#: plug-ins/MapObject/mapobject_ui.c:777
-#: plug-ins/MapObject/mapobject_ui.c:1045
+#: plug-ins/MapObject/mapobject_ui.c:777 plug-ins/MapObject/mapobject_ui.c:1045
 #: plug-ins/MapObject/mapobject_ui.c:1092
 #: plug-ins/MapObject/mapobject_ui.c:1190 plug-ins/ifscompose/ifscompose.c:543
 #, fuzzy
@@ -827,8 +822,7 @@ msgstr "Inkomoko Icyerekezo in Umwanya"
 
 # svx/source\engine3d\float3d.src:RID_SVXFLOAT3D_FIX_Z.text
 #: plug-ins/Lighting/lighting_ui.c:523 plug-ins/MapObject/mapobject_ui.c:738
-#: plug-ins/MapObject/mapobject_ui.c:790
-#: plug-ins/MapObject/mapobject_ui.c:1058
+#: plug-ins/MapObject/mapobject_ui.c:790 plug-ins/MapObject/mapobject_ui.c:1058
 #: plug-ins/MapObject/mapobject_ui.c:1103
 #: plug-ins/MapObject/mapobject_ui.c:1202
 #, fuzzy
@@ -1055,8 +1049,7 @@ msgstr "Kuri"
 msgid "Map _Object..."
 msgstr ""
 
-#: plug-ins/MapObject/mapobject_ui.c:248
-#: plug-ins/MapObject/mapobject_ui.c:1340
+#: plug-ins/MapObject/mapobject_ui.c:248 plug-ins/MapObject/mapobject_ui.c:1340
 #, fuzzy
 msgid "_Box"
 msgstr "Agasanduku"
@@ -1065,8 +1058,7 @@ msgstr "Agasanduku"
 # sch/source\ui\app\strings.src:STR_SAEULE_3D_1.text
 # #-#-#-#-#  sch.pot (PACKAGE VERSION)  #-#-#-#-#
 # sch/source\ui\dlg\attrib3.src:TP_LAYOUT.LB_LY_SHAPE.2.text
-#: plug-ins/MapObject/mapobject_ui.c:266
-#: plug-ins/MapObject/mapobject_ui.c:1346
+#: plug-ins/MapObject/mapobject_ui.c:266 plug-ins/MapObject/mapobject_ui.c:1346
 #, fuzzy
 msgid "C_ylinder"
 msgstr "Umwiburungushure"
@@ -1276,23 +1268,19 @@ msgstr "Imbere"
 msgid "Back:"
 msgstr "Inyuma..."
 
-#: plug-ins/MapObject/mapobject_ui.c:1133
-#: plug-ins/print/gimp_main_window.c:531
+#: plug-ins/MapObject/mapobject_ui.c:1133 plug-ins/print/gimp_main_window.c:531
 msgid "Top:"
 msgstr "Hejuru:"
 
-#: plug-ins/MapObject/mapobject_ui.c:1133
-#: plug-ins/print/gimp_main_window.c:572
+#: plug-ins/MapObject/mapobject_ui.c:1133 plug-ins/print/gimp_main_window.c:572
 msgid "Bottom:"
 msgstr "Hasi:"
 
-#: plug-ins/MapObject/mapobject_ui.c:1134
-#: plug-ins/print/gimp_main_window.c:518
+#: plug-ins/MapObject/mapobject_ui.c:1134 plug-ins/print/gimp_main_window.c:518
 msgid "Left:"
 msgstr "Ibumoso:"
 
-#: plug-ins/MapObject/mapobject_ui.c:1134
-#: plug-ins/print/gimp_main_window.c:544
+#: plug-ins/MapObject/mapobject_ui.c:1134 plug-ins/print/gimp_main_window.c:544
 msgid "Right:"
 msgstr "Iburyo:"
 
@@ -1301,8 +1289,7 @@ msgstr "Iburyo:"
 msgid "Map Images to Box Faces"
 msgstr "Kuri"
 
-#: plug-ins/MapObject/mapobject_ui.c:1178
-#: plug-ins/common/spheredesigner.c:2728
+#: plug-ins/MapObject/mapobject_ui.c:1178 plug-ins/common/spheredesigner.c:2728
 msgid "Scale X:"
 msgstr ""
 
@@ -8566,7 +8553,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 "bit, so it will be converted for you. Information will be lost because of "
 "this conversion."
 msgstr "Ishusho Itangira... 8 kugirango Bya iyi Ihindurangero"
@@ -9772,15 +9759,15 @@ msgid "Copyright:"
 msgstr "Uburenganzira bw'umuhimbyi"
 
 #: plug-ins/dbbrowser/gimpprocview.c:319
-msgid "Internal GIMP procedure"
+msgid "Internal Glimpse procedure"
 msgstr ""
 
 #: plug-ins/dbbrowser/gimpprocview.c:320
-msgid "GIMP Plug-In"
+msgid "GNU I.M.P Plug-In"
 msgstr ""
 
 #: plug-ins/dbbrowser/gimpprocview.c:321
-msgid "GIMP Extension"
+msgid "GNU I.M.P Extension"
 msgstr ""
 
 #: plug-ins/dbbrowser/gimpprocview.c:322
@@ -10995,7 +10982,7 @@ msgid "A bailout-value for adaptive selections"
 msgstr "A Agaciro kugirango"
 
 #: plug-ins/gimpressionist/gimp.c:79
-msgid "_GIMPressionist..."
+msgid "_Impressionist..."
 msgstr ""
 
 #: plug-ins/gimpressionist/gimp.c:350
@@ -11003,11 +10990,11 @@ msgid "Painting..."
 msgstr ""
 
 #: plug-ins/gimpressionist/gimpressionist.c:117
-msgid "The GIMPressionist"
+msgid "The Impressionist"
 msgstr ""
 
 #: plug-ins/gimpressionist/gimpressionist.c:196
-msgid "Gimpressionist"
+msgid "Impressionist"
 msgstr ""
 
 #: plug-ins/gimpressionist/gimpressionist.c:200
@@ -11060,8 +11047,7 @@ msgid ""
 msgstr "i Agaciro Urumuri Bya i i Icyerekezo Bya i Akarongo"
 
 # svx/source\svdraw\svdstr.src:STR_ItemValMEASURE_RADIUS.text
-#: plug-ins/gimpressionist/orientation.c:142
-#: plug-ins/gimpressionist/size.c:145
+#: plug-ins/gimpressionist/orientation.c:142 plug-ins/gimpressionist/size.c:145
 msgid "Radius"
 msgstr "Akarambararo"
 
@@ -11081,8 +11067,7 @@ msgstr "a Icyerekezo Bya Akarongo"
 # svx/source\dialog\tabarea.src:RID_SVXPAGE_TRANSPARENCE.LB_TRGR_GRADIENT_TYPES.3.text
 # #-#-#-#-#  svx.pot (PACKAGE VERSION)  #-#-#-#-#
 # svx/source\dialog\tabarea.src:RID_SVXPAGE_GRADIENT.LB_GRADIENT_TYPES.3.text
-#: plug-ins/gimpressionist/orientation.c:150
-#: plug-ins/gimpressionist/size.c:153
+#: plug-ins/gimpressionist/orientation.c:150 plug-ins/gimpressionist/size.c:153
 msgid "Radial"
 msgstr "Nyakarambararo"
 
@@ -11091,13 +11076,11 @@ msgstr "Nyakarambararo"
 msgid "Let the direction from the center determine the direction of the stroke"
 msgstr "i Icyerekezo Bivuye i hagati i Icyerekezo Bya i Akarongo"
 
-#: plug-ins/gimpressionist/orientation.c:158
-#: plug-ins/gimpressionist/size.c:161
+#: plug-ins/gimpressionist/orientation.c:158 plug-ins/gimpressionist/size.c:161
 msgid "Flowing"
 msgstr ""
 
-#: plug-ins/gimpressionist/orientation.c:159
-#: plug-ins/gimpressionist/size.c:162
+#: plug-ins/gimpressionist/orientation.c:159 plug-ins/gimpressionist/size.c:162
 #, fuzzy
 msgid "The strokes follow a \"flowing\" pattern"
 msgstr "a Ishusho"
@@ -11107,8 +11090,7 @@ msgstr "a Ishusho"
 msgid "The hue of the region determines the direction of the stroke"
 msgstr "Ibara Bya i i Icyerekezo Bya i Akarongo"
 
-#: plug-ins/gimpressionist/orientation.c:166
-#: plug-ins/gimpressionist/size.c:169
+#: plug-ins/gimpressionist/orientation.c:166 plug-ins/gimpressionist/size.c:169
 msgid "Adaptive"
 msgstr ""
 
@@ -11117,8 +11099,7 @@ msgstr ""
 msgid "The direction that matches the original image the closest is selected"
 msgstr "Icyerekezo i Umwimerere Ishusho i ni Byahiswemo"
 
-#: plug-ins/gimpressionist/orientation.c:174
-#: plug-ins/gimpressionist/size.c:178
+#: plug-ins/gimpressionist/orientation.c:174 plug-ins/gimpressionist/size.c:178
 msgid "Manual"
 msgstr "Bikorwa"
 
@@ -11343,7 +11324,7 @@ msgid "Save Current"
 msgstr "Kubika"
 
 #: plug-ins/gimpressionist/presets.c:874
-msgid "The Gimpressionist Defaults"
+msgid "The Impressionist Defaults"
 msgstr ""
 
 # 4778
@@ -11551,12 +11532,12 @@ msgstr "ni Kuri Inzira Cyangwa Kuri IDOSIYE"
 
 #: plug-ins/help/domain.c:177
 #, fuzzy
-msgid "The GIMP help files are not installed."
+msgid "The Glimpse help files are not installed."
 msgstr "Ifashayobora Idosiye OYA"
 
 #: plug-ins/help/domain.c:179
 #, fuzzy
-msgid "There is a problem with the GIMP help files."
+msgid "There is a problem with the Glimpse help files."
 msgstr "ni a Na: i Ifashayobora Idosiye"
 
 #: plug-ins/help/domain.c:184

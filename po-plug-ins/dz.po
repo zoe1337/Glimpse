@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gimp-plug-ins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2007-03-06 03:38+0000\n"
-"PO-Revision-Date: 2007-03-28 23:59+0530\n"
+"PO-Revision-Date: 2020-02-08 12:18-0800\n"
 "Last-Translator: Tshewang Norbu <bumthap2006@hotmail.com>\n"
 "Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
 "Language: dz\n"
@@ -20,15 +20,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.10.2\n"
-"X-Poedit-Language: dzongkha\n"
-"X-Poedit-Country: bhutan\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:547
-#: ../plug-ins/gfig/gfig-dialog.c:274
-#: ../plug-ins/gflare/gflare.c:883
-#: ../plug-ins/gimpressionist/utils.c:124
+#: ../plug-ins/FractalExplorer/Dialogs.c:547 ../plug-ins/gfig/gfig-dialog.c:274
+#: ../plug-ins/gflare/gflare.c:883 ../plug-ins/gimpressionist/utils.c:124
 #, c-format
 msgid ""
 "No %s in gimprc:\n"
@@ -94,8 +90,7 @@ msgstr "སྤྱི་ཏོག་:"
 msgid "Bottom:"
 msgstr "གཤམ་:"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:770
-#: ../plug-ins/common/warp.c:434
+#: ../plug-ins/FractalExplorer/Dialogs.c:770 ../plug-ins/common/warp.c:434
 #: ../plug-ins/ifscompose/ifscompose.c:1210
 msgid "Iterations:"
 msgstr "ཁས་ལེན:"
@@ -170,8 +165,7 @@ msgstr "ལེམ་ཌ།"
 msgid "Sierpinski"
 msgstr "སིཨིཨར་པིངཀ་ཨིས་ཀའི།"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:904
-#: ../plug-ins/common/sinus.c:886
+#: ../plug-ins/FractalExplorer/Dialogs.c:904 ../plug-ins/common/sinus.c:886
 msgid "Co_lors"
 msgstr "ཚོས་གཞི་ཚུ་(_l)"
 
@@ -205,8 +199,7 @@ msgstr "ཚོས་གཞི་གི་སྟུག་ཚད།"
 #. These values are translated for the GUI but also used internally
 #. to figure out which button the user pushed, etc.
 #. Not my design, please don't blame me -- njl
-#: ../plug-ins/FractalExplorer/Dialogs.c:953
-#: ../plug-ins/common/fp.c:226
+#: ../plug-ins/FractalExplorer/Dialogs.c:953 ../plug-ins/common/fp.c:226
 msgid "Red:"
 msgstr "དམརཔོ་:"
 
@@ -214,8 +207,7 @@ msgstr "དམརཔོ་:"
 msgid "Change the intensity of the red channel"
 msgstr "རྒྱུ་ལམ་དམརཔོ་འདི་གི་དྲག་ཤུགས་འདི་བསྒྱུར་བཅོས་འབད།"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:963
-#: ../plug-ins/common/fp.c:227
+#: ../plug-ins/FractalExplorer/Dialogs.c:963 ../plug-ins/common/fp.c:227
 msgid "Green:"
 msgstr "ལྗང་ཁུ་:"
 
@@ -223,8 +215,7 @@ msgstr "ལྗང་ཁུ་:"
 msgid "Change the intensity of the green channel"
 msgstr "རྒྱུ་ལམ་ལྗང་ཁུ་འདི་གི་དྲག་ཤུགས་འདི་བསྒྱུར་བཅོས་འབད།"
 
-#: ../plug-ins/FractalExplorer/Dialogs.c:973
-#: ../plug-ins/common/fp.c:228
+#: ../plug-ins/FractalExplorer/Dialogs.c:973 ../plug-ins/common/fp.c:228
 msgid "Blue:"
 msgstr "ཧོནམ་:"
 
@@ -239,8 +230,7 @@ msgstr "ཚོས་གཞི་གི་ལས་འགན།"
 
 #. Redmode radio frame
 #: ../plug-ins/FractalExplorer/Dialogs.c:991
-#: ../plug-ins/common/channel_mixer.c:536
-#: ../plug-ins/common/decompose.c:174
+#: ../plug-ins/common/channel_mixer.c:536 ../plug-ins/common/decompose.c:174
 msgid "Red"
 msgstr "དམརཔོ།"
 
@@ -259,14 +249,10 @@ msgstr "ཀོ་སིན།"
 #: ../plug-ins/FractalExplorer/Dialogs.c:999
 #: ../plug-ins/FractalExplorer/Dialogs.c:1040
 #: ../plug-ins/FractalExplorer/Dialogs.c:1081
-#: ../plug-ins/Lighting/lighting_ui.c:383
-#: ../plug-ins/common/CML_explorer.c:166
-#: ../plug-ins/common/align_layers.c:421
-#: ../plug-ins/common/align_layers.c:452
-#: ../plug-ins/common/postscript.c:3202
-#: ../plug-ins/common/postscript.c:3214
-#: ../plug-ins/common/psp.c:418
-#: ../plug-ins/fits/fits.c:1019
+#: ../plug-ins/Lighting/lighting_ui.c:383 ../plug-ins/common/CML_explorer.c:166
+#: ../plug-ins/common/align_layers.c:421 ../plug-ins/common/align_layers.c:452
+#: ../plug-ins/common/postscript.c:3202 ../plug-ins/common/postscript.c:3214
+#: ../plug-ins/common/psp.c:418 ../plug-ins/fits/fits.c:1019
 msgid "None"
 msgstr "ཅི་མེད།"
 
@@ -302,15 +288,13 @@ msgstr "ཁྱོད་ཀྱིས་འ་ནི་གདམ་ཁ་འདི
 
 #. Greenmode radio frame
 #: ../plug-ins/FractalExplorer/Dialogs.c:1032
-#: ../plug-ins/common/channel_mixer.c:541
-#: ../plug-ins/common/decompose.c:175
+#: ../plug-ins/common/channel_mixer.c:541 ../plug-ins/common/decompose.c:175
 msgid "Green"
 msgstr "ལྗང་ཁུ།"
 
 #. Bluemode radio frame
 #: ../plug-ins/FractalExplorer/Dialogs.c:1073
-#: ../plug-ins/common/channel_mixer.c:546
-#: ../plug-ins/common/decompose.c:176
+#: ../plug-ins/common/channel_mixer.c:546 ../plug-ins/common/decompose.c:176
 msgid "Blue"
 msgstr "ཧོནམ།"
 
@@ -344,45 +328,26 @@ msgid "_Fractals"
 msgstr "ཆ་རྩིས་ཚུ་(_F)"
 
 #: ../plug-ins/FractalExplorer/Dialogs.c:1546
-#: ../plug-ins/Lighting/lighting_ui.c:1147
-#: ../plug-ins/bmp/bmpwrite.c:294
-#: ../plug-ins/common/CEL.c:568
-#: ../plug-ins/common/CML_explorer.c:2004
-#: ../plug-ins/common/channel_mixer.c:1054
-#: ../plug-ins/common/compressor.c:410
-#: ../plug-ins/common/compressor.c:545
-#: ../plug-ins/common/curve_bend.c:818
-#: ../plug-ins/common/dicom.c:691
-#: ../plug-ins/common/gbr.c:616
-#: ../plug-ins/common/gif.c:986
-#: ../plug-ins/common/gih.c:1258
-#: ../plug-ins/common/gtm.c:225
-#: ../plug-ins/common/mng.c:561
-#: ../plug-ins/common/mng.c:950
-#: ../plug-ins/common/pat.c:447
-#: ../plug-ins/common/pcx.c:588
-#: ../plug-ins/common/pix.c:508
-#: ../plug-ins/common/png.c:1243
-#: ../plug-ins/common/pnm.c:929
-#: ../plug-ins/common/postscript.c:1194
-#: ../plug-ins/common/psd_save.c:1458
-#: ../plug-ins/common/raw.c:528
-#: ../plug-ins/common/raw.c:555
-#: ../plug-ins/common/spheredesigner.c:2119
-#: ../plug-ins/common/sunras.c:507
-#: ../plug-ins/common/tga.c:1027
-#: ../plug-ins/common/tiff.c:2171
-#: ../plug-ins/common/xbm.c:1002
-#: ../plug-ins/common/xwd.c:565
-#: ../plug-ins/fits/fits.c:454
-#: ../plug-ins/flame/flame.c:442
-#: ../plug-ins/gfig/gfig.c:794
-#: ../plug-ins/gfli/gfli.c:715
-#: ../plug-ins/ifscompose/ifscompose.c:2377
-#: ../plug-ins/jpeg/jpeg-save.c:268
+#: ../plug-ins/Lighting/lighting_ui.c:1147 ../plug-ins/bmp/bmpwrite.c:294
+#: ../plug-ins/common/CEL.c:568 ../plug-ins/common/CML_explorer.c:2004
+#: ../plug-ins/common/channel_mixer.c:1054 ../plug-ins/common/compressor.c:410
+#: ../plug-ins/common/compressor.c:545 ../plug-ins/common/curve_bend.c:818
+#: ../plug-ins/common/dicom.c:691 ../plug-ins/common/gbr.c:616
+#: ../plug-ins/common/gif.c:986 ../plug-ins/common/gih.c:1258
+#: ../plug-ins/common/gtm.c:225 ../plug-ins/common/mng.c:561
+#: ../plug-ins/common/mng.c:950 ../plug-ins/common/pat.c:447
+#: ../plug-ins/common/pcx.c:588 ../plug-ins/common/pix.c:508
+#: ../plug-ins/common/png.c:1243 ../plug-ins/common/pnm.c:929
+#: ../plug-ins/common/postscript.c:1194 ../plug-ins/common/psd_save.c:1458
+#: ../plug-ins/common/raw.c:528 ../plug-ins/common/raw.c:555
+#: ../plug-ins/common/spheredesigner.c:2119 ../plug-ins/common/sunras.c:507
+#: ../plug-ins/common/tga.c:1027 ../plug-ins/common/tiff.c:2171
+#: ../plug-ins/common/xbm.c:1002 ../plug-ins/common/xwd.c:565
+#: ../plug-ins/fits/fits.c:454 ../plug-ins/flame/flame.c:442
+#: ../plug-ins/gfig/gfig.c:794 ../plug-ins/gfli/gfli.c:715
+#: ../plug-ins/ifscompose/ifscompose.c:2377 ../plug-ins/jpeg/jpeg-save.c:268
 #: ../plug-ins/uri/uri-backend-gnomevfs.c:270
-#: ../plug-ins/winicon/icosave.c:1020
-#: ../plug-ins/xjt/xjt.c:1278
+#: ../plug-ins/winicon/icosave.c:1020 ../plug-ins/xjt/xjt.c:1278
 #: ../plug-ins/xjt/xjt.c:1712
 #, c-format
 msgid "Could not open '%s' for writing: %s"
@@ -405,52 +370,29 @@ msgstr "ཆ་རྩིས་ཚད་བཟུང་ཚུ་སྲུངས།
 #. stat error (file does not exist)
 #: ../plug-ins/FractalExplorer/Dialogs.c:1863
 #: ../plug-ins/FractalExplorer/FractalExplorer.c:933
-#: ../plug-ins/Lighting/lighting_ui.c:1290
-#: ../plug-ins/bmp/bmpread.c:149
-#: ../plug-ins/common/CEL.c:299
-#: ../plug-ins/common/CML_explorer.c:2177
-#: ../plug-ins/common/channel_mixer.c:976
-#: ../plug-ins/common/curve_bend.c:870
-#: ../plug-ins/common/dicom.c:296
-#: ../plug-ins/common/gbr.c:348
-#: ../plug-ins/common/gifload.c:309
-#: ../plug-ins/common/gih.c:649
-#: ../plug-ins/common/lcms.c:655
-#: ../plug-ins/common/mng.c:1121
-#: ../plug-ins/common/pat.c:317
-#: ../plug-ins/common/pcx.c:309
-#: ../plug-ins/common/pix.c:329
-#: ../plug-ins/common/png.c:707
-#: ../plug-ins/common/pnm.c:480
-#: ../plug-ins/common/poppler.c:368
-#: ../plug-ins/common/postscript.c:1021
-#: ../plug-ins/common/postscript.c:3002
-#: ../plug-ins/common/psd.c:1899
-#: ../plug-ins/common/psp.c:1460
-#: ../plug-ins/common/raw.c:243
-#: ../plug-ins/common/raw.c:645
-#: ../plug-ins/common/spheredesigner.c:2009
-#: ../plug-ins/common/sunras.c:379
-#: ../plug-ins/common/svg.c:316
-#: ../plug-ins/common/svg.c:686
-#: ../plug-ins/common/tga.c:411
-#: ../plug-ins/common/tiff.c:580
-#: ../plug-ins/common/xbm.c:720
-#: ../plug-ins/common/xwd.c:420
-#: ../plug-ins/faxg3/faxg3.c:219
-#: ../plug-ins/fits/fits.c:342
-#: ../plug-ins/flame/flame.c:411
-#: ../plug-ins/gfig/gfig.c:434
-#: ../plug-ins/gfli/gfli.c:429
-#: ../plug-ins/gfli/gfli.c:464
-#: ../plug-ins/help/gimphelplocale.c:193
-#: ../plug-ins/jpeg/jpeg-load.c:88
-#: ../plug-ins/jpeg/jpeg-load.c:874
-#: ../plug-ins/uri/uri-backend-gnomevfs.c:259
-#: ../plug-ins/uri/uri-backend-libcurl.c:172
-#: ../plug-ins/winicon/icoload.c:651
-#: ../plug-ins/winicon/icoload.c:728
-#: ../plug-ins/xjt/xjt.c:2544
+#: ../plug-ins/Lighting/lighting_ui.c:1290 ../plug-ins/bmp/bmpread.c:149
+#: ../plug-ins/common/CEL.c:299 ../plug-ins/common/CML_explorer.c:2177
+#: ../plug-ins/common/channel_mixer.c:976 ../plug-ins/common/curve_bend.c:870
+#: ../plug-ins/common/dicom.c:296 ../plug-ins/common/gbr.c:348
+#: ../plug-ins/common/gifload.c:309 ../plug-ins/common/gih.c:649
+#: ../plug-ins/common/lcms.c:655 ../plug-ins/common/mng.c:1121
+#: ../plug-ins/common/pat.c:317 ../plug-ins/common/pcx.c:309
+#: ../plug-ins/common/pix.c:329 ../plug-ins/common/png.c:707
+#: ../plug-ins/common/pnm.c:480 ../plug-ins/common/poppler.c:368
+#: ../plug-ins/common/postscript.c:1021 ../plug-ins/common/postscript.c:3002
+#: ../plug-ins/common/psd.c:1899 ../plug-ins/common/psp.c:1460
+#: ../plug-ins/common/raw.c:243 ../plug-ins/common/raw.c:645
+#: ../plug-ins/common/spheredesigner.c:2009 ../plug-ins/common/sunras.c:379
+#: ../plug-ins/common/svg.c:316 ../plug-ins/common/svg.c:686
+#: ../plug-ins/common/tga.c:411 ../plug-ins/common/tiff.c:580
+#: ../plug-ins/common/xbm.c:720 ../plug-ins/common/xwd.c:420
+#: ../plug-ins/faxg3/faxg3.c:219 ../plug-ins/fits/fits.c:342
+#: ../plug-ins/flame/flame.c:411 ../plug-ins/gfig/gfig.c:434
+#: ../plug-ins/gfli/gfli.c:429 ../plug-ins/gfli/gfli.c:464
+#: ../plug-ins/help/gimphelplocale.c:193 ../plug-ins/jpeg/jpeg-load.c:88
+#: ../plug-ins/jpeg/jpeg-load.c:874 ../plug-ins/uri/uri-backend-gnomevfs.c:259
+#: ../plug-ins/uri/uri-backend-libcurl.c:172 ../plug-ins/winicon/icoload.c:651
+#: ../plug-ins/winicon/icoload.c:728 ../plug-ins/xjt/xjt.c:2544
 #: ../plug-ins/xjt/xjt.c:2552
 #, c-format
 msgid "Could not open '%s' for reading: %s"
@@ -650,12 +592,9 @@ msgstr "འོད་དྲག་ཤུགས།"
 msgid "Position"
 msgstr "གནས་ས།"
 
-#: ../plug-ins/Lighting/lighting_ui.c:441
-#: ../plug-ins/common/flarefx.c:765
-#: ../plug-ins/common/mblur.c:992
-#: ../plug-ins/common/nova.c:462
-#: ../plug-ins/common/papertile.c:273
-#: ../plug-ins/flame/flame.c:1227
+#: ../plug-ins/Lighting/lighting_ui.c:441 ../plug-ins/common/flarefx.c:765
+#: ../plug-ins/common/mblur.c:992 ../plug-ins/common/nova.c:462
+#: ../plug-ins/common/papertile.c:273 ../plug-ins/flame/flame.c:1227
 #: ../plug-ins/gflare/gflare.c:2651
 msgid "_X:"
 msgstr "ཨེཀསི་:(_X)"
@@ -665,12 +604,9 @@ msgstr "ཨེཀསི་:(_X)"
 msgid "Light source X position in XYZ space"
 msgstr "ཨེཀསི་ཝའི་ཟེཊི་ བར་སྟོང་ནང་འོད་ཀྱི་འབྱུང་ཁུངས་ ཨེཀསི་ གནས་ས།"
 
-#: ../plug-ins/Lighting/lighting_ui.c:454
-#: ../plug-ins/common/flarefx.c:770
-#: ../plug-ins/common/mblur.c:997
-#: ../plug-ins/common/nova.c:467
-#: ../plug-ins/common/papertile.c:282
-#: ../plug-ins/flame/flame.c:1241
+#: ../plug-ins/Lighting/lighting_ui.c:454 ../plug-ins/common/flarefx.c:770
+#: ../plug-ins/common/mblur.c:997 ../plug-ins/common/nova.c:467
+#: ../plug-ins/common/papertile.c:282 ../plug-ins/flame/flame.c:1241
 #: ../plug-ins/gflare/gflare.c:2655
 msgid "_Y:"
 msgstr "ཝའི་:(_Y)"
@@ -692,8 +628,7 @@ msgstr "ཨེཀསི་ཝའི་ཟེཊི་ བར་སྟོང་�
 #. *****************************************************
 #. radio buttons for choosing LEFT or RIGHT
 #. *************************************************
-#: ../plug-ins/Lighting/lighting_ui.c:476
-#: ../plug-ins/common/struc.c:1294
+#: ../plug-ins/Lighting/lighting_ui.c:476 ../plug-ins/common/struc.c:1294
 #: ../plug-ins/common/wind.c:945
 msgid "Direction"
 msgstr "ཁ་ཕྱོགས།"
@@ -809,8 +744,7 @@ msgid "Bumpm_ap image:"
 msgstr "ས་ཁྲ་འབུར་འབུར་གྱི་གཟུགས་བརྙན་:(_a)"
 
 #. Map type menu
-#: ../plug-ins/Lighting/lighting_ui.c:773
-#: ../plug-ins/common/bumpmap.c:902
+#: ../plug-ins/Lighting/lighting_ui.c:773 ../plug-ins/common/bumpmap.c:902
 #: ../plug-ins/flame/flame.c:746
 msgid "Linear"
 msgstr "རིང་ཚད་ཀྱི།"
@@ -819,14 +753,12 @@ msgstr "རིང་ཚད་ཀྱི།"
 msgid "Logarithmic"
 msgstr "མཉམ་གྲངས།"
 
-#: ../plug-ins/Lighting/lighting_ui.c:775
-#: ../plug-ins/common/bumpmap.c:904
+#: ../plug-ins/Lighting/lighting_ui.c:775 ../plug-ins/common/bumpmap.c:904
 #: ../plug-ins/flame/flame.c:747
 msgid "Sinusoidal"
 msgstr "ཀྱག་ཀྱོག་ཅན།"
 
-#: ../plug-ins/Lighting/lighting_ui.c:776
-#: ../plug-ins/common/bumpmap.c:903
+#: ../plug-ins/Lighting/lighting_ui.c:776 ../plug-ins/common/bumpmap.c:903
 #: ../plug-ins/flame/flame.c:748
 msgid "Spherical"
 msgstr "ཟླུམ་གཟུགས་ཅན།"
@@ -995,10 +927,8 @@ msgstr "ལྕོགས་ཅན་བཟོ་ ཨིན་ཊི་ཨེ་�
 msgid "Enable/disable jagged edges removal (antialiasing)"
 msgstr "ཟེ་སྒྲོ་ཅན་གྱི་མཐའམ་བཏོན་གཏང་ནི་ལུ་ ལྕོགས་ཅན་བཟོ་/ལྕོགས་མིན་བཟོ་ (ཨིན་ཊི་ཨེ་ལའིསིང་)"
 
-#: ../plug-ins/MapObject/mapobject_ui.c:579
-#: ../plug-ins/common/bumpmap.c:983
-#: ../plug-ins/common/emboss.c:525
-#: ../plug-ins/common/fractaltrace.c:792
+#: ../plug-ins/MapObject/mapobject_ui.c:579 ../plug-ins/common/bumpmap.c:983
+#: ../plug-ins/common/emboss.c:525 ../plug-ins/common/fractaltrace.c:792
 #: ../plug-ins/common/struc.c:1326
 msgid "_Depth:"
 msgstr "གཏིང་ཚད་:(_D)"
@@ -1007,10 +937,8 @@ msgstr "གཏིང་ཚད་:(_D)"
 msgid "Antialiasing quality. Higher is better, but slower"
 msgstr "ཨིན་ཊི་ལའིསིང་ སྤུས་ཚད། མཐོ་མི་འདི་ལེགས་ཤོམ་ཨིན་དེ་འབདཝ་ད་ལྷོད་མི་ཨིན།"
 
-#: ../plug-ins/MapObject/mapobject_ui.c:591
-#: ../plug-ins/common/redeye.c:173
-#: ../plug-ins/common/unsharp.c:707
-#: ../plug-ins/common/wind.c:1008
+#: ../plug-ins/MapObject/mapobject_ui.c:591 ../plug-ins/common/redeye.c:173
+#: ../plug-ins/common/unsharp.c:707 ../plug-ins/common/wind.c:1008
 #: ../plug-ins/imagemap/imap_preferences.c:441
 msgid "_Threshold:"
 msgstr "ཐེརེཤ་ཧཱོལ་:(_T)"
@@ -1155,8 +1083,7 @@ msgstr "མཐའ་འཁོར་:(_a)"
 msgid "Cylinder radius"
 msgstr "སི་ལིན་ཌར་གྱི་མཐའ་འཁོར།"
 
-#: ../plug-ins/MapObject/mapobject_ui.c:1264
-#: ../plug-ins/common/mblur.c:1023
+#: ../plug-ins/MapObject/mapobject_ui.c:1264 ../plug-ins/common/mblur.c:1023
 msgid "L_ength:"
 msgstr "རིང་ཚད་:(_e)"
 
@@ -1185,8 +1112,7 @@ msgstr "ཞིབ་ལྟ་!(_P)"
 msgid "Show preview _wireframe"
 msgstr "ཝའེར་ཕེརེམ་ ཞིབ་ལྟ་སྟོན་(_w)"
 
-#: ../plug-ins/bmp/bmp.c:124
-#: ../plug-ins/bmp/bmp.c:143
+#: ../plug-ins/bmp/bmp.c:124 ../plug-ins/bmp/bmp.c:143
 msgid "Windows BMP image"
 msgstr "ཝིན་ཌོསི་བི་ཨེམ་པི་གཟུགས་བརྙན།"
 
@@ -1198,56 +1124,35 @@ msgstr "ཚོས་གཞི་ས་ཁྲ་བྱང་ཉེས།"
 #. column, highest column ever used
 #. -1  assume fsel is not available (and not attached to any drawable)
 #. -1  assume there is no floating selection
-#: ../plug-ins/bmp/bmpread.c:154
-#: ../plug-ins/common/CEL.c:304
-#: ../plug-ins/common/dicom.c:301
-#: ../plug-ins/common/gbr.c:353
-#: ../plug-ins/common/gifload.c:314
-#: ../plug-ins/common/gih.c:654
-#: ../plug-ins/common/pat.c:322
-#: ../plug-ins/common/pcx.c:314
-#: ../plug-ins/common/pix.c:334
-#: ../plug-ins/common/png.c:714
-#: ../plug-ins/common/pnm.c:485
-#: ../plug-ins/common/poppler.c:414
-#: ../plug-ins/common/postscript.c:1027
-#: ../plug-ins/common/psd.c:1904
-#: ../plug-ins/common/raw.c:650
-#: ../plug-ins/common/sunras.c:433
-#: ../plug-ins/common/tga.c:416
-#: ../plug-ins/common/tiff.c:588
-#: ../plug-ins/common/wmf.c:954
-#: ../plug-ins/common/xbm.c:725
-#: ../plug-ins/common/xpm.c:343
-#: ../plug-ins/common/xwd.c:473
-#: ../plug-ins/faxg3/faxg3.c:204
-#: ../plug-ins/gfli/gfli.c:469
-#: ../plug-ins/jpeg/jpeg-load.c:94
-#: ../plug-ins/sgi/sgi.c:318
-#: ../plug-ins/winicon/icoload.c:645
-#: ../plug-ins/xjt/xjt.c:3343
+#: ../plug-ins/bmp/bmpread.c:154 ../plug-ins/common/CEL.c:304
+#: ../plug-ins/common/dicom.c:301 ../plug-ins/common/gbr.c:353
+#: ../plug-ins/common/gifload.c:314 ../plug-ins/common/gih.c:654
+#: ../plug-ins/common/pat.c:322 ../plug-ins/common/pcx.c:314
+#: ../plug-ins/common/pix.c:334 ../plug-ins/common/png.c:714
+#: ../plug-ins/common/pnm.c:485 ../plug-ins/common/poppler.c:414
+#: ../plug-ins/common/postscript.c:1027 ../plug-ins/common/psd.c:1904
+#: ../plug-ins/common/raw.c:650 ../plug-ins/common/sunras.c:433
+#: ../plug-ins/common/tga.c:416 ../plug-ins/common/tiff.c:588
+#: ../plug-ins/common/wmf.c:954 ../plug-ins/common/xbm.c:725
+#: ../plug-ins/common/xpm.c:343 ../plug-ins/common/xwd.c:473
+#: ../plug-ins/faxg3/faxg3.c:204 ../plug-ins/gfli/gfli.c:469
+#: ../plug-ins/jpeg/jpeg-load.c:94 ../plug-ins/sgi/sgi.c:318
+#: ../plug-ins/winicon/icoload.c:645 ../plug-ins/xjt/xjt.c:3343
 #, c-format
 msgid "Opening '%s'"
 msgstr "'%s' ཁ་ཕྱེ་དོ།"
 
-#: ../plug-ins/bmp/bmpread.c:164
-#: ../plug-ins/bmp/bmpread.c:173
-#: ../plug-ins/bmp/bmpread.c:179
-#: ../plug-ins/bmp/bmpread.c:187
-#: ../plug-ins/bmp/bmpread.c:201
-#: ../plug-ins/bmp/bmpread.c:382
+#: ../plug-ins/bmp/bmpread.c:164 ../plug-ins/bmp/bmpread.c:173
+#: ../plug-ins/bmp/bmpread.c:179 ../plug-ins/bmp/bmpread.c:187
+#: ../plug-ins/bmp/bmpread.c:201 ../plug-ins/bmp/bmpread.c:382
 #, c-format
 msgid "'%s' is not a valid BMP file"
 msgstr "'%s' འདི་བི་ཨེམ་པི་ཡིག་སྣོད་ནུས་ཅན་མེན།"
 
-#: ../plug-ins/bmp/bmpread.c:214
-#: ../plug-ins/bmp/bmpread.c:240
-#: ../plug-ins/bmp/bmpread.c:266
-#: ../plug-ins/bmp/bmpread.c:329
-#: ../plug-ins/bmp/bmpread.c:353
-#: ../plug-ins/bmp/bmpread.c:375
-#: ../plug-ins/bmp/bmpread.c:388
-#: ../plug-ins/bmp/bmpread.c:394
+#: ../plug-ins/bmp/bmpread.c:214 ../plug-ins/bmp/bmpread.c:240
+#: ../plug-ins/bmp/bmpread.c:266 ../plug-ins/bmp/bmpread.c:329
+#: ../plug-ins/bmp/bmpread.c:353 ../plug-ins/bmp/bmpread.c:375
+#: ../plug-ins/bmp/bmpread.c:388 ../plug-ins/bmp/bmpread.c:394
 #, c-format
 msgid "Error reading BMP file header from '%s'"
 msgstr "'%s' ལས་བི་ཨེམ་པི་ཡིག་སྣོད་མགོ་ཡིག་ལྷག་ནི་འཛོལ་བ།"
@@ -1263,82 +1168,52 @@ msgstr "རྒྱབ་སྐྱོར་མེད་མི་ ཡང་ཅི�
 #.
 #. * Create the "background" layer to hold the image...
 #.
-#: ../plug-ins/bmp/bmpread.c:546
-#: ../plug-ins/common/CEL.c:349
-#: ../plug-ins/common/CEL.c:352
-#: ../plug-ins/common/blinds.c:277
-#: ../plug-ins/common/compose.c:924
-#: ../plug-ins/common/decompose.c:703
-#: ../plug-ins/common/dicom.c:486
-#: ../plug-ins/common/film.c:746
-#: ../plug-ins/common/gifload.c:879
-#: ../plug-ins/common/pcx.c:339
-#: ../plug-ins/common/pcx.c:345
-#: ../plug-ins/common/pix.c:368
-#: ../plug-ins/common/png.c:835
-#: ../plug-ins/common/pnm.c:564
-#: ../plug-ins/common/psd.c:2327
-#: ../plug-ins/common/raw.c:691
-#: ../plug-ins/common/smooth_palette.c:257
-#: ../plug-ins/common/sunras.c:917
-#: ../plug-ins/common/tga.c:928
-#: ../plug-ins/common/tiff.c:945
-#: ../plug-ins/common/tile.c:265
-#: ../plug-ins/common/xbm.c:866
-#: ../plug-ins/faxg3/faxg3.c:464
-#: ../plug-ins/fits/fits.c:508
-#: ../plug-ins/gfig/gfig-dialog.c:1284
-#: ../plug-ins/gimpressionist/general.c:122
-#: ../plug-ins/jpeg/jpeg-load.c:239
-#: ../plug-ins/jpeg/jpeg-load.c:741
-#: ../plug-ins/sgi/sgi.c:369
-#: ../plug-ins/twain/twain.c:574
+#: ../plug-ins/bmp/bmpread.c:546 ../plug-ins/common/CEL.c:349
+#: ../plug-ins/common/CEL.c:352 ../plug-ins/common/blinds.c:277
+#: ../plug-ins/common/compose.c:924 ../plug-ins/common/decompose.c:703
+#: ../plug-ins/common/dicom.c:486 ../plug-ins/common/film.c:746
+#: ../plug-ins/common/gifload.c:879 ../plug-ins/common/pcx.c:339
+#: ../plug-ins/common/pcx.c:345 ../plug-ins/common/pix.c:368
+#: ../plug-ins/common/png.c:835 ../plug-ins/common/pnm.c:564
+#: ../plug-ins/common/psd.c:2327 ../plug-ins/common/raw.c:691
+#: ../plug-ins/common/smooth_palette.c:257 ../plug-ins/common/sunras.c:917
+#: ../plug-ins/common/tga.c:928 ../plug-ins/common/tiff.c:945
+#: ../plug-ins/common/tile.c:265 ../plug-ins/common/xbm.c:866
+#: ../plug-ins/faxg3/faxg3.c:464 ../plug-ins/fits/fits.c:508
+#: ../plug-ins/gfig/gfig-dialog.c:1284 ../plug-ins/gimpressionist/general.c:122
+#: ../plug-ins/jpeg/jpeg-load.c:239 ../plug-ins/jpeg/jpeg-load.c:741
+#: ../plug-ins/sgi/sgi.c:369 ../plug-ins/twain/twain.c:574
 #: ../plug-ins/winsnap/winsnap.c:1155
 msgid "Background"
 msgstr "རྒྱབ་གཞི།"
 
-#: ../plug-ins/bmp/bmpread.c:717
-#: ../plug-ins/bmp/bmpread.c:758
+#: ../plug-ins/bmp/bmpread.c:717 ../plug-ins/bmp/bmpread.c:758
 #: ../plug-ins/bmp/bmpread.c:808
 msgid "The bitmap ends unexpectedly."
 msgstr "བིཊི་ས་ཁྲ་འདི་རེ་བ་མེདཔ་སྦེ་རྫོགསཔ་ཨིན།"
 
-#: ../plug-ins/bmp/bmpwrite.c:187
-#: ../plug-ins/bmp/bmpwrite.c:209
+#: ../plug-ins/bmp/bmpwrite.c:187 ../plug-ins/bmp/bmpwrite.c:209
 msgid "Cannot save indexed image with transparency in BMP file format."
 msgstr "ཟུར་ཐོ་བཀོད་ཡོད་མི་གཟུགས་བརྙན་དང་གཅིག་ཁར་བི་ཨེམ་པི་ཡིག་སྣོད་རྩ་སྒྲིག་ནང་དྭངས་གསལ་སྲུངས་བཞག་འབད་མི་བཏུབ།"
 
-#: ../plug-ins/bmp/bmpwrite.c:189
-#: ../plug-ins/bmp/bmpwrite.c:211
+#: ../plug-ins/bmp/bmpwrite.c:189 ../plug-ins/bmp/bmpwrite.c:211
 msgid "Alpha channel will be ignored."
 msgstr "ཨི་ཨེགསི་ཨའི་ཨེཕ་རྒྱུན་ལམ་སྣང་མེད་བཞག་འོང་།"
 
 #. And let's begin the progress
 #. init the progress meter
-#: ../plug-ins/bmp/bmpwrite.c:305
-#: ../plug-ins/common/CEL.c:573
-#: ../plug-ins/common/gbr.c:621
-#: ../plug-ins/common/gif.c:993
-#: ../plug-ins/common/gih.c:1263
-#: ../plug-ins/common/gtm.c:245
-#: ../plug-ins/common/pat.c:452
-#: ../plug-ins/common/pcx.c:550
-#: ../plug-ins/common/pix.c:513
-#: ../plug-ins/common/png.c:1250
-#: ../plug-ins/common/pnm.c:934
-#: ../plug-ins/common/postscript.c:1199
-#: ../plug-ins/common/psd_save.c:1463
-#: ../plug-ins/common/sunras.c:512
-#: ../plug-ins/common/tga.c:1032
-#: ../plug-ins/common/tiff.c:2179
-#: ../plug-ins/common/xbm.c:1007
-#: ../plug-ins/common/xpm.c:623
-#: ../plug-ins/common/xwd.c:570
-#: ../plug-ins/fits/fits.c:459
-#: ../plug-ins/gfli/gfli.c:684
-#: ../plug-ins/jpeg/jpeg-save.c:226
-#: ../plug-ins/sgi/sgi.c:537
-#: ../plug-ins/winicon/icosave.c:1015
+#: ../plug-ins/bmp/bmpwrite.c:305 ../plug-ins/common/CEL.c:573
+#: ../plug-ins/common/gbr.c:621 ../plug-ins/common/gif.c:993
+#: ../plug-ins/common/gih.c:1263 ../plug-ins/common/gtm.c:245
+#: ../plug-ins/common/pat.c:452 ../plug-ins/common/pcx.c:550
+#: ../plug-ins/common/pix.c:513 ../plug-ins/common/png.c:1250
+#: ../plug-ins/common/pnm.c:934 ../plug-ins/common/postscript.c:1199
+#: ../plug-ins/common/psd_save.c:1463 ../plug-ins/common/sunras.c:512
+#: ../plug-ins/common/tga.c:1032 ../plug-ins/common/tiff.c:2179
+#: ../plug-ins/common/xbm.c:1007 ../plug-ins/common/xpm.c:623
+#: ../plug-ins/common/xwd.c:570 ../plug-ins/fits/fits.c:459
+#: ../plug-ins/gfli/gfli.c:684 ../plug-ins/jpeg/jpeg-save.c:226
+#: ../plug-ins/sgi/sgi.c:537 ../plug-ins/winicon/icosave.c:1015
 #: ../plug-ins/xjt/xjt.c:1695
 #, c-format
 msgid "Saving '%s'"
@@ -1352,8 +1227,7 @@ msgstr "བི་ཨེམ་པི་བཟུམ་སྦེ་སྲུངས
 msgid "_Run-Length Encoded"
 msgstr "ཨིན་ཀོ་ཌེཌ་རིང་ཚད་གཡོག་བཀོལ་(_R)"
 
-#: ../plug-ins/bmp/bmpwrite.c:826
-#: ../plug-ins/jpeg/jpeg-save.c:792
+#: ../plug-ins/bmp/bmpwrite.c:826 ../plug-ins/jpeg/jpeg-save.c:792
 msgid "_Advanced Options"
 msgstr "མཐོ་རིམ་གྱི་གདམ་ཁ།(_A)"
 
@@ -1457,23 +1331,19 @@ msgstr "ཨེ་ལིན་ས་ཁྲ་:བཟོ་བསྒྱུར་�
 msgid "Alien Map"
 msgstr "ཨེ་ལིན་ས་ཁྲ།"
 
-#: ../plug-ins/common/AlienMap2.c:440
-#: ../plug-ins/common/AlienMap2.c:464
+#: ../plug-ins/common/AlienMap2.c:440 ../plug-ins/common/AlienMap2.c:464
 #: ../plug-ins/common/AlienMap2.c:488
 msgid "Number of cycles covering full value range"
 msgstr "གནས་གོང་ཁྱབ་ཚད་ཆ་ཚང་ཁེབས་མའི་བསྐྱར་འཁོར་ཚུ་གི་ཨང་།"
 
-#: ../plug-ins/common/AlienMap2.c:452
-#: ../plug-ins/common/AlienMap2.c:476
+#: ../plug-ins/common/AlienMap2.c:452 ../plug-ins/common/AlienMap2.c:476
 #: ../plug-ins/common/AlienMap2.c:500
 msgid "Phase angle, range 0-360"
 msgstr "གྲུ་ཟུར་གོ་རིམ་སྒྲིགས་ ཁྱབ་ཚད་ ༠-༣༦༠"
 
 #. Propagate Mode
-#: ../plug-ins/common/AlienMap2.c:514
-#: ../plug-ins/common/hot.c:595
-#: ../plug-ins/common/vpropagate.c:1098
-#: ../plug-ins/common/waves.c:273
+#: ../plug-ins/common/AlienMap2.c:514 ../plug-ins/common/hot.c:595
+#: ../plug-ins/common/vpropagate.c:1098 ../plug-ins/common/waves.c:273
 msgid "Mode"
 msgstr "ཐབས་ལམ།"
 
@@ -1485,8 +1355,7 @@ msgstr "ཨར་ཇི་བི་ཚོས་གཞི་གི་དཔེ་
 msgid "_HSL color model"
 msgstr "ཨེཆ་ཨེསི་ཨེལ་ཚོས་གཞི་གི་དཔེ་(_H)"
 
-#: ../plug-ins/common/CEL.c:109
-#: ../plug-ins/common/CEL.c:127
+#: ../plug-ins/common/CEL.c:109 ../plug-ins/common/CEL.c:127
 msgid "KISS CEL"
 msgstr "ཀིསི་ སི་ཨེ་ཨེལ།"
 
@@ -1611,8 +1480,7 @@ msgstr "ཉུང་མཐའ་(x-d, -), (x < ༠.༥)"
 msgid "Min (x-d, -), (0.5 < x)"
 msgstr "ཉུང་མཐའ་(x-d, -), (༠.༥ < x)"
 
-#: ../plug-ins/common/CML_explorer.c:200
-#: ../plug-ins/common/sunras.c:1593
+#: ../plug-ins/common/CML_explorer.c:200 ../plug-ins/common/sunras.c:1593
 msgid "Standard"
 msgstr "ཚད་ལྡན།"
 
@@ -1692,26 +1560,22 @@ msgstr "སོན་ལས་གང་བྱུང་ཚུ།"
 msgid "Randoms from seed (shared)"
 msgstr "སོན་ལས་གང་བྱུང་ཚུ་(རུབ་སྤྱོད་འབད་ཡོདཔ་)"
 
-#: ../plug-ins/common/CML_explorer.c:300
-#: ../plug-ins/common/CML_explorer.c:308
+#: ../plug-ins/common/CML_explorer.c:300 ../plug-ins/common/CML_explorer.c:308
 #: ../plug-ins/common/decompose.c:188
 #: ../plug-ins/gimpressionist/orientation.c:162
 #: ../plug-ins/gimpressionist/size.c:165
 msgid "Hue"
 msgstr "ཚོན་མདངས།"
 
-#: ../plug-ins/common/CML_explorer.c:301
-#: ../plug-ins/common/CML_explorer.c:309
+#: ../plug-ins/common/CML_explorer.c:301 ../plug-ins/common/CML_explorer.c:309
 #: ../plug-ins/common/decompose.c:189
 msgid "Saturation"
 msgstr "མཐའ་ཚད།"
 
-#: ../plug-ins/common/CML_explorer.c:302
-#: ../plug-ins/common/CML_explorer.c:310
+#: ../plug-ins/common/CML_explorer.c:302 ../plug-ins/common/CML_explorer.c:310
 #: ../plug-ins/common/decompose.c:190
 #: ../plug-ins/gimpressionist/orientation.c:138
-#: ../plug-ins/gimpressionist/size.c:141
-#: ../plug-ins/metadata/interface.c:142
+#: ../plug-ins/gimpressionist/size.c:141 ../plug-ins/metadata/interface.c:142
 msgid "Value"
 msgstr "གནས་གོང་།"
 
@@ -1747,8 +1611,7 @@ msgstr "སོན་གཏན་ཁེལ་བཟོ།"
 msgid "Random Seed"
 msgstr "གང་བྱུང་གི་སོན།"
 
-#: ../plug-ins/common/CML_explorer.c:1288
-#: ../plug-ins/common/fp.c:696
+#: ../plug-ins/common/CML_explorer.c:1288 ../plug-ins/common/fp.c:696
 #: ../plug-ins/common/lic.c:671
 msgid "_Hue"
 msgstr "ཚོན་མདངས་(_H)"
@@ -1757,8 +1620,7 @@ msgstr "ཚོན་མདངས་(_H)"
 msgid "Sat_uration"
 msgstr "མཐའ་ཚད་(_u)"
 
-#: ../plug-ins/common/CML_explorer.c:1296
-#: ../plug-ins/common/fp.c:704
+#: ../plug-ins/common/CML_explorer.c:1296 ../plug-ins/common/fp.c:704
 msgid "_Value"
 msgstr "གནས་གོང་(_V)"
 
@@ -1786,8 +1648,7 @@ msgstr "པར་ལེན་འགོ་བཙུགས་:"
 msgid "Seed of Random (only for \"From Seed\" Modes)"
 msgstr "གང་བྱུང་གི་སོན་ (\"From Seed\"ཐབས་ལམ་ཚུ་གི་དོན་ལུ་རྐྱངམ་གཅིག་)"
 
-#: ../plug-ins/common/CML_explorer.c:1372
-#: ../plug-ins/maze/maze_face.c:299
+#: ../plug-ins/common/CML_explorer.c:1372 ../plug-ins/maze/maze_face.c:299
 msgid "Seed:"
 msgstr "སོན་:"
 
@@ -1969,8 +1830,7 @@ msgstr "ཕྲང་ནི་ལུ་བང་རིམ་ཚུ་ལངམ་
 msgid "Align Visible Layers"
 msgstr "མཐོང་ཚུགས་པའི་བང་རིམ་ཚུ་ཕྲང་།"
 
-#: ../plug-ins/common/align_layers.c:422
-#: ../plug-ins/common/align_layers.c:453
+#: ../plug-ins/common/align_layers.c:422 ../plug-ins/common/align_layers.c:453
 msgid "Collect"
 msgstr "བསྡུ་ལེན།"
 
@@ -1982,8 +1842,7 @@ msgstr "བཀང་ (གཡོན་ལས་གཡས་ཚུན་)"
 msgid "Fill (right to left)"
 msgstr "བཀང་(གཡས་ལས་གཡོན་ཚུན་)"
 
-#: ../plug-ins/common/align_layers.c:425
-#: ../plug-ins/common/align_layers.c:456
+#: ../plug-ins/common/align_layers.c:425 ../plug-ins/common/align_layers.c:456
 msgid "Snap to grid"
 msgstr "གིརིཌི་ལུ་པར་བཏབ།"
 
@@ -1995,8 +1854,7 @@ msgstr "ཐད་སྙོམས་བཟོ་རྣམ་:(_H)"
 msgid "Left edge"
 msgstr "གཡོན་གྱི་མཐའམ།"
 
-#: ../plug-ins/common/align_layers.c:439
-#: ../plug-ins/common/align_layers.c:469
+#: ../plug-ins/common/align_layers.c:439 ../plug-ins/common/align_layers.c:469
 #: ../plug-ins/gflare/gflare.c:2639
 msgid "Center"
 msgstr "དབུས།"
@@ -2244,27 +2102,21 @@ msgid "Blinds"
 msgstr "མིག་ཞརཝ་ཚུ།"
 
 #. Orientation toggle box
-#: ../plug-ins/common/blinds.c:259
-#: ../plug-ins/common/ripple.c:538
+#: ../plug-ins/common/blinds.c:259 ../plug-ins/common/ripple.c:538
 msgid "Orientation"
 msgstr "ཕྱོགས།"
 
-#: ../plug-ins/common/blinds.c:263
-#: ../plug-ins/common/ripple.c:542
-#: ../plug-ins/common/tileit.c:425
-#: ../plug-ins/pagecurl/pagecurl.c:534
+#: ../plug-ins/common/blinds.c:263 ../plug-ins/common/ripple.c:542
+#: ../plug-ins/common/tileit.c:425 ../plug-ins/pagecurl/pagecurl.c:534
 msgid "_Horizontal"
 msgstr "ཐད་སྙོམས་(_H)"
 
-#: ../plug-ins/common/blinds.c:264
-#: ../plug-ins/common/ripple.c:543
-#: ../plug-ins/common/tileit.c:435
-#: ../plug-ins/pagecurl/pagecurl.c:533
+#: ../plug-ins/common/blinds.c:264 ../plug-ins/common/ripple.c:543
+#: ../plug-ins/common/tileit.c:435 ../plug-ins/pagecurl/pagecurl.c:533
 msgid "_Vertical"
 msgstr "ཀེར་ཕྲང་(_V)"
 
-#: ../plug-ins/common/blinds.c:281
-#: ../plug-ins/common/fractaltrace.c:734
+#: ../plug-ins/common/blinds.c:281 ../plug-ins/common/fractaltrace.c:734
 #: ../plug-ins/common/papertile.c:364
 msgid "_Transparent"
 msgstr "དྭངས་གསལ་ཅན་(_T)"
@@ -2285,8 +2137,7 @@ msgstr "འཇམ་སམ་རབ་རིབ་ མགྱོགས་དྲ�
 msgid "_Blur"
 msgstr "རབ་རིབ་(_B)"
 
-#: ../plug-ins/common/blur.c:183
-#: ../plug-ins/common/unsharp.c:441
+#: ../plug-ins/common/blur.c:183 ../plug-ins/common/unsharp.c:441
 msgid "Blurring"
 msgstr "རབ་རིབ་འབད་དོ།"
 
@@ -2357,8 +2208,7 @@ msgstr "འབུར་འབུར་ས་ཁྲ་གནས་ལོག་འ
 msgid "_Tile bumpmap"
 msgstr "ཊ་ཡིལ་འབུར་འབུར་ས་ཁྲ་(_T)"
 
-#: ../plug-ins/common/bumpmap.c:959
-#: ../plug-ins/common/emboss.c:501
+#: ../plug-ins/common/bumpmap.c:959 ../plug-ins/common/emboss.c:501
 msgid "_Azimuth:"
 msgstr "ཕྱོགས་ཀྱི་ཆ་ཚད་:(_A)"
 
@@ -2366,18 +2216,15 @@ msgstr "ཕྱོགས་ཀྱི་ཆ་ཚད་:(_A)"
 msgid "_Elevation:"
 msgstr "མཐོ་སྒང་:(_E)"
 
-#: ../plug-ins/common/bumpmap.c:997
-#: ../plug-ins/common/postscript.c:3353
+#: ../plug-ins/common/bumpmap.c:997 ../plug-ins/common/postscript.c:3353
 msgid "_X offset:"
 msgstr "ཨེཀསི་པར་ལེན་:(_X)"
 
-#: ../plug-ins/common/bumpmap.c:1000
-#: ../plug-ins/common/bumpmap.c:1014
+#: ../plug-ins/common/bumpmap.c:1000 ../plug-ins/common/bumpmap.c:1014
 msgid "The offset can be adjusted by dragging the preview using the middle mouse button."
 msgstr "པར་ལེན་འདི་མཱའུསི་ཨེབ་རྟ་བར་མ་ལག་ལེན་འཐབ་སྟེ་ཟིབ་ལྟ་འདི་འདྲུད་པའི་ཐོག་ལས་བདེ་སྒྲིག་འབད་ཚུགས།"
 
-#: ../plug-ins/common/bumpmap.c:1011
-#: ../plug-ins/common/postscript.c:3362
+#: ../plug-ins/common/bumpmap.c:1011 ../plug-ins/common/postscript.c:3362
 msgid "_Y offset:"
 msgstr "ཝའི་ པར་ལེན་:(_Y)"
 
@@ -2413,16 +2260,11 @@ msgstr "མཐའམ་ཚུ་གོང་སྤེལ་འབད་བའི
 msgid "Ca_rtoon..."
 msgstr "པར་རིས་གློག་བརྙན་...(_r)"
 
-#: ../plug-ins/common/cartoon.c:231
-#: ../plug-ins/common/dog.c:248
-#: ../plug-ins/common/gauss.c:445
-#: ../plug-ins/common/neon.c:225
-#: ../plug-ins/common/photocopy.c:243
-#: ../plug-ins/common/sel_gauss.c:213
-#: ../plug-ins/common/softglow.c:221
-#: ../plug-ins/gflare/gflare.c:965
-#: ../plug-ins/sgi/sgi.c:520
-#: ../plug-ins/xjt/xjt.c:1686
+#: ../plug-ins/common/cartoon.c:231 ../plug-ins/common/dog.c:248
+#: ../plug-ins/common/gauss.c:445 ../plug-ins/common/neon.c:225
+#: ../plug-ins/common/photocopy.c:243 ../plug-ins/common/sel_gauss.c:213
+#: ../plug-ins/common/softglow.c:221 ../plug-ins/gflare/gflare.c:965
+#: ../plug-ins/sgi/sgi.c:520 ../plug-ins/xjt/xjt.c:1686
 msgid "Cannot operate on indexed color images."
 msgstr "ཟུར་སྦྲགས་འབད་ཡོད་པའི་ཚོས་གཞི་གཟུགས་བརྙན་ཚུ་ལུ་བཀོལ་སྤྱོད་འབད་མི་བཏུབ།"
 
@@ -2430,8 +2272,7 @@ msgstr "ཟུར་སྦྲགས་འབད་ཡོད་པའི་ཚོ
 msgid "Cartoon"
 msgstr "པར་རིས་གློག་བརྙན།"
 
-#: ../plug-ins/common/cartoon.c:848
-#: ../plug-ins/common/photocopy.c:876
+#: ../plug-ins/common/cartoon.c:848 ../plug-ins/common/photocopy.c:876
 msgid "_Mask radius:"
 msgstr "གདོང་ཁེབས་མཐའ་འཁོར་:(_M)"
 
@@ -2447,8 +2288,7 @@ msgstr "གཟུགས་བརྙན་འདི་ནང་ཚོས་གཞ
 msgid "Colorcube A_nalysis..."
 msgstr "ཚོས་གཞི་ཤོ་དབྱིབས་དཔྱད་ཞིབ་...(_n)"
 
-#: ../plug-ins/common/ccanalyze.c:200
-#: ../plug-ins/common/ccanalyze.c:356
+#: ../plug-ins/common/ccanalyze.c:200 ../plug-ins/common/ccanalyze.c:356
 msgid "Colorcube Analysis"
 msgstr "ཚོས་གཞི་ཤོ་དབྱིབས་དཔྱད་ཞིབ།"
 
@@ -2492,38 +2332,26 @@ msgstr "རྒྱུ་ལམ་སྦྱོར་འཕྲུལ།"
 msgid "O_utput channel:"
 msgstr "ཨའུཊི་པུཊི་རྒྱུ་ལམ་:(_u)"
 
-#: ../plug-ins/common/channel_mixer.c:581
-#: ../plug-ins/common/compose.c:190
-#: ../plug-ins/common/compose.c:201
-#: ../plug-ins/common/diffraction.c:501
-#: ../plug-ins/common/diffraction.c:539
-#: ../plug-ins/common/diffraction.c:577
-#: ../plug-ins/common/exchange.c:400
-#: ../plug-ins/common/noisify.c:530
+#: ../plug-ins/common/channel_mixer.c:581 ../plug-ins/common/compose.c:190
+#: ../plug-ins/common/compose.c:201 ../plug-ins/common/diffraction.c:501
+#: ../plug-ins/common/diffraction.c:539 ../plug-ins/common/diffraction.c:577
+#: ../plug-ins/common/exchange.c:400 ../plug-ins/common/noisify.c:530
 #: ../plug-ins/common/noisify.c:537
 msgid "_Red:"
 msgstr "དམརཔོ་:(_R)"
 
-#: ../plug-ins/common/channel_mixer.c:599
-#: ../plug-ins/common/compose.c:191
-#: ../plug-ins/common/compose.c:202
-#: ../plug-ins/common/diffraction.c:510
-#: ../plug-ins/common/diffraction.c:548
-#: ../plug-ins/common/diffraction.c:586
-#: ../plug-ins/common/exchange.c:460
-#: ../plug-ins/common/noisify.c:531
+#: ../plug-ins/common/channel_mixer.c:599 ../plug-ins/common/compose.c:191
+#: ../plug-ins/common/compose.c:202 ../plug-ins/common/diffraction.c:510
+#: ../plug-ins/common/diffraction.c:548 ../plug-ins/common/diffraction.c:586
+#: ../plug-ins/common/exchange.c:460 ../plug-ins/common/noisify.c:531
 #: ../plug-ins/common/noisify.c:538
 msgid "_Green:"
 msgstr "ལྗང་ཁུ་:(_G)"
 
-#: ../plug-ins/common/channel_mixer.c:618
-#: ../plug-ins/common/compose.c:192
-#: ../plug-ins/common/compose.c:203
-#: ../plug-ins/common/diffraction.c:519
-#: ../plug-ins/common/diffraction.c:557
-#: ../plug-ins/common/diffraction.c:595
-#: ../plug-ins/common/exchange.c:521
-#: ../plug-ins/common/noisify.c:532
+#: ../plug-ins/common/channel_mixer.c:618 ../plug-ins/common/compose.c:192
+#: ../plug-ins/common/compose.c:203 ../plug-ins/common/diffraction.c:519
+#: ../plug-ins/common/diffraction.c:557 ../plug-ins/common/diffraction.c:595
+#: ../plug-ins/common/exchange.c:521 ../plug-ins/common/noisify.c:532
 #: ../plug-ins/common/noisify.c:539
 msgid "_Blue:"
 msgstr "ཧོནམ་:(_B)"
@@ -2564,8 +2392,7 @@ msgstr "ཅེ་ཀར་དཔེ་གཞོང་།"
 msgid "_Psychobilly"
 msgstr "(_P)"
 
-#: ../plug-ins/common/checkerboard.c:417
-#: ../plug-ins/common/papertile.c:293
+#: ../plug-ins/common/checkerboard.c:417 ../plug-ins/common/papertile.c:293
 #: ../plug-ins/gimpressionist/sizemap.c:493
 msgid "_Size:"
 msgstr "ཚད་:(_S)"
@@ -2677,12 +2504,9 @@ msgid "Color to Alpha"
 msgstr "ཨཱལ་ཕ་ལུ་ཚོས་གཞི།"
 
 #. spinbutton 1
-#: ../plug-ins/common/colortoalpha.c:411
-#: ../plug-ins/common/mapcolor.c:424
-#: ../plug-ins/gfli/gfli.c:840
-#: ../plug-ins/gfli/gfli.c:910
-#: ../plug-ins/rcm/rcm_dialog.c:299
-#: ../plug-ins/rcm/rcm_dialog.c:377
+#: ../plug-ins/common/colortoalpha.c:411 ../plug-ins/common/mapcolor.c:424
+#: ../plug-ins/gfli/gfli.c:840 ../plug-ins/gfli/gfli.c:910
+#: ../plug-ins/rcm/rcm_dialog.c:299 ../plug-ins/rcm/rcm_dialog.c:377
 msgid "From:"
 msgstr "ལས་:"
 
@@ -2694,46 +2518,38 @@ msgstr "ཨཱལ་ཕ་ཚོས་གཞི་འཐུ་མི་ལུ་
 msgid "to alpha"
 msgstr "ཨཱལ་ཕ་ལུ།"
 
-#: ../plug-ins/common/compose.c:189
-#: ../plug-ins/common/decompose.c:170
+#: ../plug-ins/common/compose.c:189 ../plug-ins/common/decompose.c:170
 #: ../plug-ins/common/raw.c:1002
 msgid "RGB"
 msgstr "ཨར་ཇི་བི།"
 
-#: ../plug-ins/common/compose.c:200
-#: ../plug-ins/common/decompose.c:178
+#: ../plug-ins/common/compose.c:200 ../plug-ins/common/decompose.c:178
 msgid "RGBA"
 msgstr "ཨར་ཇི་བི་ཨེ།"
 
-#: ../plug-ins/common/compose.c:204
-#: ../plug-ins/common/noisify.c:525
+#: ../plug-ins/common/compose.c:204 ../plug-ins/common/noisify.c:525
 #: ../plug-ins/common/noisify.c:540
 msgid "_Alpha:"
 msgstr "ཨཱལ་ཕ་:(_A)"
 
-#: ../plug-ins/common/compose.c:211
-#: ../plug-ins/common/decompose.c:184
+#: ../plug-ins/common/compose.c:211 ../plug-ins/common/decompose.c:184
 msgid "HSV"
 msgstr "ཨེཆ་ཨེསི་ཝི།"
 
-#: ../plug-ins/common/compose.c:212
-#: ../plug-ins/common/compose.c:220
+#: ../plug-ins/common/compose.c:212 ../plug-ins/common/compose.c:220
 msgid "_Hue:"
 msgstr "ཚོན་མདངས་:(_H)"
 
-#: ../plug-ins/common/compose.c:213
-#: ../plug-ins/common/compose.c:221
+#: ../plug-ins/common/compose.c:213 ../plug-ins/common/compose.c:221
 #: ../plug-ins/common/scatter_hsv.c:413
 msgid "_Saturation:"
 msgstr "མཐའ་ཚད་:(_S)"
 
-#: ../plug-ins/common/compose.c:214
-#: ../plug-ins/common/scatter_hsv.c:425
+#: ../plug-ins/common/compose.c:214 ../plug-ins/common/scatter_hsv.c:425
 msgid "_Value:"
 msgstr "གནས་གོང་:(_V)"
 
-#: ../plug-ins/common/compose.c:219
-#: ../plug-ins/common/decompose.c:193
+#: ../plug-ins/common/compose.c:219 ../plug-ins/common/decompose.c:193
 msgid "HSL"
 msgstr "ཨེཆ་ཨེསི་ཨེལ།"
 
@@ -2741,28 +2557,23 @@ msgstr "ཨེཆ་ཨེསི་ཨེལ།"
 msgid "_Lightness:"
 msgstr "དཀར་མདངས་:(_L)"
 
-#: ../plug-ins/common/compose.c:227
-#: ../plug-ins/common/decompose.c:202
+#: ../plug-ins/common/compose.c:227 ../plug-ins/common/decompose.c:202
 msgid "CMY"
 msgstr "སི་ཝའི་ཨེམ།"
 
-#: ../plug-ins/common/compose.c:228
-#: ../plug-ins/common/compose.c:236
+#: ../plug-ins/common/compose.c:228 ../plug-ins/common/compose.c:236
 msgid "_Cyan:"
 msgstr "སྔོ་ལྗང་:(_C)"
 
-#: ../plug-ins/common/compose.c:229
-#: ../plug-ins/common/compose.c:237
+#: ../plug-ins/common/compose.c:229 ../plug-ins/common/compose.c:237
 msgid "_Magenta:"
 msgstr "དམར་སྨུག་:(_M)"
 
-#: ../plug-ins/common/compose.c:230
-#: ../plug-ins/common/compose.c:238
+#: ../plug-ins/common/compose.c:230 ../plug-ins/common/compose.c:238
 msgid "_Yellow:"
 msgstr "སེརཔོ་:(_Y)"
 
-#: ../plug-ins/common/compose.c:235
-#: ../plug-ins/common/decompose.c:211
+#: ../plug-ins/common/compose.c:235 ../plug-ins/common/decompose.c:211
 msgid "CMYK"
 msgstr "སི་ཨེམ་ཝའི་ཀེ།"
 
@@ -2770,8 +2581,7 @@ msgstr "སི་ཨེམ་ཝའི་ཀེ།"
 msgid "_Black:"
 msgstr "གནགཔོ་:(_B)"
 
-#: ../plug-ins/common/compose.c:243
-#: ../plug-ins/common/decompose.c:224
+#: ../plug-ins/common/compose.c:243 ../plug-ins/common/decompose.c:224
 msgid "LAB"
 msgstr "བརྟག་དཔྱད་ཁང་།"
 
@@ -2856,13 +2666,11 @@ msgstr "གཟུགས་བརྙན་ %d གི་དོན་ལུ་བ�
 msgid "Composing"
 msgstr "བརྩམ་དོ།"
 
-#: ../plug-ins/common/compose.c:690
-#: ../plug-ins/common/compose.c:1724
+#: ../plug-ins/common/compose.c:690 ../plug-ins/common/compose.c:1724
 msgid "At least one image is needed to compose"
 msgstr "བརྩམ་ནི་ལུ་ཉུང་མཐའ་རང་གཟུགས་བརྙན་གཅིག་དགོ།"
 
-#: ../plug-ins/common/compose.c:701
-#: ../plug-ins/common/compose.c:714
+#: ../plug-ins/common/compose.c:701 ../plug-ins/common/compose.c:714
 #, c-format
 msgid "Specified layer %d not found"
 msgstr "གསལ་བཀོད་འབད་ཡོད་པའི་བང་རིམ་ %d འཚོལ་མ་ཐོབ།"
@@ -2897,8 +2705,7 @@ msgstr "བརྩམ་ནི།"
 msgid "Compose Channels"
 msgstr "རྒྱུ་ལམ་ཚུ་བརྩམ་ནི།"
 
-#: ../plug-ins/common/compose.c:1514
-#: ../plug-ins/common/decompose.c:1495
+#: ../plug-ins/common/compose.c:1514 ../plug-ins/common/decompose.c:1495
 msgid "Color _model:"
 msgstr "ཚོས་གཞིའི་དཔེ་:(_m)"
 
@@ -2935,13 +2742,11 @@ msgstr "སྐྱ་ཐལ་(_e)"
 msgid "Re_d"
 msgstr "དམརཔོ་(_d)"
 
-#: ../plug-ins/common/convmatrix.c:103
-#: ../plug-ins/common/newsprint.c:355
+#: ../plug-ins/common/convmatrix.c:103 ../plug-ins/common/newsprint.c:355
 msgid "_Green"
 msgstr "ཧོནམ་(_G)"
 
-#: ../plug-ins/common/convmatrix.c:104
-#: ../plug-ins/common/newsprint.c:363
+#: ../plug-ins/common/convmatrix.c:104 ../plug-ins/common/newsprint.c:363
 msgid "_Blue"
 msgstr "ལྗང་ཁུ་(_B)"
 
@@ -2953,10 +2758,8 @@ msgstr "ཨཱལ་ཕ་(_A)"
 msgid "E_xtend"
 msgstr "རྒྱ་བསྐྱེད་(_x)"
 
-#: ../plug-ins/common/convmatrix.c:111
-#: ../plug-ins/common/displace.c:475
-#: ../plug-ins/common/edge.c:700
-#: ../plug-ins/common/fractaltrace.c:732
+#: ../plug-ins/common/convmatrix.c:111 ../plug-ins/common/displace.c:475
+#: ../plug-ins/common/edge.c:700 ../plug-ins/common/fractaltrace.c:732
 #: ../plug-ins/common/ripple.c:563
 msgid "_Wrap"
 msgstr "ལོག་མཚམས་(_W)"
@@ -2993,8 +2796,7 @@ msgstr "མེ་ཊིཀསི།"
 msgid "D_ivisor:"
 msgstr "བགོ་བྱེད་:(_i)"
 
-#: ../plug-ins/common/convmatrix.c:1052
-#: ../plug-ins/common/depthmerge.c:767
+#: ../plug-ins/common/convmatrix.c:1052 ../plug-ins/common/depthmerge.c:767
 #: ../plug-ins/common/raw.c:1022
 msgid "O_ffset:"
 msgstr "པར་ལེན་:(_f)"
@@ -3118,8 +2920,7 @@ msgstr "སེལ་འཐུ་སྟོངམ་ཚུ་ལུ་བཀོལ
 
 #. Possibly retrieve data from a previous run
 #. The shell and main vbox
-#: ../plug-ins/common/curve_bend.c:1196
-#: ../plug-ins/common/curve_bend.c:2915
+#: ../plug-ins/common/curve_bend.c:1196 ../plug-ins/common/curve_bend.c:2915
 msgid "Curve Bend"
 msgstr "གུག་གུགཔ་བཀུག"
 
@@ -3142,8 +2943,7 @@ msgstr "རང་བཞིན་གྱི་ཞིབ་ལྟ་(_v)"
 
 #. Options area, bottom of column
 #. Options section
-#: ../plug-ins/common/curve_bend.c:1280
-#: ../plug-ins/common/ripple.c:504
+#: ../plug-ins/common/curve_bend.c:1280 ../plug-ins/common/ripple.c:504
 #: ../plug-ins/gfig/gfig-dialog.c:1207
 msgid "Options"
 msgstr "གདམ་ཁ་ཚུ།"
@@ -3159,10 +2959,8 @@ msgid "Smoo_thing"
 msgstr "ཧུམ་ཆ་བཟོ་བ་(_t)"
 
 #. The antialiasing toggle
-#: ../plug-ins/common/curve_bend.c:1322
-#: ../plug-ins/common/gqbist.c:841
-#: ../plug-ins/common/mosaic.c:730
-#: ../plug-ins/common/ripple.c:513
+#: ../plug-ins/common/curve_bend.c:1322 ../plug-ins/common/gqbist.c:841
+#: ../plug-ins/common/mosaic.c:730 ../plug-ins/common/ripple.c:513
 msgid "_Antialiasing"
 msgstr "ཨེན་ཊི་ཨེ་ལའིསིང་(_A)"
 
@@ -3247,56 +3045,46 @@ msgstr "ཡིག་སྣོད་ལས་གུག་གུགཔ་ས་ཚ
 msgid "Save Curve Points to File"
 msgstr "ཡིག་སྣོད་ལུ་གུག་གུགཔ་ས་ཚིགས་ཚུ་སྲུངས།"
 
-#: ../plug-ins/common/decompose.c:170
-#: ../plug-ins/common/decompose.c:174
+#: ../plug-ins/common/decompose.c:170 ../plug-ins/common/decompose.c:174
 #: ../plug-ins/common/decompose.c:178
 msgid "red"
 msgstr "དམརཔོ།"
 
-#: ../plug-ins/common/decompose.c:171
-#: ../plug-ins/common/decompose.c:175
+#: ../plug-ins/common/decompose.c:171 ../plug-ins/common/decompose.c:175
 #: ../plug-ins/common/decompose.c:179
 msgid "green"
 msgstr "ཧོནམ།"
 
-#: ../plug-ins/common/decompose.c:172
-#: ../plug-ins/common/decompose.c:176
+#: ../plug-ins/common/decompose.c:172 ../plug-ins/common/decompose.c:176
 #: ../plug-ins/common/decompose.c:180
 msgid "blue"
 msgstr "ལྗང་ཁུ།"
 
-#: ../plug-ins/common/decompose.c:181
-#: ../plug-ins/common/decompose.c:221
+#: ../plug-ins/common/decompose.c:181 ../plug-ins/common/decompose.c:221
 msgid "alpha"
 msgstr "ཨཱལ་ཕ།"
 
-#: ../plug-ins/common/decompose.c:184
-#: ../plug-ins/common/decompose.c:188
+#: ../plug-ins/common/decompose.c:184 ../plug-ins/common/decompose.c:188
 msgid "hue"
 msgstr "ཚོན་མདངས།"
 
-#: ../plug-ins/common/decompose.c:185
-#: ../plug-ins/common/decompose.c:189
+#: ../plug-ins/common/decompose.c:185 ../plug-ins/common/decompose.c:189
 msgid "saturation"
 msgstr "མཐའ་ཚད།"
 
-#: ../plug-ins/common/decompose.c:186
-#: ../plug-ins/common/decompose.c:190
+#: ../plug-ins/common/decompose.c:186 ../plug-ins/common/decompose.c:190
 msgid "value"
 msgstr "གནས་གོང་།"
 
-#: ../plug-ins/common/decompose.c:193
-#: ../plug-ins/common/decompose.c:197
+#: ../plug-ins/common/decompose.c:193 ../plug-ins/common/decompose.c:197
 msgid "hue_l"
 msgstr "ཚོན་མདངས།(_I)"
 
-#: ../plug-ins/common/decompose.c:194
-#: ../plug-ins/common/decompose.c:198
+#: ../plug-ins/common/decompose.c:194 ../plug-ins/common/decompose.c:198
 msgid "saturation_l"
 msgstr "མཐའ་ཚད།(_I)"
 
-#: ../plug-ins/common/decompose.c:195
-#: ../plug-ins/common/decompose.c:199
+#: ../plug-ins/common/decompose.c:195 ../plug-ins/common/decompose.c:199
 msgid "lightness"
 msgstr "དཀར་མདངས"
 
@@ -3312,18 +3100,15 @@ msgstr "མཐའ་ཚད།(ཨེཆ་ཨེསི་ཨེལ)"
 msgid "Lightness"
 msgstr "ཡངས་ཚུལ"
 
-#: ../plug-ins/common/decompose.c:202
-#: ../plug-ins/common/decompose.c:206
+#: ../plug-ins/common/decompose.c:202 ../plug-ins/common/decompose.c:206
 msgid "cyan"
 msgstr "སྔོ་ལྗང་།"
 
-#: ../plug-ins/common/decompose.c:203
-#: ../plug-ins/common/decompose.c:207
+#: ../plug-ins/common/decompose.c:203 ../plug-ins/common/decompose.c:207
 msgid "magenta"
 msgstr "དམར་སྨུག"
 
-#: ../plug-ins/common/decompose.c:204
-#: ../plug-ins/common/decompose.c:208
+#: ../plug-ins/common/decompose.c:204 ../plug-ins/common/decompose.c:208
 msgid "yellow"
 msgstr "སེརཔོ།"
 
@@ -3339,18 +3124,15 @@ msgstr "དམར་སྨུག"
 msgid "Yellow"
 msgstr "སེརཔོ་"
 
-#: ../plug-ins/common/decompose.c:211
-#: ../plug-ins/common/decompose.c:216
+#: ../plug-ins/common/decompose.c:211 ../plug-ins/common/decompose.c:216
 msgid "cyan-k"
 msgstr "སྔོ་ལྗང་-ཀེ།"
 
-#: ../plug-ins/common/decompose.c:212
-#: ../plug-ins/common/decompose.c:217
+#: ../plug-ins/common/decompose.c:212 ../plug-ins/common/decompose.c:217
 msgid "magenta-k"
 msgstr "དམར་སྨུག་-k"
 
-#: ../plug-ins/common/decompose.c:213
-#: ../plug-ins/common/decompose.c:218
+#: ../plug-ins/common/decompose.c:213 ../plug-ins/common/decompose.c:218
 msgid "yellow-k"
 msgstr "སེརཔོ་-k"
 
@@ -3422,13 +3204,11 @@ msgstr "ཧོནམ་མདངས་ཅན་-སི་བི་༧༠༩ ཨ�
 msgid "redness-cr709f"
 msgstr "དམར་མདངས་ཅན་-སི་ཨར་༧༠༩ ཨེཕ།"
 
-#: ../plug-ins/common/decompose.c:294
-#: ../plug-ins/common/decompose.c:308
+#: ../plug-ins/common/decompose.c:294 ../plug-ins/common/decompose.c:308
 msgid "Decompose an image into separate colorspace components"
 msgstr "གཟུགས་བརྙན་འདི་སོ་སོ་ཚོས་གཞི་བར་སྟོང་ཆ་ཤས་ཚུ་ལུ་སོ་སོ་འཕྱལ།"
 
-#: ../plug-ins/common/decompose.c:300
-#: ../plug-ins/common/decompose.c:318
+#: ../plug-ins/common/decompose.c:300 ../plug-ins/common/decompose.c:318
 msgid "_Decompose..."
 msgstr "སོ་སོ་འཕྱལ་...(_D)"
 
@@ -3464,8 +3244,7 @@ msgstr "གྲལ་ཐིག་གཞན་རེ་རེ་བརླག་ས
 msgid "_Deinterlace..."
 msgstr "ལྷས་བཤོལ་འབད་...(_D)"
 
-#: ../plug-ins/common/deinterlace.c:159
-#: ../plug-ins/common/deinterlace.c:327
+#: ../plug-ins/common/deinterlace.c:159 ../plug-ins/common/deinterlace.c:327
 msgid "Deinterlace"
 msgstr "ལྷས་བཤོལ་འབད།"
 
@@ -3497,8 +3276,7 @@ msgstr "གཏིང་ཚད་མཉམ་བསྡོམས་འབད་ན
 msgid "Source 1:"
 msgstr "འབྱུང་ཁུངས་ ༡:"
 
-#: ../plug-ins/common/depthmerge.c:710
-#: ../plug-ins/common/depthmerge.c:740
+#: ../plug-ins/common/depthmerge.c:710 ../plug-ins/common/depthmerge.c:740
 msgid "Depth map:"
 msgstr "གཏིང་ཚད་ས་ཁྲ་:"
 
@@ -3535,8 +3313,7 @@ msgstr "གཟུགས་བརྙན་འདི་ལས་སྐྱོན་
 msgid "Des_peckle..."
 msgstr "སྐྱོན་མེད་བཟོ་...(_p)"
 
-#: ../plug-ins/common/despeckle.c:393
-#: ../plug-ins/common/despeckle.c:613
+#: ../plug-ins/common/despeckle.c:393 ../plug-ins/common/despeckle.c:613
 msgid "Despeckle"
 msgstr "སྐྱོན་མེད་བཟོ།"
 
@@ -3552,14 +3329,10 @@ msgstr "མཐུན་ཅན་(_A)"
 msgid "R_ecursive"
 msgstr "ལོག་རིམ་(_e)"
 
-#: ../plug-ins/common/despeckle.c:461
-#: ../plug-ins/common/neon.c:730
-#: ../plug-ins/common/nlfilt.c:1090
-#: ../plug-ins/common/nova.c:365
-#: ../plug-ins/common/unsharp.c:681
-#: ../plug-ins/common/whirlpinch.c:587
-#: ../plug-ins/gflare/gflare.c:2684
-#: ../plug-ins/imagemap/imap_circle.c:278
+#: ../plug-ins/common/despeckle.c:461 ../plug-ins/common/neon.c:730
+#: ../plug-ins/common/nlfilt.c:1090 ../plug-ins/common/nova.c:365
+#: ../plug-ins/common/unsharp.c:681 ../plug-ins/common/whirlpinch.c:587
+#: ../plug-ins/gflare/gflare.c:2684 ../plug-ins/imagemap/imap_circle.c:278
 msgid "_Radius:"
 msgstr "མཐའ་འཁོར་:(_R)"
 
@@ -3587,14 +3360,10 @@ msgstr "ཐིག་རིས་ནར་མོ་བཟོ་དོ།"
 msgid "Destripe"
 msgstr "ཐིག་རིས་ནར་མོ་མེདཔ།"
 
-#: ../plug-ins/common/destripe.c:472
-#: ../plug-ins/common/gtm.c:583
-#: ../plug-ins/common/postscript.c:3126
-#: ../plug-ins/common/postscript.c:3335
-#: ../plug-ins/common/raw.c:1035
-#: ../plug-ins/common/smooth_palette.c:436
-#: ../plug-ins/common/tile.c:423
-#: ../plug-ins/imagemap/imap_cmd_guides.c:165
+#: ../plug-ins/common/destripe.c:472 ../plug-ins/common/gtm.c:583
+#: ../plug-ins/common/postscript.c:3126 ../plug-ins/common/postscript.c:3335
+#: ../plug-ins/common/raw.c:1035 ../plug-ins/common/smooth_palette.c:436
+#: ../plug-ins/common/tile.c:423 ../plug-ins/imagemap/imap_cmd_guides.c:165
 #: ../plug-ins/imagemap/imap_rectangle.c:403
 #: ../plug-ins/print/print-page-layout.c:239
 msgid "_Width:"
@@ -3617,16 +3386,13 @@ msgstr "ཌི་ཇི་ཊཱལ་གཟུགས་བརྙན་འབད
 msgid "'%s' is not a DICOM file."
 msgstr "'%s' འདི་ཌི་ཨའི་སི་ཨོ་ཨེམ་ ཡིག་སྣོད་མེན།"
 
-#: ../plug-ins/common/dicom.c:661
-#: ../plug-ins/common/pcx.c:582
+#: ../plug-ins/common/dicom.c:661 ../plug-ins/common/pcx.c:582
 #: ../plug-ins/common/pnm.c:920
 msgid "Cannot save images with alpha channel."
 msgstr "ཨཱལ་ཕ་རྒྱུ་ལམ་མཉམ་གཟུགས་བརྙན་ཚུ་སྲུངས་བཞག་འབད་མི་བཏུབ།"
 
-#: ../plug-ins/common/dicom.c:676
-#: ../plug-ins/common/postscript.c:1185
-#: ../plug-ins/common/xwd.c:556
-#: ../plug-ins/fits/fits.c:445
+#: ../plug-ins/common/dicom.c:676 ../plug-ins/common/postscript.c:1185
+#: ../plug-ins/common/xwd.c:556 ../plug-ins/fits/fits.c:445
 #: ../plug-ins/xjt/xjt.c:1690
 msgid "Cannot operate on unknown image types."
 msgstr "མ་ཤེས་པའི་གཟུགས་བརྙན་གྱི་དབྱེ་བ་ཚུ་ལུ་བཀོལ་སྤྱོད་འབད་མི་བཏུབ།"
@@ -3659,8 +3425,7 @@ msgstr "བུར་གཞོང་ཚུ།"
 msgid "Sharp Edges"
 msgstr "རྣོ་ཅན་མཐའམ་ཚུ།"
 
-#: ../plug-ins/common/diffraction.c:615
-#: ../plug-ins/common/softglow.c:681
+#: ../plug-ins/common/diffraction.c:615 ../plug-ins/common/softglow.c:681
 #: ../plug-ins/flame/flame.c:1057
 msgid "_Brightness:"
 msgstr "དཀར་མདངས་:(_B)"
@@ -3735,17 +3500,13 @@ msgstr "ལྷོ་རྩེའི་(_P)"
 msgid "Edge Behavior"
 msgstr "མཐའམ་སྤྱོད་ལམ།"
 
-#: ../plug-ins/common/displace.c:477
-#: ../plug-ins/common/edge.c:713
-#: ../plug-ins/common/ripple.c:564
-#: ../plug-ins/common/waves.c:277
+#: ../plug-ins/common/displace.c:477 ../plug-ins/common/edge.c:713
+#: ../plug-ins/common/ripple.c:564 ../plug-ins/common/waves.c:277
 msgid "_Smear"
 msgstr "བྱུག་པ་(_S)"
 
-#: ../plug-ins/common/displace.c:479
-#: ../plug-ins/common/edge.c:726
-#: ../plug-ins/common/fractaltrace.c:736
-#: ../plug-ins/common/newsprint.c:400
+#: ../plug-ins/common/displace.c:479 ../plug-ins/common/edge.c:726
+#: ../plug-ins/common/fractaltrace.c:736 ../plug-ins/common/newsprint.c:400
 msgid "_Black"
 msgstr "གནགཔོ་(_B)"
 
@@ -3757,8 +3518,7 @@ msgstr "མཐའམ་སྟུག་ཚད་ཀྱི་ཚད་འཛིན
 msgid "_Difference of Gaussians..."
 msgstr "གོ་ཤི་ཡཱནསི་གི་ཁྱད་པར་...(_D)"
 
-#: ../plug-ins/common/dog.c:230
-#: ../plug-ins/common/dog.c:275
+#: ../plug-ins/common/dog.c:230 ../plug-ins/common/dog.c:275
 msgid "DoG Edge Detect"
 msgstr "ཌི་ཨོ་ཇི་མཐའམ་སྐྱོན་འཛིན་ནི།"
 
@@ -3774,13 +3534,11 @@ msgstr "མཐའ་འཁོར་ ༡:(_R)"
 msgid "R_adius 2:"
 msgstr "མཐའ་འཁོར་ ༢:(_a)"
 
-#: ../plug-ins/common/dog.c:333
-#: ../plug-ins/common/normalize.c:92
+#: ../plug-ins/common/dog.c:333 ../plug-ins/common/normalize.c:92
 msgid "_Normalize"
 msgstr "སྤྱིར་བཏང་བཟོ་བ་(_N)"
 
-#: ../plug-ins/common/dog.c:344
-#: ../plug-ins/gimpressionist/paper.c:149
+#: ../plug-ins/common/dog.c:344 ../plug-ins/gimpressionist/paper.c:149
 msgid "_Invert"
 msgstr "གནས་ལོག་འབད་(_I)"
 
@@ -3808,8 +3566,7 @@ msgstr "སོ་བེལ།"
 msgid "Prewitt compass"
 msgstr "ཕྱོགས་འཁོར།"
 
-#: ../plug-ins/common/edge.c:661
-#: ../plug-ins/common/sinus.c:904
+#: ../plug-ins/common/edge.c:661 ../plug-ins/common/sinus.c:904
 msgid "Gradient"
 msgstr "སྟེགས་རིས།"
 
@@ -3821,8 +3578,7 @@ msgstr "རོ་བཱརཊས།"
 msgid "Differential"
 msgstr "ཁྱད་པར་ཅན།"
 
-#: ../plug-ins/common/edge.c:664
-#: ../plug-ins/common/laplace.c:243
+#: ../plug-ins/common/edge.c:664 ../plug-ins/common/laplace.c:243
 msgid "Laplace"
 msgstr "ལེཔ་ལའས།"
 
@@ -3842,8 +3598,7 @@ msgstr "འབུར་ཅན་གྱིས་གསར་བསྐྲུན་
 msgid "_Emboss..."
 msgstr "འབུར་རིས་...(_E)"
 
-#: ../plug-ins/common/emboss.c:386
-#: ../plug-ins/common/emboss.c:448
+#: ../plug-ins/common/emboss.c:386 ../plug-ins/common/emboss.c:448
 msgid "Emboss"
 msgstr "འབུར་རིས།"
 
@@ -3879,14 +3634,10 @@ msgstr "རྐོས་རིས།"
 msgid "Engrave"
 msgstr "སྤྲོས་རྐོ་ནི།"
 
-#: ../plug-ins/common/engrave.c:245
-#: ../plug-ins/common/film.c:1003
-#: ../plug-ins/common/gtm.c:599
-#: ../plug-ins/common/postscript.c:3136
-#: ../plug-ins/common/postscript.c:3344
-#: ../plug-ins/common/raw.c:1048
-#: ../plug-ins/common/smooth_palette.c:441
-#: ../plug-ins/common/tile.c:427
+#: ../plug-ins/common/engrave.c:245 ../plug-ins/common/film.c:1003
+#: ../plug-ins/common/gtm.c:599 ../plug-ins/common/postscript.c:3136
+#: ../plug-ins/common/postscript.c:3344 ../plug-ins/common/raw.c:1048
+#: ../plug-ins/common/smooth_palette.c:441 ../plug-ins/common/tile.c:427
 #: ../plug-ins/imagemap/imap_cmd_guides.c:175
 #: ../plug-ins/imagemap/imap_rectangle.c:410
 #: ../plug-ins/print/print-page-layout.c:241
@@ -3905,8 +3656,7 @@ msgstr "གཞན་མི་མཉམ་ཚོས་གཞི་གཅིག་
 msgid "_Color Exchange..."
 msgstr "ཚོས་གཞི་བརྗེ་སོར་...(_C)"
 
-#: ../plug-ins/common/exchange.c:215
-#: ../plug-ins/common/exchange.c:289
+#: ../plug-ins/common/exchange.c:215 ../plug-ins/common/exchange.c:289
 msgid "Color Exchange"
 msgstr "ཚོས་གཞི་བརྗེ་སོར།"
 
@@ -3958,8 +3708,7 @@ msgstr "གློག་ཤོག་བཤུབ་...(_F)"
 msgid "Composing images"
 msgstr "གཟུགས་བརྙན་ཚུ་བརྩམ་དོ།"
 
-#: ../plug-ins/common/film.c:425
-#: ../plug-ins/common/guillotine.c:185
+#: ../plug-ins/common/film.c:425 ../plug-ins/common/guillotine.c:185
 #: ../plug-ins/helpbrowser/dialog.c:1048
 msgid "Untitled"
 msgstr "མགོ་མིང་མ་བཏགསཔ།"
@@ -3973,16 +3722,13 @@ msgid "On film:"
 msgstr "གློག་བརྙན་གུ་ལུ་:"
 
 #. Create selection
-#: ../plug-ins/common/film.c:966
-#: ../plug-ins/imagemap/imap_selection.c:366
-#: ../plug-ins/rcm/rcm_dialog.c:173
-#: ../plug-ins/sel2path/sel2path.c:428
+#: ../plug-ins/common/film.c:966 ../plug-ins/imagemap/imap_selection.c:366
+#: ../plug-ins/rcm/rcm_dialog.c:173 ../plug-ins/sel2path/sel2path.c:428
 msgid "Selection"
 msgstr "སེལ་འཐུ།"
 
 #. Film height/colour
-#: ../plug-ins/common/film.c:976
-#: ../plug-ins/common/film.c:1248
+#: ../plug-ins/common/film.c:976 ../plug-ins/common/film.c:1248
 msgid "Filmstrip"
 msgstr "གློག་ཤོག་བཤུབ།"
 
@@ -3996,8 +3742,7 @@ msgstr "གཟུགས་བརྙན་ཚུ་ལུ་མཐོ་ཚད་
 msgid "Select Film Color"
 msgstr "གློག་བརྙན་ཚོས་གཞི་སེལ་འཐུ་འབད།"
 
-#: ../plug-ins/common/film.c:1026
-#: ../plug-ins/common/film.c:1076
+#: ../plug-ins/common/film.c:1026 ../plug-ins/common/film.c:1076
 #: ../plug-ins/common/nova.c:352
 msgid "Co_lor:"
 msgstr "ཚོས་གཞི་:(_l)"
@@ -4089,8 +3834,7 @@ msgstr "དྭངས་ཤེལ་འབར་བ།"
 msgid "Center of Flare Effect"
 msgstr "འབར་བའི་ནུས་པ་གི་དབུས།"
 
-#: ../plug-ins/common/flarefx.c:786
-#: ../plug-ins/common/nova.c:483
+#: ../plug-ins/common/flarefx.c:786 ../plug-ins/common/nova.c:483
 msgid "Show _position"
 msgstr "གནས་ས་སྟོན་(_p)"
 
@@ -4122,8 +3866,7 @@ msgstr "ཧེང་བཀལ་ མཐའ་ཚད་:"
 msgid "Less Sat:"
 msgstr "ཉུང་མི་ མཐའ་ཚད་:"
 
-#: ../plug-ins/common/fp.c:239
-#: ../plug-ins/common/fp.c:529
+#: ../plug-ins/common/fp.c:239 ../plug-ins/common/fp.c:529
 msgid "Current:"
 msgstr "ད་ལྟོའི་:"
 
@@ -4179,8 +3922,7 @@ msgstr "གཙོ་དམིགས་(_i)"
 msgid "Windows"
 msgstr "ཝིན་ཌོསི།"
 
-#: ../plug-ins/common/fp.c:700
-#: ../plug-ins/common/lic.c:672
+#: ../plug-ins/common/fp.c:700 ../plug-ins/common/lic.c:672
 msgid "_Saturation"
 msgstr "མཐའ་ཚད་(_S)"
 
@@ -4268,8 +4010,7 @@ msgstr "མེན་ཌཱལ་བོརོཊོ་ཕེ་རེག་ཊལ
 msgid "_Fractal Trace..."
 msgstr "ཕེ་རེག་ཊལ་བཤུལ་འཚོལ་...(_F)"
 
-#: ../plug-ins/common/fractaltrace.c:460
-#: ../plug-ins/common/fractaltrace.c:687
+#: ../plug-ins/common/fractaltrace.c:460 ../plug-ins/common/fractaltrace.c:687
 msgid "Fractal Trace"
 msgstr "ཕེ་རེག་ཊལ་བཤུལ་འཚོལ།"
 
@@ -4310,15 +4051,12 @@ msgstr "འཇམ་ཤོས་ མང་ཆེ་ཤོས་མཐུན་�
 msgid "_Gaussian Blur..."
 msgstr "གོ་ཤི་ཡན་རབ་རིབ་...(_G)"
 
-#: ../plug-ins/common/gauss.c:179
-#: ../plug-ins/common/gauss.c:199
-#: ../plug-ins/common/gauss.c:219
-#: ../plug-ins/common/gauss.c:239
+#: ../plug-ins/common/gauss.c:179 ../plug-ins/common/gauss.c:199
+#: ../plug-ins/common/gauss.c:219 ../plug-ins/common/gauss.c:239
 msgid "Apply a gaussian blur"
 msgstr "གོ་ཤི་ཡན་རབ་རིབ་འཇུག་སྤྱོད་འབད།"
 
-#: ../plug-ins/common/gauss.c:428
-#: ../plug-ins/common/gauss.c:476
+#: ../plug-ins/common/gauss.c:428 ../plug-ins/common/gauss.c:476
 msgid "Gaussian Blur"
 msgstr "གོ་ཤི་ཡན་རབ་རིབ།"
 
@@ -4327,14 +4065,12 @@ msgstr "གོ་ཤི་ཡན་རབ་རིབ།"
 msgid "Blur Radius"
 msgstr "རབ་རིབ་མཐའ་འཁོར།"
 
-#: ../plug-ins/common/gauss.c:520
-#: ../plug-ins/common/jigsaw.c:2458
+#: ../plug-ins/common/gauss.c:520 ../plug-ins/common/jigsaw.c:2458
 #: ../plug-ins/common/spread.c:386
 msgid "_Horizontal:"
 msgstr "ཐད་སྙོམས་:(_H)"
 
-#: ../plug-ins/common/gauss.c:524
-#: ../plug-ins/common/jigsaw.c:2475
+#: ../plug-ins/common/gauss.c:524 ../plug-ins/common/jigsaw.c:2475
 #: ../plug-ins/common/spread.c:390
 msgid "_Vertical:"
 msgstr "ཀེར་ཕྲང་:(_V)"
@@ -4351,13 +4087,11 @@ msgstr "ཨའི་ཨའི་ཨར་(_I)"
 msgid "_RLE"
 msgstr "ཨར་ཨེལ་ཨི་(_R)"
 
-#: ../plug-ins/common/gbr.c:152
-#: ../plug-ins/common/gbr.c:173
+#: ../plug-ins/common/gbr.c:152 ../plug-ins/common/gbr.c:173
 msgid "GIMP brush"
 msgstr "ཇི་ཨའི་ཨེམ་པི་པྱིར།"
 
-#: ../plug-ins/common/gbr.c:388
-#: ../plug-ins/common/gbr.c:400
+#: ../plug-ins/common/gbr.c:388 ../plug-ins/common/gbr.c:400
 msgid "Unsupported brush format"
 msgstr "རྒྱབ་སྐྱོར་མེད་པའི་པྱིར་རྩ་སྒྲིག"
 
@@ -4371,10 +4105,8 @@ msgstr "ཇི་ཨའི་ཨེམ་པི་པྱིར་ཡིག་ས
 msgid "Invalid UTF-8 string in brush file '%s'."
 msgstr "པྱིར་ཡིག་སྣོད་ '%s'ནང་ཡུ་ཊི་ཨེཕ་-༨ ཡིག་རྒྱུན་ནུས་མེད།"
 
-#: ../plug-ins/common/gbr.c:425
-#: ../plug-ins/common/gih.c:499
-#: ../plug-ins/common/gih.c:1158
-#: ../plug-ins/gflare/gflare.c:2989
+#: ../plug-ins/common/gbr.c:425 ../plug-ins/common/gih.c:499
+#: ../plug-ins/common/gih.c:1158 ../plug-ins/gflare/gflare.c:2989
 msgid "Unnamed"
 msgstr "མིང་མ་བཏགས་པ།"
 
@@ -4387,30 +4119,24 @@ msgid "Save as Brush"
 msgstr "པྱིར་སྦེ་སྲུངས།"
 
 #. attach labels
-#: ../plug-ins/common/gbr.c:731
-#: ../plug-ins/common/grid.c:790
+#: ../plug-ins/common/gbr.c:731 ../plug-ins/common/grid.c:790
 msgid "Spacing:"
 msgstr "བར་སྟོང་བཞག་ཐངས་:"
 
-#: ../plug-ins/common/gbr.c:742
-#: ../plug-ins/common/gih.c:910
-#: ../plug-ins/common/pat.c:541
-#: ../plug-ins/gimpressionist/presets.c:646
+#: ../plug-ins/common/gbr.c:742 ../plug-ins/common/gih.c:910
+#: ../plug-ins/common/pat.c:541 ../plug-ins/gimpressionist/presets.c:646
 msgid "Description:"
 msgstr "འགྲེལ་བཤད་:"
 
-#: ../plug-ins/common/gee.c:99
-#: ../plug-ins/common/gee_zoom.c:121
+#: ../plug-ins/common/gee.c:99 ../plug-ins/common/gee_zoom.c:121
 msgid "A big hello from the GIMP team!"
 msgstr "ཇི་ཨའི་ཨེམ་པི་ནང་ལས་སྐུ་གཟུགས་བཟང་པོ་ཆེན་པོ་ཡོད་!"
 
-#: ../plug-ins/common/gee.c:104
-#: ../plug-ins/common/gee.c:160
+#: ../plug-ins/common/gee.c:104 ../plug-ins/common/gee.c:160
 msgid "Gee Slime"
 msgstr "གི་སི་ལའིམ།"
 
-#: ../plug-ins/common/gee.c:166
-#: ../plug-ins/common/gee_zoom.c:192
+#: ../plug-ins/common/gee.c:166 ../plug-ins/common/gee_zoom.c:192
 msgid "Thank You for Choosing GIMP"
 msgstr "ཁྱོད་ཀྱིས་ཇི་ཨའི་ཨེམ་པི་གདམ་ཁ་རྐྱབས་མི་ལུ་བཀའ་དྲིན་ཆེ།"
 
@@ -4419,8 +4145,7 @@ msgstr "ཁྱོད་ཀྱིས་ཇི་ཨའི་ཨེམ་པི་
 msgid "A less obsolete creation by %s"
 msgstr "'%s' གིས་ཉུང་མི་ཕན་མེད་གསར་བསྐྲུན།"
 
-#: ../plug-ins/common/gee_zoom.c:126
-#: ../plug-ins/common/gee_zoom.c:186
+#: ../plug-ins/common/gee_zoom.c:126 ../plug-ins/common/gee_zoom.c:186
 msgid "Gee Zoom"
 msgstr "གི་རྒྱས་ཟུམ།"
 
@@ -4429,8 +4154,7 @@ msgstr "གི་རྒྱས་ཟུམ།"
 msgid "An obsolete creation by %s"
 msgstr "%s གིས་ཕན་མེད་གསར་བསྐྲུན།"
 
-#: ../plug-ins/common/gif.c:410
-#: ../plug-ins/common/gifload.c:141
+#: ../plug-ins/common/gif.c:410 ../plug-ins/common/gifload.c:141
 msgid "GIF image"
 msgstr "ཇི་ཨའི་ཨེཕ་གཟུགས་བརྙན།"
 
@@ -4488,8 +4212,7 @@ msgstr "འཕྲལ་བཀོལ་རྟག་པར་(_L)"
 msgid "_Delay between frames where unspecified:"
 msgstr "གསལ་བཀོད་མ་འབད་མི་ལུ་གཞི་ཁྲམ་ཚུ་གི་བར་ན་ཕྱིར་འགྱངས་འབད་:(_D)"
 
-#: ../plug-ins/common/gif.c:1368
-#: ../plug-ins/common/mng.c:1539
+#: ../plug-ins/common/gif.c:1368 ../plug-ins/common/mng.c:1539
 msgid "milliseconds"
 msgstr "མི་ལི་སྐར་ཆ་ཚུ།"
 
@@ -4545,8 +4268,7 @@ msgstr "རྒྱབ་གཞི་  (%d%s)"
 msgid "Opening '%s' (frame %d)"
 msgstr "ཁ་ཕྱེ་དོ་ '%s' (གཞི་ཁྲམ་ %d)"
 
-#: ../plug-ins/common/gifload.c:933
-#: ../plug-ins/common/iwarp.c:796
+#: ../plug-ins/common/gifload.c:933 ../plug-ins/common/iwarp.c:796
 #: ../plug-ins/common/iwarp.c:831
 #, c-format
 msgid "Frame %d"
@@ -4562,8 +4284,7 @@ msgstr "གཞི་ཁྲམ་ %d (%d%s)"
 msgid "GIF: Undocumented GIF composite type %d is not handled.  Animation might not play or re-save perfectly."
 msgstr "ཆི་ཨའི་ཨེཕ་:ཡིག་ཐོག་མ་བཀོད་མི་ ཇི་ཨའི་ཨེཕ་ སྣ་སྡུད་དབྱེ་བ་ %d འདི་ལེགས་སྐྱོང་མ་འཐབ་བས། བསྒུལ་བཟོ་འདི་གཏང་མི་བཏུབ་ནི་དང་ ཡང་ཅིན་ ཚུལ་ལྡན་གྱི་ཐོག་ལས་སླར་-སྲུངས་འབད།"
 
-#: ../plug-ins/common/gih.c:207
-#: ../plug-ins/common/gih.c:228
+#: ../plug-ins/common/gih.c:207 ../plug-ins/common/gih.c:228
 msgid "GIMP brush (animated)"
 msgstr "ཇི་ཨའི་ཨེམ་པི་ པྱིར་ (བསྒུལ་ཅན་བཟོས་པའི་)"
 
@@ -4640,8 +4361,7 @@ msgstr "གྲུ་བཞི་ཤེལ་ཊ་ཡིལསི་གིས་
 msgid "_Glass Tile..."
 msgstr "ཤེལ་ཊ་ཡིལ་...(_G)"
 
-#: ../plug-ins/common/glasstile.c:212
-#: ../plug-ins/common/glasstile.c:252
+#: ../plug-ins/common/glasstile.c:212 ../plug-ins/common/glasstile.c:252
 msgid "Glass Tile"
 msgstr "ཤེལ་ཊ་ཡིལ།"
 
@@ -4649,8 +4369,7 @@ msgstr "ཤེལ་ཊ་ཡིལ།"
 msgid "Tile _width:"
 msgstr "ཊ་ཡིལ་རྒྱ་ཚད་:(_w)"
 
-#: ../plug-ins/common/glasstile.c:304
-#: ../plug-ins/common/mosaic.c:663
+#: ../plug-ins/common/glasstile.c:304 ../plug-ins/common/mosaic.c:663
 msgid "Tile _height:"
 msgstr "ཊ་ཡིལ་མཐོ་ཚད་:(_h)"
 
@@ -4714,8 +4433,7 @@ msgstr "གིརིཌི་...(_G)"
 msgid "Drawing grid"
 msgstr "གིརིཌི་འབྲི་དོ།"
 
-#: ../plug-ins/common/grid.c:635
-#: ../plug-ins/gfig/gfig-dialog.c:1355
+#: ../plug-ins/common/grid.c:635 ../plug-ins/gfig/gfig-dialog.c:1355
 #: ../plug-ins/imagemap/imap_menu.c:218
 msgid "Grid"
 msgstr "གིརིཌི།"
@@ -4734,8 +4452,7 @@ msgid "Intersection"
 msgstr "ཕན་ཚུན་དབྱེ་ཚན།"
 
 #. Width and Height
-#: ../plug-ins/common/grid.c:724
-#: ../plug-ins/common/svg.c:759
+#: ../plug-ins/common/grid.c:724 ../plug-ins/common/svg.c:759
 #: ../plug-ins/common/wmf.c:549
 msgid "Width:"
 msgstr "རྒྱ་ཚད་:"
@@ -4895,8 +4612,7 @@ msgstr "ཉེན་ཅན་སྦེ་དཀར་མདངས་འོང་
 msgid "_Hot..."
 msgstr "ཚ་བ་...(_H)"
 
-#: ../plug-ins/common/hot.c:379
-#: ../plug-ins/common/hot.c:570
+#: ../plug-ins/common/hot.c:379 ../plug-ins/common/hot.c:570
 msgid "Hot"
 msgstr "ཚ་བ།"
 
@@ -4916,8 +4632,7 @@ msgstr "འོད་མདངས་མར་ཕབ་འབད་(_L)"
 msgid "Reduce _Saturation"
 msgstr "མཐའ་ཚད་མར་ཕབ་འབད་(_S)"
 
-#: ../plug-ins/common/hot.c:622
-#: ../plug-ins/common/waves.c:278
+#: ../plug-ins/common/hot.c:622 ../plug-ins/common/waves.c:278
 msgid "_Blacken"
 msgstr "གནགཔོ་བཟོ་(_B)"
 
@@ -4929,8 +4644,7 @@ msgstr "གཟུགས་བརྙན་གྱི་འདྲ་བཤུས་
 msgid "_Illusion..."
 msgstr "འཁྲུལ་སྣང་(_I)"
 
-#: ../plug-ins/common/illusion.c:168
-#: ../plug-ins/common/illusion.c:385
+#: ../plug-ins/common/illusion.c:168 ../plug-ins/common/illusion.c:385
 msgid "Illusion"
 msgstr "འཁྲུལ་སྣང་།"
 
@@ -5039,8 +4753,7 @@ msgstr "གཏིང་ཚད་མང་མཐའ:(_x)"
 msgid "Thresho_ld:"
 msgstr "ཐེརེཤ་ཧཱོལ(_l)"
 
-#: ../plug-ins/common/iwarp.c:1219
-#: ../plug-ins/common/sinus.c:771
+#: ../plug-ins/common/iwarp.c:1219 ../plug-ins/common/sinus.c:771
 #: ../plug-ins/gflare/gflare.c:2793
 msgid "_Settings"
 msgstr "སྒྲིག་སྟངས་ཚུ(_S)"
@@ -5150,8 +4863,7 @@ msgstr "ཚོས་གཞི་གསལ་སྡུད་འཇུག་སྤ
 msgid "Apply default RGB profile"
 msgstr "ཨར་བི་ཇི་གསལ་སྡུད་སྔོན་སྒྲིག་འཇུག་སྤྱོད་འབད"
 
-#: ../plug-ins/common/lcms.c:247
-#: ../plug-ins/common/lcms.c:261
+#: ../plug-ins/common/lcms.c:247 ../plug-ins/common/lcms.c:261
 msgid "Color Profile Information"
 msgstr "ཚོས་གཞི་གསལ་སྡུད་བརྡ་དོན"
 
@@ -5160,8 +4872,7 @@ msgstr "ཚོས་གཞི་གསལ་སྡུད་བརྡ་དོན
 msgid "Could not open color profile from '%s'"
 msgstr " '%s' ནང་ལས་ཚོས་གཞི་གསལ་སྡུད་ཚུ་ཁ་ཕྱེ་མི་ཚུགས་པས།"
 
-#: ../plug-ins/common/lcms.c:470
-#: ../plug-ins/common/lcms.c:687
+#: ../plug-ins/common/lcms.c:470 ../plug-ins/common/lcms.c:687
 #, c-format
 msgid "Color profile '%s' is not for RGB color space."
 msgstr "ཚོས་གཞི་གསལ་སྡུད་'%s'འདི་ཨར་ཇི་བི་ཚོས་གཞི་བར་སྟོང་གི་དོན་ལུ་མེན"
@@ -5212,8 +4923,7 @@ msgstr "བདག་འཛིན་འབད་བཞག(_K)"
 msgid "_Convert"
 msgstr "གཞི་བསྒྱུར་(_C)"
 
-#: ../plug-ins/common/lcms.c:987
-#: ../plug-ins/jpeg/jpeg-exif.c:390
+#: ../plug-ins/common/lcms.c:987 ../plug-ins/jpeg/jpeg-exif.c:390
 msgid "_Don't ask me again"
 msgstr "ང་ལུ་ལོག་མ་འདྲི་(_D)"
 
@@ -5241,8 +4951,7 @@ msgstr "གཙོ་བོ་_ :"
 msgid "_Edge:"
 msgstr "མཐའམ_:"
 
-#: ../plug-ins/common/lens.c:959
-#: ../plug-ins/flame/flame.c:1213
+#: ../plug-ins/common/lens.c:959 ../plug-ins/flame/flame.c:1213
 msgid "_Zoom:"
 msgstr "རྒྱས་ཟུམ:(_Z)"
 
@@ -5258,8 +4967,7 @@ msgstr "ཨེགསི་_ ཚད་སོར་ལྡེ་:"
 msgid "_Y shift:"
 msgstr "ཝའི་_ སོར་ལྡེ:"
 
-#: ../plug-ins/common/lic.c:566
-#: ../plug-ins/common/lic.c:641
+#: ../plug-ins/common/lic.c:566 ../plug-ins/common/lic.c:641
 msgid "Van Gogh (LIC)"
 msgstr "བེན་གོག (ཨེལ་ཨའི་སི)"
 
@@ -5417,8 +5125,7 @@ msgstr "ཁྱབ་ཚད་གཞན་ཅིག་ལུ་ཚོས་གཞ
 msgid "Color Range _Mapping..."
 msgstr "ཚོས་གཞི་གི་ཁྱབ་ཚད་ས་ཁྲ་བཟོ་དོ...(_M)"
 
-#: ../plug-ins/common/mapcolor.c:214
-#: ../plug-ins/common/mapcolor.c:507
+#: ../plug-ins/common/mapcolor.c:214 ../plug-ins/common/mapcolor.c:507
 msgid "Cannot operate on gray or indexed color images."
 msgstr "སྐྱ་ཐལ་ཡང་ན་ཟུར་སྦྲགས་འབད་ཡོད་པའི་ཚོས་གཞིའི་གཟུགས་ཚུ་ལུ་བཀོལ་སྤྱོད་འབད་མི་བཏུབ།"
 
@@ -5443,10 +5150,8 @@ msgid "Destination Color Range"
 msgstr "འགྲོ་ཡུལ་ཚོས་གཞིའི་ཁྱབ་ཚད།"
 
 #. spinbutton 2
-#: ../plug-ins/common/mapcolor.c:424
-#: ../plug-ins/gfli/gfli.c:849
-#: ../plug-ins/gfli/gfli.c:919
-#: ../plug-ins/rcm/rcm_dialog.c:325
+#: ../plug-ins/common/mapcolor.c:424 ../plug-ins/gfli/gfli.c:849
+#: ../plug-ins/gfli/gfli.c:919 ../plug-ins/rcm/rcm_dialog.c:325
 #: ../plug-ins/rcm/rcm_dialog.c:378
 msgid "To:"
 msgstr "ལུ:"
@@ -5507,8 +5212,7 @@ msgstr "ཐིག་གི(_L)"
 msgid "_Radial"
 msgstr "འོད་ཟེར་གྱི(_R)"
 
-#: ../plug-ins/common/mblur.c:949
-#: ../plug-ins/imagemap/imap_menu.c:212
+#: ../plug-ins/common/mblur.c:949 ../plug-ins/imagemap/imap_menu.c:212
 msgid "_Zoom"
 msgstr "རྒྱས་ཟུམ(_Z)"
 
@@ -5524,15 +5228,13 @@ msgstr "རབ་རིབ་ཕྱི་ཕྱོགས(_o)"
 msgid "Blur Parameters"
 msgstr "རབ་རིབ་ཚད་བཟུང་ཚུ།"
 
-#: ../plug-ins/common/mblur.c:1036
-#: ../plug-ins/common/newsprint.c:1003
+#: ../plug-ins/common/mblur.c:1036 ../plug-ins/common/newsprint.c:1003
 msgid "_Angle:"
 msgstr "གྲུ་ཟུར(_A)"
 
 #. Inform the user that we couldn't losslessly save the
 #. * transparency & just use the full palette
-#: ../plug-ins/common/mng.c:499
-#: ../plug-ins/common/png.c:1729
+#: ../plug-ins/common/mng.c:499 ../plug-ins/common/png.c:1729
 msgid "Couldn't losslessly save transparency, saving opacity instead."
 msgstr "དྭངས་གསལ་ཅན་འདི་ ལོསི་ལེསི་སྦེ་སྲུང་བཞག་འབད་མ་ཚུགས་ ཚབ་ལུ་དྭངས་སྒྲིབ་སྲུང་བཞག་འབད་དོ།"
 
@@ -5608,8 +5310,7 @@ msgstr "སྔོན་སྒྲིག་གཞི་ཁྲམ་བཀོག་
 msgid "PNG compression level:"
 msgstr "པི་ཨེན་ཇི་ཨེབ་བཙུགས་འབད་ནིའི་གནས་རིམ:"
 
-#: ../plug-ins/common/mng.c:1462
-#: ../plug-ins/common/png.c:1876
+#: ../plug-ins/common/mng.c:1462 ../plug-ins/common/png.c:1876
 msgid "Choose a high compression level for small file size"
 msgstr "ཡིག་སྣོད་ཚད་ཆུང་ཀུའི་དོན་ལུ་ཨེབ་བཙུགས་གནས་རིམ་མཐོ་མི་ཅིག་གདམ་ཁ་རྐྱབས།"
 
@@ -5735,8 +5436,7 @@ msgstr "འོད་རྫས།"
 msgid "Neon Detection"
 msgstr "འོད་རྫས་སྐྱོན་འཛིན།"
 
-#: ../plug-ins/common/neon.c:745
-#: ../plug-ins/common/unsharp.c:694
+#: ../plug-ins/common/neon.c:745 ../plug-ins/common/unsharp.c:694
 msgid "_Amount:"
 msgstr "དངུལ་བསྡོམས་:(_A)"
 
@@ -5792,8 +5492,7 @@ msgstr "གནས་ཚུལ་ཤོག་ལེབ་བཟུམ་གྱི
 msgid "Newsprin_t..."
 msgstr "གནས་ཚུལ་དཔར་བསྐྲུན་་་(_t)"
 
-#: ../plug-ins/common/newsprint.c:629
-#: ../plug-ins/common/newsprint.c:1190
+#: ../plug-ins/common/newsprint.c:629 ../plug-ins/common/newsprint.c:1190
 msgid "Newsprint"
 msgstr "གནས་ཚུལ་དཔར་བསྐྲུན།"
 
@@ -5819,8 +5518,7 @@ msgid "C_ell size:"
 msgstr "ནང་ཐིག་གི་ཚད་:(_e)"
 
 #. screen settings
-#: ../plug-ins/common/newsprint.c:1300
-#: ../plug-ins/gflare/gflare.c:555
+#: ../plug-ins/common/newsprint.c:1300 ../plug-ins/gflare/gflare.c:555
 msgid "Screen"
 msgstr "གསལ་གཞི།"
 
@@ -5853,8 +5551,7 @@ msgid "_Factory Defaults"
 msgstr "འཕྲུལ་ཁང་སྔོན་སྒྲིག་ཚུ།(_F)"
 
 #. anti-alias control
-#: ../plug-ins/common/newsprint.c:1443
-#: ../plug-ins/gfig/gfig-dialog.c:1256
+#: ../plug-ins/common/newsprint.c:1443 ../plug-ins/gfig/gfig-dialog.c:1256
 msgid "Antialiasing"
 msgstr "ཨེན་ཊི་ཨེ་ལའི་སིང་།"
 
@@ -5870,8 +5567,7 @@ msgstr "ནོན་ལི་ནི་ཡར་ སིའུསི་ ཨར་�
 msgid "_NL Filter..."
 msgstr "ཨེན་ཨེལ་ཚགས་མ་...(_N)"
 
-#: ../plug-ins/common/nlfilt.c:954
-#: ../plug-ins/common/nlfilt.c:1017
+#: ../plug-ins/common/nlfilt.c:954 ../plug-ins/common/nlfilt.c:1017
 msgid "NL Filter"
 msgstr "ཨེན་ཨེལ་ཚགས་མ།"
 
@@ -5919,8 +5615,7 @@ msgstr "ཕན་ཚུན་འབྲེལ་བའི་རྩུབས་ས
 msgid "_Independent RGB"
 msgstr "རང་དབང་གི་ཨར་ཇི་བི།(_I)"
 
-#: ../plug-ins/common/noisify.c:520
-#: ../plug-ins/common/noisify.c:524
+#: ../plug-ins/common/noisify.c:520 ../plug-ins/common/noisify.c:524
 msgid "_Gray:"
 msgstr "སྐྱ་ཐལ་:(_G)"
 
@@ -5993,8 +5688,7 @@ msgstr "གདོང་ཁེབས་ཚད་:(_M)"
 msgid "_Use intensity"
 msgstr "དྲགས་ཤུགས་ ལག་ལེན་འཐབ།(_U)"
 
-#: ../plug-ins/common/papertile.c:234
-#: ../plug-ins/common/papertile.c:533
+#: ../plug-ins/common/papertile.c:234 ../plug-ins/common/papertile.c:533
 msgid "Paper Tile"
 msgstr "ཤོག་ལེབ་ཊ་ཡིལ།"
 
@@ -6074,8 +5768,7 @@ msgstr "སྤྱི་ཟླ་དགུ་པ་ ༣༡་ ༡༩༩༩།"
 msgid "_Paper Tile..."
 msgstr "ཤོག་ལེབ་ ཊ་ཡིལ་་་་་(_P)"
 
-#: ../plug-ins/common/pat.c:121
-#: ../plug-ins/common/pat.c:143
+#: ../plug-ins/common/pat.c:121 ../plug-ins/common/pat.c:143
 msgid "GIMP pattern"
 msgstr "ཇི་ཨའི་ཨེམ་པི་ དཔེ་གཞི།"
 
@@ -6088,8 +5781,7 @@ msgstr "དཔེ་གཞི་ཡིག་སྣོད་ '%s' ནང་ ན�
 msgid "Save as Pattern"
 msgstr "དཔེ་གཞི་བཟུབ་སྦེ་ སྲུངས།"
 
-#: ../plug-ins/common/pcx.c:147
-#: ../plug-ins/common/pcx.c:166
+#: ../plug-ins/common/pcx.c:147 ../plug-ins/common/pcx.c:166
 msgid "ZSoft PCX image"
 msgstr "ཛེཌི་སོཕཊི་ པི་སི་ཨེགསི་ གཟུགས་བརྙན།"
 
@@ -6119,8 +5811,7 @@ msgstr "ངོ་བཤུས་བརྐྱབ་ནི་་་་(_P)"
 msgid "Photocopy"
 msgstr "ངོ་བཤུས་བརྐྱབ་ནི།"
 
-#: ../plug-ins/common/photocopy.c:890
-#: ../plug-ins/common/sharpen.c:514
+#: ../plug-ins/common/photocopy.c:890 ../plug-ins/common/sharpen.c:514
 #: ../plug-ins/common/softglow.c:695
 msgid "_Sharpness:"
 msgstr "རྣོ་ཅན་:(_S)"
@@ -6133,8 +5824,7 @@ msgstr "བརྒྱ་ཆ་གནགཔོ་:(_b)"
 msgid "Percent _white:"
 msgstr "བརྒྱ་ཆ་དཀརཔོ་:(_w)"
 
-#: ../plug-ins/common/pix.c:140
-#: ../plug-ins/common/pix.c:157
+#: ../plug-ins/common/pix.c:140 ../plug-ins/common/pix.c:157
 msgid "Alias Pix image"
 msgstr "པར་གཟུགས་བརྙན་མིང་གཞན་ཚུ།"
 
@@ -6170,8 +5860,7 @@ msgstr "གང་འབྱུང་ པ་ལསི་མ་ རེག་བྱ�
 msgid "_Plasma..."
 msgstr "པ་ལསི་མ་་་་(_P)"
 
-#: ../plug-ins/common/plasma.c:265
-#: ../plug-ins/common/plasma.c:302
+#: ../plug-ins/common/plasma.c:265 ../plug-ins/common/plasma.c:302
 msgid "Plasma"
 msgstr "པ་ལསི་མ།"
 
@@ -6248,10 +5937,8 @@ msgstr "ཐོ་ཡིག་མཐོང་སྣང་།"
 msgid "Tree View"
 msgstr "རྩ་འགྲེལ་མཐོང་སྣང་།"
 
-#: ../plug-ins/common/png.c:261
-#: ../plug-ins/common/png.c:282
-#: ../plug-ins/common/png.c:304
-#: ../plug-ins/common/png.c:323
+#: ../plug-ins/common/png.c:261 ../plug-ins/common/png.c:282
+#: ../plug-ins/common/png.c:304 ../plug-ins/common/png.c:323
 msgid "PNG image"
 msgstr "པི་ཨེན་ཇི་ གཟུགས་བརྙན།"
 
@@ -6348,12 +6035,9 @@ msgstr "པི་ཇི་ཨེམ་ གཟུགས་བརྙན།"
 msgid "PPM image"
 msgstr "པི་པི་ཨེམ་ གཟུགས་བརྙན།"
 
-#: ../plug-ins/common/pnm.c:511
-#: ../plug-ins/common/pnm.c:533
-#: ../plug-ins/common/pnm.c:540
-#: ../plug-ins/common/pnm.c:549
-#: ../plug-ins/common/pnm.c:624
-#: ../plug-ins/common/pnm.c:685
+#: ../plug-ins/common/pnm.c:511 ../plug-ins/common/pnm.c:533
+#: ../plug-ins/common/pnm.c:540 ../plug-ins/common/pnm.c:549
+#: ../plug-ins/common/pnm.c:624 ../plug-ins/common/pnm.c:685
 msgid "Premature end of file."
 msgstr "ཡིག་སྣོད་ཀྱི་མ་རན་པའི་མཇུག"
 
@@ -6455,8 +6139,7 @@ msgstr "འབག་བཏུབ་པའི་ཡིག་ཆ་རྩ་སྒ
 msgid "%s-%s"
 msgstr "%s-%s"
 
-#: ../plug-ins/common/poppler.c:454
-#: ../plug-ins/common/postscript.c:1109
+#: ../plug-ins/common/poppler.c:454 ../plug-ins/common/postscript.c:1109
 #, c-format
 msgid "%s-pages"
 msgstr "%s-ཤོག་ལེབ་ཚུ།"
@@ -6465,8 +6148,7 @@ msgstr "%s-ཤོག་ལེབ་ཚུ།"
 msgid "Import from PDF"
 msgstr "པི་ཌི་ཨེཕི་ནང་ལས་ནང་འདྲེན་འབད།"
 
-#: ../plug-ins/common/poppler.c:655
-#: ../plug-ins/common/postscript.c:3057
+#: ../plug-ins/common/poppler.c:655 ../plug-ins/common/postscript.c:3057
 msgid "_Import"
 msgstr "ནང་འདྲེན།(_I)"
 
@@ -6478,8 +6160,7 @@ msgstr "རྒྱ་ཚད་(པིག་སེལསི་):(_W)"
 msgid "_Height (pixels):"
 msgstr "མཐོ་ཚད་(པིག་སེལསི་):(_H)"
 
-#: ../plug-ins/common/poppler.c:720
-#: ../plug-ins/common/poppler.c:721
+#: ../plug-ins/common/poppler.c:720 ../plug-ins/common/poppler.c:721
 msgid "_Resolution:"
 msgstr "ཧུམ་ཆ་:(_R)"
 
@@ -6488,13 +6169,11 @@ msgstr "ཧུམ་ཆ་:(_R)"
 msgid "A_ntialiasing"
 msgstr "ཨེན་ཊི་ཨེ་ལའིསིང་།(_A)"
 
-#: ../plug-ins/common/postscript.c:597
-#: ../plug-ins/common/postscript.c:689
+#: ../plug-ins/common/postscript.c:597 ../plug-ins/common/postscript.c:689
 msgid "PostScript document"
 msgstr "པོསིཊི་སིཀིརིཔཊི་ཡིག་ཆ།"
 
-#: ../plug-ins/common/postscript.c:616
-#: ../plug-ins/common/postscript.c:705
+#: ../plug-ins/common/postscript.c:616 ../plug-ins/common/postscript.c:705
 msgid "Encapsulated PostScript image"
 msgstr "བསྡུས་དོན་བཀོད་ཡོད་པའི་ པོསིཊི་སིཀིརིཔཊི་གཟུགས་བརྙན།"
 
@@ -6511,8 +6190,7 @@ msgstr " '%s' འདི་ཁ་བསྒྱུར་འབད་མ་ཚུག
 msgid "PostScript save cannot handle images with alpha channels"
 msgstr "པོསིཊི་སིཀིརིཔཊི་སྲུང་བཞག་གིས་ ཨཱལ་ཕ་རྒྱུ་ལམ་གྱི་ཐོག་ལས་ གཟུགས་བརྙན་ཚུ་ལེགས་སྐྱོང་འཐབ་མ་ཚུགས།"
 
-#: ../plug-ins/common/postscript.c:1701
-#: ../plug-ins/common/postscript.c:1731
+#: ../plug-ins/common/postscript.c:1701 ../plug-ins/common/postscript.c:1731
 #, c-format
 msgid ""
 "Error starting Ghostscript. Make sure that Ghostscript is installed and - if necessary - use the environment variable GS_PROG to tell GIMP about its location.\n"
@@ -6521,20 +6199,15 @@ msgstr ""
 "གྲིབ་ཡིག་འགོ་བཙུགས་ཐངས་འཛོལ་བ། གྲིབ་ཡིག་དེ་གཞི་བཙུགས་འབད་ཡོདཔ་ངེས་ཏིགདང་ - ཉེར་མཁོ་ཡོད་པ་ཅིན་ -མཐའ་འཁོར་འགྱུར་ཅན་ ཇི་ཨེསི_པི་ཨར་ཨོ་ཆི་ཇི་ཨའི་ཨེམ་པི་ལུ་གནས་ཁོངས་འདིའི་སླབ་ནི་ལུ་ལག་ལེན་འཐབ།\n"
 "(%s)"
 
-#: ../plug-ins/common/postscript.c:1895
-#: ../plug-ins/common/tiff.c:947
+#: ../plug-ins/common/postscript.c:1895 ../plug-ins/common/tiff.c:947
 #, c-format
 msgid "Page %d"
 msgstr "ཤོག་ལེབ་%d"
 
-#: ../plug-ins/common/postscript.c:2563
-#: ../plug-ins/common/postscript.c:2696
-#: ../plug-ins/common/postscript.c:2848
-#: ../plug-ins/common/postscript.c:2977
-#: ../plug-ins/common/sunras.c:1446
-#: ../plug-ins/common/sunras.c:1554
-#: ../plug-ins/fits/fits.c:828
-#: ../plug-ins/fits/fits.c:952
+#: ../plug-ins/common/postscript.c:2563 ../plug-ins/common/postscript.c:2696
+#: ../plug-ins/common/postscript.c:2848 ../plug-ins/common/postscript.c:2977
+#: ../plug-ins/common/sunras.c:1446 ../plug-ins/common/sunras.c:1554
+#: ../plug-ins/fits/fits.c:828 ../plug-ins/fits/fits.c:952
 msgid "Write error occurred"
 msgstr "བྱུང་ཡོད་པའི་འཛོལ་བ་ བྲིས།"
 
@@ -6548,8 +6221,7 @@ msgid "Rendering"
 msgstr "ལྷག་སྟོན།"
 
 #. Resolution
-#: ../plug-ins/common/postscript.c:3109
-#: ../plug-ins/common/svg.c:880
+#: ../plug-ins/common/postscript.c:3109 ../plug-ins/common/svg.c:880
 #: ../plug-ins/common/wmf.c:670
 msgid "Resolution:"
 msgstr "ཧུམ་ཆ་:"
@@ -6588,22 +6260,19 @@ msgstr "ཚོན་མདངས་བཟོ་བ།"
 msgid "B/W"
 msgstr "བི་/ཌབ་ལུ།"
 
-#: ../plug-ins/common/postscript.c:3186
-#: ../plug-ins/imagemap/imap_menu.c:223
+#: ../plug-ins/common/postscript.c:3186 ../plug-ins/imagemap/imap_menu.c:223
 #: ../plug-ins/rcm/rcm_dialog.c:419
 msgid "Gray"
 msgstr "སྐྱ་ཐལ།"
 
-#: ../plug-ins/common/postscript.c:3187
-#: ../plug-ins/common/xpm.c:468
+#: ../plug-ins/common/postscript.c:3187 ../plug-ins/common/xpm.c:468
 #: ../plug-ins/gimpressionist/color.c:48
 #: ../plug-ins/gimpressionist/general.c:152
 #: ../plug-ins/imagemap/imap_menu.c:222
 msgid "Color"
 msgstr "ཚོས་གཞི།"
 
-#: ../plug-ins/common/postscript.c:3188
-#: ../plug-ins/fits/fits.c:1007
+#: ../plug-ins/common/postscript.c:3188 ../plug-ins/fits/fits.c:1007
 msgid "Automatic"
 msgstr "རང་བཞིན་གྱི།"
 
@@ -6611,13 +6280,11 @@ msgstr "རང་བཞིན་གྱི།"
 msgid "Text antialiasing"
 msgstr "ཚིག་ཡིག་ ཨེན་ཊི་ཨེ་ལའིསིང་།"
 
-#: ../plug-ins/common/postscript.c:3203
-#: ../plug-ins/common/postscript.c:3215
+#: ../plug-ins/common/postscript.c:3203 ../plug-ins/common/postscript.c:3215
 msgid "Weak"
 msgstr "ནུས་མེད།"
 
-#: ../plug-ins/common/postscript.c:3204
-#: ../plug-ins/common/postscript.c:3216
+#: ../plug-ins/common/postscript.c:3204 ../plug-ins/common/postscript.c:3216
 msgid "Strong"
 msgstr "སྒྲིང་སྒྲིང་།"
 
@@ -6769,8 +6436,7 @@ msgstr "'%s' སྲུངས་མ་ཚུགས། པི་ཨེསི་ཌ
 msgid "Unable to save '%s'.  The psd file format does not support images with layers that are more than 30000 pixels wide or tall."
 msgstr "'%s' སྲུངས་མ་ཚུགས། པི་ཨེསི་ཌི་ཡིག་སྣོད་རྩ་སྒྲིག་འདི་གིས་ རྒྱ་ཅན་ ཡང་ན་ མཐོ་ཚད་ ༣༠༠༠༠ པིག་སེལསི་འབད་མི་གཟུགས་བརྙན་འདི་བང་རིམ་དང་བཅས་ རྒྱབ་སྐྱོར་མི་འབད།"
 
-#: ../plug-ins/common/psp.c:356
-#: ../plug-ins/common/psp.c:380
+#: ../plug-ins/common/psp.c:356 ../plug-ins/common/psp.c:380
 msgid "Paint Shop Pro image"
 msgstr "པོརོ་གཟུགས་བརྙན་གྱི་ཚོང་ཁང་ ཚོན་གཏང་།"
 
@@ -6827,8 +6493,7 @@ msgstr "པིག་་་་(_P)"
 msgid "_Slur..."
 msgstr "སི་ལར་་་་(_S)"
 
-#: ../plug-ins/common/randomize.c:744
-#: ../plug-ins/common/snoise.c:601
+#: ../plug-ins/common/randomize.c:744 ../plug-ins/common/snoise.c:601
 msgid "_Random seed:"
 msgstr "གང་འབྱུང་སོན་:(_R)"
 
@@ -6848,8 +6513,7 @@ msgstr "ཡང་བསྐྱར་:(_e)"
 msgid "Number of times to apply filter"
 msgstr "ཚགས་མ་འཇུག་སྤྱོད་འབད་ནི་ལུ་ བསྐོར་ཐེངས་ཀྱི་གྲངས།"
 
-#: ../plug-ins/common/raw.c:179
-#: ../plug-ins/common/raw.c:194
+#: ../plug-ins/common/raw.c:179 ../plug-ins/common/raw.c:194
 msgid "Raw image data"
 msgstr "རགས་པའི་གཟུགས་བརྙན་གནད་སྡུད།"
 
@@ -6857,8 +6521,7 @@ msgstr "རགས་པའི་གཟུགས་བརྙན་གནད་ས
 msgid "Load Image from Raw Data"
 msgstr "རགས་པ་གནད་སྡུད་ནང་ལས་ མངོན་གསལ་གཟུགས་བརྙན།"
 
-#: ../plug-ins/common/raw.c:992
-#: ../plug-ins/print/print.c:189
+#: ../plug-ins/common/raw.c:992 ../plug-ins/print/print.c:189
 msgid "Image"
 msgstr "གཟུགས་བརྙན།"
 
@@ -6886,13 +6549,11 @@ msgstr "གཟུགས་བརྙན་གྱི་དབྱེ་བ་:(_T)"
 msgid "Palette"
 msgstr "པེ་ལེཊི།"
 
-#: ../plug-ins/common/raw.c:1071
-#: ../plug-ins/common/raw.c:1170
+#: ../plug-ins/common/raw.c:1071 ../plug-ins/common/raw.c:1170
 msgid "R, G, B (normal)"
 msgstr "ཨར་ ཇི་ བི་(སྤྱིར་གཏང་)།"
 
-#: ../plug-ins/common/raw.c:1072
-#: ../plug-ins/common/raw.c:1172
+#: ../plug-ins/common/raw.c:1072 ../plug-ins/common/raw.c:1172
 msgid "B, G, R, X (BMP style)"
 msgstr "བི་, ཇི་, ཨར་, ཨེགསི་(བི་ཨེམ་པི་ བཟོ་རྣམ་)།"
 
@@ -7192,8 +6853,7 @@ msgstr "ཝིན་ཌོ་གསལ་འཐུ་འབད་བའི་བ
 msgid "Importing screenshot"
 msgstr "གསལ་གཞིའི་པར་ནང་འདྲེན་འབད་དོ།"
 
-#: ../plug-ins/common/screenshot.c:739
-#: ../plug-ins/common/screenshot.c:907
+#: ../plug-ins/common/screenshot.c:739 ../plug-ins/common/screenshot.c:907
 msgid "Screenshot"
 msgstr "གསལ་གཞིའི་པར།"
 
@@ -7260,8 +6920,7 @@ msgstr "རབ་རིབ་ཁྱིམ་མཚེས་པིག་སེལ
 msgid "_Selective Gaussian Blur..."
 msgstr "སུལ་འཐུ་ཅན་གྱི་གའོ་སན་རབ་རིབ།...(_S)"
 
-#: ../plug-ins/common/sel_gauss.c:197
-#: ../plug-ins/common/sel_gauss.c:234
+#: ../plug-ins/common/sel_gauss.c:197 ../plug-ins/common/sel_gauss.c:234
 msgid "Selective Gaussian Blur"
 msgstr "སུལ་འཐུ་ཅན་གྱི་གའོ་སན་རབ་རིབ།"
 
@@ -7386,8 +7045,7 @@ msgstr "ཕུལ་འབྱུང་གི།(_I)"
 msgid "_Distorted"
 msgstr "བཟོ་ཉེས་བཟོ་ཡོདཔ།(_D)"
 
-#: ../plug-ins/common/sinus.c:782
-#: ../plug-ins/common/sinus.c:798
+#: ../plug-ins/common/sinus.c:782 ../plug-ins/common/sinus.c:798
 #: ../plug-ins/imagemap/imap_preferences.c:422
 msgid "Colors"
 msgstr "ཚོས་གཞི་ཚུ།"
@@ -7486,8 +7144,7 @@ msgid "_Solid Noise..."
 msgstr "རྐྱང་རྩེད་རྩུབས་སྒྲ།(_S)"
 
 #. Dialog initialization
-#: ../plug-ins/common/snoise.c:317
-#: ../plug-ins/common/snoise.c:563
+#: ../plug-ins/common/snoise.c:317 ../plug-ins/common/snoise.c:563
 msgid "Solid Noise"
 msgstr "རྐྱང་རྩེད་རྩུབས་སྒྲ།"
 
@@ -7909,8 +7566,7 @@ msgstr "གཡོན་མཇུག (_B)"
 msgid "Bottom-_right"
 msgstr "གཡས་མཇུག (_r)"
 
-#: ../plug-ins/common/sunras.c:216
-#: ../plug-ins/common/sunras.c:236
+#: ../plug-ins/common/sunras.c:216 ../plug-ins/common/sunras.c:236
 msgid "SUN Rasterfile image"
 msgstr "སཱན་རསི་ཊར་ཡིག་སྣོད་གཟུགས་བརྙན།"
 
@@ -7944,16 +7600,11 @@ msgstr "སཱན་རསི་སྲུངས་བཞག་གིས་ཨཱ
 msgid "Can't operate on unknown image types"
 msgstr "མ་ཤེས་པའི་གཟུགས་བརྙན་དབྱེ་བ་ཚུ་བཀོལ་སྤྱོད་འབད་མི་བཏབ་པས།"
 
-#: ../plug-ins/common/sunras.c:1024
-#: ../plug-ins/common/sunras.c:1115
-#: ../plug-ins/common/sunras.c:1196
-#: ../plug-ins/common/sunras.c:1291
-#: ../plug-ins/common/xwd.c:1299
-#: ../plug-ins/common/xwd.c:1400
-#: ../plug-ins/common/xwd.c:1558
-#: ../plug-ins/common/xwd.c:1758
-#: ../plug-ins/common/xwd.c:2015
-#: ../plug-ins/fits/fits.c:675
+#: ../plug-ins/common/sunras.c:1024 ../plug-ins/common/sunras.c:1115
+#: ../plug-ins/common/sunras.c:1196 ../plug-ins/common/sunras.c:1291
+#: ../plug-ins/common/xwd.c:1299 ../plug-ins/common/xwd.c:1400
+#: ../plug-ins/common/xwd.c:1558 ../plug-ins/common/xwd.c:1758
+#: ../plug-ins/common/xwd.c:2015 ../plug-ins/fits/fits.c:675
 msgid "EOF encountered on reading"
 msgstr "ལྷབ་ད་ལུ་ ཨི་ཨོ་ཨེཕ་ གདོང་ཐུག་བྱུང་ཡོདཔ།"
 
@@ -7974,8 +7625,7 @@ msgstr "གཡོག་བཀོལ་རིང་ཚད་ཨིན་ཀོཌ
 msgid "SVG image"
 msgstr "ཨེསི་ཝི་ཇི གཟུགས་བརྙན།"
 
-#: ../plug-ins/common/svg.c:318
-#: ../plug-ins/common/svg.c:688
+#: ../plug-ins/common/svg.c:318 ../plug-ins/common/svg.c:688
 msgid "Unknown reason"
 msgstr "རྒྱུ་མཚན་མ་ཤེསཔ།"
 
@@ -7995,8 +7645,7 @@ msgstr ""
 "ཨེསི་ཝི་ཇི་ཡིག་སྣོད་ཀྱི་ \n"
 "ཚད་གསལ་བཀོད་མི་འབད!"
 
-#: ../plug-ins/common/svg.c:490
-#: ../plug-ins/common/wmf.c:338
+#: ../plug-ins/common/svg.c:490 ../plug-ins/common/wmf.c:338
 #, c-format
 msgid "%d × %d"
 msgstr "%d × %d"
@@ -8006,28 +7655,23 @@ msgstr "%d × %d"
 msgid "Render Scalable Vector Graphics"
 msgstr "ཚད་ཤིང་བཏུབ་པའི་མཉམ་ཐིག་ཚད་རིས་ཚུ་ལྷག་སྟོན་འབད།"
 
-#: ../plug-ins/common/svg.c:765
-#: ../plug-ins/common/wmf.c:555
+#: ../plug-ins/common/svg.c:765 ../plug-ins/common/wmf.c:555
 msgid "Height:"
 msgstr "མཐོ་ཚད།"
 
-#: ../plug-ins/common/svg.c:839
-#: ../plug-ins/common/wmf.c:629
+#: ../plug-ins/common/svg.c:839 ../plug-ins/common/wmf.c:629
 msgid "_X ratio:"
 msgstr "ཨེགསི་ དཔྱ་ཚད།(_X)"
 
-#: ../plug-ins/common/svg.c:861
-#: ../plug-ins/common/wmf.c:651
+#: ../plug-ins/common/svg.c:861 ../plug-ins/common/wmf.c:651
 msgid "_Y ratio:"
 msgstr "ཝའི་ དཔྱ་ཚད།(_Y)"
 
-#: ../plug-ins/common/svg.c:875
-#: ../plug-ins/common/wmf.c:665
+#: ../plug-ins/common/svg.c:875 ../plug-ins/common/wmf.c:665
 msgid "Constrain aspect ratio"
 msgstr "དམ་ནི་རྣམ་པ་དཔྱ་ཚད།"
 
-#: ../plug-ins/common/svg.c:886
-#: ../plug-ins/common/wmf.c:676
+#: ../plug-ins/common/svg.c:886 ../plug-ins/common/wmf.c:676
 #: ../plug-ins/print/print-page-layout.c:261
 #, c-format
 msgid "pixels/%a"
@@ -8046,8 +7690,7 @@ msgstr "ཨེསི་ཝི་ཇི་གིས་ཇི་ཨའི་ཨེ
 msgid "Merge imported paths"
 msgstr "ནང་འདྲེན་འབད་ཡོད་པའི་འགྲུལ་ལམ་ཚུ་མཉམ་བསྡོམས་འབད།"
 
-#: ../plug-ins/common/tga.c:229
-#: ../plug-ins/common/tga.c:245
+#: ../plug-ins/common/tga.c:229 ../plug-ins/common/tga.c:245
 msgid "TarGA image"
 msgstr "ཊར་ག་གཟུགས་བརྙན།"
 
@@ -8103,8 +7746,7 @@ msgstr "ཐེརེཤ་ཧཱོལ་ ཨཱལ་ཕ།"
 msgid "Threshold:"
 msgstr "ཐེརེཤ་ཧཱོལ།"
 
-#: ../plug-ins/common/tiff.c:242
-#: ../plug-ins/common/tiff.c:263
+#: ../plug-ins/common/tiff.c:242 ../plug-ins/common/tiff.c:263
 #: ../plug-ins/common/tiff.c:280
 msgid "TIFF image"
 msgstr "ཊི་ཨའི་ཨེཕ་ཨེཕ་་གཟུགས་བརྙན།"
@@ -8116,7 +7758,7 @@ msgstr "ཊི་ཨའི་ཨེཕ་ཨེཕ་ རྒྱུ་ལམ།"
 #: ../plug-ins/common/tiff.c:972
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 bit, so it will be converted for you. Information will be lost because of this conversion."
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 bit, so it will be converted for you. Information will be lost because of this conversion."
 msgstr ""
 "ཉེན་བརྡ་\n"
 "ཁྱོད་ཀྱིས་མངོན་གསལ་འབད་མི་གཟུགས་བརྙན་ནང་ལུ་རྒྱུ་ལམ་རེ་རེ་ལུ་བིཊིསི་ ༡༦ རེ་ཡོདཔ་ཨིན། ཁྱོད་ཀྱི་གཞི་བསྒྱུར་འབད་ནིའི་དོན་ལུ་ ཇི་ཨའི་ཨེམ་པི་ གིས་བིཊི་ ༨ རྐྱངམ་ཅིག་ལེགས་སྐྱོང་འབད་བཏུབ། འ་ནི་གཞི་བསྒྱུར་འདི་གིས་འབད་བརྡ་དོན་འདི་བརླག་སྟོར་ཞུགས་ནི་ཨིན།"
@@ -8170,8 +7812,7 @@ msgstr "སི་སི་ཨའི་ཀྲི་ཀྲི་སྡེ་ཚན
 msgid "Save _color values from transparent pixels"
 msgstr "དྭངས་གསལ་པིག་སེལ་ཚུ་ནང་ལས་ཚོས་གཞི་གནས་གོང་ཚུ་སྲུངས།"
 
-#: ../plug-ins/common/tiff.c:2595
-#: ../plug-ins/common/xbm.c:1213
+#: ../plug-ins/common/tiff.c:2595 ../plug-ins/common/xbm.c:1213
 msgid "Comment:"
 msgstr "བསམ་བཀོད།:"
 
@@ -8184,8 +7825,7 @@ msgid "_Tile..."
 msgstr "ཊ་ཡིལ།...(_T)"
 
 #. Set the tile cache size
-#: ../plug-ins/common/tile.c:191
-#: ../plug-ins/common/tileit.c:320
+#: ../plug-ins/common/tile.c:191 ../plug-ins/common/tileit.c:320
 msgid "Tiling"
 msgstr "ཊ་ཡིལ་ལིང་།"
 
@@ -8220,8 +7860,7 @@ msgstr "ཊ་ཡིལསི་ཆུང་ཀུ།"
 
 #. Area for buttons etc
 #. Flip
-#: ../plug-ins/common/tileit.c:413
-#: ../plug-ins/ifscompose/ifscompose.c:609
+#: ../plug-ins/common/tileit.c:413 ../plug-ins/ifscompose/ifscompose.c:609
 msgid "Flip"
 msgstr "མྱུར་ལྷོག"
 
@@ -8450,8 +8089,7 @@ msgstr "ཕུ་ཛི་དང་ དམའ-ཧུམ་ཆ་ལྟ་རྟ�
 msgid "Vi_deo..."
 msgstr "ཝི་ཌོའོ།(_d)"
 
-#: ../plug-ins/common/video.c:1885
-#: ../plug-ins/common/video.c:2016
+#: ../plug-ins/common/video.c:1885 ../plug-ins/common/video.c:2016
 msgid "Video"
 msgstr "ཝི་ཌོའོ།"
 
@@ -8536,8 +8174,7 @@ msgstr "གཟུགས་བརྙན་དེ་གི་མངའ་ཁོང
 msgid "_Dilate"
 msgstr "འཕེལ་རྒྱས།(_D)"
 
-#: ../plug-ins/common/vpropagate.c:475
-#: ../plug-ins/common/vpropagate.c:1065
+#: ../plug-ins/common/vpropagate.c:475 ../plug-ins/common/vpropagate.c:1065
 msgid "Value Propagate"
 msgstr "གནས་གོང་འཕེལ་རྒྱས།"
 
@@ -8621,10 +8258,8 @@ msgstr "ལོག་མཚམས་བཟོ་ནི།"
 msgid "Smear"
 msgstr "བྱུག"
 
-#: ../plug-ins/common/warp.c:502
-#: ../plug-ins/fits/fits.c:995
-#: ../plug-ins/flame/flame.c:1151
-#: ../plug-ins/gfig/gfig-dialog.c:1460
+#: ../plug-ins/common/warp.c:502 ../plug-ins/fits/fits.c:995
+#: ../plug-ins/flame/flame.c:1151 ../plug-ins/gfig/gfig-dialog.c:1460
 msgid "Black"
 msgstr "གནགཔོ།"
 
@@ -8678,8 +8313,7 @@ msgid "Vector mag:"
 msgstr "མཉམ་ཐིག་ མེག:"
 
 #. Angle
-#: ../plug-ins/common/warp.c:688
-#: ../plug-ins/ifscompose/ifscompose.c:567
+#: ../plug-ins/common/warp.c:688 ../plug-ins/ifscompose/ifscompose.c:567
 msgid "Angle:"
 msgstr "གྲ྄་ཟུར:"
 
@@ -8858,8 +8492,7 @@ msgstr "གཉིས་ཆ་རང་།(_h)"
 msgid "Higher values restrict the effect to fewer areas of the image"
 msgstr "གནས་གོང་མཐོ་སུ་ཡོད་མི་ཚུ་གིས་ གཟུགས་བརྙན་གྱི་མངའ་ཁོངས་ཉུང་མི་ལུ་ ནུས་པ་བྱུང་ནི་ལས་ བཀག་དམ་འབདཝ་ཨིན།"
 
-#: ../plug-ins/common/wind.c:1027
-#: ../plug-ins/gimpressionist/orientmap.c:676
+#: ../plug-ins/common/wind.c:1027 ../plug-ins/gimpressionist/orientmap.c:676
 msgid "_Strength:"
 msgstr "སྟོབས་ཤུགས:"
 
@@ -8883,8 +8516,7 @@ msgstr ""
 msgid "Render Windows Metafile"
 msgstr "སྒོ་སྒྲིག་གི་ མེ་ཊ་ཕ་ཡིལ་ལྷག་སྟོན་འབད།"
 
-#: ../plug-ins/common/wmf.c:949
-#: ../plug-ins/sgi/sgi.c:313
+#: ../plug-ins/common/wmf.c:949 ../plug-ins/sgi/sgi.c:313
 #, c-format
 msgid "Could not open '%s' for reading."
 msgstr "ལྷག་ནིའི་དོན་ལུ་'%s'དེ་ཁ་ཕྱེ་མ་ཚུགས།"
@@ -8893,8 +8525,7 @@ msgstr "ལྷག་ནིའི་དོན་ལུ་'%s'དེ་ཁ་ཕ�
 msgid "Rendered WMF"
 msgstr "ལྷག་སྟོན་འབད་ཡོད་པའི་ ཌབ་ལུ་ཨེམ་ཨེཕ།"
 
-#: ../plug-ins/common/xbm.c:172
-#: ../plug-ins/common/xbm.c:190
+#: ../plug-ins/common/xbm.c:172 ../plug-ins/common/xbm.c:190
 msgid "X BitMap image"
 msgstr "ཨེགསི་ བིཊི་མེབ་ གངཟུགས་བརྙན།"
 
@@ -8997,8 +8628,7 @@ msgstr "གདོང་ཁེབ་ཡིག་སྣོད་ཐེབས་བ
 msgid "_Mask file extension:"
 msgstr "གདོང་ཁེབས་ཡིག་སྣོད་ཀྱི་རྒྱ་བསྐྱེད:(_M)"
 
-#: ../plug-ins/common/xpm.c:173
-#: ../plug-ins/common/xpm.c:198
+#: ../plug-ins/common/xpm.c:173 ../plug-ins/common/xpm.c:198
 msgid "X PixMap image"
 msgstr "ཨེགསི་ པིགསི་མེབ་ གཟུགས་བརྙན།"
 
@@ -9019,8 +8649,7 @@ msgstr "ཨེགསི་པི་ཨེམ་ བཟུམ་སྦེ་ས�
 msgid "_Alpha threshold:"
 msgstr "ཨཱལ་ཕ་ཐེརེཤ་ཧཱོལ:(_A)"
 
-#: ../plug-ins/common/xwd.c:276
-#: ../plug-ins/common/xwd.c:296
+#: ../plug-ins/common/xwd.c:276 ../plug-ins/common/xwd.c:296
 msgid "X window dump"
 msgstr "ཨེགསི་སྒྲོ་སྒྲིག་བཀོག་བཞག་ནི།"
 
@@ -9070,8 +8699,7 @@ msgstr "བཏོག་བཅོས་འབད་ནི་གི་དོན་
 msgid "G3 fax image"
 msgstr "ཇི་༣་དཔར་འཕྲིན་ གཟུགས་བརྙན།"
 
-#: ../plug-ins/fits/fits.c:163
-#: ../plug-ins/fits/fits.c:183
+#: ../plug-ins/fits/fits.c:163 ../plug-ins/fits/fits.c:183
 msgid "Flexible Image Transport System"
 msgstr "འཇམ་མཉེན་ཅན་གྱི་གཟུགས་བརྙན་སྐྱེལ་འདྲེན་གྱི་རིམ་ལུགས།"
 
@@ -9095,8 +8723,7 @@ msgstr "ཕིཊིསི་ཡིག་སྣོད་དེ་ མངོན�
 msgid "Replacement for undefined pixels"
 msgstr "ངོས་འཛིན་མ་འབད་བར་ཡོད་མི་པིག་སེལ་ཚུ་ལུ་ ཚབ་མ།"
 
-#: ../plug-ins/fits/fits.c:996
-#: ../plug-ins/gfig/gfig-dialog.c:1286
+#: ../plug-ins/fits/fits.c:996 ../plug-ins/gfig/gfig-dialog.c:1286
 #: ../plug-ins/gfig/gfig-dialog.c:1461
 msgid "White"
 msgstr "དཀརཔོ།"
@@ -9158,8 +8785,7 @@ msgstr "གང་བྱུང་སྦེ་བཟོ།(_R)"
 msgid "Same"
 msgstr "གཅིག་པ།"
 
-#: ../plug-ins/flame/flame.c:745
-#: ../plug-ins/gimpressionist/orientation.c:146
+#: ../plug-ins/flame/flame.c:745 ../plug-ins/gimpressionist/orientation.c:146
 #: ../plug-ins/gimpressionist/size.c:149
 msgid "Random"
 msgstr "གང་བྱུང་།"
@@ -9172,8 +8798,7 @@ msgstr "འཁོར་ཚུབ།"
 msgid "Horseshoe"
 msgstr "རྨག་ལྕགས།"
 
-#: ../plug-ins/flame/flame.c:751
-#: ../plug-ins/gfig/gfig-dialog.c:1442
+#: ../plug-ins/flame/flame.c:751 ../plug-ins/gfig/gfig-dialog.c:1442
 msgid "Polar"
 msgstr "ལྷོ་རྩེའི།"
 
@@ -9327,8 +8952,7 @@ msgstr "འབད་བཤོལ།(_U)"
 msgid "_Clear"
 msgstr "བསལ།(_C)"
 
-#: ../plug-ins/gfig/gfig-dialog.c:878
-#: ../plug-ins/imagemap/imap_menu.c:218
+#: ../plug-ins/gfig/gfig-dialog.c:878 ../plug-ins/imagemap/imap_menu.c:218
 msgid "_Grid"
 msgstr "གི་རིཊི།(_G)"
 
@@ -9356,48 +8980,39 @@ msgstr "ཧེ་མམ་གྱི་དངོས་པོ་སྟོན།"
 msgid "Show next object"
 msgstr "ཤུལ་མམ་གྱི་དངོས་པོ་སྟོན།"
 
-#: ../plug-ins/gfig/gfig-dialog.c:910
-#: ../plug-ins/gfig/gfig-stock.c:53
+#: ../plug-ins/gfig/gfig-dialog.c:910 ../plug-ins/gfig/gfig-stock.c:53
 msgid "Show all objects"
 msgstr "དངོས་པོ་ཆ་མཉམ་སྟོན།"
 
-#: ../plug-ins/gfig/gfig-dialog.c:916
-#: ../plug-ins/gfig/gfig-stock.c:47
+#: ../plug-ins/gfig/gfig-dialog.c:916 ../plug-ins/gfig/gfig-stock.c:47
 msgid "Create line"
 msgstr "གྲལ་ཐིག་གསར་བསྐྲུན་འབད།"
 
-#: ../plug-ins/gfig/gfig-dialog.c:919
-#: ../plug-ins/gfig/gfig-stock.c:51
+#: ../plug-ins/gfig/gfig-dialog.c:919 ../plug-ins/gfig/gfig-stock.c:51
 msgid "Create rectangle"
 msgstr "གྲུ་བཞི་གསར་བསྐྲུན་འབད།"
 
-#: ../plug-ins/gfig/gfig-dialog.c:922
-#: ../plug-ins/gfig/gfig-stock.c:42
+#: ../plug-ins/gfig/gfig-dialog.c:922 ../plug-ins/gfig/gfig-stock.c:42
 msgid "Create circle"
 msgstr "སྒོར་ཐིག་གསར་བསྐྲུན་འབད།"
 
-#: ../plug-ins/gfig/gfig-dialog.c:925
-#: ../plug-ins/gfig/gfig-stock.c:46
+#: ../plug-ins/gfig/gfig-dialog.c:925 ../plug-ins/gfig/gfig-stock.c:46
 msgid "Create ellipse"
 msgstr "སྒོང་དབྱིབས་གསར་བསྐྲུན་འབད།"
 
-#: ../plug-ins/gfig/gfig-dialog.c:928
-#: ../plug-ins/gfig/gfig-stock.c:44
+#: ../plug-ins/gfig/gfig-dialog.c:928 ../plug-ins/gfig/gfig-stock.c:44
 msgid "Create arc"
 msgstr "གཞུ་དབྱིབས་གསར་བསྐྲུན་འབད།"
 
-#: ../plug-ins/gfig/gfig-dialog.c:931
-#: ../plug-ins/gfig/gfig-stock.c:50
+#: ../plug-ins/gfig/gfig-dialog.c:931 ../plug-ins/gfig/gfig-stock.c:50
 msgid "Create reg polygon"
 msgstr "རེག་ཟུར་མང་དབྱིབས་གསར་བསྐྲུན་འབད།"
 
-#: ../plug-ins/gfig/gfig-dialog.c:934
-#: ../plug-ins/gfig/gfig-stock.c:55
+#: ../plug-ins/gfig/gfig-dialog.c:934 ../plug-ins/gfig/gfig-stock.c:55
 msgid "Create star"
 msgstr "སྐར་མ་གསར་བསྐྲུན་འབད།"
 
-#: ../plug-ins/gfig/gfig-dialog.c:937
-#: ../plug-ins/gfig/gfig-stock.c:54
+#: ../plug-ins/gfig/gfig-dialog.c:937 ../plug-ins/gfig/gfig-stock.c:54
 msgid "Create spiral"
 msgstr "སྒྲིལ་ནི་གསར་བསྐྲུན་འབད།"
 
@@ -9405,28 +9020,23 @@ msgstr "སྒྲིལ་ནི་གསར་བསྐྲུན་འབད།
 msgid "Create bezier curve. Shift + Button ends object creation."
 msgstr "བི་ཚི་ཡར་གུག་གུགཔ་གསར་བསྐྲུན་འབད། སོར་ལྡེ་+ཨེབ་རྟ་དེ་གིས་ དངོས་པོ་གསར་བསྐྲུན་འབད་ནི་ མཇུག་་བསྡུཝ་ཨིན།"
 
-#: ../plug-ins/gfig/gfig-dialog.c:944
-#: ../plug-ins/gfig/gfig-stock.c:48
+#: ../plug-ins/gfig/gfig-dialog.c:944 ../plug-ins/gfig/gfig-stock.c:48
 msgid "Move an object"
 msgstr "དངོས་པོ་ཅིག་སྤོ་བཤུད་འབད།"
 
-#: ../plug-ins/gfig/gfig-dialog.c:947
-#: ../plug-ins/gfig/gfig-stock.c:49
+#: ../plug-ins/gfig/gfig-dialog.c:947 ../plug-ins/gfig/gfig-stock.c:49
 msgid "Move a single point"
 msgstr "ཡིག་ཚད་རྐྱང་པ་ཅིག་སྤཽ་བཤུད་འབད།"
 
-#: ../plug-ins/gfig/gfig-dialog.c:950
-#: ../plug-ins/gfig/gfig-stock.c:43
+#: ../plug-ins/gfig/gfig-dialog.c:950 ../plug-ins/gfig/gfig-stock.c:43
 msgid "Copy an object"
 msgstr "དངོས་པོ་ཅིག་འདྲ་བཤུས་རྐྱབས།"
 
-#: ../plug-ins/gfig/gfig-dialog.c:953
-#: ../plug-ins/gfig/gfig-stock.c:45
+#: ../plug-ins/gfig/gfig-dialog.c:953 ../plug-ins/gfig/gfig-stock.c:45
 msgid "Delete an object"
 msgstr "དངས་པོ་ཅིག་བཏོན་གཏང་།"
 
-#: ../plug-ins/gfig/gfig-dialog.c:956
-#: ../plug-ins/gfig/gfig-stock.c:52
+#: ../plug-ins/gfig/gfig-dialog.c:956 ../plug-ins/gfig/gfig-stock.c:52
 msgid "Select an object"
 msgstr "དངོས་པོ་ཅིག་ སེལ་འཐུ་འབད།"
 
@@ -9447,8 +9057,7 @@ msgstr "ཚད་འཛིན་ཡིག་ཚད་ཚུ་སྟོན།"
 msgid "Max undo:"
 msgstr "འབད་བཤོལ་ མང་མཐའ:"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1283
-#: ../plug-ins/gimpressionist/general.c:167
+#: ../plug-ins/gfig/gfig-dialog.c:1283 ../plug-ins/gimpressionist/general.c:167
 msgid "Transparent"
 msgstr "དྭངས་གསལ་ཅད།"
 
@@ -9456,8 +9065,7 @@ msgstr "དྭངས་གསལ་ཅད།"
 msgid "Foreground"
 msgstr "གདོང་གཞི།"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1287
-#: ../plug-ins/imagemap/imap_cmd_copy.c:54
+#: ../plug-ins/gfig/gfig-dialog.c:1287 ../plug-ins/imagemap/imap_cmd_copy.c:54
 #: ../plug-ins/imagemap/imap_cmd_copy_object.c:55
 #: ../plug-ins/imagemap/imap_menu.c:169
 msgid "Copy"
@@ -9491,8 +9099,7 @@ msgstr "རེ་འདུན་ཡོད་པའི་ལྷོ་རྩེའ
 msgid "Polar grid radius interval:"
 msgstr "ལྷོ་རྩེའི་གི་རིཊི་མཐའ་འཁོར་གྱི་བར་མཚམས:"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1441
-#: ../plug-ins/imagemap/imap_menu.c:229
+#: ../plug-ins/gfig/gfig-dialog.c:1441 ../plug-ins/imagemap/imap_menu.c:229
 msgid "Rectangle"
 msgstr "གྲུ་བཞི་ནར་མོ།"
 
@@ -9504,8 +9111,7 @@ msgstr "རྫས་མཚུངས་འདུས་རྫས་ཀྱི།"
 msgid "Grid type:"
 msgstr "གི་རིཊི་གི་དབྱེ་བ:"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1459
-#: ../plug-ins/gflare/gflare.c:552
+#: ../plug-ins/gfig/gfig-dialog.c:1459 ../plug-ins/gflare/gflare.c:552
 msgid "Normal"
 msgstr "སྤྱིར་གཏང་།"
 
@@ -9619,8 +9225,7 @@ msgstr "སྟེགས་རིས་འབར་བ་...(_G)"
 #.
 #. *    Dialog Shell
 #.
-#: ../plug-ins/gflare/gflare.c:953
-#: ../plug-ins/gflare/gflare.c:2287
+#: ../plug-ins/gflare/gflare.c:953 ../plug-ins/gflare/gflare.c:2287
 msgid "Gradient Flare"
 msgstr "སྟེགས་རིས་འབར་བ།"
 
@@ -9673,10 +9278,8 @@ msgstr "སྔོན་སྒྲིག"
 #.
 #. *    Scales
 #.
-#: ../plug-ins/gflare/gflare.c:2671
-#: ../plug-ins/gflare/gflare.c:3508
-#: ../plug-ins/gflare/gflare.c:3613
-#: ../plug-ins/gflare/gflare.c:3750
+#: ../plug-ins/gflare/gflare.c:2671 ../plug-ins/gflare/gflare.c:3508
+#: ../plug-ins/gflare/gflare.c:3613 ../plug-ins/gflare/gflare.c:3750
 msgid "Parameters"
 msgstr "ཚད་བཟུང་།"
 
@@ -9764,14 +9367,12 @@ msgstr "སྟེགས་རིས་ཚུ་སླར་ཞིབ་ལྟ་
 msgid "Glow Paint Options"
 msgstr "ཚོན་གཏང་ནིའི་གདམ་ཁ་ཚུ་འཕྲོ་ཅན་བཟོ།"
 
-#: ../plug-ins/gflare/gflare.c:3383
-#: ../plug-ins/gflare/gflare.c:3411
+#: ../plug-ins/gflare/gflare.c:3383 ../plug-ins/gflare/gflare.c:3411
 #: ../plug-ins/gflare/gflare.c:3439
 msgid "Opacity:"
 msgstr "དྭངས་སྒྲིབ:"
 
-#: ../plug-ins/gflare/gflare.c:3396
-#: ../plug-ins/gflare/gflare.c:3424
+#: ../plug-ins/gflare/gflare.c:3396 ../plug-ins/gflare/gflare.c:3424
 #: ../plug-ins/gflare/gflare.c:3452
 msgid "Paint mode:"
 msgstr "ཐབས་ལམ་ཚོན་གཏང་:"
@@ -9786,50 +9387,42 @@ msgstr "འོད་ཟེར་ཚུ་གི་ཚོན་གཏང་ནི
 msgid "Second Flares Paint Options"
 msgstr "ཕེལེ་ཡརསི་ཚོན་གཏང་ནིའི་གདམ་ཁ་གཉིས་པ།"
 
-#: ../plug-ins/gflare/gflare.c:3455
-#: ../plug-ins/gimpressionist/general.c:116
+#: ../plug-ins/gflare/gflare.c:3455 ../plug-ins/gimpressionist/general.c:116
 msgid "_General"
 msgstr "སྤྱིར་གཏང་།(_G)"
 
 #.
 #. *  Gradient Menus
 #.
-#: ../plug-ins/gflare/gflare.c:3481
-#: ../plug-ins/gflare/gflare.c:3584
+#: ../plug-ins/gflare/gflare.c:3481 ../plug-ins/gflare/gflare.c:3584
 #: ../plug-ins/gflare/gflare.c:3723
 msgid "Gradients"
 msgstr "སྟེགས་རིས།"
 
-#: ../plug-ins/gflare/gflare.c:3492
-#: ../plug-ins/gflare/gflare.c:3597
+#: ../plug-ins/gflare/gflare.c:3492 ../plug-ins/gflare/gflare.c:3597
 #: ../plug-ins/gflare/gflare.c:3734
 msgid "Radial gradient:"
 msgstr "འོད་ཟེར་གྱི་སྟེགས་རིས:"
 
-#: ../plug-ins/gflare/gflare.c:3496
-#: ../plug-ins/gflare/gflare.c:3601
+#: ../plug-ins/gflare/gflare.c:3496 ../plug-ins/gflare/gflare.c:3601
 msgid "Angular gradient:"
 msgstr "གྲུ་ཟུར་སྦེ་ཡོད་མི་སྟེགས་རིས:"
 
-#: ../plug-ins/gflare/gflare.c:3500
-#: ../plug-ins/gflare/gflare.c:3605
+#: ../plug-ins/gflare/gflare.c:3500 ../plug-ins/gflare/gflare.c:3605
 msgid "Angular size gradient:"
 msgstr "གྲུ་ཟུར་གྱི་ཚད་བཟུམ་སྦེ་ཡོད་མི་སྟེགས་རིས:"
 
-#: ../plug-ins/gflare/gflare.c:3520
-#: ../plug-ins/gflare/gflare.c:3625
+#: ../plug-ins/gflare/gflare.c:3520 ../plug-ins/gflare/gflare.c:3625
 #: ../plug-ins/gflare/gflare.c:3762
 msgid "Size (%):"
 msgstr "ཚད་(%):"
 
-#: ../plug-ins/gflare/gflare.c:3532
-#: ../plug-ins/gflare/gflare.c:3637
+#: ../plug-ins/gflare/gflare.c:3532 ../plug-ins/gflare/gflare.c:3637
 #: ../plug-ins/gflare/gflare.c:3774
 msgid "Rotation:"
 msgstr "བསྒྱིར་ནི:"
 
-#: ../plug-ins/gflare/gflare.c:3544
-#: ../plug-ins/gflare/gflare.c:3650
+#: ../plug-ins/gflare/gflare.c:3544 ../plug-ins/gflare/gflare.c:3650
 #: ../plug-ins/gflare/gflare.c:3787
 msgid "Hue rotation:"
 msgstr "ཚོན་མདངས་བསྒྱིར་ནི:"
@@ -9865,13 +9458,11 @@ msgstr "འབྱུང་ངེས་ཀྱི་སྟེགས་རིས:"
 msgid "Shape of Second Flares"
 msgstr "ཕེལེ་ཡརསི་གཉིས་པམ་གྱི་དབྱིབས།"
 
-#: ../plug-ins/gflare/gflare.c:3812
-#: ../plug-ins/imagemap/imap_menu.c:231
+#: ../plug-ins/gflare/gflare.c:3812 ../plug-ins/imagemap/imap_menu.c:231
 msgid "Circle"
 msgstr "སྒོར་ཐིག"
 
-#: ../plug-ins/gflare/gflare.c:3829
-#: ../plug-ins/imagemap/imap_menu.c:233
+#: ../plug-ins/gflare/gflare.c:3829 ../plug-ins/imagemap/imap_menu.c:233
 msgid "Polygon"
 msgstr "ཟུར་མང་དབྱིབས།"
 
@@ -9883,8 +9474,7 @@ msgstr "གང་བྱུང་སོན:"
 msgid "_Second Flares"
 msgstr "ཕེལེ་ཡར་གཉིས་པ།(_S)"
 
-#: ../plug-ins/gfli/gfli.c:163
-#: ../plug-ins/gfli/gfli.c:183
+#: ../plug-ins/gfli/gfli.c:163 ../plug-ins/gfli/gfli.c:183
 msgid "AutoDesk FLIC animation"
 msgstr "ཨོ་ཊོ་ཌེགསི་ ཨེཕ་ཨེལ་ཨའི་སི་ བསྒུལ་བཟོ།"
 
@@ -10008,8 +9598,7 @@ msgid "Selects if to place strokes all the way out to the edges of the image"
 msgstr "སི་ཊོག་ཚུ་ གཟུགས་བརྙན་གྱི་མཐའ་མའི་ཕྱི་ཁར་ལུ་བཏོན་ནི་ཨིན་པ་ཅིན་ སེལ་འཐུ་འབདཝ་ཨིན།"
 
 #. Tileable checkbox
-#: ../plug-ins/gimpressionist/general.c:195
-#: ../plug-ins/maze/maze_face.c:316
+#: ../plug-ins/gimpressionist/general.c:195 ../plug-ins/maze/maze_face.c:316
 msgid "Tileable"
 msgstr "ཊ་ཡིལ་འབད་བཏུབ་མི།"
 
@@ -10070,7 +9659,8 @@ msgid "Performs various artistic operations"
 msgstr "མཛེས་ཆ་ཅན་གྱི་བཀོལ་སྤྱོད་འདྲ་མིན་སྣ་ཚོགས་ ལཱ་འགན་འགྲུབ་ཨིན།"
 
 #: ../plug-ins/gimpressionist/gimp.c:79
-msgid "_GIMPressionist..."
+#, fuzzy
+msgid "_Impressionist..."
 msgstr "ཇི་ཨའི་ཨེམ་པི་ རེ་ཤོ་ནིསིཊི...(_G)"
 
 #: ../plug-ins/gimpressionist/gimp.c:350
@@ -10078,7 +9668,8 @@ msgid "Painting"
 msgstr "ཚོན་བཏང་ནི།"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:121
-msgid "GIMPressionist"
+#, fuzzy
+msgid "Impressionist"
 msgstr "ཇི་ཨའི་ཨེམ་པི་ རེ་ཤོ་ནིསིཊི།"
 
 #: ../plug-ins/gimpressionist/orientation.c:74
@@ -10346,7 +9937,8 @@ msgid "Save Current"
 msgstr "ད་ལྟོ་གི་སྲུང་བཞག་འབད།"
 
 #: ../plug-ins/gimpressionist/presets.c:874
-msgid "Gimpressionist Defaults"
+#, fuzzy
+msgid "Impressionist Defaults"
 msgstr "ཇིམ་པེརི་ཤོ་ནིསིཊི་ སྔོན་སྒྲིག་འབདཝ་ཨིན།"
 
 #: ../plug-ins/gimpressionist/presets.c:995
@@ -10494,7 +10086,7 @@ msgid "Voronoi-mode makes only the smvector closest to the given point have any 
 msgstr "ཝོ་རོ་ནོའི-ཐབས་ལམ་གྱིས་ སེམ་མཉམ་ཐིག་རྐྱངམ་ཅིག་ རྒྱུད་བསྐུལ་གང་རུང་ཅིག་ཡོདཔ་བཟོ་ནིའི་དོན་ལུ་ བཀོད་དེ་ཡོད་པའི་ ཡིག་ཚད་ཀྱི་ཐག་ཉེ་ཤོས་སྦེ་བཟོཝ་ཨིན།"
 
 #: ../plug-ins/help/gimphelpdomain.c:177
-msgid "The GIMP help files are not found."
+msgid "The Glimpse help files are not found."
 msgstr "ཇི་ཨའི་ཨེམ་པི་གྲོགས་རམ་ཡིག་སྣོད་ཚུ་ འཚོལ་མ་ཐོབ།"
 
 #: ../plug-ins/help/gimphelpdomain.c:178
@@ -10502,7 +10094,7 @@ msgid "Please install the additional help package or use the online user manual 
 msgstr "གྲོགས་རམ་ཐུམ་སྒྲིལ་ཁ་སྐོང་གཞི་བཙུགས་འབད་གནང་ ཡང་ན་ http://docs.gimp.org/.དེ་ལུ་གློག་ཐོག་ལག་ལེན་པའི་ལག་དེབ་དེ་ ལག་ལེན་འཐབ།"
 
 #: ../plug-ins/help/gimphelpdomain.c:184
-msgid "There is a problem with the GIMP help files."
+msgid "There is a problem with the Glimpse help files."
 msgstr "ཇི་ཨའི་ཨེམ་པི་ གྲོགས་རམ་ཡིག་སྣོད་དེ་ལུ་ དཀའ་ངལ་ཅིག་འདུགག"
 
 #: ../plug-ins/help/gimphelpdomain.c:186
@@ -10689,15 +10281,13 @@ msgid "Transformation %s"
 msgstr "བཟོ་བསྒྱུར་ %s"
 
 #: ../plug-ins/ifscompose/ifscompose.c:2382
-#: ../plug-ins/metadata/interface.c:556
-#: ../plug-ins/metadata/interface.c:566
+#: ../plug-ins/metadata/interface.c:556 ../plug-ins/metadata/interface.c:566
 msgid "Save failed"
 msgstr "སྲུང་བཞག་འབད་ནི་འཐུས་ཤོར་བྱུང་ནུག"
 
 #: ../plug-ins/ifscompose/ifscompose.c:2463
 #: ../plug-ins/ifscompose/ifscompose.c:2476
-#: ../plug-ins/metadata/interface.c:462
-#: ../plug-ins/metadata/interface.c:472
+#: ../plug-ins/metadata/interface.c:462 ../plug-ins/metadata/interface.c:472
 #: ../plug-ins/metadata/interface.c:546
 msgid "Open failed"
 msgstr "ཁ་ཕྱེ་ནི་འཐུས་ཤོར་བྱུང་ནུག"
@@ -10737,10 +10327,8 @@ msgstr "དབུས་ཨེགསི:(_x)"
 
 #: ../plug-ins/imagemap/imap_circle.c:269
 #: ../plug-ins/imagemap/imap_circle.c:276
-#: ../plug-ins/imagemap/imap_circle.c:282
-#: ../plug-ins/imagemap/imap_grid.c:250
-#: ../plug-ins/imagemap/imap_grid.c:256
-#: ../plug-ins/imagemap/imap_polygon.c:505
+#: ../plug-ins/imagemap/imap_circle.c:282 ../plug-ins/imagemap/imap_grid.c:250
+#: ../plug-ins/imagemap/imap_grid.c:256 ../plug-ins/imagemap/imap_polygon.c:505
 #: ../plug-ins/imagemap/imap_polygon.c:513
 #: ../plug-ins/imagemap/imap_rectangle.c:394
 #: ../plug-ins/imagemap/imap_rectangle.c:401
@@ -10909,8 +10497,7 @@ msgstr "སྦྱར།"
 msgid "Select"
 msgstr "སེལ་འཐུ།"
 
-#: ../plug-ins/imagemap/imap_cmd_select_all.c:51
-#: ../plug-ins/rcm/rcm_stock.c:41
+#: ../plug-ins/imagemap/imap_cmd_select_all.c:51 ../plug-ins/rcm/rcm_stock.c:41
 msgid "Select All"
 msgstr "ཆ་མཉམ་སེལ་འཐུ་འབད།"
 
@@ -11019,8 +10606,7 @@ msgstr "མངའ་ཁོངས་སྒྲིག་སྟངས།"
 msgid "Area #%d Settings"
 msgstr "མངིའ་ཁོངས་#%d སྒྲིག་སྟངས།"
 
-#: ../plug-ins/imagemap/imap_file.c:48
-#: ../plug-ins/imagemap/imap_menu.c:71
+#: ../plug-ins/imagemap/imap_file.c:48 ../plug-ins/imagemap/imap_menu.c:71
 msgid "Error opening file"
 msgstr "ཡིག་སྣོད་ཁ་ཕྱེ་ནི་ལུ་འཛོལ་བ་འདུག"
 
@@ -11470,8 +11056,7 @@ msgstr "ཁྱོད་ཀྱིས་ཇི་ཨའི་ཨེམ་པི་
 msgid "JPEG preview"
 msgstr "ཇེ་པི་ཨི་ཇི་ སྔོན་བལྟ།"
 
-#: ../plug-ins/jpeg/jpeg-load.c:609
-#: ../plug-ins/winicon/icoload.c:722
+#: ../plug-ins/jpeg/jpeg-load.c:609 ../plug-ins/winicon/icoload.c:722
 #, c-format
 msgid "Opening thumbnail for '%s'"
 msgstr "'%s'གི་དོན་ལུ་ མཐེ་གཟེར་ཁ་ཕྱེ་དོ།"
@@ -11485,8 +11070,7 @@ msgstr "ཡིག་སྣོད་ཀྱི་ཚད:%02.01f ཀེ་བི།
 msgid "Calculating file size..."
 msgstr "ཡིག་སྣོད་ཀྱི་ཚད་ རྩིས་སྟོན་དོ..."
 
-#: ../plug-ins/jpeg/jpeg-save.c:670
-#: ../plug-ins/jpeg/jpeg-save.c:771
+#: ../plug-ins/jpeg/jpeg-save.c:670 ../plug-ins/jpeg/jpeg-save.c:771
 msgid "File size: unknown"
 msgstr "ཡིག་སྣོད་ཀྱི་ཚད:མ་ཤེསཔ།"
 
@@ -11522,8 +11106,7 @@ msgstr "འབྱུང་ཐེངས།(གྲལ་ཐིག):"
 msgid "Use restart markers"
 msgstr "ལོག་འགོ་བཙུགས་ཀྱི་རྟགས་ལག་ལེན་འཐབ།"
 
-#: ../plug-ins/jpeg/jpeg-save.c:863
-#: ../plug-ins/xjt/xjt.c:875
+#: ../plug-ins/jpeg/jpeg-save.c:863 ../plug-ins/xjt/xjt.c:875
 msgid "Optimize"
 msgstr "གང་དྲག་བཟོ།"
 
@@ -11574,8 +11157,7 @@ msgstr "འཕུར་ལྡིང་འབད་ནིའི་-ཡིག་�
 msgid "Comment"
 msgstr "བསམ་བཀོད།"
 
-#: ../plug-ins/jpeg/jpeg.c:127
-#: ../plug-ins/jpeg/jpeg.c:165
+#: ../plug-ins/jpeg/jpeg.c:127 ../plug-ins/jpeg/jpeg.c:165
 msgid "JPEG image"
 msgstr "ཇེ་པི་ཨི་ཇི་ གཟུགས་བརྙན།"
 
@@ -11621,8 +11203,7 @@ msgstr "གེ་ཛ་གི་ཚད།"
 msgid "Width (pixels):"
 msgstr "རྒྱ་ཚད།(པིག་སེལསི་):"
 
-#: ../plug-ins/maze/maze_face.c:230
-#: ../plug-ins/maze/maze_face.c:246
+#: ../plug-ins/maze/maze_face.c:230 ../plug-ins/maze/maze_face.c:246
 msgid "Pieces:"
 msgstr "པིསིསི:"
 
@@ -11663,8 +11244,7 @@ msgstr ""
 msgid "Property"
 msgstr "རྒྱུ་དངོས།"
 
-#: ../plug-ins/metadata/interface.c:261
-#: ../plug-ins/metadata/interface.c:263
+#: ../plug-ins/metadata/interface.c:261 ../plug-ins/metadata/interface.c:263
 msgid "Description"
 msgstr "འགྲེལ་བཤད།"
 
@@ -11685,10 +11265,8 @@ msgid "_Keywords:"
 msgstr "ལྡེ་སྒྲོམ:(_K)"
 
 #. FIXME: add entries, cross-link with XMP model
-#: ../plug-ins/metadata/interface.c:333
-#: ../plug-ins/metadata/interface.c:345
-#: ../plug-ins/metadata/interface.c:357
-#: ../plug-ins/metadata/interface.c:369
+#: ../plug-ins/metadata/interface.c:333 ../plug-ins/metadata/interface.c:345
+#: ../plug-ins/metadata/interface.c:357 ../plug-ins/metadata/interface.c:369
 msgid "Empty"
 msgstr "སྟོངམ།"
 
@@ -11961,8 +11539,7 @@ msgid "Hue:"
 msgstr "ཚོན་མདངས:"
 
 #. Gray: Circle: Spinbutton 2
-#: ../plug-ins/rcm/rcm_dialog.c:494
-#: ../plug-ins/rcm/rcm_dialog.c:556
+#: ../plug-ins/rcm/rcm_dialog.c:494 ../plug-ins/rcm/rcm_dialog.c:556
 msgid "Saturation:"
 msgstr "མཐའ་ཚད།"
 
@@ -11986,8 +11563,7 @@ msgid "Gray Threshold"
 msgstr "སྐྱ་ཐལ་ཐེརེཤ་ཧཱོལ།"
 
 #. * Misc: Used unit selection *
-#: ../plug-ins/rcm/rcm_dialog.c:588
-#: ../plug-ins/rcm/rcm_dialog.c:698
+#: ../plug-ins/rcm/rcm_dialog.c:588 ../plug-ins/rcm/rcm_dialog.c:698
 msgid "Units"
 msgstr "ཆ་ཕྲན་ཚུ།"
 
@@ -12041,8 +11617,7 @@ msgstr "གཞི་བསྒྱུར་འབད་ནིའི་དོན་
 msgid "Selection to Path Advanced Settings"
 msgstr "འགྲུལ་ལམ་མཐོ་རིམ་སྒྲིག་སྟངས་ལུ་ སེལ་འཐུ།"
 
-#: ../plug-ins/sgi/sgi.c:119
-#: ../plug-ins/sgi/sgi.c:139
+#: ../plug-ins/sgi/sgi.c:119 ../plug-ins/sgi/sgi.c:139
 msgid "Silicon Graphics IRIS image"
 msgstr "སི་ལི་ཀཱོན་ཚད་རིས་ ཨའི་ཨཱར་ཨའི་ཨེསི་ གཟུགས་བརྙན།"
 
@@ -12173,8 +11748,7 @@ msgstr "གཟུགས་བརྙན་གནད་སྡུད་ཀྱི་
 msgid "Downloading unknown amount of image data"
 msgstr "མ་ཤེས་པའི་གཟུགས་བརྙན་གནད་སྡུད་ཀྱི་བསྡོམས་ཕབ་ལེན་འབད་དོ།"
 
-#: ../plug-ins/uri/uri.c:117
-#: ../plug-ins/uri/uri.c:138
+#: ../plug-ins/uri/uri.c:117 ../plug-ins/uri/uri.c:138
 msgid "URI"
 msgstr "ཡུ་ཨཱར་ཨའི།"
 
@@ -12216,8 +11790,7 @@ msgstr "ཨེབ་བཙུགས་འབད་ཡོདཔ་(པི་ཨ�
 msgid "Icon #%i"
 msgstr "ངོས་ནཔར་ #%i"
 
-#: ../plug-ins/winicon/main.c:103
-#: ../plug-ins/winicon/main.c:137
+#: ../plug-ins/winicon/main.c:103 ../plug-ins/winicon/main.c:137
 msgid "Microsoft Windows icon"
 msgstr "མའི་ཀོརོ་སོཕཊི་སྒོ་སྒྲིག་ངོས་དཔར།"
 
@@ -12257,8 +11830,7 @@ msgstr "གསལ་གཞིའི་པར།(_S)"
 msgid "No data captured"
 msgstr "གནད་སྡུད་ཅིག་ཡང་འཛིན་བཟུང་མ་འབད་བས།"
 
-#: ../plug-ins/xjt/xjt.c:485
-#: ../plug-ins/xjt/xjt.c:503
+#: ../plug-ins/xjt/xjt.c:485 ../plug-ins/xjt/xjt.c:503
 msgid "GIMP compressed XJT image"
 msgstr "ཇི་ཨའི་ཨེམ་པི་གིས་ ཨེགསི་ཇེ་ཊི་གཟུགས་བརྙན་དེ་ཨེབ་བཙུགས་འབད་ནུག"
 
@@ -12308,8 +11880,7 @@ msgstr "སྤུས་ཚད:"
 msgid "Smoothing:"
 msgstr "ཧུམ་ཁྱུག་ཁྱུ་བཟོ་དོ།"
 
-#: ../plug-ins/xjt/xjt.c:1703
-#: ../plug-ins/xjt/xjt.c:3352
+#: ../plug-ins/xjt/xjt.c:1703 ../plug-ins/xjt/xjt.c:3352
 #, c-format
 msgid "Could not create working folder '%s': %s"
 msgstr "ལཱའབད་ནིའི་སྣོད་འཛིན་ '%s': %sདེ་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
@@ -12326,312 +11897,363 @@ msgstr "འཛོལ་བ:ཨེགསི་ཇེ་ཊི་ རྒྱུ་�
 
 #~ msgid "Save Parameters To"
 #~ msgstr "ལུ་ཚད་བཟུང་ཚུ་སྲུངས།"
+
 #~ msgid "CML Explorer: Overwrite File?"
 #~ msgstr "སི་ཨེམ་ཨེལ་ཐབས་འཚོལ་མི་:ཡིག་སྣོད་ཚབ་སྲུང་འབད?"
+
 #~ msgid ""
 #~ "File '%s' exists.\n"
 #~ "Overwrite it?"
 #~ msgstr ""
 #~ "ཡིག་སྣོད་ '%s' ཡོད།\n"
 #~ "འདི་ཚབ་སྲུང་འབད?"
+
 #~ msgid "Load Parameters From"
 #~ msgstr "ལས་ཚད་བཟུང་ཚུ་མངོན་གསལ་འབད།"
+
 #~ msgid "Selective Load From"
 #~ msgstr "ལས་སེལ་འཐུ་འབད་བཏུབ་པའི་མངོན་གསལ།"
+
 #~ msgid "Uncompressed size: %s"
 #~ msgstr "ཨེབ་བཙུགས་མ་འབད་བའི་ཚད་: %s"
+
 #~ msgid "Filename: %s"
 #~ msgstr "ཡིག་སྣོད་མིང་: %s"
+
 #~ msgid "Compression ratio (approx.): %d to 1"
 #~ msgstr "ཨེབ་བཙུགས་དཔྱ་ཚད་(ཧ་ལམ་): ༡ ལུ་ %d"
+
 #~ msgid "Channel Mixer File Operation Warning"
 #~ msgstr "རྒྱུ་ལམ་སྦྱོར་འཕྲུལ་ཡིག་སྣོད་བཀོལ་སྤྱོད་ཉེན་བརྡ།"
+
 #~ msgid "Temporary"
 #~ msgstr "གནས་སྐབས།"
+
 #~ msgid "_Warp"
 #~ msgstr "གཅུ་སྒྲིམ་(_W)"
+
 #~ msgid "Save (middle transform) as QBE File"
 #~ msgstr "(བཟོ་བསྒྱུར་བར་མ་)དེ་ཀིའུ་བི་ཨི་ཡིག་སྣོད་སྦེ་སྲུང་བཞག་འབད།"
+
 #~ msgid "Could not load PNG defaults"
 #~ msgstr "པི་ཨེན་ཇི་སྔོན་སྒྲིག་ཚུ་ མངོན་གསལ་འབད་མ་ཚུགས།"
+
 #~ msgid "_Grab"
 #~ msgstr "འཛིན།(_G)"
+
 #~ msgid "W_ait"
 #~ msgstr "བསྒུག (_a)"
+
 #~ msgid "seconds before grabbing"
 #~ msgstr "འཛིན་པའི་ཧེ་མ་སྐར་ཆ་ཚུ།"
-#~ msgid ""
-#~ "The number of seconds to wait after selecting the window or region and "
-#~ "actually taking the screenshot."
-#~ msgstr ""
-#~ "སྒོ་སྒྲིག་སེལ་འཐུ་འབད་ཚར་བའི་ཤུལ་ལས་དང་ཡང་ན་ལུང་ཕྱོགས་ནང་གསལ་གཞིའི་པར་འདི་ངོ་མ་འབག་པའི་"
-#~ "སྐབས་་བསྒུག་ནིའི་སྐར་ཆག་ཨང་གྲངས།"
+
+#~ msgid "The number of seconds to wait after selecting the window or region and actually taking the screenshot."
+#~ msgstr "སྒོ་སྒྲིག་སེལ་འཐུ་འབད་ཚར་བའི་ཤུལ་ལས་དང་ཡང་ན་ལུང་ཕྱོགས་ནང་གསལ་གཞིའི་པར་འདི་ངོ་མ་འབག་པའི་སྐབས་་བསྒུག་ནིའི་སྐར་ཆག་ཨང་གྲངས།"
+
 #~ msgid "File already exists"
 #~ msgstr "ཡིག་སྣོད་དེ་ཧེ་མ་ལས་རང་འདུག"
+
 #~ msgid "Do you really want to overwrite?"
 #~ msgstr "ཁྱོད་ཀྱིས་ཐད་རི་འབའ་རིས་ཚབ་སྲུང་འབད་ནི་ཨིན་ན?"
+
 #~ msgid "Redraw"
 #~ msgstr "ལོག་འབྲི།"
+
 #~ msgid "XMIN:"
 #~ msgstr "ཨེཀསི་ཉུང་མཐའ་:"
+
 #~ msgid "Change the first (minimal) x-coordinate delimitation"
 #~ msgstr "(ཆུང་ཤོས་)ཨེཀསི་-ཆ་སྙོམ་དབྱེ་རྟགས་དང་པམ་འདི་བསྒྱུར་བཅོས་འབད།"
+
 #~ msgid "XMAX:"
 #~ msgstr "ཨེཀསི་མང་མཐའ་:"
+
 #~ msgid "Change the second (maximal) x-coordinate delimitation"
 #~ msgstr "(སྦོམ་ཤོས་)ཨེཀསི་-ཆ་སྙོམ་དབྱེ་རྟགས་གཉིས་པམ་འདི་བསྒྱུར་བཅོས་འབད།"
+
 #~ msgid "YMIN:"
 #~ msgstr "ཝའི་ཉུང་མཐའ་:"
+
 #~ msgid "Change the first (minimal) y-coordinate delimitation"
 #~ msgstr "(ཆུང་ཤོས་)ཝའི་-ཆ་སྙོམ་དབྱེ་རྟགས་དང་པམ་འདི་བསྒྱུར་བཅོས་འབད།"
+
 #~ msgid "YMAX:"
 #~ msgstr "ཝའི་མང་མཐའ་:"
+
 #~ msgid "Change the second (maximal) y-coordinate delimitation"
 #~ msgstr "(སྦོམ་ཤོས་)ཝའི་-ཆ་སྙོམ་དབྱེ་རྟགས་གཉིས་པམ་འདི་བསྒྱུར་བཅོས་འབད།"
+
 #~ msgid "ITER:"
 #~ msgstr "ཨའི་ཊར་:"
-#~ msgid ""
-#~ "Change the CX value (changes aspect of fractal, active with every fractal "
-#~ "but Mandelbrot and Sierpinski)"
-#~ msgstr ""
-#~ "སི་ཨེཀསི་གནས་གོང་འདི་བསྒྱུར་བཅོས་འབད་ (ཆ་རྩིས་གེ་ར་མཉམ་ཤུགས་ལྡན་ ཆ་རྩིས་ཀྱི་རྣམ་པ་བསྒྱུར་བཅོས་"
-#~ "འབདཝ་ཨིན་ དེ་འབདཝ་ད་མེན་ཌཱལ་བོརོཊོ་དང་སིཨིཨར་པིངཀ་ཨིས་ཀའི་འདི་མི་འབད་)"
-#~ msgid ""
-#~ "Change the CY value (changes aspect of fractal, active with every fractal "
-#~ "but Mandelbrot and Sierpinski)"
-#~ msgstr ""
-#~ "སི་ཝའི་གནས་གོང་འདི་བསྒྱུར་བཅོས་འབད་(ཆ་རྩིས་གེ་ར་མཉམ་ཤུག་ལྡན་ ཆ་རྩིས་ཀྱི་རྣམ་པ་བསྒྱུར་བཅོས་འབདཝ་"
-#~ "ཨིན་ དེ་འབདཝ་ད་མེན་ཌཱལ་བོརོཊོ་དང་སིཨིཨར་པིངཀ་ཨིས་ཀའི་འདི་མི་འབད་)"
+
+#~ msgid "Change the CX value (changes aspect of fractal, active with every fractal but Mandelbrot and Sierpinski)"
+#~ msgstr "སི་ཨེཀསི་གནས་གོང་འདི་བསྒྱུར་བཅོས་འབད་ (ཆ་རྩིས་གེ་ར་མཉམ་ཤུགས་ལྡན་ ཆ་རྩིས་ཀྱི་རྣམ་པ་བསྒྱུར་བཅོས་འབདཝ་ཨིན་ དེ་འབདཝ་ད་མེན་ཌཱལ་བོརོཊོ་དང་སིཨིཨར་པིངཀ་ཨིས་ཀའི་འདི་མི་འབད་)"
+
+#~ msgid "Change the CY value (changes aspect of fractal, active with every fractal but Mandelbrot and Sierpinski)"
+#~ msgstr "སི་ཝའི་གནས་གོང་འདི་བསྒྱུར་བཅོས་འབད་(ཆ་རྩིས་གེ་ར་མཉམ་ཤུག་ལྡན་ ཆ་རྩིས་ཀྱི་རྣམ་པ་བསྒྱུར་བཅོས་འབདཝ་ཨིན་ དེ་འབདཝ་ད་མེན་ཌཱལ་བོརོཊོ་དང་སིཨིཨར་པིངཀ་ཨིས་ཀའི་འདི་མི་འབད་)"
+
 #~ msgid "Cannot operate on grayscale images with alpha channel."
 #~ msgstr "ཨཱལ་ཕ་རྒྱུ་ལམ་མཉམ་གེརེ་སིཀེལ་གཟུགས་བརྙན་ཚུ་ལུ་བཀོལ་སྤྱོད་འབད་མི་བཏུབ།"
+
 #~ msgid "A_utomatic"
 #~ msgstr "རང་བཞིན་གྱི་(_u)"
+
 #~ msgid "GIF Warning"
 #~ msgstr "ཇི་ཨའི་ཨེཕ་ཉེན་བརྡ།"
+
 #~ msgid "Print the image using the GNOME Print system"
 #~ msgstr "ཇི་ནོམ་དཔར་བསྐྲུན་རིམ་ལུགས་འདི་ལག་ལེན་འཐབ་སྟེ་གཟུགས་བརྙན་དཔར་བསྐྲུན་འབད།"
+
 #~ msgid "_GNOME Print..."
 #~ msgstr "ཇི་ནོམ་དཔར་བསྐྲུན་འབད་...(_G)"
+
 #~ msgid "Print Preview"
 #~ msgstr "དཔར་བསྐྲུན་ཞིབ་ལྟ།"
+
 #~ msgid "Alias|Wavefront PIX image"
 #~ msgstr "མིང་གཞན་| ཝེབ་ཕོརོནཊི་ པི་ཨའི་ཨེགསི་ གཟུགས་བརྙན།"
+
 #~ msgid "PNM: Error reading file."
 #~ msgstr "པི་ཨེན་ཨེམ་:ཡིག་སྣོད་ལྷག་པའི་སྐབསས་ལུ་ འཛོལ་བ།"
+
 #~ msgid "PNM save cannot handle images with alpha channels."
 #~ msgstr "པི་ཨེན་ཨེམ་སྲུང་བཞག་གིས་ ཨཱལ་ཕ་རྒྱུ་ལམ་གྱི་ཐོག་ལས་ གཟུགས་བརྙན་ཚུ་ལེགས་སྐྱོང་འཐབ་མི་ཚུགས།"
+
 #~ msgid "Error starting ghostscript (%s)"
 #~ msgstr "གྲིབ་ཡིག་(%s) འགོ་བཙུགསཔ་ད་ལུ་ འཛོལ་བ།"
+
 #~ msgid "Error starting ghostscript: %s"
 #~ msgstr "གྲིབ་ཡིག་ འགོ་བཙུགསཔ་ད་ལུ་ འཛོལ་བ་: %s"
-#~ msgid ""
-#~ "Unable to save layer with UNKNOWN mode. Using normal mode as fallback."
-#~ msgstr ""
-#~ "མ་ཤེས་པའི་ཐབས་ལམ་དང་བཅས་ བང་རིམ་སྲུང་མ་ཚུགས། སྤྱིར་བཏང་ཐབས་ལམ་འདི་གློ་བུར་རྒྱབ་ཐག་སྦེ་ལག་"
-#~ "ལེན་འཐབ་ནི།"
+
+#~ msgid "Unable to save layer with UNKNOWN mode. Using normal mode as fallback."
+#~ msgstr "མ་ཤེས་པའི་ཐབས་ལམ་དང་བཅས་ བང་རིམ་སྲུང་མ་ཚུགས། སྤྱིར་བཏང་ཐབས་ལམ་འདི་གློ་བུར་རྒྱབ་ཐག་སྦེ་ལག་ལེན་འཐབ་ནི།"
+
 #~ msgid "Value Propagating"
 #~ msgstr "གནས་གོང་དར་ཁྱབ་གཏང་ནི།"
+
 #~ msgid "Set up page layout for printing"
 #~ msgstr "དཔར་བསྐྲུན་གྱི་དོན་ལས་ ཤོག་ལེབ་ཀྱི་སྒྲིག་བཀོད་གཞི་སྒྲིག་འབད།"
+
 #~ msgid "Page Setup"
 #~ msgstr "ཤོག་ལེབ་གཞི་སྒྲིག་འབད་ནི།"
+
 #~ msgid "PrintDlg failed: %d"
 #~ msgstr "དཔར་བསྐྲུན་འབད་ནི་འཐུས་ཤོར་བྱུང་ནུག:%d"
+
 #~ msgid "Printer doesn't support bitmaps"
 #~ msgstr "དཔར་བསྐྲུན་པ་གིས་ བིཊི་མེཔ་ལུ་རྒྱ་སྐྱོར་མི་འབད།"
+
 #~ msgid "StartPage failed"
 #~ msgstr "འགོ་བཙུགས་ཤོག་ལེབ་འཐུས་ཤོར་བྱུང་ནུག"
+
 #~ msgid "CreateDIBSection failed"
 #~ msgstr "ཌི་ཨའི་བི་དབྱེ་ཚན་གསར་བསྐྲུན་འབད་ནི་ འཐུས་ཤོར་བྱུང་ནུག "
+
 #~ msgid "SetStretchBltMode failed (warning only)"
 #~ msgstr "བསྣར་ནིའི་བིཊི་ཐབས་ལམ་གཞི་སྒྲིག་འབད་ནི་དེ་ འཐུས་ཤོར་བྱུང་ནུག(ཉེན་བརྡ་རཀྱངམ་ཅིག)"
-#~ msgid ""
-#~ "StretchBlt (hDC, %d, %d, %d, %d, hdcMem, %d, 0, %d, 1, SRCCOPY) failed, "
-#~ "error = %d, y = %d"
-#~ msgstr ""
-#~ "བསྣར་ནིའི་ བིཊི་ (ཨེཆ་ཌི་སི་ི་, %d, %d, %d, %d, ཨེཆ་ཌི་སི་ མེམ་, %d, 0, %d, ༡ཨེསི་ཨར་སི་སི་"
-#~ "ཨོ་པི་ཝའི་PY) འཐུས་ཤོར་བྱུང་ནུག,འཚོལ་བ་or = %dཝའི་ y = %d"
+
+#~ msgid "StretchBlt (hDC, %d, %d, %d, %d, hdcMem, %d, 0, %d, 1, SRCCOPY) failed, error = %d, y = %d"
+#~ msgstr "བསྣར་ནིའི་ བིཊི་ (ཨེཆ་ཌི་སི་ི་, %d, %d, %d, %d, ཨེཆ་ཌི་སི་ མེམ་, %d, 0, %d, ༡ཨེསི་ཨར་སི་སི་ཨོ་པི་ཝའི་PY) འཐུས་ཤོར་བྱུང་ནུག,འཚོལ་བ་or = %dཝའི་ y = %d"
+
 #~ msgid "EndPage failed"
 #~ msgstr "ཤོག་ལེབ་མཇུག་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
 #~ msgid "PageSetupDlg failed: %d"
 #~ msgstr "ཤོག་ལེབ་གཞི་སྒྲིག་ ཌི་ཨའིང་ཇི་ འཐུས་ཤོར་བྱུང་ཡོདཔ:%d"
+
 #~ msgid "Print Color Adjust"
 #~ msgstr "ཚོན་བདེ་སྒྲིག་འབད་ནི་ དཔར་བསྐྲུན་འབད།"
+
 #~ msgid "Brightness:"
 #~ msgstr "ཚོན་གདངས།"
+
 #~ msgid ""
 #~ "Set the brightness of the print.\n"
 #~ "0 is solid black, 2 is solid white"
 #~ msgstr ""
 #~ "དཔར་བསྐྲུན་གྱི་དཀར་གདངས་དེ་གཞི་སྒྲིག་འབད།\n"
 #~ "༠་དེ་གནགཔོ་རག་པ་ཨིན་ ༢་དེ་དཀརཔོ་རགས་པ་ཨིན།"
+
 #~ msgid "Contrast:"
 #~ msgstr "ཚོན་གདངས:"
+
 #~ msgid "Set the contrast of the print"
 #~ msgstr "དཔར་བསྐྲུན་གྱི་ཚོན་མདངས་དེ་གཞི་སྒྲིག་འབད།"
+
 #~ msgid "Adjust the cyan balance of the print"
 #~ msgstr "དཔར་བསྐྲུན་གྱི་སྔོ་ལྗང་ཚད་སྙོམས་དེ་བདེ་སྒྲིག་འབད།"
+
 #~ msgid "Adjust the magenta balance of the print"
 #~ msgstr "དཔར་བསྐྲུན་གྱི་དམར་སྨུག་ཚད་སྙོམས་དེ་བདེ་སྒྲིག་འབད།"
+
 #~ msgid "Adjust the yellow balance of the print"
 #~ msgstr "དཔར་བསྐྲུན་གྱི་སེརཔོ་གི་ཚད་སྙོམས་དེ་བདེ་སྒྲིག་འབད།"
+
 #~ msgid ""
 #~ "Adjust the saturation (color balance) of the print\n"
 #~ "Use zero saturation to produce grayscale output using color and black inks"
 #~ msgstr ""
 #~ "དཔར་བསྐྲུ་གྱི་མཐའ་ཚད་དེ་(ཚོས་གཞི་ཚད་སྙོམས་)བདེ་སྒྲིག་འབད།\n"
-#~ "ཚོས་གཞི་དང་སྣག་རྩི་གནགཔོ་ལག་ལེན་འཐབ་པའི་ཐོག་ལས་ གེརེ་སིཀེལ་ཨའུཊི་པུཊི་ བཟོ་སྟོན་འབད་ནིའི་དོན་ལུ་ "
-#~ "ཅ་མཐའ་ཚད་དེ་ལག་་ལེན་འཐབ།"
+#~ "ཚོས་གཞི་དང་སྣག་རྩི་གནགཔོ་ལག་ལེན་འཐབ་པའི་ཐོག་ལས་ གེརེ་སིཀེལ་ཨའུཊི་པུཊི་ བཟོ་སྟོན་འབད་ནིའི་དོན་ལུ་ ཅ་མཐའ་ཚད་དེ་ལག་་ལེན་འཐབ།"
+
 #~ msgid "Density:"
 #~ msgstr "སྟུག་ཚད:"
-#~ msgid ""
-#~ "Adjust the density (amount of ink) of the print. Reduce the density if "
-#~ "the ink bleeds through the paper or smears; increase the density if black "
-#~ "regions are not solid."
-#~ msgstr ""
-#~ "དཔར་བསྐྲུན་གྱི་(སྣག་རྩི་གི་མང་ཉུང་)སྟུག་ཚད་དེ་བདེ་སྒྲིག་འབད། ཤོག་ལེབ་བརྒྱུད་དེ་སྣག་རྩི་དེ་འཛག་པའམ་ "
-#~ "ཡང་ན་ དབུར་བ་ཅིན་ སྟུག་ཚད་དེ་མར་ཕབ་འབད;གནགཔོ་གི་ལུང་ཕྱོགས་དེ་རགས་པ་མེན་པ་ཅིན་ སྟུག་ཚད་དེ་"
-#~ "ཡར་སེང་འབད།"
-#~ msgid ""
-#~ "Adjust the gamma of the print. Larger values will produce a generally "
-#~ "brighter print, while smaller values will produce a generally darker "
-#~ "print. Black and white will remain the same, unlike with the brightness "
-#~ "adjustment."
-#~ msgstr ""
-#~ "དཔར་བསྐྲུན་གྱི་གམ་མ་དེ་བདེ་སྒྲིག་འབད།གནས་གོང་སྦོམ་སྦེ་ཡོད་མི་ཚུ་གིས་ སྤྱིར་གཏང་གིས་ དཔར་བསྐྲུན་དྭངས་"
-#~ "དྲག་པོ་བཟོ་སྟོན་འབདཝ་ཨིན། དཀར་མདངས་བདེ་སྒྲིག་གི་ཐོག་ལས་མ་ཡིན་པའི་ གནགཔོ་དང་དཀརཔོ་དེ་ཅོག་"
-#~ "གཅིགཔ་སྦེ་སྡོད་འོང་།"
+
+#~ msgid "Adjust the density (amount of ink) of the print. Reduce the density if the ink bleeds through the paper or smears; increase the density if black regions are not solid."
+#~ msgstr "དཔར་བསྐྲུན་གྱི་(སྣག་རྩི་གི་མང་ཉུང་)སྟུག་ཚད་དེ་བདེ་སྒྲིག་འབད། ཤོག་ལེབ་བརྒྱུད་དེ་སྣག་རྩི་དེ་འཛག་པའམ་ ཡང་ན་ དབུར་བ་ཅིན་ སྟུག་ཚད་དེ་མར་ཕབ་འབད;གནགཔོ་གི་ལུང་ཕྱོགས་དེ་རགས་པ་མེན་པ་ཅིན་ སྟུག་ཚད་དེ་ཡར་སེང་འབད།"
+
+#~ msgid "Adjust the gamma of the print. Larger values will produce a generally brighter print, while smaller values will produce a generally darker print. Black and white will remain the same, unlike with the brightness adjustment."
+#~ msgstr "དཔར་བསྐྲུན་གྱི་གམ་མ་དེ་བདེ་སྒྲིག་འབད།གནས་གོང་སྦོམ་སྦེ་ཡོད་མི་ཚུ་གིས་ སྤྱིར་གཏང་གིས་ དཔར་བསྐྲུན་དྭངས་དྲག་པོ་བཟོ་སྟོན་འབདཝ་ཨིན། དཀར་མདངས་བདེ་སྒྲིག་གི་ཐོག་ལས་མ་ཡིན་པའི་ གནགཔོ་དང་དཀརཔོ་དེ་ཅོག་གཅིགཔ་སྦེ་སྡོད་འོང་།"
+
 #~ msgid "Dither algorithm:"
 #~ msgstr "ཌི་ཐར་ ཨཱལ་གོ་རི་དམ:"
+
 #~ msgid ""
 #~ "Choose the dither algorithm to be used.\n"
 #~ "Adaptive Hybrid usually produces the best all-around quality.\n"
 #~ "Ordered is faster and produces almost as good quality on photographs.\n"
-#~ "Fast and Very Fast are considerably faster, and work well for text and "
-#~ "line art.\n"
+#~ "Fast and Very Fast are considerably faster, and work well for text and line art.\n"
 #~ "Hybrid Floyd-Steinberg generally produces inferior output."
 #~ msgstr ""
 #~ "ལག་ལེན་འཐབ་ཚུགསཔ་བཟོ་ནིའི་དོན་ལུ ཌི་ཐར་ ཨཱལ་གོ་རི་དམ་དེ་གདམ་ཁ་རྐྱབས།\n"
-#~ "ཨ་རྟག་འབད་བ་ཅིན་ མཐུན་ཅན་ཧའི་བིརིཊི་གིས་སྤུས་ཚད་ཆ་མཉམ་གྱི་ནང་ལས་ དྲག་ཤོས་བཟོ་སྟོན་འབདཝ་"
-#~ "ཨིན།\n"
-#~ "མངགས་བཞག་ཡོད་མི་དེ་ མགྱོགས་པར་འོངཤ་ཨིནམ་དང་ སྤུས་ཚད་ཚུ་ཡང་ཧ་ལམ་ལེགས་ཤོམ་ བཟོ་སྟོན་འབདཝ་"
-#~ "ཨིན།\n"
-#~ "མགྱོགས་པ་དང་མགྱོགས་དྲག་ཚུ་ མགྱོགས་ཤོས་འོངམ་ཨིནམ་ལས་ ཚིག་ཡིག་དང་ གྲལ་ཐིག་གི་དོན་ལུ་ ལེགས་ཤོམ་སྦེ་"
-#~ "ལཱ་འབད་བཏུབ་ཨིན།\n"
+#~ "ཨ་རྟག་འབད་བ་ཅིན་ མཐུན་ཅན་ཧའི་བིརིཊི་གིས་སྤུས་ཚད་ཆ་མཉམ་གྱི་ནང་ལས་ དྲག་ཤོས་བཟོ་སྟོན་འབདཝ་ཨིན།\n"
+#~ "མངགས་བཞག་ཡོད་མི་དེ་ མགྱོགས་པར་འོངཤ་ཨིནམ་དང་ སྤུས་ཚད་ཚུ་ཡང་ཧ་ལམ་ལེགས་ཤོམ་ བཟོ་སྟོན་འབདཝ་ཨིན།\n"
+#~ "མགྱོགས་པ་དང་མགྱོགས་དྲག་ཚུ་ མགྱོགས་ཤོས་འོངམ་ཨིནམ་ལས་ ཚིག་ཡིག་དང་ གྲལ་ཐིག་གི་དོན་ལུ་ ལེགས་ཤོམ་སྦེ་ལཱ་འབད་བཏུབ་ཨིན།\n"
 #~ "སྤྱིར་གཏང་གིས་ ཧའི་བིརིཌི་ ཕོལོཡིཌི་-སིཊན་བརག་གིས་ཨའུཊི་པུཏི་དམའ་སུ་བཟོ་སྟོན་འབདཝ་ཨིན།"
+
 #~ msgid "%s -- Print v%s"
 #~ msgstr "%s -- དཔར་བསྐྲུན་ ཝི་%s"
+
 #~ msgid ""
 #~ "Save\n"
 #~ "Settings"
 #~ msgstr ""
 #~ "སྒྲིག་སྟངས་ཚུ་\n"
 #~ "སྲུང་བཞག་འབད།"
+
 #~ msgid ""
 #~ "Print and\n"
 #~ "Save Settings"
 #~ msgstr ""
 #~ "དཔར་བསྐྲུན་འབད་དེ་\n"
 #~ "སྒྲིག་སྟངས་སྲུང་བཞག་འབད།"
+
 #~ msgid ""
 #~ "Position the image on the page.\n"
 #~ "Click and drag with the primary button to position the image.\n"
-#~ "Click and drag with the second button to move the image with finer "
-#~ "precision; each unit of motion moves the image one point (1/72\")\n"
-#~ "Click and drag with the third (middle) button to move the image in units "
-#~ "of the image size.\n"
-#~ "Holding down the shift key while clicking and dragging constrains the "
-#~ "image to only horizontal or vertical motion.\n"
-#~ "If you click another button while dragging the mouse, the image will "
-#~ "return to its original position."
+#~ "Click and drag with the second button to move the image with finer precision; each unit of motion moves the image one point (1/72\")\n"
+#~ "Click and drag with the third (middle) button to move the image in units of the image size.\n"
+#~ "Holding down the shift key while clicking and dragging constrains the image to only horizontal or vertical motion.\n"
+#~ "If you click another button while dragging the mouse, the image will return to its original position."
 #~ msgstr ""
 #~ "ཤོག་ལེབ་གུར་གཟུགས་བརྙན་གྱི་གནས་ས་བཟོ།\n"
 #~ "གཟུགས་བརྙན་གནས་ས་ཡོདཔ་བཟི་ནིའི་དོན་ལུ་ གཞིག་རིམ་ཨབ་རྟ་དང་གཅིག་ཁར་ཨེབ་གཏང་འབད་དེ་འདྲུད།\n"
-#~ "གཟུགས་བརྙན་དེ་ལེགས་ཤོམ་དང་ཀྲིག་ཀྲི་གི་ཐོག་ལས་གཟུགས་བརྙན་དང་གཅིག་ཁར་སྤོ་བཤུད་འབད་ནིའི་དོན་ལུ་ "
-#~ "ཨེབ་རྟ་གཉིས་པམ་དང་གཅིག་ཁར་ ཨེབ་གཏང་འབད་དེ་འདྲུད་; འགུལ་གྱི་ཆ་ཕྲན་རེ་རེ་གིས་ གཟུགས་བརྙན་དེ་ས་"
-#~ "ཚིགས་རེ་ལུ་སྤོ་བཤུད་འཝ་ཨིན།(༡/༧༢\")\n"
-#~ "གཟུགས་བརྙན་ཚད་ཀྱི་ཆ་ཕྲན་ནང་ལུ་ གཟུགས་བརྙན་སྤོ་བཤུད་འབད་ནིའི་དོན་ལུ་ ཨེབ་རྟ་གསུམ་པམ་(བར་མ)དང་"
-#~ "གཅིག་ཁར་ཨེབ་གཏང་འབད་དེ་འདྲུད།\n"
-#~ "ཨེབ་གཏང་དང་འདྲུད་པའི་སྐབས་སུ་སོར་ལྡེ་མར་འཆང་མི་དེ་གིས་ ཐད་སྙོམས་དང་ཀེར་ཕྲེང་སྦེ་ཡོད་མི་གུལ་རྐྱངམ་"
-#~ "ཅིག་ལུ་ གཟུགས་བརྙན་དེ་དམ་ཨིན། མའུསུ་དེ་འདྲུད་པའི་སྐབས་སུ་ ཁྱོད་ཀྱིས་ཨེབ་རྟ་གཞན་མི་ཅིག་ལུ་ཨེབ་གཏང་"
-#~ "འབད་བ་ཅིན་ གཟུགས་བརྙན་དེ་གིས་ཁོ་རའི་གནས་ས་ངོ་མ་དེ་ལུ་ སླར་ལོག་འབད་འོང་།"
+#~ "གཟུགས་བརྙན་དེ་ལེགས་ཤོམ་དང་ཀྲིག་ཀྲི་གི་ཐོག་ལས་གཟུགས་བརྙན་དང་གཅིག་ཁར་སྤོ་བཤུད་འབད་ནིའི་དོན་ལུ་ ཨེབ་རྟ་གཉིས་པམ་དང་གཅིག་ཁར་ ཨེབ་གཏང་འབད་དེ་འདྲུད་; འགུལ་གྱི་ཆ་ཕྲན་རེ་རེ་གིས་ གཟུགས་བརྙན་དེ་ས་ཚིགས་རེ་ལུ་སྤོ་བཤུད་འཝ་ཨིན།(༡/༧༢\")\n"
+#~ "གཟུགས་བརྙན་ཚད་ཀྱི་ཆ་ཕྲན་ནང་ལུ་ གཟུགས་བརྙན་སྤོ་བཤུད་འབད་ནིའི་དོན་ལུ་ ཨེབ་རྟ་གསུམ་པམ་(བར་མ)དང་གཅིག་ཁར་ཨེབ་གཏང་འབད་དེ་འདྲུད།\n"
+#~ "ཨེབ་གཏང་དང་འདྲུད་པའི་སྐབས་སུ་སོར་ལྡེ་མར་འཆང་མི་དེ་གིས་ ཐད་སྙོམས་དང་ཀེར་ཕྲེང་སྦེ་ཡོད་མི་གུལ་རྐྱངམ་ཅིག་ལུ་ གཟུགས་བརྙན་དེ་དམ་ཨིན། མའུསུ་དེ་འདྲུད་པའི་སྐབས་སུ་ ཁྱོད་ཀྱིས་ཨེབ་རྟ་གཞན་མི་ཅིག་ལུ་ཨེབ་གཏང་འབད་བ་ཅིན་ གཟུགས་བརྙན་དེ་གིས་ཁོ་རའི་གནས་ས་ངོ་མ་དེ་ལུ་ སླར་ལོག་འབད་འོང་།"
+
 #~ msgid "Auto"
 #~ msgstr "རང་བཞིན།"
+
 #~ msgid "Portrait"
 #~ msgstr "ཡར་ཕྲང་།"
+
 #~ msgid "Landscape"
 #~ msgstr "ཀེ་ཀེ"
+
 #~ msgid "Upside down"
 #~ msgstr "མགོ་མཇུག་སློག་སློགཔ།"
+
 #~ msgid "Seascape"
 #~ msgstr "ཀེ་ཀེ།"
-#~ msgid ""
-#~ "Select the orientation: portrait, landscape, upside down, or seascape "
-#~ "(upside down landscape)"
-#~ msgstr ""
-#~ "ཕྱོགས་དེ་སེལ་འཐུ་འབད:ཡར་ཕྲང་ ཀེ་ཀེ་ མགོ་མཇུག་སློག་སློགཔ་ ཡང་ན་ མཚོ་སྣང་(མགོ་མཇུག་སློག་སློགཔ་པའི་"
-#~ "ཀེ་ཀེ)"
+
+#~ msgid "Select the orientation: portrait, landscape, upside down, or seascape (upside down landscape)"
+#~ msgstr "ཕྱོགས་དེ་སེལ་འཐུ་འབད:ཡར་ཕྲང་ ཀེ་ཀེ་ མགོ་མཇུག་སློག་སློགཔ་ ཡང་ན་ མཚོ་སྣང་(མགོ་མཇུག་སློག་སློགཔ་པའི་ཀེ་ཀེ)"
+
 #~ msgid "Distance from the left of the paper to the image"
 #~ msgstr "ཤོག་ལེབ་ཀྱི་གཡོན་ལས་གཟུགས་བརྙན་ཚུན་གྱི་བར་ནའི་གྱང་ཚད།"
+
 #~ msgid "Distance from the top of the paper to the image"
 #~ msgstr "ལོག་ལེབ་ཀྱི་སྤྱི་ཏོག་ལས་གཟུགས་བརྙན་ཚུན་ཀྱི་གྱང་ཚད།"
+
 #~ msgid "Distance from the left of the paper to the right of the image"
 #~ msgstr "ཤོག་ལེབ་ཀྱི་གཡོན་ལས་གཟུགས་བརྙན་གྱི་གཡས་ཚུན་གྱི་བར་ནའི་གྱང་ཚད།"
+
 #~ msgid "Right border:"
 #~ msgstr "གཡས་ཀྱི་མཐའ་མཚམས:"
+
 #~ msgid "Distance from the right of the paper to the image"
 #~ msgstr "ཤོག་ལེབ་ཀྱི་གཡས་ལས་གཟུགས་བརྙན་ཚུན་གྱི་གྱང་ཚད།"
+
 #~ msgid "Distance from the top of the paper to the bottom of the image"
 #~ msgstr "ཤོག་ལེབ་ཀྱི་སྤྱི་ཏོག་ལས་གཟུགས་བརྙན་གྱི་གཤམ་ཚུན་གྱི་གྱང་ཚད།"
+
 #~ msgid "Bottom border:"
 #~ msgstr "གཤམ་གྱི་མཐའ་མཚམས།"
+
 #~ msgid "Distance from the bottom of the paper to the image"
 #~ msgstr "ཤོག་ལེབ་ཀྱི་གཤམ་ལས་གཟུགས་བརྙན་ཚུན་གྱི་བར་ནའི་གྱང་ཚད།"
+
 #~ msgid "Center:"
 #~ msgstr "དབུས་སྒྲིག:"
+
 #~ msgid "Vertically"
 #~ msgstr "ཀེར་ཕྲེང་སྦེ།"
+
 #~ msgid "Center the image vertically on the paper"
 #~ msgstr "གཟུགས་བརྙན་དེ་ཀེར་ཕྲེང་སྦེ་ ཤོག་ལེབ་གུར་དབུས་སྒྲིག་འབད།"
+
 #~ msgid "Both"
 #~ msgstr "གཉིས་ཆ་རང་།"
+
 #~ msgid "Horizontally"
 #~ msgstr "ཐད་སྙོམས་སྦེ།"
+
 #~ msgid "Center the image horizontally on the paper"
 #~ msgstr "གཟུགས་བརྙན་དེ་ཤོག་ལེབ་གུར་ཐད་སྙོམས་སྦེ་དབུས་སྒྲིག་འབད།"
+
 #~ msgid "Setup Printer"
 #~ msgstr "དཔར་འཕྲུལ་གཞི་སྒྲིག་འབད།"
+
 #~ msgid "Printer Model:"
 #~ msgstr "དཔར་འཕྲུལ་གྱི་དཔེ:"
+
 #~ msgid "Select your printer model"
 #~ msgstr "ཁྱོད་རའི་དཔར་འཕྲུལ་གྱི་དཔེ་སེལ་འཐུ་འབད།"
+
 #~ msgid "PPD File:"
 #~ msgstr "པི་པི་དི་་ཡིག་སྣོད:"
+
 #~ msgid "Enter the PPD filename for your printer"
 #~ msgstr "ཁྱོད་རའི་དཔར་འཕྲུལ་གྱི་དོན་ལུ་ པི་པི་དི་ཡིག་སྣོད་ཀྱི་མིང་དེ་བཙུགས།"
+
 #~ msgid "Browse"
 #~ msgstr "བརྡ་འཚོལ།"
+
 #~ msgid "Choose the PPD file for your printer"
 #~ msgstr "ཁྱོད་ཀྱི་དཔར་འཕྲུལ་གྱི་དོན་ལུ་ པི་པི་ཌི་ཡིག་སྣོད་དེ་ གདམ་ཁ་རྐྱབས།"
+
 #~ msgid "Command:"
 #~ msgstr "བརྡ་བཀོད།"
-#~ msgid ""
-#~ "Enter the command to print to your printer. Note: Please do not remove "
-#~ "the `-l' or `-oraw' from the command string, or printing will probably "
-#~ "fail!"
-#~ msgstr ""
-#~ "ཁྱོད་རའི་དཔར་འཕྲུལ་ལུ་དཔར་བསྐྲུན་འབད་ནིའི་དོན་ལུ་ བརྡ་བཀོད་དེ་བཙུགས།དྲན་འཛིན་:བརྡ་བཀོད་ཡིག་རྒྱུན་"
-#~ "ནང་ལས་l' ཡང་ན་`-oraw'དེ་རྩ་བསྐྲད་གཏང་མ་གནང་ ཡང་ན་ དཔར་བསྐྲུན་འབད་ནི་དེ་འབྱུང་སྲིད!"
+
+#~ msgid "Enter the command to print to your printer. Note: Please do not remove the `-l' or `-oraw' from the command string, or printing will probably fail!"
+#~ msgstr "ཁྱོད་རའི་དཔར་འཕྲུལ་ལུ་དཔར་བསྐྲུན་འབད་ནིའི་དོན་ལུ་ བརྡ་བཀོད་དེ་བཙུགས།དྲན་འཛིན་:བརྡ་བཀོད་ཡིག་རྒྱུན་ནང་ལས་l' ཡང་ན་`-oraw'དེ་རྩ་བསྐྲད་གཏང་མ་གནང་ ཡང་ན་ དཔར་བསྐྲུན་འབད་ནི་དེ་འབྱུང་སྲིད!"
+
 #~ msgid "Choose PPD File"
 #~ msgstr "པི་པི་ཌི་ ཡིག་སྣོད་གདམ་ཁ་རྐྱབས།"
+
 #~ msgid "Define New Printer"
 #~ msgstr "དཔར་འཕྲུལ་གསརཔ་ངེས་འཛིན་འབད།"
+
 #~ msgid "Enter the name you wish to give this logical printer"
 #~ msgstr "གཏན་ཚིག་ཅན་གྱི་དཔར་འཕྲུལ་ལུ་འབྱིན་དགོ་མནོ་མི་ མིང་བཙུགས།"
+
 #~ msgid "About Gimp-Print "
 #~ msgstr "ཇིམཔི་གི་སྐོར་ལས-དཔར་བསྐྲུན།"
+
 #~ msgid "Gimp-Print Version "
 #~ msgstr "ཇིམཔི-ཐོན་རིམ་དཔར་བསྐྲུན་འབད།"
+
 #~ msgid ""
 #~ "\n"
 #~ "\n"
@@ -12652,8 +12274,7 @@ msgstr "འཛོལ་བ:ཨེགསི་ཇེ་ཊི་ རྒྱུ་�
 #~ "\n"
 #~ "You should have received a copy of the GNU General Public License\n"
 #~ "along with this program; if not, write to the Free Software\n"
-#~ "Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  "
-#~ "USA\n"
+#~ "Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n"
 #~ msgstr ""
 #~ "\n"
 #~ "\n"
@@ -12662,10 +12283,8 @@ msgstr "འཛོལ་བ:ཨེགསི་ཇེ་ཊི་ རྒྱུ་�
 #~ "\n"
 #~ "ང་བཅས་ཀྱི་ཝེབ་ས་ཁོངས་http://gimp-print.sourceforge.net.ནང་ལུ་ བལྟ་སྤྱོད་མཛད་གནང་།\n"
 #~ "\n"
-#~ "ལས་རིམ་འདི་རང་དབང་གི་མཉེན་ཆས་ཨིན་ ཁྱོད་ཀྱིས་འདི་ལོག་བགོ་བཀྲམ་འབད་ནི་དང་/ཡང་ན་ ལེགས་བཅོས་"
-#~ "འབད་ནི་ཚུ་\n"
-#~ "རང་དབང་མཉེན་ཆས་གཞི་ཚོགས་ཀྱིས་དེབ་བསྐྲུན་འབད་ཡོད་པའི་ ཇི་ཨེན་ཡུ་ སྤྱིར་གཏང་མི་མང་ཆོག་ཐམ་གྱི་ནང་"
-#~ "ཡེད་མི་ལམ་ལུགས་དང་འཁྲིལ་ཏེ་ འབད་ཚུགས\n"
+#~ "ལས་རིམ་འདི་རང་དབང་གི་མཉེན་ཆས་ཨིན་ ཁྱོད་ཀྱིས་འདི་ལོག་བགོ་བཀྲམ་འབད་ནི་དང་/ཡང་ན་ ལེགས་བཅོས་འབད་ནི་ཚུ་\n"
+#~ "རང་དབང་མཉེན་ཆས་གཞི་ཚོགས་ཀྱིས་དེབ་བསྐྲུན་འབད་ཡོད་པའི་ ཇི་ཨེན་ཡུ་ སྤྱིར་གཏང་མི་མང་ཆོག་ཐམ་གྱི་ནང་ཡེད་མི་ལམ་ལུགས་དང་འཁྲིལ་ཏེ་ འབད་ཚུགས\n"
 #~ "དེ་ཡང་ ཆོག་ཐམ་གྱི་ཐོན་རིམ་༢་ལས་གང་རུང་ཅིག་ཡང་ན་ \n"
 #~ "(ཁྱོད་རའི་གདམ་ཁ་དང་འཁྲིལ་) ཤུལ་མམ་གྱི་ཐོན་རིམ་གང་རུང་ལུ་\n"
 #~ "\n"
@@ -12677,151 +12296,184 @@ msgstr "འཛོལ་བ:ཨེགསི་ཇེ་ཊི་ རྒྱུ་�
 #~ "ལས་རིམ་འདི་དང་གཅིག་ཁར་ འཐོབ་དགོཔ་ཨིན\n"
 #~ "དོ་མེན་པ་ཅིན་ རང་དབང་མཉེན་ཆས་ལུ་བྲིས་\n"
 #~ "གཞི་ཚོགས་Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n"
+
 #~ msgid "Printer Settings"
 #~ msgstr "དཔར་འཕྲུལ་གྱི་སྒྲིག་སྟངས།"
-#~ msgid ""
-#~ "Select the name of the printer (not the type, or model, of printer) that "
-#~ "you wish to print to"
-#~ msgstr ""
-#~ "ཁྱོད་ཀྱིས་ དེ་ལུ་དཔར་བསྐྲུན་འབད་ནིའི་དོན་ལུ་(དབྱེ་བ་ཡང་ན་ དཔེ་ དཔར་འཕྲུལ་གྱི་མེན་མི་) དཔར་འཕྲུལ་དེ་"
-#~ "གི་མིང་སེལ་འཐུ་འབད།"
+
+#~ msgid "Select the name of the printer (not the type, or model, of printer) that you wish to print to"
+#~ msgstr "ཁྱོད་ཀྱིས་ དེ་ལུ་དཔར་བསྐྲུན་འབད་ནིའི་དོན་ལུ་(དབྱེ་བ་ཡང་ན་ དཔེ་ དཔར་འཕྲུལ་གྱི་མེན་མི་) དཔར་འཕྲུལ་དེ་གི་མིང་སེལ་འཐུ་འབད།"
+
 #~ msgid "Printer model:"
 #~ msgstr "དཔར་འཕྲུལ་གྱི་དཔེ།"
+
 #~ msgid "Setup Printer..."
 #~ msgstr "གཞི་སྒྲིག་གི་དཔར་འཕྲུལ།"
-#~ msgid ""
-#~ "Choose the printer model, PPD file, and command that is used to print to "
-#~ "this printer"
-#~ msgstr ""
-#~ "དཔར་འཕྲུལ་འདི་ནང་ལུ་དཔར་བསྐྲུན་འབད་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་དཔར་འཕྲུལ་གྱི་དཔེ་གཞི་ པི་པི་ཌི་"
-#~ "ཡིག་སྣོད་ དེ་ལས་བརྡ་བཀོད་དེ་ཚུ་གདམ་ཁ་རྐྱབས།"
+
+#~ msgid "Choose the printer model, PPD file, and command that is used to print to this printer"
+#~ msgstr "དཔར་འཕྲུལ་འདི་ནང་ལུ་དཔར་བསྐྲུན་འབད་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་དཔར་འཕྲུལ་གྱི་དཔེ་གཞི་ པི་པི་ཌི་ཡིག་སྣོད་ དེ་ལས་བརྡ་བཀོད་དེ་ཚུ་གདམ་ཁ་རྐྱབས།"
+
 #~ msgid "New Printer..."
 #~ msgstr "དཔར་བསྐྲུན་གསརཔ་་་་་"
-#~ msgid ""
-#~ "Define a new logical printer. This can be used to name a collection of "
-#~ "settings that you wish to remember for future use."
-#~ msgstr ""
-#~ "གཏན་ཚིག་ཅན་གྱི་དཔར་བསྐྲུན་གསརཔ་ཅིག་ངེས་འཛིན་འབད། འ་ནི་དེ་ ཁྱོད་ཀྱིས་མ་འོངས་པ་ལུ་སེམས་ཁར་བཞག་"
-#~ "ནིའི་རེ་འདུན་ཡོད་མི་ སྒྲིག་སྟངས་ཀྱི་བསྡུ་ལེན་ལུ་མིང་བཏགས་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ཚུགས།"
+
+#~ msgid "Define a new logical printer. This can be used to name a collection of settings that you wish to remember for future use."
+#~ msgstr "གཏན་ཚིག་ཅན་གྱི་དཔར་བསྐྲུན་གསརཔ་ཅིག་ངེས་འཛིན་འབད། འ་ནི་དེ་ ཁྱོད་ཀྱིས་མ་འོངས་པ་ལུ་སེམས་ཁར་བཞག་ནིའི་རེ་འདུན་ཡོད་མི་ སྒྲིག་སྟངས་ཀྱི་བསྡུ་ལེན་ལུ་མིང་བཏགས་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ཚུགས།"
+
 #~ msgid "Size of paper that you wish to print to"
 #~ msgstr "ཁྱོད་ཀྱིས་ དེ་ལུ་དཔར་བསྐྲུན་འབད་ནིའི་ལེ་འདུན་ཡོད་མི་ ཤོག་ལེབ་ཀྱི་ཚད།"
+
 #~ msgid "Media size:"
 #~ msgstr "བརྡ་ལམ་གྱི་ཚད:"
+
 #~ msgid "Dimensions:"
 #~ msgstr "རྒྱ་ཁྱོན:"
+
 #~ msgid "Width of the paper that you wish to print to"
 #~ msgstr "ཁྱོད་ཀྱིས་ དེ་ལུ་དཔར་བསྐྲུན་འབད་ནིའི་རེ་འདུན་ཡོད་མི་ཤོག་ལེབ་ཀྱི་རྒྱ་ཚད།"
+
 #~ msgid "Height of the paper that you wish to print to"
 #~ msgstr "ཁྱོད་ཀྱིས་ དེ་ལུ་དཔར་བསྐྲུན་འབད་ནིའི་རེ་འདུན་ཡོད་མི་ཤོག་ལེབ་དེ་གི་མཐོ་ཚད།"
+
 #~ msgid "Type of media you're printing to"
 #~ msgstr "ལུ་ ཁྱོད་ཀྱིས་དཔར་བསྐྲུན་འབད་བའི་སྒང་ཡོད་མི་བརྡ་ལམ་དེ་གི་དབྱེ་བ།"
+
 #~ msgid "Media type:"
 #~ msgstr "བརྡ་ལམ་གྱི་དབྱེ་བ:"
+
 #~ msgid "Source (input slot) of media you're printing to"
 #~ msgstr "ཁྱོད་ཀྱིས་དཔར་བསྐྲུན་འབད་བའི་སྒང་ཡོད་མི་(ཨིན་པུཊི་ས་སྒོ་)བརྡ་ལམ་གྱི་བྱུང་ཁུངས།"
+
 #~ msgid "Media source:"
 #~ msgstr "བརྡ་ལམ་བྱུང་ཁུངས:"
+
 #~ msgid "Type of ink in the printer"
 #~ msgstr "དཔར་བསྐྲུན་གྱི་ནང་ལུ་སྣག་རྩི་གི་དབྱེ་བ།"
+
 #~ msgid "Ink type:"
 #~ msgstr "སྣག་རྩི་གི་དབྱེ་བ:"
+
 #~ msgid "Resolution and quality of the print"
 #~ msgstr "དཔར་བསྐྲུན་གྱི་ཧུམ་ཆ་དང་སྤུས་ཚད།"
+
 #~ msgid "Scaling:"
 #~ msgstr "ཆ་ཚད་འཇལ་དོ།"
+
 #~ msgid "Set the scale (size) of the image"
 #~ msgstr "གཟུགས་བརྙན་གྱི་ཆ་ཚད་(ཚད་)དེ་གཞི་སྒྲིག་འབད།"
+
 #~ msgid "Scale by:"
 #~ msgstr "གིས་ཆ་ཚད་འཇལ:"
-#~ msgid ""
-#~ "Select whether scaling is measured as percent of available page size or "
-#~ "number of output dots per inch"
-#~ msgstr ""
-#~ "ཆ་ཚད་འཇལ་ནི་དེ་ མཐོབ་ཚུགས་པའི་ཤོག་ལེབ་ཚད་ཀྱི་བརྒྱ་ཆ་སྦེ་ཚད་བཀལ་ནི་དེ་འཇལཝ༌ཨིན་ན་ཡ་ ཡང་ན་ "
-#~ "ཨིནཅི་རེ་ལུ་ཚག་རེ་གི་ཨང་གྲངས་སཚད་ཤིང་བཀལ་ནི་དེ་འཇལཝ་ཨིན་ན་ སེལ་འཐུ་འབད།ྦེ་"
+
+#~ msgid "Select whether scaling is measured as percent of available page size or number of output dots per inch"
+#~ msgstr "ཆ་ཚད་འཇལ་ནི་དེ་ མཐོབ་ཚུགས་པའི་ཤོག་ལེབ་ཚད་ཀྱི་བརྒྱ་ཆ་སྦེ་ཚད་བཀལ་ནི་དེ་འཇལཝ༌ཨིན་ན་ཡ་ ཡང་ན་ ཨིནཅི་རེ་ལུ་ཚག་རེ་གི་ཨང་གྲངས་སཚད་ཤིང་བཀལ་ནི་དེ་འཇལཝ་ཨིན་ན་ སེལ་འཐུ་འབད།ྦེ་"
+
 #~ msgid "Percent"
 #~ msgstr "བརྒྱ་ཆ།"
+
 #~ msgid "Scale the print to the size of the page"
 #~ msgstr "ཤོག་ལེབ་ཀྱི་ཚད་དུ་ལུ་ དཔར་བསྐྲུན་གྱི་ཤ་ཚད་འཇལ།"
+
 #~ msgid "PPI"
 #~ msgstr "པི་པི་ཨའི།"
+
 #~ msgid "Scale the print to the number of dots per inch"
 #~ msgstr "ཨིནཅི་རེ་ལུ་ཚག་རེ་གི་གྱི་ཨང་གྲངས་དེ་ལུ་ དཔར་བསྐྲུན་དེ་ཆ་ཚད་འཇལ།"
+
 #~ msgid "Set the width of the print"
 #~ msgstr "དཔར་བསྐྲུན་གྱི་རྒྱ་ཚད་དེ་གཞི་སྒྲིག་འབད།"
+
 #~ msgid "Set the height of the print"
 #~ msgstr "དཔར་བསྐྲུན་གི་མཐོ་ཚད་དེ་ གཞི་སྒྲིག་འབད།"
+
 #~ msgid "Units:"
 #~ msgstr "ཆ་ཕྲན་ཚུ:"
+
 #~ msgid "Select the base unit of measurement for printing"
 #~ msgstr "དཔར་བསྐྲུན་འབད་ནིའི་དོན་ལུ་ ཚད་འཇལ་གྱི་ཆ་ཕྲན་གཞི་རྟེན་དེ་ སེལ་འཐུ་འབད།"
+
 #~ msgid "Inch"
 #~ msgstr "ཨིནཅི།"
+
 #~ msgid "Set the base unit of measurement to inches"
 #~ msgstr "ཚད་འཇལ་གྱི་གཞི་རྟེན་ཆ་ཕྲན་དེ་ ཨིན་ཅེསི་ལུ་གཞི་སྒྲིག་འབད།"
+
 #~ msgid "cm"
 #~ msgstr "སི་ཨེམ།"
+
 #~ msgid "Set the base unit of measurement to centimetres"
 #~ msgstr "ཚད་འཇལ་གྱི་གཞི་རྟེན་ཆ་ཕྲན་དེ་ སེན་ཊི་མི་ཊརསི་ལུ་ གཞི་སྒྲིག་འབད།"
+
 #~ msgid ""
 #~ "Use Original\n"
 #~ "Image Size"
 #~ msgstr ""
 #~ "ངོ་མ་ལག་ལེན་འཐབ་\n"
 #~ "གཟུགས་བརྙན་གྱི་ཚད།"
+
 #~ msgid "Set the print size to the size of the image"
 #~ msgstr "གཟུགས་བརྙན་གྱི་ཚད་ལུ་ དཔར་བསྐྲུན་གྱི་ཚད་གཞི་སྒྲིག་འབད།"
+
 #~ msgid "Image / Output Settings"
 #~ msgstr "གཟུགས་བརྙན་/ཨའིཊི་པུཊི་གི་སྒྲིག་སྟངས།"
+
 #~ msgid "Image type:"
 #~ msgstr "གཟུགས་བརྙན་གྱི་དབྱེ་བ།"
+
 #~ msgid "Optimize the output for the type of image being printed"
-#~ msgstr ""
-#~ "དཔར་བསྐྲུན་འབད་ཡོད་པའི་གཟུགས་བརྙན་གྱི་དབྱེ་བ་དེ་གི་དོན་ལུ་ ཨའུཊི་པུཊི་དེ་ལེགས་ལྡན་བཟོས་གྲུབ་འབད།"
+#~ msgstr "དཔར་བསྐྲུན་འབད་ཡོད་པའི་གཟུགས་བརྙན་གྱི་དབྱེ་བ་དེ་གི་དོན་ལུ་ ཨའུཊི་པུཊི་དེ་ལེགས་ལྡན་བཟོས་གྲུབ་འབད།"
+
 #~ msgid "Line art"
 #~ msgstr "གྲལ་ཐིག་གི་རི་མོ།"
+
 #~ msgid "Fastest and brightest color for text and line art"
 #~ msgstr "ཚིག་ཡིག་དང་གྲལ་ཐིག་གི་རི་མོའི་དོན་ལུ་ ཚོས་གཞི་མགྱོགས་ཤོས་དང་ དཀར་མདངས་དྲག་ཤོས།"
+
 #~ msgid "Solid colors"
 #~ msgstr "ཚོས་གཞི་རགས་པ།"
+
 #~ msgid "Best for images dominated by regions of solid color"
 #~ msgstr "ཚོས་གཞི་རགས་པ་གིས་གཙོ་བོར་བཟུང་ཡོད་པའི་གཟུགས་བརྙན་གྱི་དོན་ལུ་ དྲག་ཤོས།"
+
 #~ msgid "Photograph"
 #~ msgstr "དཔར།"
-#~ msgid ""
-#~ "Slowest, but most accurate and smoothest color for continuous tone images "
-#~ "and photographs"
-#~ msgstr ""
-#~ "འཕྲོ་མཐུད་སྐད་ཀྱི་སྙན་ཆ་དང་དཔར་གྱི་དོན་ལུ་ ཚོས་གཞི་ལྷོད་དྲག་པ་ དེ་འབདཝ་ད་ ཀྲིག་ཀྲི་དང་ གནམ་མེད་"
-#~ "ས་མེད་ཧུམ་ཁྱུག་ཁྱུ།"
+
+#~ msgid "Slowest, but most accurate and smoothest color for continuous tone images and photographs"
+#~ msgstr "འཕྲོ་མཐུད་སྐད་ཀྱི་སྙན་ཆ་དང་དཔར་གྱི་དོན་ལུ་ ཚོས་གཞི་ལྷོད་དྲག་པ་ དེ་འབདཝ་ད་ ཀྲིག་ཀྲི་དང་ གནམ་མེད་ས་མེད་ཧུམ་ཁྱུག་ཁྱུ།"
+
 #~ msgid "Output type:"
 #~ msgstr "ཨའིཊི་པུཊི་གི་དབྱེ་བ།"
+
 #~ msgid "Select the desired output type"
 #~ msgstr "རེ་འདུན་ཆན་གྱི་ཨའུཊི་པུཊི་གི་དབྱེ་བ་དེ་ སེལ་འཐུ་འབད།"
+
 #~ msgid "Color output"
 #~ msgstr "ཚོས་གཞི་ཨའུཊི་པུཊི།"
+
 #~ msgid "Grayscale"
 #~ msgstr "གེརེ་སིཀེལ།"
+
 #~ msgid "Print in shades of gray using black ink"
 #~ msgstr "སྣག་རྩི་གནགཔོ་དེ་ལག་ལེན་འཐབ་པའི་ཐོག་ལས་ སྐྱ་ཐལ་གྱི་ནག་གྲིབ་ནང་དཔར་བསྐྲུན་འབད།"
+
 #~ msgid "Black and white"
 #~ msgstr "དཀརཔོ་དང་གནགཔོ།"
+
 #~ msgid "Print in black and white (no color, and no shades of gray)"
 #~ msgstr "དཀར་ནག་ནང་དཔར་བསྐྲུན་འབད་(སྐྱ་ཐལ་དང་ཚོས་གཞི་གི་ནག་གྲིབ་མེད་)"
+
 #~ msgid "Adjust Output..."
 #~ msgstr "ཨའུཊི་པུཊི་བདེ་སྒྲིག་འབད།"
-#~ msgid ""
-#~ "Adjust color balance, brightness, contrast, saturation, and dither "
-#~ "algorithm"
-#~ msgstr ""
-#~ "ཚོས་གཞིའི་ཚད་སྙོམས་ དཀར་མདངས་ ཚོན་མདངས་ མཐའ་ཚད་ དེ་ལས་ ཌི་ཐར་ ཨཱལ་གོ་རི་དམ་དེ་ བདེ་སྒྲིག་"
-#~ "འབད།"
+
+#~ msgid "Adjust color balance, brightness, contrast, saturation, and dither algorithm"
+#~ msgstr "ཚོས་གཞིའི་ཚད་སྙོམས་ དཀར་མདངས་ ཚོན་མདངས་ མཐའ་ཚད་ དེ་ལས་ ཌི་ཐར་ ཨཱལ་གོ་རི་དམ་དེ་ བདེ་སྒྲིག་འབད།"
+
 #~ msgid "Print the image using the gimp-print drivers"
 #~ msgstr "ཇིམཔི-དཔར་བསྐྲུན་འདྲེན་བྱེད་དེ་ ལག་ལེན་འཐབ་པའི་ཐོག་ལས་ གཞུགས་བརྙན་དཔར་བསྐྲུན་འབད།"
+
 #~ msgid "Colormap _Rotation..."
 #~ msgstr "ཚོས་གཞི་ཅན་གྱི་ས་ཁྲ་ བསྒྱ��ར་ནི།(_R)"
+
 #~ msgid "Colormap Rotation"
 #~ msgstr "ཚོས་གཞི་ཅན་གྱི་ས་ཁྲ་ བསྒྱིར་ནི།"
+
 #~ msgid "Windows icons cannot be higher or wider than 255 pixels."
 #~ msgstr "སྒོ་སྒྲིག་ཚུ་གི་ངོས་དཔར་ཚུ་ ༢༥༥པིག་སེལསི་ལས་ མཐོ་མི་ཡང་ན་རྒྱ་ཆེ་མི་ མི་འོང་།"
-

@@ -228,7 +228,7 @@ typedef enum  /*< pdb-skip >*/
   GIMP_DEBUG_POLICY_WARNING,    /*< desc="Debug warnings, critical errors and crashes" >*/
   GIMP_DEBUG_POLICY_CRITICAL,   /*< desc="Debug critical errors and crashes"           >*/
   GIMP_DEBUG_POLICY_FATAL,      /*< desc="Debug crashes only"                          >*/
-  GIMP_DEBUG_POLICY_NEVER       /*< desc="Never debug GIMP"                            >*/
+  GIMP_DEBUG_POLICY_NEVER       /*< desc="Never debug Glimpse"                         >*/
 } GimpDebugPolicy;
 
 

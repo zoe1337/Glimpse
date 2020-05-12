@@ -36,7 +36,7 @@ msgid "_Start Server..."
 msgstr "సేవకాన్ని ప్రారంభించు...(_S)"
 
 #: ../plug-ins/script-fu/script-fu.c:307
-msgid "_GIMP Online"
+msgid "_Glimpse online"
 msgstr "గింప్ ఆన్‌లైను (_G)"
 
 #: ../plug-ins/script-fu/script-fu.c:308
@@ -773,7 +773,7 @@ msgstr ""
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (GNU I.M.P)"
 msgstr ""
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -812,7 +812,7 @@ msgstr ""
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:192
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:205
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:218
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr ""
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
@@ -821,7 +821,7 @@ msgstr ""
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
 #, fuzzy
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (GNU I.M.P)"
 msgstr "వాడుకరి కరదీపిక (_U)"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217

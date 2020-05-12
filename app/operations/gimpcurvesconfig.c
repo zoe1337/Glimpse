@@ -541,7 +541,7 @@ gimp_curves_config_load_cruft (GimpCurvesConfig  *config,
   if (strcmp (line, "# GIMP Curves File") != 0)
     {
       g_set_error_literal (error, GIMP_CONFIG_ERROR, GIMP_CONFIG_ERROR_PARSE,
-                           _("not a GIMP Curves file"));
+                           _("not a GNU I.M.P Curves file"));
       g_object_unref (data_input);
       g_free (line);
       return FALSE;

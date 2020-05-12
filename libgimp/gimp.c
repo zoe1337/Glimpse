@@ -349,7 +349,7 @@ gimp_main (const GimpPlugInInfo *info,
        directory) as backtraces correspond to the binaries on this
        system. */
     dir = g_build_filename (g_get_user_data_dir (),
-                            GIMPDIR, GIMP_USER_VERSION, "CrashLog",
+                            GIMPDIR, GLIMPSE_APP_VERSION, "CrashLog",
                             NULL);
     /* Ensure the path exists. */
     g_mkdir_with_parents (dir, 0700);
@@ -442,7 +442,7 @@ gimp_main (const GimpPlugInInfo *info,
 
   if ((argc != N_ARGS) || (strcmp (argv[ARG_GIMP], "-gimp") != 0))
     {
-      g_printerr ("%s is a GIMP plug-in and must be run by GIMP to be used\n",
+      g_printerr ("%s is a GNU I.M.P plug-in and must be run by Glimpse to be used\n",
                   argv[ARG_PROGNAME]);
       return 1;
     }
@@ -763,7 +763,7 @@ gimp_quit (void)
  *
  * Additionally, a %GIMP_EXTENSION procedure with no parameters
  * (@n_params == 0 and @params == #NULL) is an "automatic" extension
- * that will be automatically started on each GIMP startup.
+ * that will be automatically started on each Glimpse startup.
  **/
 void
 gimp_install_procedure (const gchar        *name,
@@ -1591,7 +1591,7 @@ gimp_wm_class (void)
  * Returns the display to be used for plug-in windows.
  *
  * This is a constant value given at plug-in configuration time.
- * Will return #NULL if GIMP has been started with no GUI, either
+ * Will return #NULL if Glimpse has been started with no GUI, either
  * via "--no-interface" flag, or a console build.
  *
  * Return value: the display name

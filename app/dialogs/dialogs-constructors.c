@@ -213,7 +213,7 @@ dialogs_error_get (GimpDialogFactory *factory,
                    GimpUIManager     *ui_manager,
                    gint               view_size)
 {
-  return gimp_error_dialog_new (_("GIMP Message"));
+  return gimp_error_dialog_new (_("Glimpse Message"));
 }
 
 GtkWidget *
@@ -222,7 +222,8 @@ dialogs_critical_get (GimpDialogFactory *factory,
                       GimpUIManager     *ui_manager,
                       gint               view_size)
 {
-  return gimp_critical_dialog_new (_("GIMP Debug"),
+
+  return gimp_critical_dialog_new (_("Glimpse Debug"),
                                    context->gimp->config->last_known_release,
                                    context->gimp->config->last_release_timestamp);
 }

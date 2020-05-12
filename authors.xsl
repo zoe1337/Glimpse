@@ -13,10 +13,15 @@
     <xsl:apply-templates select="dc:contributor[contains(@role, $role)]" />
   </xsl:template>
 
-  <xsl:template match="/dc:gimp-authors">
-    <xsl:text> -- This file is generated from authors.xml, do not edit it directly. --
+  <xsl:template name="upstream">
+    <xsl:param name="role" />
+    <xsl:apply-templates select="dc:upstream[contains(@role, $role)]" />
+  </xsl:template>
 
-GIMP was originally written by:
+  <xsl:template match="/dc:glimpse-authors">
+    <xsl:text>-- This file is generated from authors.xml, do not edit it directly. --
+
+Glimpse fork was started by:
 
 </xsl:text>
     <xsl:apply-templates select="dc:creator" />
@@ -28,7 +33,7 @@ The current maintainers are:
     <xsl:apply-templates select="dc:maintainer" />
     <xsl:text>
 
-The following people have contributed code to GIMP:
+The following people have contributed code to Glimpse:
 
 </xsl:text>
     <xsl:call-template name="contributor">
@@ -36,7 +41,7 @@ The following people have contributed code to GIMP:
     </xsl:call-template>
     <xsl:text>
 
-The following people have contributed art to GIMP:
+The following people have contributed art to Glimpse:
 
 </xsl:text>
     <xsl:call-template name="contributor">
@@ -44,12 +49,40 @@ The following people have contributed art to GIMP:
     </xsl:call-template>
     <xsl:text>
 
-The following people have helped to document GIMP:
+The following people have helped to document Glimpse:
 
 </xsl:text>
     <xsl:call-template name="contributor">
       <xsl:with-param name="role" select="'documenter'"/>
     </xsl:call-template>
+    <xsl:text>
+
+A special thank you to the GNU Image Manipulation Program developers:
+
+</xsl:text>
+
+    <xsl:call-template name="upstream">
+      <xsl:with-param name="role" select="'author'"/>
+    </xsl:call-template>
+    <xsl:text>
+
+A further thank you to the GNU Image Manipulation Program artists:
+
+</xsl:text>
+    <xsl:call-template name="upstream">
+      <xsl:with-param name="role" select="'artist'"/>
+    </xsl:call-template>
+    <xsl:text>
+
+Also thank you to the people who documented GNU Image Manipulation Program:
+
+</xsl:text>
+    <xsl:call-template name="upstream">
+      <xsl:with-param name="role" select="'documenter'"/>
+    </xsl:call-template>
+    <xsl:text>
+
+</xsl:text>
 
   </xsl:template>
 
@@ -64,6 +97,11 @@ The following people have helped to document GIMP:
   </xsl:template>
 
   <xsl:template match="dc:contributor">
+    <xsl:text> </xsl:text><xsl:apply-templates /><xsl:text>
+</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="dc:upstream">
     <xsl:text> </xsl:text><xsl:apply-templates /><xsl:text>
 </xsl:text>
   </xsl:template>

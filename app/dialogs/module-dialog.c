@@ -150,7 +150,7 @@ module_dialog_new (Gimp *gimp)
                       vbox, TRUE, TRUE, 0);
   gtk_widget_show (vbox);
 
-  private->hint = gimp_hint_box_new (_("You will have to restart GIMP "
+  private->hint = gimp_hint_box_new (_("You will have to restart Glimpse "
                                        "for the changes to take effect."));
   gtk_box_pack_start (GTK_BOX (vbox), private->hint, FALSE, FALSE, 0);
 

@@ -21,6 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/common/align-layers.c:158
 msgid "Align all visible layers of the image"
@@ -3434,16 +3435,16 @@ msgid "Invalid X resolution."
 msgstr "Nieprawidłowa pozioma rozdzielczość."
 
 #: ../plug-ins/common/file-pnm.c:627
-msgid "Image width is larger than GIMP can handle."
-msgstr "Szerokość obrazu jest większa, niż program GIMP może obsłużyć."
+msgid "Image width is larger than Glimpse can handle."
+msgstr "Szerokość obrazu jest większa, niż program Glimpse może obsłużyć."
 
 #: ../plug-ins/common/file-pnm.c:634
 msgid "Invalid Y resolution."
 msgstr "Nieprawidłowa pionowa rozdzielczość."
 
 #: ../plug-ins/common/file-pnm.c:636
-msgid "Image height is larger than GIMP can handle."
-msgstr "Wysokość obrazu jest większa, niż program GIMP może obsłużyć."
+msgid "Image height is larger than Glimpse can handle."
+msgstr "Wysokość obrazu jest większa, niż program Glimpse może obsłużyć."
 
 #: ../plug-ins/common/file-pnm.c:648
 msgid "Bogus scale factor."
@@ -4009,10 +4010,10 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "„%s”:\n"
-"Szerokość obrazu jest większa, niż program GIMP może obsłużyć"
+"Szerokość obrazu jest większa, niż program Glimpse może obsłużyć"
 
 #: ../plug-ins/common/file-sunras.c:518 ../plug-ins/common/file-xbm.c:851
 #: ../plug-ins/common/file-xwd.c:540
@@ -4029,10 +4030,10 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "„%s”:\n"
-"Wysokość obrazu jest większa, niż program GIMP może obsłużyć"
+"Wysokość obrazu jest większa, niż program Glimpse może obsłużyć"
 
 #: ../plug-ins/common/file-sunras.c:562
 msgid "This image depth is not supported"
@@ -8839,8 +8840,8 @@ msgid "Performs various artistic operations"
 msgstr "Wykonuje różne działania artystyczne"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
-msgstr "_GIMPresjonista…"
+msgid "_Impressionist..."
+msgstr "_Impresjonista…"
 
 #: ../plug-ins/gimpressionist/gimp.c:165
 msgid "The selection does not intersect the active layer or mask."
@@ -8851,8 +8852,8 @@ msgid "Painting"
 msgstr "Malowanie"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPresjonista"
+msgid "Impressionist"
+msgstr "Impresjonista"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -9140,8 +9141,8 @@ msgid "Description:"
 msgstr "Opis:"
 
 #: ../plug-ins/gimpressionist/presets.c:893
-msgid "Gimpressionist Defaults"
-msgstr "Domyślne ustawienia GIMPresjonisty"
+msgid "Impressionist Defaults"
+msgstr "Domyślne ustawienia Impresjonisty"
 
 #: ../plug-ins/gimpressionist/presets.c:1014
 msgid "_Presets"
@@ -10280,8 +10281,8 @@ msgid "The help pages for '%s' are not available."
 msgstr "Strony pomocy dla „%s” są niedostępne."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
-msgstr "Podręcznik użytkownika programu GIMP jest niedostępny."
+msgid "The Glimpse user manual is not available."
+msgstr "Podręcznik użytkownika programu Glimpse jest niedostępny."
 
 #. TRANSLATORS: do not end the URL with a dot,
 #. * it would be in the link. Because of

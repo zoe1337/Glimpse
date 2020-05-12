@@ -96,11 +96,11 @@ tips_dialog_create (Gimp *gimp)
 
           if (! error)
             {
-              tip = gimp_tip_new (_("The GIMP tips file is empty!"), NULL);
+              tip = gimp_tip_new (_("The Glimpse tips file is empty!"), NULL);
             }
           else if (error->code == G_FILE_ERROR_NOENT)
             {
-              tip = gimp_tip_new (_("The GIMP tips file appears to be "
+              tip = gimp_tip_new (_("The Glimpse tips file appears to be "
                                     "missing!"),
                                   _("There should be a file called '%s'. "
                                     "Please check your installation."),
@@ -108,7 +108,7 @@ tips_dialog_create (Gimp *gimp)
             }
           else
             {
-              tip = gimp_tip_new (_("The GIMP tips file could not be parsed!"),
+              tip = gimp_tip_new (_("The Glimpse tips file could not be parsed!"),
                                   "%s", error->message);
             }
 
@@ -136,7 +136,7 @@ tips_dialog_create (Gimp *gimp)
   if (tips_dialog)
     return tips_dialog;
 
-  tips_dialog = gimp_dialog_new (_("GIMP Tip of the Day"),
+  tips_dialog = gimp_dialog_new (_("Glimpse Tip of the Day"),
                                  "gimp-tip-of-the-day",
                                  NULL, 0, NULL, NULL,
                                  NULL);

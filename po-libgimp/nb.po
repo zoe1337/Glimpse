@@ -827,18 +827,18 @@ msgstr "Beskjær med fast høyde- til breddeforhold"
 
 #: ../libgimpbase/gimpbaseenums.c:939
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Intern GIMP-prosedyre"
+msgid "Internal Glimpse procedure"
+msgstr "Intern Glimpse-prosedyre"
 
 #: ../libgimpbase/gimpbaseenums.c:940
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP-tillegg"
+msgid "GNU I.M.P Plug-In"
+msgstr "GNU I.M.P-tillegg"
 
 #: ../libgimpbase/gimpbaseenums.c:941
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP-utvidelse"
+msgid "GNU I.M.P Extension"
+msgstr "GNU I.M.P-utvidelse"
 
 #: ../libgimpbase/gimpbaseenums.c:942
 msgctxt "pdb-proc-type"
@@ -919,7 +919,7 @@ msgstr "Fargeprofilen til din (hoved)-skjerm."
 
 #: ../libgimpconfig/gimpcolorconfig.c:57
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""

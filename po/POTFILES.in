@@ -3,9 +3,9 @@
 
 [encoding: UTF-8]
 
-desktop/org.gimp.GIMP.appdata.xml.in.in
-desktop/gimp-data-extras.metainfo.xml.in.in
-desktop/gimp.desktop.in.in
+desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in
+desktop/glimpse-data-extras.metainfo.xml.in.in
+desktop/org.glimpse_editor.Glimpse.desktop.in.in
 
 app/about.h
 app/app.c

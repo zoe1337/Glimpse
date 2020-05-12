@@ -191,7 +191,7 @@ gui_abort (const gchar *abort_message)
 
   g_return_if_fail (abort_message != NULL);
 
-  dialog = gimp_dialog_new (_("GIMP Message"), "gimp-abort",
+  dialog = gimp_dialog_new (_("Glimpse Message"), "gimp-abort",
                             NULL, GTK_DIALOG_MODAL, NULL, NULL,
 
                             _("_OK"), GTK_RESPONSE_OK,
@@ -201,7 +201,7 @@ gui_abort (const gchar *abort_message)
   gtk_window_set_resizable (GTK_WINDOW (dialog), FALSE);
 
   box = g_object_new (GIMP_TYPE_MESSAGE_BOX,
-                      "icon-name",    GIMP_ICON_WILBER_EEK,
+                      "icon-name",    GLIMPSE_ICON_DEFAULT,
                       "border-width", 12,
                       NULL);
 
@@ -335,13 +335,13 @@ gui_recover (gint n_recoveries)
   gtk_dialog_set_default_response (GTK_DIALOG (dialog),
                                    GTK_RESPONSE_OK);
 
-  box = gimp_message_box_new (GIMP_ICON_WILBER_EEK);
+  box = gimp_message_box_new (GLIMPSE_ICON_DEFAULT);
   gtk_box_pack_start (GTK_BOX (gtk_dialog_get_content_area (GTK_DIALOG (dialog))),
                       box, TRUE, TRUE, 0);
   gtk_widget_show (box);
 
   gimp_message_box_set_primary_text (GIMP_MESSAGE_BOX (box),
-                                     _("Eeek! It looks like GIMP recovered from a crash!"));
+                                     _("Eeek! It looks like Glimpse recovered from a crash!"));
 
   gimp_message_box_set_text (GIMP_MESSAGE_BOX (box),
                              /* TRANSLATORS: even if English singular form does

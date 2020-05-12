@@ -38,7 +38,7 @@ SUBDIRS = \
 	etc			\
 	devel-docs		\
 	docs			\
-	build
+	build-aux
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = \
@@ -52,33 +52,20 @@ if HAVE_XSLTPROC
 	$(XSLTPROC) -o $(@) $(top_srcdir)/authors.xsl $< || rm -f $(@)
 endif
 
-authors.md: authors.xml authors4gimp-web.xsl
+authors.md: authors.xml authors4glimpse-web.xsl
 if HAVE_XSLTPROC
-	$(XSLTPROC) --stringparam today "`date --iso-8601=seconds`" -o $(@) $(top_srcdir)/authors4gimp-web.xsl $< || rm -f $(@)
+	$(XSLTPROC) --stringparam today "`date --iso-8601=seconds`" -o $(@) $(top_srcdir)/authors4glimpse-web.xsl $< || rm -f $(@)
 endif
 
 EXTRA_DIST = \
 	AUTHORS			\
 	COPYING			\
-	ChangeLog		\
-	ChangeLog.pre-1-0	\
-	ChangeLog.pre-1-2	\
-	ChangeLog.pre-2-0	\
-	ChangeLog.pre-2-2	\
-	ChangeLog.pre-2-4	\
-	ChangeLog.pre-2-6	\
-	ChangeLog.pre-git	\
-	HACKING			\
+	HACKING.md		\
 	INSTALL			\
 	LICENSE			\
 	NEWS			\
-	NEWS.pre-2-0		\
-	NEWS.pre-2-2		\
-	NEWS.pre-2-4		\
-	NEWS.pre-2-6		\
-	NEWS.pre-2-8		\
-	NEWS.pre-2-10		\
-	README			\
+	README    \
+	README.md			\
 	README.i18n		\
 	authors.dtd		\
 	authors.xml		\
@@ -111,13 +98,13 @@ dist-hook: check-defs validate-authors
 
 CHANGELOG_START = 74424325abb54620b370f2595445b2b2a19fe5e7
 
-ChangeLog: $(srcdir)/ChangeLog $(srcdir)/ChangeLog.pre-git
+ChangeLog: $(srcdir)/ChangeLog
 $(srcdir)/ChangeLog:
 	@echo Creating $@ based on git log
 	@if test -d "$(srcdir)/.git"; then \
 	  (GIT_DIR=$(top_srcdir)/.git ./missing --run \
 	   git log $(CHANGELOG_START)^.. --stat) | fmt --split-only > $@.tmp \
-	  && mv -f $@.tmp $@ && echo Appending ChangeLog.pre-git && cat ChangeLog.pre-git >> $@ \
+	  && mv -f $@.tmp $@ \
 	  || ($(RM) $@.tmp; \
 	      echo Failed to generate ChangeLog, your ChangeLog may be outdated >&2; \
 	      (test -f $@ || echo git-log is required to generate this file >> $@)); \

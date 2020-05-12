@@ -218,7 +218,7 @@ scalable_images = \
 	scalable/gimp-prefs-folders-tool-presets.svg		\
 	scalable/gimp-prefs-folders-tools.svg			\
 	scalable/gimp-prefs-help-system.svg			\
-	scalable/gimp-prefs-icon-theme.svg			\
+	scalable/glimpse-prefs-icon-theme.svg			\
 	scalable/gimp-prefs-image-title.svg			\
 	scalable/gimp-prefs-image-windows.svg			\
 	scalable/gimp-prefs-image-windows-appearance.svg	\
@@ -346,6 +346,7 @@ scalable_images = \
 	scalable/gimp-warning.svg				\
 	scalable/gimp-web.svg					\
 	scalable/gimp-wilber.svg				\
+	scalable/glimpse-icon.svg				\
 	scalable/gimp-wilber-eek.svg				\
 	scalable/gimp-wilber-outline.svg			\
 	scalable/gimp-zoom-follow-window.svg
@@ -432,7 +433,7 @@ vector24_images = \
 	24/gimp-prefs-folders-tool-presets.svg			\
 	24/gimp-prefs-folders-tools.svg				\
 	24/gimp-prefs-help-system.svg				\
-	24/gimp-prefs-icon-theme.svg				\
+	24/glimpse-prefs-icon-theme.svg				\
 	24/gimp-prefs-image-title.svg				\
 	24/gimp-prefs-image-windows.svg				\
 	24/gimp-prefs-image-windows-appearance.svg		\
@@ -518,6 +519,7 @@ vector24_images = \
 	24/gimp-video.svg					\
 	24/gimp-warning.svg					\
 	24/gimp-web.svg						\
+	24/glimpse-icon.svg					\
 	24/gimp-wilber.svg
 
 icons12_images = \
@@ -719,7 +721,7 @@ icons16_images = \
 	16/gimp-prefs-folders-tool-plug-ins.png			\
 	16/gimp-prefs-folders-tool-presets.png			\
 	16/gimp-prefs-folders-tools.png				\
-	16/gimp-prefs-icon-theme.png				\
+	16/glimpse-prefs-icon-theme.png				\
 	16/gimp-prefs-image-windows.png				\
 	16/gimp-prefs-import-export.png				\
 	16/gimp-prefs-interface.png				\
@@ -822,6 +824,7 @@ icons16_images = \
 	16/gimp-video.png					\
 	16/gimp-warning.png					\
 	16/gimp-web.png						\
+	16/glimpse-icon.png					\
 	16/gimp-wilber.png
 
 icons18_images = \
@@ -840,7 +843,6 @@ icons22_images = \
 	22/format-justify-fill.png				\
 	22/format-justify-left.png				\
 	22/format-justify-right.png				\
-	\
 	22/gimp-char-picker.png					\
 	22/gimp-dynamics.png					\
 	22/gimp-histogram.png					\
@@ -874,7 +876,7 @@ icons22_images = \
 	22/gimp-prefs-folders-tool-presets.png			\
 	22/gimp-prefs-folders-tools.png				\
 	22/gimp-prefs-help-system.png				\
-	22/gimp-prefs-icon-theme.png				\
+	22/glimpse-prefs-icon-theme.png				\
 	22/gimp-prefs-image-title.png				\
 	22/gimp-prefs-image-windows.png				\
 	22/gimp-prefs-image-windows-appearance.png		\
@@ -891,6 +893,7 @@ icons22_images = \
 	22/gimp-prefs-toolbox.png				\
 	22/gimp-prefs-window-management.png			\
 	22/gimp-tool-preset.png					\
+	22/glimpse-icon.png					\
 	22/gimp-wilber.png
 
 icons24_images = \
@@ -1055,6 +1058,7 @@ icons32_images = \
 	32/gimp-layer.png					\
 	32/gimp-text-layer.png					\
 	32/gimp-user-manual.png					\
+	32/glimpse-icon.png					\
 	32/gimp-wilber.png
 
 icons48_images = \
@@ -1095,7 +1099,7 @@ icons48_images = \
 	48/gimp-prefs-folders-tool-presets.png			\
 	48/gimp-prefs-folders-tools.png				\
 	48/gimp-prefs-help-system.png				\
-	48/gimp-prefs-icon-theme.png				\
+	48/glimpse-prefs-icon-theme.png				\
 	48/gimp-prefs-image-title.png				\
 	48/gimp-prefs-image-windows.png				\
 	48/gimp-prefs-image-windows-appearance.png		\
@@ -1112,6 +1116,7 @@ icons48_images = \
 	48/gimp-prefs-toolbox.png				\
 	48/gimp-prefs-window-management.png			\
 	48/gimp-text-layer.png					\
+	48/glimpse-icon.png					\
 	48/gimp-wilber.png
 
 icons64_images = \
@@ -1121,6 +1126,7 @@ icons64_images = \
 	64/gimp-user-manual.png					\
 	64/gimp-wilber-eek.png					\
 	64/gimp-wilber.png					\
+	64/glimpse-icon.png					\
 	64/gimp-wilber-outline.png
 
 icons64_system_images = \
@@ -1131,20 +1137,24 @@ icons64_system_images = \
 
 icons96_images = \
 	96/gimp-wilber.png					\
+	96/glimpse-icon.png					\
 	96/gimp-wilber-outline.png
 
 icons128_images = 						\
 	128/folder.png						\
 	128/gimp-wilber.png					\
+	128/glimpse-icon.png					\
 	128/gimp-wilber-outline.png
 
 icons192_images = \
 	192/gimp-wilber.png					\
+	192/glimpse-icon.png					\
 	192/gimp-wilber-outline.png
 
 icons256_images = \
 	256/folder.png						\
 	256/gimp-wilber.png					\
+	256/glimpse-icon.png					\
 	256/gimp-wilber-outline.png
 
 if ENABLE_VECTOR_ICONS

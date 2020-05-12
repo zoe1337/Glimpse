@@ -15,7 +15,7 @@ libgimpmath = $(top_builddir)/libgimpmath/libgimpmath-$(GIMP_API_VERSION).la
 libgimpbase = $(top_builddir)/libgimpbase/libgimpbase-$(GIMP_API_VERSION).la
 
 if HAVE_WINDRES
-include $(top_srcdir)/build/windows/gimprc-plug-ins.rule
+include $(top_srcdir)/build-aux/windows/gimprc-plug-ins.rule
 lighting_RC = lighting.rc.o
 endif
 

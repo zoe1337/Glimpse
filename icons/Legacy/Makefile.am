@@ -19,6 +19,7 @@ icons96dir  = $(gimpdatadir)/icons/Legacy/96x96/apps
 icons128dir = $(gimpdatadir)/icons/Legacy/128x128/apps
 icons192dir = $(gimpdatadir)/icons/Legacy/192x192/apps
 icons256dir = $(gimpdatadir)/icons/Legacy/256x256/apps
+iconsscalabledir = $(gimpdatadir)/icons/Legacy/scalable/apps
 
 ## The icon theme images
 
@@ -138,7 +139,7 @@ icons16_DATA = \
 	16/gimp-prefs-image-windows.png			\
 	16/gimp-prefs-interface.png			\
 	16/gimp-prefs-theme.png				\
-	16/gimp-prefs-icon-theme.png			\
+	16/glimpse-prefs-icon-theme.png			\
 	16/gimp-prefs-toolbox.png			\
 	16/gimp-prefs-window-management.png		\
 	16/gimp-print-resolution.png			\
@@ -227,6 +228,7 @@ icons16_DATA = \
 	16/gimp-video.png				\
 	16/gimp-warning.png				\
 	16/gimp-web.png					\
+	16/glimpse-icon.png				\
 	16/gimp-wilber.png
 
 icons18_DATA = \
@@ -278,11 +280,12 @@ icons22_DATA = \
 	22/gimp-prefs-session.png		\
 	22/gimp-prefs-system-resources.png	\
 	22/gimp-prefs-theme.png			\
-	22/gimp-prefs-icon-theme.png		\
+	22/glimpse-prefs-icon-theme.png		\
 	22/gimp-prefs-tool-options.png		\
 	22/gimp-prefs-toolbox.png		\
 	22/gimp-prefs-window-management.png	\
 	22/gimp-tool-preset.png			\
+	22/glimpse-icon.png			\
 	22/gimp-wilber.png
 
 tools22_DATA = \
@@ -419,6 +422,7 @@ icons32_DATA = \
 	32/gimp-layer.png		\
 	32/gimp-text-layer.png		\
 	32/gimp-user-manual.png		\
+	32/glimpse-icon.png		\
 	32/gimp-wilber.png
 
 icons48_DATA = \
@@ -456,7 +460,7 @@ icons48_DATA = \
 	48/gimp-prefs-folders-tools.png		\
 	48/gimp-prefs-folders.png		\
 	48/gimp-prefs-help-system.png		\
-	48/gimp-prefs-icon-theme.png		\
+	48/glimpse-prefs-icon-theme.png		\
 	48/gimp-prefs-image-title.png		\
 	48/gimp-prefs-image-windows.png		\
 	48/gimp-prefs-input-devices.png		\
@@ -470,6 +474,7 @@ icons48_DATA = \
 	48/gimp-prefs-toolbox.png		\
 	48/gimp-prefs-window-management.png	\
 	48/gimp-text-layer.png			\
+	48/glimpse-icon.png			\
 	48/gimp-wilber.png
 
 icons64_DATA = \
@@ -481,24 +486,44 @@ icons64_DATA = \
 	64/gimp-user-manual.png		\
 	64/gimp-warning.png		\
 	64/gimp-wilber-eek.png		\
+	64/glimpse-icon.png		\
 	64/gimp-wilber.png		\
 	64/gimp-wilber-outline.png
 
 icons96_DATA = \
 	96/gimp-wilber.png		\
+	96/glimpse-icon.png		\
 	96/gimp-wilber-outline.png
 
 icons128_DATA = \
 	128/gimp-wilber.png		\
+	128/glimpse-icon.png		\
 	128/gimp-wilber-outline.png
 
 icons192_DATA = \
 	192/gimp-wilber.png		\
+	192/glimpse-icon.png		\
 	192/gimp-wilber-outline.png
 
 icons256_DATA = \
 	256/gimp-wilber.png		\
+	256/glimpse-icon.png		\
 	256/gimp-wilber-outline.png
+
+iconsscalable_DATA = \
+	scalable/gimp-channel-alpha.svg		\
+	scalable/gimp-channel-indexed.svg	\
+	scalable/gimp-dynamics.svg		\
+	scalable/gimp-gegl.svg			\
+	scalable/gimp-layer-mask.svg		\
+	scalable/gimp-layer.svg			\
+	scalable/gimp-text-layer.svg		\
+	scalable/gimp-tool-desaturate.svg	\
+	scalable/gimp-tool-measure.svg		\
+	scalable/gimp-user-manual.svg		\
+	scalable/gimp-wilber-outline.svg	\
+	scalable/gimp-wilber.svg		\
+	scalable/glimpse-icon.svg
 
 
 ## Compiled-in icons for both the core and libgimpwidgets
@@ -524,6 +549,7 @@ EXTRA_DIST = \
 	$(icons128_DATA)	\
 	$(icons192_DATA)	\
 	$(icons256_DATA)	\
+	$(iconsscalable_DATA)	\
 	$(tools22_DATA)
 
 noinst_DATA = \

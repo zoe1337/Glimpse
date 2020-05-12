@@ -176,7 +176,7 @@ static const GOptionEntry main_entries[] =
   {
     "new-instance", 'n', 0,
     G_OPTION_ARG_NONE, &new_instance,
-    N_("Start a new GIMP instance"), NULL
+    N_("Start a new Glimpse Image Editor instance"), NULL
   },
   {
     "as-new", 'a', 0,
@@ -206,7 +206,7 @@ static const GOptionEntry main_entries[] =
   {
     "no-shm", 0, G_OPTION_FLAG_REVERSE,
     G_OPTION_ARG_NONE, &use_shm,
-    N_("Do not use shared memory between GIMP and plug-ins"), NULL
+    N_("Do not use shared memory between Glimpse Image Editor and plug-ins"), NULL
   },
   {
     "no-cpu-accel", 0, G_OPTION_FLAG_REVERSE,
@@ -507,7 +507,7 @@ main (int    argc,
       (t_SetCurrentProcessExplicitAppUserModelID) GetProcAddress (GetModuleHandle ("shell32.dll"),
                                                                   "SetCurrentProcessExplicitAppUserModelID");
     if (p_SetCurrentProcessExplicitAppUserModelID)
-      (*p_SetCurrentProcessExplicitAppUserModelID) (L"gimp.GimpApplication");
+      (*p_SetCurrentProcessExplicitAppUserModelID) (L"glimpse.GlimpseApplication");
   }
 #endif
 
@@ -519,7 +519,7 @@ main (int    argc,
 
   gimp_init_i18n ();
 
-  g_set_application_name (GIMP_NAME);
+  g_set_application_name (GLIMPSE_NAME);
 
 #ifdef G_OS_WIN32
   argv = g_win32_get_command_line ();
@@ -576,7 +576,7 @@ main (int    argc,
 #endif
 
   context = g_option_context_new (_("[FILE|URI...]"));
-  g_option_context_set_summary (context, GIMP_NAME);
+  g_option_context_set_summary (context, GLIMPSE_NAME);
 
   g_option_context_add_main_entries (context, main_entries, GETTEXT_PACKAGE);
 
@@ -593,7 +593,7 @@ main (int    argc,
       else
         {
           g_print ("%s\n",
-                   _("GIMP could not initialize the graphical user interface.\n"
+                   _("Glimpse could not initialize the graphical user interface.\n"
                      "Make sure a proper setup for your display environment "
                      "exists."));
         }
@@ -612,7 +612,7 @@ main (int    argc,
     {
       if (be_verbose)
         g_print ("%s\n",
-                 _("Another GIMP instance is already running."));
+                 _("Another Glimpse Image Editor instance is already running."));
 
       if (batch_commands)
         gimp_unique_batch_run (batch_interpreter, batch_commands);
@@ -703,7 +703,7 @@ wait_console_window (void)
 {
   FILE *console = fopen ("CONOUT$", "w");
 
-  SetConsoleTitleW (g_utf8_to_utf16 (_("GIMP output. Type any character to close this window."), -1, NULL, NULL, NULL));
+  SetConsoleTitleW (g_utf8_to_utf16 (_("Glimpse output. Type any character to close this window."), -1, NULL, NULL, NULL));
   fprintf (console, _("(Type any character to close this window)\n"));
   fflush (console);
   _getch ();
@@ -721,7 +721,7 @@ gimp_open_console_window (void)
       if ((HANDLE) _get_osfhandle (fileno (stderr)) == INVALID_HANDLE_VALUE)
         freopen ("CONOUT$", "w", stderr);
 
-      SetConsoleTitleW (g_utf8_to_utf16 (_("GIMP output. You can minimize this window, but don't close it."), -1, NULL, NULL, NULL));
+      SetConsoleTitleW (g_utf8_to_utf16 (_("Glimpse output. You can minimize this window, but don't close it."), -1, NULL, NULL, NULL));
 
       atexit (wait_console_window);
     }
@@ -876,7 +876,7 @@ gimp_show_license_and_exit (void)
   gimp_version_show (be_verbose);
 
   g_print ("\n");
-  g_print (GIMP_LICENSE);
+  g_print (GLIMPSE_LICENSE);
   g_print ("\n\n");
 
   app_exit (EXIT_SUCCESS);

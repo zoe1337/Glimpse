@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: gimp\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2013-01-27 21:39+0000\n"
-"PO-Revision-Date: 2015-02-04 15:20+0000\n"
+"PO-Revision-Date: 2020-02-08 12:09-0800\n"
 "Last-Translator: Samir Ribić <Unknown>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Launchpad-Export-Date: 2015-03-14 13:28+0000\n"
-"X-Generator: Launchpad (build 17389)\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/color-rotate/color-rotate-dialog.c:120
 msgid "Original"
@@ -600,9 +600,9 @@ msgstr "Horizontalno"
 msgid "_Vertical"
 msgstr "Vertikalno"
 
-#. 
+#.
 #. * Create the "background" layer to hold the image...
-#. 
+#.
 #: ../plug-ins/common/blinds.c:277 ../plug-ins/common/compose.c:936
 #: ../plug-ins/common/decompose.c:729 ../plug-ins/common/file-cel.c:436
 #: ../plug-ins/common/file-cel.c:439 ../plug-ins/common/file-dicom.c:612
@@ -619,8 +619,7 @@ msgstr "Vertikalno"
 #: ../plug-ins/file-jpeg/jpeg-load.c:255 ../plug-ins/file-jpeg/jpeg-load.c:820
 #: ../plug-ins/file-psd/psd-image-res-load.c:1001
 #: ../plug-ins/file-psd/psd-load.c:1637 ../plug-ins/file-sgi/sgi.c:409
-#: ../plug-ins/gfig/gfig-dialog.c:1321
-#: ../plug-ins/gimpressionist/general.c:139
+#: ../plug-ins/gfig/gfig-dialog.c:1321 ../plug-ins/gimpressionist/general.c:139
 #: ../plug-ins/map-object/map-object-apply.c:252 ../plug-ins/twain/twain.c:567
 #: ../plug-ins/win-snap/winsnap.c:1162
 msgid "Background"
@@ -1034,8 +1033,7 @@ msgstr "Učitaj podešavanja miješanja kanala"
 #: ../plug-ins/file-ico/ico-load.c:727 ../plug-ins/file-jpeg/jpeg-load.c:117
 #: ../plug-ins/file-jpeg/jpeg-load.c:890 ../plug-ins/file-psd/psd-load.c:130
 #: ../plug-ins/file-psd/psd-thumb-load.c:79
-#: ../plug-ins/file-uri/uri-backend-libcurl.c:193
-#: ../plug-ins/flame/flame.c:411
+#: ../plug-ins/file-uri/uri-backend-libcurl.c:193 ../plug-ins/flame/flame.c:411
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1865
 #: ../plug-ins/fractal-explorer/fractal-explorer.c:923
 #: ../plug-ins/gfig/gfig.c:433 ../plug-ins/help/gimphelplocale.c:222
@@ -1065,8 +1063,7 @@ msgstr "Snimi podešavanja miješanja kanala"
 #: ../plug-ins/file-bmp/bmp-write.c:320 ../plug-ins/file-fits/fits.c:473
 #: ../plug-ins/file-fli/fli-gimp.c:746 ../plug-ins/file-ico/ico-save.c:1066
 #: ../plug-ins/file-jpeg/jpeg-save.c:332 ../plug-ins/file-psd/psd-save.c:1653
-#: ../plug-ins/file-uri/uri-backend-libcurl.c:166
-#: ../plug-ins/flame/flame.c:442
+#: ../plug-ins/file-uri/uri-backend-libcurl.c:166 ../plug-ins/flame/flame.c:442
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1548
 #: ../plug-ins/gfig/gfig.c:797 ../plug-ins/ifs-compose/ifs-compose.c:2408
 #: ../plug-ins/lighting/lighting-ui.c:1223
@@ -1530,8 +1527,7 @@ msgstr "Pažlja: „%s“ je datoteka u starom formatu."
 
 #: ../plug-ins/common/cml-explorer.c:2241
 #, c-format
-msgid ""
-"Warning: '%s' is a parameter file for a newer version of CML Explorer."
+msgid "Warning: '%s' is a parameter file for a newer version of CML Explorer."
 msgstr ""
 "Upozorenje: '%s' je parametarska datoteka za novu verziju CML pretraživača."
 
@@ -1850,8 +1846,7 @@ msgstr "S_astavi"
 msgid ""
 "You can only run 'Recompose' if the active image was originally produced by "
 "'Decompose'."
-msgstr ""
-"Može se samo sastaviti ako je aktivna slika napravljena sa 'Rastavi'."
+msgstr "Može se samo sastaviti ako je aktivna slika napravljena sa 'Rastavi'."
 
 #: ../plug-ins/common/compose.c:512
 msgid "Error scanning 'decompose-data' parasite: too few layers found"
@@ -1924,8 +1919,7 @@ msgstr "Vrijednost maske"
 msgid "Stretch brightness values to cover the full range"
 msgstr "Rastegni vrijednost osvjetljenosti da se pokrije cijeli domet"
 
-#: ../plug-ins/common/contrast-normalize.c:91
-#: ../plug-ins/common/edge-dog.c:360
+#: ../plug-ins/common/contrast-normalize.c:91 ../plug-ins/common/edge-dog.c:360
 msgid "_Normalize"
 msgstr "_Normalizuj"
 
@@ -2039,9 +2033,9 @@ msgstr "Alfa:"
 msgid "E_xtend"
 msgstr "Prošireno"
 
-#: ../plug-ins/common/convolution-matrix.c:74
-#: ../plug-ins/common/displace.c:477 ../plug-ins/common/edge.c:700
-#: ../plug-ins/common/fractal-trace.c:737 ../plug-ins/common/ripple.c:583
+#: ../plug-ins/common/convolution-matrix.c:74 ../plug-ins/common/displace.c:477
+#: ../plug-ins/common/edge.c:700 ../plug-ins/common/fractal-trace.c:737
+#: ../plug-ins/common/ripple.c:583
 msgid "_Wrap"
 msgstr "Umotaj"
 
@@ -3080,13 +3074,13 @@ msgid "Co_mment:"
 msgstr "Komentar:"
 
 #. Use Comment
-#. 
+#.
 #: ../plug-ins/common/file-csource.c:744
 msgid "_Save comment to file"
 msgstr "_Snimi komentar u datoteku"
 
 #. GLib types
-#. 
+#.
 #: ../plug-ins/common/file-csource.c:756
 msgid "_Use GLib types (guint8*)"
 msgstr "_Koristi GLib vrste (guint8*)"
@@ -3104,7 +3098,7 @@ msgid "Sa_ve alpha channel (RGBA/RGB)"
 msgstr "Sa_čuvaj Alfa kanal (RGBA/RGB)"
 
 #. RGB-565
-#. 
+#.
 #: ../plug-ins/common/file-csource.c:807
 msgid "Save as _RGB565 (16-bit)"
 msgstr "Spasi kao _RGB565 (16-bit)"
@@ -3525,8 +3519,7 @@ msgstr "Ne može dekodirati '%s'."
 
 #: ../plug-ins/common/file-jp2-load.c:235
 #, c-format
-msgid ""
-"The image '%s' is in grayscale but does not contain any gray component."
+msgid "The image '%s' is in grayscale but does not contain any gray component."
 msgstr "Slika '%s' je crno-bijela ali ne sadrži sivih komponenti."
 
 #: ../plug-ins/common/file-jp2-load.c:262
@@ -3577,8 +3570,7 @@ msgstr ""
 
 #: ../plug-ins/common/file-jp2-load.c:335
 #, c-format
-msgid ""
-"Image component %d of image '%s' does not have both a hstep and vstep."
+msgid "Image component %d of image '%s' does not have both a hstep and vstep."
 msgstr "Komponenta %d slike '%s' nema i hstep i vstep."
 
 #: ../plug-ins/common/file-jp2-load.c:344
@@ -4032,7 +4024,7 @@ msgid "Invalid X resolution."
 msgstr "Nesipravna X rezolucija."
 
 #: ../plug-ins/common/file-pnm.c:557
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "Slika je veća nego što GIMP može da podnese."
 
 #: ../plug-ins/common/file-pnm.c:564
@@ -4040,7 +4032,7 @@ msgid "Invalid Y resolution."
 msgstr "Nesipravna Y rezolucija."
 
 #: ../plug-ins/common/file-pnm.c:566
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "Visina slike je veća nego što GIMP može da podnese."
 
 #: ../plug-ins/common/file-pnm.c:576
@@ -4212,8 +4204,7 @@ msgid "_Millimeter"
 msgstr "Milimetar"
 
 #. Rotation
-#: ../plug-ins/common/file-ps.c:3297
-#: ../plug-ins/map-object/map-object-ui.c:989
+#: ../plug-ins/common/file-ps.c:3297 ../plug-ins/map-object/map-object-ui.c:989
 msgid "Rotation"
 msgstr "Rotacija"
 
@@ -4413,7 +4404,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s': \n"
 "Širina slike je veća nego što GIMP može podnijeti"
@@ -4433,7 +4424,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "Visina slike je veća nego što GIMP može podnijeti"
@@ -4822,21 +4813,19 @@ msgstr "'%s' je previsok za X kursor."
 msgid "A read error occurred."
 msgstr "Pojavila se greška u čitanju."
 
-#. 
+#.
 #. * parameter settings
-#. 
+#.
 #: ../plug-ins/common/file-xmc.c:1049
 msgid "XMC Options"
 msgstr "XMC Opcije"
 
 #: ../plug-ins/common/file-xmc.c:1077
-msgid ""
-"Enter the X coordinate of the hot spot. The origin is top left corner."
+msgid "Enter the X coordinate of the hot spot. The origin is top left corner."
 msgstr "Unesite X koordinatu hot spota. Početak je u gornjem lijevom uglu."
 
 #: ../plug-ins/common/file-xmc.c:1095
-msgid ""
-"Enter the Y coordinate of the hot spot. The origin is top left corner."
+msgid "Enter the Y coordinate of the hot spot. The origin is top left corner."
 msgstr "Unesite Y koordinatu kot spota. Početak je u gornjem lijevom uglu."
 
 #: ../plug-ins/common/file-xmc.c:1106
@@ -4930,9 +4919,9 @@ msgstr "Unesite informaciju o licenci."
 msgid "_License:"
 msgstr "_Licenca:"
 
-#. 
+#.
 #. *  Other
-#. 
+#.
 #. We use gtk_text_view for "Other" while "Copyright" & "License" is entered
 #. * in gtk_entry because We want allow '\n' for "Other".
 #: ../plug-ins/common/file-xmc.c:1279
@@ -4951,8 +4940,7 @@ msgstr "Komentar je limitiran na %d karakteta."
 #: ../plug-ins/common/file-xmc.c:1481
 #, c-format
 msgid "This plug-in can only handle RGBA image files with 8bit color depth."
-msgstr ""
-"Ovaj plug-in može samo podnijeti RGBA slike sa 8bit-nom dubinom boje."
+msgstr "Ovaj plug-in može samo podnijeti RGBA slike sa 8bit-nom dubinom boje."
 
 #: ../plug-ins/common/file-xmc.c:1499
 #, c-format
@@ -6512,9 +6500,9 @@ msgstr "Slikanje Uljem"
 msgid "_Mask size:"
 msgstr "Veličina _Maske:"
 
-#. 
+#.
 #. * Mask-size map check button
-#. 
+#.
 #: ../plug-ins/common/oilify.c:832
 msgid "Use m_ask-size map:"
 msgstr "Koristi veličina m_aske mapu:"
@@ -6523,16 +6511,16 @@ msgstr "Koristi veličina m_aske mapu:"
 msgid "_Exponent:"
 msgstr "Eksponent:"
 
-#. 
+#.
 #. * Exponent map check button
-#. 
+#.
 #: ../plug-ins/common/oilify.c:885
 msgid "Use e_xponent map:"
 msgstr "Koristi e_ksponencijalnu mapu:"
 
-#. 
+#.
 #. * Intensity algorithm check button
-#. 
+#.
 #: ../plug-ins/common/oilify.c:922
 msgid "_Use intensity algorithm"
 msgstr "_Upotrebi algoritam za intezitet"
@@ -6958,9 +6946,9 @@ msgstr "Učini sliku oštrijom (manje jako od \"otupi maske\")"
 msgid "_Sharpen..."
 msgstr "I_zoštravanje..."
 
-#. 
+#.
 #. * Let the user know what we're doing...
-#. 
+#.
 #: ../plug-ins/common/sharpen.c:301
 msgid "Sharpening"
 msgstr "Izoštravanje"
@@ -7240,8 +7228,7 @@ msgstr "Nasu_mična Nijansa:"
 
 #: ../plug-ins/common/sparkle.c:469
 msgid "Adjust how much the hue should be changed randomly"
-msgstr ""
-"Podesi koliko bi trebala nijansa biti promijenjena nasumičnom metodom"
+msgstr "Podesi koliko bi trebala nijansa biti promijenjena nasumičnom metodom"
 
 #: ../plug-ins/common/sparkle.c:479
 msgid "Rando_m saturation:"
@@ -8248,8 +8235,7 @@ msgid "The specified DLL was not found."
 msgstr "Specificirana DLL datoteka nije pronađena."
 
 #: ../plug-ins/common/web-browser.c:165
-msgid ""
-"There is no application associated with the given file name extension."
+msgid "There is no application associated with the given file name extension."
 msgstr "Ne postoji aplikacija asocirana sa datim nastavkom datoteke."
 
 #: ../plug-ins/common/web-browser.c:168
@@ -8880,7 +8866,7 @@ msgstr "Nepodržan režim boja: %s"
 #: ../plug-ins/file-psd/psd-load.c:333
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 "bit, so it will be converted for you. Information will be lost because of "
 "this conversion."
 msgstr ""
@@ -9559,8 +9545,8 @@ msgstr "Kao gore navedeno"
 
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1137
 msgid ""
-"Create a color-map with the options you specified above (color "
-"density/function). The result is visible in the preview image"
+"Create a color-map with the options you specified above (color density/"
+"function). The result is visible in the preview image"
 msgstr ""
 "Napravi mapu boja sa opcijama navedenim gore (obojenost/funkcija). Rezultat "
 "je vidljiv na prikazu."
@@ -9864,8 +9850,7 @@ msgstr "Prikaži kontrolne tačke"
 msgid "Max undo:"
 msgstr "Max. poništavanja:"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1320
-#: ../plug-ins/gimpressionist/general.c:184
+#: ../plug-ins/gfig/gfig-dialog.c:1320 ../plug-ins/gimpressionist/general.c:184
 msgid "Transparent"
 msgstr "Providno"
 
@@ -10119,8 +10104,7 @@ msgid "Solid colored background"
 msgstr "Pozadina u Boji"
 
 #: ../plug-ins/gimpressionist/general.c:185
-msgid ""
-"Use a transparent background; Only the strokes painted will be visible"
+msgid "Use a transparent background; Only the strokes painted will be visible"
 msgstr "Koristi providnu pozadinu; Samo će okviri biti vidljivi"
 
 #: ../plug-ins/gimpressionist/general.c:202
@@ -10194,8 +10178,8 @@ msgid "Performs various artistic operations"
 msgstr "Pravi različite atrističke operacije"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
-msgstr "_GIMPresionista..."
+msgid "_Impressionist..."
+msgstr "_Impresionista..."
 
 #: ../plug-ins/gimpressionist/gimp.c:162
 msgid "The selection does not intersect the active layer or mask."
@@ -10206,8 +10190,9 @@ msgid "Painting"
 msgstr "Bojenje"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPressionist"
+#, fuzzy
+msgid "Impressionist"
+msgstr "Impresionista"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -10264,8 +10249,7 @@ msgid "Radial"
 msgstr "Radijalno"
 
 #: ../plug-ins/gimpressionist/orientation.c:168
-msgid ""
-"Let the direction from the center determine the direction of the stroke"
+msgid "Let the direction from the center determine the direction of the stroke"
 msgstr "Neka smjer od sredine odredi smjer poteza"
 
 #: ../plug-ins/gimpressionist/orientation.c:175
@@ -10473,7 +10457,7 @@ msgstr "Čvrstina poteza:"
 msgid "The relative density of the brush strokes"
 msgstr "Relativna gustina poteza četkom"
 
-#. 
+#.
 #. * gimp_filename_to_utf8 () and g_strerror () return temporary strings
 #. * that need not and should not be freed. So this call is OK.
 #. *
@@ -10487,8 +10471,9 @@ msgid "Save Current"
 msgstr "Sačuvaj tekući"
 
 #: ../plug-ins/gimpressionist/presets.c:894
-msgid "Gimpressionist Defaults"
-msgstr "Gimpressionist podrazumijevane postavke"
+#, fuzzy
+msgid "Impressionist Defaults"
+msgstr "Impresionista podrazumijevane postavke"
 
 #: ../plug-ins/gimpressionist/presets.c:1015
 msgid "_Presets"
@@ -10584,8 +10569,7 @@ msgid "The hue of the region determines the size of the stroke"
 msgstr "Nijansa područja određuje veličinupoteza"
 
 #: ../plug-ins/gimpressionist/size.c:187
-msgid ""
-"The brush-size that matches the original image the closest is selected"
+msgid "The brush-size that matches the original image the closest is selected"
 msgstr "Bira se veličina četke najbliža originalnoj slici"
 
 #: ../plug-ins/gimpressionist/size.c:196
@@ -10744,9 +10728,9 @@ msgstr "Napravi efekat odsjaja leća koristeći gradijente"
 msgid "_Gradient Flare..."
 msgstr "_Gradijentalni sjaj..."
 
-#. 
+#.
 #. *    Dialog Shell
-#. 
+#.
 #: ../plug-ins/gradient-flare/gradient-flare.c:951
 #: ../plug-ins/gradient-flare/gradient-flare.c:2356
 msgid "Gradient Flare"
@@ -10796,12 +10780,12 @@ msgstr "'Default' je kreiran."
 msgid "Default"
 msgstr "Uobičajeno"
 
-#. 
+#.
 #. *  Scales
-#. 
-#. 
+#.
+#.
 #. *    Scales
-#. 
+#.
 #: ../plug-ins/gradient-flare/gradient-flare.c:2744
 #: ../plug-ins/gradient-flare/gradient-flare.c:3583
 #: ../plug-ins/gradient-flare/gradient-flare.c:3688
@@ -10915,9 +10899,9 @@ msgstr "Osobitosti Slikanja Zrakama:"
 msgid "Second Flares Paint Options"
 msgstr "Sekundarne Flare opcije"
 
-#. 
+#.
 #. *  Gradient Menus
-#. 
+#.
 #: ../plug-ins/gradient-flare/gradient-flare.c:3556
 #: ../plug-ins/gradient-flare/gradient-flare.c:3659
 #: ../plug-ins/gradient-flare/gradient-flare.c:3798
@@ -10982,9 +10966,9 @@ msgstr "Gradijent faktora veličine:"
 msgid "Probability gradient:"
 msgstr "Gradijent vjerovatnoće:"
 
-#. 
+#.
 #. *    Shape Radio Button Frame
-#. 
+#.
 #: ../plug-ins/gradient-flare/gradient-flare.c:3879
 msgid "Shape of Second Flares"
 msgstr "Oblik drugog odsjaja"
@@ -11007,8 +10991,7 @@ msgstr "Nasumična raspodjela:"
 msgid "_Second Flares"
 msgstr "Drugi odsjaj"
 
-#: ../plug-ins/help-browser/dialog.c:184
-#: ../plug-ins/help-browser/dialog.c:1133
+#: ../plug-ins/help-browser/dialog.c:184 ../plug-ins/help-browser/dialog.c:1133
 msgid "GIMP Help Browser"
 msgstr "GIMP Help pretraživač"
 
@@ -11088,7 +11071,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "Nisu dostupne stranice pomoći za %s."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "Nisu dostupna Gimpova pomoć."
 
 #: ../plug-ins/help/gimphelpdomain.c:187
@@ -11324,8 +11307,7 @@ msgstr "Centar x:"
 #: ../plug-ins/imagemap/imap_circle.c:266
 #: ../plug-ins/imagemap/imap_circle.c:273
 #: ../plug-ins/imagemap/imap_circle.c:279 ../plug-ins/imagemap/imap_grid.c:249
-#: ../plug-ins/imagemap/imap_grid.c:255
-#: ../plug-ins/imagemap/imap_polygon.c:503
+#: ../plug-ins/imagemap/imap_grid.c:255 ../plug-ins/imagemap/imap_polygon.c:503
 #: ../plug-ins/imagemap/imap_polygon.c:511
 #: ../plug-ins/imagemap/imap_rectangle.c:390
 #: ../plug-ins/imagemap/imap_rectangle.c:397

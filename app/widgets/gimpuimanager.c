@@ -844,7 +844,7 @@ gimp_ui_manager_entry_ensure (GimpUIManager *manager,
             {
               gimp_message (manager->gimp, NULL, GIMP_MESSAGE_ERROR,
                             "%s\n\n%s\n\n%s",
-                            _("Your GIMP installation is incomplete:"),
+                            _("Your Glimpse installation is incomplete:"),
                             error->message,
                             _("Please make sure the menu XML files are "
                               "correctly installed."));

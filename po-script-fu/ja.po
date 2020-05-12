@@ -41,8 +41,8 @@ msgid "_Start Server..."
 msgstr "サーバースタート(_S)..."
 
 #: ../plug-ins/script-fu/script-fu.c:306
-msgid "_GIMP Online"
-msgstr "GIMP 関連のウェブサイト(_G)"
+msgid "_Glimpse online"
+msgstr "Glimpse 関連のウェブサイト(_G)"
 
 #: ../plug-ins/script-fu/script-fu.c:307
 msgid "_User Manual"
@@ -820,7 +820,7 @@ msgstr "パスを使う (英語) (_P)"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (GNU I.M.P)"
 msgstr "ユーザーマニュアルへのブックマーク"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -859,7 +859,7 @@ msgstr "メインのウェブサイト (英語) (_M)"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:192
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:205
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:218
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "GIMP ウェブサイトへのブックマーク"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
@@ -867,7 +867,7 @@ msgid "_Developer Web Site"
 msgstr "開発者用ウェブサイト (英語) (_D)"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (GNU I.M.P)"
 msgstr "ユーザーマニュアル (英語) (_U)"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217
@@ -2816,11 +2816,11 @@ msgstr "ドロップシャドウ Y オフセット"
 #~ msgid "Additional Information"
 #~ msgstr "追加情報"
 
-#~ msgid "Internal GIMP procedure"
-#~ msgstr "内部 GIMP プロシージャ"
+#~ msgid "Internal Glimpse procedure"
+#~ msgstr "内部 Glimpse プロシージャ"
 
-#~ msgid "GIMP Plug-In"
-#~ msgstr "GIMP プラグイン"
+#~ msgid "GNU I.M.P Plug-In"
+#~ msgstr "GNU I.M.P プラグイン"
 
 #~ msgid "Temporary Procedure"
 #~ msgstr "一時プロシージャ"
@@ -2916,7 +2916,7 @@ msgstr "ドロップシャドウ Y オフセット"
 #~ msgid "<Toolbox>/Xtns/Script-Fu/Misc"
 #~ msgstr "<Toolbox>/拡張/Script-Fu/その他"
 
-#~ msgid "<Toolbox>/Help/The GIMP Online"
+#~ msgid "<Toolbox>/Help/The Glimpse online"
 #~ msgstr "<Toolbox>/ヘルプ/GIMP オンライン"
 
 #~ msgid "Linear"

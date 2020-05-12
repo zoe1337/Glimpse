@@ -19,8 +19,8 @@
 #define __GUI_UNIQUE_H__
 
 #ifdef G_OS_WIN32
-#define GIMP_UNIQUE_WIN32_WINDOW_CLASS  L"GimpWin32UniqueHandler"
-#define GIMP_UNIQUE_WIN32_WINDOW_NAME   L"GimpProxy"
+#define GIMP_UNIQUE_WIN32_WINDOW_CLASS  L"org.glimpse_editor.Glimpse"
+#define GIMP_UNIQUE_WIN32_WINDOW_NAME   L"org.glimpse_editor.Glimpse.Window"
 #endif
 
 

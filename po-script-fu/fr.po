@@ -42,8 +42,8 @@ msgid "_Start Server..."
 msgstr "_Démarrer le serveur…"
 
 #: ../plug-ins/script-fu/script-fu.c:306
-msgid "_GIMP Online"
-msgstr "_GIMP en-ligne"
+msgid "_Glimpse online"
+msgstr "_Glimpse en-ligne"
 
 #: ../plug-ins/script-fu/script-fu.c:307
 msgid "_User Manual"
@@ -825,7 +825,7 @@ msgstr "Utiliser les _chemins"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (GNU I.M.P)"
 msgstr "Signet vers le manuel utilisateur"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -863,7 +863,7 @@ msgstr "Site Web _officiel"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "Lien vers le site Web de GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
@@ -895,7 +895,7 @@ msgid "Bookmark to the bug tracker of GIMP"
 msgstr "Lien vers le suivi des bogues de GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (GNU I.M.P)"
 msgstr "Site Web du _manuel utilisateur"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69

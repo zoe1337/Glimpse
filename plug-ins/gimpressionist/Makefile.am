@@ -17,7 +17,7 @@ libgimpmath = $(top_builddir)/libgimpmath/libgimpmath-$(GIMP_API_VERSION).la
 SUBDIRS = Brushes Paper Presets
 
 if HAVE_WINDRES
-include $(top_srcdir)/build/windows/gimprc-plug-ins.rule
+include $(top_srcdir)/build-aux/windows/gimprc-plug-ins.rule
 gimpressionist_RC = gimpressionist.rc.o
 endif
 

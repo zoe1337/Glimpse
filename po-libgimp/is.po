@@ -1149,18 +1149,18 @@ msgstr "Stighækkandi"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Innri GIMP aðgerð"
+msgid "Internal Glimpse procedure"
+msgstr "Innri Glimpse aðgerð"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP hjálparforrit"
+msgid "GNU I.M.P Plug-In"
+msgstr "GNU I.M.P hjálparforrit"
 
 #: ../libgimpbase/gimpbaseenums.c:1391
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP viðbót"
+msgid "GNU I.M.P Extension"
+msgstr "GNU I.M.P viðbót"
 
 #: ../libgimpbase/gimpbaseenums.c:1392
 msgctxt "pdb-proc-type"
@@ -1600,11 +1600,11 @@ msgstr "Litasnið fyrir (aðal)skjáinn þinn."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Þegar þetta er virkt, mun GIMP reyna að nota skjálitasnið frá "
+"Þegar þetta er virkt, mun Glimpse reyna að nota skjálitasnið frá "
 "gluggastjórnunarkerfinu.  Forstillta skjálitasniðið hér er þá einvörðungu "
 "notað til vara."
 

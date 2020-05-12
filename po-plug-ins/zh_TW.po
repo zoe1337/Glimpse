@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: gimp-std-plug-ins 2.1.6\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2017-12-16 02:34+0000\n"
-"PO-Revision-Date: 2017-12-20 17:31+0800\n"
+"PO-Revision-Date: 2020-02-08 15:23-0800\n"
 "Last-Translator: taijuin <taijuin@gmail.com>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -38,42 +38,38 @@ msgstr "對齊可見圖層"
 
 #: ../plug-ins/common/align-layers.c:630 ../plug-ins/common/blinds.c:225
 #: ../plug-ins/common/border-average.c:362 ../plug-ins/common/cartoon.c:813
-#: ../plug-ins/common/checkerboard.c:350
-#: ../plug-ins/common/cml-explorer.c:1189
-#: ../plug-ins/common/cml-explorer.c:1986
-#: ../plug-ins/common/cml-explorer.c:2119 ../plug-ins/common/colorify.c:257
-#: ../plug-ins/common/colormap-remap.c:621 ../plug-ins/common/compose.c:1076
-#: ../plug-ins/common/contrast-retinex.c:289
+#: ../plug-ins/common/checkerboard.c:350 ../plug-ins/common/cml-explorer.c:1189
+#: ../plug-ins/common/cml-explorer.c:1986 ../plug-ins/common/cml-explorer.c:2119
+#: ../plug-ins/common/colorify.c:257 ../plug-ins/common/colormap-remap.c:621
+#: ../plug-ins/common/compose.c:1076 ../plug-ins/common/contrast-retinex.c:289
 #: ../plug-ins/common/curve-bend.c:1227 ../plug-ins/common/curve-bend.c:2065
 #: ../plug-ins/common/curve-bend.c:2100 ../plug-ins/common/decompose.c:822
 #: ../plug-ins/common/depth-merge.c:655 ../plug-ins/common/despeckle.c:445
 #: ../plug-ins/common/destripe.c:444 ../plug-ins/common/edge-dog.c:306
 #: ../plug-ins/common/edge-neon.c:700 ../plug-ins/common/emboss.c:453
 #: ../plug-ins/common/file-cel.c:936 ../plug-ins/common/file-gif-save.c:1089
-#: ../plug-ins/common/file-pdf-load.c:707
-#: ../plug-ins/common/file-pdf-load.c:1272
+#: ../plug-ins/common/file-pdf-load.c:707 ../plug-ins/common/file-pdf-load.c:1272
 #: ../plug-ins/common/file-pdf-save.c:1009 ../plug-ins/common/file-ps.c:3392
 #: ../plug-ins/common/file-raw-data.c:1833 ../plug-ins/common/file-svg.c:727
 #: ../plug-ins/common/file-wmf.c:505 ../plug-ins/common/film.c:1263
-#: ../plug-ins/common/filter-pack.c:1206
-#: ../plug-ins/common/fractal-trace.c:711 ../plug-ins/common/grid.c:646
-#: ../plug-ins/common/hot.c:594 ../plug-ins/common/jigsaw.c:2397
-#: ../plug-ins/common/mail.c:499 ../plug-ins/common/max-rgb.c:261
-#: ../plug-ins/common/newsprint.c:1183 ../plug-ins/common/nl-filter.c:1021
-#: ../plug-ins/common/oilify.c:785 ../plug-ins/common/photocopy.c:840
-#: ../plug-ins/common/qbist.c:723 ../plug-ins/common/qbist.c:765
-#: ../plug-ins/common/qbist.c:819 ../plug-ins/common/ripple.c:487
-#: ../plug-ins/common/sharpen.c:476 ../plug-ins/common/smooth-palette.c:434
-#: ../plug-ins/common/softglow.c:632 ../plug-ins/common/sparkle.c:341
-#: ../plug-ins/common/sphere-designer.c:2207
+#: ../plug-ins/common/filter-pack.c:1206 ../plug-ins/common/fractal-trace.c:711
+#: ../plug-ins/common/grid.c:646 ../plug-ins/common/hot.c:594
+#: ../plug-ins/common/jigsaw.c:2397 ../plug-ins/common/mail.c:499
+#: ../plug-ins/common/max-rgb.c:261 ../plug-ins/common/newsprint.c:1183
+#: ../plug-ins/common/nl-filter.c:1021 ../plug-ins/common/oilify.c:785
+#: ../plug-ins/common/photocopy.c:840 ../plug-ins/common/qbist.c:723
+#: ../plug-ins/common/qbist.c:765 ../plug-ins/common/qbist.c:819
+#: ../plug-ins/common/ripple.c:487 ../plug-ins/common/sharpen.c:476
+#: ../plug-ins/common/smooth-palette.c:434 ../plug-ins/common/softglow.c:632
+#: ../plug-ins/common/sparkle.c:341 ../plug-ins/common/sphere-designer.c:2207
 #: ../plug-ins/common/sphere-designer.c:2561 ../plug-ins/common/tile.c:438
 #: ../plug-ins/common/tile-small.c:373 ../plug-ins/common/unit-editor.c:209
 #: ../plug-ins/common/unsharp-mask.c:842 ../plug-ins/common/van-gogh-lic.c:647
 #: ../plug-ins/common/warp.c:378 ../plug-ins/common/wavelet-decompose.c:350
 #: ../plug-ins/common/web-page.c:234 ../plug-ins/file-fits/fits.c:1150
-#: ../plug-ins/file-fli/fli-gimp.c:870
-#: ../plug-ins/file-tiff/file-tiff-load.c:147 ../plug-ins/flame/flame.c:473
-#: ../plug-ins/flame/flame.c:649 ../plug-ins/flame/flame.c:971
+#: ../plug-ins/file-fli/fli-gimp.c:870 ../plug-ins/file-tiff/file-tiff-load.c:147
+#: ../plug-ins/flame/flame.c:473 ../plug-ins/flame/flame.c:649
+#: ../plug-ins/flame/flame.c:971
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:566
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1641
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1679
@@ -94,44 +90,42 @@ msgstr "對齊可見圖層"
 #: ../plug-ins/imagemap/imap_browse.c:80
 #: ../plug-ins/imagemap/imap_default_dialog.c:106
 #: ../plug-ins/imagemap/imap_file.c:71 ../plug-ins/imagemap/imap_file.c:124
-#: ../plug-ins/lighting/lighting-ui.c:1037
-#: ../plug-ins/lighting/lighting-ui.c:1162
+#: ../plug-ins/lighting/lighting-ui.c:1037 ../plug-ins/lighting/lighting-ui.c:1162
 #: ../plug-ins/lighting/lighting-ui.c:1306
 #: ../plug-ins/map-object/map-object-ui.c:1333
 #: ../plug-ins/metadata/metadata-editor.c:547
 #: ../plug-ins/metadata/metadata-editor.c:764
 #: ../plug-ins/metadata/metadata-editor.c:5618
-#: ../plug-ins/metadata/metadata-editor.c:5653
-#: ../plug-ins/pagecurl/pagecurl.c:439 ../plug-ins/screenshot/screenshot.c:474
+#: ../plug-ins/metadata/metadata-editor.c:5653 ../plug-ins/pagecurl/pagecurl.c:439
+#: ../plug-ins/screenshot/screenshot.c:474
 #: ../plug-ins/selection-to-path/selection-to-path.c:309
 msgid "_Cancel"
 msgstr "取消(_C)"
 
 #: ../plug-ins/common/align-layers.c:631 ../plug-ins/common/blinds.c:226
 #: ../plug-ins/common/border-average.c:363 ../plug-ins/common/cartoon.c:814
-#: ../plug-ins/common/checkerboard.c:351
-#: ../plug-ins/common/cml-explorer.c:1190 ../plug-ins/common/colorify.c:258
-#: ../plug-ins/common/colormap-remap.c:622 ../plug-ins/common/compose.c:1077
-#: ../plug-ins/common/contrast-retinex.c:290
+#: ../plug-ins/common/checkerboard.c:351 ../plug-ins/common/cml-explorer.c:1190
+#: ../plug-ins/common/colorify.c:258 ../plug-ins/common/colormap-remap.c:622
+#: ../plug-ins/common/compose.c:1077 ../plug-ins/common/contrast-retinex.c:290
 #: ../plug-ins/common/curve-bend.c:1228 ../plug-ins/common/decompose.c:823
 #: ../plug-ins/common/depth-merge.c:656 ../plug-ins/common/despeckle.c:446
 #: ../plug-ins/common/destripe.c:445 ../plug-ins/common/edge-dog.c:307
 #: ../plug-ins/common/edge-neon.c:701 ../plug-ins/common/emboss.c:454
 #: ../plug-ins/common/file-pdf-load.c:708 ../plug-ins/common/file-svg.c:728
 #: ../plug-ins/common/file-wmf.c:506 ../plug-ins/common/film.c:1264
-#: ../plug-ins/common/filter-pack.c:1207
-#: ../plug-ins/common/fractal-trace.c:712 ../plug-ins/common/grid.c:647
-#: ../plug-ins/common/hot.c:595 ../plug-ins/common/jigsaw.c:2398
-#: ../plug-ins/common/max-rgb.c:262 ../plug-ins/common/newsprint.c:1184
-#: ../plug-ins/common/nl-filter.c:1022 ../plug-ins/common/oilify.c:786
-#: ../plug-ins/common/photocopy.c:841 ../plug-ins/common/qbist.c:820
-#: ../plug-ins/common/ripple.c:488 ../plug-ins/common/sharpen.c:477
-#: ../plug-ins/common/smooth-palette.c:435 ../plug-ins/common/softglow.c:633
-#: ../plug-ins/common/sparkle.c:342 ../plug-ins/common/sphere-designer.c:2562
-#: ../plug-ins/common/tile.c:439 ../plug-ins/common/tile-small.c:374
-#: ../plug-ins/common/unsharp-mask.c:843 ../plug-ins/common/van-gogh-lic.c:648
-#: ../plug-ins/common/warp.c:379 ../plug-ins/common/wavelet-decompose.c:351
-#: ../plug-ins/flame/flame.c:650 ../plug-ins/flame/flame.c:972
+#: ../plug-ins/common/filter-pack.c:1207 ../plug-ins/common/fractal-trace.c:712
+#: ../plug-ins/common/grid.c:647 ../plug-ins/common/hot.c:595
+#: ../plug-ins/common/jigsaw.c:2398 ../plug-ins/common/max-rgb.c:262
+#: ../plug-ins/common/newsprint.c:1184 ../plug-ins/common/nl-filter.c:1022
+#: ../plug-ins/common/oilify.c:786 ../plug-ins/common/photocopy.c:841
+#: ../plug-ins/common/qbist.c:820 ../plug-ins/common/ripple.c:488
+#: ../plug-ins/common/sharpen.c:477 ../plug-ins/common/smooth-palette.c:435
+#: ../plug-ins/common/softglow.c:633 ../plug-ins/common/sparkle.c:342
+#: ../plug-ins/common/sphere-designer.c:2562 ../plug-ins/common/tile.c:439
+#: ../plug-ins/common/tile-small.c:374 ../plug-ins/common/unsharp-mask.c:843
+#: ../plug-ins/common/van-gogh-lic.c:648 ../plug-ins/common/warp.c:379
+#: ../plug-ins/common/wavelet-decompose.c:351 ../plug-ins/flame/flame.c:650
+#: ../plug-ins/flame/flame.c:972
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:567
 #: ../plug-ins/fractal-explorer/fractal-explorer.c:1117
 #: ../plug-ins/gimpressionist/gimpressionist.c:143
@@ -143,8 +137,7 @@ msgstr "取消(_C)"
 #: ../plug-ins/ifs-compose/ifs-compose.c:764
 #: ../plug-ins/imagemap/imap_default_dialog.c:109
 #: ../plug-ins/lighting/lighting-ui.c:1038
-#: ../plug-ins/map-object/map-object-ui.c:1334
-#: ../plug-ins/pagecurl/pagecurl.c:440
+#: ../plug-ins/map-object/map-object-ui.c:1334 ../plug-ins/pagecurl/pagecurl.c:440
 #: ../plug-ins/selection-to-path/selection-to-path.c:310
 msgid "_OK"
 msgstr "確定(_O)"
@@ -289,8 +282,7 @@ msgid "_Playback..."
 msgstr "播放(_P)..."
 
 #. list is given in "fps" - frames per second
-#: ../plug-ins/common/animation-play.c:354
-#: ../plug-ins/common/animation-play.c:406
+#: ../plug-ins/common/animation-play.c:354 ../plug-ins/common/animation-play.c:406
 #: ../plug-ins/common/animation-play.c:865
 #, c-format
 msgid "%.1f %%"
@@ -391,13 +383,11 @@ msgid "Playback speed"
 msgstr "播放速度"
 
 #. 2 styles of default frame disposals: cumulative layers and one frame per layer.
-#: ../plug-ins/common/animation-play.c:931
-#: ../plug-ins/common/file-gif-save.c:1298
+#: ../plug-ins/common/animation-play.c:931 ../plug-ins/common/file-gif-save.c:1298
 msgid "Cumulative layers (combine)"
 msgstr "累積圖層 (合併)"
 
-#: ../plug-ins/common/animation-play.c:935
-#: ../plug-ins/common/file-gif-save.c:1300
+#: ../plug-ins/common/animation-play.c:935 ../plug-ins/common/file-gif-save.c:1300
 msgid "One frame per layer (replace)"
 msgstr "每個圖層佔用一個畫格 (取代)"
 
@@ -460,18 +450,16 @@ msgstr "垂直(_V)"
 #: ../plug-ins/common/file-jp2-load.c:395 ../plug-ins/common/file-pcx.c:445
 #: ../plug-ins/common/file-pcx.c:453 ../plug-ins/common/file-pix.c:400
 #: ../plug-ins/common/file-png.c:1065 ../plug-ins/common/file-pnm.c:685
-#: ../plug-ins/common/file-raw-data.c:1392
-#: ../plug-ins/common/file-sunras.c:1049 ../plug-ins/common/file-tga.c:1092
-#: ../plug-ins/common/file-xbm.c:904 ../plug-ins/common/film.c:745
-#: ../plug-ins/common/smooth-palette.c:258 ../plug-ins/common/tile.c:354
-#: ../plug-ins/file-bmp/bmp-load.c:734 ../plug-ins/file-exr/file-exr.c:258
-#: ../plug-ins/file-faxg3/faxg3.c:525 ../plug-ins/file-fits/fits.c:529
-#: ../plug-ins/file-jpeg/jpeg-load.c:241
+#: ../plug-ins/common/file-raw-data.c:1392 ../plug-ins/common/file-sunras.c:1049
+#: ../plug-ins/common/file-tga.c:1092 ../plug-ins/common/file-xbm.c:904
+#: ../plug-ins/common/film.c:745 ../plug-ins/common/smooth-palette.c:258
+#: ../plug-ins/common/tile.c:354 ../plug-ins/file-bmp/bmp-load.c:734
+#: ../plug-ins/file-exr/file-exr.c:258 ../plug-ins/file-faxg3/faxg3.c:525
+#: ../plug-ins/file-fits/fits.c:529 ../plug-ins/file-jpeg/jpeg-load.c:241
 #: ../plug-ins/file-psd/psd-image-res-load.c:1033
 #: ../plug-ins/file-psd/psd-load.c:1804 ../plug-ins/file-sgi/sgi.c:411
 #: ../plug-ins/file-tiff/file-tiff-load.c:924
-#: ../plug-ins/file-webp/file-webp-load.c:149
-#: ../plug-ins/gfig/gfig-dialog.c:1321
+#: ../plug-ins/file-webp/file-webp-load.c:149 ../plug-ins/gfig/gfig-dialog.c:1321
 #: ../plug-ins/gimpressionist/general.c:139
 #: ../plug-ins/map-object/map-object-apply.c:252
 #: ../plug-ins/screenshot/screenshot-win32.c:263 ../plug-ins/twain/twain.c:567
@@ -792,8 +780,7 @@ msgid "Randoms from seed (shared)"
 msgstr "從種子隨機產生(共享)"
 
 #: ../plug-ins/common/cml-explorer.c:300 ../plug-ins/common/cml-explorer.c:308
-#: ../plug-ins/common/decompose.c:184
-#: ../plug-ins/gimpressionist/orientation.c:179
+#: ../plug-ins/common/decompose.c:184 ../plug-ins/gimpressionist/orientation.c:179
 #: ../plug-ins/gimpressionist/size.c:182
 msgid "Hue"
 msgstr "色相"
@@ -804,8 +791,7 @@ msgid "Saturation"
 msgstr "飽和度"
 
 #: ../plug-ins/common/cml-explorer.c:302 ../plug-ins/common/cml-explorer.c:310
-#: ../plug-ins/common/decompose.c:186
-#: ../plug-ins/gimpressionist/orientation.c:155
+#: ../plug-ins/common/decompose.c:186 ../plug-ins/gimpressionist/orientation.c:155
 #: ../plug-ins/gimpressionist/size.c:158
 #: ../plug-ins/ui/plug-in-metadata-viewer.ui.h:2
 msgid "Value"
@@ -845,29 +831,26 @@ msgid "Random Seed"
 msgstr "隨機數種子"
 
 #. The Load button
-#: ../plug-ins/common/cml-explorer.c:1269
-#: ../plug-ins/common/cml-explorer.c:2120 ../plug-ins/common/curve-bend.c:1488
-#: ../plug-ins/common/curve-bend.c:2066 ../plug-ins/common/file-cel.c:937
-#: ../plug-ins/common/file-raw-data.c:1834 ../plug-ins/common/qbist.c:724
-#: ../plug-ins/common/qbist.c:888 ../plug-ins/common/sphere-designer.c:2210
+#: ../plug-ins/common/cml-explorer.c:1269 ../plug-ins/common/cml-explorer.c:2120
+#: ../plug-ins/common/curve-bend.c:1488 ../plug-ins/common/curve-bend.c:2066
+#: ../plug-ins/common/file-cel.c:937 ../plug-ins/common/file-raw-data.c:1834
+#: ../plug-ins/common/qbist.c:724 ../plug-ins/common/qbist.c:888
+#: ../plug-ins/common/sphere-designer.c:2210
 #: ../plug-ins/common/sphere-designer.c:2610 ../plug-ins/file-fits/fits.c:1151
 #: ../plug-ins/file-fli/fli-gimp.c:871 ../plug-ins/flame/flame.c:475
 #: ../plug-ins/flame/flame.c:1045
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:805
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1642
-#: ../plug-ins/gfig/gfig-dialog.c:640
-#: ../plug-ins/ifs-compose/ifs-compose.c:760
+#: ../plug-ins/gfig/gfig-dialog.c:640 ../plug-ins/ifs-compose/ifs-compose.c:760
 #: ../plug-ins/ifs-compose/ifs-compose.c:2568
 #: ../plug-ins/imagemap/imap_browse.c:81 ../plug-ins/imagemap/imap_file.c:72
-#: ../plug-ins/lighting/lighting-ui.c:600
-#: ../plug-ins/lighting/lighting-ui.c:1307
+#: ../plug-ins/lighting/lighting-ui.c:600 ../plug-ins/lighting/lighting-ui.c:1307
 msgid "_Open"
 msgstr "開啟(_O)"
 
 #. The Save button
-#: ../plug-ins/common/cml-explorer.c:1277
-#: ../plug-ins/common/cml-explorer.c:1987 ../plug-ins/common/curve-bend.c:1500
-#: ../plug-ins/common/curve-bend.c:2101
+#: ../plug-ins/common/cml-explorer.c:1277 ../plug-ins/common/cml-explorer.c:1987
+#: ../plug-ins/common/curve-bend.c:1500 ../plug-ins/common/curve-bend.c:2101
 #: ../plug-ins/common/file-pdf-save.c:1008 ../plug-ins/common/qbist.c:766
 #: ../plug-ins/common/qbist.c:896 ../plug-ins/common/sphere-designer.c:2210
 #: ../plug-ins/common/sphere-designer.c:2618 ../plug-ins/flame/flame.c:475
@@ -876,9 +859,8 @@ msgstr "開啟(_O)"
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1680
 #: ../plug-ins/gfig/gfig-dialog.c:689 ../plug-ins/gimpressionist/brush.c:257
 #: ../plug-ins/ifs-compose/ifs-compose.c:761
-#: ../plug-ins/ifs-compose/ifs-compose.c:2531
-#: ../plug-ins/imagemap/imap_file.c:125 ../plug-ins/lighting/lighting-ui.c:593
-#: ../plug-ins/lighting/lighting-ui.c:1163
+#: ../plug-ins/ifs-compose/ifs-compose.c:2531 ../plug-ins/imagemap/imap_file.c:125
+#: ../plug-ins/lighting/lighting-ui.c:593 ../plug-ins/lighting/lighting-ui.c:1163
 msgid "_Save"
 msgstr "儲存(_S)"
 
@@ -933,8 +915,8 @@ msgstr ""
 msgid ""
 "\"Fix seed\" button is an alias of me.\n"
 "The same seed produces the same image, if (1) the widths of images are same "
-"(this is the reason why image on drawable is different from preview), and "
-"(2) all mutation rates equal to zero."
+"(this is the reason why image on drawable is different from preview), and (2) "
+"all mutation rates equal to zero."
 msgstr ""
 
 #: ../plug-ins/common/cml-explorer.c:1413
@@ -949,8 +931,7 @@ msgstr "複製設定"
 msgid "Source channel:"
 msgstr "來源色版:"
 
-#: ../plug-ins/common/cml-explorer.c:1462
-#: ../plug-ins/common/cml-explorer.c:1510
+#: ../plug-ins/common/cml-explorer.c:1462 ../plug-ins/common/cml-explorer.c:1510
 msgid "Destination channel:"
 msgstr "目的色版:"
 
@@ -1050,10 +1031,9 @@ msgstr "目前設定的圖形"
 #: ../plug-ins/common/color-cube-analyze.c:364
 #: ../plug-ins/common/plugin-browser.c:550
 #: ../plug-ins/common/procedure-browser.c:129
-#: ../plug-ins/common/sample-colorize.c:1331
-#: ../plug-ins/common/unit-editor.c:417 ../plug-ins/gfig/gfig-dialog.c:292
-#: ../plug-ins/gfig/gfig-dialog.c:880 ../plug-ins/gfig/gfig-dialog.c:1246
-#: ../plug-ins/gfig/gfig-dialog.c:1394
+#: ../plug-ins/common/sample-colorize.c:1331 ../plug-ins/common/unit-editor.c:417
+#: ../plug-ins/gfig/gfig-dialog.c:292 ../plug-ins/gfig/gfig-dialog.c:880
+#: ../plug-ins/gfig/gfig-dialog.c:1246 ../plug-ins/gfig/gfig-dialog.c:1394
 #: ../plug-ins/ifs-compose/ifs-compose.c:1165
 #: ../plug-ins/metadata/metadata-viewer.c:227
 msgid "_Close"
@@ -1071,11 +1051,9 @@ msgstr "儲存 CML 瀏覽器參數"
 #: ../plug-ins/common/file-dicom.c:1371 ../plug-ins/common/file-mng.c:648
 #: ../plug-ins/common/file-mng.c:985 ../plug-ins/common/file-pcx.c:854
 #: ../plug-ins/common/file-pdf-save.c:468 ../plug-ins/common/file-png.c:1561
-#: ../plug-ins/common/file-raw-data.c:1192
-#: ../plug-ins/common/file-raw-data.c:1220
+#: ../plug-ins/common/file-raw-data.c:1192 ../plug-ins/common/file-raw-data.c:1220
 #: ../plug-ins/common/file-sunras.c:610 ../plug-ins/common/file-tga.c:1203
-#: ../plug-ins/common/file-xmc.c:1484
-#: ../plug-ins/common/sphere-designer.c:2121
+#: ../plug-ins/common/file-xmc.c:1484 ../plug-ins/common/sphere-designer.c:2121
 #: ../plug-ins/file-bmp/bmp-save.c:318 ../plug-ins/file-fits/fits.c:481
 #: ../plug-ins/file-fli/fli-gimp.c:750 ../plug-ins/file-ico/ico-save.c:1082
 #: ../plug-ins/file-jpeg/jpeg-save.c:328 ../plug-ins/file-psd/psd-save.c:1581
@@ -1099,18 +1077,16 @@ msgstr "載入 CML 瀏覽器參數"
 #: ../plug-ins/common/cml-explorer.c:2211 ../plug-ins/common/curve-bend.c:891
 #: ../plug-ins/common/file-cel.c:300 ../plug-ins/common/file-cel.c:351
 #: ../plug-ins/common/file-cel.c:582 ../plug-ins/common/file-dicom.c:342
-#: ../plug-ins/common/file-gif-load.c:361
-#: ../plug-ins/common/file-jp2-load.c:234
+#: ../plug-ins/common/file-gif-load.c:361 ../plug-ins/common/file-jp2-load.c:234
 #: ../plug-ins/common/file-jp2-load.c:243 ../plug-ins/common/file-mng.c:1158
 #: ../plug-ins/common/file-pcx.c:375 ../plug-ins/common/file-png.c:913
 #: ../plug-ins/common/file-ps.c:1071 ../plug-ins/common/file-ps.c:3342
 #: ../plug-ins/common/file-psp.c:1738 ../plug-ins/common/file-raw-data.c:477
-#: ../plug-ins/common/file-raw-data.c:1301
-#: ../plug-ins/common/file-sunras.c:436 ../plug-ins/common/file-svg.c:329
-#: ../plug-ins/common/file-svg.c:711 ../plug-ins/common/file-tga.c:446
-#: ../plug-ins/common/file-xbm.c:747 ../plug-ins/common/file-xmc.c:659
-#: ../plug-ins/common/file-xmc.c:842 ../plug-ins/common/file-xwd.c:455
-#: ../plug-ins/common/sphere-designer.c:2010
+#: ../plug-ins/common/file-raw-data.c:1301 ../plug-ins/common/file-sunras.c:436
+#: ../plug-ins/common/file-svg.c:329 ../plug-ins/common/file-svg.c:711
+#: ../plug-ins/common/file-tga.c:446 ../plug-ins/common/file-xbm.c:747
+#: ../plug-ins/common/file-xmc.c:659 ../plug-ins/common/file-xmc.c:842
+#: ../plug-ins/common/file-xwd.c:455 ../plug-ins/common/sphere-designer.c:2010
 #: ../plug-ins/file-bmp/bmp-load.c:226 ../plug-ins/file-faxg3/faxg3.c:234
 #: ../plug-ins/file-fits/fits.c:360 ../plug-ins/file-fli/fli-gimp.c:462
 #: ../plug-ins/file-fli/fli-gimp.c:501 ../plug-ins/file-ico/ico-load.c:672
@@ -1118,9 +1094,8 @@ msgstr "載入 CML 瀏覽器參數"
 #: ../plug-ins/file-jpeg/jpeg-load.c:519 ../plug-ins/file-psd/psd-load.c:138
 #: ../plug-ins/file-psd/psd-thumb-load.c:82 ../plug-ins/flame/flame.c:411
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1865
-#: ../plug-ins/fractal-explorer/fractal-explorer.c:924
-#: ../plug-ins/gfig/gfig.c:426 ../plug-ins/help/gimphelplocale.c:222
-#: ../plug-ins/help/gimphelplocale.c:238
+#: ../plug-ins/fractal-explorer/fractal-explorer.c:924 ../plug-ins/gfig/gfig.c:426
+#: ../plug-ins/help/gimphelplocale.c:222 ../plug-ins/help/gimphelplocale.c:238
 #: ../plug-ins/lighting/lighting-ui.c:1376
 #, c-format
 msgid "Could not open '%s' for reading: %s"
@@ -1231,8 +1206,7 @@ msgstr "在顏色對應中交換兩個顏色 "
 msgid "_Swap Colors"
 msgstr "交換顏色(_S)"
 
-#: ../plug-ins/common/colormap-remap.c:287
-#: ../plug-ins/common/colormap-remap.c:298
+#: ../plug-ins/common/colormap-remap.c:287 ../plug-ins/common/colormap-remap.c:298
 #: ../plug-ins/common/colormap-remap.c:309
 msgid "Invalid remap array was passed to remap function"
 msgstr "無效的重新映射陣列通過重新映射功能"
@@ -1273,11 +1247,9 @@ msgid "Rearrange Colormap"
 msgstr "修改色票項目 #%d"
 
 #. The Reset button
-#: ../plug-ins/common/colormap-remap.c:620
-#: ../plug-ins/common/curve-bend.c:1471 ../plug-ins/common/filter-pack.c:1205
-#: ../plug-ins/common/sample-colorize.c:1329
-#: ../plug-ins/common/sphere-designer.c:2560
-#: ../plug-ins/common/tile-small.c:452
+#: ../plug-ins/common/colormap-remap.c:620 ../plug-ins/common/curve-bend.c:1471
+#: ../plug-ins/common/filter-pack.c:1205 ../plug-ins/common/sample-colorize.c:1329
+#: ../plug-ins/common/sphere-designer.c:2560 ../plug-ins/common/tile-small.c:452
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:813
 #: ../plug-ins/gimpressionist/preview.c:182
 #: ../plug-ins/ifs-compose/ifs-compose.c:762
@@ -1290,8 +1262,7 @@ msgid ""
 "Drag and drop colors to rearrange the colormap.  The numbers shown are the "
 "original indices.  Right-click for a menu with sort options."
 msgstr ""
-"拖放顏色重新排列顏色表。這些數字顯示的是原來的指標。右鍵單擊一個選單選項與排"
-"序"
+"拖放顏色重新排列顏色表。這些數字顯示的是原來的指標。右鍵單擊一個選單選項與排序"
 
 #. Decompositions availables.
 #. * All the following values have to be kept in sync with those of decompose.c
@@ -1547,8 +1518,7 @@ msgstr "未知的值"
 msgid "Stretch brightness values to cover the full range"
 msgstr "伸展整體亮度值"
 
-#: ../plug-ins/common/contrast-normalize.c:91
-#: ../plug-ins/common/edge-dog.c:362
+#: ../plug-ins/common/contrast-normalize.c:91 ../plug-ins/common/edge-dog.c:362
 msgid "_Normalize"
 msgstr "提高對比度(_N)"
 
@@ -1658,8 +1628,7 @@ msgstr "依曲線扭曲"
 
 #. Preview area, top of column
 #. preview
-#: ../plug-ins/common/curve-bend.c:1260
-#: ../plug-ins/gimpressionist/orientmap.c:590
+#: ../plug-ins/common/curve-bend.c:1260 ../plug-ins/gimpressionist/orientmap.c:590
 #: ../plug-ins/gimpressionist/sizemap.c:458
 #: ../plug-ins/print/print-page-layout.c:176
 msgid "Preview"
@@ -2000,8 +1969,8 @@ msgid ""
 "Pixels in the foreground color will appear black in all output images.  This "
 "can be used for things like crop marks that have to show up on all channels."
 msgstr ""
-"前景色的像素將出現黑色在所有輸出圖片。這可以用於裁切線類的東西，是要顯示在所"
-"有色版。"
+"前景色的像素將出現黑色在所有輸出圖片。這可以用於裁切線類的東西，是要顯示在所有色"
+"版。"
 
 #: ../plug-ins/common/depth-merge.c:183
 msgid "Combine two images using depth maps (z-buffers)"
@@ -2035,8 +2004,7 @@ msgstr "來源 2："
 msgid "O_verlap:"
 msgstr "重叠部份(_V):"
 
-#: ../plug-ins/common/depth-merge.c:775
-#: ../plug-ins/common/file-raw-data.c:1971
+#: ../plug-ins/common/depth-merge.c:775 ../plug-ins/common/file-raw-data.c:1971
 msgid "O_ffset:"
 msgstr "偏移(_F)："
 
@@ -2105,9 +2073,8 @@ msgstr "去條紋"
 
 #: ../plug-ins/common/destripe.c:476 ../plug-ins/common/file-html-table.c:638
 #: ../plug-ins/common/file-ps.c:3467 ../plug-ins/common/file-ps.c:3672
-#: ../plug-ins/common/file-raw-data.c:1986
-#: ../plug-ins/common/smooth-palette.c:454 ../plug-ins/common/tile.c:465
-#: ../plug-ins/imagemap/imap_cmd_guides.c:163
+#: ../plug-ins/common/file-raw-data.c:1986 ../plug-ins/common/smooth-palette.c:454
+#: ../plug-ins/common/tile.c:465 ../plug-ins/imagemap/imap_cmd_guides.c:163
 #: ../plug-ins/imagemap/imap_rectangle.c:399
 #: ../plug-ins/print/print-page-layout.c:284
 msgid "_Width:"
@@ -2274,15 +2241,14 @@ msgstr "讀取影片 DVD 時發生錯誤 (%s)"
 #: ../plug-ins/common/file-pcx.c:367 ../plug-ins/common/file-pdf-load.c:1043
 #: ../plug-ins/common/file-pix.c:357 ../plug-ins/common/file-png.c:905
 #: ../plug-ins/common/file-pnm.c:566 ../plug-ins/common/file-ps.c:1063
-#: ../plug-ins/common/file-raw-data.c:1294
-#: ../plug-ins/common/file-sunras.c:429 ../plug-ins/common/file-tga.c:438
-#: ../plug-ins/common/file-wmf.c:984 ../plug-ins/common/file-xbm.c:740
-#: ../plug-ins/common/file-xmc.c:649 ../plug-ins/common/file-xpm.c:354
-#: ../plug-ins/common/file-xwd.c:448 ../plug-ins/file-bmp/bmp-load.c:218
-#: ../plug-ins/file-exr/file-exr.c:185 ../plug-ins/file-faxg3/faxg3.c:218
-#: ../plug-ins/file-fli/fli-gimp.c:494 ../plug-ins/file-ico/ico-load.c:665
-#: ../plug-ins/file-jpeg/jpeg-load.c:90 ../plug-ins/file-psd/psd-load.c:130
-#: ../plug-ins/file-raw/file-darktable.c:393
+#: ../plug-ins/common/file-raw-data.c:1294 ../plug-ins/common/file-sunras.c:429
+#: ../plug-ins/common/file-tga.c:438 ../plug-ins/common/file-wmf.c:984
+#: ../plug-ins/common/file-xbm.c:740 ../plug-ins/common/file-xmc.c:649
+#: ../plug-ins/common/file-xpm.c:354 ../plug-ins/common/file-xwd.c:448
+#: ../plug-ins/file-bmp/bmp-load.c:218 ../plug-ins/file-exr/file-exr.c:185
+#: ../plug-ins/file-faxg3/faxg3.c:218 ../plug-ins/file-fli/fli-gimp.c:494
+#: ../plug-ins/file-ico/ico-load.c:665 ../plug-ins/file-jpeg/jpeg-load.c:90
+#: ../plug-ins/file-psd/psd-load.c:130 ../plug-ins/file-raw/file-darktable.c:393
 #: ../plug-ins/file-raw/file-rawtherapee.c:314 ../plug-ins/file-sgi/sgi.c:325
 #: ../plug-ins/file-tiff/file-tiff-load.c:236
 #, fuzzy, c-format
@@ -2544,8 +2510,7 @@ msgstr "開啟檔案"
 msgid "Could not open '%s'"
 msgstr "無法載入「%s」"
 
-#: ../plug-ins/common/file-gif-load.c:148
-#: ../plug-ins/common/file-gif-save.c:167
+#: ../plug-ins/common/file-gif-load.c:148 ../plug-ins/common/file-gif-save.c:167
 #: ../plug-ins/common/file-gif-save.c:186
 msgid "GIF image"
 msgstr "GIF 圖片"
@@ -2594,8 +2559,8 @@ msgstr "無法再刪減顏色數目。現在會儲存為不透明的圖片。"
 #: ../plug-ins/common/file-gif-save.c:660
 #, fuzzy, c-format
 #| msgid ""
-#| "Unable to save '%s'.  The GIF file format does not support images that "
-#| "are more than %d pixels wide or tall."
+#| "Unable to save '%s'.  The GIF file format does not support images that are "
+#| "more than %d pixels wide or tall."
 msgid ""
 "Unable to export '%s'.  The GIF file format does not support images that are "
 "more than %d pixels wide or tall."
@@ -2624,11 +2589,11 @@ msgstr "加入延遲時間，避免動畫過度消耗 CPU 資源。"
 #: ../plug-ins/common/file-gif-save.c:1084
 #, fuzzy
 msgid ""
-"The image you are trying to export as a GIF contains layers which extend "
-"beyond the actual borders of the image."
+"The image you are trying to export as a GIF contains layers which extend beyond "
+"the actual borders of the image."
 msgstr ""
-"在準備儲存成為 GIF 的圖片中，有一些圖層的位置超出圖片範圍之外。GIF 應該不允許"
-"這種情況發生。\n"
+"在準備儲存成為 GIF 的圖片中，有一些圖層的位置超出圖片範圍之外。GIF 應該不允許這"
+"種情況發生。\n"
 "\n"
 "您可以選擇裁剪所有圖層，令它們限制在圖片之內，或者不儲存圖片。"
 
@@ -2639,11 +2604,11 @@ msgstr ""
 #: ../plug-ins/common/file-gif-save.c:1101
 #, fuzzy
 msgid ""
-"The GIF file format does not allow this.  You may choose whether to crop all "
-"of the layers to the image borders, or cancel this export."
+"The GIF file format does not allow this.  You may choose whether to crop all of "
+"the layers to the image borders, or cancel this export."
 msgstr ""
-"在準備儲存成為 GIF 的圖片中，有一些圖層的位置超出圖片範圍之外。GIF 應該不允許"
-"這種情況發生。\n"
+"在準備儲存成為 GIF 的圖片中，有一些圖層的位置超出圖片範圍之外。GIF 應該不允許這"
+"種情況發生。\n"
 "\n"
 "您可以選擇裁剪所有圖層，令它們限制在圖片之內，或者不儲存圖片。"
 
@@ -2667,8 +2632,8 @@ msgid ""
 "You can only export as animation when the image has more than one layer. The "
 "image you are trying to export only has one layer."
 msgstr ""
-"當圖片有不只一個圖層時，您才可以將它匯出成為動畫。但是您正嘗試匯出的圖片卻只"
-"有一個圖層！"
+"當圖片有不只一個圖層時，您才可以將它匯出成為動畫。但是您正嘗試匯出的圖片卻只有一"
+"個圖層！"
 
 #. translators: the %d is *always* 240 here
 #: ../plug-ins/common/file-gif-save.c:2533
@@ -2771,11 +2736,11 @@ msgstr "產生完整的 _HTML 文件"
 
 #: ../plug-ins/common/file-html-table.c:509
 msgid ""
-"If checked GTM will output a full HTML document with <HTML>, <BODY>, etc. "
-"tags instead of just the table html."
+"If checked GTM will output a full HTML document with <HTML>, <BODY>, etc. tags "
+"instead of just the table html."
 msgstr ""
-"若選取本選項，GTM 會輸出一個包含 <HTML>、<BODY> 等標籤的完整 HTML 檔，而非只"
-"有表格部份的 HTML。"
+"若選取本選項，GTM 會輸出一個包含 <HTML>、<BODY> 等標籤的完整 HTML 檔，而非只有表"
+"格部份的 HTML。"
 
 #. HTML Table Creation Options
 #: ../plug-ins/common/file-html-table.c:522
@@ -2800,12 +2765,11 @@ msgstr "壓縮 TD 標籤(_M)"
 
 #: ../plug-ins/common/file-html-table.c:551
 msgid ""
-"Checking this tag will cause GTM to leave no whitespace between the TD tags "
-"and the cellcontent.  This is only necessary for pixel level positioning "
-"control."
+"Checking this tag will cause GTM to leave no whitespace between the TD tags and "
+"the cellcontent.  This is only necessary for pixel level positioning control."
 msgstr ""
-"若選上此選項，GTM 將不會在 TD 標籤及格子內容之間留下任何空白字符。這只在需要"
-"以像素的程度控制位置才有需要使用。"
+"若選上此選項，GTM 將不會在 TD 標籤及格子內容之間留下任何空白字符。這只在需要以像"
+"素的程度控制位置才有需要使用。"
 
 #: ../plug-ins/common/file-html-table.c:561
 msgid "C_aption"
@@ -2899,15 +2863,15 @@ msgstr ""
 #: ../plug-ins/common/file-jp2-load.c:328
 #, c-format
 msgid ""
-"The image '%s' is in the CIEXYZ color space, but there is no code in place "
-"to convert it to RGB."
+"The image '%s' is in the CIEXYZ color space, but there is no code in place to "
+"convert it to RGB."
 msgstr ""
 
 #: ../plug-ins/common/file-jp2-load.c:335
 #, c-format
 msgid ""
-"The image '%s' is in the CIELAB color space, but there is no code in place "
-"to convert it to RGB."
+"The image '%s' is in the CIELAB color space, but there is no code in place to "
+"convert it to RGB."
 msgstr ""
 
 #: ../plug-ins/common/file-jp2-load.c:342
@@ -2925,8 +2889,8 @@ msgstr ""
 #: ../plug-ins/common/file-jp2-load.c:364
 #, c-format
 msgid ""
-"Image component %d of image '%s' does not have the same size as the image. "
-"This is currently not supported."
+"Image component %d of image '%s' does not have the same size as the image. This "
+"is currently not supported."
 msgstr ""
 
 #: ../plug-ins/common/file-jp2-load.c:375
@@ -3052,8 +3016,7 @@ msgid "Default frame delay:"
 msgstr "預設畫格率"
 
 #. label for 'ms' adjustment
-#: ../plug-ins/common/file-mng.c:1546
-#: ../plug-ins/file-webp/file-webp-dialog.c:349
+#: ../plug-ins/common/file-mng.c:1546 ../plug-ins/file-webp/file-webp-dialog.c:349
 #: ../plug-ins/ui/plug-in-file-gif.ui.h:8
 msgid "milliseconds"
 msgstr "毫秒"
@@ -3156,10 +3119,8 @@ msgstr ""
 msgid "Writing to file '%s' failed: %s"
 msgstr "開啟檔案「%s」失敗：%s"
 
-#: ../plug-ins/common/file-pdf-load.c:321
-#: ../plug-ins/common/file-pdf-load.c:340
-#: ../plug-ins/common/file-pdf-save.c:338
-#: ../plug-ins/common/file-pdf-save.c:355
+#: ../plug-ins/common/file-pdf-load.c:321 ../plug-ins/common/file-pdf-load.c:340
+#: ../plug-ins/common/file-pdf-save.c:338 ../plug-ins/common/file-pdf-save.c:355
 #, fuzzy
 msgid "Portable Document Format"
 msgstr "DJVU 文件有不正確的格式"
@@ -3173,10 +3134,8 @@ msgstr "DJVU 文件有不正確的格式"
 msgid "PDF document '%1$s' has a single page. Page %2$d is out of range."
 msgid_plural "PDF document '%1$s' has %3$d pages. Page %2$d is out of range."
 msgstr[0] ""
-msgstr[1] ""
 
-#: ../plug-ins/common/file-pdf-load.c:679
-#: ../plug-ins/common/file-pdf-load.c:749
+#: ../plug-ins/common/file-pdf-load.c:679 ../plug-ins/common/file-pdf-load.c:749
 #, fuzzy, c-format
 msgid "Could not load '%s': %s"
 msgstr "無法載入「%s」"
@@ -3234,9 +3193,9 @@ msgstr "解析度(_R)："
 msgid "Use _Anti-aliasing"
 msgstr "使用反鋸齒(_A)"
 
-#: ../plug-ins/common/file-pdf-load.c:1644
-#: ../plug-ins/common/file-pdf-load.c:1645 ../plug-ins/common/file-svg.c:916
-#: ../plug-ins/common/file-wmf.c:700 ../plug-ins/print/print-page-layout.c:305
+#: ../plug-ins/common/file-pdf-load.c:1644 ../plug-ins/common/file-pdf-load.c:1645
+#: ../plug-ins/common/file-svg.c:916 ../plug-ins/common/file-wmf.c:700
+#: ../plug-ins/print/print-page-layout.c:305
 #, c-format
 msgid "pixels/%a"
 msgstr "像素/%a"
@@ -3260,23 +3219,19 @@ msgid ""
 "read only!"
 msgstr ""
 
-#: ../plug-ins/common/file-pdf-save.c:907
-#: ../plug-ins/common/file-pdf-save.c:1056
+#: ../plug-ins/common/file-pdf-save.c:907 ../plug-ins/common/file-pdf-save.c:1056
 msgid "Omit hidden layers and layers with zero opacity"
 msgstr ""
 
-#: ../plug-ins/common/file-pdf-save.c:912
-#: ../plug-ins/common/file-pdf-save.c:1061
+#: ../plug-ins/common/file-pdf-save.c:912 ../plug-ins/common/file-pdf-save.c:1061
 msgid "Convert bitmaps to vector graphics where possible"
 msgstr ""
 
-#: ../plug-ins/common/file-pdf-save.c:917
-#: ../plug-ins/common/file-pdf-save.c:1066
+#: ../plug-ins/common/file-pdf-save.c:917 ../plug-ins/common/file-pdf-save.c:1066
 msgid "Apply layer masks before saving"
 msgstr ""
 
-#: ../plug-ins/common/file-pdf-save.c:921
-#: ../plug-ins/common/file-pdf-save.c:1070
+#: ../plug-ins/common/file-pdf-save.c:921 ../plug-ins/common/file-pdf-save.c:1070
 msgid "Keeping the masks will not change the output"
 msgstr ""
 
@@ -3316,8 +3271,7 @@ msgstr "刪除指定的預設值"
 msgid "Add this image"
 msgstr "機器人圖案佈景"
 
-#: ../plug-ins/common/file-pdf-save.c:1159
-#: ../plug-ins/common/file-pdf-save.c:1227
+#: ../plug-ins/common/file-pdf-save.c:1159 ../plug-ins/common/file-pdf-save.c:1227
 #: ../plug-ins/common/file-pdf-save.c:1325 ../plug-ins/common/file-ps.c:1886
 #: ../plug-ins/file-tiff/file-tiff-load.c:926
 #, c-format
@@ -3328,8 +3282,7 @@ msgstr "第 %d 頁"
 msgid "Error! In order to save the file, at least one image should be added!"
 msgstr ""
 
-#: ../plug-ins/common/file-pdf-save.c:1372
-#: ../plug-ins/print/print-draw-page.c:123
+#: ../plug-ins/common/file-pdf-save.c:1372 ../plug-ins/print/print-draw-page.c:123
 msgid "Cannot handle the size (either width or height) of the image."
 msgstr ""
 
@@ -3371,8 +3324,8 @@ msgstr "無法建立工作目錄‘%s’：%s"
 
 #: ../plug-ins/common/file-png.c:1112
 msgid ""
-"The PNG file specifies an offset that caused the layer to be positioned "
-"outside the image."
+"The PNG file specifies an offset that caused the layer to be positioned outside "
+"the image."
 msgstr ""
 
 #: ../plug-ins/common/file-png.c:1389
@@ -3392,8 +3345,8 @@ msgstr ""
 #: ../plug-ins/common/file-png.c:1419
 #, c-format
 msgid ""
-"The PNG image you are importing specifies an offset of %d, %d. Do you want "
-"to apply this offset to the layer?"
+"The PNG image you are importing specifies an offset of %d, %d. Do you want to "
+"apply this offset to the layer?"
 msgstr ""
 
 #: ../plug-ins/common/file-png.c:1527
@@ -3470,7 +3423,7 @@ msgid "Invalid X resolution."
 msgstr "字型解像度"
 
 #: ../plug-ins/common/file-pnm.c:627
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "圖片寬度大於 GIMP 可以處理的範圍。"
 
 #: ../plug-ins/common/file-pnm.c:634
@@ -3479,7 +3432,7 @@ msgid "Invalid Y resolution."
 msgstr "字型解像度"
 
 #: ../plug-ins/common/file-pnm.c:636
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "圖片高度大於 GIMP 可以處理的範圍。"
 
 #: ../plug-ins/common/file-pnm.c:648
@@ -3594,8 +3547,7 @@ msgid "Gray"
 msgstr "灰"
 
 #: ../plug-ins/common/file-ps.c:3534 ../plug-ins/common/file-xpm.c:480
-#: ../plug-ins/gimpressionist/color.c:65
-#: ../plug-ins/gimpressionist/general.c:169
+#: ../plug-ins/gimpressionist/color.c:65 ../plug-ins/gimpressionist/general.c:169
 #: ../plug-ins/imagemap/imap_menu.c:227
 msgid "Color"
 msgstr "色彩"
@@ -3669,8 +3621,7 @@ msgid "_Millimeter"
 msgstr "毫米(_M)"
 
 #. Rotation
-#: ../plug-ins/common/file-ps.c:3746
-#: ../plug-ins/map-object/map-object-ui.c:1019
+#: ../plug-ins/common/file-ps.c:3746 ../plug-ins/map-object/map-object-ui.c:1019
 msgid "Rotation"
 msgstr "旋轉"
 
@@ -3723,15 +3674,13 @@ msgstr "RLE"
 msgid "LZ77"
 msgstr "LZ77"
 
-#: ../plug-ins/common/file-raw-data.c:283
-#: ../plug-ins/common/file-raw-data.c:319
+#: ../plug-ins/common/file-raw-data.c:283 ../plug-ins/common/file-raw-data.c:319
 #: ../plug-ins/common/file-raw-data.c:331
 #, fuzzy
 msgid "Raw image data"
 msgstr "原始 GPS 資料"
 
-#: ../plug-ins/common/file-raw-data.c:304
-#: ../plug-ins/common/file-raw-data.c:1882
+#: ../plug-ins/common/file-raw-data.c:304 ../plug-ins/common/file-raw-data.c:1882
 msgid "Digital Elevation Model data"
 msgstr ""
 
@@ -3750,9 +3699,9 @@ msgstr ""
 #: ../plug-ins/common/file-raw-data.c:520
 #, c-format
 msgid ""
-"Auto-detection of sample spacing failed. \"%s\" does not appear to be a "
-"valid HGT file or its variant is not supported yet. Supported HGT files are: "
-"SRTM-1 and SRTM-3. If you know the variant, run with argument 1 or 3."
+"Auto-detection of sample spacing failed. \"%s\" does not appear to be a valid "
+"HGT file or its variant is not supported yet. Supported HGT files are: SRTM-1 "
+"and SRTM-3. If you know the variant, run with argument 1 or 3."
 msgstr ""
 
 #: ../plug-ins/common/file-raw-data.c:1829
@@ -3877,14 +3826,12 @@ msgstr "圖片類型："
 msgid "Palette"
 msgstr "調色盤"
 
-#: ../plug-ins/common/file-raw-data.c:2029
-#: ../plug-ins/ui/plug-in-file-raw.ui.h:4
+#: ../plug-ins/common/file-raw-data.c:2029 ../plug-ins/ui/plug-in-file-raw.ui.h:4
 #, fuzzy
 msgid "R, G, B (normal)"
 msgstr "一般"
 
-#: ../plug-ins/common/file-raw-data.c:2030
-#: ../plug-ins/ui/plug-in-file-raw.ui.h:5
+#: ../plug-ins/common/file-raw-data.c:2030 ../plug-ins/ui/plug-in-file-raw.ui.h:5
 #, fuzzy
 msgid "B, G, R, X (BMP style)"
 msgstr "紙牌樣式(_C)"
@@ -3949,7 +3896,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 
 #: ../plug-ins/common/file-sunras.c:518 ../plug-ins/common/file-xbm.c:848
@@ -3967,7 +3914,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 
 #: ../plug-ins/common/file-sunras.c:562
@@ -4321,12 +4268,11 @@ msgstr ""
 #: ../plug-ins/common/file-xmc.c:1158
 msgid ""
 "Choose the nominal size of frames.\n"
-"If you don't have plans to make multi-sized cursor, or you have no idea, "
-"leave it \"32px\".\n"
+"If you don't have plans to make multi-sized cursor, or you have no idea, leave "
+"it \"32px\".\n"
 "Nominal size has no relation with the actual size (width or height).\n"
-"It is only used to determine which frame depends on which animation "
-"sequence, and which sequence is used based on the value of \"gtk-cursor-"
-"theme-size\"."
+"It is only used to determine which frame depends on which animation sequence, "
+"and which sequence is used based on the value of \"gtk-cursor-theme-size\"."
 msgstr ""
 
 #: ../plug-ins/common/file-xmc.c:1175
@@ -4399,8 +4345,7 @@ msgid "Comment is limited to %d characters."
 msgstr "預設的備註文字長度上限為 %d 字符。"
 
 #. Begin displaying export progress
-#: ../plug-ins/common/file-xmc.c:1473
-#: ../plug-ins/file-webp/file-webp-save.c:173
+#: ../plug-ins/common/file-xmc.c:1473 ../plug-ins/file-webp/file-webp-save.c:173
 #: ../plug-ins/file-webp/file-webp-save.c:506
 #, fuzzy, c-format
 msgid "Saving '%s'"
@@ -4425,22 +4370,21 @@ msgstr ""
 #, c-format
 msgid ""
 "Cannot export the cursor because the hot spot is not on frame '%s'.\n"
-"Try to change the hot spot position, layer geometry or export without auto-"
-"crop."
+"Try to change the hot spot position, layer geometry or export without auto-crop."
 msgstr ""
 
 #: ../plug-ins/common/file-xmc.c:1759
 #, c-format
 msgid ""
-"Your cursor was successfully exported but it contains one or more frames "
-"whose width or height is more than %ipx.\n"
+"Your cursor was successfully exported but it contains one or more frames whose "
+"width or height is more than %ipx.\n"
 "It will clutter the screen in some environments."
 msgstr ""
 
 #: ../plug-ins/common/file-xmc.c:1766
 msgid ""
-"Your cursor was successfully exported but it contains one or more frames "
-"whose nominal size is not supported by GNOME settings.\n"
+"Your cursor was successfully exported but it contains one or more frames whose "
+"nominal size is not supported by GNOME settings.\n"
 "You can satisfy it by checking \"Replace the size of all frames...\" in the "
 "export dialog, or your cursor may not appear in GNOME settings."
 msgstr ""
@@ -4448,8 +4392,7 @@ msgstr ""
 #: ../plug-ins/common/file-xmc.c:2003
 #, c-format
 msgid ""
-"The parasite \"%s\" is too long for an X cursor comment. It was cut off to "
-"fit."
+"The parasite \"%s\" is too long for an X cursor comment. It was cut off to fit."
 msgstr ""
 
 #. translators: the %i is *always* 8 here
@@ -4865,8 +4808,7 @@ msgstr "轉換圖片，用 Mandelbrot 碎形"
 msgid "_Fractal Trace..."
 msgstr "碎形輪廓(_F)..."
 
-#: ../plug-ins/common/fractal-trace.c:471
-#: ../plug-ins/common/fractal-trace.c:707
+#: ../plug-ins/common/fractal-trace.c:471 ../plug-ins/common/fractal-trace.c:707
 msgid "Fractal Trace"
 msgstr "碎形輪廓"
 
@@ -5473,19 +5415,16 @@ msgstr "外掛程式瀏覽器"
 msgid "Name"
 msgstr "名稱"
 
-#: ../plug-ins/common/plugin-browser.c:597
-#: ../plug-ins/common/plugin-browser.c:660
+#: ../plug-ins/common/plugin-browser.c:597 ../plug-ins/common/plugin-browser.c:660
 #, fuzzy
 msgid "Menu Path"
 msgstr "選單內容的路徑"
 
-#: ../plug-ins/common/plugin-browser.c:605
-#: ../plug-ins/common/plugin-browser.c:669
+#: ../plug-ins/common/plugin-browser.c:605 ../plug-ins/common/plugin-browser.c:669
 msgid "Image Types"
 msgstr "圖片類型"
 
-#: ../plug-ins/common/plugin-browser.c:615
-#: ../plug-ins/common/plugin-browser.c:678
+#: ../plug-ins/common/plugin-browser.c:615 ../plug-ins/common/plugin-browser.c:678
 #, fuzzy
 msgid "Installation Date"
 msgstr "有效日期："
@@ -5537,8 +5476,7 @@ msgstr "G-Qbist"
 
 #: ../plug-ins/common/qbist.c:880
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:690
-#: ../plug-ins/gfig/gfig-dialog.c:886
-#: ../plug-ins/ifs-compose/ifs-compose.c:1035
+#: ../plug-ins/gfig/gfig-dialog.c:886 ../plug-ins/ifs-compose/ifs-compose.c:1035
 msgid "_Undo"
 msgstr "復原(_U)"
 
@@ -5616,8 +5554,7 @@ msgstr "樣本著色"
 msgid "Get _Sample Colors"
 msgstr "取得樣本色(_S)"
 
-#: ../plug-ins/common/sample-colorize.c:1332
-#: ../plug-ins/common/tile-small.c:561
+#: ../plug-ins/common/sample-colorize.c:1332 ../plug-ins/common/tile-small.c:561
 #: ../plug-ins/fractal-explorer/fractal-explorer.c:1070
 #: ../plug-ins/gimpressionist/orientmap.c:527
 #: ../plug-ins/gimpressionist/presets.c:1060
@@ -6130,8 +6067,7 @@ msgstr "小磚塊"
 
 #. Area for buttons etc
 #. Flip
-#: ../plug-ins/common/tile-small.c:419
-#: ../plug-ins/ifs-compose/ifs-compose.c:596
+#: ../plug-ins/common/tile-small.c:419 ../plug-ins/ifs-compose/ifs-compose.c:596
 msgid "Flip"
 msgstr "翻轉"
 
@@ -6179,8 +6115,7 @@ msgid "ID"
 msgstr "識別字"
 
 #: ../plug-ins/common/unit-editor.c:96
-msgid ""
-"This string will be used to identify a unit in GIMP's configuration files."
+msgid "This string will be used to identify a unit in GIMP's configuration files."
 msgstr "此字串是用來識別各個 GIMP 設定檔中的單位。"
 
 #: ../plug-ins/common/unit-editor.c:98
@@ -6197,12 +6132,12 @@ msgstr "小數位"
 
 #: ../plug-ins/common/unit-editor.c:99
 msgid ""
-"This field is a hint for numerical input fields. It specifies how many "
-"decimal digits the input field should provide to get approximately the same "
-"accuracy as an \"inch\" input field with two decimal digits."
+"This field is a hint for numerical input fields. It specifies how many decimal "
+"digits the input field should provide to get approximately the same accuracy as "
+"an \"inch\" input field with two decimal digits."
 msgstr ""
-"本欄是數值輸入欄位的提示。它指定了輸入欄位應提供多少個小數點，使得準確度大致"
-"上等於「英吋」的小數點後兩位。"
+"本欄是數值輸入欄位的提示。它指定了輸入欄位應提供多少個小數點，使得準確度大致上等"
+"於「英吋」的小數點後兩位。"
 
 #: ../plug-ins/common/unit-editor.c:104
 msgid "Symbol"
@@ -6211,11 +6146,10 @@ msgstr "符號"
 #: ../plug-ins/common/unit-editor.c:104
 #, fuzzy
 msgid ""
-"The unit's symbol if it has one (e.g. \" for inches). The unit's "
-"abbreviation is used if doesn't have a symbol."
+"The unit's symbol if it has one (e.g. \" for inches). The unit's abbreviation "
+"is used if doesn't have a symbol."
 msgstr ""
-"本單位的符號 (如果有的話，例如英吋的「'」)。如果沒有該單位的相應符號則使用縮"
-"寫。"
+"本單位的符號 (如果有的話，例如英吋的「'」)。如果沒有該單位的相應符號則使用縮寫。"
 
 #: ../plug-ins/common/unit-editor.c:107
 msgid "Abbreviation"
@@ -6809,9 +6743,9 @@ msgstr "輸入授權資訊。"
 
 #: ../plug-ins/file-bmp/bmp-save.c:935
 msgid ""
-"Some applications can not read BMP images that include color space "
-"information. GIMP writes color space information by default. Enabling this "
-"option will cause GIMP to not write color space information to the file."
+"Some applications can not read BMP images that include color space information. "
+"GIMP writes color space information by default. Enabling this option will cause "
+"GIMP to not write color space information to the file."
 msgstr ""
 
 #. Advanced Options
@@ -7178,8 +7112,7 @@ msgstr "浮點數"
 msgid "Comment"
 msgstr "備註"
 
-#: ../plug-ins/file-jpeg/jpeg-save.c:1174
-#: ../plug-ins/ui/plug-in-file-png.ui.h:10
+#: ../plug-ins/file-jpeg/jpeg-save.c:1174 ../plug-ins/ui/plug-in-file-png.ui.h:10
 #: ../plug-ins/ui/plug-in-file-raw.ui.h:6
 #: ../plug-ins/print/print-page-layout.c:335
 msgid "_Load Defaults"
@@ -7197,8 +7130,7 @@ msgstr "JPEG 圖片"
 msgid "Export Preview"
 msgstr "匯出預覽圖"
 
-#: ../plug-ins/file-psd/psd-load.c:219
-#: ../plug-ins/file-psd/psd-thumb-load.c:130
+#: ../plug-ins/file-psd/psd-load.c:219 ../plug-ins/file-psd/psd-thumb-load.c:130
 #, fuzzy, c-format
 msgid "Error loading PSD file: %s"
 msgstr "載入 UI 檔案時發生錯誤"
@@ -7301,8 +7233,8 @@ msgstr "錯誤：不能將 GIMP 基本圖片類型轉換為 PSD 模式"
 #: ../plug-ins/file-psd/psd-save.c:1545
 #, fuzzy, c-format
 #| msgid ""
-#| "Unable to save '%s'.  The PSD file format does not support images that "
-#| "are more than 30,000 pixels wide or tall."
+#| "Unable to save '%s'.  The PSD file format does not support images that are "
+#| "more than 30,000 pixels wide or tall."
 msgid ""
 "Unable to export '%s'.  The PSD file format does not support images that are "
 "more than 30,000 pixels wide or tall."
@@ -7311,11 +7243,11 @@ msgstr "無法儲存「%s」。該 PSD 檔案格式不支援寬或高超過 30,0
 #: ../plug-ins/file-psd/psd-save.c:1566
 #, fuzzy, c-format
 #| msgid ""
-#| "Unable to save '%s'.  The PSD file format does not support images that "
-#| "are more than 30,000 pixels wide or tall."
+#| "Unable to save '%s'.  The PSD file format does not support images that are "
+#| "more than 30,000 pixels wide or tall."
 msgid ""
-"Unable to export '%s'.  The PSD file format does not support images with "
-"layers that are more than 30,000 pixels wide or tall."
+"Unable to export '%s'.  The PSD file format does not support images with layers "
+"that are more than 30,000 pixels wide or tall."
 msgstr "無法儲存「%s」。該 PSD 檔案格式不支援寬或高超過 30,000 個像素的圖片。"
 
 #: ../plug-ins/file-psd/psd-util.c:179
@@ -7993,14 +7925,12 @@ msgstr ""
 msgid "_Zoom:"
 msgstr "縮放(_Z)："
 
-#: ../plug-ins/flame/flame.c:1250
-#: ../plug-ins/gradient-flare/gradient-flare.c:2724
+#: ../plug-ins/flame/flame.c:1250 ../plug-ins/gradient-flare/gradient-flare.c:2724
 #: ../plug-ins/lighting/lighting-ui.c:489
 msgid "_X:"
 msgstr "_X："
 
-#: ../plug-ins/flame/flame.c:1264
-#: ../plug-ins/gradient-flare/gradient-flare.c:2728
+#: ../plug-ins/flame/flame.c:1264 ../plug-ins/gradient-flare/gradient-flare.c:2728
 #: ../plug-ins/lighting/lighting-ui.c:504
 msgid "_Y:"
 msgstr "_Y："
@@ -8091,10 +8021,8 @@ msgstr "下："
 
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:774
 #, fuzzy
-msgid ""
-"The higher the number of iterations, the more details will be calculated"
-msgstr ""
-"更改計算的次數。如果數值越高，計算出來的圖形細節也越多，但會消耗較多時間"
+msgid "The higher the number of iterations, the more details will be calculated"
+msgstr "更改計算的次數。如果數值越高，計算出來的圖形細節也越多，但會消耗較多時間"
 
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:782
 msgid "CX:"
@@ -8247,8 +8175,8 @@ msgstr "補色"
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1070
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1111
 msgid ""
-"If you enable this option higher color values will be swapped with lower "
-"ones and vice versa"
+"If you enable this option higher color values will be swapped with lower ones "
+"and vice versa"
 msgstr "如選用本選項，整幅圖片的顏色會更改為與原來圖片互補的顏色"
 
 #. Colormode toggle box
@@ -8610,8 +8538,7 @@ msgstr "顯示控制點"
 msgid "Max undo:"
 msgstr "復原次數上限："
 
-#: ../plug-ins/gfig/gfig-dialog.c:1320
-#: ../plug-ins/gimpressionist/general.c:184
+#: ../plug-ins/gfig/gfig-dialog.c:1320 ../plug-ins/gimpressionist/general.c:184
 msgid "Transparent"
 msgstr "透明"
 
@@ -8628,8 +8555,8 @@ msgstr "複製"
 #: ../plug-ins/gfig/gfig-dialog.c:1333
 #, fuzzy
 msgid ""
-"Layer background type. Copy causes the previous layer to be copied before "
-"the draw is performed."
+"Layer background type. Copy causes the previous layer to be copied before the "
+"draw is performed."
 msgstr "圖層背景的類型。會在繪畫時複製之前的圖層。"
 
 #: ../plug-ins/gfig/gfig-dialog.c:1339
@@ -8807,13 +8734,11 @@ msgstr "長寬比:"
 msgid "Specifies the aspect ratio of the brush"
 msgstr "指定筆刷的長寬比"
 
-#: ../plug-ins/gimpressionist/brush.c:612
-#: ../plug-ins/gimpressionist/paper.c:205
+#: ../plug-ins/gimpressionist/brush.c:612 ../plug-ins/gimpressionist/paper.c:205
 msgid "Relief:"
 msgstr "浮雕："
 
-#: ../plug-ins/gimpressionist/brush.c:616
-#: ../plug-ins/gimpressionist/paper.c:209
+#: ../plug-ins/gimpressionist/brush.c:616 ../plug-ins/gimpressionist/paper.c:209
 msgid "Specifies the amount of embossing to apply to the image (in percent)"
 msgstr ""
 
@@ -8944,8 +8869,8 @@ msgid "Performs various artistic operations"
 msgstr "執行各種不同的藝術操作"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
-msgstr "印象派風格(_G)..."
+msgid "_Impressionist..."
+msgstr "印象派風格(_I)..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -8956,7 +8881,7 @@ msgid "Painting"
 msgstr "繪畫"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
+msgid "Impressionist"
 msgstr "印象派風格"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
@@ -8990,8 +8915,7 @@ msgstr ""
 
 #: ../plug-ins/gimpressionist/orientation.c:156
 msgid ""
-"Let the value (brightness) of the region determine the direction of the "
-"stroke"
+"Let the value (brightness) of the region determine the direction of the stroke"
 msgstr "依該區域的亮度來決定筆劃的方向"
 
 #: ../plug-ins/gimpressionist/orientation.c:159
@@ -9001,8 +8925,7 @@ msgstr "半徑"
 
 #: ../plug-ins/gimpressionist/orientation.c:160
 msgid ""
-"The distance from the center of the image determines the direction of the "
-"stroke"
+"The distance from the center of the image determines the direction of the stroke"
 msgstr "以該點和圖片中心點之間的距離來決定筆劃的方向"
 
 #: ../plug-ins/gimpressionist/orientation.c:164
@@ -9065,8 +8988,8 @@ msgstr "向量"
 
 #: ../plug-ins/gimpressionist/orientmap.c:564
 msgid ""
-"The vector-field. Left-click to move selected vector, Right-click to point "
-"it towards mouse, Middle-click to add a new vector."
+"The vector-field. Left-click to move selected vector, Right-click to point it "
+"towards mouse, Middle-click to add a new vector."
 msgstr ""
 
 #: ../plug-ins/gimpressionist/orientmap.c:588
@@ -9127,8 +9050,7 @@ msgstr "_Voronoi"
 
 #: ../plug-ins/gimpressionist/orientmap.c:661
 msgid ""
-"Voronoi-mode makes only the vector closest to the given point have any "
-"influence"
+"Voronoi-mode makes only the vector closest to the given point have any influence"
 msgstr "Voronoi 模式表示最接近某一點的向量才會對於該點的筆劃有影響"
 
 #: ../plug-ins/gimpressionist/orientmap.c:671
@@ -9244,7 +9166,7 @@ msgid "Save Current"
 msgstr "儲存目前設定"
 
 #: ../plug-ins/gimpressionist/presets.c:893
-msgid "Gimpressionist Defaults"
+msgid "Impressionist Defaults"
 msgstr "印象派風格預設值"
 
 #: ../plug-ins/gimpressionist/presets.c:1014
@@ -9274,8 +9196,7 @@ msgstr "排序預設組合選單"
 
 #: ../plug-ins/gimpressionist/preview.c:174
 #: ../plug-ins/gimpressionist/repaint.c:1197
-#: ../plug-ins/imagemap/imap_polygon.c:512
-#: ../plug-ins/lighting/lighting-ui.c:1092
+#: ../plug-ins/imagemap/imap_polygon.c:512 ../plug-ins/lighting/lighting-ui.c:1092
 msgid "_Update"
 msgstr "更新(_U)"
 
@@ -9320,8 +9241,7 @@ msgid "Size depends on:"
 msgstr "尺寸取決於："
 
 #: ../plug-ins/gimpressionist/size.c:159
-msgid ""
-"Let the value (brightness) of the region determine the size of the stroke"
+msgid "Let the value (brightness) of the region determine the size of the stroke"
 msgstr "依該區域的亮度來決定筆劃的大小"
 
 #: ../plug-ins/gimpressionist/size.c:163
@@ -9364,8 +9284,8 @@ msgstr ""
 
 #: ../plug-ins/gimpressionist/sizemap.c:435
 msgid ""
-"The smvector-field. Left-click to move selected smvector, Right-click to "
-"point it towards mouse, Middle-click to add a new smvector."
+"The smvector-field. Left-click to move selected smvector, Right-click to point "
+"it towards mouse, Middle-click to add a new smvector."
 msgstr ""
 
 #: ../plug-ins/gimpressionist/sizemap.c:479
@@ -9505,8 +9425,7 @@ msgstr "將備註文字儲存到檔案中(_S)"
 msgid "Save color _values from transparent pixels"
 msgstr "保存從透明像素的顏色值(_C)"
 
-#: ../plug-ins/ui/plug-in-file-png.ui.h:11
-#: ../plug-ins/ui/plug-in-file-raw.ui.h:7
+#: ../plug-ins/ui/plug-in-file-png.ui.h:11 ../plug-ins/ui/plug-in-file-raw.ui.h:7
 #, fuzzy
 #| msgid "Sa_ve Defaults"
 msgid "S_ave Defaults"
@@ -9532,8 +9451,7 @@ msgstr "保存 IPTC 數據"
 msgid "Save thumbnail"
 msgstr "保存縮圖"
 
-#: ../plug-ins/ui/plug-in-file-png.ui.h:16
-#: ../plug-ins/ui/plug-in-file-tiff.ui.h:7
+#: ../plug-ins/ui/plug-in-file-png.ui.h:16 ../plug-ins/ui/plug-in-file-tiff.ui.h:7
 #| msgid "_Advanced"
 msgid "Advanced"
 msgstr "進階"
@@ -10406,8 +10324,7 @@ msgstr "隨機數種子："
 msgid "_Second Flares"
 msgstr "第二光斑(_S)"
 
-#: ../plug-ins/help-browser/dialog.c:180
-#: ../plug-ins/help-browser/dialog.c:1107
+#: ../plug-ins/help-browser/dialog.c:180 ../plug-ins/help-browser/dialog.c:1107
 #, fuzzy
 msgid "GIMP Help Browser"
 msgstr "執行說明文件瀏覽器"
@@ -10503,7 +10420,7 @@ msgstr ""
 
 #: ../plug-ins/help/gimphelpdomain.c:186
 #, fuzzy
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "使用者手冊並沒有在本地端安裝。"
 
 #. TRANSLATORS: do not end the URL with a dot,
@@ -10636,8 +10553,7 @@ msgstr "色彩變換"
 msgid "Relative probability:"
 msgstr "相對機率："
 
-#: ../plug-ins/ifs-compose/ifs-compose.c:1043
-#: ../plug-ins/imagemap/imap_menu.c:174
+#: ../plug-ins/ifs-compose/ifs-compose.c:1043 ../plug-ins/imagemap/imap_menu.c:174
 msgid "Select _All"
 msgstr "全部選取(_A)"
 
@@ -10747,11 +10663,9 @@ msgstr "圓形(_I)"
 msgid "Center _x:"
 msgstr "中心點水平位置(_X)："
 
-#: ../plug-ins/imagemap/imap_circle.c:266
-#: ../plug-ins/imagemap/imap_circle.c:273
+#: ../plug-ins/imagemap/imap_circle.c:266 ../plug-ins/imagemap/imap_circle.c:273
 #: ../plug-ins/imagemap/imap_circle.c:279 ../plug-ins/imagemap/imap_grid.c:249
-#: ../plug-ins/imagemap/imap_grid.c:255
-#: ../plug-ins/imagemap/imap_polygon.c:502
+#: ../plug-ins/imagemap/imap_grid.c:255 ../plug-ins/imagemap/imap_polygon.c:502
 #: ../plug-ins/imagemap/imap_polygon.c:510
 #: ../plug-ins/imagemap/imap_rectangle.c:390
 #: ../plug-ins/imagemap/imap_rectangle.c:397
@@ -10779,8 +10693,7 @@ msgstr "建立"
 msgid "Cut"
 msgstr "剪下"
 
-#: ../plug-ins/imagemap/imap_cmd_delete.c:56
-#: ../plug-ins/imagemap/imap_menu.c:172
+#: ../plug-ins/imagemap/imap_cmd_delete.c:56 ../plug-ins/imagemap/imap_menu.c:172
 msgid "Delete"
 msgstr "刪除"
 
@@ -10851,10 +10764,10 @@ msgstr ""
 
 #: ../plug-ins/imagemap/imap_cmd_guides.c:142
 msgid ""
-"Guides are pre-defined rectangles covering the image. You define them by "
-"their width, height, and spacing from each other. This allows you to rapidly "
-"create the most common image map type - image collection of \"thumbnails\", "
-"suitable for navigation bars."
+"Guides are pre-defined rectangles covering the image. You define them by their "
+"width, height, and spacing from each other. This allows you to rapidly create "
+"the most common image map type - image collection of \"thumbnails\", suitable "
+"for navigation bars."
 msgstr ""
 
 #: ../plug-ins/imagemap/imap_cmd_guides.c:168
@@ -10931,8 +10844,7 @@ msgstr "拉至最前(_L)"
 msgid "Move Up"
 msgstr "向上移"
 
-#: ../plug-ins/imagemap/imap_cmd_paste.c:50
-#: ../plug-ins/imagemap/imap_menu.c:170
+#: ../plug-ins/imagemap/imap_cmd_paste.c:50 ../plug-ins/imagemap/imap_menu.c:170
 msgid "Paste"
 msgstr "貼上"
 
@@ -11125,8 +11037,7 @@ msgstr "創建一個可點擊的影像地圖"
 msgid "_Image Map..."
 msgstr "影像地圖編輯器(_I)..."
 
-#: ../plug-ins/imagemap/imap_main.c:484
-#: ../plug-ins/imagemap/imap_settings.c:169
+#: ../plug-ins/imagemap/imap_main.c:484 ../plug-ins/imagemap/imap_settings.c:169
 msgid "<Untitled>"
 msgstr "<無標題>"
 
@@ -12532,8 +12443,7 @@ msgstr "單一視窗(_W)"
 msgid "Include window _decoration"
 msgstr "包含視窗邊框(_D)"
 
-#: ../plug-ins/screenshot/screenshot.c:556
-#: ../plug-ins/screenshot/screenshot.c:600
+#: ../plug-ins/screenshot/screenshot.c:556 ../plug-ins/screenshot/screenshot.c:600
 msgid "Include _mouse pointer"
 msgstr "包含滑鼠指標(_M)"
 
@@ -12555,14 +12465,12 @@ msgid "Selection delay: "
 msgstr "選取延遲："
 
 #. translators: this is the unit label of a spinbutton
-#: ../plug-ins/screenshot/screenshot.c:685
-#: ../plug-ins/screenshot/screenshot.c:748
+#: ../plug-ins/screenshot/screenshot.c:685 ../plug-ins/screenshot/screenshot.c:748
 msgid "seconds"
 msgstr "秒"
 
 #: ../plug-ins/screenshot/screenshot.c:699
-msgid ""
-"After the delay, drag your mouse to select the region for the screenshot."
+msgid "After the delay, drag your mouse to select the region for the screenshot."
 msgstr "在延遲的時間之後，拖曳滑鼠以選取螢幕擷取的範圍。"
 
 #: ../plug-ins/screenshot/screenshot.c:703
@@ -12664,9 +12572,9 @@ msgstr "灰階臨界值"
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:115
 msgid ""
-"If the angle defined by a point and its predecessors and successors is "
-"smaller than this, it's a corner, even if it's within `corner_surround' "
-"pixels of a point with a smaller angle."
+"If the angle defined by a point and its predecessors and successors is smaller "
+"than this, it's a corner, even if it's within `corner_surround' pixels of a "
+"point with a smaller angle."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:126
@@ -12688,8 +12596,8 @@ msgstr "最低臨界值(_H)："
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:143
 msgid ""
-"If a point, its predecessors, and its successors define an angle smaller "
-"than this, it's a corner."
+"If a point, its predecessors, and its successors define an angle smaller than "
+"this, it's a corner."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:154
@@ -12721,8 +12629,8 @@ msgstr "濾鏡長度(_F):"
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:187
 msgid ""
 "If the angles between the vectors produced by filter_surround and "
-"filter_alternative_surround points differ by more than this, use the one "
-"from filter_alternative_surround."
+"filter_alternative_surround points differ by more than this, use the one from "
+"filter_alternative_surround."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:198
@@ -12734,9 +12642,9 @@ msgstr "磚片飽和度(_I):"
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:202
 msgid ""
 "Number of times to smooth original data points.  Increasing this number "
-"dramatically --- to 50 or so --- can produce vastly better results.  But if "
-"any points that ``should'' be corners aren't found, the curve goes to hell "
-"around that point."
+"dramatically --- to 50 or so --- can produce vastly better results.  But if any "
+"points that ``should'' be corners aren't found, the curve goes to hell around "
+"that point."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:214
@@ -12746,8 +12654,7 @@ msgid "Filter Percent:"
 msgstr "濾鏡長度(_F):"
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:218
-msgid ""
-"To produce the new point, use the old point plus this times the neighbors."
+msgid "To produce the new point, use the old point plus this times the neighbors."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:227
@@ -12773,8 +12680,7 @@ msgid "Keep Knees"
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:258
-msgid ""
-"Says whether or not to remove ``knee'' points after finding the outline."
+msgid "Says whether or not to remove ``knee'' points after finding the outline."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:269
@@ -12785,10 +12691,9 @@ msgstr "偏差臨界值："
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:273
 msgid ""
-"If a spline is closer to a straight line than this, it remains a straight "
-"line, even if it would otherwise be changed back to a curve. This is "
-"weighted by the square of the curve length, to make shorter curves more "
-"likely to be reverted."
+"If a spline is closer to a straight line than this, it remains a straight line, "
+"even if it would otherwise be changed back to a curve. This is weighted by the "
+"square of the curve length, to make shorter curves more likely to be reverted."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:285
@@ -12799,8 +12704,8 @@ msgstr "臨界值："
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:289
 msgid ""
-"How many pixels (on the average) a spline can diverge from the line "
-"determined by its endpoints before it is changed to a straight line."
+"How many pixels (on the average) a spline can diverge from the line determined "
+"by its endpoints before it is changed to a straight line."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:299
@@ -12809,8 +12714,8 @@ msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:303
 msgid ""
-"If reparameterization doesn't improve the fit by this much percent, stop "
-"doing it. Amount of error at which it is pointless to reparameterize."
+"If reparameterization doesn't improve the fit by this much percent, stop doing "
+"it. Amount of error at which it is pointless to reparameterize."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:313
@@ -12821,11 +12726,11 @@ msgstr "偏差臨界值："
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:317
 msgid ""
-"Amount of error at which it is pointless to reparameterize.  This happens, "
-"for example, when we are trying to fit the outline of the outside of an `O' "
-"with a single spline.  The initial fit is not good enough for the Newton-"
-"Raphson iteration to improve it.  It may be that it would be better to "
-"detect the cases where we didn't find any corners."
+"Amount of error at which it is pointless to reparameterize.  This happens, for "
+"example, when we are trying to fit the outline of the outside of an `O' with a "
+"single spline.  The initial fit is not good enough for the Newton-Raphson "
+"iteration to improve it.  It may be that it would be better to detect the cases "
+"where we didn't find any corners."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:330
@@ -12834,8 +12739,8 @@ msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:334
 msgid ""
-"Percentage of the curve away from the worst point to look for a better place "
-"to subdivide."
+"Percentage of the curve away from the worst point to look for a better place to "
+"subdivide."
 msgstr ""
 
 #: ../plug-ins/selection-to-path/selection-to-path-dialog.c:343
@@ -13308,11 +13213,11 @@ msgstr "從掃描器/相機傳輸資料"
 #~ msgstr "較高的值會增加效果的強度"
 
 #~ msgid ""
-#~ "Unable to save layer with mode '%s'.  Either the PSD file format or the "
-#~ "save plug-in does not support that, using normal mode instead."
+#~ "Unable to save layer with mode '%s'.  Either the PSD file format or the save "
+#~ "plug-in does not support that, using normal mode instead."
 #~ msgstr ""
-#~ "無法以「%s」模式儲存圖層。可能是 PSD 檔案格式或儲存外掛程式不支援，使用正"
-#~ "常的模式代替。"
+#~ "無法以「%s」模式儲存圖層。可能是 PSD 檔案格式或儲存外掛程式不支援，使用正常的"
+#~ "模式代替。"
 
 #~| msgid "C_aption"
 #~ msgid "Caption"
@@ -14002,13 +13907,13 @@ msgstr "從掃描器/相機傳輸資料"
 
 #~ msgid ""
 #~ "Warning:\n"
-#~ "The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+#~ "The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 #~ "bit, so it will be converted for you. Information will be lost because of "
 #~ "this conversion."
 #~ msgstr ""
 #~ "警告：\n"
-#~ "準備載入的圖片的色版是 16 位元色版。GIMP 只支援 8 位元色版，因此它會自動進"
-#~ "行轉換，而在這個過程中將會失去一部份資訊。"
+#~ "準備載入的圖片的色版是 16 位元色版。GIMP 只支援 8 位元色版，因此它會自動進行"
+#~ "轉換，而在這個過程中將會失去一部份資訊。"
 
 #, fuzzy
 #~ msgid "The size of '%s' is zero!"
@@ -14458,19 +14363,19 @@ msgstr "從掃描器/相機傳輸資料"
 #~ msgstr "向相反方向映射(_M)"
 
 #~ msgid ""
-#~ "If checked the mapping will begin at the right side, as opposed to "
-#~ "beginning at the left."
+#~ "If checked the mapping will begin at the right side, as opposed to beginning "
+#~ "at the left."
 #~ msgstr "如選用本選項，映射程序會在右邊開始，否則會在左邊開始。"
 
 #~ msgid "Map from _top"
 #~ msgstr "從四週開始映射(_T)"
 
 #~ msgid ""
-#~ "If unchecked the mapping will put the bottom row in the middle and the "
-#~ "top row on the outside.  If checked it will be the opposite."
+#~ "If unchecked the mapping will put the bottom row in the middle and the top "
+#~ "row on the outside.  If checked it will be the opposite."
 #~ msgstr ""
-#~ "如果不選用本選項，映射後的圖片底部表示原來圖片的中心點，而頂端表示原來圖片"
-#~ "的四周。如果選用則會以相反方向映射。"
+#~ "如果不選用本選項，映射後的圖片底部表示原來圖片的中心點，而頂端表示原來圖片的"
+#~ "四周。如果選用則會以相反方向映射。"
 
 #~ msgid "To _polar"
 #~ msgstr "變成圓形(_P)"

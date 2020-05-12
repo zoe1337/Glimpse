@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: gimp 2.7\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2012-02-20 23:00+0300\n"
-"PO-Revision-Date: 2012-02-20 23:00+0300\n"
+"PO-Revision-Date: 2020-02-08 11:46-0800\n"
 "Last-Translator: Hleb Valoshka <375gnu@gmail.com>\n"
 "Language-Team: Belarusian <i18n@mova.org>\n"
 "Language: be\n"
@@ -12,10 +12,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Poedit-Language: Belarusian\n"
-"X-Poedit-Country: BELARUS\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: /tmp/gimp-2.7.1/po\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/color-rotate/color-rotate-dialog.c:118
 msgid "Original"
@@ -615,8 +614,7 @@ msgstr "Па _вэртыкалі"
 #: ../plug-ins/file-jpeg/jpeg-load.c:255 ../plug-ins/file-jpeg/jpeg-load.c:819
 #: ../plug-ins/file-psd/psd-image-res-load.c:1001
 #: ../plug-ins/file-psd/psd-load.c:1637 ../plug-ins/file-sgi/sgi.c:407
-#: ../plug-ins/gfig/gfig-dialog.c:1321
-#: ../plug-ins/gimpressionist/general.c:139
+#: ../plug-ins/gfig/gfig-dialog.c:1321 ../plug-ins/gimpressionist/general.c:139
 #: ../plug-ins/map-object/map-object-apply.c:252 ../plug-ins/twain/twain.c:567
 #: ../plug-ins/win-snap/winsnap.c:1162
 msgid "Background"
@@ -1957,8 +1955,7 @@ msgid "Stretch brightness values to cover the full range"
 msgstr ""
 "Расьцягнуць значэньні яркасьці, каб яны распрасьціраліся на ўвесь дыяпазон"
 
-#: ../plug-ins/common/contrast-normalize.c:91
-#: ../plug-ins/common/edge-dog.c:362
+#: ../plug-ins/common/contrast-normalize.c:91 ../plug-ins/common/edge-dog.c:362
 msgid "_Normalize"
 msgstr "_Нармалізаваць"
 
@@ -2075,9 +2072,9 @@ msgstr "_Альфа"
 msgid "E_xtend"
 msgstr "_Пашырыць"
 
-#: ../plug-ins/common/convolution-matrix.c:74
-#: ../plug-ins/common/displace.c:477 ../plug-ins/common/edge.c:700
-#: ../plug-ins/common/fractal-trace.c:737 ../plug-ins/common/ripple.c:585
+#: ../plug-ins/common/convolution-matrix.c:74 ../plug-ins/common/displace.c:477
+#: ../plug-ins/common/edge.c:700 ../plug-ins/common/fractal-trace.c:737
+#: ../plug-ins/common/ripple.c:585
 msgid "_Wrap"
 msgstr "_Загарнуць"
 
@@ -4035,7 +4032,7 @@ msgid "Invalid X resolution."
 msgstr "Недапушчальнае разрозьненьне па X."
 
 #: ../plug-ins/common/file-pnm.c:555
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "Шырыня відарыса большая, чым GIMP можа апрацаваць."
 
 #: ../plug-ins/common/file-pnm.c:562
@@ -4043,7 +4040,7 @@ msgid "Invalid Y resolution."
 msgstr "Недапшчальнае разрозьненьне па Y."
 
 #: ../plug-ins/common/file-pnm.c:564
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "Вышыня відарыса большая, чым GIMP можа апрацаваць."
 
 #: ../plug-ins/common/file-pnm.c:574
@@ -4220,8 +4217,7 @@ msgid "_Millimeter"
 msgstr "_Мілімэтар"
 
 #. Rotation
-#: ../plug-ins/common/file-ps.c:3297
-#: ../plug-ins/map-object/map-object-ui.c:989
+#: ../plug-ins/common/file-ps.c:3297 ../plug-ins/map-object/map-object-ui.c:989
 msgid "Rotation"
 msgstr "Паварот"
 
@@ -4393,7 +4389,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "Шырыня відарыса большая, чым GIMP можа апрацаваць"
@@ -4413,7 +4409,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "Вышыня відарыса большая, чым GIMP можа апрацаваць"
@@ -4587,11 +4583,10 @@ msgstr "%s-%d-з-%d-старонак"
 msgid "TIFF Channel"
 msgstr "Канал TIFF"
 
-#: ../plug-ins/common/file-tiff-load.c:1024
-#: ../plug-ins/file-psd/psd-load.c:333
+#: ../plug-ins/common/file-tiff-load.c:1024 ../plug-ins/file-psd/psd-load.c:333
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 "bit, so it will be converted for you. Information will be lost because of "
 "this conversion."
 msgstr ""
@@ -10018,8 +10013,7 @@ msgstr "Паказаць кіроўныя пункты"
 msgid "Max undo:"
 msgstr "Адменаў:"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1320
-#: ../plug-ins/gimpressionist/general.c:184
+#: ../plug-ins/gfig/gfig-dialog.c:1320 ../plug-ins/gimpressionist/general.c:184
 msgid "Transparent"
 msgstr "Празрыстая"
 
@@ -10348,8 +10342,8 @@ msgid "Performs various artistic operations"
 msgstr "Выконвае розныя мастакоўскія дзеяньні"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
-msgstr "_Ґімпрэсіяніст…"
+msgid "_Impressionist..."
+msgstr "_Імпрэсіяніст…"
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -10360,8 +10354,8 @@ msgid "Painting"
 msgstr "Маляваньне"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "Ґімпрэсіяніст"
+msgid "Impressionist"
+msgstr "Імпрэсіяніст"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -10639,8 +10633,8 @@ msgid "Save Current"
 msgstr "Захаваць бягучы"
 
 #: ../plug-ins/gimpressionist/presets.c:894
-msgid "Gimpressionist Defaults"
-msgstr "Прадвызначаныя Ґімпрэсіяніста"
+msgid "Impressionist Defaults"
+msgstr "Прадвызначаныя Імпрэсіяніста"
 
 #: ../plug-ins/gimpressionist/presets.c:1015
 msgid "_Presets"
@@ -11156,8 +11150,7 @@ msgstr "Адвольны лік:"
 msgid "_Second Flares"
 msgstr "_Другасныя ўспышкі"
 
-#: ../plug-ins/help-browser/dialog.c:184
-#: ../plug-ins/help-browser/dialog.c:1133
+#: ../plug-ins/help-browser/dialog.c:184 ../plug-ins/help-browser/dialog.c:1133
 msgid "GIMP Help Browser"
 msgstr "Гартач дапамогі GIMP"
 
@@ -11237,7 +11230,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "Старонкі дапамогі для «%s» не ў наяўнасьці."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "Кіраўніцтва карыстальніка GIMP не ў наяўнасьці."
 
 #: ../plug-ins/help/gimphelpdomain.c:187
@@ -11471,8 +11464,7 @@ msgstr "Цэнтар па _X:"
 #: ../plug-ins/imagemap/imap_circle.c:268
 #: ../plug-ins/imagemap/imap_circle.c:275
 #: ../plug-ins/imagemap/imap_circle.c:281 ../plug-ins/imagemap/imap_grid.c:249
-#: ../plug-ins/imagemap/imap_grid.c:255
-#: ../plug-ins/imagemap/imap_polygon.c:505
+#: ../plug-ins/imagemap/imap_grid.c:255 ../plug-ins/imagemap/imap_polygon.c:505
 #: ../plug-ins/imagemap/imap_polygon.c:513
 #: ../plug-ins/imagemap/imap_rectangle.c:392
 #: ../plug-ins/imagemap/imap_rectangle.c:399

@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: gimp-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2012-11-25 19:20+0000\n"
-"PO-Revision-Date: 2012-11-26 10:51+0100\n"
+"PO-Revision-Date: 2020-02-08 12:14-0800\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Gtranslator 2.91.5\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/color-rotate/color-rotate-dialog.c:118
 msgid "Original"
@@ -624,8 +624,7 @@ msgstr "S_visle"
 #: ../plug-ins/file-jpeg/jpeg-load.c:255 ../plug-ins/file-jpeg/jpeg-load.c:820
 #: ../plug-ins/file-psd/psd-image-res-load.c:1001
 #: ../plug-ins/file-psd/psd-load.c:1637 ../plug-ins/file-sgi/sgi.c:409
-#: ../plug-ins/gfig/gfig-dialog.c:1321
-#: ../plug-ins/gimpressionist/general.c:139
+#: ../plug-ins/gfig/gfig-dialog.c:1321 ../plug-ins/gimpressionist/general.c:139
 #: ../plug-ins/map-object/map-object-apply.c:252 ../plug-ins/twain/twain.c:567
 #: ../plug-ins/win-snap/winsnap.c:1162
 msgid "Background"
@@ -1038,8 +1037,7 @@ msgstr "Načíst nastavení mixéru kanálů"
 #: ../plug-ins/file-ico/ico-load.c:729 ../plug-ins/file-jpeg/jpeg-load.c:117
 #: ../plug-ins/file-jpeg/jpeg-load.c:890 ../plug-ins/file-psd/psd-load.c:130
 #: ../plug-ins/file-psd/psd-thumb-load.c:79
-#: ../plug-ins/file-uri/uri-backend-libcurl.c:193
-#: ../plug-ins/flame/flame.c:411
+#: ../plug-ins/file-uri/uri-backend-libcurl.c:193 ../plug-ins/flame/flame.c:411
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1865
 #: ../plug-ins/fractal-explorer/fractal-explorer.c:923
 #: ../plug-ins/gfig/gfig.c:433 ../plug-ins/help/gimphelplocale.c:222
@@ -1069,8 +1067,7 @@ msgstr "Uložit nastavení mixéru kanálů"
 #: ../plug-ins/file-bmp/bmp-write.c:320 ../plug-ins/file-fits/fits.c:476
 #: ../plug-ins/file-fli/fli-gimp.c:746 ../plug-ins/file-ico/ico-save.c:1007
 #: ../plug-ins/file-jpeg/jpeg-save.c:332 ../plug-ins/file-psd/psd-save.c:1652
-#: ../plug-ins/file-uri/uri-backend-libcurl.c:166
-#: ../plug-ins/flame/flame.c:442
+#: ../plug-ins/file-uri/uri-backend-libcurl.c:166 ../plug-ins/flame/flame.c:442
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1548
 #: ../plug-ins/gfig/gfig.c:797 ../plug-ins/ifs-compose/ifs-compose.c:2408
 #: ../plug-ins/lighting/lighting-ui.c:1223
@@ -1929,8 +1926,7 @@ msgstr "Hodnota masky"
 msgid "Stretch brightness values to cover the full range"
 msgstr "Roztáhnout hodnoty jasu, aby pokryly celý rozsah"
 
-#: ../plug-ins/common/contrast-normalize.c:91
-#: ../plug-ins/common/edge-dog.c:360
+#: ../plug-ins/common/contrast-normalize.c:91 ../plug-ins/common/edge-dog.c:360
 msgid "_Normalize"
 msgstr "_Normalizovat"
 
@@ -2044,9 +2040,9 @@ msgstr "_Alfa"
 msgid "E_xtend"
 msgstr "Rozšíři_t"
 
-#: ../plug-ins/common/convolution-matrix.c:74
-#: ../plug-ins/common/displace.c:477 ../plug-ins/common/edge.c:700
-#: ../plug-ins/common/fractal-trace.c:737 ../plug-ins/common/ripple.c:583
+#: ../plug-ins/common/convolution-matrix.c:74 ../plug-ins/common/displace.c:477
+#: ../plug-ins/common/edge.c:700 ../plug-ins/common/fractal-trace.c:737
+#: ../plug-ins/common/ripple.c:583
 msgid "_Wrap"
 msgstr "_Přes"
 
@@ -4043,7 +4039,7 @@ msgid "Invalid X resolution."
 msgstr "Neplatné rozlišení ve směru X."
 
 #: ../plug-ins/common/file-pnm.c:555
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "Šířka obrázku je větší, než GIMP dokáže zpracovat."
 
 #: ../plug-ins/common/file-pnm.c:562
@@ -4051,7 +4047,7 @@ msgid "Invalid Y resolution."
 msgstr "Neplatné rozlišení ve směru Y."
 
 #: ../plug-ins/common/file-pnm.c:564
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "Výška obrázku je větší, než GIMP dokáže zpracovat."
 
 #: ../plug-ins/common/file-pnm.c:574
@@ -4223,8 +4219,7 @@ msgid "_Millimeter"
 msgstr "_Milimetr"
 
 #. Rotation
-#: ../plug-ins/common/file-ps.c:3297
-#: ../plug-ins/map-object/map-object-ui.c:989
+#: ../plug-ins/common/file-ps.c:3297 ../plug-ins/map-object/map-object-ui.c:989
 msgid "Rotation"
 msgstr "Otočení"
 
@@ -4425,7 +4420,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "„%s“:\n"
 "Šířka obrázku je větší, než GIMP dokáže zpracovat"
@@ -4445,7 +4440,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "„%s“:\n"
 "Výška obrázku je větší, než GIMP dokáže zpracovat"
@@ -8887,7 +8882,7 @@ msgstr "Nepodporovaný barevný režim: %s"
 #: ../plug-ins/file-psd/psd-load.c:333
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 "bit, so it will be converted for you. Information will be lost because of "
 "this conversion."
 msgstr ""
@@ -9870,8 +9865,7 @@ msgstr "Zobrazovat řídicí body"
 msgid "Max undo:"
 msgstr "Maximum vracení zpět:"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1320
-#: ../plug-ins/gimpressionist/general.c:184
+#: ../plug-ins/gfig/gfig-dialog.c:1320 ../plug-ins/gimpressionist/general.c:184
 msgid "Transparent"
 msgstr "Průhledné"
 
@@ -10197,8 +10191,8 @@ msgid "Performs various artistic operations"
 msgstr "Provést různé umělecké operace"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
-msgstr "_GIMPresionista…"
+msgid "_Impressionist..."
+msgstr "_Impresionista…"
 
 #: ../plug-ins/gimpressionist/gimp.c:162
 msgid "The selection does not intersect the active layer or mask."
@@ -10209,8 +10203,8 @@ msgid "Painting"
 msgstr "Maluje se"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPresionista"
+msgid "Impressionist"
+msgstr "Impresionista"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -10487,8 +10481,8 @@ msgid "Save Current"
 msgstr "Uložení aktuálního"
 
 #: ../plug-ins/gimpressionist/presets.c:894
-msgid "Gimpressionist Defaults"
-msgstr "Výchozí nastavení GIMPresionisty"
+msgid "Impressionist Defaults"
+msgstr "Výchozí nastavení Impresionisty"
 
 #: ../plug-ins/gimpressionist/presets.c:1015
 msgid "_Presets"
@@ -11003,8 +10997,7 @@ msgstr "Hnízdo náhodných čísel:"
 msgid "_Second Flares"
 msgstr "_Druhá záře"
 
-#: ../plug-ins/help-browser/dialog.c:184
-#: ../plug-ins/help-browser/dialog.c:1133
+#: ../plug-ins/help-browser/dialog.c:184 ../plug-ins/help-browser/dialog.c:1133
 msgid "GIMP Help Browser"
 msgstr "Prohlížeč nápovědy GIMP"
 
@@ -11084,7 +11077,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "Stránky nápovědy pro „%s“ jsou nedostupné."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "Uživatelská příručka GIMP je nedostupná."
 
 #: ../plug-ins/help/gimphelpdomain.c:187
@@ -11320,8 +11313,7 @@ msgstr "Souřadnice _X středu:"
 #: ../plug-ins/imagemap/imap_circle.c:268
 #: ../plug-ins/imagemap/imap_circle.c:275
 #: ../plug-ins/imagemap/imap_circle.c:281 ../plug-ins/imagemap/imap_grid.c:249
-#: ../plug-ins/imagemap/imap_grid.c:255
-#: ../plug-ins/imagemap/imap_polygon.c:505
+#: ../plug-ins/imagemap/imap_grid.c:255 ../plug-ins/imagemap/imap_polygon.c:505
 #: ../plug-ins/imagemap/imap_polygon.c:513
 #: ../plug-ins/imagemap/imap_rectangle.c:392
 #: ../plug-ins/imagemap/imap_rectangle.c:399

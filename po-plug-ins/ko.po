@@ -3,13 +3,13 @@
 # Sung-Hyun Nam <namsh@kldp.org>, 1999.
 # Dongsu Jang <iolo@hellocity.net>, 2004.
 # Jihui Choi <jihui.choi@gmail.com>, 2007, 2012.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp-plug-ins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2012-05-10 08:16+0000\n"
-"PO-Revision-Date: 2012-05-06 09:18+0900\n"
+"PO-Revision-Date: 2020-02-08 14:27-0800\n"
 "Last-Translator: Jihui Choi <jihui.choi@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ko\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Language: Korean\n"
-"X-Poedit-Country: KOREA, REPUBLIC OF\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/color-rotate/color-rotate-dialog.c:118
 msgid "Original"
@@ -619,8 +618,7 @@ msgstr "수직(_V)"
 #: ../plug-ins/file-jpeg/jpeg-load.c:255 ../plug-ins/file-jpeg/jpeg-load.c:819
 #: ../plug-ins/file-psd/psd-image-res-load.c:1001
 #: ../plug-ins/file-psd/psd-load.c:1637 ../plug-ins/file-sgi/sgi.c:407
-#: ../plug-ins/gfig/gfig-dialog.c:1321
-#: ../plug-ins/gimpressionist/general.c:139
+#: ../plug-ins/gfig/gfig-dialog.c:1321 ../plug-ins/gimpressionist/general.c:139
 #: ../plug-ins/map-object/map-object-apply.c:252 ../plug-ins/twain/twain.c:567
 #: ../plug-ins/win-snap/winsnap.c:1162
 msgid "Background"
@@ -1956,8 +1954,7 @@ msgstr "마스크 값"
 msgid "Stretch brightness values to cover the full range"
 msgstr "가능한 최대로 밝기값 높이기"
 
-#: ../plug-ins/common/contrast-normalize.c:91
-#: ../plug-ins/common/edge-dog.c:362
+#: ../plug-ins/common/contrast-normalize.c:91 ../plug-ins/common/edge-dog.c:362
 msgid "_Normalize"
 msgstr "일반화(_N)"
 
@@ -2071,9 +2068,9 @@ msgstr "알파(_A)"
 msgid "E_xtend"
 msgstr "확장(_X)"
 
-#: ../plug-ins/common/convolution-matrix.c:74
-#: ../plug-ins/common/displace.c:477 ../plug-ins/common/edge.c:700
-#: ../plug-ins/common/fractal-trace.c:737 ../plug-ins/common/ripple.c:585
+#: ../plug-ins/common/convolution-matrix.c:74 ../plug-ins/common/displace.c:477
+#: ../plug-ins/common/edge.c:700 ../plug-ins/common/fractal-trace.c:737
+#: ../plug-ins/common/ripple.c:585
 msgid "_Wrap"
 msgstr "싸기(_W)"
 
@@ -4027,7 +4024,7 @@ msgid "Invalid X resolution."
 msgstr "잘못된  X 해상도"
 
 #: ../plug-ins/common/file-pnm.c:555
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "이미지의 너비가 너무 큽니다."
 
 #: ../plug-ins/common/file-pnm.c:562
@@ -4035,7 +4032,7 @@ msgid "Invalid Y resolution."
 msgstr "잘못된 Y 해상도"
 
 #: ../plug-ins/common/file-pnm.c:564
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "이미지의 높이가 너무 큽니다."
 
 #: ../plug-ins/common/file-pnm.c:574
@@ -4210,8 +4207,7 @@ msgid "_Millimeter"
 msgstr "밀리미터(_M)"
 
 #. Rotation
-#: ../plug-ins/common/file-ps.c:3297
-#: ../plug-ins/map-object/map-object-ui.c:989
+#: ../plug-ins/common/file-ps.c:3297 ../plug-ins/map-object/map-object-ui.c:989
 msgid "Rotation"
 msgstr "회전하기"
 
@@ -4383,7 +4379,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "이미지 너비가 너무 큽니다."
@@ -4403,7 +4399,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "이미지 높이가 너무 큽니다."
@@ -4577,11 +4573,10 @@ msgstr "%s-%d, %d-페이지"
 msgid "TIFF Channel"
 msgstr "TIFF 채널"
 
-#: ../plug-ins/common/file-tiff-load.c:1024
-#: ../plug-ins/file-psd/psd-load.c:333
+#: ../plug-ins/common/file-tiff-load.c:1024 ../plug-ins/file-psd/psd-load.c:333
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 "bit, so it will be converted for you. Information will be lost because of "
 "this conversion."
 msgstr ""
@@ -4955,8 +4950,8 @@ msgid ""
 "width or height is more than %ipx.\n"
 "It will clutter the screen in some environments."
 msgstr ""
-"커서가 성공적으로 저장되었습니다. 하지만 하나 이상의 프레임의 너비나 높이가 %"
-"ipx이상입니다.\n"
+"커서가 성공적으로 저장되었습니다. 하지만 하나 이상의 프레임의 너비나 높이가 "
+"%ipx이상입니다.\n"
 "일부 환경에서는 커서가 화면 밖으로 나갈 수 있습니다."
 
 #: ../plug-ins/common/file-xmc.c:1725
@@ -9976,8 +9971,7 @@ msgstr "조절점 표시"
 msgid "Max undo:"
 msgstr "실행취소 최대 수:"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1320
-#: ../plug-ins/gimpressionist/general.c:184
+#: ../plug-ins/gfig/gfig-dialog.c:1320 ../plug-ins/gimpressionist/general.c:184
 msgid "Transparent"
 msgstr "투명함"
 
@@ -10307,8 +10301,8 @@ msgid "Performs various artistic operations"
 msgstr "다양한 예술효과 동작을 실행합니다."
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
-msgstr "GIMPressionist(_G)..."
+msgid "_Impressionist..."
+msgstr ""
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -10319,8 +10313,8 @@ msgid "Painting"
 msgstr "그리기"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPressionist"
+msgid "Impressionist"
+msgstr ""
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -10598,8 +10592,9 @@ msgid "Save Current"
 msgstr "현재 파일 저장하기"
 
 #: ../plug-ins/gimpressionist/presets.c:894
-msgid "Gimpressionist Defaults"
-msgstr "Gimpressionist 기본값"
+#, fuzzy
+msgid "Impressionist Defaults"
+msgstr "Impressionist 기본값"
 
 #: ../plug-ins/gimpressionist/presets.c:1015
 msgid "_Presets"
@@ -11115,8 +11110,7 @@ msgstr "무작위 시작 값:"
 msgid "_Second Flares"
 msgstr "두 번째 화염(_S)"
 
-#: ../plug-ins/help-browser/dialog.c:184
-#: ../plug-ins/help-browser/dialog.c:1133
+#: ../plug-ins/help-browser/dialog.c:184 ../plug-ins/help-browser/dialog.c:1133
 msgid "GIMP Help Browser"
 msgstr "김프 도움말 브라우저"
 
@@ -11196,7 +11190,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "도움말 페이지 '%s'을(를) 볼 수 없습니다."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "김프 사용자 설명서를 사용할 수 없습니다."
 
 #: ../plug-ins/help/gimphelpdomain.c:187
@@ -11432,8 +11426,7 @@ msgstr "X의 중앙(_X):"
 #: ../plug-ins/imagemap/imap_circle.c:268
 #: ../plug-ins/imagemap/imap_circle.c:275
 #: ../plug-ins/imagemap/imap_circle.c:281 ../plug-ins/imagemap/imap_grid.c:249
-#: ../plug-ins/imagemap/imap_grid.c:255
-#: ../plug-ins/imagemap/imap_polygon.c:505
+#: ../plug-ins/imagemap/imap_grid.c:255 ../plug-ins/imagemap/imap_polygon.c:505
 #: ../plug-ins/imagemap/imap_polygon.c:513
 #: ../plug-ins/imagemap/imap_rectangle.c:392
 #: ../plug-ins/imagemap/imap_rectangle.c:399

@@ -131,7 +131,7 @@ idle_open_data_free (IdleOpenData *data)
 static gboolean
 gui_unique_win32_idle_open (IdleOpenData *data)
 {
-  /*  We want to be called again later in case that GIMP is not fully
+  /*  We want to be called again later in case that Glimpse is not fully
    *  started yet.
    */
   if (! gimp_is_restored (unique_gimp))
@@ -248,7 +248,7 @@ gui_unique_win32_exit (void)
 static gboolean
 gui_unique_quartz_idle_open (GFile *file)
 {
-  /*  We want to be called again later in case that GIMP is not fully
+  /*  We want to be called again later in case that Glimpse is not fully
    *  started yet.
    */
   if (! gimp_is_restored (unique_gimp))
@@ -382,7 +382,7 @@ gui_dbus_bus_acquired (GDBusConnection *connection,
   GObject             *service;
 
   /* this should use GIMP_DBUS_SERVICE_PATH, but that's historically wrong */
-  dbus_manager = g_dbus_object_manager_server_new ("/org/gimp/GIMP");
+  dbus_manager = g_dbus_object_manager_server_new ("/org/glimpse_editor/Glimpse");
 
   object = g_dbus_object_skeleton_new (GIMP_DBUS_INTERFACE_PATH);
 

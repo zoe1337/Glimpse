@@ -19,6 +19,16 @@ m4_define([gimp_interface_age], [18])
 m4_define([gimp_binary_age],
           [m4_eval(100 * gimp_minor_version + gimp_micro_version)])
 
+# Glimpse version variable definitions
+m4_define([glimpse_major_version], [0])
+m4_define([glimpse_minor_version], [1])
+m4_define([glimpse_micro_version], [3])
+m4_define([glimpse_version],
+          [glimpse_major_version.glimpse_minor_version.glimpse_micro_version])
+m4_define([glimpse_app_version],
+          [glimpse_major_version.glimpse_minor_version])
+m4_define([glimpse_app_name], ["glimpse"])
+
 # For overriding the version string. Comment out if not needed.
 # m4_define([gimp_version], [2.10.0])
 
@@ -88,9 +98,9 @@ m4_define([wmf_required_version], [0.2.8])
 # version of gettext with more version numbers, please update the tests.
 m4_define([xgettext_required_version], [0.19])
 
-AC_INIT([GIMP], [gimp_version],
-        [https://gitlab.gnome.org/GNOME/gimp/issues/new],
-        [gimp])
+AC_INIT([Glimpse], [glimpse_version],
+        [https://github.com/glimpse-editor/Glimpse/issues/new],
+        [glimpse])
 
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_SRCDIR([app/core/gimp.c])
@@ -137,6 +147,17 @@ AC_SUBST(GIMP_SYSCONF_VERSION)
 AC_SUBST(GIMP_USER_VERSION)
 AC_SUBST(GIMP_UNSTABLE)
 AC_SUBST(GIMP_FULL_NAME)
+
+# Glimpse-specific variables
+GLIMPSE_MAJOR_VERSION=glimpse_major_version
+GLIMPSE_MINOR_VERSION=glimpse_minor_version
+GLIMPSE_MICRO_VERSION=glimpse_micro_version
+GLIMPSE_VERSION=glimpse_version
+GLIMPSE_APP_VERSION=glimpse_app_version
+GLIMPSE_APP_NAME=glimpse_app_name
+AC_SUBST(GLIMPSE_VERSION)
+AC_SUBST(GLIMPSE_APP_VERSION)
+AC_SUBST(GLIMPSE_APP_NAME)
 
 # Version strings used in some source, though it seems unnecessary to
 # declare them in the public API (libgimpbase/gimpversion.h).
@@ -263,7 +284,7 @@ LT_INIT([disable-static win32-dll])
 AM_PROG_AS
 
 # Initialize maintainer mode
-AM_MAINTAINER_MODE([enable])
+# AM_MAINTAINER_MODE([enable])
 
 # Check for pkg-config
 PKG_PROG_PKG_CONFIG(0.16)
@@ -1465,9 +1486,9 @@ AC_SUBST(SCREENSHOT_LIBS)
 AC_SUBST(DOC_SHOOTER)
 
 
-GIMP_COMMAND='gimp-gimp_app_version'
+GLIMPSE_COMMAND='glimpse-glimpse_app_version'
 
-AC_SUBST(GIMP_COMMAND)
+AC_SUBST(GLIMPSE_COMMAND)
 
 
 ############
@@ -2654,7 +2675,7 @@ AC_ARG_ENABLE(windows-installer,
               enable_windows_installer=no)
 
 if test "x$enable_windows_installer" != xno; then
-  if test ! -e "$srcdir/build/windows/installer/lang/setup.isl.in"; then
+  if test ! -e "$srcdir/build-aux/windows/installer/lang/setup.isl.in"; then
     AC_MSG_RESULT([no (not building from git)])
     AC_MSG_ERROR([Building the Windows installer is only supported when building from git.])
   fi
@@ -2678,9 +2699,9 @@ AC_ARG_ENABLE(gimp-console, [  --enable-gimp-console   build a console-only bina
 AM_CONDITIONAL(ENABLE_GIMP_CONSOLE, test "x$enable_gimp_console" != xno)
 
 
-# Possibly change default gimpdir from $XDG_CONFIG_HOME/GIMP/gimp_user_version
-gimpdir=GIMP
-AC_ARG_WITH(gimpdir, [  --with-gimpdir=DIR      change default gimpdir from $XDG_CONFIG_HOME/GIMP/gimp_user_version to $XDG_CONFIG_HOME/DIR/gimp_user_version, or to DIR if DIR is an absolute path],
+# Possibly change default gimpdir from $XDG_CONFIG_HOME/Glimpse/glimpse_app_version
+gimpdir=Glimpse
+AC_ARG_WITH(gimpdir, [  --with-gimpdir=DIR      change default gimpdir from $XDG_CONFIG_HOME/Glimpse/glimpse_app_version to $XDG_CONFIG_HOME/DIR/glimpse_app_version, or to DIR if DIR is an absolute path],
 if eval "test x$with_gimpdir != x"; then
   if eval "test x$with_gimpdir != xyes"; then
     gimpdir=$with_gimpdir
@@ -2694,7 +2715,7 @@ case "$gimpdir" in
     manpage_gimpdir="$gimpdir"
     ;;
   *)
-    manpage_gimpdir="\\fB\$XDG_CONFIG_HOME\\fP/$gimpdir/gimp_user_version"
+    manpage_gimpdir="\\fB\$XDG_CONFIG_HOME\\fP/$gimpdir/glimpse_app_version"
     ;;
 esac
 
@@ -2836,6 +2857,13 @@ _______EOF
 #define GIMP_VERSION                                    "$gimp_ver"
 
 /**
+ * GLIMPSE_VERSION:
+ *
+ * The GIMP version as a string.
+ **/
+#define GLIMPSE_VERSION                                    "$glimpse_ver"
+
+/**
  * GIMP_API_VERSION:
  *
  * Since: 2.2
@@ -2868,6 +2896,7 @@ _______EOF
   gimp_minor_ver=gimp_minor_version
   gimp_micro_ver=gimp_micro_version
   gimp_ver=gimp_version
+  glimpse_ver=glimpse_version
   gimp_api_ver=gimp_api_version
 ])
 
@@ -2918,12 +2947,12 @@ app/tests/gimpdir/brushes/Makefile
 app/tests/gimpdir/gradients/Makefile
 app/tests/gimpdir/patterns/Makefile
 app-tools/Makefile
-build/Makefile
-build/windows/Makefile
-build/windows/gimp.rc
-build/windows/gimp-plug-ins.rc
-build/windows/installer/Makefile
-build/windows/installer/lang/Makefile
+build-aux/Makefile
+build-aux/windows/Makefile
+build-aux/windows/gimp.rc
+build-aux/windows/gimp-plug-ins.rc
+build-aux/windows/installer/Makefile
+build-aux/windows/installer/lang/Makefile
 plug-ins/Makefile
 plug-ins/file-bmp/Makefile
 plug-ins/file-dds/Makefile
@@ -2999,21 +3028,20 @@ docs/Makefile
 menus/Makefile
 cursors/Makefile
 icons/Makefile
-icons/Color/Makefile
 icons/Legacy/Makefile
+icons/Color/Makefile
 icons/Symbolic/Makefile
 icons/Symbolic-High-Contrast/Makefile
 icons/Symbolic-Inverted/Makefile
 icons/Symbolic-Inverted-High-Contrast/Makefile
 themes/Makefile
 themes/System/Makefile
-themes/Dark/Makefile
 themes/Gray/Makefile
+themes/Dark/Makefile
 themes/Light/Makefile
 data/Makefile
 data/brushes/Makefile
 data/brushes/Basic/Makefile
-data/brushes/Fun/Makefile
 data/brushes/gimp-obsolete-files/Makefile
 data/brushes/Media/Makefile
 data/brushes/Legacy/Makefile
@@ -3048,9 +3076,9 @@ data/tool-presets/Paint/Makefile
 data/tool-presets/Selection/Makefile
 data/tool-presets/Sketch/Makefile
 desktop/Makefile
-desktop/gimp-data-extras.metainfo.xml.in
-desktop/gimp.desktop.in
-desktop/org.gimp.GIMP.appdata.xml.in
+desktop/glimpse-data-extras.metainfo.xml.in
+desktop/org.glimpse_editor.Glimpse.desktop.in
+desktop/org.glimpse_editor.Glimpse.appdata.xml.in
 desktop/test-appdata.sh
 etc/Makefile
 etc/gimprc

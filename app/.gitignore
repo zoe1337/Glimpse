@@ -3,7 +3,9 @@
 /Makefile
 /Makefile.in
 /gimp-2.*
+/glimpse-0.*
 /gimp-console-2.*
+/glimpse-console-0.*
 /gimp.rc
 /libapp.a
 /makefile.mingw

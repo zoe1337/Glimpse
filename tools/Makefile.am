@@ -103,6 +103,7 @@ AM_CXXFLAGS = \
 AM_LDFLAGS = \
 	$(xnone)
 
+# Removed mnemonic-clashes when git cherry-picked. Reinstate later.
 EXTRA_DIST = \
 	defcheck.py			\
 	gimp-mkenums			\

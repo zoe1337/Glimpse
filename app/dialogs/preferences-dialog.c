@@ -378,7 +378,7 @@ prefs_response (GtkWidget *widget,
           {
             GString *string;
 
-            string = g_string_new (_("You will have to restart GIMP for "
+            string = g_string_new (_("You will have to restart Glimpse for "
                                      "the following changes to take effect:"));
             g_string_append (string, "\n\n");
 
@@ -645,7 +645,7 @@ prefs_menus_clear_callback (GtkWidget *widget,
 
       prefs_message (GTK_MESSAGE_INFO, TRUE,
                      _("Your keyboard shortcuts will be reset to "
-                       "default values the next time you start GIMP."));
+                       "default values the next time you start Glimpse."));
     }
 }
 
@@ -719,7 +719,7 @@ prefs_session_clear_callback (GtkWidget *widget,
 
       prefs_message (GTK_MESSAGE_INFO, TRUE,
                      _("Your window setup will be reset to "
-                       "default values the next time you start GIMP."));
+                       "default values the next time you start Glimpse."));
     }
 }
 
@@ -754,7 +754,7 @@ prefs_devices_clear_callback (GtkWidget *widget,
 
       prefs_message (GTK_MESSAGE_INFO, TRUE,
                      _("Your input device settings will be reset to "
-                       "default values the next time you start GIMP."));
+                       "default values the next time you start Glimpse."));
     }
 }
 
@@ -796,7 +796,7 @@ prefs_tool_options_clear_callback (GtkWidget *widget,
 
       prefs_message (GTK_MESSAGE_INFO, TRUE,
                      _("Your tool options will be reset to "
-                       "default values the next time you start GIMP."));
+                       "default values the next time you start Glimpse."));
     }
 }
 
@@ -1251,14 +1251,14 @@ prefs_dialog_new (Gimp       *gimp,
   /***************/
   /*  Debugging  */
   /***************/
-  /* No debugging preferences are needed on win32. Either GIMP has been
+  /* No debugging preferences are needed on win32. Either Glimpse has been
    * built with DrMinGW support (HAVE_EXCHNDL) or not. If it has, then
    * the backtracing is enabled and can't be disabled. It assume it will
    * work only upon a crash.
    */
 #ifndef G_OS_WIN32
   vbox = gimp_prefs_box_add_page (GIMP_PREFS_BOX (prefs_box),
-                                  "gimp-wilber-eek", /* TODO: icon needed. */
+                                  "glimpse-icon",
                                   _("Debugging"),
                                   _("Debugging"),
                                   GIMP_HELP_PREFS_DEBUGGING,
@@ -1268,7 +1268,7 @@ prefs_dialog_new (Gimp       *gimp,
   hbox = g_object_new (GIMP_TYPE_HINT_BOX,
                        "icon-name", GIMP_ICON_DIALOG_WARNING,
                        "hint",      _("We hope you will never need these "
-                                      "settings, but as all software, GIMP "
+                                      "settings, but as all software, Glimpse "
                                       "has bugs, and crashes can occur. If it "
                                       "happens, you can help us by reporting "
                                       "bugs."),
@@ -1633,7 +1633,7 @@ prefs_dialog_new (Gimp       *gimp,
       hbox = g_object_new (GIMP_TYPE_HINT_BOX,
                            "icon-name", GIMP_ICON_DIALOG_WARNING,
                            "hint",      _("These features are unfinished, buggy "
-                                          "and may crash GIMP. It is unadvised to "
+                                          "and may crash Glimpse. It is unadvised to "
                                           "use them unless you really know what "
                                           "you are doing or you intend to contribute "
                                           "patches."),
@@ -2004,7 +2004,7 @@ prefs_dialog_new (Gimp       *gimp,
   /*  Interface / Icon Theme  */
   /****************************/
   vbox = gimp_prefs_box_add_page (GIMP_PREFS_BOX (prefs_box),
-                                  "gimp-prefs-icon-theme",
+                                  "glimpse-prefs-icon-theme",
                                   _("Icon Theme"),
                                   _("Icon Theme"),
                                   GIMP_HELP_PREFS_ICON_THEME,
@@ -2139,10 +2139,6 @@ prefs_dialog_new (Gimp       *gimp,
   vbox2 = prefs_frame_new (_("Appearance"),
                            GTK_CONTAINER (vbox), FALSE);
 
-  prefs_check_button_add_with_icon (object, "toolbox-wilber",
-                                    _("Show GIMP _logo (drag-and-drop target)"),
-                                    GIMP_ICON_WILBER,
-                                    GTK_BOX (vbox2), size_group);
   prefs_check_button_add_with_icon (object, "toolbox-color-area",
                                     _("Show _foreground & background color"),
                                     GIMP_ICON_COLORS_DEFAULT,
@@ -2612,7 +2608,7 @@ prefs_dialog_new (Gimp       *gimp,
   else
     {
       hbox = prefs_hint_box_new (GIMP_ICON_DIALOG_WARNING,
-                                 _("The GIMP help browser doesn't seem to "
+                                 _("The Glimpse help browser doesn't seem to "
                                    "be installed. Using the web browser "
                                    "instead."));
       gtk_box_pack_start (GTK_BOX (vbox2), hbox, FALSE, FALSE, 0);

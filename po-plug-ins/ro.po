@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gimp-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2018-06-01 10:54+0000\n"
-"PO-Revision-Date: 2018-07-06 20:34+0200\n"
+"PO-Revision-Date: 2020-02-08 14:57-0800\n"
 "Last-Translator: Cristian Secară <cristi AT secarica DOT ro>\n"
 "Language-Team: Gnome Romanian Team <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2);\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../plug-ins/common/align-layers.c:158
 msgid "Align all visible layers of the image"
@@ -37,9 +37,8 @@ msgid "Align Visible Layers"
 msgstr "Aliniere straturi vizibile"
 
 #: ../plug-ins/common/align-layers.c:630 ../plug-ins/common/blinds.c:225
-#: ../plug-ins/common/border-average.c:362
-#: ../plug-ins/common/busy-dialog.c:219 ../plug-ins/common/cartoon.c:813
-#: ../plug-ins/common/checkerboard.c:350
+#: ../plug-ins/common/border-average.c:362 ../plug-ins/common/busy-dialog.c:219
+#: ../plug-ins/common/cartoon.c:813 ../plug-ins/common/checkerboard.c:350
 #: ../plug-ins/common/cml-explorer.c:1189
 #: ../plug-ins/common/cml-explorer.c:1986
 #: ../plug-ins/common/cml-explorer.c:2119 ../plug-ins/common/colorify.c:257
@@ -57,16 +56,16 @@ msgstr "Aliniere straturi vizibile"
 #: ../plug-ins/common/file-pdf-save.c:1009 ../plug-ins/common/file-ps.c:3392
 #: ../plug-ins/common/file-raw-data.c:1833 ../plug-ins/common/file-svg.c:727
 #: ../plug-ins/common/file-wmf.c:505 ../plug-ins/common/film.c:1270
-#: ../plug-ins/common/filter-pack.c:1206
-#: ../plug-ins/common/fractal-trace.c:711 ../plug-ins/common/grid.c:647
-#: ../plug-ins/common/hot.c:594 ../plug-ins/common/jigsaw.c:2397
-#: ../plug-ins/common/mail.c:499 ../plug-ins/common/max-rgb.c:261
-#: ../plug-ins/common/newsprint.c:1183 ../plug-ins/common/nl-filter.c:1021
-#: ../plug-ins/common/oilify.c:785 ../plug-ins/common/photocopy.c:840
-#: ../plug-ins/common/qbist.c:720 ../plug-ins/common/qbist.c:762
-#: ../plug-ins/common/qbist.c:816 ../plug-ins/common/sharpen.c:476
-#: ../plug-ins/common/smooth-palette.c:438 ../plug-ins/common/softglow.c:632
-#: ../plug-ins/common/sparkle.c:341 ../plug-ins/common/sphere-designer.c:2207
+#: ../plug-ins/common/filter-pack.c:1206 ../plug-ins/common/fractal-trace.c:711
+#: ../plug-ins/common/grid.c:647 ../plug-ins/common/hot.c:594
+#: ../plug-ins/common/jigsaw.c:2397 ../plug-ins/common/mail.c:499
+#: ../plug-ins/common/max-rgb.c:261 ../plug-ins/common/newsprint.c:1183
+#: ../plug-ins/common/nl-filter.c:1021 ../plug-ins/common/oilify.c:785
+#: ../plug-ins/common/photocopy.c:840 ../plug-ins/common/qbist.c:720
+#: ../plug-ins/common/qbist.c:762 ../plug-ins/common/qbist.c:816
+#: ../plug-ins/common/sharpen.c:476 ../plug-ins/common/smooth-palette.c:438
+#: ../plug-ins/common/softglow.c:632 ../plug-ins/common/sparkle.c:341
+#: ../plug-ins/common/sphere-designer.c:2207
 #: ../plug-ins/common/sphere-designer.c:2561 ../plug-ins/common/tile.c:438
 #: ../plug-ins/common/tile-small.c:373 ../plug-ins/common/unit-editor.c:209
 #: ../plug-ins/common/unsharp-mask.c:842 ../plug-ins/common/van-gogh-lic.c:647
@@ -110,29 +109,27 @@ msgstr "_Renunță"
 
 #: ../plug-ins/common/align-layers.c:631 ../plug-ins/common/blinds.c:226
 #: ../plug-ins/common/border-average.c:363 ../plug-ins/common/cartoon.c:814
-#: ../plug-ins/common/checkerboard.c:351
-#: ../plug-ins/common/cml-explorer.c:1190 ../plug-ins/common/colorify.c:258
-#: ../plug-ins/common/colormap-remap.c:622 ../plug-ins/common/compose.c:1077
-#: ../plug-ins/common/contrast-retinex.c:290
+#: ../plug-ins/common/checkerboard.c:351 ../plug-ins/common/cml-explorer.c:1190
+#: ../plug-ins/common/colorify.c:258 ../plug-ins/common/colormap-remap.c:622
+#: ../plug-ins/common/compose.c:1077 ../plug-ins/common/contrast-retinex.c:290
 #: ../plug-ins/common/curve-bend.c:1228 ../plug-ins/common/decompose.c:823
 #: ../plug-ins/common/depth-merge.c:656 ../plug-ins/common/despeckle.c:446
 #: ../plug-ins/common/destripe.c:445 ../plug-ins/common/edge-dog.c:307
 #: ../plug-ins/common/edge-neon.c:701 ../plug-ins/common/emboss.c:454
 #: ../plug-ins/common/file-pdf-load.c:708 ../plug-ins/common/file-svg.c:728
 #: ../plug-ins/common/file-wmf.c:506 ../plug-ins/common/film.c:1271
-#: ../plug-ins/common/filter-pack.c:1207
-#: ../plug-ins/common/fractal-trace.c:712 ../plug-ins/common/grid.c:648
-#: ../plug-ins/common/hot.c:595 ../plug-ins/common/jigsaw.c:2398
-#: ../plug-ins/common/max-rgb.c:262 ../plug-ins/common/newsprint.c:1184
-#: ../plug-ins/common/nl-filter.c:1022 ../plug-ins/common/oilify.c:786
-#: ../plug-ins/common/photocopy.c:841 ../plug-ins/common/qbist.c:817
-#: ../plug-ins/common/sharpen.c:477 ../plug-ins/common/smooth-palette.c:439
-#: ../plug-ins/common/softglow.c:633 ../plug-ins/common/sparkle.c:342
-#: ../plug-ins/common/sphere-designer.c:2562 ../plug-ins/common/tile.c:439
-#: ../plug-ins/common/tile-small.c:374 ../plug-ins/common/unsharp-mask.c:843
-#: ../plug-ins/common/van-gogh-lic.c:648 ../plug-ins/common/warp.c:379
-#: ../plug-ins/common/wavelet-decompose.c:355 ../plug-ins/flame/flame.c:650
-#: ../plug-ins/flame/flame.c:972
+#: ../plug-ins/common/filter-pack.c:1207 ../plug-ins/common/fractal-trace.c:712
+#: ../plug-ins/common/grid.c:648 ../plug-ins/common/hot.c:595
+#: ../plug-ins/common/jigsaw.c:2398 ../plug-ins/common/max-rgb.c:262
+#: ../plug-ins/common/newsprint.c:1184 ../plug-ins/common/nl-filter.c:1022
+#: ../plug-ins/common/oilify.c:786 ../plug-ins/common/photocopy.c:841
+#: ../plug-ins/common/qbist.c:817 ../plug-ins/common/sharpen.c:477
+#: ../plug-ins/common/smooth-palette.c:439 ../plug-ins/common/softglow.c:633
+#: ../plug-ins/common/sparkle.c:342 ../plug-ins/common/sphere-designer.c:2562
+#: ../plug-ins/common/tile.c:439 ../plug-ins/common/tile-small.c:374
+#: ../plug-ins/common/unsharp-mask.c:843 ../plug-ins/common/van-gogh-lic.c:648
+#: ../plug-ins/common/warp.c:379 ../plug-ins/common/wavelet-decompose.c:355
+#: ../plug-ins/flame/flame.c:650 ../plug-ins/flame/flame.c:972
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:567
 #: ../plug-ins/fractal-explorer/fractal-explorer.c:1117
 #: ../plug-ins/gimpressionist/gimpressionist.c:143
@@ -472,8 +469,7 @@ msgstr "_Vertical"
 #: ../plug-ins/file-psd/psd-load.c:1833 ../plug-ins/file-sgi/sgi.c:411
 #: ../plug-ins/file-tiff/file-tiff-load.c:924
 #: ../plug-ins/file-webp/file-webp-load.c:149
-#: ../plug-ins/gfig/gfig-dialog.c:1321
-#: ../plug-ins/gimpressionist/general.c:139
+#: ../plug-ins/gfig/gfig-dialog.c:1321 ../plug-ins/gimpressionist/general.c:139
 #: ../plug-ins/map-object/map-object-apply.c:252
 #: ../plug-ins/screenshot/screenshot-win32.c:312 ../plug-ins/twain/twain.c:567
 msgid "Background"
@@ -866,8 +862,7 @@ msgstr "Sămânță aleatoare"
 #: ../plug-ins/flame/flame.c:1045
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:805
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1642
-#: ../plug-ins/gfig/gfig-dialog.c:640
-#: ../plug-ins/ifs-compose/ifs-compose.c:760
+#: ../plug-ins/gfig/gfig-dialog.c:640 ../plug-ins/ifs-compose/ifs-compose.c:760
 #: ../plug-ins/ifs-compose/ifs-compose.c:2568
 #: ../plug-ins/imagemap/imap_browse.c:81 ../plug-ins/imagemap/imap_file.c:72
 #: ../plug-ins/lighting/lighting-ui.c:600
@@ -878,9 +873,9 @@ msgstr "_Deschide"
 #. The Save button
 #: ../plug-ins/common/cml-explorer.c:1277
 #: ../plug-ins/common/cml-explorer.c:1987 ../plug-ins/common/curve-bend.c:1500
-#: ../plug-ins/common/curve-bend.c:2101
-#: ../plug-ins/common/file-pdf-save.c:1008 ../plug-ins/common/qbist.c:763
-#: ../plug-ins/common/qbist.c:893 ../plug-ins/common/sphere-designer.c:2210
+#: ../plug-ins/common/curve-bend.c:2101 ../plug-ins/common/file-pdf-save.c:1008
+#: ../plug-ins/common/qbist.c:763 ../plug-ins/common/qbist.c:893
+#: ../plug-ins/common/sphere-designer.c:2210
 #: ../plug-ins/common/sphere-designer.c:2618 ../plug-ins/flame/flame.c:475
 #: ../plug-ins/flame/flame.c:1053
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:822
@@ -1080,9 +1075,8 @@ msgstr "Salvare parametri explorator CML"
 #: ../plug-ins/common/file-mng.c:985 ../plug-ins/common/file-pcx.c:854
 #: ../plug-ins/common/file-pdf-save.c:468 ../plug-ins/common/file-png.c:1582
 #: ../plug-ins/common/file-raw-data.c:1192
-#: ../plug-ins/common/file-raw-data.c:1220
-#: ../plug-ins/common/file-sunras.c:610 ../plug-ins/common/file-tga.c:1208
-#: ../plug-ins/common/file-xmc.c:1490
+#: ../plug-ins/common/file-raw-data.c:1220 ../plug-ins/common/file-sunras.c:610
+#: ../plug-ins/common/file-tga.c:1208 ../plug-ins/common/file-xmc.c:1490
 #: ../plug-ins/common/sphere-designer.c:2121
 #: ../plug-ins/file-bmp/bmp-save.c:318 ../plug-ins/file-fits/fits.c:481
 #: ../plug-ins/file-fli/fli-gimp.c:750 ../plug-ins/file-ico/ico-save.c:1087
@@ -1113,12 +1107,11 @@ msgstr "Încărcare parametri explorator CML"
 #: ../plug-ins/common/file-ps.c:1071 ../plug-ins/common/file-ps.c:3342
 #: ../plug-ins/common/file-psp.c:1772 ../plug-ins/common/file-psp.c:1826
 #: ../plug-ins/common/file-raw-data.c:477
-#: ../plug-ins/common/file-raw-data.c:1301
-#: ../plug-ins/common/file-sunras.c:436 ../plug-ins/common/file-svg.c:329
-#: ../plug-ins/common/file-svg.c:711 ../plug-ins/common/file-tga.c:446
-#: ../plug-ins/common/file-xbm.c:747 ../plug-ins/common/file-xmc.c:665
-#: ../plug-ins/common/file-xmc.c:848 ../plug-ins/common/file-xwd.c:455
-#: ../plug-ins/common/sphere-designer.c:2010
+#: ../plug-ins/common/file-raw-data.c:1301 ../plug-ins/common/file-sunras.c:436
+#: ../plug-ins/common/file-svg.c:329 ../plug-ins/common/file-svg.c:711
+#: ../plug-ins/common/file-tga.c:446 ../plug-ins/common/file-xbm.c:747
+#: ../plug-ins/common/file-xmc.c:665 ../plug-ins/common/file-xmc.c:848
+#: ../plug-ins/common/file-xwd.c:455 ../plug-ins/common/sphere-designer.c:2010
 #: ../plug-ins/file-bmp/bmp-load.c:226 ../plug-ins/file-faxg3/faxg3.c:234
 #: ../plug-ins/file-fits/fits.c:360 ../plug-ins/file-fli/fli-gimp.c:462
 #: ../plug-ins/file-fli/fli-gimp.c:501 ../plug-ins/file-ico/ico-load.c:672
@@ -1280,8 +1273,8 @@ msgid "Rearrange Colormap"
 msgstr "Rearanjare paletă de culori"
 
 #. The Reset button
-#: ../plug-ins/common/colormap-remap.c:620
-#: ../plug-ins/common/curve-bend.c:1471 ../plug-ins/common/filter-pack.c:1205
+#: ../plug-ins/common/colormap-remap.c:620 ../plug-ins/common/curve-bend.c:1471
+#: ../plug-ins/common/filter-pack.c:1205
 #: ../plug-ins/common/sample-colorize.c:1329
 #: ../plug-ins/common/sphere-designer.c:2560
 #: ../plug-ins/common/tile-small.c:452
@@ -1547,8 +1540,7 @@ msgstr "Valoare de mască"
 msgid "Stretch brightness values to cover the full range"
 msgstr "Extinde valorile de luminozitate pentru a acoperi intervalul complet"
 
-#: ../plug-ins/common/contrast-normalize.c:91
-#: ../plug-ins/common/edge-dog.c:362
+#: ../plug-ins/common/contrast-normalize.c:91 ../plug-ins/common/edge-dog.c:362
 msgid "_Normalize"
 msgstr "_Normalizează"
 
@@ -2018,8 +2010,7 @@ msgstr "Sursa 2:"
 msgid "O_verlap:"
 msgstr "S_uprapunere:"
 
-#: ../plug-ins/common/depth-merge.c:775
-#: ../plug-ins/common/file-raw-data.c:1971
+#: ../plug-ins/common/depth-merge.c:775 ../plug-ins/common/file-raw-data.c:1971
 msgid "O_ffset:"
 msgstr "_Decalaj:"
 
@@ -3574,7 +3565,7 @@ msgid "Invalid X resolution."
 msgstr "Rezoluția X nu este validă."
 
 #: ../plug-ins/common/file-pnm.c:627
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "Lățimea imaginii este mai mare decât ce poate manipula GIMP."
 
 #: ../plug-ins/common/file-pnm.c:634
@@ -3582,7 +3573,7 @@ msgid "Invalid Y resolution."
 msgstr "Rezoluția Y nu este validă."
 
 #: ../plug-ins/common/file-pnm.c:636
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "Înălțimea imaginii este mai mare decât ce poate manipula GIMP."
 
 #: ../plug-ins/common/file-pnm.c:648
@@ -4158,7 +4149,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "„%s”:\n"
 "Lățimea imaginii este mai mare decât cea pe care o poate manipula GIMP"
@@ -4178,7 +4169,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "„%s”:\n"
 "Înălțimea imaginii este mai mare decât cea pe care o poate manipula GIMP"
@@ -8758,8 +8749,7 @@ msgstr "Arată punctele de control"
 msgid "Max undo:"
 msgstr "Număr maxim de anulări:"
 
-#: ../plug-ins/gfig/gfig-dialog.c:1320
-#: ../plug-ins/gimpressionist/general.c:184
+#: ../plug-ins/gfig/gfig-dialog.c:1320 ../plug-ins/gimpressionist/general.c:184
 msgid "Transparent"
 msgstr "Transparent"
 
@@ -9100,8 +9090,8 @@ msgid "Performs various artistic operations"
 msgstr "Efectuează diferite operații artistice"
 
 #: ../plug-ins/gimpressionist/gimp.c:94
-msgid "_GIMPressionist..."
-msgstr "_GIMPresionist..."
+msgid "_Impressionist..."
+msgstr "_Impresionist..."
 
 #: ../plug-ins/gimpressionist/gimp.c:164
 msgid "The selection does not intersect the active layer or mask."
@@ -9113,8 +9103,8 @@ msgid "Painting"
 msgstr "Desenare"
 
 #: ../plug-ins/gimpressionist/gimpressionist.c:138
-msgid "GIMPressionist"
-msgstr "GIMPresionist"
+msgid "Impressionist"
+msgstr "Impresionist"
 
 #: ../plug-ins/gimpressionist/orientation.c:91
 msgid "Or_ientation"
@@ -9399,8 +9389,8 @@ msgid "Save Current"
 msgstr "Salvare configurări curente"
 
 #: ../plug-ins/gimpressionist/presets.c:893
-msgid "Gimpressionist Defaults"
-msgstr "Configurări implicite GIMPresionist"
+msgid "Impressionist Defaults"
+msgstr "Configurări implicite Impresionist"
 
 # titlu pe tab
 #: ../plug-ins/gimpressionist/presets.c:1014
@@ -10454,8 +10444,7 @@ msgstr "Sămânță aleatoare:"
 msgid "_Second Flares"
 msgstr "Reflexie _secundară"
 
-#: ../plug-ins/help-browser/dialog.c:180
-#: ../plug-ins/help-browser/dialog.c:1107
+#: ../plug-ins/help-browser/dialog.c:180 ../plug-ins/help-browser/dialog.c:1107
 msgid "GIMP Help Browser"
 msgstr "Navigator de ajutor GIMP"
 
@@ -10541,7 +10530,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "Paginile de ajutor pentru „%s” nu sunt disponibile."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "Manualul de utilizare GIMP nu este disponibil."
 
 #. TRANSLATORS: do not end the URL with a dot,
@@ -10784,8 +10773,7 @@ msgstr "Centru _x:"
 #: ../plug-ins/imagemap/imap_circle.c:266
 #: ../plug-ins/imagemap/imap_circle.c:273
 #: ../plug-ins/imagemap/imap_circle.c:279 ../plug-ins/imagemap/imap_grid.c:249
-#: ../plug-ins/imagemap/imap_grid.c:255
-#: ../plug-ins/imagemap/imap_polygon.c:502
+#: ../plug-ins/imagemap/imap_grid.c:255 ../plug-ins/imagemap/imap_polygon.c:502
 #: ../plug-ins/imagemap/imap_polygon.c:510
 #: ../plug-ins/imagemap/imap_rectangle.c:390
 #: ../plug-ins/imagemap/imap_rectangle.c:397

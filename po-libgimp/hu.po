@@ -1153,18 +1153,18 @@ msgstr "Összeadódó"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Belső GIMP-eljárás"
+msgid "Internal Glimpse procedure"
+msgstr "Belső Glimpse-eljárás"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP-bővítmény"
+msgid "GNU I.M.P Plug-In"
+msgstr "GNU I.M.P-bővítmény"
 
 #: ../libgimpbase/gimpbaseenums.c:1391
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP-kiterjesztés"
+msgid "GNU I.M.P Extension"
+msgstr "GNU I.M.P-kiterjesztés"
 
 #: ../libgimpbase/gimpbaseenums.c:1392
 msgctxt "pdb-proc-type"
@@ -1604,11 +1604,11 @@ msgstr "Az elsődleges monitor színprofilja."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Ha be van kapcsolva, akkor a GIMP az ablakkezelő megjelenítési színprofilját "
+"Ha be van kapcsolva, akkor a GNU I.M.P az ablakkezelő megjelenítési színprofilját "
 "próbálja használni. Ekkor a beállított monitorprofil csak tartalékként lesz "
 "használva."
 
