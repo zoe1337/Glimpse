@@ -56,3 +56,4 @@ glimpse-prefix/
 .vagrant/
 *.snap
 .vscode/
+/ar-lib
