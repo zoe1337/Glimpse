@@ -14,9 +14,9 @@ For convenience we have also provided a `rebuild.sh` script that rebuilds the co
 
 ## Detailed build instructions
 
-Glimpse 0.1.3 depends on the following subcomponents:
+Glimpse 0.1.9 depends on the following subcomponents:
 
-- GNU Image Manipulation Program 2.10.12
+- GNU Image Manipulation Program 2.10.18
 - BABL 0.1.74
 - MyPaint 1.3.0
 - GEGL 0.4.22
@@ -103,7 +103,7 @@ $ sudo apt build-dep gimp
 
 You can also use the glimpse-vagrant.yml file as a reference for all the mandatory and optional packages you can install to support the build.
 
-## Detailed build instructions for Windows
+## Detailed build instructions for Windows (WORK IN PROGRESS)
 
 Install MSYS2, as this will provide MinGW and a mechanism for fetching all the required prerequisites: https://www.msys2.org/
 
