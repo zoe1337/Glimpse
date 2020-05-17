@@ -1,6 +1,6 @@
 [Icon Theme]
 Name=Hicolor
-Comment=Legacy icon theme (Upstream 2.8)
+Comment=Modified Legacy icon theme (GNU I.M.P 2.8)
 Example=glimpse-icon
 Hidden=true
 Inherits=Color

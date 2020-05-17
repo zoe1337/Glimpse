@@ -32,12 +32,6 @@ scalable/gimp-default-colors.svg: ../Symbolic/scalable/gimp-default-colors.svg M
 scalable/gimp-toilet-paper.svg: ../Symbolic/scalable/gimp-toilet-paper.svg Makefile.am
 	mkdir -p `dirname $@` && cp -f $< $@
 
-# Glimpse icon override is also an exception
-%/glimpse-icon-override.png: $(top_srcdir)/icons/Symbolic/$(@D)/glimpse-icon-override.png Makefile.am
-	mkdir -p `dirname $@` && cp -f $< $@
-scalable/glimpse-icon-override.svg: ../Symbolic/scalable/glimpse-icon-override.svg Makefile.am
-	mkdir -p `dirname $@` && cp -f $< $@
-
 # Rule for all other scalable icons.
 scalable/%.svg: ../Symbolic/scalable/%.svg $(top_builddir)/tools/svg-contrast$(BUILD_EXEEXT) Makefile.am
 	$(MAKE_SVG_ICON)

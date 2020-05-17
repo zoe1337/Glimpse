@@ -4355,7 +4355,7 @@
                                     </Directory>
                             </Directory>
                             </Directory>
-                            
+
                             <Directory Id="dirB8306E1CAFCAC2AAA2B3EE8E127F7138" Name="glimpse">
                                 <Directory Id="dir84AB0AD8940DCC4F9B2FB58B71F8D83B" Name="2.0">
                                     <Directory Id="dirB30745AD818341820F22BE507AB0F8C8" Name="brushes">
@@ -4910,7 +4910,7 @@
                                                         <File Id="fil2AF2803468E3553DDDAA5FCE9BB546AF" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\16x16\apps\gimp-prefs-folders-tool-plug-ins.png" />
                                                         <File Id="filCD1DA86A05C40FBBB07D1EA543D9C37A" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\16x16\apps\gimp-prefs-folders-tool-presets.png" />
                                                         <File Id="filFD59AE8712C5DC7C314F26B237746B45" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\16x16\apps\gimp-prefs-folders-tools.png" />
-                                                        <File Id="filBD1A0E71B9842632533730786DFD47D8" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\16x16\apps\glimpse-prefs-icon-theme.png" />
+                                                        <File Id="filBD1A0E71B9842632533730786DFD47D8" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\16x16\apps\gimp-prefs-icon-theme.png" />
                                                         <File Id="fil64157D812FCEBC8FE588DBE759409DEA" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\16x16\apps\gimp-prefs-image-windows.png" />
                                                         <File Id="fil565EC94220BFAA276B226B30D3C5BF4C" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\16x16\apps\gimp-prefs-interface.png" />
                                                         <File Id="fil9EDB79068D18E9705E578C8554D13BA6" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\16x16\apps\gimp-prefs-theme.png" />
@@ -5067,7 +5067,7 @@
                                                         <File Id="fil79499493B9BE31AD8A677990B976BDE3" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\22x22\apps\gimp-prefs-folders-tools.png" />
                                                         <File Id="filCA7811FC7452BB347AD166D9A4842B49" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\22x22\apps\gimp-prefs-folders.png" />
                                                         <File Id="fil695748626AA8DB7CF6B6BE52E3D8F424" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\22x22\apps\gimp-prefs-help-system.png" />
-                                                        <File Id="filF6DB894F11A75369499A50BED08E8A57" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\22x22\apps\glimpse-prefs-icon-theme.png" />
+                                                        <File Id="filF6DB894F11A75369499A50BED08E8A57" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\22x22\apps\gimp-prefs-icon-theme.png" />
                                                         <File Id="fil36F094F80911BB7605432FDC543EB682" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\22x22\apps\gimp-prefs-image-title.png" />
                                                         <File Id="fil206C322CF04A81EF1B3D5AFFDAC6ACAD" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\22x22\apps\gimp-prefs-image-windows.png" />
                                                         <File Id="filB43EFE6DC528AAA37C2C68DBAF8C4A79" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\22x22\apps\gimp-prefs-input-devices.png" />
@@ -5279,7 +5279,7 @@
                                                         <File Id="fil5979F6E163F028FE6D5670E0871E81E5" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\48x48\apps\gimp-prefs-folders-tools.png" />
                                                         <File Id="fil27A58F0477AD578D4F13DD75C8CC8FDF" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\48x48\apps\gimp-prefs-folders.png" />
                                                         <File Id="filB869AC7F05D4BC2E39D2E13C82A20B44" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\48x48\apps\gimp-prefs-help-system.png" />
-                                                        <File Id="fil00DB8D17237760FB6BBF32956E57E233" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\48x48\apps\glimpse-prefs-icon-theme.png" />
+                                                        <File Id="fil00DB8D17237760FB6BBF32956E57E233" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\48x48\apps\gimp-prefs-icon-theme.png" />
                                                         <File Id="filEC7ACB0E594BFEA9C95108C3103AF70A" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\48x48\apps\gimp-prefs-image-title.png" />
                                                         <File Id="filD34D89ED2DA6EF9BEA4FCC9168E2D94E" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\48x48\apps\gimp-prefs-image-windows.png" />
                                                         <File Id="filC865D3318F4B179C12E8356584BA15D8" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Legacy\48x48\apps\gimp-prefs-input-devices.png" />
@@ -5408,7 +5408,7 @@
                                                         <File Id="fil823BCE4FB22D3EB7987E80EC60BC53BF" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\24x24\apps\gimp-prefs-folders-tools.svg" />
                                                         <File Id="fil67FCD77982EA679A9830E5B65C3B3644" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\24x24\apps\gimp-prefs-folders.svg" />
                                                         <File Id="filEB08D6ED77E24326F636E1A8878759AD" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\24x24\apps\gimp-prefs-help-system.svg" />
-                                                        <File Id="fil80AB4531A55D775887F29A216DC8C233" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\24x24\apps\glimpse-prefs-icon-theme.svg" />
+                                                        <File Id="fil80AB4531A55D775887F29A216DC8C233" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\24x24\apps\gimp-prefs-icon-theme.svg" />
                                                         <File Id="fil8C6B61D2ADC750B7612780C844343C5A" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\24x24\apps\gimp-prefs-image-title.svg" />
                                                         <File Id="fil5F1224A67DD8EC7A5A6F36281B19396E" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\24x24\apps\gimp-prefs-image-windows-appearance.svg" />
                                                         <File Id="fil4452EE24426FB14A380EB2BAF70117D0" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\24x24\apps\gimp-prefs-image-windows-snapping.svg" />
@@ -5686,7 +5686,7 @@
                                                         <File Id="filC6171B78A861E53E306D84D3861E03A5" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\scalable\apps\gimp-prefs-folders-tools.svg" />
                                                         <File Id="fil995D84D302D32D4997D375FE48D9870B" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\scalable\apps\gimp-prefs-folders.svg" />
                                                         <File Id="fil541B5AAF0873B981B8529FE9D211D746" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\scalable\apps\gimp-prefs-help-system.svg" />
-                                                        <File Id="fil311A50BA435E3C1D6EC863F96AC6E5B4" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\scalable\apps\glimpse-prefs-icon-theme.svg" />
+                                                        <File Id="fil311A50BA435E3C1D6EC863F96AC6E5B4" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\scalable\apps\gimp-prefs-icon-theme.svg" />
                                                         <File Id="filEB6033A80D80425720CF8A6915D37741" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\scalable\apps\gimp-prefs-image-title.svg" />
                                                         <File Id="filE6023D9B6BD9A521D949ADD988C3B513" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\scalable\apps\gimp-prefs-image-windows-appearance.svg" />
                                                         <File Id="fil0FC8F531955274B8DE7C8B48BA64763F" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Color\scalable\apps\gimp-prefs-image-windows-snapping.svg" />
@@ -5939,7 +5939,7 @@
                                                         <File Id="filC8B6E04381D519C1DD98542A9ACA733F" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic\24x24\apps\gimp-prefs-folders-tools.svg" />
                                                         <File Id="filE5430350EA356C8B43E924EE09054B2F" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic\24x24\apps\gimp-prefs-folders.svg" />
                                                         <File Id="fil5B42B57A1E0FBA0E056880968740E236" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic\24x24\apps\gimp-prefs-help-system.svg" />
-                                                        <File Id="filD6651D3C09E62A7407BCA36F102E078A" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic\24x24\apps\glimpse-prefs-icon-theme.svg" />
+                                                        <File Id="filD6651D3C09E62A7407BCA36F102E078A" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic\24x24\apps\gimp-prefs-icon-theme.svg" />
                                                         <File Id="filDB0077CAFC624D9B4DEF84669E5F982A" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic\24x24\apps\gimp-prefs-image-title.svg" />
                                                         <File Id="fil416E8D7E7B8FB02BB1FD320C8D3C7DB8" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic\24x24\apps\gimp-prefs-image-windows-appearance.svg" />
                                                         <File Id="filF883E44FF5581D39B7DC746B26574633" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic\24x24\apps\gimp-prefs-image-windows-snapping.svg" />
@@ -6217,7 +6217,7 @@
                                                         <File Id="filB9E1DD3E2590EDE382FB0864D80F94B8" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic\scalable\apps\gimp-prefs-folders-tools.svg" />
                                                         <File Id="filC500CA0931136AE8B56A89C3AE131A1F" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic\scalable\apps\gimp-prefs-folders.svg" />
                                                         <File Id="filAD37EF31B194BEEB5592FCCB764112A2" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic\scalable\apps\gimp-prefs-help-system.svg" />
-                                                        <File Id="fil3C237788C331ED9A6D39A96AFB903C8B" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic\scalable\apps\glimpse-prefs-icon-theme.svg" />
+                                                        <File Id="fil3C237788C331ED9A6D39A96AFB903C8B" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic\scalable\apps\gimp-prefs-icon-theme.svg" />
                                                         <File Id="fil2238194FC08774CB84E83FF600B298C5" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic\scalable\apps\gimp-prefs-image-title.svg" />
                                                         <File Id="fil42EC1282236ECB11EEA4AEC631183B29" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic\scalable\apps\gimp-prefs-image-windows-appearance.svg" />
                                                         <File Id="fil76748C9C0488F59BC7DC2FEC8E6E2A8F" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic\scalable\apps\gimp-prefs-image-windows-snapping.svg" />
@@ -6470,7 +6470,7 @@
                                                         <File Id="fil73F15464856DAA38DB7F036838D4FF6F" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic-Inverted\24x24\apps\gimp-prefs-folders-tools.svg" />
                                                         <File Id="filB294A9AF71C4A5E55194034417B48F1A" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic-Inverted\24x24\apps\gimp-prefs-folders.svg" />
                                                         <File Id="fil3CFAAAED2C024FA3518A05AD8313E6BB" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic-Inverted\24x24\apps\gimp-prefs-help-system.svg" />
-                                                        <File Id="fil9DFF36BBFC8F7D749BD274A83310BF3D" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic-Inverted\24x24\apps\glimpse-prefs-icon-theme.svg" />
+                                                        <File Id="fil9DFF36BBFC8F7D749BD274A83310BF3D" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic-Inverted\24x24\apps\gimp-prefs-icon-theme.svg" />
                                                         <File Id="filDD1BB4412C1CBBFE71BFA5E9EB326871" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic-Inverted\24x24\apps\gimp-prefs-image-title.svg" />
                                                         <File Id="fil6455894F51EB30AFE1F21D1154FB3727" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic-Inverted\24x24\apps\gimp-prefs-image-windows-appearance.svg" />
                                                         <File Id="fil02F42AD34363CFF329ACCEB1586470E5" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic-Inverted\24x24\apps\gimp-prefs-image-windows-snapping.svg" />
@@ -6748,7 +6748,7 @@
                                                         <File Id="fil3BA995E7512858F32D60CB85030377B4" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic-Inverted\scalable\apps\gimp-prefs-folders-tools.svg" />
                                                         <File Id="fil7A2C65FBBFD9B4CF51AE45836F41B70E" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic-Inverted\scalable\apps\gimp-prefs-folders.svg" />
                                                         <File Id="filCD6E3DF95D5F38641360552DAF22E86A" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic-Inverted\scalable\apps\gimp-prefs-help-system.svg" />
-                                                        <File Id="fil9BF96C5EC2FA3F055D7C1D40F8394FEB" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic-Inverted\scalable\apps\glimpse-prefs-icon-theme.svg" />
+                                                        <File Id="fil9BF96C5EC2FA3F055D7C1D40F8394FEB" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic-Inverted\scalable\apps\gimp-prefs-icon-theme.svg" />
                                                         <File Id="fil607CED76742B859E19F99B14305E50D9" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic-Inverted\scalable\apps\gimp-prefs-image-title.svg" />
                                                         <File Id="filB0043D4BEA1098D7AD3DE3EF6508D231" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic-Inverted\scalable\apps\gimp-prefs-image-windows-appearance.svg" />
                                                         <File Id="fil5431565292F6634AFC8BC11423F4B7EB" DiskId="1" Source="InputFiles32\share\glimpse\2.0\icons\Symbolic-Inverted\scalable\apps\gimp-prefs-image-windows-snapping.svg" />
