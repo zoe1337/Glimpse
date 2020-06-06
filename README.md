@@ -30,7 +30,7 @@ You can see how the forked code is progressing on the [dev-g210](https://github.
 ## How can I build Glimpse?
 All of the initial build instructions can be found in the `HACKING` file. Additional documentation is provided in the `build-aux` folder.
 
-For further information, read the [Glimpse developer wiki](https://wiki.glimpse-editor.org/index.php?title=Building_Glimpse).
+For further information, read the [Glimpse developer wiki](https://github.com/glimpse-editor/Glimpse/wiki).
 
 ## How can I contribute?
 Full details for how to help are available in the `CONTRIBUTING.md` file.

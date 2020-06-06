@@ -71,7 +71,7 @@ There are a number of ways to request a new feature:
 ## Build and test the code
 You can find full instructions for this specific release in the `HACKING` file provided with this source code.
 
-Instructions for newer releases are available on the Glimpse development wiki: https://wiki.glimpse-editor.org.
+Instructions for newer releases are available on the Glimpse development wiki: https://github.com/glimpse-editor/Glimpse/wiki.
 
 [Return to top](#top)
 
@@ -85,7 +85,7 @@ To change the code-level documentation, raise a pull request on our [Github proj
 
 To make changes to the project website, raise a pull request against our website's [Github repository](https://github.com/glimpse-editor/getglimpse-web).
 
-To add content to the Glimpse developer wiki, request an account on https://wiki.glimpse-editor.org.
+To add content to the Glimpse developer wiki, request access to https://github.com/glimpse-editor/Glimpse/wiki
 
 If you have expertise to provide for our future end user online and offline help pages, please join us on the #glimpse:matrix.org Matrix channel.
 
