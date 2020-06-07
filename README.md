@@ -28,7 +28,7 @@ You can also follow us on [the fediverse](https://mastodon.art/@glimpse), [Faceb
 You can see how the forked code is progressing on the [dev-g210](https://github.com/glimpse-editor/Glimpse/tree/dev-g210) branch.
 
 ## How can I build Glimpse?
-All of the initial build instructions can be found in the `HACKING` file. Additional documentation is provided in the `build-aux` folder.
+All of the initial build instructions can be found in the `HACKING.md` file. Additional documentation is provided in the `build-aux` folder.
 
 For further information, read the [Glimpse developer wiki](https://github.com/glimpse-editor/Glimpse/wiki).
 

@@ -34,7 +34,7 @@ This Code of Conduct applies within all project spaces, and it also applies when
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting any member of the project leadership (sometimes called “the governing team”) on Matrix: [TrechNex](https://matrix.to/#/@treacherousnexus:matrix.org), [BrainBlasted](https://matrix.to/#/@brainblasted:gnome.org) and [Luna](https://matrix.to/#/@clipsey:pixie.town).
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting any member of the project leadership (sometimes called “the governing team”) by [email](mailto:glimpse.editor@icloud.com) and on Matrix: [TrechNex](https://matrix.to/#/@treacherousnexus:matrix.org), [BrainBlasted](https://matrix.to/#/@brainblasted:gnome.org) and [Luna](https://matrix.to/#/@clipsey:pixie.town).
 
 All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project leadership is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
 
