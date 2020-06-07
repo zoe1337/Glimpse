@@ -1,7 +1,7 @@
 # Glimpse Image Editor
 Glimpse Image Editor is a downstream fork (derivative work) based on the GNU Image Manipulation Program source code, and it is shared under the terms of the GNU General Public License version 3. 
 
-You can find out more information on our FAQs page: https://glimpse-editor.org/about/
+You can find out more information on our FAQs page: https://glimpse-editor.github.io/about/
 
 ## What is different about the Glimpse fork?
 The GNU Image Manipulation Program is primarily intended for long-standing Linux enthusiasts and power users.
@@ -16,12 +16,12 @@ For a detailed view of our changes, check the `NEWS` file.
 * Glimpse Image Editor 0.1.0 and 0.1.2 fork from GNU Image Manipulation Program 2.10.12
 * Glimpse Image Editor 0.2.0 (still in development) forks from GNU Image Manipulation Program 2.10.18
 
-You can read more information about this and our ongoing release schedule at https://glimpse-editor.org/about/#how-does-your-release-numbering-work
+You can read more information about this and our ongoing release schedule at https://glimpse-editor.github.io/about/#how-does-your-release-numbering-work
 
 We also have a working group designing a completely new image editing program called "Glimpse NX", but it will be a number of years before that effort comes to fruition.
 
 ## How can I keep up to date with Glimpse's progress?
-Our official project website is now live at https://glimpse-editor.org.
+Our official project website is now live at https://glimpse-editor.github.io.
 
 You can also follow us on [the fediverse](https://mastodon.art/@glimpse), [Facebook](https://www.facebook.com/glimpse.editor) and [Twitter](https://twitter.com/glimpse_editor).
 

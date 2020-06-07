@@ -131,7 +131,7 @@ about_dialog_create (GimpCoreConfig *config)
                              "license",            GLIMPSE_LICENSE,
                              "wrap-license",       TRUE,
                              "logo",               pixbuf,
-                             "website",            "https://glimpse-editor.org/",
+                             "website",            "https://glimpse-editor.github.io/",
                              "website-label",      _("Visit the Glimpse website"),
                              "authors",            authors,
                              "artists",            artists,
