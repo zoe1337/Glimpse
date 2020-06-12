@@ -8,7 +8,9 @@ The GNU Image Manipulation Program is primarily intended for long-standing Linux
 
 Glimpse Image Editor is an optional alternative intended to assist users that are offended or made uncomfortable by the "gimp" name, and assist free software advocates that encounter barriers when they recommend the GNU Image Manipulation Program to friends, family, coworkers and employers.
 
-We also focus on making the software more "enterprise ready" so it is easier to modify and distribute for schools and workplaces. That means fewer "easter eggs", improved build and packaging tooling/documentation, backported fixes on a known-stable base we support for at least a year, and a more efficient Windows installer. We also plan to have a more predictable release cadence, as that will assist IT departments with their software deployment schedules.
+Our project also focusses on making the software more "enterprise ready" so it is easier to modify and distribute for schools and workplaces. That means fewer "easter eggs", improved build and packaging tooling/documentation, backported fixes on a known-stable base we support for at least a year, and a more efficient Windows installer. 
+
+We also plan to have a more predictable release cadence. That will assist IT departments with their software deployment schedules, and ensure they can deploy security fixes without affecting their existing tooling. Teachers can also create lesson plans around the software and have confidence that there will be no major UI or functional changes in the same academic year.
 
 For a detailed view of our changes, check the `NEWS` file.
 
