@@ -1,0 +1,1187 @@
+# Xhosa translation of gimp-libglimpse
+# Copyright (C) 2005 Canonical Ltd.
+# This file is distributed under the same license as the gimp package.
+# Translation by Canonical Ltd <translations@canonical.com> with thanks to
+# Translation World CC in South Africa, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp20-libglimpse\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
+"POT-Creation-Date: 2005-04-13 16:08+0200\n"
+"PO-Revision-Date: 2005-03-30 21:33+0200\n"
+"Last-Translator: Canonical Ltd <translations@canonical.com>\n"
+"Language-Team: Xhosa <xh-translate@ubuntu.com>\n"
+"Language: xh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libglimpse/gimpbrushmenu.c:140
+msgid "Brush Selection"
+msgstr "uKhetho lweBhrashi"
+
+#: ../libglimpse/gimpbrushmenu.c:180 ../libglimpse/gimppatternmenu.c:165
+msgid "_Browse..."
+msgstr "_Khangela..."
+
+#: ../libglimpse/gimpexport.c:215 ../libglimpse/gimpexport.c:251
+#, c-format
+msgid "%s can't handle layers"
+msgstr "%s ayikwazi ukukhombisa imaleko"
+
+#: ../libglimpse/gimpexport.c:216 ../libglimpse/gimpexport.c:225
+#: ../libglimpse/gimpexport.c:234
+msgid "Merge Visible Layers"
+msgstr "Dibanisa imaleko ebonakalayo"
+
+#: ../libglimpse/gimpexport.c:224
+#, c-format
+msgid "%s can't handle layer offsets, size or opacity"
+msgstr ""
+"%s ayikwazi ukukhombisa okungamiselwanga komaleko, isayizi okanye ulwalamano "
+"lotshintshiselwano"
+
+#: ../libglimpse/gimpexport.c:233 ../libglimpse/gimpexport.c:242
+#, c-format
+msgid "%s can only handle layers as animation frames"
+msgstr "%s inokukhombisa kuphela imaleko njengee-frames zolinganiso"
+
+#: ../libglimpse/gimpexport.c:234 ../libglimpse/gimpexport.c:243
+msgid "Save as Animation"
+msgstr "Gcina njengooPopayi"
+
+#: ../libglimpse/gimpexport.c:243 ../libglimpse/gimpexport.c:252
+#: ../libglimpse/gimpexport.c:261
+msgid "Flatten Image"
+msgstr "Yenza mcaba umfanekiso"
+
+# ze does not mean transparent
+#: ../libglimpse/gimpexport.c:260
+#, c-format
+msgid "%s can't handle transparency"
+msgstr "%s ayikhombisi ukuba ze"
+
+#: ../libglimpse/gimpexport.c:269
+#, c-format
+msgid "%s can't handle layer masks"
+msgstr "%s ayikwazi ukukhombisa iimaski zemaleko"
+
+#: ../libglimpse/gimpexport.c:270
+msgid "Apply Layer Masks"
+msgstr "Sebenzisa iiMaski zeMaleko"
+
+#: ../libglimpse/gimpexport.c:278
+#, c-format
+msgid "%s can only handle RGB images"
+msgstr "%s inokukhombisa kuphela imifanekiso ye-RGB"
+
+#: ../libglimpse/gimpexport.c:279 ../libglimpse/gimpexport.c:317
+#: ../libglimpse/gimpexport.c:326
+msgid "Convert to RGB"
+msgstr "Guqulela kwi-RGB"
+
+#: ../libglimpse/gimpexport.c:287
+#, c-format
+msgid "%s can only handle grayscale images"
+msgstr "%s inokukhombisa kuphela imifanekiso ye-grayscale"
+
+#: ../libglimpse/gimpexport.c:288 ../libglimpse/gimpexport.c:317
+#: ../libglimpse/gimpexport.c:338
+msgid "Convert to Grayscale"
+msgstr "Ququlela kwi-Grayscale"
+
+#: ../libglimpse/gimpexport.c:296
+#, c-format
+msgid "%s can only handle indexed images"
+msgstr "%s inokukhombisa kuphela imifanekiso enesikhombisi"
+
+#: ../libglimpse/gimpexport.c:297 ../libglimpse/gimpexport.c:326
+#: ../libglimpse/gimpexport.c:336
+msgid ""
+"Convert to Indexed using default settings\n"
+"(Do it manually to tune the result)"
+msgstr ""
+"Guqulela kweziKhombisayo usebenzisa imimiselo emiselweyo\n"
+"(Yenzele kuxwebhu ukufumana iziphumo)"
+
+#: ../libglimpse/gimpexport.c:306
+#, c-format
+msgid "%s can only handle bitmap (two color) indexed images"
+msgstr ""
+"%s inokukhombisa kuphela imifanekiso enesikhombisi se-bitmap (imibala "
+"emibini)"
+
+#: ../libglimpse/gimpexport.c:307
+msgid ""
+"Convert to Indexed using bitmap default settings\n"
+"(Do it manually to tune the result)"
+msgstr ""
+"Guqulela kwisikhombisi usebenzisa imimiselo emiselweyo ye-bitmap\n"
+"(Yenza ngoxwebu ukufumana isiphumo)"
+
+#: ../libglimpse/gimpexport.c:316
+#, c-format
+msgid "%s can only handle RGB or grayscale images"
+msgstr "%s inokukhombisa i-RGB kuphela okanye imifanekiso ye-grayscale"
+
+#: ../libglimpse/gimpexport.c:325
+#, c-format
+msgid "%s can only handle RGB or indexed images"
+msgstr "%s inokukhombisa kuphela i-RGB okanye imifanekiso enesikhombisi"
+
+#: ../libglimpse/gimpexport.c:335
+#, c-format
+msgid "%s can only handle grayscale or indexed images"
+msgstr "%s inokukhombisa i-grayscale okanye imifanekiso enesikhombisi"
+
+#: ../libglimpse/gimpexport.c:346
+#, c-format
+msgid "%s needs an alpha channel"
+msgstr "%s ifuna i-alpha channel"
+
+#: ../libglimpse/gimpexport.c:347
+msgid "Add Alpha Channel"
+msgstr "Yongeza i-Alpha Channel"
+
+#: ../libglimpse/gimpexport.c:381
+msgid "Confirm Save"
+msgstr "Qinisekisa ukuGcina"
+
+#: ../libglimpse/gimpexport.c:387
+msgid "Confirm"
+msgstr "Qinisekisa"
+
+#: ../libglimpse/gimpexport.c:459
+msgid "Export File"
+msgstr "iFayili yokuhambisa"
+
+#: ../libglimpse/gimpexport.c:463
+msgid "_Ignore"
+msgstr "_Ungayihoyi"
+
+#: ../libglimpse/gimpexport.c:465
+msgid "_Export"
+msgstr "_Hambisa"
+
+# kufuneka
+#. the headline
+#: ../libglimpse/gimpexport.c:493
+#, c-format
+msgid ""
+"Your image should be exported before it can be saved as %s for the following "
+"reasons:"
+msgstr ""
+"Umfanekiso wakho kufuneja uhanjiswe phambi kokuba ugcinwe njenge %s ngenxa "
+"yezi zizathu zilandelayo:"
+
+#. the footline
+#: ../libglimpse/gimpexport.c:564
+msgid "The export conversion won't modify your original image."
+msgstr "Uguqulo lokuhanjiswa ngeke kulungise umfanekiso wokuqala."
+
+#: ../libglimpse/gimpexport.c:664
+#, c-format
+msgid ""
+"You are about to save a layer mask as %s.\n"
+"This will not save the visible layers."
+msgstr ""
+"Sele uza kugcina imaski yomaleko njenge %s.\n"
+"Oku ngeke kugcine iimaleko ezibonakalayo."
+
+#: ../libglimpse/gimpexport.c:670
+#, c-format
+msgid ""
+"You are about to save a channel (saved selection) as %s.\n"
+"This will not save the visible layers."
+msgstr ""
+"Uza kugcina isiqhagamshelanisi (ukhetho olugciniweyo) as %s.\n"
+"Oku akuyi kuyigcina imaleko ebonakalayo."
+
+#: ../libglimpse/gimpfontmenu.c:100
+msgid "Font Selection"
+msgstr "uKhetho lweFonti"
+
+#: ../libglimpse/gimpgradientmenu.c:115
+msgid "Gradient Selection"
+msgstr "uKhetho lwe-Gradient"
+
+#: ../libglimpse/gimpmenu.c:450 ../libglimpsewidgets/gimpintstore.c:181
+msgid "(Empty)"
+msgstr "(Akukho nto)"
+
+#: ../libglimpse/gimppalettemenu.c:102
+msgid "Palette Selection"
+msgstr "Ukhetho lwengqokelela yezixhobo"
+
+#: ../libglimpse/gimppatternmenu.c:125
+msgid "Pattern Selection"
+msgstr "Ukhetho lwePateni"
+
+#: ../libglimpse/gimpunitcache.c:57
+msgid "percent"
+msgstr "ipesenti"
+
+#: ../libglimpsebase/gimpbaseenums.c:26
+msgid "_White (full opacity)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:27
+msgid "_Black (full transparency)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:28
+#, fuzzy
+msgid "Layer's _alpha channel"
+msgstr "%s ifuna i-alpha channel"
+
+#: ../libglimpsebase/gimpbaseenums.c:29
+#, fuzzy
+msgid "_Transfer layer's alpha channel"
+msgstr "%s ifuna i-alpha channel"
+
+#: ../libglimpsebase/gimpbaseenums.c:30
+#, fuzzy
+msgid "_Selection"
+msgstr "uKhetho lweFonti"
+
+#: ../libglimpsebase/gimpbaseenums.c:31
+msgid "_Grayscale copy of layer"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:61
+msgid "FG to BG (RGB)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:62
+msgid "FG to BG (HSV)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:63
+msgid "FG to transparent"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:64
+msgid "Custom gradient"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:93
+#, fuzzy
+msgid "FG color fill"
+msgstr "Umbala we-RGB"
+
+#: ../libglimpsebase/gimpbaseenums.c:94
+#, fuzzy
+msgid "BG color fill"
+msgstr "Umbala we-RGB"
+
+#: ../libglimpsebase/gimpbaseenums.c:95
+#, fuzzy
+msgid "Pattern fill"
+msgstr "Ukhetho lwePateni"
+
+#: ../libglimpsebase/gimpbaseenums.c:125
+#, fuzzy
+msgid "Add to the current selection"
+msgstr "Ukhetho lwePateni"
+
+#: ../libglimpsebase/gimpbaseenums.c:126
+msgid "Subtract from the current selection"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:127
+#, fuzzy
+msgid "Replace the current selection"
+msgstr "Ukhetho lwePateni"
+
+#: ../libglimpsebase/gimpbaseenums.c:128
+msgid "Intersect with the current selection"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:160 ../libglimpsewidgets/gimpcolorscales.c:168
+#: ../libglimpsewidgets/gimpcolorselect.c:352
+msgid "Red"
+msgstr "Bomvu"
+
+#: ../libglimpsebase/gimpbaseenums.c:161 ../libglimpsewidgets/gimpcolorscales.c:169
+#: ../libglimpsewidgets/gimpcolorselect.c:353
+msgid "Green"
+msgstr "luHlaza okweNgca"
+
+#: ../libglimpsebase/gimpbaseenums.c:162 ../libglimpsewidgets/gimpcolorscales.c:170
+#: ../libglimpsewidgets/gimpcolorselect.c:354
+msgid "Blue"
+msgstr "luHlaza okwesiBhaka-bhaka"
+
+#: ../libglimpsebase/gimpbaseenums.c:163
+#, fuzzy
+msgid "Gray"
+msgstr "Ngwevu kuPhela"
+
+#: ../libglimpsebase/gimpbaseenums.c:164 ../libglimpsebase/gimpbaseenums.c:436
+msgid "Indexed"
+msgstr "Enesikhombisi"
+
+#: ../libglimpsebase/gimpbaseenums.c:165 ../libglimpsewidgets/gimpcolorscales.c:171
+#: ../libglimpsewidgets/gimpcolorselect.c:355
+msgid "Alpha"
+msgstr "i-Alpha"
+
+#: ../libglimpsebase/gimpbaseenums.c:194
+msgid "Small"
+msgstr "Ncinane"
+
+#: ../libglimpsebase/gimpbaseenums.c:195
+msgid "Medium"
+msgstr "Phakathi"
+
+#: ../libglimpsebase/gimpbaseenums.c:196
+msgid "Large"
+msgstr "Nkulu"
+
+#: ../libglimpsebase/gimpbaseenums.c:228
+msgid "Light Checks"
+msgstr "Okunemigca enqamlezileyo okukhanyayo"
+
+#: ../libglimpsebase/gimpbaseenums.c:229
+msgid "Mid-Tone Checks"
+msgstr "Okunemigca enqamlezileyo okuphakathi"
+
+#: ../libglimpsebase/gimpbaseenums.c:230
+msgid "Dark Checks"
+msgstr "Okunemigca enqamlezileyo okumdaka"
+
+#: ../libglimpsebase/gimpbaseenums.c:231
+msgid "White Only"
+msgstr "Mhlophe kuPhela"
+
+#: ../libglimpsebase/gimpbaseenums.c:232
+msgid "Gray Only"
+msgstr "Ngwevu kuPhela"
+
+#: ../libglimpsebase/gimpbaseenums.c:233
+msgid "Black Only"
+msgstr "Mnyama kuPhela"
+
+#: ../libglimpsebase/gimpbaseenums.c:261
+msgid "Image source"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:262
+msgid "Pattern source"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:290
+msgid "Dodge"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:291
+msgid "Burn"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:328 ../libglimpsebase/gimpbaseenums.c:468
+#, fuzzy
+msgid "Linear"
+msgstr "Nxulumene"
+
+#: ../libglimpsebase/gimpbaseenums.c:329
+msgid "Bi-linear"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:330
+msgid "Radial"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:331
+msgid "Square"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:332
+msgid "Conical (sym)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:333
+msgid "Conical (asym)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:334
+msgid "Shaped (angular)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:335
+msgid "Shaped (spherical)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:336
+msgid "Shaped (dimpled)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:337
+msgid "Spiral (cw)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:338
+msgid "Spiral (ccw)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:367
+msgid "Stock ID"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:368
+msgid "Inline pixbuf"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:369
+msgid "Image file"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:398
+msgid "RGB color"
+msgstr "Umbala we-RGB"
+
+#: ../libglimpsebase/gimpbaseenums.c:399 ../libglimpsebase/gimpbaseenums.c:434
+msgid "Grayscale"
+msgstr "i-Grayscale"
+
+#: ../libglimpsebase/gimpbaseenums.c:400
+msgid "Indexed color"
+msgstr "Umbala onesikhombisi"
+
+#: ../libglimpsebase/gimpbaseenums.c:432
+msgid "RGB"
+msgstr "i-RGB"
+
+#: ../libglimpsebase/gimpbaseenums.c:433
+msgid "RGB-alpha"
+msgstr "i-RGB-alpha"
+
+#: ../libglimpsebase/gimpbaseenums.c:435
+msgid "Grayscale-alpha"
+msgstr "i-Grayscale-alpha"
+
+#: ../libglimpsebase/gimpbaseenums.c:437
+msgid "Indexed-alpha"
+msgstr "i-Indexed-alpha"
+
+#: ../libglimpsebase/gimpbaseenums.c:467
+msgid "None (Fastest)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:469
+msgid "Cubic"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:470
+msgid "Lanczos (Best)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:498
+#, fuzzy
+msgid "Constant"
+msgstr "Ukuchasana"
+
+#: ../libglimpsebase/gimpbaseenums.c:499
+msgid "Incremental"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:528
+msgid "None"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:529
+msgid "Sawtooth wave"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:530
+#, fuzzy
+msgid "Triangular wave"
+msgstr "uNxantathu"
+
+#: ../libglimpsebase/gimpbaseenums.c:558
+msgid "Pixels"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:559
+msgid "Points"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:588
+msgid "Shadows"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:589
+#, fuzzy
+msgid "Midtones"
+msgstr "Okunemigca enqamlezileyo okuphakathi"
+
+#: ../libglimpsebase/gimpbaseenums.c:590
+msgid "Highlights"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:618
+msgid "Forward (traditional)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:619
+msgid "Backward (corrective)"
+msgstr ""
+
+#: ../libglimpsebase/gimpmemsize.c:177
+#, c-format
+msgid "%d Bytes"
+msgstr "ii-%d Bytes"
+
+#: ../libglimpsebase/gimpmemsize.c:182
+#, c-format
+msgid "%.2f KB"
+msgstr "i-%.2f KB"
+
+#: ../libglimpsebase/gimpmemsize.c:186
+#, c-format
+msgid "%.1f KB"
+msgstr "i-%.1f KB"
+
+#: ../libglimpsebase/gimpmemsize.c:190
+#, c-format
+msgid "%d KB"
+msgstr "i-%d KB"
+
+#: ../libglimpsebase/gimpmemsize.c:197
+#, c-format
+msgid "%.2f MB"
+msgstr "i-%.2f MB"
+
+#: ../libglimpsebase/gimpmemsize.c:201
+#, c-format
+msgid "%.1f MB"
+msgstr "i-%.1f MB"
+
+#: ../libglimpsebase/gimpmemsize.c:205
+#, c-format
+msgid "%d MB"
+msgstr "i-%d MB"
+
+#: ../libglimpsebase/gimpmemsize.c:212
+#, c-format
+msgid "%.2f GB"
+msgstr "i-%.2f GB"
+
+#: ../libglimpsebase/gimpmemsize.c:216
+#, c-format
+msgid "%.1f GB"
+msgstr "i-%.1f GB"
+
+#: ../libglimpsebase/gimpmemsize.c:220
+#, c-format
+msgid "%d GB"
+msgstr "i-%d GB"
+
+#: ../libglimpsebase/gimputils.c:169 ../libglimpsebase/gimputils.c:174
+msgid "(invalid UTF-8 string)"
+msgstr "(uluhlu lwamagama UTF-8 olungasebenziyo)"
+
+#: ../libglimpseconfig/gimpcolorconfig.c:40
+msgid "Mode of operation for color management."
+msgstr ""
+
+#: ../libglimpseconfig/gimpcolorconfig.c:42
+msgid "Sets the color profile for the display."
+msgstr ""
+
+#: ../libglimpseconfig/gimpcolorconfig.c:44
+msgid "Sets default RGB workspace color profile."
+msgstr ""
+
+#: ../libglimpseconfig/gimpcolorconfig.c:46
+msgid "Sets the CMYK color profile used to convert between RGB and CMYK."
+msgstr ""
+
+#: ../libglimpseconfig/gimpcolorconfig.c:48
+msgid "Sets the color profile used when printing."
+msgstr ""
+
+#: ../libglimpseconfig/gimpcolorconfig.c:50
+msgid "Sets how colors are mapped for your display."
+msgstr ""
+
+#: ../libglimpseconfig/gimpcolorconfig.c:52
+msgid "Sets how colors are converted from workspace to simulation device."
+msgstr ""
+
+#: ../libglimpseconfig/gimpcolorconfig-enums.c:24
+msgid "No color management"
+msgstr ""
+
+#: ../libglimpseconfig/gimpcolorconfig-enums.c:25
+msgid "Color managed display"
+msgstr ""
+
+#: ../libglimpseconfig/gimpcolorconfig-enums.c:26
+msgid "Print simulation"
+msgstr ""
+
+#: ../libglimpseconfig/gimpcolorconfig-enums.c:56 ../modules/cdisplay_proof.c:55
+msgid "Perceptual"
+msgstr "Ngokuqondakalayo"
+
+#: ../libglimpseconfig/gimpcolorconfig-enums.c:57 ../modules/cdisplay_proof.c:56
+msgid "Relative Colorimetric"
+msgstr "i-Colorimetric eNxulumeneyo"
+
+#: ../libglimpseconfig/gimpcolorconfig-enums.c:58
+#: ../libglimpsewidgets/gimpcolorscales.c:166
+#: ../libglimpsewidgets/gimpcolorselect.c:350 ../modules/cdisplay_proof.c:57
+msgid "Saturation"
+msgstr "Ukugcwala"
+
+#: ../libglimpseconfig/gimpcolorconfig-enums.c:59 ../modules/cdisplay_proof.c:58
+msgid "Absolute Colorimetric"
+msgstr "i-Colorimetric ePheleleyo"
+
+#: ../libglimpseconfig/gimpcolorconfig-enums.c:88
+msgid "Ask"
+msgstr ""
+
+#: ../libglimpseconfig/gimpcolorconfig-enums.c:89
+msgid "Use embedded profile"
+msgstr ""
+
+#: ../libglimpseconfig/gimpcolorconfig-enums.c:90
+#, fuzzy
+msgid "Convert to RGB workspace"
+msgstr "Guqulela kwi-RGB"
+
+#: ../libglimpseconfig/gimpconfig-deserialize.c:95
+#, c-format
+msgid "value for token %s is not a valid UTF-8 string"
+msgstr ""
+
+#. please don't translate 'yes' and 'no'
+#: ../libglimpseconfig/gimpconfig-deserialize.c:423
+#, c-format
+msgid "expected 'yes' or 'no' for boolean token %s, got '%s'"
+msgstr ""
+
+#: ../libglimpseconfig/gimpconfig-deserialize.c:497
+#, c-format
+msgid "invalid value '%s' for token %s"
+msgstr ""
+
+#: ../libglimpseconfig/gimpconfig-deserialize.c:512
+#, c-format
+msgid "invalid value '%ld' for token %s"
+msgstr ""
+
+#: ../libglimpseconfig/gimpconfig-deserialize.c:581
+#, c-format
+msgid "while parsing token '%s': %s"
+msgstr ""
+
+#: ../libglimpseconfig/gimpconfig-iface.c:453
+#: ../libglimpseconfig/gimpconfig-iface.c:466 ../libglimpseconfig/gimpscanner.c:515
+#: ../libglimpseconfig/gimpscanner.c:596
+msgid "fatal parse error"
+msgstr ""
+
+#: ../libglimpseconfig/gimpconfig-path.c:376
+#, c-format
+msgid "Cannot expand ${%s}"
+msgstr ""
+
+#: ../libglimpseconfig/gimpconfigwriter.c:135
+#, fuzzy, c-format
+msgid "Could not create temporary file for '%s': %s"
+msgstr "Khange idale i-thumbnail ye- %s: %s"
+
+#: ../libglimpseconfig/gimpconfigwriter.c:148
+#, c-format
+msgid "Could not open '%s' for writing: %s"
+msgstr ""
+
+#: ../libglimpseconfig/gimpconfigwriter.c:667
+#, c-format
+msgid ""
+"Error writing to temporary file for '%s': %s\n"
+"The original file has not been touched."
+msgstr ""
+
+#: ../libglimpseconfig/gimpconfigwriter.c:675
+#, c-format
+msgid ""
+"Error writing to temporary file for '%s': %s\n"
+"No file has been created."
+msgstr ""
+
+#: ../libglimpseconfig/gimpconfigwriter.c:686
+#, c-format
+msgid "Error writing to '%s': %s"
+msgstr ""
+
+#: ../libglimpseconfig/gimpconfigwriter.c:704
+#, fuzzy, c-format
+msgid "Could not create '%s': %s"
+msgstr "Khange idale i-thumbnail ye- %s: %s"
+
+#: ../libglimpseconfig/gimpscanner.c:102
+#, c-format
+msgid "Could not open '%s' for reading: %s"
+msgstr ""
+
+#: ../libglimpseconfig/gimpscanner.c:272
+#, fuzzy
+msgid "invalid UTF-8 string"
+msgstr "(uluhlu lwamagama UTF-8 olungasebenziyo)"
+
+#: ../libglimpseconfig/gimpscanner.c:623
+#, c-format
+msgid "Error while parsing '%s' in line %d: %s"
+msgstr ""
+
+#: ../libglimpsemodule/gimpmodule.c:180
+#, c-format
+msgid "Loading module: '%s'\n"
+msgstr "Imodyuli yokufaka: '%s'\n"
+
+#: ../libglimpsemodule/gimpmodule.c:197 ../libglimpsemodule/gimpmodule.c:216
+#: ../libglimpsemodule/gimpmodule.c:330 ../libglimpsemodule/gimpmodule.c:358
+#: ../libglimpsemodule/gimpmodule.c:482
+#, c-format
+msgid "Module '%s' load error: %s"
+msgstr "iModyuli '%s' faka impazamo: %s"
+
+#: ../libglimpsemodule/gimpmodule.c:286
+#, c-format
+msgid "Skipping module: '%s'\n"
+msgstr "Ukutsiba imodyuli: '%s'\n"
+
+#: ../libglimpsemodule/gimpmodule.c:426
+msgid "Module error"
+msgstr "Impazamo yeModyuli"
+
+#: ../libglimpsemodule/gimpmodule.c:427
+msgid "Loaded"
+msgstr "Ifakiwe"
+
+#: ../libglimpsemodule/gimpmodule.c:428
+msgid "Load failed"
+msgstr "Ukufaka akuphumelelanga"
+
+#: ../libglimpsemodule/gimpmodule.c:429
+msgid "Not loaded"
+msgstr "Ayifakwanga"
+
+#: ../libglimpsethumb/gimpthumb-utils.c:125
+#, c-format
+msgid ""
+"Cannot determine a valid home directory.\n"
+"Thumbnails will be stored in the folder for temporary files (%s) instead."
+msgstr ""
+
+#: ../libglimpsethumb/gimpthumb-utils.c:249 ../libglimpsethumb/gimpthumb-utils.c:317
+#, c-format
+msgid "Failed to create thumbnail folder '%s'."
+msgstr "Ayiphumelelangha ukudala isiqulathi zifayili se-thumbnail '%s'."
+
+#: ../libglimpsethumb/gimpthumbnail.c:919
+#, c-format
+msgid "Could not create thumbnail for %s: %s"
+msgstr "Khange idale i-thumbnail ye- %s: %s"
+
+#: ../libglimpsewidgets/gimpcolorbutton.c:99
+msgid "_Foreground Color"
+msgstr "_Umbala wokungaPhambili"
+
+#: ../libglimpsewidgets/gimpcolorbutton.c:103
+msgid "_Background Color"
+msgstr "_Umbala wokungaSemva"
+
+#: ../libglimpsewidgets/gimpcolorbutton.c:107
+msgid "Blac_k"
+msgstr "Mnyam_a"
+
+#: ../libglimpsewidgets/gimpcolorbutton.c:111
+msgid "_White"
+msgstr "_Mhlophe"
+
+#: ../libglimpsewidgets/gimpcolorscales.c:133
+msgid "Scales"
+msgstr "Imilinganiselo"
+
+#: ../libglimpsewidgets/gimpcolorscales.c:155
+#: ../libglimpsewidgets/gimpcolorselect.c:345
+msgid "_H"
+msgstr "_H"
+
+#: ../libglimpsewidgets/gimpcolorscales.c:156
+#: ../libglimpsewidgets/gimpcolorselect.c:345
+msgid "_S"
+msgstr "_S"
+
+#: ../libglimpsewidgets/gimpcolorscales.c:157
+#: ../libglimpsewidgets/gimpcolorselect.c:345
+msgid "_V"
+msgstr "_V"
+
+#: ../libglimpsewidgets/gimpcolorscales.c:158
+#: ../libglimpsewidgets/gimpcolorselect.c:345
+msgid "_R"
+msgstr "_R"
+
+#: ../libglimpsewidgets/gimpcolorscales.c:159
+#: ../libglimpsewidgets/gimpcolorselect.c:345
+msgid "_G"
+msgstr "_G"
+
+#: ../libglimpsewidgets/gimpcolorscales.c:160
+#: ../libglimpsewidgets/gimpcolorselect.c:345
+msgid "_B"
+msgstr "_B"
+
+#: ../libglimpsewidgets/gimpcolorscales.c:161
+msgid "_A"
+msgstr "_A"
+
+#: ../libglimpsewidgets/gimpcolorscales.c:165
+#: ../libglimpsewidgets/gimpcolorselect.c:349
+msgid "Hue"
+msgstr "i-Hue"
+
+#: ../libglimpsewidgets/gimpcolorscales.c:167
+#: ../libglimpsewidgets/gimpcolorselect.c:351
+msgid "Value"
+msgstr "Ixabiso"
+
+#: ../libglimpsewidgets/gimpcolorscales.c:243
+msgid "Hexadecimal color notation as used in HTML and CSS"
+msgstr ""
+"Ubhalo-manani lombala we-Hexadecimal njengoko kusetyenziswa kwi-HTML ne-CSS"
+
+#: ../libglimpsewidgets/gimpcolorscales.c:248
+msgid "HTML _Notation:"
+msgstr "Ubhalo lwamanani _lwe-HTML:"
+
+#: ../libglimpsewidgets/gimpcolorselection.c:203
+msgid "Current:"
+msgstr "Yangoku:"
+
+#: ../libglimpsewidgets/gimpcolorselection.c:225
+msgid "Old:"
+msgstr "Ndala:"
+
+#: ../libglimpsewidgets/gimpfileentry.c:351
+msgid "Select Folder"
+msgstr "Khetha isiQulathi ziFayili"
+
+#: ../libglimpsewidgets/gimpfileentry.c:353
+msgid "Select File"
+msgstr "Khetha iFayili"
+
+#: ../libglimpsewidgets/gimpmemsizeentry.c:232
+msgid "Kilobytes"
+msgstr "ii-Kilobytes"
+
+#: ../libglimpsewidgets/gimpmemsizeentry.c:233
+msgid "Megabytes"
+msgstr "ii-Megabytes"
+
+#: ../libglimpsewidgets/gimpmemsizeentry.c:234
+msgid "Gigabytes"
+msgstr "ii-Gigabytes"
+
+#: ../libglimpsewidgets/gimppatheditor.c:243
+msgid "Writable"
+msgstr "Kuyabhaleka"
+
+#: ../libglimpsewidgets/gimppatheditor.c:252
+msgid "Folder"
+msgstr "Isiqulathi ziFayili"
+
+#: ../libglimpsewidgets/gimppickbutton.c:138
+msgid ""
+"Click the eyedropper, then click a color anywhere on your screen to select "
+"that color."
+msgstr ""
+"Cofa i-eyedropper, uze ke ucofe umbala nokuba kuphi na kwisikrini sakho "
+"ukukhetha umbala."
+
+#: ../libglimpsewidgets/gimppreviewarea.c:126
+msgid "Check Size"
+msgstr "Khangela iSayizi"
+
+#: ../libglimpsewidgets/gimppreviewarea.c:133
+msgid "Check Style"
+msgstr "Khangela isiMbo"
+
+#. toggle button to (des)activate the instant preview
+#: ../libglimpsewidgets/gimppreview.c:240
+msgid "_Preview"
+msgstr "_Jonga phambi koshicilelo"
+
+#: ../libglimpsewidgets/gimppropwidgets.c:1728
+#, c-format
+msgid "This text input field is limited to %d characters."
+msgstr ""
+
+#: ../libglimpsewidgets/gimpstock.c:113
+msgid "Anchor"
+msgstr "i-Ankile"
+
+#: ../libglimpsewidgets/gimpstock.c:114
+msgid "C_enter"
+msgstr "M_bindini"
+
+#: ../libglimpsewidgets/gimpstock.c:115
+msgid "_Duplicate"
+msgstr "_ePhindwe kabini"
+
+#: ../libglimpsewidgets/gimpstock.c:116
+msgid "_Edit"
+msgstr "_Hlela"
+
+#: ../libglimpsewidgets/gimpstock.c:117
+msgid "Linked"
+msgstr "Nxulumene"
+
+#: ../libglimpsewidgets/gimpstock.c:118
+msgid "Paste as New"
+msgstr "Yincamathisele njengeNtsha"
+
+#: ../libglimpsewidgets/gimpstock.c:119
+msgid "Paste Into"
+msgstr "Ncamathisela kwi"
+
+#: ../libglimpsewidgets/gimpstock.c:120
+msgid "_Reset"
+msgstr "_Vula kwakhona ungayikhuphanga kumbane"
+
+#: ../libglimpsewidgets/gimpstock.c:121
+msgid "Visible"
+msgstr "Okubonakalayo"
+
+#: ../libglimpsewidgets/gimpstock.c:154 ../libglimpsewidgets/gimpstock.c:158
+msgid "_Stroke"
+msgstr "_Umgca"
+
+#: ../libglimpsewidgets/gimpstock.c:170
+msgid "L_etter Spacing"
+msgstr "Ukuvula isithuba seL_eta"
+
+#: ../libglimpsewidgets/gimpstock.c:171
+msgid "L_ine Spacing"
+msgstr "Ukuvula isithuba sem_igca"
+
+#: ../libglimpsewidgets/gimpstock.c:187
+msgid "_Resize"
+msgstr "_Tshintsha isayizi"
+
+#: ../libglimpsewidgets/gimpstock.c:188 ../libglimpsewidgets/gimpstock.c:294
+msgid "_Scale"
+msgstr "_Umlinganiselo"
+
+#: ../libglimpsewidgets/gimpstock.c:273
+msgid "Crop"
+msgstr "Intonga"
+
+#: ../libglimpsewidgets/gimpstock.c:290
+msgid "_Transform"
+msgstr "_Tshintsha"
+
+#: ../libglimpsewidgets/gimpstock.c:293
+msgid "_Rotate"
+msgstr "_Jikelezisa"
+
+#: ../libglimpsewidgets/gimpstock.c:295
+msgid "_Shear"
+msgstr "_Cheba"
+
+#: ../libglimpsewidgets/gimpunitmenu.c:302
+msgid "More..."
+msgstr "Ngaphezulu..."
+
+#: ../libglimpsewidgets/gimpunitmenu.c:612
+msgid "Unit Selection"
+msgstr "UKhetho lweYunithi"
+
+#: ../libglimpsewidgets/gimpunitmenu.c:660
+msgid "Unit"
+msgstr "iYunithi"
+
+#: ../libglimpsewidgets/gimpunitmenu.c:664
+msgid "Factor"
+msgstr "iFekta"
+
+# Please translate "random"
+#: ../libglimpsewidgets/gimpwidgets.c:1001
+#, fuzzy
+msgid ""
+"Use this value for random number generator seed - this allows you to repeat "
+"a given \"random\" operation"
+msgstr ""
+"Sebenzisa eli xabiso kusetyenziso lwenombolo yembewu engakhethiyo - oku "
+"kwenza ukuba uphinde umsebenzi \"random\" onikiweyo"
+
+#: ../libglimpsewidgets/gimpwidgets.c:1005
+msgid "_New Seed"
+msgstr "_Okunokusetyenziswa okuTsha"
+
+#: ../libglimpsewidgets/gimpwidgets.c:1018
+msgid "Seed random number generator with a generated random number"
+msgstr ""
+"Sebenzisa inombolo yesisebenzisi engakhethiyo kunye nenombolo engakhethiyo "
+"yesisebenzisi"
+
+#: ../libglimpsewidgets/gimpwidgets.c:1022
+msgid "_Randomize"
+msgstr "_Ngakhethiyo"
+
+#: ../modules/cdisplay_colorblind.c:67
+#, fuzzy
+msgid "Protanopia (insensitivity to red"
+msgstr "i-Protanopia (ayinabo ubuntununtunu kububomvu)"
+
+#: ../modules/cdisplay_colorblind.c:69
+msgid "Deuteranopia (insensitivity to green)"
+msgstr "i-Deuteranopia (ayinabo ubuntununtunu bokuluhlaza okwengca)"
+
+#: ../modules/cdisplay_colorblind.c:71
+msgid "Tritanopia (insensitivity to blue)"
+msgstr "i-Tritanopia (ayinabo ubuntununtunu bokuluhlaza okwesibhakabhaka)"
+
+#: ../modules/cdisplay_colorblind.c:200
+msgid "Color deficit simulation filter (Brettel-Vienot-Mollon algorithm)"
+msgstr ""
+"Isihluzi solinganiso kwentsilelo yombala (Brettel-Vienot-Mollon algorithm)"
+
+#: ../modules/cdisplay_colorblind.c:290
+msgid "Color Deficient Vision"
+msgstr "Umbono wokuNqongophala koMbala"
+
+#: ../modules/cdisplay_colorblind.c:503
+msgid "Color _Deficiency Type:"
+msgstr "Uhlobo lokuNqongophala _koMbala:"
+
+#: ../modules/cdisplay_gamma.c:91
+msgid "Gamma color display filter"
+msgstr "Isihluzi esibonisa umbala se-Gamma"
+
+#: ../modules/cdisplay_gamma.c:160
+msgid "Gamma"
+msgstr "i-Gamma"
+
+#: ../modules/cdisplay_gamma.c:251
+msgid "_Gamma:"
+msgstr "i-_Gamma:"
+
+#: ../modules/cdisplay_highcontrast.c:91
+msgid "High Contrast color display filter"
+msgstr "Isihluzi esibonisa umbala sokuChasana okuPhezulu"
+
+#: ../modules/cdisplay_highcontrast.c:160
+msgid "Contrast"
+msgstr "Ukuchasana"
+
+#: ../modules/cdisplay_highcontrast.c:251
+msgid "Contrast C_ycles:"
+msgstr "iZ_angqa zokuChasana:"
+
+#: ../modules/cdisplay_lcms.c:95
+#, fuzzy
+msgid "Color management display filter using ICC color profiles"
+msgstr "Isihluzi sesikhuseli sombala kusetyenziswa inkangeleko yombala we-ICC"
+
+#: ../modules/cdisplay_lcms.c:163
+msgid "Color Management"
+msgstr ""
+
+#: ../modules/cdisplay_proof.c:127
+msgid "Color proof filter using ICC color profile"
+msgstr "Isihluzi sesikhuseli sombala kusetyenziswa inkangeleko yombala we-ICC"
+
+#: ../modules/cdisplay_proof.c:221
+msgid "Color Proof"
+msgstr "iISkhuseli soMbala"
+
+#: ../modules/cdisplay_proof.c:346
+msgid "_Intent:"
+msgstr "_Ukuzimisela:"
+
+#: ../modules/cdisplay_proof.c:350
+msgid "Choose an ICC Color Profile"
+msgstr "Khetha iNkangeleko yoMbala we-ICC"
+
+#: ../modules/cdisplay_proof.c:353
+msgid "_Profile:"
+msgstr "i_Nkangeleko:"
+
+#: ../modules/cdisplay_proof.c:358
+msgid "_Black Point Compensation"
+msgstr "i_Mbuyekezo yeChokoza eliMnyama"
+
+#: ../modules/colorsel_cmyk.c:73
+msgid "CMYK color selector"
+msgstr "Isikhethi sombala se-CMYK"
+
+#: ../modules/colorsel_cmyk.c:130
+msgid "CMYK"
+msgstr "i-CMYK"
+
+#: ../modules/colorsel_cmyk.c:147
+msgid "_C"
+msgstr "_C"
+
+#: ../modules/colorsel_cmyk.c:148
+msgid "_M"
+msgstr "_M"
+
+#: ../modules/colorsel_cmyk.c:149
+msgid "_Y"
+msgstr "_Y"
+
+#: ../modules/colorsel_cmyk.c:150
+msgid "_K"
+msgstr "_K"
+
+#: ../modules/colorsel_cmyk.c:154
+msgid "Cyan"
+msgstr "i-Cyan"
+
+#: ../modules/colorsel_cmyk.c:155
+msgid "Magenta"
+msgstr "i-Magenta"
+
+#: ../modules/colorsel_cmyk.c:156
+msgid "Yellow"
+msgstr "Qanda"
+
+#: ../modules/colorsel_cmyk.c:157
+msgid "Black"
+msgstr "Mnyama"
+
+#: ../modules/colorsel_cmyk.c:191
+msgid "Black _Pullout:"
+msgstr "Okukhutshwayo _okuMnyama:"
+
+#: ../modules/colorsel_cmyk.c:208
+msgid "The percentage of black to pull out of the colored inks."
+msgstr "Ipesenti yobumnyama yokuba uyikhuphe kwii-inki ezimbala-bala."
+
+#: ../modules/colorsel_triangle.c:104
+msgid "Painter-style triangle color selector"
+msgstr "Isikhethi mbala sikanxantathu sesimbo sokupeyinta"
+
+#: ../modules/colorsel_triangle.c:170
+msgid "Triangle"
+msgstr "uNxantathu"
+
+#: ../modules/colorsel_water.c:88
+msgid "Watercolor style color selector"
+msgstr "Isimbo sesikhethi mbala sepeyinti yokuzoba exutywa namanzi"
+
+#: ../modules/colorsel_water.c:154
+msgid "Watercolor"
+msgstr "Ipeyinti yokuzoba exutywa namanzi"
+
+#: ../modules/colorsel_water.c:220
+msgid "Pressure"
+msgstr "Uxinzelelo"

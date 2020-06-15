@@ -23,15 +23,15 @@
 
 #include "config.h"
 
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 #include "gfig.h"
 #include "gfig-grid.h"
 #include "gfig-dobject.h"
 #include "gfig-preview.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 #define PREVIEW_MASK  (GDK_EXPOSURE_MASK       | \
                        GDK_POINTER_MOTION_MASK | \

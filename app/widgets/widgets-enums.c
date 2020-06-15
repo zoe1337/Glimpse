@@ -3,7 +3,7 @@
 
 #include "config.h"
 #include <gtk/gtk.h>
-#include "libgimpbase/gimpbase.h"
+#include "libglimpsebase/gimpbase.h"
 #include "widgets-enums.h"
 #include "gimp-intl.h"
 

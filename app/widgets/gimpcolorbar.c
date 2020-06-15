@@ -22,11 +22,11 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libgimpwidgets/gimpwidgets.h"
+#include "libglimpsewidgets/gimpwidgets.h"
 
-#include "libgimpmath/gimpmath.h"
-#include "libgimpcolor/gimpcolor.h"
-#include "libgimpconfig/gimpconfig.h"
+#include "libglimpsemath/gimpmath.h"
+#include "libglimpsecolor/gimpcolor.h"
+#include "libglimpseconfig/gimpconfig.h"
 
 #include "widgets-types.h"
 

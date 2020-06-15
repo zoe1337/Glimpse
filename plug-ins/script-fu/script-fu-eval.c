@@ -17,7 +17,7 @@
 
 #include "config.h"
 
-#include "libgimp/gimp.h"
+#include "libglimpse/gimp.h"
 
 #include "scheme-wrapper.h"
 #include "script-fu-eval.h"

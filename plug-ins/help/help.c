@@ -26,11 +26,11 @@
 
 #include <glib.h>
 
-#include "libgimp/gimp.h"
+#include "libglimpse/gimp.h"
 
 #include "gimphelp.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 /*  defines  */

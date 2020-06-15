@@ -24,14 +24,14 @@
 #include <errno.h>
 
 #include <glib/gstdio.h>
-#include <libgimp/gimp.h>
+#include <libglimpse/gimp.h>
 
 #include "psd.h"
 #include "psd-util.h"
 #include "psd-image-res-load.h"
 #include "psd-thumb-load.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 /*  Local function prototypes  */
 static gint    read_header_block          (PSDimage     *img_a,

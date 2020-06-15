@@ -22,7 +22,7 @@
 
 #include <gegl.h>
 
-#include "libgimpmath/gimpmath.h"
+#include "libglimpsemath/gimpmath.h"
 
 #include "core-types.h"
 

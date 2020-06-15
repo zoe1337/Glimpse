@@ -17,7 +17,7 @@
 
 #include "config.h"
 
-#include <libgimp/gimp.h>
+#include <libglimpse/gimp.h>
 
 #include "print-utils.h"
 

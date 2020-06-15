@@ -23,7 +23,7 @@
 #ifndef _IMAP_PREVIEW_H
 #define _IMAP_PREVIEW_H
 
-#include <libgimp/gimp.h>
+#include <libglimpse/gimp.h>
 
 typedef struct {
    gint32        drawable_id;

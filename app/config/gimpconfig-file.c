@@ -26,11 +26,11 @@
 #include <gio/gio.h>
 #include <glib/gstdio.h>
 
-#include "libgimpbase/gimpbase.h"
-#include "libgimpconfig/gimpconfig.h"
+#include "libglimpsebase/gimpbase.h"
+#include "libglimpseconfig/gimpconfig.h"
 
 #ifdef G_OS_WIN32
-#include "libgimpbase/gimpwin32-io.h"
+#include "libglimpsebase/gimpwin32-io.h"
 #endif
 
 #include "config-types.h"

@@ -46,13 +46,13 @@
 
 #include <tiffio.h>
 
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 #include "file-tiff-load.h"
 #include "file-tiff-save.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 #define SAVE_PROC      "file-tiff-save"

@@ -19,14 +19,14 @@
 
 #include <string.h>
 
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 #include "print.h"
 #include "print-page-layout.h"
 #include "print-preview.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 typedef struct

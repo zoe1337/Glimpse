@@ -40,10 +40,10 @@
 #include <io.h>
 #endif
 
-#include "libgimp/gimp.h"
-#include "libgimp/gimpui.h"
+#include "libglimpse/gimp.h"
+#include "libglimpse/gimpui.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 #define LOAD_PROC         "file-raw-load"

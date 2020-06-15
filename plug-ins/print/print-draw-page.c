@@ -19,13 +19,13 @@
 
 #include <string.h>
 
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 #include "print.h"
 #include "print-draw-page.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 static cairo_surface_t * print_surface_from_drawable (gint32        drawable_ID,

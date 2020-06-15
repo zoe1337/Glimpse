@@ -526,7 +526,7 @@ iconsscalable_DATA = \
 	scalable/glimpse-icon.svg
 
 
-## Compiled-in icons for both the core and libgimpwidgets
+## Compiled-in icons for both the core and libglimpsewidgets
 
 CORE_IMAGES = \
 	64/gimp-question.png

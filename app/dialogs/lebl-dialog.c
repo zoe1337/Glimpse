@@ -7,7 +7,7 @@
 #include <gtk/gtk.h>
 #include <gdk/gdkkeysyms.h>
 
-#include "libgimpwidgets/gimpwidgets.h"
+#include "libglimpsewidgets/gimpwidgets.h"
 
 #include "lebl-dialog.h"
 

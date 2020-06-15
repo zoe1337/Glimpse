@@ -323,15 +323,15 @@
                                 <File Id="fil05AE2B56DD8744E6DEC0AD9A3A1F4B78" DiskId="1" Source="InputFiles32\bin\libgexiv2-2.dll" />
                                 <File Id="fil9938F8A48B43A8A36816B09F1D7EADEA" DiskId="1" Source="InputFiles32\bin\libgfortran-5.dll" />
                                 <File Id="fil9A0B3197EF318CE464C38119B5380A29" DiskId="1" Source="InputFiles32\bin\libgif-7.dll" />
-                                <File Id="filBB4451375B80F138A2BF446A0122BDA4" DiskId="1" Source="InputFiles32\bin\libgimp-2.0-0.dll" />
-                                <File Id="filDC087DBF8D9760E3635B4EC515931633" DiskId="1" Source="InputFiles32\bin\libgimpbase-2.0-0.dll" />
-                                <File Id="filF0AC16584BE470FFE86B812C79EB799E" DiskId="1" Source="InputFiles32\bin\libgimpcolor-2.0-0.dll" />
-                                <File Id="fil649D2D2D4A3B19004340034B3321D5CF" DiskId="1" Source="InputFiles32\bin\libgimpconfig-2.0-0.dll" />
-                                <File Id="fil6D0318795B38225AE826B0838BFBE3A1" DiskId="1" Source="InputFiles32\bin\libgimpmath-2.0-0.dll" />
-                                <File Id="filF1B65A43AA2FB10293EACEF95B0151FD" DiskId="1" Source="InputFiles32\bin\libgimpmodule-2.0-0.dll" />
-                                <File Id="filC0533EE9677A3442E4946C6ACEF9D10A" DiskId="1" Source="InputFiles32\bin\libgimpthumb-2.0-0.dll" />
-                                <File Id="fil4F1A9F24896C18D56337B3B44A5AF227" DiskId="1" Source="InputFiles32\bin\libgimpui-2.0-0.dll" />
-                                <File Id="fil473D5B0B6A1C0986BC9C8F5059B0F39B" DiskId="1" Source="InputFiles32\bin\libgimpwidgets-2.0-0.dll" />
+                                <File Id="filBB4451375B80F138A2BF446A0122BDA4" DiskId="1" Source="InputFiles32\bin\libglimpse-2.0-0.dll" />
+                                <File Id="filDC087DBF8D9760E3635B4EC515931633" DiskId="1" Source="InputFiles32\bin\libglimpsebase-2.0-0.dll" />
+                                <File Id="filF0AC16584BE470FFE86B812C79EB799E" DiskId="1" Source="InputFiles32\bin\libglimpsecolor-2.0-0.dll" />
+                                <File Id="fil649D2D2D4A3B19004340034B3321D5CF" DiskId="1" Source="InputFiles32\bin\libglimpseconfig-2.0-0.dll" />
+                                <File Id="fil6D0318795B38225AE826B0838BFBE3A1" DiskId="1" Source="InputFiles32\bin\libglimpsemath-2.0-0.dll" />
+                                <File Id="filF1B65A43AA2FB10293EACEF95B0151FD" DiskId="1" Source="InputFiles32\bin\libglimpsemodule-2.0-0.dll" />
+                                <File Id="filC0533EE9677A3442E4946C6ACEF9D10A" DiskId="1" Source="InputFiles32\bin\libglimpsethumb-2.0-0.dll" />
+                                <File Id="fil4F1A9F24896C18D56337B3B44A5AF227" DiskId="1" Source="InputFiles32\bin\libglimpseui-2.0-0.dll" />
+                                <File Id="fil473D5B0B6A1C0986BC9C8F5059B0F39B" DiskId="1" Source="InputFiles32\bin\libglimpsewidgets-2.0-0.dll" />
                                 <File Id="fil1EE1CB751E3BBC35EDE49845417D7AD1" DiskId="1" Source="InputFiles32\bin\libgio-2.0-0.dll" />
                                 <File Id="fil99DB6C8280CF884BD260BF7D1555BD56" DiskId="1" Source="InputFiles32\bin\libgirepository-1.0-1.dll" />
                                 <File Id="fil27707431003DA2A438DC542C111A17DB" DiskId="1" Source="InputFiles32\bin\libglade-2.0-0.dll" />
@@ -1581,7 +1581,7 @@
                                         <Component Id="cmpC7539A33348FF8F4682B2F690A03DEC1" Guid="YOUR-GUID-HERE">
                                             <File Id="filDCA7B1F51056B60959CB3BCFAB3D510A" DiskId="1" Source="InputFiles32\share\locale\ar\LC_MESSAGES\atk10.mo" />
                                             <File Id="filB9A0188F55B7163CDEFFD158B89A2F1E" DiskId="1" Source="InputFiles32\share\locale\ar\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="filB4FAC2FDA9951F3C83BFEBF7F6C2F854" DiskId="1" Source="InputFiles32\share\locale\ar\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filB4FAC2FDA9951F3C83BFEBF7F6C2F854" DiskId="1" Source="InputFiles32\share\locale\ar\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil1B408388701F897C3E1E955930FFC05C" DiskId="1" Source="InputFiles32\share\locale\ar\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil26C10D33FCC3BDFF4C04C1BBF7DEDEDD" DiskId="1" Source="InputFiles32\share\locale\ar\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil04202EF582F8CF4CA2482A066FDC2F45" DiskId="1" Source="InputFiles32\share\locale\ar\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -1656,7 +1656,7 @@
                                         <Component Id="cmp9F26A60505C122F63A737A67FC3F7674" Guid="YOUR-GUID-HERE">
                                             <File Id="fil92E5C5FBF941FDBF7658A59C034832FE" DiskId="1" Source="InputFiles32\share\locale\az\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil1C605B7935FAC49104E7932783D3AC3D" DiskId="1" Source="InputFiles32\share\locale\az\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="fil12F4051485E95BDC5A0BA7E5989D4E29" DiskId="1" Source="InputFiles32\share\locale\az\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil12F4051485E95BDC5A0BA7E5989D4E29" DiskId="1" Source="InputFiles32\share\locale\az\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil8493018F8AAFA9CB32DC7CD378F24315" DiskId="1" Source="InputFiles32\share\locale\az\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil702EE20C696DEEF7EBCC16F1DFAF236E" DiskId="1" Source="InputFiles32\share\locale\az\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filE1298C03025836D4F4D35B3C79BB138C" DiskId="1" Source="InputFiles32\share\locale\az\LC_MESSAGES\gimp20.mo" />
@@ -1683,7 +1683,7 @@
                                             <File Id="filA92A0E46E5016C86BD8BB1F3C4CC69EA" DiskId="1" Source="InputFiles32\share\locale\be\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil176C54AFF7DFC955D8F2EED410678511" DiskId="1" Source="InputFiles32\share\locale\be\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="filE313627FFC5FD8C01B86FE452F5449D7" DiskId="1" Source="InputFiles32\share\locale\be\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="filEF8D9D33863A87EE0302267828D0683E" DiskId="1" Source="InputFiles32\share\locale\be\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filEF8D9D33863A87EE0302267828D0683E" DiskId="1" Source="InputFiles32\share\locale\be\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil3C5896BAA25F7D8D5248146A9BA22CF7" DiskId="1" Source="InputFiles32\share\locale\be\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil57C5A15740617880959A0747CF134EDA" DiskId="1" Source="InputFiles32\share\locale\be\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil5E5BD9C7DC3DBE3C26C06EC74DC38C4B" DiskId="1" Source="InputFiles32\share\locale\be\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -1728,7 +1728,7 @@
                                             <File Id="filF428FB9BFB090E17FF6425C603C3CDA9" DiskId="1" Source="InputFiles32\share\locale\bg\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil04B577F8D3D07E55480752F76DD8FB1D" DiskId="1" Source="InputFiles32\share\locale\bg\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="filF98DF680F90B0CB42F4B03774D70D470" DiskId="1" Source="InputFiles32\share\locale\bg\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="filAB13CF25F43816D76BBF934477361D10" DiskId="1" Source="InputFiles32\share\locale\bg\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filAB13CF25F43816D76BBF934477361D10" DiskId="1" Source="InputFiles32\share\locale\bg\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filD893201BA5BFD44852A5A30DBD685E7A" DiskId="1" Source="InputFiles32\share\locale\bg\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filE5C82E810D370E1976CCA7BC9B80DCC3" DiskId="1" Source="InputFiles32\share\locale\bg\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil6FADCDB24CE28FBEBCDBF94739A796AF" DiskId="1" Source="InputFiles32\share\locale\bg\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -1760,7 +1760,7 @@
                                     <Directory Id="dirBC562D17734B800006BBB134ACA22ECD" Name="LC_MESSAGES">
                                         <Component Id="cmp787F2E1A8A21A254A84488D881AE21B4" Guid="YOUR-GUID-HERE">
                                             <File Id="fil9DA0E9B5947AF1A077FBBBCFCA36E914" DiskId="1" Source="InputFiles32\share\locale\br\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="filB8C92027D8438CD45F3816876DF5CAB3" DiskId="1" Source="InputFiles32\share\locale\br\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filB8C92027D8438CD45F3816876DF5CAB3" DiskId="1" Source="InputFiles32\share\locale\br\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filFD7A0E75991CC319E45AF603822E3ADB" DiskId="1" Source="InputFiles32\share\locale\br\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil81D0EFB4A8AB301BA56D950F207EC1FC" DiskId="1" Source="InputFiles32\share\locale\br\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filADC1A395A20BE0E45B9A61DC499A80D2" DiskId="1" Source="InputFiles32\share\locale\br\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -1786,7 +1786,7 @@
                                             <File Id="fil7E6D7507DA151FAC21F37B36C87E3D8E" DiskId="1" Source="InputFiles32\share\locale\bs\LC_MESSAGES\atk10.mo" />
                                             <File Id="filC437AAFF9D9096E78AAA952C36E93C8C" DiskId="1" Source="InputFiles32\share\locale\bs\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil537CEAF0739E374DA0683F4667281742" DiskId="1" Source="InputFiles32\share\locale\bs\LC_MESSAGES\gegl-0.4.mo" />
-                                            <File Id="fil9404284F1FBD4C15DB7E3200BB9F070F" DiskId="1" Source="InputFiles32\share\locale\bs\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil9404284F1FBD4C15DB7E3200BB9F070F" DiskId="1" Source="InputFiles32\share\locale\bs\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil0C739A44B30FBFFFFA442B546915A8B1" DiskId="1" Source="InputFiles32\share\locale\bs\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil82C443B0A9F43862F839CB868398C7DA" DiskId="1" Source="InputFiles32\share\locale\bs\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filB6B3F3DE52D7388C1E1ECB873B72D6E6" DiskId="1" Source="InputFiles32\share\locale\bs\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -1819,7 +1819,7 @@
                                             <File Id="filD0C771357ECA035A76129565E2F9F442" DiskId="1" Source="InputFiles32\share\locale\ca\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="filD1C8BA42BCCB74E9291C8A160C7F69BD" DiskId="1" Source="InputFiles32\share\locale\ca\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="fil8964A4319C9F7500710AE6E7F184E3E0" DiskId="1" Source="InputFiles32\share\locale\ca\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil33344D40527E3654538A98787F303B1F" DiskId="1" Source="InputFiles32\share\locale\ca\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil33344D40527E3654538A98787F303B1F" DiskId="1" Source="InputFiles32\share\locale\ca\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil543C02C4E1B16BF46621BA098D6F0009" DiskId="1" Source="InputFiles32\share\locale\ca\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil59049A798F15D16061C78DACB398D6F9" DiskId="1" Source="InputFiles32\share\locale\ca\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil809BDF27687A082A9B401A28E365EFBF" DiskId="1" Source="InputFiles32\share\locale\ca\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -1853,7 +1853,7 @@
                                         <Component Id="cmpEE57EE7195B1539F7F5358D42254BEBE" Guid="YOUR-GUID-HERE">
                                             <File Id="filD2E7C9402EF31E992BBA8D2C1B87FE00" DiskId="1" Source="InputFiles32\share\locale\ca@valencia\LC_MESSAGES\atk10.mo" />
                                             <File Id="filA6D906EE5B7E9CEDC555B0E54D9FB1D8" DiskId="1" Source="InputFiles32\share\locale\ca@valencia\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="fil4E41DBF1BADBBBF5E4E967285200E927" DiskId="1" Source="InputFiles32\share\locale\ca@valencia\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil4E41DBF1BADBBBF5E4E967285200E927" DiskId="1" Source="InputFiles32\share\locale\ca@valencia\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filCA4DF96324E7913936245A78D7EBB7A1" DiskId="1" Source="InputFiles32\share\locale\ca@valencia\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil0D5F10E4DBB46C715749C009278E1D72" DiskId="1" Source="InputFiles32\share\locale\ca@valencia\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filE6972FC5D14C18A33DA701266111C231" DiskId="1" Source="InputFiles32\share\locale\ca@valencia\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -1876,7 +1876,7 @@
                                             <File Id="fil2461091681734FD4E8220C9AFE6E11AB" DiskId="1" Source="InputFiles32\share\locale\cs\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil60D8C92C3AE71D97F26B14FCBC132C15" DiskId="1" Source="InputFiles32\share\locale\cs\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="fil250111884DF1B530572384B657744ED6" DiskId="1" Source="InputFiles32\share\locale\cs\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil270B15FBAB407566F6D393FBDB0477E2" DiskId="1" Source="InputFiles32\share\locale\cs\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil270B15FBAB407566F6D393FBDB0477E2" DiskId="1" Source="InputFiles32\share\locale\cs\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filCC9D7DF6054B1F0F8FB484CA0308C4C5" DiskId="1" Source="InputFiles32\share\locale\cs\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil4C24ED96B91E41DF22F7BA7327943342" DiskId="1" Source="InputFiles32\share\locale\cs\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil5D4D7F8FE4741FAAB77F110F23299881" DiskId="1" Source="InputFiles32\share\locale\cs\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -1950,7 +1950,7 @@
                                             <File Id="fil3A1DB09325751CBE902BEF1FFFBA2D8B" DiskId="1" Source="InputFiles32\share\locale\da\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="fil81768626DF414F084D98A0EA0E1359AF" DiskId="1" Source="InputFiles32\share\locale\da\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="fil621DBE20DC60C271B9980255CFF48E26" DiskId="1" Source="InputFiles32\share\locale\da\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil32C032D3C596417B8921709566C7FF0A" DiskId="1" Source="InputFiles32\share\locale\da\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil32C032D3C596417B8921709566C7FF0A" DiskId="1" Source="InputFiles32\share\locale\da\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil754E52BADF739CF491EA949781FAFB0D" DiskId="1" Source="InputFiles32\share\locale\da\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filC0E418CD8389E620DF20632F0D4482E1" DiskId="1" Source="InputFiles32\share\locale\da\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filF941D2CDB6009BC498B7BB6FC83DA441" DiskId="1" Source="InputFiles32\share\locale\da\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -1995,7 +1995,7 @@
                                             <File Id="fil201D67FA10332B65EC7BADF086E68669" DiskId="1" Source="InputFiles32\share\locale\de\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="fil5FD998A75E76F13B06DDA04EF07383BE" DiskId="1" Source="InputFiles32\share\locale\de\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="fil752356E6A90195CCA15FA6273A18C151" DiskId="1" Source="InputFiles32\share\locale\de\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil8CCF7C38DC0E3954260A0545B6527EC2" DiskId="1" Source="InputFiles32\share\locale\de\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil8CCF7C38DC0E3954260A0545B6527EC2" DiskId="1" Source="InputFiles32\share\locale\de\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil9405A3D71AD7A45B3F71F4E0C48DFC91" DiskId="1" Source="InputFiles32\share\locale\de\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filFF9F26E7E82A4BD1F487D8E999155F5D" DiskId="1" Source="InputFiles32\share\locale\de\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil4D6DF841A061ECDEB2B28B2CCCD7A721" DiskId="1" Source="InputFiles32\share\locale\de\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2039,7 +2039,7 @@
                                         <Component Id="cmpB8D41F9F4CFB79E7119C90012E939CF7" Guid="YOUR-GUID-HERE">
                                             <File Id="filBFE8227FF0FA150A20E073D105B9B4AC" DiskId="1" Source="InputFiles32\share\locale\dz\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil95A3FE71455084A06861CD1F09E127FF" DiskId="1" Source="InputFiles32\share\locale\dz\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="filB2E654760368359021AFACF1CC3ED872" DiskId="1" Source="InputFiles32\share\locale\dz\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filB2E654760368359021AFACF1CC3ED872" DiskId="1" Source="InputFiles32\share\locale\dz\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filDF6F4C4A3D04A16D1280CF5C137A5358" DiskId="1" Source="InputFiles32\share\locale\dz\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil1074C0A890A62CAC4B62A7D1B59D9D4B" DiskId="1" Source="InputFiles32\share\locale\dz\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filFAD99AAFD1EDC72A45B44BB3ACE44F09" DiskId="1" Source="InputFiles32\share\locale\dz\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2062,7 +2062,7 @@
                                             <File Id="fil11D12FC9DF193EB1DE7344F9C3538BF2" DiskId="1" Source="InputFiles32\share\locale\el\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="fil99CA5D2670546E92563F2B5A6CA6C0E4" DiskId="1" Source="InputFiles32\share\locale\el\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="filFF49B269164BED81D32331BFCF8A0D86" DiskId="1" Source="InputFiles32\share\locale\el\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil2B6CA957FA2C875425B7E362AA6649B0" DiskId="1" Source="InputFiles32\share\locale\el\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil2B6CA957FA2C875425B7E362AA6649B0" DiskId="1" Source="InputFiles32\share\locale\el\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil6D02C313FF3B41C3B346E4BF78D1A2F0" DiskId="1" Source="InputFiles32\share\locale\el\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil8CAFD38568E46637BFB5241B204C2357" DiskId="1" Source="InputFiles32\share\locale\el\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil480F0A901AA7CD629051F0E985E08446" DiskId="1" Source="InputFiles32\share\locale\el\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2131,7 +2131,7 @@
                                         <Component Id="cmp718B6956405F9CC21D215574BDEE0CF0" Guid="YOUR-GUID-HERE">
                                             <File Id="filCC1A45948DA3B83ABA164DD573E0443D" DiskId="1" Source="InputFiles32\share\locale\en_CA\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil5B8D039A60FD7E5D8256EFCBB2355931" DiskId="1" Source="InputFiles32\share\locale\en_CA\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="fil6F079F0FC459198ECD81920C50E8D91E" DiskId="1" Source="InputFiles32\share\locale\en_CA\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil6F079F0FC459198ECD81920C50E8D91E" DiskId="1" Source="InputFiles32\share\locale\en_CA\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil65C9491546E3C37D178DC6FF7B74D960" DiskId="1" Source="InputFiles32\share\locale\en_CA\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil38473631AE415AAC07D3E825CDD005A5" DiskId="1" Source="InputFiles32\share\locale\en_CA\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil55CD5E40682EB7D0804FD50A3DF88747" DiskId="1" Source="InputFiles32\share\locale\en_CA\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2151,7 +2151,7 @@
                                             <File Id="filB94320936C58034540450147DFCCCD84" DiskId="1" Source="InputFiles32\share\locale\en_GB\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil6764A9EEC51F1EABB012C538FF66D9A4" DiskId="1" Source="InputFiles32\share\locale\en_GB\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil5806909378FAE9EF753C318772831CCB" DiskId="1" Source="InputFiles32\share\locale\en_GB\LC_MESSAGES\gegl-0.4.mo" />
-                                            <File Id="fil4D40ECFA4F76C986A7D9572E9F63757F" DiskId="1" Source="InputFiles32\share\locale\en_GB\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil4D40ECFA4F76C986A7D9572E9F63757F" DiskId="1" Source="InputFiles32\share\locale\en_GB\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil11A6857D3A178EFFAD2329EDAF986A42" DiskId="1" Source="InputFiles32\share\locale\en_GB\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil493A69B8413D5FA2E6AD35EE90CEE6AF" DiskId="1" Source="InputFiles32\share\locale\en_GB\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil718289DEC1AF51116745FEB217E78824" DiskId="1" Source="InputFiles32\share\locale\en_GB\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2175,7 +2175,7 @@
                                             <File Id="filF6E812D4EA5E925F3FE93496AC4C1136" DiskId="1" Source="InputFiles32\share\locale\eo\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil199A883037060E29941F6824D0F7B086" DiskId="1" Source="InputFiles32\share\locale\eo\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="filFB366FAF436F2E94ED65ABAC7BD1B0EE" DiskId="1" Source="InputFiles32\share\locale\eo\LC_MESSAGES\gettext-runtime.mo" />
-                                            <File Id="fil3ABC2EA3D52821CAEF92CC161AF7CF20" DiskId="1" Source="InputFiles32\share\locale\eo\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil3ABC2EA3D52821CAEF92CC161AF7CF20" DiskId="1" Source="InputFiles32\share\locale\eo\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil2197247C35BCAB3023668FE918E4C2C8" DiskId="1" Source="InputFiles32\share\locale\eo\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filE4CF4D47379AF16160398554186CFAB7" DiskId="1" Source="InputFiles32\share\locale\eo\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filBD092F9B4DC29B0D475DA3A6547D8318" DiskId="1" Source="InputFiles32\share\locale\eo\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2217,7 +2217,7 @@
                                             <File Id="fil58F319A5CBC24230040CFEC6A3255E24" DiskId="1" Source="InputFiles32\share\locale\es\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="fil14910F31E15463075DD547829C851C5C" DiskId="1" Source="InputFiles32\share\locale\es\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="fil1DCAC1123747F1CADDAA4C9158580D3E" DiskId="1" Source="InputFiles32\share\locale\es\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil89CAC567FB407B1CC74D89740A10D6EE" DiskId="1" Source="InputFiles32\share\locale\es\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil89CAC567FB407B1CC74D89740A10D6EE" DiskId="1" Source="InputFiles32\share\locale\es\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil6D1327BEE1433689D9D84A00F9B932FE" DiskId="1" Source="InputFiles32\share\locale\es\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil3F8A6FDD018FD9E97063D882C23BC7AF" DiskId="1" Source="InputFiles32\share\locale\es\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filD24FF8DA17AFBC728DD898F321D6A431" DiskId="1" Source="InputFiles32\share\locale\es\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2269,7 +2269,7 @@
                                             <File Id="fil408DBA62F9C688350B19B9F4ADDC3CA3" DiskId="1" Source="InputFiles32\share\locale\et\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil9554D97E99ADB122A0A965BA068E3F8A" DiskId="1" Source="InputFiles32\share\locale\et\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="fil64184D1403EE2F215AC4A77923CC52B5" DiskId="1" Source="InputFiles32\share\locale\et\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="filE4FDB1DD0CE7AD401C752CF2EBA4DBFC" DiskId="1" Source="InputFiles32\share\locale\et\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filE4FDB1DD0CE7AD401C752CF2EBA4DBFC" DiskId="1" Source="InputFiles32\share\locale\et\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filDB2683526D77CD9FB3F65629092721D7" DiskId="1" Source="InputFiles32\share\locale\et\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil9CD65C9955E16B9A3F4EB8FEE6B3293D" DiskId="1" Source="InputFiles32\share\locale\et\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil46299A2ED6CEEA242D3D58E795A61D86" DiskId="1" Source="InputFiles32\share\locale\et\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2304,7 +2304,7 @@
                                             <File Id="filFB24E4B75262DE820E1F5BAAF4449D4B" DiskId="1" Source="InputFiles32\share\locale\eu\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil838BC551483439EA3018D62CE354F314" DiskId="1" Source="InputFiles32\share\locale\eu\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="filEC07A17A899F8D113504BA84F269BA48" DiskId="1" Source="InputFiles32\share\locale\eu\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="filB5CB57CFFDEAA502DA32E9F853A88EE7" DiskId="1" Source="InputFiles32\share\locale\eu\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filB5CB57CFFDEAA502DA32E9F853A88EE7" DiskId="1" Source="InputFiles32\share\locale\eu\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil13E197FE01621C493F42209CB8C1EA79" DiskId="1" Source="InputFiles32\share\locale\eu\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil809A3A51315BA1F5FD5FF47F9E57E3DC" DiskId="1" Source="InputFiles32\share\locale\eu\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filE97DA17D0144E4EFDC2EFF65C3374A68" DiskId="1" Source="InputFiles32\share\locale\eu\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2335,7 +2335,7 @@
                                         <Component Id="cmpD3A69BD7BB8A2159648C31270A177299" Guid="YOUR-GUID-HERE">
                                             <File Id="fil0DB37390035B56D9A74637C1BA8F40EA" DiskId="1" Source="InputFiles32\share\locale\fa\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil94A2D2C7367A7AFAAA93CE92C9E630E0" DiskId="1" Source="InputFiles32\share\locale\fa\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="fil71EB8DC12633FA656FD42F76DFDB60F2" DiskId="1" Source="InputFiles32\share\locale\fa\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil71EB8DC12633FA656FD42F76DFDB60F2" DiskId="1" Source="InputFiles32\share\locale\fa\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil4340F57863AE998E93A8FCF779F9D3A1" DiskId="1" Source="InputFiles32\share\locale\fa\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil23061CE13625793D39C988F8F1DB34FD" DiskId="1" Source="InputFiles32\share\locale\fa\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil8F6045D69036BE97360668828C501C57" DiskId="1" Source="InputFiles32\share\locale\fa\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2368,7 +2368,7 @@
                                             <File Id="fil66F230F225E16AE0A7239C508D2D0BEA" DiskId="1" Source="InputFiles32\share\locale\fi\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="filDF6198FB16C0EC4553F86EAF37A43EB0" DiskId="1" Source="InputFiles32\share\locale\fi\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="fil3D44746C80D75E51CD1A80507A4A88E3" DiskId="1" Source="InputFiles32\share\locale\fi\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil468243FF8134E1B593A8C403FDFDC7C5" DiskId="1" Source="InputFiles32\share\locale\fi\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil468243FF8134E1B593A8C403FDFDC7C5" DiskId="1" Source="InputFiles32\share\locale\fi\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filC6559A53128313972EF410711BE87B72" DiskId="1" Source="InputFiles32\share\locale\fi\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filB181DA843FC7840421E60DBE3AF77150" DiskId="1" Source="InputFiles32\share\locale\fi\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil4DCC5FE563A1012F42EBD869CBF35A4C" DiskId="1" Source="InputFiles32\share\locale\fi\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2415,7 +2415,7 @@
                                             <File Id="filD76C4E435BFD34242558A347F2C6265E" DiskId="1" Source="InputFiles32\share\locale\fr\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="filB6CA02379F256AA371F92688B471B01A" DiskId="1" Source="InputFiles32\share\locale\fr\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="filA6D68D277D68D5A8C686A03C1FBEAAF6" DiskId="1" Source="InputFiles32\share\locale\fr\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil99A0CA4739A3F20860A9E9592E6DCEA4" DiskId="1" Source="InputFiles32\share\locale\fr\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil99A0CA4739A3F20860A9E9592E6DCEA4" DiskId="1" Source="InputFiles32\share\locale\fr\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filF973BE022EDFFE2DC4912E5870C738B0" DiskId="1" Source="InputFiles32\share\locale\fr\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil92747691A2B20BFECAF32B3A89D458E6" DiskId="1" Source="InputFiles32\share\locale\fr\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil93AD0DD7B8014E0675F2B6B0B2B60F7A" DiskId="1" Source="InputFiles32\share\locale\fr\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2461,7 +2461,7 @@
                                             <File Id="fil397E091BF37B69C0F24EE94647527CA0" DiskId="1" Source="InputFiles32\share\locale\ga\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil99DB804B3B2903F20CA15AC15BE11474" DiskId="1" Source="InputFiles32\share\locale\ga\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="filF47D5BA89698F0574784D3468A02091C" DiskId="1" Source="InputFiles32\share\locale\ga\LC_MESSAGES\gettext-runtime.mo" />
-                                            <File Id="filCBFF7CD0A3B4156FFD2AA6BEA4C9C9A1" DiskId="1" Source="InputFiles32\share\locale\ga\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filCBFF7CD0A3B4156FFD2AA6BEA4C9C9A1" DiskId="1" Source="InputFiles32\share\locale\ga\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil4355B2CB2025894CDD5708E8DCD1DF13" DiskId="1" Source="InputFiles32\share\locale\ga\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil8EFF40CBEB8C3AC396E02BFFCFD30FF1" DiskId="1" Source="InputFiles32\share\locale\ga\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil033F06764D63F34F6C22CF8E6BD7EB8B" DiskId="1" Source="InputFiles32\share\locale\ga\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2494,7 +2494,7 @@
                                             <File Id="filEA01AFD5D7015EFB1A7D9233D286C841" DiskId="1" Source="InputFiles32\share\locale\gl\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="fil53AD694D1A2CC295A182F14D51832F69" DiskId="1" Source="InputFiles32\share\locale\gl\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="filFC47318A969B7C5443481D65DF59B5F8" DiskId="1" Source="InputFiles32\share\locale\gl\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil480183CF3E8D939583E4AC092817FE54" DiskId="1" Source="InputFiles32\share\locale\gl\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil480183CF3E8D939583E4AC092817FE54" DiskId="1" Source="InputFiles32\share\locale\gl\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil9C4147A4972AD037B02D7707EBC5CF77" DiskId="1" Source="InputFiles32\share\locale\gl\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filD563D9DE99E0DA7D88D5965BCF14236D" DiskId="1" Source="InputFiles32\share\locale\gl\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil976C92B3814659871F0389A5EB36E1B4" DiskId="1" Source="InputFiles32\share\locale\gl\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2525,7 +2525,7 @@
                                         <Component Id="cmp46CFFC7A809842269B7479B1BAE5FB0D" Guid="YOUR-GUID-HERE">
                                             <File Id="fil9FF3321BDD8649514157ECDD16353F07" DiskId="1" Source="InputFiles32\share\locale\gu\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil7EC3C1D057260026951F04C2DA043A50" DiskId="1" Source="InputFiles32\share\locale\gu\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="fil1C0B106858755CDEBFA304D27F1812B5" DiskId="1" Source="InputFiles32\share\locale\gu\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil1C0B106858755CDEBFA304D27F1812B5" DiskId="1" Source="InputFiles32\share\locale\gu\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil59F1E72ADC8BDABF00E2946779B5DEF8" DiskId="1" Source="InputFiles32\share\locale\gu\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filEC4C89B436B2C94DFBB151AF9845786E" DiskId="1" Source="InputFiles32\share\locale\gu\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filD307E0166482D7CC283536F5F445D9C4" DiskId="1" Source="InputFiles32\share\locale\gu\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2552,7 +2552,7 @@
                                         <Component Id="cmp3F0BD6F1836E7EDC12B69F033B09CA1A" Guid="YOUR-GUID-HERE">
                                             <File Id="fil4DDEBA636F49FD3E20D2BDDC7CE3E0B5" DiskId="1" Source="InputFiles32\share\locale\he\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil92C90C68EDD29E211D18963BFEA1B914" DiskId="1" Source="InputFiles32\share\locale\he\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="fil360209E85892126CEF93CB2D335D0B77" DiskId="1" Source="InputFiles32\share\locale\he\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil360209E85892126CEF93CB2D335D0B77" DiskId="1" Source="InputFiles32\share\locale\he\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil30489C02AC2DAFB1230F984EC076E2DF" DiskId="1" Source="InputFiles32\share\locale\he\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil5E71722DF7A3FB80D0ECEBD613903DEE" DiskId="1" Source="InputFiles32\share\locale\he\LC_MESSAGES\gimp20-std-plug-ins.mo" />
                                             <File Id="fil51C16E578FBFAF575EF420E0FF657A71" DiskId="1" Source="InputFiles32\share\locale\he\LC_MESSAGES\gimp20-tips.mo" />
@@ -2609,7 +2609,7 @@
                                             <File Id="filF84A9BBFFDE76D5C3D1901172E2769EE" DiskId="1" Source="InputFiles32\share\locale\hr\LC_MESSAGES\binutils.mo" />
                                             <File Id="filC56E777072912356B269BEF690657FBA" DiskId="1" Source="InputFiles32\share\locale\hr\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="filDB1712FAD3AAA487E3B8940916B02926" DiskId="1" Source="InputFiles32\share\locale\hr\LC_MESSAGES\gettext-runtime.mo" />
-                                            <File Id="fil5C5093F23051AFDD6B9461FF8C3FD6C8" DiskId="1" Source="InputFiles32\share\locale\hr\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil5C5093F23051AFDD6B9461FF8C3FD6C8" DiskId="1" Source="InputFiles32\share\locale\hr\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filECBC36442964F4503BEA9B38E82B3BAD" DiskId="1" Source="InputFiles32\share\locale\hr\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filCA89E4295C716A21D277E24439968541" DiskId="1" Source="InputFiles32\share\locale\hr\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil78EF27FCA7F4349B3C47D023C3958F84" DiskId="1" Source="InputFiles32\share\locale\hr\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2644,7 +2644,7 @@
                                             <File Id="fil0D183A528816B757168CBAD164ABAA73" DiskId="1" Source="InputFiles32\share\locale\hu\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil870FF990BF04760DAE4B6EC4C07504C8" DiskId="1" Source="InputFiles32\share\locale\hu\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil088E0FAD007CBB006E12165134801C38" DiskId="1" Source="InputFiles32\share\locale\hu\LC_MESSAGES\gettext-runtime.mo" />
-                                            <File Id="fil636F77DB3FCC477283A1DFE91D7A44D0" DiskId="1" Source="InputFiles32\share\locale\hu\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil636F77DB3FCC477283A1DFE91D7A44D0" DiskId="1" Source="InputFiles32\share\locale\hu\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil940BEC1A0F1F5018CB52CD8E744D938B" DiskId="1" Source="InputFiles32\share\locale\hu\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil2C06B1C19FA0DC86165474F5DFF23137" DiskId="1" Source="InputFiles32\share\locale\hu\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil8389B69F4496F8C770857DEF8E2298DA" DiskId="1" Source="InputFiles32\share\locale\hu\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2690,7 +2690,7 @@
                                             <File Id="filCEE8EA7580918E96D6A3C9AE0FA40F04" DiskId="1" Source="InputFiles32\share\locale\id\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="fil27BC1724B732572895CCF56F2AE14882" DiskId="1" Source="InputFiles32\share\locale\id\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="filAB675F7BC3DCF1514DEE74CFCB6EDF62" DiskId="1" Source="InputFiles32\share\locale\id\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil2A22C9752FDE87000DBE2C4A54E8D6D7" DiskId="1" Source="InputFiles32\share\locale\id\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil2A22C9752FDE87000DBE2C4A54E8D6D7" DiskId="1" Source="InputFiles32\share\locale\id\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil3E54C8A755AD49D5CF0D97ECBBE66CF7" DiskId="1" Source="InputFiles32\share\locale\id\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filA81F3C1D8D0ECBAE3F9B6A2CD594DA45" DiskId="1" Source="InputFiles32\share\locale\id\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil30537ABF11BB6754AA723209F450F5BF" DiskId="1" Source="InputFiles32\share\locale\id\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2732,7 +2732,7 @@
                                             <File Id="fil3FDAD375B602961F33B9B7B31C34812B" DiskId="1" Source="InputFiles32\share\locale\is\LC_MESSAGES\atk10.mo" />
                                             <File Id="filE2675D3B2AF3C99D73247C8E24871908" DiskId="1" Source="InputFiles32\share\locale\is\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil15928519D2BD73BE3D4D8D7CEC797CCB" DiskId="1" Source="InputFiles32\share\locale\is\LC_MESSAGES\gegl-0.4.mo" />
-                                            <File Id="fil6A5D2914D0246B5CAB40AA42D4388C1D" DiskId="1" Source="InputFiles32\share\locale\is\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil6A5D2914D0246B5CAB40AA42D4388C1D" DiskId="1" Source="InputFiles32\share\locale\is\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filA32D4F75FFC8654F185FE3A22F88A949" DiskId="1" Source="InputFiles32\share\locale\is\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil9EAFF5C4593C8ED9AD70589CD3810318" DiskId="1" Source="InputFiles32\share\locale\is\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil5FDD2AC5FC916569F67373FCB76BF5FF" DiskId="1" Source="InputFiles32\share\locale\is\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2767,7 +2767,7 @@
                                             <File Id="fil960C08BD9F7C9083F3953314CF83915D" DiskId="1" Source="InputFiles32\share\locale\it\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="fil65E656FCE7E4149CE992854DB251F87C" DiskId="1" Source="InputFiles32\share\locale\it\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="fil31AB8D8F5529DDE5E3884374FA0B5674" DiskId="1" Source="InputFiles32\share\locale\it\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="filF7AFD491B6F4A98EE7066C2AF497AFFD" DiskId="1" Source="InputFiles32\share\locale\it\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filF7AFD491B6F4A98EE7066C2AF497AFFD" DiskId="1" Source="InputFiles32\share\locale\it\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil9D2FB9E66336EAAD8F2D396353F35EC6" DiskId="1" Source="InputFiles32\share\locale\it\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil3E68AAD3503BC9CD6089DB748778599F" DiskId="1" Source="InputFiles32\share\locale\it\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filBFD608AA0C9121ECBA6B1CB611FD5FDB" DiskId="1" Source="InputFiles32\share\locale\it\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2817,7 +2817,7 @@
                                             <File Id="fil2F79419D0A1735BD7F5A77293BF242A7" DiskId="1" Source="InputFiles32\share\locale\ja\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil4E0A0CB69305F24EC1078975D94B46E4" DiskId="1" Source="InputFiles32\share\locale\ja\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="fil56E0FDB405B1039D015D34F686F3D0FA" DiskId="1" Source="InputFiles32\share\locale\ja\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil425D0D4BE319F5E24A1B3ABFF041BF48" DiskId="1" Source="InputFiles32\share\locale\ja\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil425D0D4BE319F5E24A1B3ABFF041BF48" DiskId="1" Source="InputFiles32\share\locale\ja\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filBB4EB58A5CFC5E744306F0CD692C92A9" DiskId="1" Source="InputFiles32\share\locale\ja\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil34BBDB9745663BAA63C06752E21889FA" DiskId="1" Source="InputFiles32\share\locale\ja\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil7574B4A4D100F017FB9784FF0B22E468" DiskId="1" Source="InputFiles32\share\locale\ja\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2873,7 +2873,7 @@
                                         <Component Id="cmpB38547984C7E8E215F0EC437E7D683F6" Guid="YOUR-GUID-HERE">
                                             <File Id="fil5D66394A4AE5596295C123022545A871" DiskId="1" Source="InputFiles32\share\locale\kk\LC_MESSAGES\atk10.mo" />
                                             <File Id="filB2D80B45B8CB5434D9C0D37606166469" DiskId="1" Source="InputFiles32\share\locale\kk\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="fil05BD835A0AA2B1019F6CFB953787D6AD" DiskId="1" Source="InputFiles32\share\locale\kk\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil05BD835A0AA2B1019F6CFB953787D6AD" DiskId="1" Source="InputFiles32\share\locale\kk\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil0B9A5D0CFEF4B11CA88BF75506E2A813" DiskId="1" Source="InputFiles32\share\locale\kk\LC_MESSAGES\gimp20.mo" />
                                             <File Id="fil8B1A7362AB6226CB6C06CC4B2D1E7896" DiskId="1" Source="InputFiles32\share\locale\kk\LC_MESSAGES\glib-networking.mo" />
                                             <File Id="fil6E81132DFDE88D8E100E799401BDC13A" DiskId="1" Source="InputFiles32\share\locale\kk\LC_MESSAGES\glib20.mo" />
@@ -2892,7 +2892,7 @@
                                         <Component Id="cmp2F383AE333BF18573C33E304662FFD16" Guid="YOUR-GUID-HERE">
                                             <File Id="fil44091957FC6502FA9BB2D109F5750EB9" DiskId="1" Source="InputFiles32\share\locale\km\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil3D69FD6D22C97C6D78765D33FE599206" DiskId="1" Source="InputFiles32\share\locale\km\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="fil17FADEE4493AAE7213CF006B9A166952" DiskId="1" Source="InputFiles32\share\locale\km\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil17FADEE4493AAE7213CF006B9A166952" DiskId="1" Source="InputFiles32\share\locale\km\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filC4FE877A47FF1B5857B0EB82B1290AEB" DiskId="1" Source="InputFiles32\share\locale\km\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filF55254033D71B390B33564459CF7FDA1" DiskId="1" Source="InputFiles32\share\locale\km\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil7F635C6ED78AEA3A51060E1785B994AA" DiskId="1" Source="InputFiles32\share\locale\km\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2935,7 +2935,7 @@
                                             <File Id="fil5EB610584A257D5B823D31E0A1F283CC" DiskId="1" Source="InputFiles32\share\locale\ko\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="filC47F846BFF834DE9E7BD1B62D4E7EA4B" DiskId="1" Source="InputFiles32\share\locale\ko\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="fil6B7799E29E00546CC37007B94CBAD6B3" DiskId="1" Source="InputFiles32\share\locale\ko\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil9701EA9770836244B7DE4F4DF4DEBC61" DiskId="1" Source="InputFiles32\share\locale\ko\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil9701EA9770836244B7DE4F4DF4DEBC61" DiskId="1" Source="InputFiles32\share\locale\ko\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil9E5D789E213C7D37C2FE2A9E6DF6D22B" DiskId="1" Source="InputFiles32\share\locale\ko\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil89B5E385CDC273D0A2D7BA29FF080460" DiskId="1" Source="InputFiles32\share\locale\ko\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil120B5E34EFACC73CADCACF4501A06645" DiskId="1" Source="InputFiles32\share\locale\ko\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -2980,7 +2980,7 @@
                                         <Component Id="cmp6DB185670E76D1A7C2C2F54D7671DE29" Guid="YOUR-GUID-HERE">
                                             <File Id="fil3DE7B1BBE42F556D649B58FEAAA9B0B3" DiskId="1" Source="InputFiles32\share\locale\lt\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil22CE187350C57FB3058F615A7576B1CB" DiskId="1" Source="InputFiles32\share\locale\lt\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="fil5A8BADBEFABBB94EF1F0884D01BB38ED" DiskId="1" Source="InputFiles32\share\locale\lt\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil5A8BADBEFABBB94EF1F0884D01BB38ED" DiskId="1" Source="InputFiles32\share\locale\lt\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filCE1910BDF4DF4BDAB0E30EB06232521D" DiskId="1" Source="InputFiles32\share\locale\lt\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil1D08B84F4680B68295097B1B4622CBA4" DiskId="1" Source="InputFiles32\share\locale\lt\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil297EE9776DEF048F78A1A73BD5AEC982" DiskId="1" Source="InputFiles32\share\locale\lt\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3013,7 +3013,7 @@
                                             <File Id="fil8D837CE36599B70AFFFEF80158452AC7" DiskId="1" Source="InputFiles32\share\locale\lv\LC_MESSAGES\atk10.mo" />
                                             <File Id="filE9FA3298DA6BE90336C609302271B939" DiskId="1" Source="InputFiles32\share\locale\lv\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil42E9A577B2B7ECC97F091F7B4DBC32E5" DiskId="1" Source="InputFiles32\share\locale\lv\LC_MESSAGES\gegl-0.4.mo" />
-                                            <File Id="filD0160DDEDA2A4924D45A7F55AB8BE539" DiskId="1" Source="InputFiles32\share\locale\lv\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filD0160DDEDA2A4924D45A7F55AB8BE539" DiskId="1" Source="InputFiles32\share\locale\lv\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filDE910D4018CEF8AB852A2B6C0ACE1123" DiskId="1" Source="InputFiles32\share\locale\lv\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filAE1051A808665CED957ACDC0EBD2A354" DiskId="1" Source="InputFiles32\share\locale\lv\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filB60694080E32F5550E3AB4841EBEB2F1" DiskId="1" Source="InputFiles32\share\locale\lv\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3045,7 +3045,7 @@
                                         <Component Id="cmpE61949079DBB0456599692AC9CE59B24" Guid="YOUR-GUID-HERE">
                                             <File Id="fil21B446B489BF325A45F8F1E096D4D054" DiskId="1" Source="InputFiles32\share\locale\mk\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil7405B3DED709DA99B6CDD738CF5A427C" DiskId="1" Source="InputFiles32\share\locale\mk\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="fil3A75EC5CCC8D4D3E404C6043E430CB05" DiskId="1" Source="InputFiles32\share\locale\mk\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil3A75EC5CCC8D4D3E404C6043E430CB05" DiskId="1" Source="InputFiles32\share\locale\mk\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filFB306E94191B2D987AD838C30A61CAF2" DiskId="1" Source="InputFiles32\share\locale\mk\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filCF7DAB872719C5D64354116C50FAD58F" DiskId="1" Source="InputFiles32\share\locale\mk\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filD5A5C25CBF97E9A5C165477697DECA39" DiskId="1" Source="InputFiles32\share\locale\mk\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3111,7 +3111,7 @@
                                             <File Id="fil245634CE4BE70F9C886DB048D3B0F157" DiskId="1" Source="InputFiles32\share\locale\mr\LC_MESSAGES\atk10.mo" />
                                             <File Id="filE1D9BFA4CBBAA81635233559A4AD63FA" DiskId="1" Source="InputFiles32\share\locale\mr\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil93AEF00AE8317AA7315345AE561087FC" DiskId="1" Source="InputFiles32\share\locale\mr\LC_MESSAGES\gegl-0.4.mo" />
-                                            <File Id="filEFE96B1E23287E1E8BBD3EE086C3F7DD" DiskId="1" Source="InputFiles32\share\locale\mr\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filEFE96B1E23287E1E8BBD3EE086C3F7DD" DiskId="1" Source="InputFiles32\share\locale\mr\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil7CC19053EB4709B70CEC8E391ED4BCDD" DiskId="1" Source="InputFiles32\share\locale\mr\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filC43C28AAC0C533F8B4A9A55C01188952" DiskId="1" Source="InputFiles32\share\locale\mr\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filA90B53B6B1FC33A9CC2FE3D920C7BD0D" DiskId="1" Source="InputFiles32\share\locale\mr\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3137,7 +3137,7 @@
                                         <Component Id="cmp84064A5B2DC0DB55B397741D4C7A147A" Guid="YOUR-GUID-HERE">
                                             <File Id="filC97AFB4AFAFC618C905727CF51632DD3" DiskId="1" Source="InputFiles32\share\locale\ms\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil4FD7C158012D36EFB033D9C5B0F7FE60" DiskId="1" Source="InputFiles32\share\locale\ms\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="fil3C61331A5C35B2770A1C6E6B1066096C" DiskId="1" Source="InputFiles32\share\locale\ms\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil3C61331A5C35B2770A1C6E6B1066096C" DiskId="1" Source="InputFiles32\share\locale\ms\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil095D1862987CD3A475D9FEDB934639BC" DiskId="1" Source="InputFiles32\share\locale\ms\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil35D3CA7DF991D94F7DBDBFEFFC00C17F" DiskId="1" Source="InputFiles32\share\locale\ms\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filB18B5D422102C12BFD063DBD2BEF5FF0" DiskId="1" Source="InputFiles32\share\locale\ms\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3163,7 +3163,7 @@
                                     <Directory Id="dirBAAC3A3F26622069931CFBF35D03137C" Name="LC_MESSAGES">
                                         <Component Id="cmp1A3A6267B4EDDEF6748507B008AC3ACB" Guid="YOUR-GUID-HERE">
                                             <File Id="fil97FB770AF9A3CA81E74E374675745657" DiskId="1" Source="InputFiles32\share\locale\my\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="fil05DBFDB8C55963384A9953E9C4221507" DiskId="1" Source="InputFiles32\share\locale\my\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil05DBFDB8C55963384A9953E9C4221507" DiskId="1" Source="InputFiles32\share\locale\my\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil8ADFCE75EE11A998B90FA918B4E7FCE2" DiskId="1" Source="InputFiles32\share\locale\my\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filC4111BD07BFD0DB4656D0855AA886AD4" DiskId="1" Source="InputFiles32\share\locale\my\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filEED7B9220C9E24B6B3AF7325B5F18CFF" DiskId="1" Source="InputFiles32\share\locale\my\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3184,7 +3184,7 @@
                                             <File Id="fil5EB09C685FC97364A7C1C3237477F9EA" DiskId="1" Source="InputFiles32\share\locale\nb\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="fil1E1D2C3DFE2DC8DFAEB81D92FEE4A88A" DiskId="1" Source="InputFiles32\share\locale\nb\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="filF76727B34B4EE4FA906FBB1B7DE54023" DiskId="1" Source="InputFiles32\share\locale\nb\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil94719012386BABDAC4E65D92C4D6BA64" DiskId="1" Source="InputFiles32\share\locale\nb\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil94719012386BABDAC4E65D92C4D6BA64" DiskId="1" Source="InputFiles32\share\locale\nb\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil0E05B83F454E741597E61FA8952BC917" DiskId="1" Source="InputFiles32\share\locale\nb\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil253ECF2E3058236F334525E5C52DBCE1" DiskId="1" Source="InputFiles32\share\locale\nb\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil8A82F381C96E083439555FE3C3A1FA51" DiskId="1" Source="InputFiles32\share\locale\nb\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3225,7 +3225,7 @@
                                         <Component Id="cmp68C219C864720159ADCC961F1AF84CC3" Guid="YOUR-GUID-HERE">
                                             <File Id="fil10957B6EA941658E6F1E81820CE93FA1" DiskId="1" Source="InputFiles32\share\locale\ne\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil11992F899E74A43531581CA881DFB6DD" DiskId="1" Source="InputFiles32\share\locale\ne\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="fil33B6525249AA0434C9A179895577F722" DiskId="1" Source="InputFiles32\share\locale\ne\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil33B6525249AA0434C9A179895577F722" DiskId="1" Source="InputFiles32\share\locale\ne\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil7A8F61D6201FF4A30BA68F1CA21AF9C0" DiskId="1" Source="InputFiles32\share\locale\ne\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil9DA53DF6527049D38C22B2CDD744E4D8" DiskId="1" Source="InputFiles32\share\locale\ne\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil1F3C003E575CE76259E807F6A35EA4F3" DiskId="1" Source="InputFiles32\share\locale\ne\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3250,7 +3250,7 @@
                                             <File Id="fil8BE5E29C7D7C96EB0A682787567824B1" DiskId="1" Source="InputFiles32\share\locale\nl\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil1E41827875B873A87771D70B1EEFE9F5" DiskId="1" Source="InputFiles32\share\locale\nl\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="filEAD7617D1AF53CAFA082E724FA38F8CD" DiskId="1" Source="InputFiles32\share\locale\nl\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil852F6F01CC304652F3365A96B4B46FC2" DiskId="1" Source="InputFiles32\share\locale\nl\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil852F6F01CC304652F3365A96B4B46FC2" DiskId="1" Source="InputFiles32\share\locale\nl\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil3F229746B13CE1E39354FC8BBEAA887B" DiskId="1" Source="InputFiles32\share\locale\nl\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil94272EAC5FFFA6AC0B53AFE92CB0B6C9" DiskId="1" Source="InputFiles32\share\locale\nl\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil8067B203BDCFCD6852E43464F984BA7B" DiskId="1" Source="InputFiles32\share\locale\nl\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3293,7 +3293,7 @@
                                             <File Id="fil37B066093BAF605587F3915659121712" DiskId="1" Source="InputFiles32\share\locale\nn\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil8C4FD28E5D11397683AC9F68577A9FCA" DiskId="1" Source="InputFiles32\share\locale\nn\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="filE25FFBB606DC3F6EA11A51E554D95B52" DiskId="1" Source="InputFiles32\share\locale\nn\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil7F6909245B38B4580D93D46FBC6F88CA" DiskId="1" Source="InputFiles32\share\locale\nn\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil7F6909245B38B4580D93D46FBC6F88CA" DiskId="1" Source="InputFiles32\share\locale\nn\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filACBEF2C69A38C273063AFEBB2FF90A44" DiskId="1" Source="InputFiles32\share\locale\nn\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filEFD7FDE09F581B489E297E94CEA15D6C" DiskId="1" Source="InputFiles32\share\locale\nn\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil47435F0F720B3F3F1AC41652E4D357BA" DiskId="1" Source="InputFiles32\share\locale\nn\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3346,7 +3346,7 @@
                                             <File Id="filF5A87B0B9C6427CF0DF145D21BE2472F" DiskId="1" Source="InputFiles32\share\locale\oc\LC_MESSAGES\atk10.mo" />
                                             <File Id="filBE3C015197B104E7877E30128D9DF601" DiskId="1" Source="InputFiles32\share\locale\oc\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="filD2AFB00112050E1EDC4A29A947A11B29" DiskId="1" Source="InputFiles32\share\locale\oc\LC_MESSAGES\gegl-0.4.mo" />
-                                            <File Id="filD7C7C64C5FF7A21809679F7BEF8EA1D8" DiskId="1" Source="InputFiles32\share\locale\oc\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filD7C7C64C5FF7A21809679F7BEF8EA1D8" DiskId="1" Source="InputFiles32\share\locale\oc\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil4F4E755803BDC0BDD54AFE17727FFD85" DiskId="1" Source="InputFiles32\share\locale\oc\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filC8585687D6E00A09CDFDB49793557611" DiskId="1" Source="InputFiles32\share\locale\oc\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil9773B7AB8619C0CFBD6D0E182383D24A" DiskId="1" Source="InputFiles32\share\locale\oc\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3379,7 +3379,7 @@
                                             <File Id="fil9C18D2625D3C44347B0D24C91F3845E7" DiskId="1" Source="InputFiles32\share\locale\pa\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil7CB03C7E25ED5532A986DFF9EC2027E4" DiskId="1" Source="InputFiles32\share\locale\pa\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="filABFCDBAFB0CB1CBDEECCAB29B6682EE6" DiskId="1" Source="InputFiles32\share\locale\pa\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil94C7BBF2C113FA8E05B90A43F9937846" DiskId="1" Source="InputFiles32\share\locale\pa\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil94C7BBF2C113FA8E05B90A43F9937846" DiskId="1" Source="InputFiles32\share\locale\pa\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil300870596CECC74CD39C115054AD2427" DiskId="1" Source="InputFiles32\share\locale\pa\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filD4B37F6D904217780C91E8C240CFCA86" DiskId="1" Source="InputFiles32\share\locale\pa\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil661D4481C9019594228796FF5584F694" DiskId="1" Source="InputFiles32\share\locale\pa\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3410,7 +3410,7 @@
                                             <File Id="filBB9639C90E298A17928485CEE63C3C73" DiskId="1" Source="InputFiles32\share\locale\pl\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="filD0EF3A5A5A14AF585F5FB07E32473125" DiskId="1" Source="InputFiles32\share\locale\pl\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="filFD68F9ADBEC9C8159F5FFDC1DD5E0EE9" DiskId="1" Source="InputFiles32\share\locale\pl\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="filD082F7CF6AC19FBA9D6F7AEF45D593E0" DiskId="1" Source="InputFiles32\share\locale\pl\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filD082F7CF6AC19FBA9D6F7AEF45D593E0" DiskId="1" Source="InputFiles32\share\locale\pl\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filDB3C4C42E666E4F826FEBF9B7B361AE8" DiskId="1" Source="InputFiles32\share\locale\pl\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil7801339A1FD0AFC318B58B0ECD84B529" DiskId="1" Source="InputFiles32\share\locale\pl\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil8B44366E78B4D1D7B8F5A6D7B47E415C" DiskId="1" Source="InputFiles32\share\locale\pl\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3456,7 +3456,7 @@
                                             <File Id="filD9FBF755F626B28BA50D84CEF6595342" DiskId="1" Source="InputFiles32\share\locale\pt\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="fil3E3C6B112BC6300522ACF7DA4663FECD" DiskId="1" Source="InputFiles32\share\locale\pt\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="fil25D18E93E5F44ACFB00DF430FFC1B1B4" DiskId="1" Source="InputFiles32\share\locale\pt\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil84C6201FC76D4FD7A8BDC5503B6EB00F" DiskId="1" Source="InputFiles32\share\locale\pt\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil84C6201FC76D4FD7A8BDC5503B6EB00F" DiskId="1" Source="InputFiles32\share\locale\pt\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filBD5889D3E333355966DF27C40DAC3D16" DiskId="1" Source="InputFiles32\share\locale\pt\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil68277636E81872179EA15776FA419015" DiskId="1" Source="InputFiles32\share\locale\pt\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil250714E82F4DC5748EC7922A8B5F07A7" DiskId="1" Source="InputFiles32\share\locale\pt\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3491,7 +3491,7 @@
                                             <File Id="filD0785DF9577E408C162A2B88980FE5C8" DiskId="1" Source="InputFiles32\share\locale\pt_BR\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="fil4954D6A65EA1E71D3AC7BC28192BC6DA" DiskId="1" Source="InputFiles32\share\locale\pt_BR\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="fil0CD7870841BEA77EC6EE241BD3B67938" DiskId="1" Source="InputFiles32\share\locale\pt_BR\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="filD6A3F1705926E1C793EAF5CB0690BA5A" DiskId="1" Source="InputFiles32\share\locale\pt_BR\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filD6A3F1705926E1C793EAF5CB0690BA5A" DiskId="1" Source="InputFiles32\share\locale\pt_BR\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil65F89D2FB1E04A1F4A8167ABCFF28407" DiskId="1" Source="InputFiles32\share\locale\pt_BR\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil14C83337892412905084F0772F335BC4" DiskId="1" Source="InputFiles32\share\locale\pt_BR\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filEAD27D93108E52D77E98C7C3B5349CD0" DiskId="1" Source="InputFiles32\share\locale\pt_BR\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3533,7 +3533,7 @@
                                             <File Id="filB8D8BE2D1CBE90AF551DBA3DF7D99F34" DiskId="1" Source="InputFiles32\share\locale\ro\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil3520A84913F83AA99776D94C487A622E" DiskId="1" Source="InputFiles32\share\locale\ro\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="fil7D7DD472DD15B9052000F87CFEC45FE6" DiskId="1" Source="InputFiles32\share\locale\ro\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil273107C36A56E8A0987CA5AB233AD52C" DiskId="1" Source="InputFiles32\share\locale\ro\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil273107C36A56E8A0987CA5AB233AD52C" DiskId="1" Source="InputFiles32\share\locale\ro\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filA9C83925AE662F5F6BC22CECB0AF945F" DiskId="1" Source="InputFiles32\share\locale\ro\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filE13CA7878F4B2D90A85E1591F2C74907" DiskId="1" Source="InputFiles32\share\locale\ro\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil00A12FD798EA29AF995DE9DD8FD98D89" DiskId="1" Source="InputFiles32\share\locale\ro\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3577,7 +3577,7 @@
                                             <File Id="fil280ABA2D1ACA4F3222A914FEEF59AFD2" DiskId="1" Source="InputFiles32\share\locale\ru\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="fil594561C576EB6BFAFEDDAD56124A08D5" DiskId="1" Source="InputFiles32\share\locale\ru\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="filCA04FD5F377462A14F8E587C777197EF" DiskId="1" Source="InputFiles32\share\locale\ru\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil0BA415E7837D4865D64365A6F3B8CE87" DiskId="1" Source="InputFiles32\share\locale\ru\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil0BA415E7837D4865D64365A6F3B8CE87" DiskId="1" Source="InputFiles32\share\locale\ru\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filCE8850CD2F1D39894DE9228995AE9D02" DiskId="1" Source="InputFiles32\share\locale\ru\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filCC363F13074C5E9DE355B83167079F87" DiskId="1" Source="InputFiles32\share\locale\ru\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil5CAB1A88E61D58D51F93165F19B983A0" DiskId="1" Source="InputFiles32\share\locale\ru\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3615,7 +3615,7 @@
                                             <File Id="fil4398834C8ADD9A712C46074F085106D2" DiskId="1" Source="InputFiles32\share\locale\rw\LC_MESSAGES\bfd.mo" />
                                             <File Id="fil26EA10BE79141EB3EBF7F7CD2B690755" DiskId="1" Source="InputFiles32\share\locale\rw\LC_MESSAGES\binutils.mo" />
                                             <File Id="fil0BD066AF9DF4009BDA9C0222E317446F" DiskId="1" Source="InputFiles32\share\locale\rw\LC_MESSAGES\gas.mo" />
-                                            <File Id="filDF312D8D62FDF6E6D11390B9FCC37E99" DiskId="1" Source="InputFiles32\share\locale\rw\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filDF312D8D62FDF6E6D11390B9FCC37E99" DiskId="1" Source="InputFiles32\share\locale\rw\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filC30C2B97E90E9607249BBDB075B07668" DiskId="1" Source="InputFiles32\share\locale\rw\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filF9BC1A0624D28F54D21844F172BDFCA4" DiskId="1" Source="InputFiles32\share\locale\rw\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filB3BE30851BEC5CEA1F70483BBBB87221" DiskId="1" Source="InputFiles32\share\locale\rw\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3661,7 +3661,7 @@
                                             <File Id="fil3B14FA444FB28C08170966C857A68751" DiskId="1" Source="InputFiles32\share\locale\sk\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="filDD9DF2FC9F5F8B463FB5C31589365E45" DiskId="1" Source="InputFiles32\share\locale\sk\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="fil301E34A68DE42F2D35EC3FF8BC95F61A" DiskId="1" Source="InputFiles32\share\locale\sk\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="filB8ECFEEFF84735D9F4572446D82DF728" DiskId="1" Source="InputFiles32\share\locale\sk\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filB8ECFEEFF84735D9F4572446D82DF728" DiskId="1" Source="InputFiles32\share\locale\sk\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil40039FC48F15D430170E7CAB7D20E9B1" DiskId="1" Source="InputFiles32\share\locale\sk\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil6CF7C542939B0E73B5562B2EDE3F0E65" DiskId="1" Source="InputFiles32\share\locale\sk\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filA5B0376A1AF7E58E4CD0E005D824856D" DiskId="1" Source="InputFiles32\share\locale\sk\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3698,7 +3698,7 @@
                                             <File Id="filC44D8D9CB54075D9571C14352C1B8E25" DiskId="1" Source="InputFiles32\share\locale\sl\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="filA1CD778B373987ADB7EF1DE667D6C87C" DiskId="1" Source="InputFiles32\share\locale\sl\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="filB5094E9BBE047087F04D6DE4263F9F6E" DiskId="1" Source="InputFiles32\share\locale\sl\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="filAE926DBBB691A31AAEC387629BD8EE0D" DiskId="1" Source="InputFiles32\share\locale\sl\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filAE926DBBB691A31AAEC387629BD8EE0D" DiskId="1" Source="InputFiles32\share\locale\sl\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil3DD097D626D2DD767A59A3AB84A82DE4" DiskId="1" Source="InputFiles32\share\locale\sl\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil0FACB1B0B3C8C41656FC6F78E0AEB5EB" DiskId="1" Source="InputFiles32\share\locale\sl\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil80D106B997A7BA980EFA8970B822613C" DiskId="1" Source="InputFiles32\share\locale\sl\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3736,7 +3736,7 @@
                                             <File Id="fil9E9BF14F84EEEAA702A0D2E5FEE7170D" DiskId="1" Source="InputFiles32\share\locale\sr\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="filCBB1689EBEEACA7CDEC78F7323C35F9B" DiskId="1" Source="InputFiles32\share\locale\sr\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="filC41A2B752697A9E0F2EB91AC0E621EEF" DiskId="1" Source="InputFiles32\share\locale\sr\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="filA2DBAD6CFEE606389C6B5EA770DC49A8" DiskId="1" Source="InputFiles32\share\locale\sr\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filA2DBAD6CFEE606389C6B5EA770DC49A8" DiskId="1" Source="InputFiles32\share\locale\sr\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filCD72A96A4AFC1A37FB284D4F422C8EB7" DiskId="1" Source="InputFiles32\share\locale\sr\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filB6FEDB68D73150E89B36D94F5CDED300" DiskId="1" Source="InputFiles32\share\locale\sr\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filEAC87F562779C644966293929115B158" DiskId="1" Source="InputFiles32\share\locale\sr\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3777,7 +3777,7 @@
                                         <Component Id="cmp1AED29263D2C6D748A871FFD0545AC7D" Guid="YOUR-GUID-HERE">
                                             <File Id="fil554564C605EDE1AF265BCEEE0525C19C" DiskId="1" Source="InputFiles32\share\locale\sr@latin\LC_MESSAGES\atk10.mo" />
                                             <File Id="filD1DC6FAB27E1156FA70C91B966C4D2B9" DiskId="1" Source="InputFiles32\share\locale\sr@latin\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="filD0712E28AF54692F771B33003D7CDBA1" DiskId="1" Source="InputFiles32\share\locale\sr@latin\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filD0712E28AF54692F771B33003D7CDBA1" DiskId="1" Source="InputFiles32\share\locale\sr@latin\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filC7B28DC24B9BE343589965B671E01E6A" DiskId="1" Source="InputFiles32\share\locale\sr@latin\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil0111DF72707D6B9273C4AFBC1E3AD7C8" DiskId="1" Source="InputFiles32\share\locale\sr@latin\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filD865334DD0E50A35555D6CBCC67976D6" DiskId="1" Source="InputFiles32\share\locale\sr@latin\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3817,7 +3817,7 @@
                                             <File Id="filCACED5EBAEE2BD0AEAE92895BA8F71EE" DiskId="1" Source="InputFiles32\share\locale\sv\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="fil2F4204DA52F364C8AD43474DCEB6365D" DiskId="1" Source="InputFiles32\share\locale\sv\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="filB0B1748DB3070C63C916EBEA384EAB0D" DiskId="1" Source="InputFiles32\share\locale\sv\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="filBC5DDB573288AB3DF48F96B411D36656" DiskId="1" Source="InputFiles32\share\locale\sv\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filBC5DDB573288AB3DF48F96B411D36656" DiskId="1" Source="InputFiles32\share\locale\sv\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil88837483DCD264FC91161277A72BAEE8" DiskId="1" Source="InputFiles32\share\locale\sv\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil0BC5D5869BFD04CCDD2ACD98CB5B8259" DiskId="1" Source="InputFiles32\share\locale\sv\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filEFB5449114589A96788ACF10AC1F89ED" DiskId="1" Source="InputFiles32\share\locale\sv\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -3862,7 +3862,7 @@
                                         <Component Id="cmp5BBC6B01874614C51C0F042491FB1F90" Guid="YOUR-GUID-HERE">
                                             <File Id="fil6DE36D3E1E6B234DA89EDDE15A1AE246" DiskId="1" Source="InputFiles32\share\locale\ta\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil80BD8E7CD85E2FE8D43642426D357EDC" DiskId="1" Source="InputFiles32\share\locale\ta\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="fil95F81CF472B5BB791661B60651D8E894" DiskId="1" Source="InputFiles32\share\locale\ta\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil95F81CF472B5BB791661B60651D8E894" DiskId="1" Source="InputFiles32\share\locale\ta\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil7BFAB2C6EE13D4D730E14EBE38C9FB44" DiskId="1" Source="InputFiles32\share\locale\ta\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filD6C203B35AB1DE61F19F79BDD094563E" DiskId="1" Source="InputFiles32\share\locale\ta\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filC9DB091F4E0FE8E750AFAB3CEFBDCC16" DiskId="1" Source="InputFiles32\share\locale\ta\LC_MESSAGES\gimp20-tips.mo" />
@@ -3887,7 +3887,7 @@
                                         <Component Id="cmp3ACFB94F37D3AB2E89BD442081948408" Guid="YOUR-GUID-HERE">
                                             <File Id="fil6A4C62D24760BD16516C2070455F7B57" DiskId="1" Source="InputFiles32\share\locale\te\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil5DD19E689EEDDDFDFEFEAC299E3F67E2" DiskId="1" Source="InputFiles32\share\locale\te\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="fil7AA1DBB448A29572ACE77A84D2E39230" DiskId="1" Source="InputFiles32\share\locale\te\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil7AA1DBB448A29572ACE77A84D2E39230" DiskId="1" Source="InputFiles32\share\locale\te\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil58D5E5F560C87E360B31A1FC5432F327" DiskId="1" Source="InputFiles32\share\locale\te\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil7F13A9FC3B1DB18D8D7416B9C0638AF4" DiskId="1" Source="InputFiles32\share\locale\te\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil9A375AC2C2ACDCFD16DD1F1D4E869CEA" DiskId="1" Source="InputFiles32\share\locale\te\LC_MESSAGES\gimp20.mo" />
@@ -3941,7 +3941,7 @@
                                             <File Id="filDE4A019A3F8D17E0F2F579CC48B6A119" DiskId="1" Source="InputFiles32\share\locale\tr\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="fil27F94A67399F5EDA3AFDB083FF735F96" DiskId="1" Source="InputFiles32\share\locale\tr\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="filE95DE5E7C411760EEF45E473CC681B3B" DiskId="1" Source="InputFiles32\share\locale\tr\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="filAFD28EB752F2463ED11A1A11AC8D30A2" DiskId="1" Source="InputFiles32\share\locale\tr\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filAFD28EB752F2463ED11A1A11AC8D30A2" DiskId="1" Source="InputFiles32\share\locale\tr\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filCAC9899EF7D4C4CE8B14B47085EF1B3C" DiskId="1" Source="InputFiles32\share\locale\tr\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil91B3E5031D7CE6C21C991C8C25E94D4C" DiskId="1" Source="InputFiles32\share\locale\tr\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil3A8ADA725CB3BC31906FE275AB416D04" DiskId="1" Source="InputFiles32\share\locale\tr\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -4016,7 +4016,7 @@
                                             <File Id="filCAD47A2C916990B79471574C3E618467" DiskId="1" Source="InputFiles32\share\locale\uk\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="filD61531291816E3C25EBE8817D04A53EA" DiskId="1" Source="InputFiles32\share\locale\uk\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="fil2CCB496C0609A091A4526CBC66804943" DiskId="1" Source="InputFiles32\share\locale\uk\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil8AC230293EEA6B2645F6698106AE416D" DiskId="1" Source="InputFiles32\share\locale\uk\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil8AC230293EEA6B2645F6698106AE416D" DiskId="1" Source="InputFiles32\share\locale\uk\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filD7FF53C20CE5213E9949FE73D2009006" DiskId="1" Source="InputFiles32\share\locale\uk\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filD08411DF98E852503872DDC875F5024C" DiskId="1" Source="InputFiles32\share\locale\uk\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filF830C3F7EE7DB9965FF38D0D96D34422" DiskId="1" Source="InputFiles32\share\locale\uk\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -4064,7 +4064,7 @@
                                             <File Id="filB996238701672ECE2897A3E4DF9C8CA6" DiskId="1" Source="InputFiles32\share\locale\vi\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil37C1877F18506264E1A1ADDD1C8C2441" DiskId="1" Source="InputFiles32\share\locale\vi\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="filF488D66FCDBBEDAA1AF622645754EF08" DiskId="1" Source="InputFiles32\share\locale\vi\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil4761383F360CA29C6AE59ADD57D138EC" DiskId="1" Source="InputFiles32\share\locale\vi\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil4761383F360CA29C6AE59ADD57D138EC" DiskId="1" Source="InputFiles32\share\locale\vi\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil5ED08FEE2E863747B6C924A88B99B6BA" DiskId="1" Source="InputFiles32\share\locale\vi\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil99C0B10E463C83C5CCAE1E37D7A05708" DiskId="1" Source="InputFiles32\share\locale\vi\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil6F2EE3002FD6277C71EE8732AE0810D6" DiskId="1" Source="InputFiles32\share\locale\vi\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -4106,7 +4106,7 @@
                                         <Component Id="cmp52860644BB4E103E815E1C00FA591633" Guid="YOUR-GUID-HERE">
                                             <File Id="filF07903C1D7D1563810A1A50C5B8AE432" DiskId="1" Source="InputFiles32\share\locale\xh\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil1E3D302BD1BC8D5F81A59F32B1E552E8" DiskId="1" Source="InputFiles32\share\locale\xh\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="filE07B2FEDE5A3484DD8E990831A763613" DiskId="1" Source="InputFiles32\share\locale\xh\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filE07B2FEDE5A3484DD8E990831A763613" DiskId="1" Source="InputFiles32\share\locale\xh\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filF7D3CE60B9E7363B6E6D94A64AB570D5" DiskId="1" Source="InputFiles32\share\locale\xh\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil82FA00EB60924A27989D1DDEE3B6B8C7" DiskId="1" Source="InputFiles32\share\locale\xh\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil97B69088ECA2F94A1E1803DB4D641821" DiskId="1" Source="InputFiles32\share\locale\xh\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -4129,7 +4129,7 @@
                                         <Component Id="cmp19F1BE29757EA5D20AA76B6DDBA95C89" Guid="YOUR-GUID-HERE">
                                             <File Id="filD91E6E4BA0EED48891A9755C91D78813" DiskId="1" Source="InputFiles32\share\locale\yi\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil4DBB0F1006A32C711AFA0D049212BF0A" DiskId="1" Source="InputFiles32\share\locale\yi\LC_MESSAGES\gdk-pixbuf.mo" />
-                                            <File Id="fil133D92FEDB4D8A21E0A43DC734FDD57F" DiskId="1" Source="InputFiles32\share\locale\yi\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil133D92FEDB4D8A21E0A43DC734FDD57F" DiskId="1" Source="InputFiles32\share\locale\yi\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil01EFA88B3D4DCBAB627C91FF5A3E5CC6" DiskId="1" Source="InputFiles32\share\locale\yi\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil2D505DC64E9C7ED4B49B7973B0AC97D8" DiskId="1" Source="InputFiles32\share\locale\yi\LC_MESSAGES\gimp20-std-plug-ins.mo" />
                                             <File Id="filAC1D885793FF8BBF1367A9DB5AAAF52C" DiskId="1" Source="InputFiles32\share\locale\yi\LC_MESSAGES\gimp20.mo" />
@@ -4152,7 +4152,7 @@
                                             <File Id="filCE19D8E495C35FA8540A8759D5060DF3" DiskId="1" Source="InputFiles32\share\locale\zh_CN\LC_MESSAGES\gegl-0.4.mo" />
                                             <File Id="filEEA7953E0E4A298FAEDB6254ED998C43" DiskId="1" Source="InputFiles32\share\locale\zh_CN\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="fil5ED745FC567DFF9F78CD656FEBBFB81F" DiskId="1" Source="InputFiles32\share\locale\zh_CN\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="fil243D4D025A40B183EE5FE897CD70B115" DiskId="1" Source="InputFiles32\share\locale\zh_CN\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil243D4D025A40B183EE5FE897CD70B115" DiskId="1" Source="InputFiles32\share\locale\zh_CN\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="filCE291C6A2DB3D82D01DB5996332DB2DC" DiskId="1" Source="InputFiles32\share\locale\zh_CN\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil4BF264A6D13643B9534231ACA5E58C69" DiskId="1" Source="InputFiles32\share\locale\zh_CN\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="fil0605614F51360B1B05B28B29469340E2" DiskId="1" Source="InputFiles32\share\locale\zh_CN\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -4193,7 +4193,7 @@
                                             <File Id="filECFD3D8D2B2CD3AE3B1912C5963F45B7" DiskId="1" Source="InputFiles32\share\locale\zh_HK\LC_MESSAGES\atk10.mo" />
                                             <File Id="fil201A4004024D4C944A9DBE0E830FE275" DiskId="1" Source="InputFiles32\share\locale\zh_HK\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="filEC31F5DE3169F68EFBC65393CF0AD403" DiskId="1" Source="InputFiles32\share\locale\zh_HK\LC_MESSAGES\gettext-runtime.mo" />
-                                            <File Id="fil8094828673C335E46C20E5E54E70BBEF" DiskId="1" Source="InputFiles32\share\locale\zh_HK\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="fil8094828673C335E46C20E5E54E70BBEF" DiskId="1" Source="InputFiles32\share\locale\zh_HK\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil209EA785F62261FB750180BD44A8C737" DiskId="1" Source="InputFiles32\share\locale\zh_HK\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="filA7B3599C768DF8874AF2E1E6152D800B" DiskId="1" Source="InputFiles32\share\locale\zh_HK\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filECD205EA087A2E01DD7F49CAE37A025D" DiskId="1" Source="InputFiles32\share\locale\zh_HK\LC_MESSAGES\gimp20-std-plug-ins.mo" />
@@ -4224,7 +4224,7 @@
                                             <File Id="fil8B3E11C0E806588B5A10133D7CBE7683" DiskId="1" Source="InputFiles32\share\locale\zh_TW\LC_MESSAGES\gdk-pixbuf.mo" />
                                             <File Id="fil26B98C0933D3E7E480B197B882A58307" DiskId="1" Source="InputFiles32\share\locale\zh_TW\LC_MESSAGES\gettext-runtime.mo" />
                                             <File Id="fil3043747C76C637CF6CA09E26C3E90F80" DiskId="1" Source="InputFiles32\share\locale\zh_TW\LC_MESSAGES\gettext-tools.mo" />
-                                            <File Id="filBFCA6040F9D8D17FCA23DB99BFFBD3C9" DiskId="1" Source="InputFiles32\share\locale\zh_TW\LC_MESSAGES\gimp20-libgimp.mo" />
+                                            <File Id="filBFCA6040F9D8D17FCA23DB99BFFBD3C9" DiskId="1" Source="InputFiles32\share\locale\zh_TW\LC_MESSAGES\gimp20-libglimpse.mo" />
                                             <File Id="fil21B9CBFBCEE7B72430A61F144498ECA9" DiskId="1" Source="InputFiles32\share\locale\zh_TW\LC_MESSAGES\gimp20-python.mo" />
                                             <File Id="fil693D41AAF711B829C4356CB597BAC6A1" DiskId="1" Source="InputFiles32\share\locale\zh_TW\LC_MESSAGES\gimp20-script-fu.mo" />
                                             <File Id="filEB9B62482BC4E20E6A360B00E3541143" DiskId="1" Source="InputFiles32\share\locale\zh_TW\LC_MESSAGES\gimp20-std-plug-ins.mo" />

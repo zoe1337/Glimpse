@@ -24,8 +24,8 @@
 
 #include <cairo.h>
 
-#include "libgimpbase/gimpbase.h"
-#include "libgimpmath/gimpmath.h"
+#include "libglimpsebase/gimpbase.h"
+#include "libglimpsemath/gimpmath.h"
 
 #include "core-types.h"
 

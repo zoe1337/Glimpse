@@ -11,7 +11,7 @@ SUBDIRS = \
 	cursors			\
 	themes			\
 	po			\
-	po-libgimp		\
+	po-libglimpse		\
 	po-plug-ins		\
 	po-python		\
 	po-script-fu		\
@@ -20,17 +20,17 @@ SUBDIRS = \
 	data			\
 	desktop			\
 	menus			\
-	libgimpbase		\
+	libglimpsebase		\
 	tools			\
 	$(PDB)			\
 	icons			\
-	libgimpcolor		\
-	libgimpmath		\
-	libgimpconfig		\
-	libgimpmodule		\
-	libgimpthumb		\
-	libgimpwidgets		\
-	libgimp			\
+	libglimpsecolor		\
+	libglimpsemath		\
+	libglimpseconfig		\
+	libglimpsemodule		\
+	libglimpsethumb		\
+	libglimpsewidgets		\
+	libglimpse			\
 	app			\
 	app-tools		\
 	$(GIMP_MODULES)		\

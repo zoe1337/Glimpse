@@ -1202,7 +1202,7 @@ CODE
 }
 
 
-@headers = qw("libgimpbase/gimpbase.h"
+@headers = qw("libglimpsebase/gimpbase.h"
               "core/gimpcontext.h"
               "text/gimptext.h"
               "text/gimptextlayer.h"

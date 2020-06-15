@@ -356,7 +356,7 @@ CODE
 }
 
 
-@headers = qw("libgimpbase/gimpbase.h"
+@headers = qw("libglimpsebase/gimpbase.h"
               "core/gimpunit.h");
 
 @procs = qw(unit_get_number_of_units unit_get_number_of_built_in_units

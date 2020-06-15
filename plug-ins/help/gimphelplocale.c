@@ -21,7 +21,7 @@
  */
 
 /*  This code is written so that it can also be compiled standalone.
- *  It shouldn't depend on libgimp.
+ *  It shouldn't depend on libglimpse.
  */
 
 #include "config.h"
@@ -37,7 +37,7 @@
 #ifdef DISABLE_NLS
 #define _(String)  (String)
 #else
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 #endif
 
 

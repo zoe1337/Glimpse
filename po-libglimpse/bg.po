@@ -1,0 +1,1809 @@
+# Bulgarian translation of gimp-libglimpse po-file.
+# Copyright (C) 2005, 2006, 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the GIMP package.
+# Alexander Shopov <ash@contact.bg>, 2005.
+# Victor Dachev <vdachev@gmail.com>, 2005, 2006, 2007.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-libglimpse trunk\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
+"POT-Creation-Date: 2007-07-27 15:54+0300\n"
+"PO-Revision-Date: 2007-07-27 15:57+0300\n"
+"Last-Translator: Victor Dachev <vdachev@gmail.com>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../libglimpse/gimpbrushselectbutton.c:170
+msgid "Brush Selection"
+msgstr "Избор на четка"
+
+#: ../libglimpse/gimpbrushselectbutton.c:911
+#: ../libglimpse/gimppatternselectbutton.c:712
+msgid "_Browse..."
+msgstr "_Разглеждане..."
+
+#: ../libglimpse/gimpexport.c:217 ../libglimpse/gimpexport.c:253
+#, c-format
+msgid "%s plug-in can't handle layers"
+msgstr "Приставката %s не поддържа слоеве"
+
+#: ../libglimpse/gimpexport.c:218 ../libglimpse/gimpexport.c:227
+#: ../libglimpse/gimpexport.c:236 ../libglimpse/gimpexport.c:254
+msgid "Merge Visible Layers"
+msgstr "Сливане на видимите слоеве"
+
+#: ../libglimpse/gimpexport.c:226
+#, c-format
+msgid "%s plug-in can't handle layer offsets, size or opacity"
+msgstr ""
+"Приставката %s не поддържа отмествания, размери или прозрачност на слоеве"
+
+#: ../libglimpse/gimpexport.c:235 ../libglimpse/gimpexport.c:244
+#, c-format
+msgid "%s plug-in can only handle layers as animation frames"
+msgstr "Приставката %s поддържа слоеве само като кадри от анимация"
+
+#: ../libglimpse/gimpexport.c:236 ../libglimpse/gimpexport.c:245
+msgid "Save as Animation"
+msgstr "Запазване като анимация"
+
+#: ../libglimpse/gimpexport.c:245 ../libglimpse/gimpexport.c:254
+#: ../libglimpse/gimpexport.c:263
+msgid "Flatten Image"
+msgstr "Изравняване на изображението"
+
+#: ../libglimpse/gimpexport.c:262
+#, c-format
+msgid "%s plug-in can't handle transparency"
+msgstr "Приставката %s не поддържа прозрачност"
+
+#: ../libglimpse/gimpexport.c:271
+#, c-format
+msgid "%s plug-in can't handle layer masks"
+msgstr "Приставката %s не поддържа слоеви маски"
+
+#: ../libglimpse/gimpexport.c:272
+msgid "Apply Layer Masks"
+msgstr "Прилагане на слоеви маски"
+
+#: ../libglimpse/gimpexport.c:280
+#, c-format
+msgid "%s plug-in can only handle RGB images"
+msgstr "Приставката %s поддържа само ЧЗС изображения"
+
+#: ../libglimpse/gimpexport.c:281 ../libglimpse/gimpexport.c:319
+#: ../libglimpse/gimpexport.c:328
+msgid "Convert to RGB"
+msgstr "Преобразуване в ЧЗС"
+
+#: ../libglimpse/gimpexport.c:289
+#, c-format
+msgid "%s plug-in can only handle grayscale images"
+msgstr "Приставката %s поддържа само изображения в степени на сивото"
+
+#: ../libglimpse/gimpexport.c:290 ../libglimpse/gimpexport.c:319
+#: ../libglimpse/gimpexport.c:340
+msgid "Convert to Grayscale"
+msgstr "Преобразуване в степени на сивото"
+
+#: ../libglimpse/gimpexport.c:298
+#, c-format
+msgid "%s plug-in can only handle indexed images"
+msgstr "Приставката %s поддържа само изображения с индексирани цветове"
+
+#: ../libglimpse/gimpexport.c:299 ../libglimpse/gimpexport.c:328
+#: ../libglimpse/gimpexport.c:338
+msgid ""
+"Convert to Indexed using default settings\n"
+"(Do it manually to tune the result)"
+msgstr ""
+"Преобразуване в изображение с индексирани цветове с използване на "
+"настройките по подразбиране\n"
+"(Използва се ръчното за настройка на резултата)"
+
+#: ../libglimpse/gimpexport.c:308
+#, c-format
+msgid "%s plug-in can only handle bitmap (two color) indexed images"
+msgstr ""
+"Приставката %s поддържа само черно-бели (двуцветни) изображения с "
+"индексирани цветове"
+
+#: ../libglimpse/gimpexport.c:309
+msgid ""
+"Convert to Indexed using bitmap default settings\n"
+"(Do it manually to tune the result)"
+msgstr ""
+"Преобразуване в изображение с индексирани цветове с използване на "
+"настройките по подразбиране за черно-бяло\n"
+"(Използва се ръчното за настройка на резултата)"
+
+#: ../libglimpse/gimpexport.c:318
+#, c-format
+msgid "%s plug-in can only handle RGB or grayscale images"
+msgstr ""
+"Приставката %s поддържа само изображения с цветност ЧЗС или степени на сивото"
+
+#: ../libglimpse/gimpexport.c:327
+#, c-format
+msgid "%s plug-in  can only handle RGB or indexed images"
+msgstr "Приставката %s поддържа само изображения ЧЗС или индексирани цветове"
+
+#: ../libglimpse/gimpexport.c:337
+#, c-format
+msgid "%s plug-in can only handle grayscale or indexed images"
+msgstr ""
+"Приставката %s поддържа само изображения в степени на сивото или с "
+"индексирани цветове"
+
+#: ../libglimpse/gimpexport.c:348
+#, c-format
+msgid "%s plug-in needs an alpha channel"
+msgstr "Приставката %s се нуждае от канал за прозрачност"
+
+#: ../libglimpse/gimpexport.c:349
+msgid "Add Alpha Channel"
+msgstr "Добавяне на канал за прозрачност"
+
+#: ../libglimpse/gimpexport.c:383
+msgid "Confirm Save"
+msgstr "Потвърждение на запазването"
+
+#: ../libglimpse/gimpexport.c:389
+msgid "Confirm"
+msgstr "Потвърждение"
+
+#: ../libglimpse/gimpexport.c:464
+msgid "Export File"
+msgstr "Експортиране"
+
+#: ../libglimpse/gimpexport.c:468
+msgid "_Ignore"
+msgstr "_Игнориране"
+
+#: ../libglimpse/gimpexport.c:470
+msgid "_Export"
+msgstr "_Експорт"
+
+#. the headline
+#: ../libglimpse/gimpexport.c:499
+#, c-format
+msgid ""
+"Your image should be exported before it can be saved as %s for the following "
+"reasons:"
+msgstr ""
+"Изображението ви трябва да бъде експортирано преди да бъде запазено като %s "
+"поради следните причини:"
+
+#. the footline
+#: ../libglimpse/gimpexport.c:573
+msgid "The export conversion won't modify your original image."
+msgstr "Експортирането няма да промени оригиналното изображение."
+
+#: ../libglimpse/gimpexport.c:673
+#, c-format
+msgid ""
+"You are about to save a layer mask as %s.\n"
+"This will not save the visible layers."
+msgstr ""
+"Опитвате се да запазите като слоева маска %s \n"
+"Това няма да запази видимите слоеве."
+
+#: ../libglimpse/gimpexport.c:679
+#, c-format
+msgid ""
+"You are about to save a channel (saved selection) as %s.\n"
+"This will not save the visible layers."
+msgstr ""
+"Опитвате се да запазите като канал (запазена селекция) %s \n"
+"Това няма да запази видимите слоеве."
+
+#: ../libglimpse/gimpfontselectbutton.c:130
+msgid "Font Selection"
+msgstr "Избор на шрифт"
+
+#: ../libglimpse/gimpfontselectbutton.c:145
+msgid "Sans"
+msgstr "Прав"
+
+#: ../libglimpse/gimpgradientselectbutton.c:148
+msgid "Gradient Selection"
+msgstr "Избор на преливка"
+
+#: ../libglimpse/gimpmenu.c:450 ../libglimpsewidgets/gimpintstore.c:239
+msgid "(Empty)"
+msgstr "(Празно)"
+
+#: ../libglimpse/gimppaletteselectbutton.c:130
+msgid "Palette Selection"
+msgstr "Избор на палитра"
+
+#: ../libglimpse/gimppatternselectbutton.c:156
+msgid "Pattern Selection"
+msgstr "Избор на шарка"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:140
+msgid "by name"
+msgstr "по име"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:141
+msgid "by description"
+msgstr "по описание"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:142
+msgid "by help"
+msgstr "по помощ"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:143
+msgid "by author"
+msgstr "по автор"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:144
+msgid "by copyright"
+msgstr "по авторски права"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:145
+msgid "by date"
+msgstr "по дата"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:146
+msgid "by type"
+msgstr "по тип"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:377
+msgid "Searching"
+msgstr "Търсене"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:388
+msgid "Searching by name"
+msgstr "Търсене по име"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:409
+msgid "Searching by description"
+msgstr "Търсене по описание"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:416
+msgid "Searching by help"
+msgstr "Търсене по помощ"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:423
+msgid "Searching by author"
+msgstr "Търсене по автор"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:430
+msgid "Searching by copyright"
+msgstr "Търсене по авторски права"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:437
+msgid "Searching by date"
+msgstr "Търсене по дата"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:444
+msgid "Searching by type"
+msgstr "Търсене по тип"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:454
+#, c-format
+msgid "%d procedure"
+msgid_plural "%d procedures"
+msgstr[0] "%d процедури"
+msgstr[1] "%d процедури"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:463
+msgid "No matches for your query"
+msgstr "Няма отговарящи на търсенето"
+
+#: ../libglimpse/gimpprocbrowserdialog.c:467
+#, c-format
+msgid "%d procedure matches your query"
+msgid_plural "%d procedures match your query"
+msgstr[0] "%d съвпадения с критериите"
+msgstr[1] "%d процедури съвпадат с критериите"
+
+#. count label
+#: ../libglimpse/gimpprocbrowserdialog.c:516 ../libglimpsewidgets/gimpbrowser.c:114
+msgid "No matches"
+msgstr "Няма съвпадения"
+
+#: ../libglimpse/gimpprocview.c:143
+msgid "Parameters"
+msgstr "Параметри"
+
+#: ../libglimpse/gimpprocview.c:156
+msgid "Return Values"
+msgstr "Върнати стойности"
+
+#: ../libglimpse/gimpprocview.c:169
+msgid "Additional Information"
+msgstr "Допълнителна информация"
+
+#: ../libglimpse/gimpprocview.c:210
+msgid "Author:"
+msgstr "Автор:"
+
+#: ../libglimpse/gimpprocview.c:222
+msgid "Date:"
+msgstr "Дата:"
+
+#: ../libglimpse/gimpprocview.c:234
+msgid "Copyright:"
+msgstr "Авторски права:"
+
+#: ../libglimpse/gimpunitcache.c:57
+msgid "percent"
+msgstr "процента"
+
+#: ../libglimpsebase/gimpbaseenums.c:27
+msgid "_White (full opacity)"
+msgstr "_Бяло (пълна видимост)"
+
+#: ../libglimpsebase/gimpbaseenums.c:28
+msgid "_Black (full transparency)"
+msgstr "_Черно (пълна прозрачност)"
+
+#: ../libglimpsebase/gimpbaseenums.c:29
+msgid "Layer's _alpha channel"
+msgstr "Канал за _прозрачност на слоя"
+
+#: ../libglimpsebase/gimpbaseenums.c:30
+msgid "_Transfer layer's alpha channel"
+msgstr "_Прехвърляне канала за прозрачност на слоя"
+
+#: ../libglimpsebase/gimpbaseenums.c:31
+msgid "_Selection"
+msgstr "_Селекция"
+
+#: ../libglimpsebase/gimpbaseenums.c:32
+msgid "_Grayscale copy of layer"
+msgstr "_Копие на слоя в степени на сивото"
+
+#: ../libglimpsebase/gimpbaseenums.c:33
+msgid "C_hannel"
+msgstr "_Канал"
+
+#: ../libglimpsebase/gimpbaseenums.c:63
+msgid "FG to BG (RGB)"
+msgstr "ЦР към ЦФ (ЧЗС)"
+
+#: ../libglimpsebase/gimpbaseenums.c:64
+msgid "FG to BG (HSV)"
+msgstr "ЦР към ЦФ (HSV)"
+
+#: ../libglimpsebase/gimpbaseenums.c:65
+msgid "FG to transparent"
+msgstr "ЦР към прозрачност"
+
+#: ../libglimpsebase/gimpbaseenums.c:66
+msgid "Custom gradient"
+msgstr "Специфична преливка"
+
+#: ../libglimpsebase/gimpbaseenums.c:95
+msgid "FG color fill"
+msgstr "Запълване с цвета на рисуване"
+
+#: ../libglimpsebase/gimpbaseenums.c:96
+msgid "BG color fill"
+msgstr "Запълване с цвета на фона"
+
+#: ../libglimpsebase/gimpbaseenums.c:97
+msgid "Pattern fill"
+msgstr "Запълване с шарка"
+
+#: ../libglimpsebase/gimpbaseenums.c:127
+msgid "Add to the current selection"
+msgstr "Добавяне към текущата селекция"
+
+#: ../libglimpsebase/gimpbaseenums.c:128
+msgid "Subtract from the current selection"
+msgstr "Изваждане от текущата селекция"
+
+#: ../libglimpsebase/gimpbaseenums.c:129
+msgid "Replace the current selection"
+msgstr "Подмяна на текущата селекция"
+
+#: ../libglimpsebase/gimpbaseenums.c:130
+msgid "Intersect with the current selection"
+msgstr "Пресичане с текущата селекция"
+
+#: ../libglimpsebase/gimpbaseenums.c:162 ../libglimpsewidgets/gimpwidgetsenums.c:126
+msgid "Red"
+msgstr "Червено"
+
+#: ../libglimpsebase/gimpbaseenums.c:163 ../libglimpsewidgets/gimpwidgetsenums.c:127
+msgid "Green"
+msgstr "Зелено"
+
+#: ../libglimpsebase/gimpbaseenums.c:164 ../libglimpsewidgets/gimpwidgetsenums.c:128
+msgid "Blue"
+msgstr "Синьо"
+
+#: ../libglimpsebase/gimpbaseenums.c:165
+msgid "Gray"
+msgstr "Сиво"
+
+#: ../libglimpsebase/gimpbaseenums.c:166 ../libglimpsebase/gimpbaseenums.c:531
+msgid "Indexed"
+msgstr "Индексирано"
+
+#: ../libglimpsebase/gimpbaseenums.c:167 ../libglimpsewidgets/gimpwidgetsenums.c:129
+msgid "Alpha"
+msgstr "Прозрачност"
+
+#: ../libglimpsebase/gimpbaseenums.c:196
+msgid "Small"
+msgstr "Малко"
+
+#: ../libglimpsebase/gimpbaseenums.c:197
+msgid "Medium"
+msgstr "Средно"
+
+#: ../libglimpsebase/gimpbaseenums.c:198
+msgid "Large"
+msgstr "Голямо"
+
+#: ../libglimpsebase/gimpbaseenums.c:230
+msgid "Light checks"
+msgstr "Светли квадратчета"
+
+#: ../libglimpsebase/gimpbaseenums.c:231
+msgid "Mid-tone checks"
+msgstr "Средни квадратчета"
+
+#: ../libglimpsebase/gimpbaseenums.c:232
+msgid "Dark checks"
+msgstr "Тъмни квадратчета"
+
+#: ../libglimpsebase/gimpbaseenums.c:233
+msgid "White only"
+msgstr "Само бялото"
+
+#: ../libglimpsebase/gimpbaseenums.c:234
+msgid "Gray only"
+msgstr "Само сивото"
+
+#: ../libglimpsebase/gimpbaseenums.c:235
+msgid "Black only"
+msgstr "Само черното"
+
+#: ../libglimpsebase/gimpbaseenums.c:263
+msgid "Image"
+msgstr "Изображение"
+
+#: ../libglimpsebase/gimpbaseenums.c:264
+msgid "Pattern"
+msgstr "Шарка"
+
+#: ../libglimpsebase/gimpbaseenums.c:293
+msgid "Lightness"
+msgstr "Осветеност"
+
+#: ../libglimpsebase/gimpbaseenums.c:294
+msgid "Luminosity"
+msgstr "Отразяване"
+
+#: ../libglimpsebase/gimpbaseenums.c:295
+msgid "Average"
+msgstr "Средно"
+
+#: ../libglimpsebase/gimpbaseenums.c:323
+msgid "Dodge"
+msgstr "Отклонение"
+
+#: ../libglimpsebase/gimpbaseenums.c:324
+msgid "Burn"
+msgstr "Изгаряне"
+
+#: ../libglimpsebase/gimpbaseenums.c:388
+msgid "gradient|Linear"
+msgstr "Линеен"
+
+#: ../libglimpsebase/gimpbaseenums.c:389
+msgid "Bi-linear"
+msgstr "Би-линейно"
+
+#: ../libglimpsebase/gimpbaseenums.c:390
+msgid "Radial"
+msgstr "Радиално"
+
+#: ../libglimpsebase/gimpbaseenums.c:391 ../libglimpsewidgets/gimpwidgetsenums.c:24
+msgid "Square"
+msgstr "Квадратно"
+
+#: ../libglimpsebase/gimpbaseenums.c:392
+msgid "Conical (sym)"
+msgstr "Конично (симетрично)"
+
+#: ../libglimpsebase/gimpbaseenums.c:393
+msgid "Conical (asym)"
+msgstr "Конично (асиметрично)"
+
+#: ../libglimpsebase/gimpbaseenums.c:394
+msgid "Shaped (angular)"
+msgstr "Форма (ъглова)"
+
+#: ../libglimpsebase/gimpbaseenums.c:395
+msgid "Shaped (spherical)"
+msgstr "Форма (сферична)"
+
+#: ../libglimpsebase/gimpbaseenums.c:396
+msgid "Shaped (dimpled)"
+msgstr "Форма (неправилна)"
+
+#: ../libglimpsebase/gimpbaseenums.c:397
+msgid "Spiral (cw)"
+msgstr "Спирала (чс)"
+
+#: ../libglimpsebase/gimpbaseenums.c:398
+msgid "Spiral (ccw)"
+msgstr "Спирала (очс)"
+
+#: ../libglimpsebase/gimpbaseenums.c:429
+msgid "Intersections (dots)"
+msgstr "Пресичания (точки)"
+
+#: ../libglimpsebase/gimpbaseenums.c:430
+msgid "Intersections (crosshairs)"
+msgstr "Пресичания (кръст)"
+
+#: ../libglimpsebase/gimpbaseenums.c:431
+msgid "Dashed"
+msgstr "Тирета"
+
+#: ../libglimpsebase/gimpbaseenums.c:432
+msgid "Double dashed"
+msgstr "Двойни тирета"
+
+#: ../libglimpsebase/gimpbaseenums.c:433
+msgid "Solid"
+msgstr "Непрекъсната"
+
+#: ../libglimpsebase/gimpbaseenums.c:462
+msgid "Stock ID"
+msgstr "Идентификационен номер"
+
+#: ../libglimpsebase/gimpbaseenums.c:463
+msgid "Inline pixbuf"
+msgstr "Линейно смекчаване"
+
+#: ../libglimpsebase/gimpbaseenums.c:464
+msgid "Image file"
+msgstr "Файл на изображението"
+
+#: ../libglimpsebase/gimpbaseenums.c:493
+msgid "RGB color"
+msgstr "Цветност ЧЗС"
+
+#: ../libglimpsebase/gimpbaseenums.c:494 ../libglimpsebase/gimpbaseenums.c:529
+msgid "Grayscale"
+msgstr "Степени на сивото"
+
+#: ../libglimpsebase/gimpbaseenums.c:495
+msgid "Indexed color"
+msgstr "Индексиран цвят"
+
+#: ../libglimpsebase/gimpbaseenums.c:527
+msgid "RGB"
+msgstr "ЧЗС"
+
+#: ../libglimpsebase/gimpbaseenums.c:528
+msgid "RGB-alpha"
+msgstr "ЧЗС-прозрачност"
+
+#: ../libglimpsebase/gimpbaseenums.c:530
+msgid "Grayscale-alpha"
+msgstr "Степени на сивото - прозрачност"
+
+#: ../libglimpsebase/gimpbaseenums.c:532
+msgid "Indexed-alpha"
+msgstr "Индексиран цвят-прозрачност"
+
+#: ../libglimpsebase/gimpbaseenums.c:562
+msgid "interpolation|None"
+msgstr "Без"
+
+#: ../libglimpsebase/gimpbaseenums.c:563
+msgid "interpolation|Linear"
+msgstr "Линейно"
+
+#: ../libglimpsebase/gimpbaseenums.c:564
+msgid "Cubic"
+msgstr "Кубично"
+
+#: ../libglimpsebase/gimpbaseenums.c:565
+msgid "Sinc (Lanczos3)"
+msgstr "Синх (Ланкзос3)"
+
+#: ../libglimpsebase/gimpbaseenums.c:593
+msgid "Constant"
+msgstr "Постоянно"
+
+#: ../libglimpsebase/gimpbaseenums.c:594
+msgid "Incremental"
+msgstr "Увеличаващо се"
+
+#: ../libglimpsebase/gimpbaseenums.c:623 ../modules/cdisplay_lcms.c:267
+msgid "None"
+msgstr "Без"
+
+#: ../libglimpsebase/gimpbaseenums.c:624
+msgid "Sawtooth wave"
+msgstr "Плавна вълна"
+
+#: ../libglimpsebase/gimpbaseenums.c:625
+msgid "Triangular wave"
+msgstr "Триъгълна вълна"
+
+#: ../libglimpsebase/gimpbaseenums.c:654
+msgid "Run interactively"
+msgstr "Интерактивно"
+
+#: ../libglimpsebase/gimpbaseenums.c:655
+msgid "Run non-interactively"
+msgstr "Неинтерактивно"
+
+#: ../libglimpsebase/gimpbaseenums.c:656
+msgid "Run with last used values"
+msgstr "С последните използвани стойности"
+
+#: ../libglimpsebase/gimpbaseenums.c:684
+msgid "Pixels"
+msgstr "Пиксели"
+
+#: ../libglimpsebase/gimpbaseenums.c:685
+msgid "Points"
+msgstr "Точки"
+
+#: ../libglimpsebase/gimpbaseenums.c:714
+msgid "Shadows"
+msgstr "Сенки"
+
+#: ../libglimpsebase/gimpbaseenums.c:715
+msgid "Midtones"
+msgstr "Средни тонове"
+
+#: ../libglimpsebase/gimpbaseenums.c:716
+msgid "Highlights"
+msgstr "Светли тонове"
+
+#: ../libglimpsebase/gimpbaseenums.c:744
+msgid "Normal (Forward)"
+msgstr "Нормално (Напред)"
+
+#: ../libglimpsebase/gimpbaseenums.c:745
+msgid "Corrective (Backward)"
+msgstr "Поправяне (Назад)"
+
+#: ../libglimpsebase/gimpbaseenums.c:775
+msgid "Adjust"
+msgstr "Настройване"
+
+#: ../libglimpsebase/gimpbaseenums.c:776
+msgid "Clip"
+msgstr "Орязване"
+
+#: ../libglimpsebase/gimpbaseenums.c:777
+msgid "Crop to result"
+msgstr "Отрязване до резултата"
+
+#: ../libglimpsebase/gimpbaseenums.c:778
+msgid "Crop with aspect"
+msgstr "Отрязване с аспект"
+
+#: ../libglimpsebase/gimpbaseenums.c:881
+msgid "Internal Glimpse procedure"
+msgstr "Вътрешна процедура на Glimpse"
+
+#: ../libglimpsebase/gimpbaseenums.c:882
+msgid "GNU I.M.P Plug-In"
+msgstr "Приставка на GNU I.M.P"
+
+#: ../libglimpsebase/gimpbaseenums.c:883
+msgid "GNU I.M.P Extension"
+msgstr "Разширение на GNU I.M.P"
+
+#: ../libglimpsebase/gimpbaseenums.c:884
+msgid "Temporary Procedure"
+msgstr "Временна процедура"
+
+#: ../libglimpsebase/gimpmemsize.c:180
+#, c-format
+msgid "%d Byte"
+msgid_plural "%d Bytes"
+msgstr[0] "%d байта"
+msgstr[1] "%d байта"
+
+#: ../libglimpsebase/gimpmemsize.c:186
+#, c-format
+msgid "%.2f KB"
+msgstr "%.2f КБ"
+
+#: ../libglimpsebase/gimpmemsize.c:190
+#, c-format
+msgid "%.1f KB"
+msgstr "%.1f КБ"
+
+#: ../libglimpsebase/gimpmemsize.c:194
+#, c-format
+msgid "%d KB"
+msgstr "%d КБ"
+
+#: ../libglimpsebase/gimpmemsize.c:201
+#, c-format
+msgid "%.2f MB"
+msgstr "%.2f МБ"
+
+#: ../libglimpsebase/gimpmemsize.c:205
+#, c-format
+msgid "%.1f MB"
+msgstr "%.1f МБ"
+
+#: ../libglimpsebase/gimpmemsize.c:209
+#, c-format
+msgid "%d MB"
+msgstr "%d МБ"
+
+#: ../libglimpsebase/gimpmemsize.c:216
+#, c-format
+msgid "%.2f GB"
+msgstr "%.2f ГБ"
+
+#: ../libglimpsebase/gimpmemsize.c:220
+#, c-format
+msgid "%.1f GB"
+msgstr "%.1f ГБ"
+
+#: ../libglimpsebase/gimpmemsize.c:224
+#, c-format
+msgid "%d GB"
+msgstr "%d ГБ"
+
+#: ../libglimpsebase/gimputils.c:170 ../libglimpsebase/gimputils.c:175
+#: ../modules/cdisplay_lcms.c:259
+msgid "(invalid UTF-8 string)"
+msgstr "(невалидна последователност в UTF-8)"
+
+#: ../libglimpseconfig/gimpcolorconfig.c:40
+msgid "Mode of operation for color management."
+msgstr "Режим на операцията за настройка на цветовете."
+
+#: ../libglimpseconfig/gimpcolorconfig.c:42
+msgid "The color profile of your (primary) monitor."
+msgstr "Цветови профил на (основния) монитор."
+
+#: ../libglimpseconfig/gimpcolorconfig.c:44
+msgid ""
+"When enabled, Glimpse will try to use the display color profile from the "
+"windowing system.  The configured monitor profile is then only used as a "
+"fallback."
+msgstr ""
+"Когато е включено, Glimpse ще се опита да използва цветовия профил на монитора "
+"от графичната система.  Конфигурираният профил на монитор тогава ще се с "
+"използва само в случай на проблем."
+
+#: ../libglimpseconfig/gimpcolorconfig.c:48
+msgid "The default RGB working space color profile."
+msgstr "ЧЗС работен цветови профил по подразбиране."
+
+#: ../libglimpseconfig/gimpcolorconfig.c:50
+msgid "The CMYK color profile used to convert between RGB and CMYK."
+msgstr "CMYK цветови профил за конвертиране между ЧЗС и CMYK."
+
+#: ../libglimpseconfig/gimpcolorconfig.c:52
+msgid "The color profile used for simulating a printed version (softproof)."
+msgstr "Цветовия профил за симулиране на отпечатана версия (softproof)."
+
+#: ../libglimpseconfig/gimpcolorconfig.c:54
+msgid "Sets how colors are mapped for your display."
+msgstr "Задава как се визуализират цветовете на монитора."
+
+#: ../libglimpseconfig/gimpcolorconfig.c:56
+msgid ""
+"Sets how colors are converted from RGB working space to the print simulation "
+"device."
+msgstr ""
+"Задава как цветовете се конвертират от работната среда в симулация на печат."
+
+#: ../libglimpseconfig/gimpcolorconfig-enums.c:24
+msgid "No color management"
+msgstr "Без управление на цветовете"
+
+#: ../libglimpseconfig/gimpcolorconfig-enums.c:25
+msgid "Color managed display"
+msgstr "Управление цветовете на монитора"
+
+#: ../libglimpseconfig/gimpcolorconfig-enums.c:26
+msgid "Print simulation"
+msgstr "Симулация на разпечатка"
+
+#: ../libglimpseconfig/gimpcolorconfig-enums.c:56
+msgid "Perceptual"
+msgstr "Перцептуално"
+
+#: ../libglimpseconfig/gimpcolorconfig-enums.c:57
+msgid "Relative colorimetric"
+msgstr "Относително цветометрично"
+
+#: ../libglimpseconfig/gimpcolorconfig-enums.c:58
+msgid "intent|Saturation"
+msgstr "Насищане"
+
+#: ../libglimpseconfig/gimpcolorconfig-enums.c:59
+msgid "Absolute colorimetric"
+msgstr "Абсолютно цветометрично"
+
+#: ../libglimpseconfig/gimpconfig-deserialize.c:97
+#, c-format
+msgid "value for token %s is not a valid UTF-8 string"
+msgstr "стойността за команда %s не е низ в UTF-8"
+
+#. please don't translate 'yes' and 'no'
+#: ../libglimpseconfig/gimpconfig-deserialize.c:436
+#, c-format
+msgid "expected 'yes' or 'no' for boolean token %s, got '%s'"
+msgstr "при очаквано „да“ или „не“ за %s, е получено „%s“"
+
+#: ../libglimpseconfig/gimpconfig-deserialize.c:510
+#, c-format
+msgid "invalid value '%s' for token %s"
+msgstr "Грешна стойност за „%s“ в „%s“"
+
+#: ../libglimpseconfig/gimpconfig-deserialize.c:525
+#, c-format
+msgid "invalid value '%ld' for token %s"
+msgstr "Грешна стойност за „%ld“ в „%s“"
+
+#: ../libglimpseconfig/gimpconfig-deserialize.c:594
+#, c-format
+msgid "while parsing token '%s': %s"
+msgstr "при четене на „%s“: %s"
+
+#: ../libglimpseconfig/gimpconfig-iface.c:454
+#: ../libglimpseconfig/gimpconfig-iface.c:467 ../libglimpseconfig/gimpscanner.c:498
+#: ../libglimpseconfig/gimpscanner.c:579
+msgid "fatal parse error"
+msgstr "фатална грешка при четене"
+
+#: ../libglimpseconfig/gimpconfig-path.c:377
+#, c-format
+msgid "Cannot expand ${%s}"
+msgstr "Не може да се покаже ${%s}"
+
+#: ../libglimpseconfig/gimpconfigwriter.c:78
+#: ../libglimpseconfig/gimpconfigwriter.c:693
+#, c-format
+msgid "Error writing to '%s': %s"
+msgstr "Грешка при запис на „%s“: %s"
+
+#: ../libglimpseconfig/gimpconfigwriter.c:136
+#, c-format
+msgid "Could not create temporary file for '%s': %s"
+msgstr "Не може да се създаде временен файл за „%s“: %s"
+
+#: ../libglimpseconfig/gimpconfigwriter.c:149
+#, c-format
+msgid "Could not open '%s' for writing: %s"
+msgstr "Не може да се отвори „%s“ за запис: „%s“"
+
+#: ../libglimpseconfig/gimpconfigwriter.c:674
+#, c-format
+msgid ""
+"Error writing to temporary file for '%s': %s\n"
+"The original file has not been touched."
+msgstr ""
+"Грешка при запис на временен файл за „%s“: %s\n"
+"Оригиналния файл не е бил променен."
+
+#: ../libglimpseconfig/gimpconfigwriter.c:682
+#, c-format
+msgid ""
+"Error writing to temporary file for '%s': %s\n"
+"No file has been created."
+msgstr ""
+"Грешка при запис на временен файл за „%s“: %s\n"
+"Не е създаден файл."
+
+#: ../libglimpseconfig/gimpconfigwriter.c:711
+#, c-format
+msgid "Could not create '%s': %s"
+msgstr "Не може да се създаде „%s“: %s"
+
+#: ../libglimpseconfig/gimpscanner.c:255
+msgid "invalid UTF-8 string"
+msgstr "Невалиден UTF-8"
+
+#: ../libglimpseconfig/gimpscanner.c:606
+#, c-format
+msgid "Error while parsing '%s' in line %d: %s"
+msgstr "Грешка при четене на „%s“ в ред %d: %s"
+
+#: ../libglimpsemodule/gimpmodule.c:153 ../libglimpsemodule/gimpmodule.c:171
+#: ../libglimpsemodule/gimpmodule.c:280 ../libglimpsemodule/gimpmodule.c:307
+#: ../libglimpsemodule/gimpmodule.c:418
+#, c-format
+msgid "Module '%s' load error: %s"
+msgstr "Грешка при зареждане на модул „%s“: %s"
+
+#: ../libglimpsemodule/gimpmodule.c:375
+msgid "Module error"
+msgstr "Грешка в модула"
+
+#: ../libglimpsemodule/gimpmodule.c:376
+msgid "Loaded"
+msgstr "Зареден"
+
+#: ../libglimpsemodule/gimpmodule.c:377
+msgid "Load failed"
+msgstr "Зареждането е невъзможно"
+
+#: ../libglimpsemodule/gimpmodule.c:378
+msgid "Not loaded"
+msgstr "Незареден"
+
+#: ../libglimpsethumb/gimpthumb-utils.c:125
+#, c-format
+msgid ""
+"Cannot determine a valid home directory.\n"
+"Thumbnails will be stored in the folder for temporary files (%s) instead."
+msgstr ""
+"Не може да се определи валидна домашна папка.\n"
+"Вместо това предварителните прегледи ще се запазват във папката за временни "
+"файлове (%s)."
+
+#: ../libglimpsethumb/gimpthumb-utils.c:249 ../libglimpsethumb/gimpthumb-utils.c:317
+#, c-format
+msgid "Failed to create thumbnail folder '%s'."
+msgstr "Грешка при създаване на папка за умалени копия „%s“."
+
+#: ../libglimpsethumb/gimpthumbnail.c:498
+msgid "Thumbnail contains no Thumb::URI tag"
+msgstr "Умаленото изображение не съдържа Thumb::URI таг"
+
+#: ../libglimpsethumb/gimpthumbnail.c:898
+#, c-format
+msgid "Could not create thumbnail for %s: %s"
+msgstr "Не може да бъде създаден предварителен преглед за %s: %s"
+
+#: ../libglimpsewidgets/gimpbrowser.c:98
+msgid "_Search:"
+msgstr "_Търсене:"
+
+#: ../libglimpsewidgets/gimpcolorbutton.c:118
+msgid "_Foreground Color"
+msgstr "Цвят за _рисуване"
+
+#: ../libglimpsewidgets/gimpcolorbutton.c:122
+msgid "_Background Color"
+msgstr "Цвят на _фона"
+
+#: ../libglimpsewidgets/gimpcolorbutton.c:126
+msgid "Blac_k"
+msgstr "_Черно"
+
+#: ../libglimpsewidgets/gimpcolorbutton.c:130
+msgid "_White"
+msgstr "_Бяло"
+
+#: ../libglimpsewidgets/gimpcolorscales.c:98
+msgid "Scales"
+msgstr "Мащабирания"
+
+#: ../libglimpsewidgets/gimpcolorselection.c:210
+msgid "Current:"
+msgstr "Текущ:"
+
+#: ../libglimpsewidgets/gimpcolorselection.c:232
+msgid "Old:"
+msgstr "Стар:"
+
+#: ../libglimpsewidgets/gimpcolorselection.c:286
+msgid ""
+"Hexadecimal color notation as used in HTML and CSS.  This entry also accepts "
+"CSS color names."
+msgstr ""
+"Шестнадесетично отбелязване на цветовете, като използваното в HTML и CSS. "
+"Приемат се и имена на цветове според CSS."
+
+#: ../libglimpsewidgets/gimpcolorselection.c:292
+msgid "HTML _notation:"
+msgstr "HTML _нотация:"
+
+#: ../libglimpsewidgets/gimpfileentry.c:174
+msgid "Open a file selector to browse your folders"
+msgstr "Отворете избора на файл за да потърсите в папките си"
+
+#: ../libglimpsewidgets/gimpfileentry.c:175
+msgid "Open a file selector to browse your files"
+msgstr "Отворете избора на файл за да потърсите във файловете си"
+
+#: ../libglimpsewidgets/gimpfileentry.c:335
+msgid "Select Folder"
+msgstr "Избор на папка"
+
+#: ../libglimpsewidgets/gimpfileentry.c:337
+msgid "Select File"
+msgstr "Избор на файл"
+
+#: ../libglimpsewidgets/gimpmemsizeentry.c:204
+msgid "Kilobytes"
+msgstr "Килобайти"
+
+#: ../libglimpsewidgets/gimpmemsizeentry.c:205
+msgid "Megabytes"
+msgstr "Мегабайти"
+
+#: ../libglimpsewidgets/gimpmemsizeentry.c:206
+msgid "Gigabytes"
+msgstr "Гигабайти"
+
+#. Count label
+#: ../libglimpsewidgets/gimppageselector.c:269
+#: ../libglimpsewidgets/gimppageselector.c:1171
+msgid "Nothing selected"
+msgstr "Няма избрано"
+
+#: ../libglimpsewidgets/gimppageselector.c:287
+msgid "Select _All"
+msgstr "Избор на _всички"
+
+#: ../libglimpsewidgets/gimppageselector.c:307
+msgid "Select _range:"
+msgstr "Избор на _периметър:"
+
+#: ../libglimpsewidgets/gimppageselector.c:319
+msgid "Open _pages as"
+msgstr "Отваряне на _страници като"
+
+#: ../libglimpsewidgets/gimppageselector.c:420
+msgid "Page 000"
+msgstr "Страница 000"
+
+#: ../libglimpsewidgets/gimppageselector.c:512
+#: ../libglimpsewidgets/gimppageselector.c:749
+#, c-format
+msgid "Page %d"
+msgstr "Страница %d"
+
+#: ../libglimpsewidgets/gimppageselector.c:1176
+msgid "One page selected"
+msgstr "Избрана е една страница"
+
+#: ../libglimpsewidgets/gimppageselector.c:1183
+#: ../libglimpsewidgets/gimppageselector.c:1187
+#, c-format
+msgid "%d page selected"
+msgid_plural "All %d pages selected"
+msgstr[0] "Избрани са %d страници"
+msgstr[1] "Избрани са %d страници"
+
+#: ../libglimpsewidgets/gimppatheditor.c:214
+msgid "Writable"
+msgstr "Записваемо"
+
+#: ../libglimpsewidgets/gimppatheditor.c:223
+msgid "Folder"
+msgstr "Папка"
+
+#: ../libglimpsewidgets/gimppickbutton.c:107
+msgid ""
+"Click the eyedropper, then click a color anywhere on your screen to select "
+"that color."
+msgstr "Изберете пипетата, след това цвят където и да е на екрана."
+
+#: ../libglimpsewidgets/gimppreviewarea.c:94
+msgid "Check Size"
+msgstr "Размер на квадратчето"
+
+#: ../libglimpsewidgets/gimppreviewarea.c:101
+msgid "Check Style"
+msgstr "Вид на квадратчето"
+
+#. toggle button to (des)activate the instant preview
+#: ../libglimpsewidgets/gimppreview.c:277
+msgid "_Preview"
+msgstr "_Предварителен преглед"
+
+#: ../libglimpsewidgets/gimppropwidgets.c:1901
+#, c-format
+msgid "This text input field is limited to %d character."
+msgid_plural "This text input field is limited to %d characters."
+msgstr[0] "Полето за въвеждане на текст има ограничение от %d знака."
+msgstr[1] "Полето за въвеждане на текст има ограничение от %d знака."
+
+#: ../libglimpsewidgets/gimpstock.c:113
+msgid "Anchor"
+msgstr "Котва"
+
+#: ../libglimpsewidgets/gimpstock.c:114
+msgid "C_enter"
+msgstr "_Центриране"
+
+#: ../libglimpsewidgets/gimpstock.c:115
+msgid "_Duplicate"
+msgstr "_Дублиране"
+
+#: ../libglimpsewidgets/gimpstock.c:116
+msgid "_Edit"
+msgstr "_Редактиране"
+
+#: ../libglimpsewidgets/gimpstock.c:117
+msgid "Linked"
+msgstr "Свързано"
+
+#: ../libglimpsewidgets/gimpstock.c:118
+msgid "Paste as New"
+msgstr "Поставяне като нов"
+
+#: ../libglimpsewidgets/gimpstock.c:119
+msgid "Paste Into"
+msgstr "Поставяне в"
+
+#: ../libglimpsewidgets/gimpstock.c:120
+msgid "_Reset"
+msgstr "_Начално"
+
+#: ../libglimpsewidgets/gimpstock.c:121
+msgid "Visible"
+msgstr "Видим"
+
+#: ../libglimpsewidgets/gimpstock.c:157 ../libglimpsewidgets/gimpstock.c:161
+msgid "_Stroke"
+msgstr "_Очертаване"
+
+#: ../libglimpsewidgets/gimpstock.c:173
+msgid "L_etter Spacing"
+msgstr "Между_буквени разстояния"
+
+#: ../libglimpsewidgets/gimpstock.c:174
+msgid "L_ine Spacing"
+msgstr "Между_редови разстояния"
+
+#: ../libglimpsewidgets/gimpstock.c:190
+msgid "_Resize"
+msgstr "_Преоразмеряване"
+
+#: ../libglimpsewidgets/gimpstock.c:191 ../libglimpsewidgets/gimpstock.c:319
+msgid "_Scale"
+msgstr "_Мащабиране"
+
+#: ../libglimpsewidgets/gimpstock.c:295
+msgid "Cr_op"
+msgstr "_Отрязване"
+
+#: ../libglimpsewidgets/gimpstock.c:314
+msgid "_Transform"
+msgstr "_Преобразуване"
+
+#: ../libglimpsewidgets/gimpstock.c:318
+msgid "_Rotate"
+msgstr "_Завъртане"
+
+#: ../libglimpsewidgets/gimpstock.c:320
+msgid "_Shear"
+msgstr "_Деформиране"
+
+#: ../libglimpsewidgets/gimpunitmenu.c:266
+msgid "More..."
+msgstr "Още..."
+
+#: ../libglimpsewidgets/gimpunitmenu.c:577
+msgid "Unit Selection"
+msgstr "Избор на единици"
+
+#: ../libglimpsewidgets/gimpunitmenu.c:626
+msgid "Unit"
+msgstr "Единица"
+
+#: ../libglimpsewidgets/gimpunitmenu.c:630
+msgid "Factor"
+msgstr "Фактор"
+
+#: ../libglimpsewidgets/gimpwidgets.c:1005
+msgid ""
+"Use this value for random number generator seed - this allows you to repeat "
+"a given \"random\" operation"
+msgstr ""
+"Използване на тази стойност за генериране на случайни стойности за "
+"разпръскването - това позволява повтарянето на дадена „случайна“ операция"
+
+#: ../libglimpsewidgets/gimpwidgets.c:1009
+msgid "_New Seed"
+msgstr "_Ново разпръскване"
+
+#: ../libglimpsewidgets/gimpwidgets.c:1022
+msgid "Seed random number generator with a generated random number"
+msgstr ""
+"Генератор на разпръскване по случайни стойности с генерирана случайна "
+"стойност"
+
+#: ../libglimpsewidgets/gimpwidgets.c:1026
+msgid "_Randomize"
+msgstr "_Произволно"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:25
+msgid "Portrait"
+msgstr "Портрет"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:26
+msgid "Landscape"
+msgstr "Пейзаж"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:123
+msgid "_H"
+msgstr "_Н"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:123
+msgid "Hue"
+msgstr "Нюанс"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:124
+msgid "_S"
+msgstr "_Н"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:124
+msgid "Saturation"
+msgstr "Насищане"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:125
+msgid "_V"
+msgstr "_С"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:125
+msgid "Value"
+msgstr "Стойност"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:126
+msgid "_R"
+msgstr "_Ч"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:127
+msgid "_G"
+msgstr "_З"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:128
+msgid "_B"
+msgstr "_С"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:129
+msgid "_A"
+msgstr "_П"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:157
+msgid "Layers"
+msgstr "Слоеве"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:158
+msgid "Images"
+msgstr "Изображения"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:217
+msgid "Zoom in"
+msgstr "Увеличаване"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:218
+msgid "Zoom out"
+msgstr "Намаляване"
+
+#: ../modules/cdisplay_colorblind.c:67
+msgid "Protanopia (insensitivity to red)"
+msgstr "Протанопия (интензивност към червено)"
+
+#: ../modules/cdisplay_colorblind.c:69
+msgid "Deuteranopia (insensitivity to green)"
+msgstr "Деутеранопия (интензивност към зелено)"
+
+#: ../modules/cdisplay_colorblind.c:71
+msgid "Tritanopia (insensitivity to blue)"
+msgstr "Тританопия (интензивност към синьо)"
+
+#: ../modules/cdisplay_colorblind.c:200
+msgid "Color deficit simulation filter (Brettel-Vienot-Mollon algorithm)"
+msgstr "Симулация на цветови недостиг (алгоритъм Брет-Венот-Молон)"
+
+#: ../modules/cdisplay_colorblind.c:292
+msgid "Color Deficient Vision"
+msgstr "Преглед с недостиг на цветове"
+
+#: ../modules/cdisplay_colorblind.c:507
+msgid "Color _deficiency type:"
+msgstr "Тип на _недостига на цветове:"
+
+#: ../modules/cdisplay_gamma.c:91
+msgid "Gamma color display filter"
+msgstr "Филтър за показване на гама-цветове"
+
+#: ../modules/cdisplay_gamma.c:160
+msgid "Gamma"
+msgstr "Гама"
+
+#: ../modules/cdisplay_gamma.c:253
+msgid "_Gamma:"
+msgstr "_Гама:"
+
+#: ../modules/cdisplay_highcontrast.c:91
+msgid "High Contrast color display filter"
+msgstr "Показване на цветове с висок контраст"
+
+#: ../modules/cdisplay_highcontrast.c:160
+msgid "Contrast"
+msgstr "Контраст"
+
+#: ../modules/cdisplay_highcontrast.c:253
+msgid "Contrast c_ycles:"
+msgstr "_Нива на контраст:"
+
+#: ../modules/cdisplay_lcms.c:116
+msgid "Color management display filter using ICC color profiles"
+msgstr "Филтър за управление на цветовете, използващ ICC цветови профили"
+
+#: ../modules/cdisplay_lcms.c:184
+msgid "Color Management"
+msgstr "Управления на цветовете"
+
+#: ../modules/cdisplay_lcms.c:288
+msgid ""
+"This filter takes its configuration from the Color Management section in the "
+"Preferences dialog."
+msgstr ""
+"Този филтър използва конфигурацията от секцията за Управление на цветовете в "
+"настройките."
+
+#: ../modules/cdisplay_lcms.c:302
+msgid "Mode of operation:"
+msgstr "Режим на операция:"
+
+#: ../modules/cdisplay_lcms.c:309
+msgid "RGB working space profile:"
+msgstr "ЧЗС работен цветови профил:"
+
+#: ../modules/cdisplay_lcms.c:316
+msgid "Monitor profile:"
+msgstr "Профил на монитора:"
+
+#: ../modules/cdisplay_lcms.c:323
+msgid "Print simulation profile:"
+msgstr "Профил за симулиране на разпечатка:"
+
+#: ../modules/cdisplay_proof.c:102
+msgid "Color proof filter using ICC color profile"
+msgstr "Филтър за цветова корекция, използващ ICC профил"
+
+#: ../modules/cdisplay_proof.c:179
+msgid "Color Proof"
+msgstr "Цветова корекция"
+
+#: ../modules/cdisplay_proof.c:306
+msgid "_Intent:"
+msgstr "_Съсредоточаване:"
+
+#: ../modules/cdisplay_proof.c:310
+msgid "Choose an ICC Color Profile"
+msgstr "Избор на ICC цветови профил"
+
+#: ../modules/cdisplay_proof.c:313
+msgid "_Profile:"
+msgstr "_Профил:"
+
+#: ../modules/cdisplay_proof.c:318
+msgid "_Black Point Compensation"
+msgstr "_Компенсация на черна точка"
+
+#: ../modules/colorsel_cmyk.c:73
+msgid "CMYK color selector"
+msgstr "Избор на CMYK цвят"
+
+#: ../modules/colorsel_cmyk.c:130
+msgid "CMYK"
+msgstr "CMYK"
+
+#. Cyan
+#: ../modules/colorsel_cmyk.c:148
+msgid "_C"
+msgstr "_C"
+
+#. Magenta
+#: ../modules/colorsel_cmyk.c:150
+msgid "_M"
+msgstr "_M"
+
+#. Yellow
+#: ../modules/colorsel_cmyk.c:152
+msgid "_Y"
+msgstr "_Y"
+
+#. Key (Black)
+#: ../modules/colorsel_cmyk.c:154
+msgid "_K"
+msgstr "_K"
+
+#: ../modules/colorsel_cmyk.c:158
+msgid "Cyan"
+msgstr "Циан"
+
+#: ../modules/colorsel_cmyk.c:159
+msgid "Magenta"
+msgstr "Магента"
+
+#: ../modules/colorsel_cmyk.c:160
+msgid "Yellow"
+msgstr "Жълто"
+
+#: ../modules/colorsel_cmyk.c:161
+msgid "Black"
+msgstr "Черно"
+
+#: ../modules/colorsel_cmyk.c:195
+msgid "Black _pullout:"
+msgstr "_Изтегляне на черното:"
+
+#: ../modules/colorsel_cmyk.c:212
+msgid "The percentage of black to pull out of the colored inks."
+msgstr ""
+"Процент на черното, което трябва да бъде изтеглено от цветните мастила."
+
+#: ../modules/colorsel_triangle.c:104
+msgid "Painter-style triangle color selector"
+msgstr "Триъгълен цветови селектор в художествен стил"
+
+#: ../modules/colorsel_triangle.c:170
+msgid "Triangle"
+msgstr "Триъгълник"
+
+#: ../modules/colorsel_water.c:84
+msgid "Watercolor style color selector"
+msgstr "Цветови селектор в стил акварел"
+
+#: ../modules/colorsel_water.c:150
+msgid "Watercolor"
+msgstr "Акварел"
+
+#: ../modules/colorsel_water.c:213
+msgid "Pressure"
+msgstr "Натиск"
+
+#: ../modules/controller_linux_input.c:58
+msgid "Button 0"
+msgstr "Бутон 0"
+
+#: ../modules/controller_linux_input.c:59
+msgid "Button 1"
+msgstr "Бутон 1"
+
+#: ../modules/controller_linux_input.c:60
+msgid "Button 2"
+msgstr "Бутон 2"
+
+#: ../modules/controller_linux_input.c:61
+msgid "Button 3"
+msgstr "Бутон 3"
+
+#: ../modules/controller_linux_input.c:62
+msgid "Button 4"
+msgstr "Бутон 4"
+
+#: ../modules/controller_linux_input.c:63
+msgid "Button 5"
+msgstr "Бутон 5"
+
+#: ../modules/controller_linux_input.c:64
+msgid "Button 6"
+msgstr "Бутон 6"
+
+#: ../modules/controller_linux_input.c:65
+msgid "Button 7"
+msgstr "Бутон 7"
+
+#: ../modules/controller_linux_input.c:66
+msgid "Button 8"
+msgstr "Бутон 8"
+
+#: ../modules/controller_linux_input.c:67
+msgid "Button 9"
+msgstr "Бутон 9"
+
+#: ../modules/controller_linux_input.c:68
+msgid "Button Mouse"
+msgstr "Бутон на мишката"
+
+#: ../modules/controller_linux_input.c:69
+msgid "Button Left"
+msgstr "Ляв бутон"
+
+#: ../modules/controller_linux_input.c:70
+msgid "Button Right"
+msgstr "Десен бутон"
+
+#: ../modules/controller_linux_input.c:71
+msgid "Button Middle"
+msgstr "Среден бутон"
+
+#: ../modules/controller_linux_input.c:72
+msgid "Button Side"
+msgstr "Страничен бутон"
+
+#: ../modules/controller_linux_input.c:73
+msgid "Button Extra"
+msgstr "Допълнителен бутон"
+
+#: ../modules/controller_linux_input.c:74
+msgid "Button Forward"
+msgstr "Бутон напред"
+
+#: ../modules/controller_linux_input.c:75
+msgid "Button Back"
+msgstr "Бутон назад"
+
+#: ../modules/controller_linux_input.c:76
+msgid "Button Task"
+msgstr "Бутон за задача"
+
+#: ../modules/controller_linux_input.c:78
+msgid "Button Wheel"
+msgstr "Бутон на колелцето"
+
+#: ../modules/controller_linux_input.c:81
+msgid "Button Gear Down"
+msgstr "Долен механичен бутон"
+
+#: ../modules/controller_linux_input.c:84
+msgid "Button Gear Up"
+msgstr "Горен механичен бутон"
+
+#: ../modules/controller_linux_input.c:90
+#: ../modules/controller_dx_dinput.c:469
+msgid "X Move Left"
+msgstr "Х движение на ляво"
+
+#: ../modules/controller_linux_input.c:91
+#: ../modules/controller_dx_dinput.c:472
+msgid "X Move Right"
+msgstr "Х движение на дясно"
+
+#: ../modules/controller_linux_input.c:92
+msgid "Y Move Forward"
+msgstr "В преместване напред"
+
+#: ../modules/controller_linux_input.c:93
+msgid "Y Move Back"
+msgstr "В движение назад"
+
+#: ../modules/controller_linux_input.c:94
+#: ../modules/controller_dx_dinput.c:487
+msgid "Z Move Up"
+msgstr "Д движение нагоре"
+
+#: ../modules/controller_linux_input.c:95
+#: ../modules/controller_dx_dinput.c:490
+msgid "Z Move Down"
+msgstr "Д движение надолу"
+
+#: ../modules/controller_linux_input.c:97
+msgid "X Axis Tilt Forward"
+msgstr "Наклон напред по Х"
+
+#: ../modules/controller_linux_input.c:98
+msgid "X Axis Tilt Back"
+msgstr "Наклон назад по Х"
+
+#: ../modules/controller_linux_input.c:99
+#: ../modules/controller_dx_dinput.c:505
+msgid "Y Axis Tilt Right"
+msgstr "Наклон надясно по В"
+
+#: ../modules/controller_linux_input.c:100
+#: ../modules/controller_dx_dinput.c:508
+msgid "Y Axis Tilt Left"
+msgstr "Наклон наляво по В"
+
+#: ../modules/controller_linux_input.c:101
+#: ../modules/controller_dx_dinput.c:514
+msgid "Z Axis Turn Left"
+msgstr "Д обръщане на ляво"
+
+#: ../modules/controller_linux_input.c:102
+#: ../modules/controller_dx_dinput.c:517
+msgid "Z Axis Turn Right"
+msgstr "Д обръщане на дясно"
+
+#: ../modules/controller_linux_input.c:104
+msgid "Horiz. Wheel Turn Back"
+msgstr "Кориз. обратно на часовника"
+
+#: ../modules/controller_linux_input.c:105
+msgid "Horiz. Wheel Turn Forward"
+msgstr "Кориз. по часовника"
+
+#: ../modules/controller_linux_input.c:106
+msgid "Dial Turn Left"
+msgstr "Набиране обърнато на ляво"
+
+#: ../modules/controller_linux_input.c:107
+msgid "Dial Turn Right"
+msgstr "Набиране обърнато на дясно"
+
+#: ../modules/controller_linux_input.c:108
+msgid "Wheel Turn Left"
+msgstr "Завъртане колелцето на ляво"
+
+#: ../modules/controller_linux_input.c:109
+msgid "Wheel Turn Right"
+msgstr "Завъртане колелцето на дясно"
+
+#: ../modules/controller_linux_input.c:179
+msgid "Linux input event controller"
+msgstr "Linux контролер на входните устройства"
+
+#: ../modules/controller_linux_input.c:249
+#: ../modules/controller_dx_dinput.c:227 ../modules/controller_midi.c:245
+msgid "Device:"
+msgstr "Устройство:"
+
+#: ../modules/controller_linux_input.c:250
+msgid "The name of the device to read Linux Input events from."
+msgstr "Името на устройството, от което Linux да получава команди"
+
+#: ../modules/controller_linux_input.c:261
+msgid "Linux Input"
+msgstr "Linux входящи"
+
+#: ../modules/controller_linux_input.c:539
+msgid "Linux Input Events"
+msgstr "Linux входящи събития"
+
+#: ../modules/controller_linux_input.c:551
+#: ../modules/controller_dx_dinput.c:1122 ../modules/controller_midi.c:533
+msgid "No device configured"
+msgstr "Не е конфигурирано устройство"
+
+#: ../modules/controller_linux_input.c:577 ../modules/controller_midi.c:482
+#: ../modules/controller_midi.c:508
+#, c-format
+msgid "Reading from %s"
+msgstr "Четене от %s"
+
+#: ../modules/controller_linux_input.c:595
+#: ../modules/controller_linux_input.c:649 ../modules/controller_midi.c:464
+#: ../modules/controller_midi.c:525 ../modules/controller_midi.c:596
+#, c-format
+msgid "Device not available: %s"
+msgstr "Устройството не е на разположение: %s"
+
+#: ../modules/controller_linux_input.c:614
+#: ../modules/controller_dx_dinput.c:1147
+msgid "Device not available"
+msgstr "Устройството не е достъпно"
+
+#: ../modules/controller_linux_input.c:658 ../modules/controller_midi.c:605
+msgid "End of file"
+msgstr "Край на файла"
+
+#: ../modules/controller_dx_dinput.c:157
+msgid "DirectX DirectInput event controller"
+msgstr "DirectX DirectInput контролер за събития"
+
+#: ../modules/controller_dx_dinput.c:228
+msgid "The device to read DirectInput events from."
+msgstr "Устройство, от което да се четат DirectInput събития."
+
+#: ../modules/controller_dx_dinput.c:237
+msgid "DirectX DirectInput"
+msgstr "DirectX DirectInput"
+
+#: ../modules/controller_dx_dinput.c:446
+#, c-format
+msgid "Button %d"
+msgstr "Бутон %d"
+
+#: ../modules/controller_dx_dinput.c:449
+#, c-format
+msgid "Button %d Press"
+msgstr "Бутон %d натискане"
+
+#: ../modules/controller_dx_dinput.c:452
+#, c-format
+msgid "Button %d Release"
+msgstr "Бутон %d освобождаване"
+
+#: ../modules/controller_dx_dinput.c:478
+msgid "Y Move Away"
+msgstr "В далечно движение"
+
+#: ../modules/controller_dx_dinput.c:481
+msgid "Y Move Near"
+msgstr "В близко движение"
+
+#: ../modules/controller_dx_dinput.c:496
+msgid "X Axis Tilt Away"
+msgstr "Далечен наклон по Х"
+
+#: ../modules/controller_dx_dinput.c:499
+msgid "X Axis Tilt Near"
+msgstr "Близък наклон по Х"
+
+#: ../modules/controller_dx_dinput.c:528
+#, c-format
+msgid "Slider %d Increase"
+msgstr "Увеличение на плъзгача %d"
+
+#: ../modules/controller_dx_dinput.c:531
+#, c-format
+msgid "Slider %d Decrease"
+msgstr "Намаление на плъзгача %d"
+
+#: ../modules/controller_dx_dinput.c:541
+#, c-format
+msgid "POV %d X View"
+msgstr "POV %d Х изглед"
+
+#: ../modules/controller_dx_dinput.c:544
+#, c-format
+msgid "POV %d Y View"
+msgstr "POV %d В изглед"
+
+#: ../modules/controller_dx_dinput.c:547
+#, c-format
+msgid "POV %d Return"
+msgstr "POV %d връщане"
+
+#: ../modules/controller_dx_dinput.c:1111
+msgid "DirectInput Events"
+msgstr "DirectInput събития"
+
+#: ../modules/controller_midi.c:167
+msgid "MIDI event controller"
+msgstr "MIDI контролер на събития"
+
+#: ../modules/controller_midi.c:236
+msgid "The name of the device to read MIDI events from."
+msgstr "Име на устройството, от което да се получават MIDI събития."
+
+#: ../modules/controller_midi.c:239
+msgid "Enter 'alsa' to use the ALSA sequencer."
+msgstr "Въведете „alsa“ за да се използва ALSA модула."
+
+#: ../modules/controller_midi.c:254
+msgid "Channel:"
+msgstr "Канал:"
+
+#: ../modules/controller_midi.c:255
+msgid ""
+"The MIDI channel to read events from. Set to -1 for reading from all MIDI "
+"channels."
+msgstr ""
+"MIDI канала, от който да се получават команди. Задава се -1 за четене от "
+"всички MIDI канали."
+
+#: ../modules/controller_midi.c:259
+msgid "MIDI"
+msgstr "MIDI"
+
+#: ../modules/controller_midi.c:383
+#, c-format
+msgid "Note %02x on"
+msgstr "Бележка %02x включена"
+
+#: ../modules/controller_midi.c:386
+#, c-format
+msgid "Note %02x off"
+msgstr "Бележка %02x изключена"
+
+#: ../modules/controller_midi.c:389
+#, c-format
+msgid "Controller %03d"
+msgstr "Контролер %03d"
+
+#: ../modules/controller_midi.c:436
+msgid "MIDI Events"
+msgstr "MIDI команди"
+
+#: ../modules/controller_midi.c:454
+msgid "GIMP"
+msgstr "GIMP"
+
+#: ../modules/controller_midi.c:456
+msgid "GIMP MIDI Input Controller"
+msgstr "GIMP MIDI входящ контролер"

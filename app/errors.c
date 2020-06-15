@@ -31,7 +31,7 @@
 #include <gdk-pixbuf/gdk-pixbuf.h>
 #include <gegl.h>
 
-#include "libgimpbase/gimpbase.h"
+#include "libglimpsebase/gimpbase.h"
 
 #include "core/core-types.h"
 
@@ -77,13 +77,13 @@ static const gchar * const log_domains[] =
   "Gimp-Vectors",
   "Gimp-Widgets",
   "Gimp-XCF",
-  "LibGimpBase",
-  "LibGimpColor",
-  "LibGimpConfig",
-  "LibGimpMath",
-  "LibGimpModule",
-  "LibGimpThumb",
-  "LibGimpWidgets"
+  "libglimpseBase",
+  "libglimpseColor",
+  "libglimpseConfig",
+  "libglimpseMath",
+  "libglimpseModule",
+  "libglimpseThumb",
+  "libglimpseWidgets"
 };
 
 static Gimp                *the_errors_gimp   = NULL;
@@ -263,7 +263,7 @@ gimp_message_log_func (const gchar    *log_domain,
    * messages.
    */
   if (! g_str_has_prefix (log_domain, "Gimp") &&
-      ! g_str_has_prefix (log_domain, "LibGimp"))
+      ! g_str_has_prefix (log_domain, "libglimpse"))
     msg_domain = log_domain;
 
   /* If debug policy requires it, WARNING and CRITICAL errors must be

@@ -1,0 +1,1405 @@
+# translation of gimp-libglimpse to Kinyarwanda.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gimp-libglimpse package.
+# Steve Murphy <murf@e-tools.com>, 2005
+# Steve performed initial rough translation from compendium built from translations provided by the following translators:
+# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
+# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
+# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# Carole Karema <karemacarole@hotmail.com>, 2005.
+# JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005.
+# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
+# Donatien NSENGIYUMVA <ndonatienuk@yahoo.co.uk>, 2005..
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-libglimpse HEAD\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
+"POT-Creation-Date: 2005-04-01 13:03-0700\n"
+"PO-Revision-Date: 2005-03-31 20:55-0700\n"
+"Last-Translator: Steve Murphy <murf@e-tools.com>\n"
+"Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
+"Language: rw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: libglimpse/gimpbrushmenu.c:140
+msgid "Brush Selection"
+msgstr ""
+
+#: libglimpse/gimpbrushmenu.c:180 libglimpse/gimppatternmenu.c:165
+#, fuzzy
+msgid "_Browse..."
+msgstr "Gushakisha..."
+
+#: libglimpse/gimpexport.c:215 libglimpse/gimpexport.c:251
+#, c-format
+msgid "%s can't handle layers"
+msgstr ""
+
+#: libglimpse/gimpexport.c:216 libglimpse/gimpexport.c:225 libglimpse/gimpexport.c:234
+msgid "Merge Visible Layers"
+msgstr ""
+
+#: libglimpse/gimpexport.c:224
+#, fuzzy, c-format
+msgid "%s can't handle layer offsets, size or opacity"
+msgstr "%sAkugara Ingano Cyangwa"
+
+#: libglimpse/gimpexport.c:233 libglimpse/gimpexport.c:242
+#, fuzzy, c-format
+msgid "%s can only handle layers as animation frames"
+msgstr "%sNka Iyega Amakadiri"
+
+#: libglimpse/gimpexport.c:234 libglimpse/gimpexport.c:243
+#, fuzzy
+msgid "Save as Animation"
+msgstr "Kubika Nka"
+
+#: libglimpse/gimpexport.c:243 libglimpse/gimpexport.c:252 libglimpse/gimpexport.c:261
+msgid "Flatten Image"
+msgstr ""
+
+#: libglimpse/gimpexport.c:260
+#, fuzzy, c-format
+msgid "%s can't handle transparency"
+msgstr "%sIbonerana"
+
+#: libglimpse/gimpexport.c:269
+#, fuzzy, c-format
+msgid "%s can't handle layer masks"
+msgstr "%sAkugara"
+
+#: libglimpse/gimpexport.c:270
+msgid "Apply Layer Masks"
+msgstr ""
+
+#: libglimpse/gimpexport.c:278
+#, fuzzy, c-format
+msgid "%s can only handle RGB images"
+msgstr "%sIshusho"
+
+#: libglimpse/gimpexport.c:279 libglimpse/gimpexport.c:317 libglimpse/gimpexport.c:326
+#, fuzzy
+msgid "Convert to RGB"
+msgstr "Kuri"
+
+#: libglimpse/gimpexport.c:287
+#, fuzzy, c-format
+msgid "%s can only handle grayscale images"
+msgstr "%sIngano y'ubwijime Ishusho"
+
+#: libglimpse/gimpexport.c:288 libglimpse/gimpexport.c:317 libglimpse/gimpexport.c:338
+#, fuzzy
+msgid "Convert to Grayscale"
+msgstr "Kuri"
+
+#: libglimpse/gimpexport.c:296
+#, fuzzy, c-format
+msgid "%s can only handle indexed images"
+msgstr "%sIshusho"
+
+#: libglimpse/gimpexport.c:297 libglimpse/gimpexport.c:326 libglimpse/gimpexport.c:336
+#, fuzzy
+msgid ""
+"Convert to Indexed using default settings\n"
+"(Do it manually to tune the result)"
+msgstr "Kuri ikoresha Mburabuzi Kuri i Igisubizo"
+
+#: libglimpse/gimpexport.c:306
+#, fuzzy, c-format
+msgid "%s can only handle bitmap (two color) indexed images"
+msgstr "%sBitimapu Ibara Ishusho"
+
+#: libglimpse/gimpexport.c:307
+#, fuzzy
+msgid ""
+"Convert to Indexed using bitmap default settings\n"
+"(Do it manually to tune the result)"
+msgstr "Kuri ikoresha Bitimapu Mburabuzi Kuri i Igisubizo"
+
+#: libglimpse/gimpexport.c:316
+#, fuzzy, c-format
+msgid "%s can only handle RGB or grayscale images"
+msgstr "%sCyangwa Ingano y'ubwijime Ishusho"
+
+#: libglimpse/gimpexport.c:325
+#, fuzzy, c-format
+msgid "%s can only handle RGB or indexed images"
+msgstr "%sCyangwa Ishusho"
+
+#: libglimpse/gimpexport.c:335
+#, fuzzy, c-format
+msgid "%s can only handle grayscale or indexed images"
+msgstr "%sIngano y'ubwijime Cyangwa Ishusho"
+
+#: libglimpse/gimpexport.c:346
+#, fuzzy, c-format
+msgid "%s needs an alpha channel"
+msgstr "%sAlufa"
+
+#: libglimpse/gimpexport.c:347
+msgid "Add Alpha Channel"
+msgstr ""
+
+#: libglimpse/gimpexport.c:381
+#, fuzzy
+msgid "Confirm Save"
+msgstr "Kubika"
+
+#: libglimpse/gimpexport.c:387
+msgid "Confirm"
+msgstr "Emeza"
+
+#: libglimpse/gimpexport.c:459
+#, fuzzy
+msgid "Export File"
+msgstr "Idosiye"
+
+# #-#-#-#-#  setup2.pot (PACKAGE VERSION)  #-#-#-#-#
+# setup2/source\ui\dialog\dialog.src:DLG_INSERTDISKDLG.2.text
+# #-#-#-#-#  setup2.pot (PACKAGE VERSION)  #-#-#-#-#
+# setup2/source\ui\dialog\querydlg.src:RID_EXECERROR_DLG.BTN_QUERY_IGNORE.text
+#: libglimpse/gimpexport.c:463
+#, fuzzy
+msgid "_Ignore"
+msgstr "Kwirengagiza"
+
+# filter/source\pdf\impdialog.src:RID_PDF_EXPORT_DLG.BT_OK.text
+# filter/source\xsltdialog\xmlfiltertestdialog.src:DLG_XML_FILTER_TEST_DIALOG.FL_EXPORT.text
+#: libglimpse/gimpexport.c:465
+#, fuzzy
+msgid "_Export"
+msgstr "Kohereza"
+
+#. the headline
+#: libglimpse/gimpexport.c:493
+#, fuzzy, c-format
+msgid ""
+"Your image should be exported before it can be saved as %s for the following "
+"reasons:"
+msgstr "Ishusho Mbere Nka kugirango i"
+
+#. the footline
+#: libglimpse/gimpexport.c:564
+#, fuzzy
+msgid "The export conversion won't modify your original image."
+msgstr "Kohereza Ihindurangero Guhindura Umwimerere Ishusho"
+
+#: libglimpse/gimpexport.c:664
+#, fuzzy, c-format
+msgid ""
+"You are about to save a layer mask as %s.\n"
+"This will not save the visible layers."
+msgstr "Ibyerekeye Kuri Kubika a Akugara Nka OYA Kubika i Kigaragara"
+
+#: libglimpse/gimpexport.c:670
+#, fuzzy, c-format
+msgid ""
+"You are about to save a channel (saved selection) as %s.\n"
+"This will not save the visible layers."
+msgstr "Ibyerekeye Kuri Kubika a Ihitamo Nka OYA Kubika i Kigaragara"
+
+#: libglimpse/gimpfontmenu.c:100
+msgid "Font Selection"
+msgstr ""
+
+#: libglimpse/gimpgradientmenu.c:115
+msgid "Gradient Selection"
+msgstr ""
+
+#: libglimpse/gimpmenu.c:450 libglimpsewidgets/gimpintstore.c:181
+msgid "(Empty)"
+msgstr "(Kirimo ubusa)"
+
+#: libglimpse/gimppalettemenu.c:102
+msgid "Palette Selection"
+msgstr ""
+
+#: libglimpse/gimppatternmenu.c:125
+msgid "Pattern Selection"
+msgstr ""
+
+#: libglimpse/gimpunitcache.c:57
+msgid "percent"
+msgstr "ku ijana"
+
+#: libglimpsebase/gimpbaseenums.c:26
+msgid "_White (full opacity)"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:27
+#, fuzzy
+msgid "_Black (full transparency)"
+msgstr "Ibonerana"
+
+#: libglimpsebase/gimpbaseenums.c:28
+#, fuzzy
+msgid "Layer's _alpha channel"
+msgstr "Alufa"
+
+#: libglimpsebase/gimpbaseenums.c:29
+#, fuzzy
+msgid "_Transfer layer's alpha channel"
+msgstr "Alufa"
+
+# filter/source\pdf\impdialog.src:RID_PDF_EXPORT_DLG.RB_SELECTION.text
+#: libglimpsebase/gimpbaseenums.c:30
+#, fuzzy
+msgid "_Selection"
+msgstr "Ihitamo"
+
+#: libglimpsebase/gimpbaseenums.c:31
+#, fuzzy
+msgid "_Grayscale copy of layer"
+msgstr "Gukoporora Bya Akugara"
+
+#: libglimpsebase/gimpbaseenums.c:61
+#, fuzzy
+msgid "FG to BG (RGB)"
+msgstr "Kuri"
+
+#: libglimpsebase/gimpbaseenums.c:62
+#, fuzzy
+msgid "FG to BG (HSV)"
+msgstr "Kuri"
+
+#: libglimpsebase/gimpbaseenums.c:63
+#, fuzzy
+msgid "FG to transparent"
+msgstr "Kuri Bibonerana"
+
+#: libglimpsebase/gimpbaseenums.c:64
+#, fuzzy
+msgid "Custom gradient"
+msgstr "Kugena Ikizamuko"
+
+#: libglimpsebase/gimpbaseenums.c:93
+#, fuzzy
+msgid "FG color fill"
+msgstr "Ibara Kuzuza"
+
+#: libglimpsebase/gimpbaseenums.c:94
+#, fuzzy
+msgid "BG color fill"
+msgstr "Ibara Kuzuza"
+
+#: libglimpsebase/gimpbaseenums.c:95
+#, fuzzy
+msgid "Pattern fill"
+msgstr "Kuzuza"
+
+#: libglimpsebase/gimpbaseenums.c:125
+#, fuzzy
+msgid "Add to the current selection"
+msgstr "Kuri i KIGEZWEHO Ihitamo"
+
+#: libglimpsebase/gimpbaseenums.c:126
+#, fuzzy
+msgid "Subtract from the current selection"
+msgstr "Bivuye i KIGEZWEHO Ihitamo"
+
+#: libglimpsebase/gimpbaseenums.c:127
+#, fuzzy
+msgid "Replace the current selection"
+msgstr "i KIGEZWEHO Ihitamo"
+
+#: libglimpsebase/gimpbaseenums.c:128
+#, fuzzy
+msgid "Intersect with the current selection"
+msgstr "Na: i KIGEZWEHO Ihitamo"
+
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Image.Color.RGB.Red.text
+#: libglimpsebase/gimpbaseenums.c:160 libglimpsewidgets/gimpcolorscales.c:168
+#: libglimpsewidgets/gimpcolorselect.c:352
+msgid "Red"
+msgstr "Umutuku"
+
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Image.Color.RGB.Green.text
+#: libglimpsebase/gimpbaseenums.c:161 libglimpsewidgets/gimpcolorscales.c:169
+#: libglimpsewidgets/gimpcolorselect.c:353
+msgid "Green"
+msgstr "Icyatsi"
+
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Image.Color.RGB.Blue.text
+#: libglimpsebase/gimpbaseenums.c:162 libglimpsewidgets/gimpcolorscales.c:170
+#: libglimpsewidgets/gimpcolorselect.c:354
+msgid "Blue"
+msgstr "Ubururu"
+
+#: libglimpsebase/gimpbaseenums.c:163
+msgid "Gray"
+msgstr "Ikigina"
+
+#: libglimpsebase/gimpbaseenums.c:164 libglimpsebase/gimpbaseenums.c:436
+msgid "Indexed"
+msgstr ""
+
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_PERCENTILE.4.text
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_TRIM_MEAN.4.text
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_WEIBULL.4.text
+#: libglimpsebase/gimpbaseenums.c:165 libglimpsewidgets/gimpcolorscales.c:171
+#: libglimpsewidgets/gimpcolorselect.c:355
+msgid "Alpha"
+msgstr "Alufa"
+
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....View.Window.Flag..02.text
+#: libglimpsebase/gimpbaseenums.c:194
+msgid "Small"
+msgstr "Gitoya"
+
+#: libglimpsebase/gimpbaseenums.c:195
+msgid "Medium"
+msgstr "Hagati"
+
+# offmgr/source\offapp\dialog\optgdlg.src:OFA_TP_VIEW.LB_BIG.3.text
+#: libglimpsebase/gimpbaseenums.c:196
+msgid "Large"
+msgstr "Binini"
+
+#: libglimpsebase/gimpbaseenums.c:228
+msgid "Light Checks"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:229
+msgid "Mid-Tone Checks"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:230
+msgid "Dark Checks"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:231
+msgid "White Only"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:232
+msgid "Gray Only"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:233
+msgid "Black Only"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:261
+#, fuzzy
+msgid "Image source"
+msgstr "Inkomoko"
+
+#: libglimpsebase/gimpbaseenums.c:262
+#, fuzzy
+msgid "Pattern source"
+msgstr "Inkomoko"
+
+#: libglimpsebase/gimpbaseenums.c:290
+msgid "Dodge"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:291
+msgid "Burn"
+msgstr ""
+
+# #-#-#-#-#  svx.pot (PACKAGE VERSION)  #-#-#-#-#
+# svx/source\dialog\tabarea.src:RID_SVXPAGE_TRANSPARENCE.LB_TRGR_GRADIENT_TYPES.1.text
+# #-#-#-#-#  svx.pot (PACKAGE VERSION)  #-#-#-#-#
+# svx/source\dialog\tabarea.src:RID_SVXPAGE_GRADIENT.LB_GRADIENT_TYPES.1.text
+#: libglimpsebase/gimpbaseenums.c:328 libglimpsebase/gimpbaseenums.c:468
+msgid "Linear"
+msgstr "Kurikiramurongo"
+
+#: libglimpsebase/gimpbaseenums.c:329
+#, fuzzy
+msgid "Bi-linear"
+msgstr "By'umurongo"
+
+# #-#-#-#-#  svx.pot (PACKAGE VERSION)  #-#-#-#-#
+# svx/source\dialog\tabarea.src:RID_SVXPAGE_TRANSPARENCE.LB_TRGR_GRADIENT_TYPES.3.text
+# #-#-#-#-#  svx.pot (PACKAGE VERSION)  #-#-#-#-#
+# svx/source\dialog\tabarea.src:RID_SVXPAGE_GRADIENT.LB_GRADIENT_TYPES.3.text
+#: libglimpsebase/gimpbaseenums.c:330
+msgid "Radial"
+msgstr "Nyakarambararo"
+
+# #-#-#-#-#  svx.pot (PACKAGE VERSION)  #-#-#-#-#
+# svx/sdi\svxslots.src:SID_DRAW_SQUARE.text
+# #-#-#-#-#  svx.pot (PACKAGE VERSION)  #-#-#-#-#
+# svx/source\dialog\sdstring.src:RID_SVXSTR_SQUARE.text
+# #-#-#-#-#  svx.pot (PACKAGE VERSION)  #-#-#-#-#
+# svx/source\dialog\sdstring.src:RID_SVXSTR_LEND10.text
+# #-#-#-#-#  svx.pot (PACKAGE VERSION)  #-#-#-#-#
+# svx/source\dialog\tabarea.src:RID_SVXPAGE_TRANSPARENCE.LB_TRGR_GRADIENT_TYPES.6.text
+# #-#-#-#-#  svx.pot (PACKAGE VERSION)  #-#-#-#-#
+# svx/source\dialog\tabarea.src:RID_SVXPAGE_GRADIENT.LB_GRADIENT_TYPES.5.text
+# #-#-#-#-#  svx.pot (PACKAGE VERSION)  #-#-#-#-#
+# svx/source\svdraw\svdstr.src:STR_ObjNameSingulQUAD.text
+#: libglimpsebase/gimpbaseenums.c:331
+msgid "Square"
+msgstr "kare"
+
+#: libglimpsebase/gimpbaseenums.c:332
+msgid "Conical (sym)"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:333
+msgid "Conical (asym)"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:334
+msgid "Shaped (angular)"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:335
+#, fuzzy
+msgid "Shaped (spherical)"
+msgstr "Cy'umubumbe"
+
+#: libglimpsebase/gimpbaseenums.c:336
+msgid "Shaped (dimpled)"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:337
+msgid "Spiral (cw)"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:338
+msgid "Spiral (ccw)"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:367
+msgid "Stock ID"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:368
+msgid "Inline pixbuf"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:369
+#, fuzzy
+msgid "Image file"
+msgstr "IDOSIYE"
+
+#: libglimpsebase/gimpbaseenums.c:398
+#, fuzzy
+msgid "RGB color"
+msgstr "Ibara"
+
+# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Filter.Graphic.Export.JPG.ColorMode..1.text
+# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Impress.xcs:....Misc.Preview..868.text
+# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Impress.xcs:....Print.Other.Quality..1.text
+# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Draw.xcs:....Misc.Preview..868.text
+# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Draw.xcs:....Print.Other.Quality..1.text
+#: libglimpsebase/gimpbaseenums.c:399 libglimpsebase/gimpbaseenums.c:434
+msgid "Grayscale"
+msgstr "Igipimokigina"
+
+#: libglimpsebase/gimpbaseenums.c:400
+#, fuzzy
+msgid "Indexed color"
+msgstr "Ibara"
+
+# svx/source\dialog\tabarea.src:RID_SVXPAGE_COLOR.LB_COLORMODEL.1.text
+#: libglimpsebase/gimpbaseenums.c:432
+msgid "RGB"
+msgstr "UmutukuIcyatsiUbururu"
+
+#: libglimpsebase/gimpbaseenums.c:433
+#, fuzzy
+msgid "RGB-alpha"
+msgstr "Alufa"
+
+#: libglimpsebase/gimpbaseenums.c:435
+#, fuzzy
+msgid "Grayscale-alpha"
+msgstr "Alufa"
+
+#: libglimpsebase/gimpbaseenums.c:437
+#, fuzzy
+msgid "Indexed-alpha"
+msgstr "Alufa"
+
+#: libglimpsebase/gimpbaseenums.c:467
+msgid "None (Fastest)"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:469
+msgid "Cubic"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:470
+msgid "Lanczos (Best)"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:498
+msgid "Constant"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:499
+msgid "Incremental"
+msgstr ""
+
+# goodies/source\filter.vcl\eps\dlgeps.src:DLG_EXPORT_EPS.RB_COMPRESSION_NONE.text
+#: libglimpsebase/gimpbaseenums.c:528
+msgid "None"
+msgstr "Nta na kimwe"
+
+#: libglimpsebase/gimpbaseenums.c:529
+#, fuzzy
+msgid "Sawtooth wave"
+msgstr "UMUVUMBA"
+
+#: libglimpsebase/gimpbaseenums.c:530
+#, fuzzy
+msgid "Triangular wave"
+msgstr "UMUVUMBA"
+
+# offmgr/source\offapp\dialog\optgdlg.src:OFA_TP_VIEW.FT_POINTLIMIT_UNIT.text
+#: libglimpsebase/gimpbaseenums.c:558
+msgid "Pixels"
+msgstr "Pigiseli"
+
+# 4705
+#: libglimpsebase/gimpbaseenums.c:559
+msgid "Points"
+msgstr "utubago"
+
+#: libglimpsebase/gimpbaseenums.c:588
+msgid "Shadows"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:589
+msgid "Midtones"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:590
+msgid "Highlights"
+msgstr "Amahitamogaragaza"
+
+#: libglimpsebase/gimpbaseenums.c:618
+msgid "Forward (traditional)"
+msgstr ""
+
+#: libglimpsebase/gimpbaseenums.c:619
+msgid "Backward (corrective)"
+msgstr ""
+
+#: libglimpsebase/gimpmemsize.c:177
+#, c-format
+msgid "%d Bytes"
+msgstr ""
+
+#: libglimpsebase/gimpmemsize.c:182
+#, fuzzy, c-format
+msgid "%.2f KB"
+msgstr ""
+"%.Project- Id- Version: basctl\n"
+"POT- Creation- Date: 2003- 12- 07 17: 13+ 02\n"
+"PO- Revision- Date: 2004- 11- 04 10: 13- 0700\n"
+"Last- Translator: Language- Team:< en@ li. org> MIME- Version: 1. 0\n"
+"Content- Type: text/ plain; charset= UTF- 8\n"
+"Content- Transfer- Encoding: 8bit\n"
+"X- Generator: KBabel 1. 0\n"
+"."
+
+#: libglimpsebase/gimpmemsize.c:186
+#, fuzzy, c-format
+msgid "%.1f KB"
+msgstr ""
+"%.Project- Id- Version: basctl\n"
+"POT- Creation- Date: 2003- 12- 07 17: 13+ 02\n"
+"PO- Revision- Date: 2004- 11- 04 10: 13- 0700\n"
+"Last- Translator: Language- Team:< en@ li. org> MIME- Version: 1. 0\n"
+"Content- Type: text/ plain; charset= UTF- 8\n"
+"Content- Transfer- Encoding: 8bit\n"
+"X- Generator: KBabel 1. 0\n"
+"."
+
+#: libglimpsebase/gimpmemsize.c:190
+#, c-format
+msgid "%d KB"
+msgstr ""
+
+#: libglimpsebase/gimpmemsize.c:197
+#, fuzzy, c-format
+msgid "%.2f MB"
+msgstr ""
+"%.Project- Id- Version: basctl\n"
+"POT- Creation- Date: 2003- 12- 07 17: 13+ 02\n"
+"PO- Revision- Date: 2004- 11- 04 10: 13- 0700\n"
+"Last- Translator: Language- Team:< en@ li. org> MIME- Version: 1. 0\n"
+"Content- Type: text/ plain; charset= UTF- 8\n"
+"Content- Transfer- Encoding: 8bit\n"
+"X- Generator: KBabel 1. 0\n"
+"."
+
+#: libglimpsebase/gimpmemsize.c:201
+#, fuzzy, c-format
+msgid "%.1f MB"
+msgstr ""
+"%.Project- Id- Version: basctl\n"
+"POT- Creation- Date: 2003- 12- 07 17: 13+ 02\n"
+"PO- Revision- Date: 2004- 11- 04 10: 13- 0700\n"
+"Last- Translator: Language- Team:< en@ li. org> MIME- Version: 1. 0\n"
+"Content- Type: text/ plain; charset= UTF- 8\n"
+"Content- Transfer- Encoding: 8bit\n"
+"X- Generator: KBabel 1. 0\n"
+"."
+
+#: libglimpsebase/gimpmemsize.c:205
+#, c-format
+msgid "%d MB"
+msgstr ""
+
+#: libglimpsebase/gimpmemsize.c:212
+#, fuzzy, c-format
+msgid "%.2f GB"
+msgstr ""
+"%.Project- Id- Version: basctl\n"
+"POT- Creation- Date: 2003- 12- 07 17: 13+ 02\n"
+"PO- Revision- Date: 2004- 11- 04 10: 13- 0700\n"
+"Last- Translator: Language- Team:< en@ li. org> MIME- Version: 1. 0\n"
+"Content- Type: text/ plain; charset= UTF- 8\n"
+"Content- Transfer- Encoding: 8bit\n"
+"X- Generator: KBabel 1. 0\n"
+"."
+
+#: libglimpsebase/gimpmemsize.c:216
+#, fuzzy, c-format
+msgid "%.1f GB"
+msgstr ""
+"%.Project- Id- Version: basctl\n"
+"POT- Creation- Date: 2003- 12- 07 17: 13+ 02\n"
+"PO- Revision- Date: 2004- 11- 04 10: 13- 0700\n"
+"Last- Translator: Language- Team:< en@ li. org> MIME- Version: 1. 0\n"
+"Content- Type: text/ plain; charset= UTF- 8\n"
+"Content- Transfer- Encoding: 8bit\n"
+"X- Generator: KBabel 1. 0\n"
+"."
+
+#: libglimpsebase/gimpmemsize.c:220
+#, c-format
+msgid "%d GB"
+msgstr ""
+
+#: libglimpsebase/gimputils.c:169 libglimpsebase/gimputils.c:174
+#, fuzzy
+msgid "(invalid UTF-8 string)"
+msgstr "(Sibyo 8 Ikurikiranyanyuguti"
+
+#: libglimpseconfig/gimpcolorconfig.c:40
+#, fuzzy
+msgid "Mode of operation for color management."
+msgstr "Bya kugirango Ibara"
+
+#: libglimpseconfig/gimpcolorconfig.c:42
+#, fuzzy
+msgid "Sets the color profile for the display."
+msgstr "i Ibara Ibijyana kugirango i Kugaragaza"
+
+#: libglimpseconfig/gimpcolorconfig.c:44
+#, fuzzy
+msgid "Sets default RGB workspace color profile."
+msgstr "Mburabuzi Umwanya- nkenerwa Ibara Ibijyana"
+
+#: libglimpseconfig/gimpcolorconfig.c:46
+#, fuzzy
+msgid "Sets the CMYK color profile used to convert between RGB and CMYK."
+msgstr "i Ibara Ibijyana Kuri GUHINDURA hagati Na"
+
+#: libglimpseconfig/gimpcolorconfig.c:48
+#, fuzzy
+msgid "Sets the color profile used when printing."
+msgstr "i Ibara Ibijyana Ryari: Icapa..."
+
+#: libglimpseconfig/gimpcolorconfig.c:50
+#, fuzzy
+msgid "Sets how colors are mapped for your display."
+msgstr "Amabara kugirango Kugaragaza"
+
+#: libglimpseconfig/gimpcolorconfig.c:52
+#, fuzzy
+msgid "Sets how colors are converted from workspace to simulation device."
+msgstr "Amabara Bivuye Umwanya- nkenerwa Kuri APAREYE"
+
+#: libglimpseconfig/gimpcolorconfig-enums.c:24
+#, fuzzy
+msgid "No color management"
+msgstr "Ibara"
+
+#: libglimpseconfig/gimpcolorconfig-enums.c:25
+#, fuzzy
+msgid "Color managed display"
+msgstr "Kugaragaza"
+
+#: libglimpseconfig/gimpcolorconfig-enums.c:26
+msgid "Print simulation"
+msgstr ""
+
+#: libglimpseconfig/gimpcolorconfig-enums.c:56 modules/cdisplay_proof.c:55
+msgid "Perceptual"
+msgstr ""
+
+#: libglimpseconfig/gimpcolorconfig-enums.c:57 modules/cdisplay_proof.c:56
+msgid "Relative Colorimetric"
+msgstr ""
+
+# 5287
+#: libglimpseconfig/gimpcolorconfig-enums.c:58
+#: libglimpsewidgets/gimpcolorscales.c:166 libglimpsewidgets/gimpcolorselect.c:350
+#: modules/cdisplay_proof.c:57
+msgid "Saturation"
+msgstr "Ubwuzurane"
+
+#: libglimpseconfig/gimpcolorconfig-enums.c:59 modules/cdisplay_proof.c:58
+msgid "Absolute Colorimetric"
+msgstr ""
+
+#: libglimpseconfig/gimpcolorconfig-enums.c:88
+msgid "Ask"
+msgstr ""
+
+#: libglimpseconfig/gimpcolorconfig-enums.c:89
+#, fuzzy
+msgid "Use embedded profile"
+msgstr "Gitsindiye Ibijyana"
+
+#: libglimpseconfig/gimpcolorconfig-enums.c:90
+#, fuzzy
+msgid "Convert to RGB workspace"
+msgstr "Kuri Umwanya- nkenerwa"
+
+#: libglimpseconfig/gimpconfig-deserialize.c:95
+#, fuzzy, c-format
+msgid "value for token %s is not a valid UTF-8 string"
+msgstr "Agaciro kugirango ni OYA a Byemewe 8 Ikurikiranyanyuguti"
+
+#. please don't translate 'yes' and 'no'
+#: libglimpseconfig/gimpconfig-deserialize.c:423
+#, fuzzy, c-format
+msgid "expected 'yes' or 'no' for boolean token %s, got '%s'"
+msgstr "Ikitezwe: Cyangwa kugirango Icyungo"
+
+#: libglimpseconfig/gimpconfig-deserialize.c:497
+#, fuzzy, c-format
+msgid "invalid value '%s' for token %s"
+msgstr "Sibyo Agaciro kugirango"
+
+#: libglimpseconfig/gimpconfig-deserialize.c:512
+#, fuzzy, c-format
+msgid "invalid value '%ld' for token %s"
+msgstr "Sibyo Agaciro kugirango"
+
+#: libglimpseconfig/gimpconfig-deserialize.c:581
+#, c-format
+msgid "while parsing token '%s': %s"
+msgstr ""
+
+#: libglimpseconfig/gimpconfig-iface.c:454 libglimpseconfig/gimpconfig-iface.c:467
+#: libglimpseconfig/gimpscanner.c:515 libglimpseconfig/gimpscanner.c:596
+#, fuzzy
+msgid "fatal parse error"
+msgstr "Ikosa"
+
+#: libglimpseconfig/gimpconfig-path.c:349
+#, fuzzy, c-format
+msgid "Cannot expand ${%s}"
+msgstr "Kwagura"
+
+#: libglimpseconfig/gimpconfigwriter.c:135
+#, fuzzy, c-format
+msgid "Could not create temporary file for '%s': %s"
+msgstr "OYA Kurema By'igihe gito IDOSIYE kugirango"
+
+#: libglimpseconfig/gimpconfigwriter.c:148
+#, fuzzy, c-format
+msgid "Could not open '%s' for writing: %s"
+msgstr "OYA Gufungura kugirango"
+
+#: libglimpseconfig/gimpconfigwriter.c:667
+#, fuzzy, c-format
+msgid ""
+"Error writing to temporary file for '%s': %s\n"
+"The original file has not been touched."
+msgstr "Kuri By'igihe gito IDOSIYE kugirango Umwimerere IDOSIYE OYA"
+
+#: libglimpseconfig/gimpconfigwriter.c:675
+#, fuzzy, c-format
+msgid ""
+"Error writing to temporary file for '%s': %s\n"
+"No file has been created."
+msgstr "Kuri By'igihe gito IDOSIYE kugirango IDOSIYE Byaremwe"
+
+#: libglimpseconfig/gimpconfigwriter.c:686
+#, fuzzy, c-format
+msgid "Error writing to '%s': %s"
+msgstr "Kuri"
+
+#: libglimpseconfig/gimpconfigwriter.c:704
+#, fuzzy, c-format
+msgid "Could not create '%s': %s"
+msgstr "OYA Kurema"
+
+#: libglimpseconfig/gimpscanner.c:102
+#, fuzzy, c-format
+msgid "Could not open '%s' for reading: %s"
+msgstr "OYA Gufungura kugirango"
+
+#: libglimpseconfig/gimpscanner.c:272
+#, fuzzy
+msgid "invalid UTF-8 string"
+msgstr "Sibyo 8 Ikurikiranyanyuguti"
+
+#: libglimpseconfig/gimpscanner.c:623
+#, fuzzy, c-format
+msgid "Error while parsing '%s' in line %d: %s"
+msgstr "in Umurongo"
+
+#: libglimpsemodule/gimpmodule.c:180
+#, fuzzy, c-format
+msgid "Loading module: '%s'\n"
+msgstr "Modire"
+
+#: libglimpsemodule/gimpmodule.c:197 libglimpsemodule/gimpmodule.c:216
+#: libglimpsemodule/gimpmodule.c:330 libglimpsemodule/gimpmodule.c:358
+#: libglimpsemodule/gimpmodule.c:482
+#, fuzzy, c-format
+msgid "Module '%s' load error: %s"
+msgstr "Ibirimo Ikosa"
+
+#: libglimpsemodule/gimpmodule.c:286
+#, fuzzy, c-format
+msgid "Skipping module: '%s'\n"
+msgstr "Modire"
+
+#: libglimpsemodule/gimpmodule.c:426
+#, fuzzy
+msgid "Module error"
+msgstr "Ikosa"
+
+#: libglimpsemodule/gimpmodule.c:427
+msgid "Loaded"
+msgstr ""
+
+#: libglimpsemodule/gimpmodule.c:428
+#, fuzzy
+msgid "Load failed"
+msgstr "Byanze"
+
+#: libglimpsemodule/gimpmodule.c:429
+msgid "Not loaded"
+msgstr ""
+
+#: libglimpsethumb/gimpthumb-utils.c:125
+#, fuzzy, c-format
+msgid ""
+"Cannot determine a valid home directory.\n"
+"Thumbnails will be stored in the folder for temporary files (%s) instead."
+msgstr ""
+"a Byemewe Ku Ntangiriro bushyinguro in i Ububiko kugirango By'igihe gito "
+"Idosiye"
+
+#: libglimpsethumb/gimpthumb-utils.c:249 libglimpsethumb/gimpthumb-utils.c:317
+#, fuzzy, c-format
+msgid "Failed to create thumbnail folder '%s'."
+msgstr "Kuri Kurema Ububiko"
+
+#: libglimpsethumb/gimpthumbnail.c:919
+#, fuzzy, c-format
+msgid "Could not create thumbnail for %s: %s"
+msgstr "OYA Kurema kugirango"
+
+# svx/source\dialog\tabarea.src:RID_SVXPAGE_BITMAP.FT_COLOR.text
+#: libglimpsewidgets/gimpcolorbutton.c:99
+#, fuzzy
+msgid "_Foreground Color"
+msgstr "Ibara rya mbugambanza"
+
+#: libglimpsewidgets/gimpcolorbutton.c:103
+#, fuzzy
+msgid "_Background Color"
+msgstr "Ibara rya mbuganyuma"
+
+# officecfg/registry\schema\org\openoffice\Office\Math.xcs:....FontFormat.Weight..10.text
+#: libglimpsewidgets/gimpcolorbutton.c:107
+#, fuzzy
+msgid "Blac_k"
+msgstr "umukara"
+
+#: libglimpsewidgets/gimpcolorbutton.c:111
+#, fuzzy
+msgid "_White"
+msgstr "Umweru"
+
+#: libglimpsewidgets/gimpcolorscales.c:133
+msgid "Scales"
+msgstr ""
+
+#: libglimpsewidgets/gimpcolorscales.c:155 libglimpsewidgets/gimpcolorselect.c:345
+#, fuzzy
+msgid "_H"
+msgstr "h"
+
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_KAP_Z.8.text
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_ZINS_Z.8.text
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.8.text
+#: libglimpsewidgets/gimpcolorscales.c:156 libglimpsewidgets/gimpcolorselect.c:345
+#, fuzzy
+msgid "_S"
+msgstr "S"
+
+#: libglimpsewidgets/gimpcolorscales.c:157 libglimpsewidgets/gimpcolorselect.c:345
+#, fuzzy
+msgid "_V"
+msgstr "v"
+
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_NEG_BINOM_VERT.4.text
+#: libglimpsewidgets/gimpcolorscales.c:158 libglimpsewidgets/gimpcolorselect.c:345
+#, fuzzy
+msgid "_R"
+msgstr "R"
+
+#: libglimpsewidgets/gimpcolorscales.c:159 libglimpsewidgets/gimpcolorselect.c:345
+#, fuzzy
+msgid "_G"
+msgstr "G"
+
+# sc/source\core\src\compiler.src:RID_SC_FUNCTION_NAMES.SC_OPCODE_B.text
+#: libglimpsewidgets/gimpcolorscales.c:160 libglimpsewidgets/gimpcolorselect.c:345
+#, fuzzy
+msgid "_B"
+msgstr "B"
+
+# sw/source\ui\index\cnttab.src:TP_TOX_ENTRY.WIN_TOKEN.STR_TOKEN_AUTHORITY.text
+#: libglimpsewidgets/gimpcolorscales.c:161
+#, fuzzy
+msgid "_A"
+msgstr "A"
+
+# svtools/source\dialogs\colrdlg.src:DLG_COLOR.FT_HUE.text
+#: libglimpsewidgets/gimpcolorscales.c:165 libglimpsewidgets/gimpcolorselect.c:349
+#, fuzzy
+msgid "Hue"
+msgstr "Ibara"
+
+#: libglimpsewidgets/gimpcolorscales.c:167 libglimpsewidgets/gimpcolorselect.c:351
+msgid "Value"
+msgstr "Agaciro"
+
+#: libglimpsewidgets/gimpcolorscales.c:243
+#, fuzzy
+msgid "Hexadecimal color notation as used in HTML and CSS"
+msgstr "Ibara Nka in Na"
+
+#: libglimpsewidgets/gimpcolorscales.c:248
+msgid "HTML _Notation:"
+msgstr ""
+
+# sc/source\core\src\compiler.src:RID_SC_FUNCTION_NAMES.SC_OPCODE_CURRENT.text
+#: libglimpsewidgets/gimpcolorselection.c:203
+#, fuzzy
+msgid "Current:"
+msgstr "KIGEZWEHO"
+
+# 4388
+#: libglimpsewidgets/gimpcolorselection.c:225
+#, fuzzy
+msgid "Old:"
+msgstr "ki/ bishaje"
+
+#: libglimpsewidgets/gimpfileentry.c:351
+msgid "Select Folder"
+msgstr ""
+
+# wizards/source\euro\euro.src:MESSAGES_+_2.text
+#: libglimpsewidgets/gimpfileentry.c:353
+#, fuzzy
+msgid "Select File"
+msgstr "Guhitamo idosiye"
+
+#: libglimpsewidgets/gimpmemsizeentry.c:232
+msgid "Kilobytes"
+msgstr ""
+
+#: libglimpsewidgets/gimpmemsizeentry.c:233
+msgid "Megabytes"
+msgstr ""
+
+#: libglimpsewidgets/gimpmemsizeentry.c:234
+msgid "Gigabytes"
+msgstr ""
+
+#: libglimpsewidgets/gimppatheditor.c:243
+msgid "Writable"
+msgstr ""
+
+# sfx2/source\explorer\explorer.src:STR_SFX_FOLDER.text
+#: libglimpsewidgets/gimppatheditor.c:252
+msgid "Folder"
+msgstr "Ububiko"
+
+#: libglimpsewidgets/gimppickbutton.c:138
+#, fuzzy
+msgid ""
+"Click the eyedropper, then click a color anywhere on your screen to select "
+"that color."
+msgstr ""
+"i Mugushagisho Hanyuma Kanda a Ibara Aho ariho hose ku Mugaragaza Kuri "
+"Guhitamo Ibara"
+
+#: libglimpsewidgets/gimppreviewarea.c:126
+msgid "Check Size"
+msgstr ""
+
+#: libglimpsewidgets/gimppreviewarea.c:133
+msgid "Check Style"
+msgstr ""
+
+#. toggle button to (des)activate the instant preview
+#: libglimpsewidgets/gimppreview.c:240
+#, fuzzy
+msgid "_Preview"
+msgstr "Igaragazambere"
+
+#: libglimpsewidgets/gimppropwidgets.c:1728
+#, fuzzy, c-format
+msgid "This text input field is limited to %d characters."
+msgstr "Umwandiko Iyinjiza Umwanya ni Kuri Inyuguti"
+
+# officecfg/registry\schema\org\openoffice\Office\Calc.xcs:....Content.Display.Anchor.text
+#: libglimpsewidgets/gimpstock.c:113
+msgid "Anchor"
+msgstr "Agafashi"
+
+# officecfg/registry\schema\org\openoffice\Office\DataAccess.xcs:....Column.Align..1.text
+#: libglimpsewidgets/gimpstock.c:114
+#, fuzzy
+msgid "C_enter"
+msgstr "hagati"
+
+#: libglimpsewidgets/gimpstock.c:115
+#, fuzzy
+msgid "_Duplicate"
+msgstr "Gusubiramo"
+
+# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
+# basctl/source\basicide\basidesh.src:RID_BASICMENU.MN_EDIT.text
+# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
+# basctl/source\basicide\basidesh.src:RID_BASICPLUGINMENU.MN_PLEDIT.text
+# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
+# basctl/source\basicide\macrodlg.src:RID_MACROCHOOSER.RID_PB_EDIT.text
+# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
+# basctl/source\basicide\moduldlg.src:RID_TP_MODULS.RID_PB_EDIT.text
+# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
+# basctl/source\basicide\moduldlg.src:RID_TP_LIBS.RID_PB_EDIT.text
+#: libglimpsewidgets/gimpstock.c:116
+#, fuzzy
+msgid "_Edit"
+msgstr "Guhindura"
+
+#: libglimpsewidgets/gimpstock.c:117
+msgid "Linked"
+msgstr ""
+
+#: libglimpsewidgets/gimpstock.c:118
+#, fuzzy
+msgid "Paste as New"
+msgstr "Nka"
+
+#: libglimpsewidgets/gimpstock.c:119
+msgid "Paste Into"
+msgstr ""
+
+# offmgr/source\offapp\dialog\optgdlg.src:OFA_TP_MISC.PB_HELPAGENT_RESET.text
+#: libglimpsewidgets/gimpstock.c:120
+#, fuzzy
+msgid "_Reset"
+msgstr "Kugarura"
+
+# 6488
+#: libglimpsewidgets/gimpstock.c:121
+msgid "Visible"
+msgstr "kigaragara"
+
+# #-#-#-#-#  svtools.pot (PACKAGE VERSION)  #-#-#-#-#
+# svtools/source\control\ctrlbox.src:STR_SVT_COLLATE_STROKE.text
+# #-#-#-#-#  svtools.pot (PACKAGE VERSION)  #-#-#-#-#
+# svtools/source\control\ctrlbox.src:STR_SVT_INDEXENTRY_STROKE.text
+#: libglimpsewidgets/gimpstock.c:154 libglimpsewidgets/gimpstock.c:158
+#, fuzzy
+msgid "_Stroke"
+msgstr "Akarongo"
+
+#: libglimpsewidgets/gimpstock.c:170
+msgid "L_etter Spacing"
+msgstr ""
+
+# sc/source\ui\drawfunc\objdraw.src:MN_TEXT_ATTR.RID_MN_FORMAT_LINESPACE.text
+#: libglimpsewidgets/gimpstock.c:171
+#, fuzzy
+msgid "L_ine Spacing"
+msgstr "Itandukanyamirongo"
+
+# starmath/source\smres.src:RID_TOOLBOXWINDOW.6.RID_SIZEXY.text
+#: libglimpsewidgets/gimpstock.c:187
+#, fuzzy
+msgid "_Resize"
+msgstr "Kuringaniza"
+
+#: libglimpsewidgets/gimpstock.c:188 libglimpsewidgets/gimpstock.c:292
+#, fuzzy
+msgid "_Scale"
+msgstr "Gupima"
+
+#: libglimpsewidgets/gimpstock.c:271
+msgid "Crop"
+msgstr "Gukataho"
+
+#: libglimpsewidgets/gimpstock.c:288
+#, fuzzy
+msgid "_Transform"
+msgstr "Guhindura"
+
+#: libglimpsewidgets/gimpstock.c:291
+#, fuzzy
+msgid "_Rotate"
+msgstr "Kuzengurutsa"
+
+#: libglimpsewidgets/gimpstock.c:293
+msgid "_Shear"
+msgstr ""
+
+# sc/source\ui\src\globstr.src:RID_GLOBSTR.STR_FUNCTIONLIST_MORE.text
+#: libglimpsewidgets/gimpunitmenu.c:302
+msgid "More..."
+msgstr "Birenzeho..."
+
+#: libglimpsewidgets/gimpunitmenu.c:612
+msgid "Unit Selection"
+msgstr ""
+
+#: libglimpsewidgets/gimpunitmenu.c:660
+#, fuzzy
+msgid "Unit"
+msgstr "Igice:"
+
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_GDA.10.text
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.12.text
+#: libglimpsewidgets/gimpunitmenu.c:664
+msgid "Factor"
+msgstr "Umubarwa"
+
+#: libglimpsewidgets/gimpwidgets.c:1001
+#, fuzzy
+msgid ""
+"Use this value for random number generator seed - this allows you to repeat "
+"a given \"random\" operation"
+msgstr "iyi Agaciro kugirango Umubare iyi Kuri Gusubiramo a"
+
+#: libglimpsewidgets/gimpwidgets.c:1005
+msgid "_New Seed"
+msgstr ""
+
+#: libglimpsewidgets/gimpwidgets.c:1018
+#, fuzzy
+msgid "Seed random number generator with a generated random number"
+msgstr "Umubare Na: a Umubare"
+
+#: libglimpsewidgets/gimpwidgets.c:1022
+msgid "_Randomize"
+msgstr ""
+
+#: modules/cdisplay_colorblind.c:67
+#, fuzzy
+msgid "Protanopia (insensitivity to red"
+msgstr "Kuri Umutuku"
+
+#: modules/cdisplay_colorblind.c:69
+#, fuzzy
+msgid "Deuteranopia (insensitivity to green)"
+msgstr "Kuri Icyatsi"
+
+#: modules/cdisplay_colorblind.c:71
+#, fuzzy
+msgid "Tritanopia (insensitivity to blue)"
+msgstr "Kuri Ubururu"
+
+#: modules/cdisplay_colorblind.c:200
+#, fuzzy
+msgid "Color deficit simulation filter (Brettel-Vienot-Mollon algorithm)"
+msgstr "Muyunguruzi..."
+
+#: modules/cdisplay_colorblind.c:290
+msgid "Color Deficient Vision"
+msgstr ""
+
+#: modules/cdisplay_colorblind.c:503
+msgid "Color _Deficiency Type:"
+msgstr ""
+
+#: modules/cdisplay_gamma.c:91
+#, fuzzy
+msgid "Gamma color display filter"
+msgstr "Ibara Kugaragaza Muyunguruzi..."
+
+#: modules/cdisplay_gamma.c:160
+msgid "Gamma"
+msgstr "Gama"
+
+# sw/source\ui\utlui\attrdesc.src:STR_GAMMA.text
+#: modules/cdisplay_gamma.c:251
+#, fuzzy
+msgid "_Gamma:"
+msgstr "Gama:"
+
+#: modules/cdisplay_highcontrast.c:91
+#, fuzzy
+msgid "High Contrast color display filter"
+msgstr "Ibara Kugaragaza Muyunguruzi..."
+
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Image.Color.Contrast.text
+#: modules/cdisplay_highcontrast.c:160
+msgid "Contrast"
+msgstr "Inyuranyamigaragarire"
+
+#: modules/cdisplay_highcontrast.c:251
+msgid "Contrast C_ycles:"
+msgstr ""
+
+#: modules/cdisplay_lcms.c:95
+#, fuzzy
+msgid "Color management display filter using ICC color profiles"
+msgstr "Kugaragaza Muyunguruzi... ikoresha Ibara"
+
+#: modules/cdisplay_lcms.c:163
+msgid "Color Management"
+msgstr ""
+
+#: modules/cdisplay_proof.c:127
+#, fuzzy
+msgid "Color proof filter using ICC color profile"
+msgstr "Muyunguruzi... ikoresha Ibara Ibijyana"
+
+#: modules/cdisplay_proof.c:221
+msgid "Color Proof"
+msgstr ""
+
+#: modules/cdisplay_proof.c:346
+msgid "_Intent:"
+msgstr ""
+
+#: modules/cdisplay_proof.c:350
+msgid "Choose an ICC Color Profile"
+msgstr ""
+
+#: modules/cdisplay_proof.c:353
+#, fuzzy
+msgid "_Profile:"
+msgstr "Ibijyana"
+
+#: modules/cdisplay_proof.c:358
+msgid "_Black Point Compensation"
+msgstr ""
+
+#: modules/colorsel_cmyk.c:73
+#, fuzzy
+msgid "CMYK color selector"
+msgstr "Ibara"
+
+# svx/source\dialog\tabarea.src:RID_SVXPAGE_COLOR.LB_COLORMODEL.2.text
+#: modules/colorsel_cmyk.c:130
+msgid "CMYK"
+msgstr "CMYK"
+
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BINOM_DIST.8.text
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_POISSON_DIST.6.text
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_NORM_DIST.8.text
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_EXP_DIST.6.text
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_GAMMA_DIST.8.text
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_WEIBULL.8.text
+#: modules/colorsel_cmyk.c:147
+#, fuzzy
+msgid "_C"
+msgstr "C"
+
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Seriessum.6.text
+#: modules/colorsel_cmyk.c:148
+#, fuzzy
+msgid "_M"
+msgstr "M"
+
+# svx/source\engine3d\float3d.src:RID_SVXFLOAT3D_FIX_Y.text
+#: modules/colorsel_cmyk.c:149
+#, fuzzy
+msgid "_Y"
+msgstr "Y"
+
+#: modules/colorsel_cmyk.c:150
+#, fuzzy
+msgid "_K"
+msgstr "K"
+
+#: modules/colorsel_cmyk.c:154
+msgid "Cyan"
+msgstr "Ubururu bukeye"
+
+#: modules/colorsel_cmyk.c:155
+msgid "Magenta"
+msgstr "Umutuku werurutse"
+
+#: modules/colorsel_cmyk.c:156
+msgid "Yellow"
+msgstr "Umuhondo"
+
+#: modules/colorsel_cmyk.c:157
+msgid "Black"
+msgstr "Umukara"
+
+#: modules/colorsel_cmyk.c:191
+msgid "Black _Pullout:"
+msgstr ""
+
+#: modules/colorsel_cmyk.c:208
+#, fuzzy
+msgid "The percentage of black to pull out of the colored inks."
+msgstr "Ijanisha Bya umukara Kuri Inyuma Bya i"
+
+#: modules/colorsel_triangle.c:104
+#, fuzzy
+msgid "Painter-style triangle color selector"
+msgstr "IMISUSIRE Ibara"
+
+#: modules/colorsel_triangle.c:170
+msgid "Triangle"
+msgstr ""
+
+#: modules/colorsel_water.c:88
+#, fuzzy
+msgid "Watercolor style color selector"
+msgstr "IMISUSIRE Ibara"
+
+#: modules/colorsel_water.c:154
+msgid "Watercolor"
+msgstr ""
+
+#: modules/colorsel_water.c:220
+msgid "Pressure"
+msgstr ""

@@ -19,13 +19,13 @@
 
 #include <gtk/gtk.h>
 
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 #include "gimpressionist.h"
 #include "placement.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 #define NUM_PLACE_RADIO 2

@@ -24,7 +24,7 @@
 
 #include <mypaint-brush.h>
 
-#include "libgimpbase/gimpbase.h"
+#include "libglimpsebase/gimpbase.h"
 
 #include "core-types.h"
 

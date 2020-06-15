@@ -23,7 +23,7 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libgimpcolor/gimpcolor.h"
+#include "libglimpsecolor/gimpcolor.h"
 
 #include "widgets-types.h"
 

@@ -19,8 +19,8 @@
 #define __GIMPRESSIONIST_H
 
 /* Includes necessary for the correct processing of this file. */
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 #include "ppmtool.h"
 /* Defines */

@@ -30,9 +30,9 @@
 extern "C"
 {
 
-#include "libgimpbase/gimpbase.h"
-#include "libgimpcolor/gimpcolor.h"
-#include "libgimpmath/gimpmath.h"
+#include "libglimpsebase/gimpbase.h"
+#include "libglimpsecolor/gimpcolor.h"
+#include "libglimpsemath/gimpmath.h"
 
 #include "gimp-gegl-types.h"
 

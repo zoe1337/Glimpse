@@ -25,10 +25,10 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libgimpwidgets/gimpwidgets.h"
+#include "libglimpsewidgets/gimpwidgets.h"
 
 #define GIMP_ENABLE_CONTROLLER_UNDER_CONSTRUCTION
-#include "libgimpwidgets/gimpcontroller.h"
+#include "libglimpsewidgets/gimpcontroller.h"
 
 #include "widgets-types.h"
 

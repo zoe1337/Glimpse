@@ -23,8 +23,8 @@
 
 #include <glib/gstdio.h>
 
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 #include "lighting-ui.h"
 #include "lighting-main.h"
@@ -33,7 +33,7 @@
 #include "lighting-preview.h"
 #include "lighting-stock.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 extern LightingValues mapvals;

@@ -26,7 +26,7 @@
 #include "edge.h"
 #include "pxl-outline.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 static pixel_outline_type find_one_outline (edge_type,
 			  		    unsigned, unsigned, bitmap_type *);

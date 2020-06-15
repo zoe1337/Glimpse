@@ -126,13 +126,13 @@
 #include <errno.h>
 
 #include <glib/gstdio.h>
-#include <libgimp/gimp.h>
+#include <libglimpse/gimp.h>
 
 #include "psd.h"
 #include "psd-util.h"
 #include "psd-layer-res-load.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 /*  Local function prototypes  */
 static gint     load_resource_unknown (const PSDlayerres     *res_a,

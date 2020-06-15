@@ -21,7 +21,7 @@
 
 #include <Python.h>
 
-#include <libgimpcolor/gimpcolor.h>
+#include <libglimpsecolor/gimpcolor.h>
 
 struct _PyGimpColor_Functions {
     PyTypeObject *RGB_Type;

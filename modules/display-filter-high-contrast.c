@@ -20,13 +20,13 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libgimpcolor/gimpcolor.h"
-#include "libgimpconfig/gimpconfig.h"
-#include "libgimpmath/gimpmath.h"
-#include "libgimpmodule/gimpmodule.h"
-#include "libgimpwidgets/gimpwidgets.h"
+#include "libglimpsecolor/gimpcolor.h"
+#include "libglimpseconfig/gimpconfig.h"
+#include "libglimpsemath/gimpmath.h"
+#include "libglimpsemodule/gimpmodule.h"
+#include "libglimpsewidgets/gimpwidgets.h"
 
-#include "libgimp/libgimp-intl.h"
+#include "libglimpse/libglimpse-intl.h"
 
 
 #define DEFAULT_CONTRAST 1.0

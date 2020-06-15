@@ -30,8 +30,8 @@
 #include <gtk/gtk.h>
 #include <gdk/gdkkeysyms.h> /* for keyboard values */
 
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 #include "imap_about.h"
 #include "imap_circle.h"
@@ -53,7 +53,7 @@
 #include "imap_stock.h"
 #include "imap_string.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 #define MAX_ZOOM_FACTOR 8

@@ -4,7 +4,7 @@
 
 #include "config.h"
 
-#include <libgimp/gimp.h>
+#include <libglimpse/gimp.h>
 
 #include "lighting-main.h"
 #include "lighting-image.h"

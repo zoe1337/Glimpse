@@ -38,14 +38,14 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libgimpconfig/gimpconfig.h"
-#include "libgimpmodule/gimpmodule.h"
-#include "libgimpwidgets/gimpwidgets.h"
+#include "libglimpseconfig/gimpconfig.h"
+#include "libglimpsemodule/gimpmodule.h"
+#include "libglimpsewidgets/gimpwidgets.h"
 
 #define GIMP_ENABLE_CONTROLLER_UNDER_CONSTRUCTION
-#include "libgimpwidgets/gimpcontroller.h"
+#include "libglimpsewidgets/gimpcontroller.h"
 
-#include "libgimp/libgimp-intl.h"
+#include "libglimpse/libglimpse-intl.h"
 
 
 typedef struct

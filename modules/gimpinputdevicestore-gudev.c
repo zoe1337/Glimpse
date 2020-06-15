@@ -28,7 +28,7 @@
 
 #include "gimpinputdevicestore.h"
 
-#include "libgimpmodule/gimpmodule.h"
+#include "libglimpsemodule/gimpmodule.h"
 
 
 #ifdef HAVE_LIBGUDEV

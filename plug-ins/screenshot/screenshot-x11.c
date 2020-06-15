@@ -22,8 +22,8 @@
 
 #include "config.h"
 
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 #ifdef GDK_WINDOWING_X11
 
@@ -45,7 +45,7 @@
 #include "screenshot.h"
 #include "screenshot-x11.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 static guint32    select_window        (ScreenshotValues *shootvals,

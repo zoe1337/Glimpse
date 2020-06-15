@@ -25,7 +25,7 @@
 
 #include "vectors-types.h"
 
-#include "libgimpmath/gimpmath.h"
+#include "libglimpsemath/gimpmath.h"
 
 #include "core/gimp-utils.h"
 #include "core/gimpcoords.h"

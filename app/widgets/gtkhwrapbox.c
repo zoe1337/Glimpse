@@ -26,7 +26,7 @@
 
 #include "gtkhwrapbox.h"
 
-#include "libgimpmath/gimpmath.h"
+#include "libglimpsemath/gimpmath.h"
 
 
 /* --- prototypes --- */

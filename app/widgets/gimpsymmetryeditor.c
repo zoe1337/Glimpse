@@ -23,7 +23,7 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libgimpwidgets/gimpwidgets.h"
+#include "libglimpsewidgets/gimpwidgets.h"
 
 #include "propgui/propgui-types.h" /* ugly, but what the heck */
 

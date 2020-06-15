@@ -21,7 +21,7 @@
 
 #include <gtk/gtk.h>
 
-#include <libgimp/gimp.h>
+#include <libglimpse/gimp.h>
 
 #include "ppmtool.h"
 #include "infile.h"
@@ -34,7 +34,7 @@
 #include "size.h"
 
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 static void query               (void);
 static void run                 (const gchar      *name,

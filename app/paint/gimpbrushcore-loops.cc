@@ -22,7 +22,7 @@
 #include <gegl.h>
 #include <gdk-pixbuf/gdk-pixbuf.h>
 
-#include "libgimpmath/gimpmath.h"
+#include "libglimpsemath/gimpmath.h"
 
 extern "C"
 {

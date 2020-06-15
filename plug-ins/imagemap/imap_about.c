@@ -27,7 +27,7 @@
 #include "imap_about.h"
 #include "imap_main.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 void
 do_about_dialog(void)

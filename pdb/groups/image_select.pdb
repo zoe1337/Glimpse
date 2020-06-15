@@ -423,7 +423,7 @@ CODE
 }
 
 
-@headers = qw("libgimpbase/gimpbase.h"
+@headers = qw("libglimpsebase/gimpbase.h"
               "core/gimpchannel-select.h"
               "gimppdb-utils.h"
               "gimppdbcontext.h"

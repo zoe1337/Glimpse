@@ -22,9 +22,9 @@
 
 #include "config.h"
 
-#include <libgimp/gimp.h>
+#include <libglimpse/gimp.h>
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 #define PLUG_IN_PROC "plug-in-color-enhance"

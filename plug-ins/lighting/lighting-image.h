@@ -1,8 +1,8 @@
 #ifndef __LIGHTING_IMAGE_H__
 #define __LIGHTING_IMAGE_H__
 
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 extern gint32      input_drawable_id;
 extern gint32      output_drawable_id;

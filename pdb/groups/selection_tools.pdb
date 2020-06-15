@@ -399,7 +399,7 @@ CODE
 }
 
 
-@headers = qw("libgimpbase/gimpbase.h"
+@headers = qw("libglimpsebase/gimpbase.h"
               "core/gimpchannel-select.h"
               "gimp-intl.h");
 

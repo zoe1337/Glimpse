@@ -6,14 +6,14 @@ endif
 
 SUBDIRS = \
 	tools		\
-	libgimpbase	\
-	libgimpcolor	\
-	libgimpconfig	\
-	libgimpmath	\
-	libgimpmodule	\
-	libgimpthumb	\
-	libgimpwidgets	\
-	libgimp		\
+	libglimpsebase	\
+	libglimpsecolor	\
+	libglimpseconfig	\
+	libglimpsemath	\
+	libglimpsemodule	\
+	libglimpsethumb	\
+	libglimpsewidgets	\
+	libglimpse		\
 	$(app)		\
 	\
 	performance-logs

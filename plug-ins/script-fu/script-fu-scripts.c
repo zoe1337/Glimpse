@@ -26,8 +26,8 @@
 #include <windows.h>
 #endif
 
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 #include "tinyscheme/scheme-private.h"
 

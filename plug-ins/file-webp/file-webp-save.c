@@ -31,15 +31,15 @@
 
 #include <gegl.h>
 
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 #include <webp/encode.h>
 #include <webp/mux.h>
 
 #include "file-webp-save.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 int           webp_anim_file_writer (FILE              *outfile,

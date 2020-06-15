@@ -25,14 +25,14 @@
 
 #include <string.h>
 
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 #undef GTK_DISABLE_SINGLE_INCLUDES
 #include <poppler.h>
 #define GTK_DISABLE_SINGLE_INCLUDES
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 #define LOAD_PROC       "file-pdf-load"
@@ -1395,7 +1395,7 @@ load_dialog (PopplerDocument  *doc,
 
 
 /**
- ** code for GimpResolutionEntry widget, formerly in libgimpwidgets
+ ** code for GimpResolutionEntry widget, formerly in libglimpsewidgets
  **/
 
 static guint gimp_resolution_entry_signals[LAST_SIGNAL] = { 0 };

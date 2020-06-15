@@ -28,13 +28,13 @@
 
 #include <gtk/gtk.h>
 
-#include <libgimp/gimp.h>
+#include <libglimpse/gimp.h>
 
 #include "plug-ins/help/gimphelp.h"
 
 #include "dialog.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 /*  defines  */

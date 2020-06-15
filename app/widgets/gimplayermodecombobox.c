@@ -1,4 +1,4 @@
-/* LIBGIMP - The GIMP Library
+/* libglimpse - The Glimpse Library
  * Copyright (C) 1995-1999 Peter Mattis and Spencer Kimball
  *
  * gimplayermodecombobox.c
@@ -23,8 +23,8 @@
 #include <gtk/gtk.h>
 #include <gegl.h>
 
-#include "libgimpbase/gimpbase.h"
-#include "libgimpwidgets/gimpwidgets.h"
+#include "libglimpsebase/gimpbase.h"
+#include "libglimpsewidgets/gimpwidgets.h"
 
 #include "widgets-types.h"
 

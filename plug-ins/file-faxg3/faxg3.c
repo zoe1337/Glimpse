@@ -41,11 +41,11 @@
 #define _O_BINARY 0
 #endif
 
-#include <libgimp/gimp.h>
+#include <libglimpse/gimp.h>
 
 #include "g3.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 #define LOAD_PROC "file-faxg3-load"

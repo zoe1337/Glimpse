@@ -22,8 +22,8 @@
 
 #include <string.h>
 
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 /* #define ICO_DBG */
 
@@ -31,7 +31,7 @@
 #include "ico-load.h"
 #include "ico-save.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 #define LOAD_PROC        "file-ico-load"
 #define LOAD_THUMB_PROC  "file-ico-load-thumb"

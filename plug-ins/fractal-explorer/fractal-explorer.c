@@ -56,18 +56,18 @@
 #include <glib/gstdio.h>
 
 #ifdef G_OS_WIN32
-#include <libgimpbase/gimpwin32-io.h>
+#include <libglimpsebase/gimpwin32-io.h>
 #endif
 
 #include <gtk/gtk.h>
 
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 #include "fractal-explorer.h"
 #include "fractal-explorer-dialogs.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 /**********************************************************************

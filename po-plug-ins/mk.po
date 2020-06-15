@@ -4956,8 +4956,8 @@ msgstr "Филмска лента"
 msgid "_Fit height to images"
 msgstr "_Намести ја висината во сликите"
 
-# #: libgimp/gimpfileselection.c:355
-# #: libgimp/gimpunitmenu.c:510
+# #: libglimpse/gimpfileselection.c:355
+# #: libglimpse/gimpunitmenu.c:510
 # msgid "Select"
 # msgstr "Odabir"
 #
@@ -5169,8 +5169,8 @@ msgstr "Варијации на вредноста"
 msgid "Saturation Variations"
 msgstr "Варијации на заситеноста"
 
-# #: libgimp/gimpfileselection.c:355
-# #: libgimp/gimpunitmenu.c:510
+# #: libglimpse/gimpfileselection.c:355
+# #: libglimpse/gimpunitmenu.c:510
 # msgid "Select"
 # msgstr "Odabir"
 #: ../plug-ins/common/filter-pack.c:830
@@ -6534,10 +6534,10 @@ msgstr "_Пикселизирам..."
 msgid "Pixelizing"
 msgstr "Пикселизирам"
 
-# #: libgimp/gimpexport.c:305
+# #: libglimpse/gimpexport.c:305
 # msgid "Cancel"
 # msgstr "Odustani"
-# #: libgimp/gimpfileselection.c:356 libgimp/gimpunitmenu.c:518
+# #: libglimpse/gimpfileselection.c:3libglimpse/gimpunitmenu.c:518
 # msgid "Close"
 # msgstr "Zatvori"
 #
@@ -12054,8 +12054,8 @@ msgstr "Број на чекори за пони_штување (1 - 99):"
 msgid "Number of M_RU entries (1 - 16):"
 msgstr "Број на M_RU внесови (1 - 16):"
 
-# #: libgimp/gimpfileselection.c:355
-# #: libgimp/gimpunitmenu.c:510
+# #: libglimpse/gimpfileselection.c:355
+# #: libglimpse/gimpunitmenu.c:510
 # msgid "Select"
 # msgstr "Odabir"
 #

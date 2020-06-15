@@ -24,15 +24,15 @@
 
 #include <stdio.h>
 
-#include "libgimp/gimp.h"
-#include "libgimp/gimpui.h"
+#include "libglimpse/gimp.h"
+#include "libglimpse/gimpui.h"
 
 #include "imap_commands.h"
 #include "imap_main.h"
 #include "imap_menu.h"
 #include "imap_selection.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 static void

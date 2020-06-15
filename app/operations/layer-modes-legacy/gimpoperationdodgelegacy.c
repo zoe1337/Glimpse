@@ -23,7 +23,7 @@
 
 #include <gegl-plugin.h>
 
-#include "libgimpmath/gimpmath.h"
+#include "libglimpsemath/gimpmath.h"
 
 #include "../operations-types.h"
 

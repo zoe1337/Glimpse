@@ -24,7 +24,7 @@
 #include <string.h>
 #include <utime.h>
 
-#include "libgimpbase/gimpbase.h"
+#include "libglimpsebase/gimpbase.h"
 
 #include "dialogs/dialogs-types.h"
 

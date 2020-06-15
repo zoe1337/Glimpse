@@ -24,12 +24,12 @@
 #include <errno.h>
 
 #include <glib/gstdio.h>
-#include <libgimp/gimp.h>
+#include <libglimpse/gimp.h>
 
 #include "psd.h"
 #include "psd-util.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 /*  Local constants  */
 #define MIN_RUN     3

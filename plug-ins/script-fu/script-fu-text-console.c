@@ -24,7 +24,7 @@
 #include <unistd.h>
 #endif
 
-#include "libgimp/gimp.h"
+#include "libglimpse/gimp.h"
 
 #include "scheme-wrapper.h"
 #include "script-fu-text-console.h"

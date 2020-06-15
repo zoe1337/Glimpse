@@ -19,7 +19,7 @@
 
 #include <gtk/gtk.h>
 
-#include "libgimpmath/gimpmath.h"
+#include "libglimpsemath/gimpmath.h"
 
 #include "widgets-types.h"
 

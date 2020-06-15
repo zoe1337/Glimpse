@@ -22,7 +22,7 @@
 
 #include <gtk/gtk.h>
 
-#include "libgimpconfig/gimpconfig.h"
+#include "libglimpseconfig/gimpconfig.h"
 
 #include "widgets-types.h"
 

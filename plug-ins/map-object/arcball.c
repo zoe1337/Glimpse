@@ -5,7 +5,7 @@
 
 #include "config.h"
 
-#include <libgimp/gimp.h>
+#include <libglimpse/gimp.h>
 
 #include "arcball.h"
 

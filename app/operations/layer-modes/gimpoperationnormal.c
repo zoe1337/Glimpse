@@ -23,7 +23,7 @@
 #include <gio/gio.h>
 #include <gegl-plugin.h>
 
-#include "libgimpbase/gimpbase.h"
+#include "libglimpsebase/gimpbase.h"
 
 #include "../operations-types.h"
 

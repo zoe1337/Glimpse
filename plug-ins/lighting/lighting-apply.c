@@ -6,14 +6,14 @@
 
 #include <sys/types.h>
 
-#include <libgimp/gimp.h>
+#include <libglimpse/gimp.h>
 
 #include "lighting-main.h"
 #include "lighting-image.h"
 #include "lighting-shade.h"
 #include "lighting-apply.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 /*************/

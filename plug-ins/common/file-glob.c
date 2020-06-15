@@ -22,7 +22,7 @@
 
 #include <string.h>
 
-#include "libgimp/gimp.h"
+#include "libglimpse/gimp.h"
 
 
 #define PLUG_IN_PROC "file-glob"

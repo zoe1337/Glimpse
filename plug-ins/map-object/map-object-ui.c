@@ -4,8 +4,8 @@
 
 #include "config.h"
 
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 #include "arcball.h"
 #include "map-object-ui.h"
@@ -15,7 +15,7 @@
 #include "map-object-main.h"
 #include "map-object-stock.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 GtkWidget     *previewarea = NULL;

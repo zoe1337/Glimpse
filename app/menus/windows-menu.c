@@ -21,7 +21,7 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libgimpthumb/gimpthumb.h"
+#include "libglimpsethumb/gimpthumb.h"
 
 #include "menus-types.h"
 

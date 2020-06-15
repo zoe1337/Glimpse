@@ -24,11 +24,11 @@
 
 #include <string.h>
 
-#include <libgimp/gimp.h>
+#include <libglimpse/gimp.h>
 
 #include "gimpressionist.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 /* Mathematical Utilities */

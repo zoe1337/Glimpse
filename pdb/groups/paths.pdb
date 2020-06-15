@@ -608,8 +608,8 @@ CODE
 
 
 @headers = qw(<string.h>
-              "libgimpconfig/gimpconfig.h"
-              "libgimpmath/gimpmath.h"
+              "libglimpseconfig/gimpconfig.h"
+              "libglimpsemath/gimpmath.h"
               "core/gimplist.h"
               "vectors/gimpanchor.h"
               "vectors/gimpbezierstroke.h"

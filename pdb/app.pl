@@ -783,7 +783,7 @@ GPL
 		if (/^</) {
 		    s/^</!/;
 		}
-		elsif (!/libgimp/) {
+		elsif (!/libglimpse/) {
 		    s/^/~/;
 		}
 	    }
@@ -812,7 +812,7 @@ GPL
 
 	    $seen = 0 if !/^</;
 
-	    if (/libgimp/) {
+	    if (/libglimpse/) {
 		$lib = 1;
 	    }
 	    else {
@@ -821,7 +821,7 @@ GPL
 
 		if ($sys == 1 && $base == 0) {
 		    $base = 1;
-		    $headers .= "#include \"libgimpbase/gimpbase.h\"\n\n";
+		    $headers .= "#include \"libglimpsebase/gimpbase.h\"\n\n";
 		    $headers .= "#include \"pdb-types.h\"\n\n";
 		}
 	    }

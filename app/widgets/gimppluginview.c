@@ -24,7 +24,7 @@
 #include <gtk/gtk.h>
 #include <gegl.h>
 
-#include "libgimpconfig/gimpconfig.h"
+#include "libglimpseconfig/gimpconfig.h"
 
 #include "widgets-types.h"
 

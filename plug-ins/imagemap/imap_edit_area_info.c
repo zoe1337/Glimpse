@@ -25,8 +25,8 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "libgimp/gimp.h"
-#include "libgimp/gimpui.h"
+#include "libglimpse/gimp.h"
+#include "libglimpse/gimpui.h"
 
 #include "imap_browse.h"
 #include "imap_commands.h"
@@ -36,7 +36,7 @@
 #include "imap_stock.h"
 #include "imap_table.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 static gboolean callback_lock;
 

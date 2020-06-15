@@ -4732,8 +4732,8 @@ msgstr "Филмска трака"
 msgid "_Fit height to images"
 msgstr "Намести _висину у сликама"
 
-# #: libgimp/gimpfileselection.c:355
-# #: libgimp/gimpunitmenu.c:510
+# #: libglimpse/gimpfileselection.c:355
+# #: libglimpse/gimpunitmenu.c:510
 # msgid "Select"
 # msgstr "Odabir"
 #
@@ -4948,8 +4948,8 @@ msgstr "Варијације вредности"
 msgid "Saturation Variations"
 msgstr "Варијације засићења"
 
-# #: libgimp/gimpfileselection.c:355
-# #: libgimp/gimpunitmenu.c:510
+# #: libglimpse/gimpfileselection.c:355
+# #: libglimpse/gimpunitmenu.c:510
 # msgid "Select"
 # msgstr "Избор"
 #
@@ -11644,8 +11644,8 @@ msgstr "_Број корака за опозивање (1 - 99):"
 msgid "Number of M_RU entries (1 - 16):"
 msgstr "Бр_ој MRU уноса (1 - 16):"
 
-# #: libgimp/gimpfileselection.c:355
-# #: libgimp/gimpunitmenu.c:510
+# #: libglimpse/gimpfileselection.c:355
+# #: libglimpse/gimpunitmenu.c:510
 # msgid "Select"
 # msgstr "Odabir"
 #
@@ -14707,10 +14707,10 @@ msgstr "Преносим податке са скенера/камере"
 #~ msgid "Pixelizing"
 #~ msgstr "Правим квадратиће"
 
-# #: libgimp/gimpexport.c:305
+# #: libglimpse/gimpexport.c:305
 # msgid "Cancel"
 # msgstr "Odustani"
-# #: libgimp/gimpfileselection.c:356 libgimp/gimpunitmenu.c:518
+# #: libglimpse/gimpfileselection.c:3libglimpse/gimpunitmenu.c:518
 # msgid "Close"
 # msgstr "Zatvori"
 #

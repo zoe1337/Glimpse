@@ -29,13 +29,13 @@
 
 #include <gtk/gtk.h>
 
-#include <libgimp/gimp.h>
+#include <libglimpse/gimp.h>
 
 #include "gfig.h"
 #include "gfig-dobject.h"
 #include "gfig-arc.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 static gdouble     dist                (gdouble   x1,
                                         gdouble   y1,

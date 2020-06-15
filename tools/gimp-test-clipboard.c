@@ -25,7 +25,7 @@
 
 #include <gtk/gtk.h>
 
-#include "libgimpbase/gimpbase.h"
+#include "libglimpsebase/gimpbase.h"
 
 
 typedef struct _CopyData CopyData;

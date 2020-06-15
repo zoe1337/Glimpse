@@ -273,7 +273,7 @@ CODE
 }
 
 
-@headers = qw("libgimpbase/gimpbase.h"
+@headers = qw("libglimpsebase/gimpbase.h"
               "text/gimptext-compat.h"
               "gimppdb-utils.h");
 

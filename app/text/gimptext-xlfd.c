@@ -28,7 +28,7 @@
 
 #include <gio/gio.h>
 
-#include "libgimpbase/gimpbase.h"
+#include "libglimpsebase/gimpbase.h"
 
 #include "text-types.h"
 

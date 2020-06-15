@@ -23,7 +23,7 @@
  */
 
 #include "gtk/gtk.h"
-#include "libgimp/gimp.h"
+#include "libglimpse/gimp.h"
 
 guchar          sel_pixel_value       (gint, gint);
 gint            sel_pixel_is_white    (gint, gint);

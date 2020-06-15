@@ -70,9 +70,9 @@
 
 #include <glib/gstdio.h>
 
-#include <libgimp/gimp.h>
+#include <libglimpse/gimp.h>
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 #define LOAD_PROC        "file-gif-load"

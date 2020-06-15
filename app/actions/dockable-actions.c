@@ -22,7 +22,7 @@
 
 #include <gtk/gtk.h>
 
-#include "libgimpwidgets/gimpwidgets.h"
+#include "libglimpsewidgets/gimpwidgets.h"
 
 #include "actions-types.h"
 

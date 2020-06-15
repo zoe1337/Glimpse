@@ -22,15 +22,15 @@
 
 #include <string.h>
 
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 #include "psd.h"
 #include "psd-load.h"
 #include "psd-save.h"
 #include "psd-thumb-load.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 /*  Local function prototypes  */

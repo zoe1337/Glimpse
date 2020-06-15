@@ -17,7 +17,7 @@ include $(top_srcdir)/icons/icon-list.mk
 #	SVG=`$(top_srcdir)/tools/extract-vector-icon.sh $< $*` && \
 #	echo $${SVG} > $@
 
-## Compiled-in icons for both the core and libgimpwidgets
+## Compiled-in icons for both the core and libglimpsewidgets
 
 CORE_IMAGES = \
 	64/gimp-question.png

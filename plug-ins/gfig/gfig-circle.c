@@ -24,15 +24,15 @@
 
 #include "config.h"
 
-#include <libgimp/gimp.h>
-#include <libgimp/gimpui.h>
+#include <libglimpse/gimp.h>
+#include <libglimpse/gimpui.h>
 
 #include "gfig.h"
 #include "gfig-dobject.h"
 #include "gfig-poly.h"
 #include "gfig-circle.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 static gint        calc_radius     (GdkPoint *center,
                                     GdkPoint *edge);

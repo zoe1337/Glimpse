@@ -70,16 +70,16 @@
 
 #include <glib/gstdio.h>
 
-#include "libgimp/gimp.h"
-#include "libgimp/gimpui.h"
+#include "libglimpse/gimp.h"
+#include "libglimpse/gimpui.h"
 
-#include "libgimpmath/gimpmath.h"
+#include "libglimpsemath/gimpmath.h"
 
 #include "psd.h"
 #include "psd-util.h"
 #include "psd-save.h"
 
-#include "libgimp/stdplugins-intl.h"
+#include "libglimpse/stdplugins-intl.h"
 
 
 /* set to TRUE if you want debugging, FALSE otherwise */

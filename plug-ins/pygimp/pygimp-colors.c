@@ -21,7 +21,7 @@
 #include "pygimp.h"
 #include "pygimpcolor.h"
 
-#include <libgimpmath/gimpmath.h>
+#include <libglimpsemath/gimpmath.h>
 
 static PyObject *
 rgb_set(PyObject *self, PyObject *args, PyObject *kwargs)

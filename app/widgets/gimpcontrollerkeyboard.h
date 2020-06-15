@@ -23,7 +23,7 @@
 
 
 #define GIMP_ENABLE_CONTROLLER_UNDER_CONSTRUCTION
-#include "libgimpwidgets/gimpcontroller.h"
+#include "libglimpsewidgets/gimpcontroller.h"
 
 
 #define GIMP_TYPE_CONTROLLER_KEYBOARD            (gimp_controller_keyboard_get_type ())

@@ -1,4 +1,4 @@
-/* LIBGIMP - The GIMP Library
+/* libglimpse - The Glimpse Library
  * Copyright (C) 1995-1999 Peter Mattis and Spencer Kimball
  *
  * gimplayermodebox.h
