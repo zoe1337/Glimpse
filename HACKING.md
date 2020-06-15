@@ -17,13 +17,10 @@ For convenience we have also provided a `rebuild.sh` script that rebuilds the co
 Glimpse 0.1.9 depends on the following subcomponents:
 
 - GNU Image Manipulation Program 2.10.18
-- BABL 0.1.74
-- MyPaint 1.3.0
+- BABL 0.1.78
+- MyPaint-Brushes 2.0.2
+- LibMypaint 1.5.1
 - GEGL 0.4.22
-
-For convenience the `mypaint-brushes` and `libmypaint` components have been linked as git submodules. Ensure you initialize them before proceeding further.
-
-babl and gegl must be clone separately because of an upstream bug filed here: https://gitlab.gnome.org/GNOME/babl/-/issues/51
 
 You must build the components in this order:
 
@@ -49,6 +46,8 @@ $ make && make install
 ```
 
 The parameters/flags you add to `./autogen.sh` must be the same for `./configure`. You only need the `./configure` step for _mypaint-brushes_ and _libmypaint_.
+
+It is highly recommended that you add the `--disable-python` flag to the Glimpse build step. Python 2 is now "end of life", so it should not be used in production environments.
 
 To speed up the build, add these tags for the BABL build step:
 
