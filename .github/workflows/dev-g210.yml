@@ -13,12 +13,19 @@ jobs:
           
     steps:
     - uses: actions/checkout@v2
+      with:
+        path: Glimpse
       
     - name: Set up Ubuntu 20.04 runner
-      run: sudo apt-get --quiet update --yes
+      run: |
+        sudo sed -i '/deb-src/s/^# //' /etc/apt/sources.list
+        sudo apt-get --quiet update --yes
             
-    - name: Install build dependencies
+    - name: Install build tools
       run: sudo apt-get --quiet install --yes build-essential git python3 python3-pip python3-setuptools python3-wheel ninja-build libgirepository1.0-dev valac
+
+    - name: Install build dependencies
+      run: sudo apt-get --quiet build-dep gimp
       
     - name: Install meson
       run: yes | sudo pip3 install meson
@@ -26,7 +33,7 @@ jobs:
     - name: Set global environment variables
       run: |
         echo ::set-env name=SRC_PREFIX::${{ github.workspace }}
-        echo ::set-env name=INSTALL_PREFIX::$HOME/glimpse-prefix
+        echo ::set-env name=INSTALL_PREFIX::${{ github.workspace }}/glimpse-prefix
         echo ::set-env name="$(dpkg-architecture -qDEB_HOST_MULTIARCH 2> /dev/null)"
         
     - name: Set build environment variables
@@ -38,40 +45,40 @@ jobs:
         echo ::set-env name=PATH::$HOME/.local/bin:$INSTALL_PREFIX/bin:$PATH
     
     - name: Clone BABL from GNOME gitlab server
-      run: git clone https://gitlab.gnome.org/GNOME/babl.git $HOME/babl
+      run: git clone https://gitlab.gnome.org/GNOME/babl.git $SRC_PREFIX/babl
       
     - name: Clone MyPaint-Brushes from Github
-      run: git clone https://github.com/mypaint/mypaint-brushes.git $HOME/mypaint-brushes
+      run: git clone https://github.com/mypaint/mypaint-brushes.git $SRC_PREFIX/mypaint-brushes
       
     - name: Clone LibMyPaint from Github
-      run: git clone https://github.com/mypaint/libmypaint.git $HOME/libmypaint
+      run: git clone https://github.com/mypaint/libmypaint.git $SRC_PREFIX/libmypaint
       
     - name: Clone GEGL from GNOME gitlab server
-      run: git clone https://gitlab.gnome.org/GNOME/gegl.git $HOME/gegl
+      run: git clone https://gitlab.gnome.org/GNOME/gegl.git $SRC_PREFIX/gegl
       
     - name: Create install prefix
       run: |
         mkdir -p $INSTALL_PREFIX/share/aclocal
       
-    - name: Build BABL 0.1.74
+    - name: Build BABL 0.1.78
       run: |
-        cd $HOME/babl
-        git checkout BABL_0_1_74
+        cd $SRC_PREFIX/babl
+        git checkout BABL_0_1_78
         meson builddir --prefix=$INSTALL_PREFIX --buildtype=release -Db_lto=true -Dwith-docs=false
-        cd $HOME/babl/builddir
+        cd $SRC_PREFIX/babl/builddir
         ninja && ninja install
         
-    - name: Build mypaint-brushes submodule
+    - name: Build mypaint-brushes 2.0.2
       run: |
-        cd $HOME/mypaint-brushes
+        cd $SRC_PREFIX/mypaint-brushes
         git checkout v2.0.2
         ./autogen.sh
         ./configure --prefix=$INSTALL_PREFIX
         make && make install
     
-    - name: Build libmypaint submodule
+    - name: Build libmypaint 1.5.1
       run: |
-        cd $HOME/libmypaint
+        cd $SRC_PREFIX/libmypaint
         git checkout v1.5.1
         ./autogen.sh
         ./configure --prefix=$INSTALL_PREFIX
@@ -79,19 +86,24 @@ jobs:
         
     - name: Build GEGL 0.4.22
       run: |
-        cd $HOME/gegl
+        cd $SRC_PREFIX/gegl
         git checkout GEGL_0_4_22
         meson builddir --prefix=$INSTALL_PREFIX --buildtype=release -Db_lto=true -Ddocs=false
-        cd $HOME/gegl/builddir
+        cd $SRC_PREFIX/gegl/builddir
         ninja && ninja install
         
     - name: Build in-development version of Glimpse Image Editor
       run: |
-        cd $SRC_PREFIX
+        cd $SRC_PREFIX/Glimpse
         ./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc --without-xvfb-run --disable-python
         make && make install
+        
+    - name: Run unit tests against Glimpse Image Editor
+      run: |
+        cd $SRC_PREFIX/Glimpse
+        make check
     
     - uses: actions/upload-artifact@v1
       with:
         name: glimpse-dev-x86_64-linux-gnu
-        path: $HOME/glimpse-prefix
+        path: ${{ github.workspace }}/glimpse-prefix
