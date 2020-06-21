@@ -1,24 +1,10 @@
-## Quick start
-
-Ensure you have Vagrant and Oracle Virtualbox installed, then follow
-these steps from the `build-aux/vagrant` folder:
-
-```
-$ vagrant up
-$ vagrant ssh
-$ sh /vagrant/build-aux/vagrant/build.sh
-$ sh /vagrant/build-aux/vagrant/run-glimpse.sh
-```
-
-For convenience we have also provided a `rebuild.sh` script that rebuilds the code more quickly with the same dependencies after the first run.
-
 ## Detailed build instructions
 
 Glimpse 0.1.9 depends on the following subcomponents:
 
 - GNU Image Manipulation Program 2.10.18
 - BABL 0.1.78
-- MyPaint-Brushes 2.0.2
+- MyPaint-Brushes 1.3.1
 - LibMypaint 1.5.1
 - GEGL 0.4.22
 
