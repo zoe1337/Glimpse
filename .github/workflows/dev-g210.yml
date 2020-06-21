@@ -68,11 +68,11 @@ jobs:
         cd $SRC_PREFIX/babl/builddir
         ninja && ninja install
         
-    - name: Build mypaint-brushes 2.0.2
+    - name: Build mypaint-brushes 1.3.1
       run: |
         cd $SRC_PREFIX/mypaint-brushes
-        git checkout v2.0.2
-        ./autogen.sh
+        git checkout v1.3.1
+        ./autogen.sh --prefix=$INSTALL_PREFIX
         ./configure --prefix=$INSTALL_PREFIX
         make && make install
     
@@ -80,7 +80,7 @@ jobs:
       run: |
         cd $SRC_PREFIX/libmypaint
         git checkout v1.5.1
-        ./autogen.sh
+        ./autogen.sh --prefix=$INSTALL_PREFIX
         ./configure --prefix=$INSTALL_PREFIX
         make && make install
         
@@ -95,7 +95,7 @@ jobs:
     - name: Build in-development version of Glimpse Image Editor
       run: |
         cd $SRC_PREFIX/Glimpse
-        ./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc --without-xvfb-run --disable-python
+        ./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc --disable-gtk-doc-html --without-xvfb-run --disable-python --without-webkit
         make && make install
         
     - name: Run unit tests against Glimpse Image Editor
