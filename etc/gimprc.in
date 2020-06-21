@@ -53,7 +53,7 @@
 # When enabled, uses OpenCL for some operations.  Possible values are yes and
 # no.
 #
-# (use-opencl no)
+(use-opencl yes)
 
 # Specifies the language to use for the user interface.  This is a string
 # value.
@@ -228,19 +228,19 @@
 
 # Sets the default image in the "File/New" dialog.  This is a parameter list.
 #
-# (default-image
-#     (width 1920)
-#     (height 1080)
-#     (unit pixels)
-#     (xresolution 300)
-#     (yresolution 300)
-#     (resolution-unit inches)
-#     (image-type rgb)
-#     (precision u8-gamma)
-#     (color-managed yes)
-#     (color-profile NULL)
-#     (fill-type background)
-#     (comment "Created with Glimpse"))
+(default-image
+    (width 1920)
+    (height 1080)
+    (unit pixels)
+    (xresolution 300)
+    (yresolution 300)
+    (resolution-unit inches)
+    (image-type rgb)
+    (precision u8-gamma)
+    (color-managed yes)
+    (color-profile NULL)
+    (fill-type background)
+    (comment "Created with Glimpse"))
 
 # Specify a default image grid.  This is a parameter list.
 #
@@ -259,7 +259,7 @@
 # are kept available until the undo-size limit is reached.  This is an
 # integer value.
 #
-# (undo-levels 5)
+(undo-levels 10)
 
 # Sets an upper limit to the memory that is used per image to keep operations
 # on the undo stack. Regardless of this setting, at least as many undo-levels
@@ -356,7 +356,7 @@
 # Add an alpha channel to all layers of imported images.  Possible values are
 # yes and no.
 #
-# (import-add-alpha no)
+(import-add-alpha yes)
 
 # Which plug-in to use for importing raw digital camera files.  This is a
 # single filename.

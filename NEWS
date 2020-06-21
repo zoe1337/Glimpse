@@ -10,7 +10,7 @@ Otherwise, this branch is only for bug-fixes.
 Overview of Changes in Glimpse 0.1.9
 ====================================
 * Uplifted BABL version from 0.1.68 to 0.1.78
-* Uplifted Mypaint-Brushes from 1.3.0 to 2.0.2
+* Uplifted Mypaint-Brushes from 1.3.0 to 1.3.1
 * Uplifted LibMyPaint from 1.3.0 to 1.5.1
 * Uplifted GEGL version from 0.4.16 to 0.4.22
 * Uplifted GNU Image Manipulation Program base from 2.10.12 to 2.10.18
@@ -27,6 +27,9 @@ Overview of Changes in Glimpse 0.1.9
 * Fixed the icon pack previewer in the Preferences menu
 * Moved to new wiki site and updated links to https://github.com/glimpse-editor/Glimpse/wiki
 * Moved to new Github Pages site and updated links to https://glimpse-editor.github.io
+* Changed the default configuration to enable OpenCL by default
+* Changed the default configuration to set the minimum undo levels to 10 (previously 5)
+* Changed the default configuration so that the "Created by Glimpse" message is always present
 * TO BE DETERMINED - Still in development
 
 Overview of Changes in Glimpse 0.1.2 Release 2
