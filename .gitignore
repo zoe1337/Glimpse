@@ -53,6 +53,10 @@
 *.log
 glimpse-vagrant.retry
 glimpse-prefix/
+babl/
+gegl/
+libmypaint/
+mypaint-brushes/
 .vagrant/
 *.snap
 .vscode/

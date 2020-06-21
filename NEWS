@@ -17,8 +17,7 @@ Overview of Changes in Glimpse 0.1.9
 * Updated `HACKING.md` and GEGL/BABL build jobs to use new `meson` build process
 * Refactored `libgimp*` to `libglimpse*` to assist Linux package repository maintainers
 * Removed git submodules previously provided for convenience only
-* Moved Vagrant support files into a dedicated folder in `build-aux` directory
-* Updated Vagrant build process to use 2GB RAM, 2 CPUs and new `meson` builds
+* Removed Vagrant quick start build process
 * Updated the `README.MD` file with more current information
 * Backported high contrast icon themes from GNU Image Manipulation Program 2.10.18
 * Added new application icon in About window
