@@ -29,7 +29,7 @@ jobs:
 
     - name: Install crossroad
       run: |
-        git clone git@github.com:glimpse-editor/crossroad.git $SRC_PREFIX/crossroad
+        git clone https://github.com/glimpse-editor/crossroad.git $SRC_PREFIX/crossroad
         cd $SRC_PREFIX/crossroad
         ./setup.py install --prefix=$HOME/.local
 
