@@ -44,7 +44,7 @@ jobs:
     - name: Build in-development version of Glimpse Image Editor with crossroad
       run: |
         cd $SRC_PREFIX/Glimpse
-        crossroad w64 glimpse --run="build-aux/windows-ci/build-glimpse.sh"
+        crossroad w64 glimpse --run="build-aux/windows-ci/build-glimpse.sh" --verbose
 
     - uses: actions/upload-artifact@v1
       with:
