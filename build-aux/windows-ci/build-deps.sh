@@ -33,6 +33,7 @@ crossroad install appstream-glib              \
                   atk                         \
                   drmingw                     \
                   gexiv2                      \
+                  gtk2                        \
                   glib2                       \
                   json-c                      \
                   ghostscript                 \
