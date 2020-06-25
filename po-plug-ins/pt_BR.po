@@ -5031,14 +5031,6 @@ msgstr "Y_1:"
 msgid "Y_2:"
 msgstr "Y_2:"
 
-#: ../plug-ins/common/goat-exercise.c:62
-msgid "Exercise a goat"
-msgstr "Exercitar um bode"
-
-#: ../plug-ins/common/goat-exercise.c:67
-msgid "Goat-exercise"
-msgstr "Exercitar um bode"
-
 #: ../plug-ins/common/gradient-map.c:78
 msgid "Recolor the image using colors from the active gradient"
 msgstr "Recolore a imagem usando as cores do degradê ativo"

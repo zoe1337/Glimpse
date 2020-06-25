@@ -108,7 +108,6 @@ file_xwd_libexecdir = $(gimpplugindir)/plug-ins/file-xwd
 film_libexecdir = $(gimpplugindir)/plug-ins/film
 filter_pack_libexecdir = $(gimpplugindir)/plug-ins/filter-pack
 fractal_trace_libexecdir = $(gimpplugindir)/plug-ins/fractal-trace
-goat_exercise_libexecdir = $(gimpplugindir)/plug-ins/goat-exercise
 gradient_map_libexecdir = $(gimpplugindir)/plug-ins/gradient-map
 grid_libexecdir = $(gimpplugindir)/plug-ins/grid
 guillotine_libexecdir = $(gimpplugindir)/plug-ins/guillotine
@@ -199,7 +198,6 @@ file_xwd_libexec_PROGRAMS = file-xwd
 film_libexec_PROGRAMS = film
 filter_pack_libexec_PROGRAMS = filter-pack
 fractal_trace_libexec_PROGRAMS = fractal-trace
-goat_exercise_libexec_PROGRAMS = goat-exercise
 gradient_map_libexec_PROGRAMS = gradient-map
 grid_libexec_PROGRAMS = grid
 guillotine_libexec_PROGRAMS = guillotine
@@ -1377,22 +1375,6 @@ fractal_trace_LDADD = \
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
 	$(fractal_trace_RC)
-
-goat_exercise_SOURCES = \
-	goat-exercise.c
-
-goat_exercise_LDADD = \
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
-	$(CAIRO_LIBS)		\
-	$(GDK_PIXBUF_LIBS)	\
-	$(GEGL_LIBS)		\
-	$(RT_LIBS)		\
-	$(INTLLIBS)		\
-	$(goat_exercise_RC)
 
 gradient_map_SOURCES = \
 	gradient-map.c

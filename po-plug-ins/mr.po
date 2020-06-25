@@ -4982,14 +4982,6 @@ msgstr "वाय _१:"
 msgid "Y_2:"
 msgstr "वाय _२:"
 
-#: ../plug-ins/common/goat-exercise.c:62
-msgid "Exercise a goat"
-msgstr "एक्सरसाइज अ गोट"
-
-#: ../plug-ins/common/goat-exercise.c:67
-msgid "Goat-exercise"
-msgstr "गोट एक्सरसाइज"
-
 #: ../plug-ins/common/gradient-map.c:77
 msgid "Recolor the image using colors from the active gradient"
 msgstr "सक्रिय रंगछटा मधून रंग वापरुन प्रतिमा पुन्हा रंगवा"

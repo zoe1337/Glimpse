@@ -5050,14 +5050,6 @@ msgstr "Y_1:"
 msgid "Y_2:"
 msgstr "Y_2:"
 
-#: ../plug-ins/common/goat-exercise.c:62
-msgid "Exercise a goat"
-msgstr "Eine Ziege trainieren"
-
-#: ../plug-ins/common/goat-exercise.c:67
-msgid "Goat-exercise"
-msgstr "Ziegentraining"
-
 #: ../plug-ins/common/gradient-map.c:77
 msgid "Recolor the image using colors from the active gradient"
 msgstr "Das Bild unter Verwendung der Farben des aktiven Verlaufs neu färben"

@@ -5036,14 +5036,6 @@ msgstr "Y_1:"
 msgid "Y_2:"
 msgstr "_Y2:"
 
-#: ../plug-ins/common/goat-exercise.c:62
-msgid "Exercise a goat"
-msgstr "Egy kecske edzése"
-
-#: ../plug-ins/common/goat-exercise.c:67
-msgid "Goat-e_xercise"
-msgstr "Kecske-gyakorlat"
-
 #: ../plug-ins/common/gradient-map.c:77
 msgid "Recolor the image using colors from the active gradient"
 msgstr "A kép újraszínezése az aktív színátmenet színeit használva"

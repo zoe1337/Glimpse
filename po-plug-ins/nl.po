@@ -5039,14 +5039,6 @@ msgstr "Y1:"
 msgid "Y_2:"
 msgstr "Y2:"
 
-#: ../plug-ins/common/goat-exercise.c:62
-msgid "Exercise a goat"
-msgstr "Oefen een geit uit"
-
-#: ../plug-ins/common/goat-exercise.c:67
-msgid "Goat-exercise"
-msgstr "Geitenoefening"
-
 #: ../plug-ins/common/gradient-map.c:77
 msgid "Recolor the image using colors from the active gradient"
 msgstr "De afbeelding opnieuw inkleuren met kleuren van het huidige kleurverloop"

@@ -4505,14 +4505,6 @@ msgstr "Y_1:"
 msgid "Y_2:"
 msgstr "Y_2:"
 
-#: ../plug-ins/common/goat-exercise.c:62
-msgid "Exercise a goat"
-msgstr "Exercitar uma cabra"
-
-#: ../plug-ins/common/goat-exercise.c:67
-msgid "Goat-exercise"
-msgstr "Exercício de cabra"
-
 #: ../plug-ins/common/gradient-map.c:77
 msgid "Recolor the image using colors from the active gradient"
 msgstr "Recolorir a imagem usando as cores do gradiente ativo"

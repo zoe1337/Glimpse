@@ -1324,11 +1324,6 @@
                                                 <File Id="filA0FAAF7BC6E4B7748414CF1CF05AF786" DiskId="1" Source="InputFiles32\lib\glimpse\2.0\plug-ins\gimpressionist\gimpressionist.exe" />
                                             </Component>
                                         </Directory>
-                                        <Directory Id="dir23219D23FA02410A7C0358197AA5FDC3" Name="goat-exercise">
-                                            <Component Id="cmp77BD407A81D1AC7D953EA1B0D4EE2EF5" Guid="YOUR-GUID-HERE">
-                                                <File Id="filF3683081F55B223FB055CD5303C3CCFC" DiskId="1" Source="InputFiles32\lib\glimpse\2.0\plug-ins\goat-exercise\goat-exercise.exe" />
-                                            </Component>
-                                        </Directory>
                                         <Directory Id="dir7B2AE725F3508ED83CBA68130D1EA750" Name="gradient-flare">
                                             <Component Id="cmp262F93165E23E24FF053FF66557AA6E9" Guid="YOUR-GUID-HERE">
                                                 <File Id="fil665FD030A2FEA21FAA2D45571839D295" DiskId="1" Source="InputFiles32\lib\glimpse\2.0\plug-ins\gradient-flare\gradient-flare.exe" />

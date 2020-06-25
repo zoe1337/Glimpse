@@ -4950,15 +4950,6 @@ msgid "Y_2:"
 msgstr "Y_2:"
 
 # procedure desc
-#: ../plug-ins/common/goat-exercise.c:62
-msgid "Exercise a goat"
-msgstr ""
-
-#: ../plug-ins/common/goat-exercise.c:67
-msgid "Goat-exercise"
-msgstr ""
-
-# procedure desc
 #: ../plug-ins/common/gradient-map.c:77
 msgid "Recolor the image using colors from the active gradient"
 msgstr ""

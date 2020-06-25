@@ -60,7 +60,6 @@ file_xwd_RC = file-xwd.rc.o
 film_RC = film.rc.o
 filter_pack_RC = filter-pack.rc.o
 fractal_trace_RC = fractal-trace.rc.o
-goat_exercise_RC = goat-exercise.rc.o
 gradient_map_RC = gradient-map.rc.o
 grid_RC = grid.rc.o
 guillotine_RC = guillotine.rc.o
