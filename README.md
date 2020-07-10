@@ -1,5 +1,5 @@
 # Glimpse Image Editor
-Glimpse Image Editor is a downstream fork (derivative work) based on the GNU Image Manipulation Program source code, and it is shared under the terms of the GNU General Public License version 3. 
+Glimpse Image Editor is a downstream fork (derivative work) based on the GNU Image Manipulation Program 2.10.18 source code, and it is shared under the terms of the GNU General Public License version 3.
 
 You can find out more information on our FAQs page: https://glimpse-editor.github.io/about/
 
@@ -39,4 +39,4 @@ Full details for how to help are available in the `CONTRIBUTING.md` file.
 
 You can also help by talking about us on social media, writing a positive blog post and helping people use Glimpse Image Editor.
 
-To help us cover our costs, please donate to this project via [Open Collective](https://opencollective.com/glimpse). If you can afford to do so we also encourage you to donate to [GNU Image Manipulation Program](https://www.gimp.org/donating/) as that helps the upstream project we rely on.
+To help us cover our costs, please donate to this project via [Github Sponsors](https://github.com/sponsors/glimpse-editor) or [Open Collective](https://opencollective.com/glimpse). If you can afford to do so we also encourage you to donate to [GNU Image Manipulation Program](https://www.gimp.org/donating/) as that helps the upstream project we rely on.
