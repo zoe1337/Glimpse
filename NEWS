@@ -26,10 +26,10 @@ Overview of Changes in Glimpse 0.1.9
 * Fixed the icon pack previewer in the Preferences menu
 * Moved to new wiki site and updated links to https://github.com/glimpse-editor/Glimpse/wiki
 * Moved to new Github Pages site and updated links to https://glimpse-editor.github.io
-* Changed the default configuration to enable OpenCL by default
 * Changed the default configuration to set the minimum undo levels to 10 (previously 5)
 * Changed the default configuration so that the "Created by Glimpse" message is always present
 * Changed the update checker so it supports our version scheme, download links and update servers
+* Created new Github Actiosn that provide a Linux and Windows CI builds
 * TO BE DETERMINED - Still in development
 
 Overview of Changes in Glimpse 0.1.2 Release 2
