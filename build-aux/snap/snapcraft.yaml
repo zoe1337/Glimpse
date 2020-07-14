@@ -420,6 +420,7 @@ parts:
       - --disable-gtk-doc-html
       - --with-icc-directory=/run/host/usr/share/color/icc/
       - --without-webkit
+      - --disable-check-update
     #End from glimpse flatpack
       - --prefix=/usr
       - --sysconfdir=/etc

@@ -36,9 +36,7 @@
                     "filename": "glimpse-0.1.0.msi",
                     "sha512": "4c135660a1378f1c3259bf5feed07bcb656b83314390b10ee2ad5a19ccb4d067c52bb9a1cf109d057efd5420a324e761cc9837cc77f8373d1fad7f12973f2cf9",
                     "sha256": "f1efb22791ac02e3db399f986cabdc80f2559099a254269429f8a4a43d7483b4",
-                    "min-support": "Windows 7",
-                    "comment": "Signed Windows installer",
-                    "revision": 1
+                    "min-support": "Windows 7"
                 },
                 {
                     "date": "2020-11-22",
