@@ -329,14 +329,14 @@ about_dialog_add_update (GimpAboutDialog *dialog,
       if (config->last_revision > 0)
         {
           /* This is actually a new revision of current version. */
-          text = g_strdup_printf (_("A revision of GIMP %s was released on %s.\n"
+          text = g_strdup_printf (_("A revision of Glimpse %s was released on %s.\n"
                                     "Even though you use the last version, it is recommended to reinstall.\n"
                                     "New revisions come with package fixes."),
                                   config->last_known_release, date);
         }
       else
         {
-          text = g_strdup_printf (_("A new version of GIMP (%s) was released on %s.\n"
+          text = g_strdup_printf (_("A new version of Glimpse (%s) was released on %s.\n"
                                     "It is recommended to update."),
                                   config->last_known_release, date);
         }
@@ -348,7 +348,7 @@ about_dialog_add_update (GimpAboutDialog *dialog,
       gtk_widget_show (label);
 
       /* Finally the download link. */
-      link = gtk_link_button_new_with_label ("https://www.gimp.org/downloads/",
+      link = gtk_link_button_new_with_label ("https://glimpse-editor.github.io/downloads/",
                                              _("Go to download page"));
       gtk_box_pack_start (GTK_BOX (box), link, FALSE, FALSE, 0);
       gtk_widget_show (link);

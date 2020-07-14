@@ -248,7 +248,7 @@ gimp_update_about_dialog (GimpCoreConfig   *config,
 #ifndef GIMP_CONSOLE_COMPILATION
       gtk_widget_show (about_dialog_create (config));
 #else
-      g_warning (_("A new version of GIMP (%s) was released.\n"
+      g_warning (_("A new version of Glimpse (%s) was released.\n"
                    "It is recommended to update."),
                  config->last_known_release);
 #endif
@@ -310,9 +310,9 @@ gimp_update_check (GimpCoreConfig *config)
   if (g_getenv ("GIMP_DEV_VERSIONS_JSON"))
     gimp_versions = g_file_new_for_path (g_getenv ("GIMP_DEV_VERSIONS_JSON"));
   else
-    gimp_versions = g_file_new_for_uri ("https://testing.gimp.org/gimp_versions.json");
+    gimp_versions = g_file_new_for_uri ("https://glimpse-editor.github.io/glimpse_versions_dev.json");
 #else
-  gimp_versions = g_file_new_for_uri ("https://gimp.org/gimp_versions.json");
+  gimp_versions = g_file_new_for_uri ("https://glimpse-editor.github.io/glimpse_versions.json");
 #endif
   g_file_read_async (gimp_versions, 0, NULL, gimp_check_updates_callback, config);
   g_object_unref (gimp_versions);
