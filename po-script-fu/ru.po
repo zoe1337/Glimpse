@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP Script-Fu 2.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-10 09:49+0300\n"
+"POT-Creation-Date: 2020-07-15 00:28+0100\n"
 "PO-Revision-Date: 2018-12-04 01:32+0300\n"
 "Last-Translator: Alexandre Prokoudine <alexandre.prokoudine@gmail.com>\n"
 "Language-Team: русский <gnome-cyr@lists.gnome.org>\n"
@@ -692,49 +692,65 @@ msgstr "Непрозрачность"
 msgid "Allow resizing"
 msgstr "Позволить изменение размера"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:41
-msgid "_Erase Every Other Row..."
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:42
+#, fuzzy
+msgid "_Erase Every Nth Row..."
 msgstr "_Очистить каждую вторую строку..."
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:42
-msgid "Erase every other row or column"
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:43
+#, fuzzy
+msgid "Erase every nth row or column"
 msgstr "Очистить каждую вторую строку или столбец"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Rows/cols"
 msgstr "Строки/столбцы"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Rows"
 msgstr "Строки"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Columns"
 msgstr "Столбцы"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
-msgid "Even/odd"
-msgstr "Чётные/Нечётные"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
-msgid "Even"
-msgstr "Четные"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
-msgid "Odd"
-msgstr "Нечётные"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:51
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Erase/fill"
 msgstr "Очистить/Заполнить"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:51
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Erase"
 msgstr "Очистить"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:51
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Fill with BG"
 msgstr "Заполнить цветом фона"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:57
+msgid "_Erase Every Other Row..."
+msgstr "_Очистить каждую вторую строку..."
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:58
+msgid "Erase every other row or column"
+msgstr "Очистить каждую вторую строку или столбец"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Even/odd"
+msgstr "Чётные/Нечётные"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Even"
+msgstr "Четные"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Odd"
+msgstr "Нечётные"
 
 #: ../plug-ins/script-fu/scripts/font-map.scm:152
 msgid "Render _Font Map..."
@@ -864,21 +880,26 @@ msgid "_Main Web Site"
 msgstr "Официальный _сайт"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GNU Image Manipulation Program web site"
+#, fuzzy
+msgid "Bookmark to the Glimpse web site"
 msgstr "Ссылка на веб-сайт GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
 msgid "_Developer Web Site"
 msgstr "С_айт для разработчиков"
 
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:204
+#, fuzzy
+msgid "Bookmark to the Glimpse Github project"
+msgstr "Ссылка на вики проекта GIMP"
+
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:216
 msgid "_Roadmap"
 msgstr "_План разработки"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217
-msgid "Bookmark to the roadmap of GIMP"
+#, fuzzy
+msgid "Bookmark to the roadmap of Glimpse"
 msgstr "Ссылка на план разработки GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:229
@@ -886,7 +907,8 @@ msgid "_Wiki"
 msgstr "_Вики проекта"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:230
-msgid "Bookmark to the wiki of GIMP"
+#, fuzzy
+msgid "Bookmark to the wiki of Glimpse"
 msgstr "Ссылка на вики проекта GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:242
@@ -894,12 +916,17 @@ msgid "_Bug Reports and Feature Requests"
 msgstr "_Трекер ошибок и запросов новых функций"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:243
-msgid "Bookmark to the bug tracker of GIMP"
+#, fuzzy
+msgid "Bookmark to the bug tracker of Glimpse"
 msgstr "Ссылка на трекер ошибок в GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
 msgid "_Online User Manual (GNU I.M.P)"
 msgstr "_Сайт с руководством пользователя"
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:256
+msgid "Bookmark to the GNU Image Manipulation Program web site"
+msgstr "Ссылка на веб-сайт GIMP"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69
 msgid "Custom _Gradient..."

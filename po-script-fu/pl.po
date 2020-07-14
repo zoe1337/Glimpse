@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp-script-fu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-13 19:48+0100\n"
+"POT-Creation-Date: 2020-07-15 00:28+0100\n"
 "PO-Revision-Date: 2020-02-13 19:49+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -872,21 +872,26 @@ msgid "_Main Web Site"
 msgstr "_Główna strona projektu"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GNU Image Manipulation Program web site"
+#, fuzzy
+msgid "Bookmark to the Glimpse web site"
 msgstr "Zakładka do strony programu GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
 msgid "_Developer Web Site"
 msgstr "Strona dla p_rogramistów"
 
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:204
+#, fuzzy
+msgid "Bookmark to the Glimpse Github project"
+msgstr "Zakładka do wiki programu GIMP"
+
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:216
 msgid "_Roadmap"
 msgstr "_Plan rozwoju"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217
-msgid "Bookmark to the roadmap of GIMP"
+#, fuzzy
+msgid "Bookmark to the roadmap of Glimpse"
 msgstr "Zakładka do planu rozwoju programu GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:229
@@ -894,7 +899,8 @@ msgid "_Wiki"
 msgstr "_Wiki"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:230
-msgid "Bookmark to the wiki of GIMP"
+#, fuzzy
+msgid "Bookmark to the wiki of Glimpse"
 msgstr "Zakładka do wiki programu GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:242
@@ -902,12 +908,17 @@ msgid "_Bug Reports and Feature Requests"
 msgstr "_Zgłoszenia błędów i prośby o funkcje"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:243
-msgid "Bookmark to the bug tracker of GIMP"
+#, fuzzy
+msgid "Bookmark to the bug tracker of Glimpse"
 msgstr "Zakładka do serwisu zgłaszania błędów programu GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
 msgid "_Online User Manual (GNU I.M.P)"
 msgstr "Strona podręcznika _użytkownika"
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:256
+msgid "Bookmark to the GNU Image Manipulation Program web site"
+msgstr "Zakładka do strony programu GIMP"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69
 msgid "Custom _Gradient..."

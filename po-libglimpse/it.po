@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-05 23:57+0100\n"
+"POT-Creation-Date: 2020-07-15 00:25+0100\n"
 "PO-Revision-Date: 2020-01-05 23:58+0100\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
@@ -202,9 +202,12 @@ msgstr "Conferma salvataggio"
 #: ../libglimpse/gimpexport.c:1063 ../libglimpsewidgets/gimpcolorbutton.c:549
 #: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:172
 #: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:182
-#: ../libglimpsewidgets/gimpfileentry.c:435 ../libglimpsewidgets/gimpquerybox.c:275
-#: ../libglimpsewidgets/gimpquerybox.c:335 ../libglimpsewidgets/gimpquerybox.c:399
-#: ../libglimpsewidgets/gimpquerybox.c:473 ../libglimpsewidgets/gimpunitmenu.c:492
+#: ../libglimpsewidgets/gimpfileentry.c:435
+#: ../libglimpsewidgets/gimpquerybox.c:275
+#: ../libglimpsewidgets/gimpquerybox.c:335
+#: ../libglimpsewidgets/gimpquerybox.c:399
+#: ../libglimpsewidgets/gimpquerybox.c:473
+#: ../libglimpsewidgets/gimpunitmenu.c:492
 msgid "_Cancel"
 msgstr "Ann_ulla"
 
@@ -357,7 +360,8 @@ msgstr "per tipo"
 
 #. count label
 #: ../libglimpse/gimpprocbrowserdialog.c:395
-#: ../libglimpse/gimpprocbrowserdialog.c:544 ../libglimpsewidgets/gimpbrowser.c:141
+#: ../libglimpse/gimpprocbrowserdialog.c:544
+#: ../libglimpsewidgets/gimpbrowser.c:141
 msgid "No matches"
 msgstr "Nessuna corrispondenza"
 
@@ -1486,37 +1490,37 @@ msgctxt "transform-resize"
 msgid "Crop with aspect"
 msgstr "Ritaglia all'aspetto"
 
-#: ../libglimpsebase/gimpmetadata.c:878
+#: ../libglimpsebase/gimpmetadata.c:951
 #, c-format
 msgid "Can load metadata only from local files"
 msgstr "È possibile caricare i metadati solo da file locali"
 
-#: ../libglimpsebase/gimpmetadata.c:892 ../libglimpsebase/gimpmetadata.c:962
+#: ../libglimpsebase/gimpmetadata.c:965 ../libglimpsebase/gimpmetadata.c:1035
 #, c-format
 msgid "Conversion of the filename to system codepage failed."
 msgstr "Conversione del nome del file alla codepage di sistema fallita."
 
-#: ../libglimpsebase/gimpmetadata.c:949
+#: ../libglimpsebase/gimpmetadata.c:1022
 #, c-format
 msgid "Can save metadata only to local files"
 msgstr "È possibile salvare i metadati sono su file locali"
 
-#: ../libglimpsebase/gimpmetadata.c:1011
+#: ../libglimpsebase/gimpmetadata.c:1084
 #, c-format
 msgid "Invalid Exif data size."
 msgstr "Dimensione dati Exif non valida."
 
-#: ../libglimpsebase/gimpmetadata.c:1040
+#: ../libglimpsebase/gimpmetadata.c:1113
 #, c-format
 msgid "Parsing Exif data failed."
 msgstr "Fallita l'analisi dei dati Exif."
 
-#: ../libglimpsebase/gimpmetadata.c:1090
+#: ../libglimpsebase/gimpmetadata.c:1163
 #, c-format
 msgid "Parsing IPTC data failed."
 msgstr "Fallita l'analisi dei dati IPTC."
 
-#: ../libglimpsebase/gimpmetadata.c:1138
+#: ../libglimpsebase/gimpmetadata.c:1211
 #, c-format
 msgid "Parsing XMP data failed."
 msgstr "Fallita l'analisi dei dati XMP."
@@ -1842,8 +1846,8 @@ msgid "while parsing token '%s': %s"
 msgstr "durante l'analisi del token \"%s\": %s"
 
 #: ../libglimpseconfig/gimpconfig-iface.c:682
-#: ../libglimpseconfig/gimpconfig-iface.c:695 ../libglimpseconfig/gimpscanner.c:756
-#: ../libglimpseconfig/gimpscanner.c:838
+#: ../libglimpseconfig/gimpconfig-iface.c:695
+#: ../libglimpseconfig/gimpscanner.c:756 ../libglimpseconfig/gimpscanner.c:838
 #: ../libglimpsewidgets/gimpcolorprofilestore.c:710
 msgid "fatal parse error"
 msgstr "errore di analisi irrimediabile"
@@ -1926,7 +1930,8 @@ msgstr ""
 "Impossibile trovare una cartella miniature valida.\n"
 "Le miniature saranno memorizzate nella cartella per i file temporanei (%s)."
 
-#: ../libglimpsethumb/gimpthumb-utils.c:299 ../libglimpsethumb/gimpthumb-utils.c:367
+#: ../libglimpsethumb/gimpthumb-utils.c:299
+#: ../libglimpsethumb/gimpthumb-utils.c:367
 #, c-format
 msgid "Failed to create thumbnail folder '%s'."
 msgstr "Creazione della cartella \"%s\" per le miniature non riuscita."
@@ -1961,14 +1966,18 @@ msgstr "_Nero"
 msgid "_White"
 msgstr "_Bianco"
 
-#: ../libglimpsewidgets/gimpcolorbutton.c:548 ../libglimpsewidgets/gimpicons.c:68
+#: ../libglimpsewidgets/gimpcolorbutton.c:548
+#: ../libglimpsewidgets/gimpicons.c:67
 msgid "_Reset"
 msgstr "_Reimposta"
 
 #: ../libglimpsewidgets/gimpcolorbutton.c:550
-#: ../libglimpsewidgets/gimpfileentry.c:436 ../libglimpsewidgets/gimpquerybox.c:275
-#: ../libglimpsewidgets/gimpquerybox.c:335 ../libglimpsewidgets/gimpquerybox.c:399
-#: ../libglimpsewidgets/gimpquerybox.c:473 ../libglimpsewidgets/gimpunitmenu.c:493
+#: ../libglimpsewidgets/gimpfileentry.c:436
+#: ../libglimpsewidgets/gimpquerybox.c:275
+#: ../libglimpsewidgets/gimpquerybox.c:335
+#: ../libglimpsewidgets/gimpquerybox.c:399
+#: ../libglimpsewidgets/gimpquerybox.c:473
+#: ../libglimpsewidgets/gimpunitmenu.c:493
 msgid "_OK"
 msgstr "_OK"
 
@@ -2095,51 +2104,51 @@ msgstr "Seleziona file"
 msgid "Press F1 for more help"
 msgstr "Premere F1 per ulteriore aiuto"
 
-#: ../libglimpsewidgets/gimpicons.c:62
+#: ../libglimpsewidgets/gimpicons.c:61
 msgid "Anchor"
 msgstr "Àncora"
 
-#: ../libglimpsewidgets/gimpicons.c:63
+#: ../libglimpsewidgets/gimpicons.c:62
 msgid "C_enter"
 msgstr "C_entra"
 
-#: ../libglimpsewidgets/gimpicons.c:64
+#: ../libglimpsewidgets/gimpicons.c:63
 msgid "_Duplicate"
 msgstr "_Duplica"
 
-#: ../libglimpsewidgets/gimpicons.c:65
+#: ../libglimpsewidgets/gimpicons.c:64
 msgid "Linked"
 msgstr "Collegato"
 
-#: ../libglimpsewidgets/gimpicons.c:66
+#: ../libglimpsewidgets/gimpicons.c:65
 msgid "Paste as New"
 msgstr "Incolla come nuovo"
 
-#: ../libglimpsewidgets/gimpicons.c:67
+#: ../libglimpsewidgets/gimpicons.c:66
 msgid "Paste Into"
 msgstr "Incolla dentro"
 
-#: ../libglimpsewidgets/gimpicons.c:69
+#: ../libglimpsewidgets/gimpicons.c:68
 msgid "Visible"
 msgstr "Visibile"
 
-#: ../libglimpsewidgets/gimpicons.c:105 ../libglimpsewidgets/gimpicons.c:109
+#: ../libglimpsewidgets/gimpicons.c:104 ../libglimpsewidgets/gimpicons.c:108
 msgid "_Stroke"
 msgstr "_Delinea"
 
-#: ../libglimpsewidgets/gimpicons.c:121
+#: ../libglimpsewidgets/gimpicons.c:120
 msgid "L_etter Spacing"
 msgstr "Spaziatura l_ettere"
 
-#: ../libglimpsewidgets/gimpicons.c:122
+#: ../libglimpsewidgets/gimpicons.c:121
 msgid "L_ine Spacing"
 msgstr "Spaziatura r_ighe"
 
-#: ../libglimpsewidgets/gimpicons.c:139
+#: ../libglimpsewidgets/gimpicons.c:138
 msgid "Re_size"
 msgstr "Ridimen_siona"
 
-#: ../libglimpsewidgets/gimpicons.c:140 ../libglimpsewidgets/gimpicons.c:272
+#: ../libglimpsewidgets/gimpicons.c:139 ../libglimpsewidgets/gimpicons.c:272
 msgid "_Scale"
 msgstr "_Scala"
 

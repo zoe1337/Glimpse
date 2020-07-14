@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP 2.8.x\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2013-05-27 22:22+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-15 00:29+0100\n"
 "PO-Revision-Date: 2013-05-27 22:23+0200\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian <i18n-nb@lister.ping.uio.no>\n"
@@ -18,17 +18,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/tips/gimp-tips.xml.in.h:1
+#, fuzzy
 msgid ""
-"You can get context-sensitive help for most of GIMP's features by pressing "
-"the F1 key at any time. This also works inside the menus."
+"You can get context-sensitive help for most of Glimpse's features by "
+"pressing the F1 key at any time. This also works inside the menus."
 msgstr ""
 "Du kan få hjelp for de fleste GIMP-funskjoner ved å trykke F1. Dette virker "
 "også inni menyer."
 
 #: ../data/tips/gimp-tips.xml.in.h:2
+#, fuzzy
 msgid ""
-"GIMP uses layers to let you organize your image. Think of them as a stack of "
-"slides or filters, such that looking through them you see a composite of "
+"Glimpse uses layers to let you organize your image. Think of them as a stack "
+"of slides or filters, such that looking through them you see a composite of "
 "their contents."
 msgstr ""
 "GIMP bruker lag for å la deg organisere bildet. Tenk på dem som en stabel av "
@@ -46,10 +48,10 @@ msgstr ""
 #: ../data/tips/gimp-tips.xml.in.h:4
 #, fuzzy
 msgid ""
-"When you save an image to work on it again later, try using XCF, GIMP's "
-"native file format (use the file extension <tt>.xcf</tt>). This preserves "
-"the layers and many aspects of your work-in-progress. Once a project is "
-"completed, you can export it as JPEG, PNG, GIF, etc."
+"Saving an image uses XCF, Glimpse's native file format (file extension <tt>."
+"xcf</tt>). This preserves the layers and many aspects of your work-in-"
+"progress, allowing to work on it again later. Once a project is completed, "
+"you can export it as JPEG, PNG, GIF, etc."
 msgstr ""
 "Når du lagrer et bilde for å jobbe på det senere, bruke GIMPs eget "
 "filformat, XCF (filendelse <tt>.xcf</tt>). Dette gjør at lagene og andre "
@@ -102,8 +104,9 @@ msgstr ""
 "logo) i stedet."
 
 #: ../data/tips/gimp-tips.xml.in.h:9
+#, fuzzy
 msgid ""
-"You can drag and drop many things in GIMP. For example, dragging a color "
+"You can drag and drop many things in Glimpse. For example, dragging a color "
 "from the toolbox or from a color palette and dropping it into an image will "
 "fill the current selection with that color."
 msgstr ""
@@ -150,8 +153,9 @@ msgstr ""
 "gjøre det samme."
 
 #: ../data/tips/gimp-tips.xml.in.h:14
+#, fuzzy
 msgid ""
-"GIMP supports gzip compression on the fly. Just add <tt>.gz</tt> (or <tt>."
+"Glimpse supports gzip compression on the fly. Just add <tt>.gz</tt> (or <tt>."
 "bz2</tt>, if you have bzip2 installed) to the filename and your image will "
 "be saved compressed. Of course loading compressed images works too."
 msgstr ""
@@ -224,12 +228,13 @@ msgstr ""
 "og på synlighet for denne nye kanalen eller konvertere den til et utvalg."
 
 #: ../data/tips/gimp-tips.xml.in.h:21
+#, fuzzy
 msgid ""
 "After you enabled &quot;Dynamic Keyboard Shortcuts&quot; in the Preferences "
 "dialog, you can reassign shortcut keys. Do so by bringing up the menu, "
 "selecting a menu item, and pressing the desired key combination. If &quot;"
 "Save Keyboard Shortcuts&quot; is enabled, the key bindings are saved when "
-"you exit GIMP. You should probably disable &quot;Dynamic Keyboard "
+"you exit Glimpse. You should probably disable &quot;Dynamic Keyboard "
 "Shortcuts&quot; afterwards, to prevent accidentally assigning/reassigning "
 "shortcuts."
 msgstr ""

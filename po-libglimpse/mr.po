@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2019-03-16 10:08+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-15 00:25+0100\n"
 "PO-Revision-Date: 2018-07-07 14:57+0000\n"
 "Last-Translator: Snehalata B Shirude <snehalata.shirude@gmail.com>\n"
 "Language-Team: Marathi\n"
@@ -20,22 +20,22 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. procedure executed successfully
-#: ../libglimpse/gimp.c:1267
+#: ../libglimpse/gimp.c:1265
 msgid "success"
 msgstr "यशस्वी"
 
 #. procedure execution failed
-#: ../libglimpse/gimp.c:1271
+#: ../libglimpse/gimp.c:1269
 msgid "execution error"
 msgstr "अंमलबजावणीमध्ये त्रुटी"
 
 #. procedure called incorrectly
-#: ../libglimpse/gimp.c:1275
+#: ../libglimpse/gimp.c:1273
 msgid "calling error"
 msgstr "संवाद साधण्यात त्रुटी "
 
 #. procedure execution cancelled
-#: ../libglimpse/gimp.c:1279
+#: ../libglimpse/gimp.c:1277
 msgid "cancelled"
 msgstr "रद्द "
 
@@ -43,81 +43,86 @@ msgstr "रद्द "
 msgid "Brush Selection"
 msgstr "कुंचला निवडा"
 
-#: ../libglimpse/gimpbrushselectbutton.c:925
-#: ../libglimpse/gimppatternselectbutton.c:723
+#: ../libglimpse/gimpbrushselectbutton.c:920
+#: ../libglimpse/gimppatternselectbutton.c:718
 msgid "_Browse..."
 msgstr "_बघा..."
 
-#: ../libglimpse/gimpexport.c:251 ../libglimpse/gimpexport.c:287
+#: ../libglimpse/gimpexport.c:278 ../libglimpse/gimpexport.c:314
 #, c-format
 msgid "%s plug-in can't handle layers"
 msgstr "%s जोडणीत स्तर जोडले जाऊ शकत नाही"
 
-#: ../libglimpse/gimpexport.c:252 ../libglimpse/gimpexport.c:261
-#: ../libglimpse/gimpexport.c:270 ../libglimpse/gimpexport.c:288
+#: ../libglimpse/gimpexport.c:279 ../libglimpse/gimpexport.c:288
+#: ../libglimpse/gimpexport.c:297 ../libglimpse/gimpexport.c:315
 msgid "Merge Visible Layers"
 msgstr "दृश्यमान स्तर एकमेकात विलीन करा"
 
-#: ../libglimpse/gimpexport.c:260
+#: ../libglimpse/gimpexport.c:287
 #, c-format
 msgid "%s plug-in can't handle layer offsets, size or opacity"
 msgstr "%s जोडणीत स्तराचा संच, आकार किंवा अपारदर्शकता जोडले जाऊ शकत नाही"
 
-#: ../libglimpse/gimpexport.c:269 ../libglimpse/gimpexport.c:278
+#: ../libglimpse/gimpexport.c:296 ../libglimpse/gimpexport.c:305
 #, c-format
 msgid "%s plug-in can only handle layers as animation frames"
 msgstr "%s जोडणीत केवळ चलाभास चौकट [फ्रेम्स] म्हणून स्तर जोडले जाऊ शकता"
 
-#: ../libglimpse/gimpexport.c:270 ../libglimpse/gimpexport.c:279
+#: ../libglimpse/gimpexport.c:297 ../libglimpse/gimpexport.c:306
 msgid "Save as Animation"
 msgstr "चलाभास [अॅनिमेशन] यास्वरूपात साठवा"
 
-#: ../libglimpse/gimpexport.c:279 ../libglimpse/gimpexport.c:288
-#: ../libglimpse/gimpexport.c:297
+#: ../libglimpse/gimpexport.c:306 ../libglimpse/gimpexport.c:315
+#: ../libglimpse/gimpexport.c:324 ../libglimpse/gimpexport.c:333
 msgid "Flatten Image"
 msgstr "प्रतिमा समतल करा"
 
-#: ../libglimpse/gimpexport.c:296
+#: ../libglimpse/gimpexport.c:323
 #, c-format
 msgid "%s plug-in can't handle transparency"
 msgstr "%s जोडणी पारदर्शकता हाताळू शकत नाही"
 
-#: ../libglimpse/gimpexport.c:305
+#: ../libglimpse/gimpexport.c:332
+#, fuzzy, c-format
+msgid "%s plug-in can't handle transparent layers"
+msgstr "%s जोडणी पारदर्शकता हाताळू शकत नाही"
+
+#: ../libglimpse/gimpexport.c:341
 #, c-format
 msgid "%s plug-in can't handle layer masks"
 msgstr "%s जोडणी स्तर आच्छादक हाताळू शकत नाही"
 
-#: ../libglimpse/gimpexport.c:306
+#: ../libglimpse/gimpexport.c:342
 msgid "Apply Layer Masks"
 msgstr "स्तर आच्छादक लागू करा"
 
-#: ../libglimpse/gimpexport.c:314
+#: ../libglimpse/gimpexport.c:350
 #, c-format
 msgid "%s plug-in can only handle RGB images"
 msgstr "%s जोडणी-मध्ये केवळ आरजीबी प्रतिमा हाताळू शकता"
 
-#: ../libglimpse/gimpexport.c:315 ../libglimpse/gimpexport.c:353
-#: ../libglimpse/gimpexport.c:362
+#: ../libglimpse/gimpexport.c:351 ../libglimpse/gimpexport.c:389
+#: ../libglimpse/gimpexport.c:398
 msgid "Convert to RGB"
 msgstr "आरजीबी मध्ये रूपांतरित करा"
 
-#: ../libglimpse/gimpexport.c:323
+#: ../libglimpse/gimpexport.c:359
 #, c-format
 msgid "%s plug-in can only handle grayscale images"
 msgstr "%s जोडणी केवळ कृष्ण-धवल छटा [ग्रेस्केल] प्रतिमा हाताळू शकता"
 
-#: ../libglimpse/gimpexport.c:324 ../libglimpse/gimpexport.c:353
-#: ../libglimpse/gimpexport.c:374
+#: ../libglimpse/gimpexport.c:360 ../libglimpse/gimpexport.c:389
+#: ../libglimpse/gimpexport.c:410
 msgid "Convert to Grayscale"
 msgstr "कृष्ण-धवल छटेमध्ये [ग्रेस्केल] रूपांतरित करा"
 
-#: ../libglimpse/gimpexport.c:332
+#: ../libglimpse/gimpexport.c:368
 #, c-format
 msgid "%s plug-in can only handle indexed images"
 msgstr "%s जोडणी-मध्ये केवळ इंडेक्सड् प्रतिमा हाताळू शकता"
 
-#: ../libglimpse/gimpexport.c:333 ../libglimpse/gimpexport.c:362
-#: ../libglimpse/gimpexport.c:372
+#: ../libglimpse/gimpexport.c:369 ../libglimpse/gimpexport.c:398
+#: ../libglimpse/gimpexport.c:408
 msgid ""
 "Convert to Indexed using default settings\n"
 "(Do it manually to tune the result)"
@@ -125,13 +130,13 @@ msgstr ""
 "मूळ सेटिंग्ज वापरून इंडेक्समध्ये रूपांतरित करा \n"
 "(परिणाम अधिक चांगला येण्यासाठी स्वतः करावे)"
 
-#: ../libglimpse/gimpexport.c:342
+#: ../libglimpse/gimpexport.c:378
 #, c-format
 msgid "%s plug-in can only handle bitmap (two color) indexed images"
 msgstr ""
 "%s जोडणी केवळ बिंदू आराखडा [बिटमॅप] (दोन रंग) अनुक्रमित [इंडेक्सड्] प्रतिमा हाताळू शकते"
 
-#: ../libglimpse/gimpexport.c:343
+#: ../libglimpse/gimpexport.c:379
 msgid ""
 "Convert to Indexed using bitmap default settings\n"
 "(Do it manually to tune the result)"
@@ -139,62 +144,65 @@ msgstr ""
 "बिंदू आराखडा [बिटमॅप] मूळ सेटिंग्ज वापरून अनुक्रमित [इंडेक्सड्] मध्ये रूपांतरित करा\n"
 "(परिणाम ट्यून करण्यासाठी ते स्वतः करावे)"
 
-#: ../libglimpse/gimpexport.c:352
+#: ../libglimpse/gimpexport.c:388
 #, c-format
 msgid "%s plug-in can only handle RGB or grayscale images"
 msgstr "%s जोडणी केवळ आरजीबी किंवा कृष्ण-धवल छटा [ग्रेस्केल] प्रतिमा हाताळू शकते"
 
-#: ../libglimpse/gimpexport.c:361
+#: ../libglimpse/gimpexport.c:397
 #, c-format
 msgid "%s plug-in can only handle RGB or indexed images"
 msgstr "%s जोडणी केवळ आरजीबी किंवा अनुक्रमित [इंडेक्सड्] प्रतिमा हाताळू शकते"
 
-#: ../libglimpse/gimpexport.c:371
+#: ../libglimpse/gimpexport.c:407
 #, c-format
 msgid "%s plug-in can only handle grayscale or indexed images"
 msgstr "%s जोडणी केवळ कृष्ण-धवल छटा [ग्रेस्केल] किंवा अनुक्रमित [इंडेक्सड्] प्रतिमा हाताळू शकते"
 
-#: ../libglimpse/gimpexport.c:382
+#: ../libglimpse/gimpexport.c:418
 #, c-format
 msgid "%s plug-in needs an alpha channel"
 msgstr "%s जोडणीसाठी अल्फा चॅनेल आवश्यक आहे"
 
-#: ../libglimpse/gimpexport.c:383
+#: ../libglimpse/gimpexport.c:419
 msgid "Add Alpha Channel"
 msgstr "अल्फा चॅनेल जोडा"
 
-#: ../libglimpse/gimpexport.c:442
+#: ../libglimpse/gimpexport.c:478
 msgid "Confirm Save"
 msgstr "साठविल्याची खात्री करा"
 
-#: ../libglimpse/gimpexport.c:447 ../libglimpse/gimpexport.c:529
-#: ../libglimpse/gimpexport.c:1021 ../libglimpsewidgets/gimpcolorbutton.c:572
-#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:163
-#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:173
-#: ../libglimpsewidgets/gimpfileentry.c:435 ../libglimpsewidgets/gimpquerybox.c:275
-#: ../libglimpsewidgets/gimpquerybox.c:335 ../libglimpsewidgets/gimpquerybox.c:399
-#: ../libglimpsewidgets/gimpquerybox.c:473 ../libglimpsewidgets/gimpunitmenu.c:492
+#: ../libglimpse/gimpexport.c:483 ../libglimpse/gimpexport.c:565
+#: ../libglimpse/gimpexport.c:1063 ../libglimpsewidgets/gimpcolorbutton.c:549
+#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:172
+#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:182
+#: ../libglimpsewidgets/gimpfileentry.c:435
+#: ../libglimpsewidgets/gimpquerybox.c:275
+#: ../libglimpsewidgets/gimpquerybox.c:335
+#: ../libglimpsewidgets/gimpquerybox.c:399
+#: ../libglimpsewidgets/gimpquerybox.c:473
+#: ../libglimpsewidgets/gimpunitmenu.c:492
 msgid "_Cancel"
 msgstr "_रद्द"
 
-#: ../libglimpse/gimpexport.c:448
+#: ../libglimpse/gimpexport.c:484
 msgid "C_onfirm"
 msgstr "पु_ष्टी करा"
 
-#: ../libglimpse/gimpexport.c:524
+#: ../libglimpse/gimpexport.c:560
 msgid "Export File"
 msgstr "धारिका निर्यात करा"
 
-#: ../libglimpse/gimpexport.c:528
+#: ../libglimpse/gimpexport.c:564
 msgid "_Ignore"
 msgstr "_दुर्लक्ष"
 
-#: ../libglimpse/gimpexport.c:530 ../libglimpse/gimpexport.c:1022
+#: ../libglimpse/gimpexport.c:566 ../libglimpse/gimpexport.c:1064
 msgid "_Export"
 msgstr "_निर्यात"
 
 #. the headline
-#: ../libglimpse/gimpexport.c:560
+#: ../libglimpse/gimpexport.c:596
 #, c-format
 msgid ""
 "Your image should be exported before it can be saved as %s for the following "
@@ -202,11 +210,11 @@ msgid ""
 msgstr "खालील कारणांमुळे आपली प्रतिमा %s यास्वरूपात साठविण्याआधी निर्यात केली जाईल :"
 
 #. the footline
-#: ../libglimpse/gimpexport.c:634
+#: ../libglimpse/gimpexport.c:670
 msgid "The export conversion won't modify your original image."
 msgstr "निर्यात रूपांतरणामुळे आपल्या मूळ प्रतिमेत बदल होणार नाहीत."
 
-#: ../libglimpse/gimpexport.c:741
+#: ../libglimpse/gimpexport.c:774
 #, c-format
 msgid ""
 "You are about to save a layer mask as %s.\n"
@@ -215,7 +223,7 @@ msgstr ""
 "आपण एक स्तर आच्छादक %s म्हणून साठविणार आहात.\n"
 "याद्वारे दृश्यमान स्तर साठविले जात नाहीत."
 
-#: ../libglimpse/gimpexport.c:747
+#: ../libglimpse/gimpexport.c:780
 #, c-format
 msgid ""
 "You are about to save a channel (saved selection) as %s.\n"
@@ -224,8 +232,10 @@ msgstr ""
 "आपण एक चॅनेल %s प्रकारात साठविणार आहात.\n"
 "याद्वारे दृश्यमान स्तर साठविले जात नाहीत."
 
-#: ../libglimpse/gimpexport.c:1015
-msgid "Export Image as "
+#. TRANSLATORS: the %s parameter is an image format name (ex: PNG).
+#: ../libglimpse/gimpexport.c:1057
+#, fuzzy, c-format
+msgid "Export Image as %s"
 msgstr "प्रतिमा यास्वरूपात निर्यात करा"
 
 #: ../libglimpse/gimpfontselectbutton.c:139
@@ -322,7 +332,8 @@ msgstr "प्रकाराद्वारे"
 
 #. count label
 #: ../libglimpse/gimpprocbrowserdialog.c:395
-#: ../libglimpse/gimpprocbrowserdialog.c:544 ../libglimpsewidgets/gimpbrowser.c:141
+#: ../libglimpse/gimpprocbrowserdialog.c:544
+#: ../libglimpsewidgets/gimpbrowser.c:141
 msgid "No matches"
 msgstr "साम्य नाहीत"
 
@@ -1109,367 +1120,367 @@ msgctxt "merge-type"
 msgid "Flatten"
 msgstr "समतल"
 
-#: ../libglimpsebase/gimpbaseenums.c:1222
+#: ../libglimpsebase/gimpbaseenums.c:1224
 msgctxt "orientation-type"
 msgid "Horizontal"
 msgstr "आडवा"
 
-#: ../libglimpsebase/gimpbaseenums.c:1223
+#: ../libglimpsebase/gimpbaseenums.c:1225
 msgctxt "orientation-type"
 msgid "Vertical"
 msgstr "उभा"
 
-#: ../libglimpsebase/gimpbaseenums.c:1224
+#: ../libglimpsebase/gimpbaseenums.c:1226
 msgctxt "orientation-type"
 msgid "Unknown"
 msgstr "अज्ञात"
 
-#: ../libglimpsebase/gimpbaseenums.c:1253
+#: ../libglimpsebase/gimpbaseenums.c:1255
 msgctxt "paint-application-mode"
 msgid "Constant"
 msgstr "स्थिर"
 
-#: ../libglimpsebase/gimpbaseenums.c:1254
+#: ../libglimpsebase/gimpbaseenums.c:1256
 msgctxt "paint-application-mode"
 msgid "Incremental"
 msgstr "वाढीव"
 
-#: ../libglimpsebase/gimpbaseenums.c:1387
+#: ../libglimpsebase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
 msgid "Internal Glimpse procedure"
 msgstr "अंतर्गत गिम्प प्रक्रिया"
 
-#: ../libglimpsebase/gimpbaseenums.c:1388
+#: ../libglimpsebase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"
 msgid "GNU I.M.P Plug-In"
 msgstr "गिम्प जोडणी"
 
-#: ../libglimpsebase/gimpbaseenums.c:1389
+#: ../libglimpsebase/gimpbaseenums.c:1391
 msgctxt "pdb-proc-type"
 msgid "GNU I.M.P Extension"
 msgstr "गिम्प विस्तार"
 
-#: ../libglimpsebase/gimpbaseenums.c:1390
+#: ../libglimpsebase/gimpbaseenums.c:1392
 msgctxt "pdb-proc-type"
 msgid "Temporary Procedure"
 msgstr "तात्पुरती प्रक्रिया"
 
-#: ../libglimpsebase/gimpbaseenums.c:1465
+#: ../libglimpsebase/gimpbaseenums.c:1467
 msgctxt "precision"
 msgid "8-bit linear integer"
 msgstr "८-अंकी रेषीय पूर्णांक"
 
-#: ../libglimpsebase/gimpbaseenums.c:1466
+#: ../libglimpsebase/gimpbaseenums.c:1468
 msgctxt "precision"
 msgid "8-bit gamma integer"
 msgstr "८-अंकी गॅमा रंगछटा पूर्णांक"
 
-#: ../libglimpsebase/gimpbaseenums.c:1467
+#: ../libglimpsebase/gimpbaseenums.c:1469
 msgctxt "precision"
 msgid "16-bit linear integer"
 msgstr "१६-अंकी रेषीय पूर्णांक"
 
-#: ../libglimpsebase/gimpbaseenums.c:1468
+#: ../libglimpsebase/gimpbaseenums.c:1470
 msgctxt "precision"
 msgid "16-bit gamma integer"
 msgstr "१६-अंकी गॅमा रंगछटा पूर्णांक"
 
-#: ../libglimpsebase/gimpbaseenums.c:1469
+#: ../libglimpsebase/gimpbaseenums.c:1471
 msgctxt "precision"
 msgid "32-bit linear integer"
 msgstr "३२-अंकी रेषीय पूर्णांक"
 
-#: ../libglimpsebase/gimpbaseenums.c:1470
+#: ../libglimpsebase/gimpbaseenums.c:1472
 msgctxt "precision"
 msgid "32-bit gamma integer"
 msgstr "३२-अंकी गॅमा रंगछटा पूर्णांक"
 
-#: ../libglimpsebase/gimpbaseenums.c:1471
+#: ../libglimpsebase/gimpbaseenums.c:1473
 msgctxt "precision"
 msgid "16-bit linear floating point"
 msgstr "१६-अंकी रेषेचा अपूर्णांक"
 
-#: ../libglimpsebase/gimpbaseenums.c:1472
+#: ../libglimpsebase/gimpbaseenums.c:1474
 msgctxt "precision"
 msgid "16-bit gamma floating point"
 msgstr "१६-अंकी गॅमा रंगछटा अपूर्णांक"
 
-#: ../libglimpsebase/gimpbaseenums.c:1473
+#: ../libglimpsebase/gimpbaseenums.c:1475
 msgctxt "precision"
 msgid "32-bit linear floating point"
 msgstr "३२-अंकी रेखीय अपूर्णांक"
 
-#: ../libglimpsebase/gimpbaseenums.c:1474
+#: ../libglimpsebase/gimpbaseenums.c:1476
 msgctxt "precision"
 msgid "32-bit gamma floating point"
 msgstr "३२-अंकी गॅमा रंगछटा अपूर्णांक"
 
-#: ../libglimpsebase/gimpbaseenums.c:1475
+#: ../libglimpsebase/gimpbaseenums.c:1477
 msgctxt "precision"
 msgid "64-bit linear floating point"
 msgstr "६४-अंकी रेषेचा अपूर्णांक"
 
-#: ../libglimpsebase/gimpbaseenums.c:1476
+#: ../libglimpsebase/gimpbaseenums.c:1478
 msgctxt "precision"
 msgid "64-bit gamma floating point"
 msgstr "६४-अंकी गॅमा रंगछटा अपूर्णांक"
 
-#: ../libglimpsebase/gimpbaseenums.c:1545
+#: ../libglimpsebase/gimpbaseenums.c:1547
 msgctxt "repeat-mode"
 msgid "None (extend)"
 msgstr "काहीही नाही (वाढवा)"
 
-#: ../libglimpsebase/gimpbaseenums.c:1546
+#: ../libglimpsebase/gimpbaseenums.c:1548
 msgctxt "repeat-mode"
 msgid "Sawtooth wave"
 msgstr "सॉटूथ लाट"
 
-#: ../libglimpsebase/gimpbaseenums.c:1547
+#: ../libglimpsebase/gimpbaseenums.c:1549
 msgctxt "repeat-mode"
 msgid "Triangular wave"
 msgstr "त्रिकोणी लहर"
 
-#: ../libglimpsebase/gimpbaseenums.c:1548
+#: ../libglimpsebase/gimpbaseenums.c:1550
 msgctxt "repeat-mode"
 msgid "Truncate"
 msgstr "थांबवणे"
 
-#: ../libglimpsebase/gimpbaseenums.c:1610
+#: ../libglimpsebase/gimpbaseenums.c:1612
 msgctxt "run-mode"
 msgid "Run interactively"
 msgstr "इंटरअॅक्टिवली चालू ठेवा"
 
-#: ../libglimpsebase/gimpbaseenums.c:1611
+#: ../libglimpsebase/gimpbaseenums.c:1613
 msgctxt "run-mode"
 msgid "Run non-interactively"
 msgstr "एकतर्फी चालू ठेवा"
 
-#: ../libglimpsebase/gimpbaseenums.c:1612
+#: ../libglimpsebase/gimpbaseenums.c:1614
 msgctxt "run-mode"
 msgid "Run with last used values"
 msgstr "अंतिम वापरलेल्या मूल्यांसह चालू ठेवा"
 
-#: ../libglimpsebase/gimpbaseenums.c:1650
+#: ../libglimpsebase/gimpbaseenums.c:1652
 msgctxt "select-criterion"
 msgid "Composite"
 msgstr "संमिश्र"
 
-#: ../libglimpsebase/gimpbaseenums.c:1651
+#: ../libglimpsebase/gimpbaseenums.c:1653
 msgctxt "select-criterion"
 msgid "Red"
 msgstr "लाल"
 
-#: ../libglimpsebase/gimpbaseenums.c:1652
+#: ../libglimpsebase/gimpbaseenums.c:1654
 msgctxt "select-criterion"
 msgid "Green"
 msgstr "हिरवा"
 
-#: ../libglimpsebase/gimpbaseenums.c:1653
+#: ../libglimpsebase/gimpbaseenums.c:1655
 msgctxt "select-criterion"
 msgid "Blue"
 msgstr "निळा"
 
-#: ../libglimpsebase/gimpbaseenums.c:1654
+#: ../libglimpsebase/gimpbaseenums.c:1656
 msgctxt "select-criterion"
 msgid "HSV Hue"
 msgstr "एचएसव्ही गडद रंगछटा"
 
-#: ../libglimpsebase/gimpbaseenums.c:1655
+#: ../libglimpsebase/gimpbaseenums.c:1657
 msgctxt "select-criterion"
 msgid "HSV Saturation"
 msgstr "एचएसव्ही संपृक्तता [सॅच्यूरेशन]"
 
-#: ../libglimpsebase/gimpbaseenums.c:1656
+#: ../libglimpsebase/gimpbaseenums.c:1658
 msgctxt "select-criterion"
 msgid "HSV Value"
 msgstr "एचएसव्ही मूल्य"
 
-#: ../libglimpsebase/gimpbaseenums.c:1657
+#: ../libglimpsebase/gimpbaseenums.c:1659
 msgctxt "select-criterion"
 msgid "Alpha"
 msgstr "अल्फा"
 
-#: ../libglimpsebase/gimpbaseenums.c:1658
+#: ../libglimpsebase/gimpbaseenums.c:1660
 msgctxt "select-criterion"
 msgid "LCh Lightness"
 msgstr "LCh फिकट [लाईटनेस]"
 
-#: ../libglimpsebase/gimpbaseenums.c:1659
+#: ../libglimpsebase/gimpbaseenums.c:1661
 msgctxt "select-criterion"
 msgid "LCh Chroma"
 msgstr "LCh क्रोमा"
 
-#: ../libglimpsebase/gimpbaseenums.c:1660
+#: ../libglimpsebase/gimpbaseenums.c:1662
 msgctxt "select-criterion"
 msgid "LCh Hue"
 msgstr "LCh गडद रंगछटा"
 
-#: ../libglimpsebase/gimpbaseenums.c:1689
+#: ../libglimpsebase/gimpbaseenums.c:1691
 msgctxt "size-type"
 msgid "Pixels"
 msgstr "चित्रकणे [पिक्सेल्स]"
 
-#: ../libglimpsebase/gimpbaseenums.c:1690
+#: ../libglimpsebase/gimpbaseenums.c:1692
 msgctxt "size-type"
 msgid "Points"
 msgstr "बिंदू "
 
-#: ../libglimpsebase/gimpbaseenums.c:1751
+#: ../libglimpsebase/gimpbaseenums.c:1753
 msgctxt "stroke-method"
 msgid "Stroke line"
 msgstr "बाह्यरेषा [स्ट्रोक]"
 
-#: ../libglimpsebase/gimpbaseenums.c:1752
+#: ../libglimpsebase/gimpbaseenums.c:1754
 msgctxt "stroke-method"
 msgid "Stroke with a paint tool"
 msgstr "रंग साधनाच्या साह्याने बाह्यरेषा [स्ट्रोक]"
 
-#: ../libglimpsebase/gimpbaseenums.c:1785
+#: ../libglimpsebase/gimpbaseenums.c:1787
 msgctxt "text-direction"
 msgid "From left to right"
 msgstr "डावीकडून उजवीकडे"
 
-#: ../libglimpsebase/gimpbaseenums.c:1786
+#: ../libglimpsebase/gimpbaseenums.c:1788
 msgctxt "text-direction"
 msgid "From right to left"
 msgstr "उजवीकडून डावीकडे"
 
-#: ../libglimpsebase/gimpbaseenums.c:1787
+#: ../libglimpsebase/gimpbaseenums.c:1789
 msgctxt "text-direction"
 msgid "Vertical, right to left (mixed orientation)"
 msgstr "उभट, उजवीकडून डावीकडे (मिश्र स्थिती [ओरिएन्टेशन])"
 
-#: ../libglimpsebase/gimpbaseenums.c:1788
+#: ../libglimpsebase/gimpbaseenums.c:1790
 msgctxt "text-direction"
 msgid "Vertical, right to left (upright orientation)"
 msgstr "उभट, उजवीकडून डावीकडे (सरळ स्थिती)"
 
-#: ../libglimpsebase/gimpbaseenums.c:1789
+#: ../libglimpsebase/gimpbaseenums.c:1791
 msgctxt "text-direction"
 msgid "Vertical, left to right (mixed orientation)"
 msgstr "उभट, डावीकडून उजवीकडे (मिश्र स्थिती [ओरिएन्टेशन])"
 
-#: ../libglimpsebase/gimpbaseenums.c:1790
+#: ../libglimpsebase/gimpbaseenums.c:1792
 msgctxt "text-direction"
 msgid "Vertical, left to right (upright orientation)"
 msgstr "उभट, डावीकडून उजवीकडे (सरळ स्थिती)"
 
-#: ../libglimpsebase/gimpbaseenums.c:1821
+#: ../libglimpsebase/gimpbaseenums.c:1823
 msgctxt "text-hint-style"
 msgid "None"
 msgstr "काहीही नाही"
 
-#: ../libglimpsebase/gimpbaseenums.c:1822
+#: ../libglimpsebase/gimpbaseenums.c:1824
 msgctxt "text-hint-style"
 msgid "Slight"
 msgstr "थोडेसे"
 
-#: ../libglimpsebase/gimpbaseenums.c:1823
+#: ../libglimpsebase/gimpbaseenums.c:1825
 msgctxt "text-hint-style"
 msgid "Medium"
 msgstr "मध्यम"
 
-#: ../libglimpsebase/gimpbaseenums.c:1824
+#: ../libglimpsebase/gimpbaseenums.c:1826
 msgctxt "text-hint-style"
 msgid "Full"
 msgstr "पूर्ण"
 
-#: ../libglimpsebase/gimpbaseenums.c:1855
+#: ../libglimpsebase/gimpbaseenums.c:1857
 msgctxt "text-justification"
 msgid "Left justified"
 msgstr "डाव्या समासाला लागून"
 
-#: ../libglimpsebase/gimpbaseenums.c:1856
+#: ../libglimpsebase/gimpbaseenums.c:1858
 msgctxt "text-justification"
 msgid "Right justified"
 msgstr "उजव्या समासाला लागून"
 
-#: ../libglimpsebase/gimpbaseenums.c:1857
+#: ../libglimpsebase/gimpbaseenums.c:1859
 msgctxt "text-justification"
 msgid "Centered"
 msgstr "मध्यभागी"
 
-#: ../libglimpsebase/gimpbaseenums.c:1858
+#: ../libglimpsebase/gimpbaseenums.c:1860
 msgctxt "text-justification"
 msgid "Filled"
 msgstr "भरलेले"
 
-#: ../libglimpsebase/gimpbaseenums.c:1888
+#: ../libglimpsebase/gimpbaseenums.c:1890
 msgctxt "transfer-mode"
 msgid "Shadows"
 msgstr "सावली"
 
-#: ../libglimpsebase/gimpbaseenums.c:1889
+#: ../libglimpsebase/gimpbaseenums.c:1891
 msgctxt "transfer-mode"
 msgid "Midtones"
 msgstr "मिडटोन"
 
-#: ../libglimpsebase/gimpbaseenums.c:1890
+#: ../libglimpsebase/gimpbaseenums.c:1892
 msgctxt "transfer-mode"
 msgid "Highlights"
 msgstr "ठळक"
 
-#: ../libglimpsebase/gimpbaseenums.c:1919
+#: ../libglimpsebase/gimpbaseenums.c:1921
 msgctxt "transform-direction"
 msgid "Normal (Forward)"
 msgstr "सामान्य (पुढील)"
 
-#: ../libglimpsebase/gimpbaseenums.c:1920
+#: ../libglimpsebase/gimpbaseenums.c:1922
 msgctxt "transform-direction"
 msgid "Corrective (Backward)"
 msgstr "सुधारात्मक (मागे)"
 
-#: ../libglimpsebase/gimpbaseenums.c:1951
+#: ../libglimpsebase/gimpbaseenums.c:1953
 msgctxt "transform-resize"
 msgid "Adjust"
 msgstr "समायोजित [अॅडजस्ट]"
 
-#: ../libglimpsebase/gimpbaseenums.c:1952
+#: ../libglimpsebase/gimpbaseenums.c:1954
 msgctxt "transform-resize"
 msgid "Clip"
 msgstr "कापणे"
 
-#: ../libglimpsebase/gimpbaseenums.c:1953
+#: ../libglimpsebase/gimpbaseenums.c:1955
 msgctxt "transform-resize"
 msgid "Crop to result"
 msgstr "परिणामी कापा"
 
-#: ../libglimpsebase/gimpbaseenums.c:1954
+#: ../libglimpsebase/gimpbaseenums.c:1956
 msgctxt "transform-resize"
 msgid "Crop with aspect"
 msgstr "दृश्यासह [आस्पेक्ट सह] कापा"
 
-#: ../libglimpsebase/gimpmetadata.c:878
+#: ../libglimpsebase/gimpmetadata.c:951
 #, c-format
 msgid "Can load metadata only from local files"
 msgstr "माहितीचा साठा स्थानिक धारिकेवरून भरू शकता"
 
-#: ../libglimpsebase/gimpmetadata.c:892 ../libglimpsebase/gimpmetadata.c:962
+#: ../libglimpsebase/gimpmetadata.c:965 ../libglimpsebase/gimpmetadata.c:1035
 #, c-format
 msgid "Conversion of the filename to system codepage failed."
 msgstr "धारिकेचे नाव रूपांतरित करणे सिस्टिम कोडपेजवर अयशस्वी झाले."
 
-#: ../libglimpsebase/gimpmetadata.c:949
+#: ../libglimpsebase/gimpmetadata.c:1022
 #, c-format
 msgid "Can save metadata only to local files"
 msgstr "बृहतसाठा [मेटाडेटा] स्थानिक धारिकेवरच साठवू शकता"
 
-#: ../libglimpsebase/gimpmetadata.c:1011
+#: ../libglimpsebase/gimpmetadata.c:1084
 #, c-format
 msgid "Invalid Exif data size."
 msgstr "अवैध Exif डेटा आकार."
 
-#: ../libglimpsebase/gimpmetadata.c:1040
+#: ../libglimpsebase/gimpmetadata.c:1113
 #, c-format
 msgid "Parsing Exif data failed."
 msgstr "Exif माहिती विश्लेषण अयशस्वी."
 
-#: ../libglimpsebase/gimpmetadata.c:1090
+#: ../libglimpsebase/gimpmetadata.c:1163
 #, c-format
 msgid "Parsing IPTC data failed."
 msgstr "आयपीटीसी माहिती विश्लेषण अयशस्वी."
 
-#: ../libglimpsebase/gimpmetadata.c:1138
+#: ../libglimpsebase/gimpmetadata.c:1211
 #, c-format
 msgid "Parsing XMP data failed."
 msgstr "एक्सएमपी माहिती विश्लेषण अयशस्वी."
@@ -1756,29 +1767,29 @@ msgid "value for token %s is not a valid UTF-8 string"
 msgstr "टोकन चे %s मूल्य वैध UTF-8 शब्दासाठी नाही"
 
 #. please don't translate 'yes' and 'no'
-#: ../libglimpseconfig/gimpconfig-deserialize.c:466
+#: ../libglimpseconfig/gimpconfig-deserialize.c:473
 #, c-format
 msgid "expected 'yes' or 'no' for boolean token %s, got '%s'"
 msgstr "द्वैत [बुलिअन] टोकनसाठी %s,'होय' किंवा 'नाही' अपेक्षित '%s'"
 
-#: ../libglimpseconfig/gimpconfig-deserialize.c:568
+#: ../libglimpseconfig/gimpconfig-deserialize.c:588
 #, c-format
 msgid "invalid value '%s' for token %s"
 msgstr "'%s' टोकनसाठी अवैध मूल्य %s"
 
-#: ../libglimpseconfig/gimpconfig-deserialize.c:583
+#: ../libglimpseconfig/gimpconfig-deserialize.c:603
 #, c-format
 msgid "invalid value '%ld' for token %s"
 msgstr "अवैध मूल्य '%ld' टोकन %s साठी"
 
-#: ../libglimpseconfig/gimpconfig-deserialize.c:652
+#: ../libglimpseconfig/gimpconfig-deserialize.c:672
 #, c-format
 msgid "while parsing token '%s': %s"
 msgstr "टोकन विश्लेषण करताना '%s': %s"
 
 #: ../libglimpseconfig/gimpconfig-iface.c:682
-#: ../libglimpseconfig/gimpconfig-iface.c:695 ../libglimpseconfig/gimpscanner.c:743
-#: ../libglimpseconfig/gimpscanner.c:825
+#: ../libglimpseconfig/gimpconfig-iface.c:695
+#: ../libglimpseconfig/gimpscanner.c:756 ../libglimpseconfig/gimpscanner.c:838
 #: ../libglimpsewidgets/gimpcolorprofilestore.c:710
 msgid "fatal parse error"
 msgstr "घातक विश्लेषण त्रुटी"
@@ -1819,36 +1830,36 @@ msgid "invalid UTF-8 string"
 msgstr "अवैध UTF-8 शब्द"
 
 #. please don't translate 'yes' and 'no'
-#: ../libglimpseconfig/gimpscanner.c:618
+#: ../libglimpseconfig/gimpscanner.c:631
 #, c-format
 msgid "expected 'yes' or 'no' for boolean token, got '%s'"
 msgstr "द्वैत [बुलिअन] टोकनसाठी 'होय' किंवा 'नाही' अपेक्षित '%s"
 
-#: ../libglimpseconfig/gimpscanner.c:852
+#: ../libglimpseconfig/gimpscanner.c:865
 #, c-format
 msgid "Error while parsing '%s' in line %d: %s"
 msgstr "विश्लेषण करताना त्रुटी  '%s' ओळीमध्ये %d: %s"
 
-#: ../libglimpsemodule/gimpmodule.c:162 ../libglimpsemodule/gimpmodule.c:180
-#: ../libglimpsemodule/gimpmodule.c:289 ../libglimpsemodule/gimpmodule.c:316
-#: ../libglimpsemodule/gimpmodule.c:442
+#: ../libglimpsemodule/gimpmodule.c:148 ../libglimpsemodule/gimpmodule.c:166
+#: ../libglimpsemodule/gimpmodule.c:275 ../libglimpsemodule/gimpmodule.c:302
+#: ../libglimpsemodule/gimpmodule.c:428
 #, c-format
 msgid "Module '%s' load error: %s"
 msgstr "मॉडेल '%s' लोड त्रुटी: %s"
 
-#: ../libglimpsemodule/gimpmodule.c:384
+#: ../libglimpsemodule/gimpmodule.c:370
 msgid "Module error"
 msgstr "मॉडेल त्रुटी"
 
-#: ../libglimpsemodule/gimpmodule.c:385
+#: ../libglimpsemodule/gimpmodule.c:371
 msgid "Loaded"
 msgstr "सिद्ध आहे [लोडेड]"
 
-#: ../libglimpsemodule/gimpmodule.c:386
+#: ../libglimpsemodule/gimpmodule.c:372
 msgid "Load failed"
 msgstr "सिद्ध [लोड] अयशस्वी"
 
-#: ../libglimpsemodule/gimpmodule.c:387
+#: ../libglimpsemodule/gimpmodule.c:373
 msgid "Not loaded"
 msgstr "सिद्ध [लोड] नाही"
 
@@ -1861,17 +1872,18 @@ msgstr ""
 "वैध लघुप्रतिमा निर्देशिका निर्धारित करू शकत नाही.\n"
 "लघुप्रतिमा तात्पुरत्या धारिकेसाठीच्या संचयिकेत [फोल्डर] (%s) संचयित केल्या जातील."
 
-#: ../libglimpsethumb/gimpthumb-utils.c:299 ../libglimpsethumb/gimpthumb-utils.c:367
+#: ../libglimpsethumb/gimpthumb-utils.c:299
+#: ../libglimpsethumb/gimpthumb-utils.c:367
 #, c-format
 msgid "Failed to create thumbnail folder '%s'."
 msgstr "लघुप्रतिमा संचयिका तयार करण्यात अयशस्वी '%s'."
 
-#: ../libglimpsethumb/gimpthumbnail.c:508
+#: ../libglimpsethumb/gimpthumbnail.c:479
 #, c-format
 msgid "Thumbnail contains no Thumb::URI tag"
 msgstr "लघुप्रतिमामध्ये अंगठा [थंब]::URI टॅग नाही"
 
-#: ../libglimpsethumb/gimpthumbnail.c:905
+#: ../libglimpsethumb/gimpthumbnail.c:876
 #, c-format
 msgid "Could not create thumbnail for %s: %s"
 msgstr "लघुप्रतिमा तयार करणे शक्य नाही %s: %s"
@@ -1880,30 +1892,34 @@ msgstr "लघुप्रतिमा तयार करणे शक्य �
 msgid "_Search:"
 msgstr "_शोध:"
 
-#: ../libglimpsewidgets/gimpcolorbutton.c:152
+#: ../libglimpsewidgets/gimpcolorbutton.c:147
 msgid "_Foreground Color"
 msgstr "_अग्रभाग रंग"
 
-#: ../libglimpsewidgets/gimpcolorbutton.c:156
+#: ../libglimpsewidgets/gimpcolorbutton.c:151
 msgid "_Background Color"
 msgstr "_पृष्टभाग  रंग"
 
-#: ../libglimpsewidgets/gimpcolorbutton.c:160
+#: ../libglimpsewidgets/gimpcolorbutton.c:155
 msgid "Blac_k"
 msgstr "का_ळा"
 
-#: ../libglimpsewidgets/gimpcolorbutton.c:164
+#: ../libglimpsewidgets/gimpcolorbutton.c:159
 msgid "_White"
 msgstr "_पांढरा"
 
-#: ../libglimpsewidgets/gimpcolorbutton.c:571 ../libglimpsewidgets/gimpicons.c:68
+#: ../libglimpsewidgets/gimpcolorbutton.c:548
+#: ../libglimpsewidgets/gimpicons.c:67
 msgid "_Reset"
 msgstr "_मूळ स्थिती"
 
-#: ../libglimpsewidgets/gimpcolorbutton.c:573
-#: ../libglimpsewidgets/gimpfileentry.c:436 ../libglimpsewidgets/gimpquerybox.c:275
-#: ../libglimpsewidgets/gimpquerybox.c:335 ../libglimpsewidgets/gimpquerybox.c:399
-#: ../libglimpsewidgets/gimpquerybox.c:473 ../libglimpsewidgets/gimpunitmenu.c:493
+#: ../libglimpsewidgets/gimpcolorbutton.c:550
+#: ../libglimpsewidgets/gimpfileentry.c:436
+#: ../libglimpsewidgets/gimpquerybox.c:275
+#: ../libglimpsewidgets/gimpquerybox.c:335
+#: ../libglimpsewidgets/gimpquerybox.c:399
+#: ../libglimpsewidgets/gimpquerybox.c:473
+#: ../libglimpsewidgets/gimpunitmenu.c:493
 msgid "_OK"
 msgstr "_ठीक आहे"
 
@@ -1915,28 +1931,28 @@ msgstr ""
 "एचटीएमएल  आणि सीएसएस मध्ये वापरल्याप्रमाणे हेक्झाडेसिमल रंगांकन. सीएसएस रंग नावे ही "
 "चालतील."
 
-#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:98
+#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:107
 msgid "All files (*.*)"
 msgstr "सर्व धारिका (*.*)"
 
-#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:103
+#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:112
 msgid "ICC color profile (*.icc, *.icm)"
 msgstr "आयसीसी रंग प्रोफाइल (* .icc, * .icm)"
 
-#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:164
+#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:173
 msgid "_Save"
 msgstr "_साठवा"
 
-#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:174
+#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:183
 msgid "_Open"
 msgstr "_उघडा"
 
-#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:336
+#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:345
 #: ../libglimpsewidgets/gimppatheditor.c:270
 msgid "Folder"
 msgstr "संचयिका"
 
-#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:341
+#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:350
 msgid "Not a regular file."
 msgstr "नियमित धारिका नाही."
 
@@ -1949,11 +1965,11 @@ msgctxt "profile"
 msgid "None"
 msgstr "काहीही नाही"
 
-#: ../libglimpsewidgets/gimpcolorprofileview.c:159
+#: ../libglimpsewidgets/gimpcolorprofileview.c:168
 msgid "Manufacturer: "
 msgstr "निर्माता:"
 
-#: ../libglimpsewidgets/gimpcolorprofileview.c:171
+#: ../libglimpsewidgets/gimpcolorprofileview.c:180
 msgid "Copyright: "
 msgstr "प्रकाशनाधिकार:"
 
@@ -2030,51 +2046,51 @@ msgstr "धारिका निवडा"
 msgid "Press F1 for more help"
 msgstr "अधिक मदतीसाठी F1 दाबा"
 
-#: ../libglimpsewidgets/gimpicons.c:62
+#: ../libglimpsewidgets/gimpicons.c:61
 msgid "Anchor"
 msgstr "अँकर"
 
-#: ../libglimpsewidgets/gimpicons.c:63
+#: ../libglimpsewidgets/gimpicons.c:62
 msgid "C_enter"
 msgstr "_मध्य"
 
-#: ../libglimpsewidgets/gimpicons.c:64
+#: ../libglimpsewidgets/gimpicons.c:63
 msgid "_Duplicate"
 msgstr "_नक्कल"
 
-#: ../libglimpsewidgets/gimpicons.c:65
+#: ../libglimpsewidgets/gimpicons.c:64
 msgid "Linked"
 msgstr "जोडलेले"
 
-#: ../libglimpsewidgets/gimpicons.c:66
+#: ../libglimpsewidgets/gimpicons.c:65
 msgid "Paste as New"
 msgstr "नवीन म्हणून चिटकवा"
 
-#: ../libglimpsewidgets/gimpicons.c:67
+#: ../libglimpsewidgets/gimpicons.c:66
 msgid "Paste Into"
 msgstr "यात चिटकवा"
 
-#: ../libglimpsewidgets/gimpicons.c:69
+#: ../libglimpsewidgets/gimpicons.c:68
 msgid "Visible"
 msgstr "दृश्यमान"
 
-#: ../libglimpsewidgets/gimpicons.c:105 ../libglimpsewidgets/gimpicons.c:109
+#: ../libglimpsewidgets/gimpicons.c:104 ../libglimpsewidgets/gimpicons.c:108
 msgid "_Stroke"
 msgstr "_बाह्यरेषा [स्ट्रोक]"
 
-#: ../libglimpsewidgets/gimpicons.c:121
+#: ../libglimpsewidgets/gimpicons.c:120
 msgid "L_etter Spacing"
 msgstr "अ_क्षरातील अंतर"
 
-#: ../libglimpsewidgets/gimpicons.c:122
+#: ../libglimpsewidgets/gimpicons.c:121
 msgid "L_ine Spacing"
 msgstr "रे_षेतील अंतर"
 
-#: ../libglimpsewidgets/gimpicons.c:139
+#: ../libglimpsewidgets/gimpicons.c:138
 msgid "Re_size"
 msgstr "_आकार बदला"
 
-#: ../libglimpsewidgets/gimpicons.c:140 ../libglimpsewidgets/gimpicons.c:272
+#: ../libglimpsewidgets/gimpicons.c:139 ../libglimpsewidgets/gimpicons.c:272
 msgid "_Scale"
 msgstr "_मोजपट्टी"
 
@@ -2372,22 +2388,22 @@ msgstr "एचएसव्ही"
 msgid "HSV color model"
 msgstr "एचएसव्ही रंग नमुना"
 
-#: ../libglimpsewidgets/gimpwidgetsenums.c:199
+#: ../libglimpsewidgets/gimpwidgetsenums.c:231
 msgctxt "page-selector-target"
 msgid "Layers"
 msgstr "स्तर"
 
-#: ../libglimpsewidgets/gimpwidgetsenums.c:200
+#: ../libglimpsewidgets/gimpwidgetsenums.c:232
 msgctxt "page-selector-target"
 msgid "Images"
 msgstr "प्रतिमा"
 
-#: ../libglimpsewidgets/gimpwidgetsenums.c:261
+#: ../libglimpsewidgets/gimpwidgetsenums.c:293
 msgctxt "zoom-type"
 msgid "Zoom in"
 msgstr "प्रतिमेचे दृश्यरूप मोठे करा [झूम इन]"
 
-#: ../libglimpsewidgets/gimpwidgetsenums.c:262
+#: ../libglimpsewidgets/gimpwidgetsenums.c:294
 msgctxt "zoom-type"
 msgid "Zoom out"
 msgstr "प्रतिमेचे दृश्यरूप कमी करा [झूम आउट]"

@@ -12,8 +12,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp-python master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2020-02-13 17:50+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-15 00:27+0100\n"
 "PO-Revision-Date: 2020-02-13 19:01+0100\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
@@ -458,7 +458,6 @@ msgid "Spyro Layer"
 msgstr "Spiro réteg"
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:45
-#| msgid "Spyrograph"
 msgid "Spyro Path"
 msgstr "Spiro útvonal"
 
@@ -666,7 +665,6 @@ msgid "Flower Petals"
 msgstr "Virágszirmok"
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1506
-#| msgid "Number of sides of the shape."
 msgid "The number of petals in the pattern."
 msgstr "A szirmok száma a mintában."
 
@@ -688,9 +686,9 @@ msgid ""
 "drawn. Given as a percentage of the size of the pattern. A value of 0 will "
 "produce no hole. A Value of 99 will produce a thin line on the edge."
 msgstr ""
-"A minta közepén lévő lyuk sugara, ahol semmi sem lesz rajzolva. A minta"
-" méretének százalékában van megadva. A 0 érték nem hoz létre lyukat. A 99"
-" érték egy vékony vonalat eredményez a szélen."
+"A minta közepén lévő lyuk sugara, ahol semmi sem lesz rajzolva. A minta "
+"méretének százalékában van megadva. A 0 érték nem hoz létre lyukat. A 99 "
+"érték egy vékony vonalat eredményez a szélen."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1531
 msgid "Width(%)"
@@ -702,9 +700,9 @@ msgid ""
 "of 1 will just draw a thin pattern. A Value of 100 will fill the entire "
 "fixed gear."
 msgstr ""
-"A minta szélessége a minta méretének százalékaként. Az 1 érték csak egy"
-" vékony mintát fog rajzolni. A 100 érték kitölti a teljes rögzített"
-" fogaskereket."
+"A minta szélessége a minta méretének százalékaként. Az 1 érték csak egy "
+"vékony mintát fog rajzolni. A 100 érték kitölti a teljes rögzített "
+"fogaskereket."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1542
 msgid "Visual"
@@ -821,8 +819,8 @@ msgid ""
 "Choose whether to save as new layer, redraw on last active layer, or save to "
 "path"
 msgstr ""
-"Válassza ki, hogy új rétegként mentse, újrarajzolja a legutolsó aktív rétegen"
-" vagy útvonalba mentse"
+"Válassza ki, hogy új rétegként mentse, újrarajzolja a legutolsó aktív "
+"rétegen vagy útvonalba mentse"
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1677
 msgid "Spyrogimp"

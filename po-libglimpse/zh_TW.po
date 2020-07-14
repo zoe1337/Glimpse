@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp-libglimpse 2.3.3\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2017-12-02 16:18+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-15 00:25+0100\n"
 "PO-Revision-Date: 2017-12-20 18:06+0800\n"
 "Last-Translator: taijuin <taijuin@gmail.com>\n"
 "Language-Team: Chinese (traditional) <community@linuxhall.org>\n"
@@ -20,22 +20,22 @@ msgstr ""
 "X-Generator: Poedit 1.5.4\n"
 
 #. procedure executed successfully
-#: ../libglimpse/gimp.c:1206
+#: ../libglimpse/gimp.c:1265
 msgid "success"
 msgstr "成功"
 
 #. procedure execution failed
-#: ../libglimpse/gimp.c:1210
+#: ../libglimpse/gimp.c:1269
 msgid "execution error"
 msgstr "執行錯誤"
 
 #. procedure called incorrectly
-#: ../libglimpse/gimp.c:1214
+#: ../libglimpse/gimp.c:1273
 msgid "calling error"
 msgstr "調用錯誤"
 
 #. procedure execution cancelled
-#: ../libglimpse/gimp.c:1218
+#: ../libglimpse/gimp.c:1277
 msgid "cancelled"
 msgstr "已取消"
 
@@ -43,81 +43,86 @@ msgstr "已取消"
 msgid "Brush Selection"
 msgstr "筆刷選擇"
 
-#: ../libglimpse/gimpbrushselectbutton.c:928
-#: ../libglimpse/gimppatternselectbutton.c:726
+#: ../libglimpse/gimpbrushselectbutton.c:920
+#: ../libglimpse/gimppatternselectbutton.c:718
 msgid "_Browse..."
 msgstr "瀏覽(_B)..."
 
-#: ../libglimpse/gimpexport.c:251 ../libglimpse/gimpexport.c:287
+#: ../libglimpse/gimpexport.c:278 ../libglimpse/gimpexport.c:314
 #, c-format
 msgid "%s plug-in can't handle layers"
 msgstr "%s 外掛程式無法處理圖層"
 
-#: ../libglimpse/gimpexport.c:252 ../libglimpse/gimpexport.c:261
-#: ../libglimpse/gimpexport.c:270 ../libglimpse/gimpexport.c:288
+#: ../libglimpse/gimpexport.c:279 ../libglimpse/gimpexport.c:288
+#: ../libglimpse/gimpexport.c:297 ../libglimpse/gimpexport.c:315
 msgid "Merge Visible Layers"
 msgstr "合併可見圖層"
 
-#: ../libglimpse/gimpexport.c:260
+#: ../libglimpse/gimpexport.c:287
 #, c-format
 msgid "%s plug-in can't handle layer offsets, size or opacity"
 msgstr "%s 外掛程式無法處理圖層的偏移、尺寸或不透明度"
 
-#: ../libglimpse/gimpexport.c:269 ../libglimpse/gimpexport.c:278
+#: ../libglimpse/gimpexport.c:296 ../libglimpse/gimpexport.c:305
 #, c-format
 msgid "%s plug-in can only handle layers as animation frames"
 msgstr "%s 外掛程式只能以動畫畫格的方式處理圖層"
 
-#: ../libglimpse/gimpexport.c:270 ../libglimpse/gimpexport.c:279
+#: ../libglimpse/gimpexport.c:297 ../libglimpse/gimpexport.c:306
 msgid "Save as Animation"
 msgstr "儲存為動畫"
 
-#: ../libglimpse/gimpexport.c:279 ../libglimpse/gimpexport.c:288
-#: ../libglimpse/gimpexport.c:297
+#: ../libglimpse/gimpexport.c:306 ../libglimpse/gimpexport.c:315
+#: ../libglimpse/gimpexport.c:324 ../libglimpse/gimpexport.c:333
 msgid "Flatten Image"
 msgstr "圖片平面化"
 
-#: ../libglimpse/gimpexport.c:296
+#: ../libglimpse/gimpexport.c:323
 #, c-format
 msgid "%s plug-in can't handle transparency"
 msgstr "%s 外掛程式無法處理透明度"
 
-#: ../libglimpse/gimpexport.c:305
+#: ../libglimpse/gimpexport.c:332
+#, fuzzy, c-format
+msgid "%s plug-in can't handle transparent layers"
+msgstr "%s 外掛程式無法處理透明度"
+
+#: ../libglimpse/gimpexport.c:341
 #, c-format
 msgid "%s plug-in can't handle layer masks"
 msgstr "%s 外掛程式無法處理圖層遮罩"
 
-#: ../libglimpse/gimpexport.c:306
+#: ../libglimpse/gimpexport.c:342
 msgid "Apply Layer Masks"
 msgstr "套用圖層遮罩"
 
-#: ../libglimpse/gimpexport.c:314
+#: ../libglimpse/gimpexport.c:350
 #, c-format
 msgid "%s plug-in can only handle RGB images"
 msgstr "%s 外掛程式只能處理 RGB 圖片"
 
-#: ../libglimpse/gimpexport.c:315 ../libglimpse/gimpexport.c:353
-#: ../libglimpse/gimpexport.c:362
+#: ../libglimpse/gimpexport.c:351 ../libglimpse/gimpexport.c:389
+#: ../libglimpse/gimpexport.c:398
 msgid "Convert to RGB"
 msgstr "轉換成 RGB"
 
-#: ../libglimpse/gimpexport.c:323
+#: ../libglimpse/gimpexport.c:359
 #, c-format
 msgid "%s plug-in can only handle grayscale images"
 msgstr "%s 外掛程式只能處理灰階圖片"
 
-#: ../libglimpse/gimpexport.c:324 ../libglimpse/gimpexport.c:353
-#: ../libglimpse/gimpexport.c:374
+#: ../libglimpse/gimpexport.c:360 ../libglimpse/gimpexport.c:389
+#: ../libglimpse/gimpexport.c:410
 msgid "Convert to Grayscale"
 msgstr "轉換成灰階"
 
-#: ../libglimpse/gimpexport.c:332
+#: ../libglimpse/gimpexport.c:368
 #, c-format
 msgid "%s plug-in can only handle indexed images"
 msgstr "%s 外掛程式只能處理索引色圖片"
 
-#: ../libglimpse/gimpexport.c:333 ../libglimpse/gimpexport.c:362
-#: ../libglimpse/gimpexport.c:372
+#: ../libglimpse/gimpexport.c:369 ../libglimpse/gimpexport.c:398
+#: ../libglimpse/gimpexport.c:408
 msgid ""
 "Convert to Indexed using default settings\n"
 "(Do it manually to tune the result)"
@@ -125,12 +130,12 @@ msgstr ""
 "根據預設設定轉換成索引色圖片\n"
 "(請自行調整結果)"
 
-#: ../libglimpse/gimpexport.c:342
+#: ../libglimpse/gimpexport.c:378
 #, c-format
 msgid "%s plug-in can only handle bitmap (two color) indexed images"
 msgstr "%s 外掛程式只能處理黑白點陣圖"
 
-#: ../libglimpse/gimpexport.c:343
+#: ../libglimpse/gimpexport.c:379
 msgid ""
 "Convert to Indexed using bitmap default settings\n"
 "(Do it manually to tune the result)"
@@ -138,67 +143,67 @@ msgstr ""
 "根據預設的點陣圖設定轉換成索引色圖片\n"
 "(請自行調整結果)"
 
-#: ../libglimpse/gimpexport.c:352
+#: ../libglimpse/gimpexport.c:388
 #, c-format
 msgid "%s plug-in can only handle RGB or grayscale images"
 msgstr "%s 外掛程式只能處理 RGB 或灰階圖片"
 
-#: ../libglimpse/gimpexport.c:361
+#: ../libglimpse/gimpexport.c:397
 #, fuzzy, c-format
-#| msgid "%s plug-in  can only handle RGB or indexed images"
 msgid "%s plug-in can only handle RGB or indexed images"
 msgstr "%s 外掛程式只能處理 RGB 或索引色圖片"
 
-#: ../libglimpse/gimpexport.c:371
+#: ../libglimpse/gimpexport.c:407
 #, c-format
 msgid "%s plug-in can only handle grayscale or indexed images"
 msgstr "%s 外掛程式只能處理灰階或索引色圖片"
 
-#: ../libglimpse/gimpexport.c:382
+#: ../libglimpse/gimpexport.c:418
 #, c-format
 msgid "%s plug-in needs an alpha channel"
 msgstr "%s 外掛程式需要一透明色版"
 
-#: ../libglimpse/gimpexport.c:383
+#: ../libglimpse/gimpexport.c:419
 msgid "Add Alpha Channel"
 msgstr "加入透明色版"
 
-#: ../libglimpse/gimpexport.c:442
+#: ../libglimpse/gimpexport.c:478
 msgid "Confirm Save"
 msgstr "確認儲存"
 
-#: ../libglimpse/gimpexport.c:447 ../libglimpse/gimpexport.c:529
-#: ../libglimpse/gimpexport.c:1021 ../libglimpsewidgets/gimpcolorbutton.c:572
-#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:152
-#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:162
-#: ../libglimpsewidgets/gimpfileentry.c:435 ../libglimpsewidgets/gimpquerybox.c:274
-#: ../libglimpsewidgets/gimpquerybox.c:334 ../libglimpsewidgets/gimpquerybox.c:398
-#: ../libglimpsewidgets/gimpquerybox.c:472 ../libglimpsewidgets/gimpunitmenu.c:492
+#: ../libglimpse/gimpexport.c:483 ../libglimpse/gimpexport.c:565
+#: ../libglimpse/gimpexport.c:1063 ../libglimpsewidgets/gimpcolorbutton.c:549
+#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:172
+#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:182
+#: ../libglimpsewidgets/gimpfileentry.c:435
+#: ../libglimpsewidgets/gimpquerybox.c:275
+#: ../libglimpsewidgets/gimpquerybox.c:335
+#: ../libglimpsewidgets/gimpquerybox.c:399
+#: ../libglimpsewidgets/gimpquerybox.c:473
+#: ../libglimpsewidgets/gimpunitmenu.c:492
 #, fuzzy
-#| msgid "cancelled"
 msgid "_Cancel"
 msgstr "已取消"
 
-#: ../libglimpse/gimpexport.c:448
+#: ../libglimpse/gimpexport.c:484
 #, fuzzy
-#| msgid "Confirm"
 msgid "C_onfirm"
 msgstr "確認"
 
-#: ../libglimpse/gimpexport.c:524
+#: ../libglimpse/gimpexport.c:560
 msgid "Export File"
 msgstr "匯出檔案"
 
-#: ../libglimpse/gimpexport.c:528
+#: ../libglimpse/gimpexport.c:564
 msgid "_Ignore"
 msgstr "忽略(_I)"
 
-#: ../libglimpse/gimpexport.c:530 ../libglimpse/gimpexport.c:1022
+#: ../libglimpse/gimpexport.c:566 ../libglimpse/gimpexport.c:1064
 msgid "_Export"
 msgstr "匯出(_E)"
 
 #. the headline
-#: ../libglimpse/gimpexport.c:560
+#: ../libglimpse/gimpexport.c:596
 #, c-format
 msgid ""
 "Your image should be exported before it can be saved as %s for the following "
@@ -206,11 +211,11 @@ msgid ""
 msgstr "圖片在儲存至 %s 前必須匯出，原因如下："
 
 #. the footline
-#: ../libglimpse/gimpexport.c:634
+#: ../libglimpse/gimpexport.c:670
 msgid "The export conversion won't modify your original image."
 msgstr "匯出時的圖片轉換程序不會更改原有的圖片。"
 
-#: ../libglimpse/gimpexport.c:741
+#: ../libglimpse/gimpexport.c:774
 #, c-format
 msgid ""
 "You are about to save a layer mask as %s.\n"
@@ -219,7 +224,7 @@ msgstr ""
 "準備將圖層遮罩儲存為 %s。\n"
 "本程序不會儲存可見的圖層。"
 
-#: ../libglimpse/gimpexport.c:747
+#: ../libglimpse/gimpexport.c:780
 #, c-format
 msgid ""
 "You are about to save a channel (saved selection) as %s.\n"
@@ -228,68 +233,68 @@ msgstr ""
 "準備將色版(已儲存的選取區域)儲存為 %s。\n"
 " 本程序不會儲存可見的圖層。"
 
-#: ../libglimpse/gimpexport.c:1015
-msgid "Export Image as "
+#. TRANSLATORS: the %s parameter is an image format name (ex: PNG).
+#: ../libglimpse/gimpexport.c:1057
+#, fuzzy, c-format
+msgid "Export Image as %s"
 msgstr "匯出圖片為"
 
 #: ../libglimpse/gimpfontselectbutton.c:139
 msgid "Font Selection"
 msgstr "字型選擇"
 
-#: ../libglimpse/gimpgradientselectbutton.c:157
+#: ../libglimpse/gimpgradientselectbutton.c:158
 msgid "Gradient Selection"
 msgstr "漸層選擇"
 
-#: ../libglimpse/gimpimagemetadata.c:477
-msgid "GIMP 2.9/2.10"
-msgstr ""
-
-#: ../libglimpse/gimpimagemetadata.c:661
+#: ../libglimpse/gimpimagemetadata.c:514
 #, fuzzy
-#| msgid "_Background Color"
+msgid "GIMP 2.10"
+msgstr "GIMP"
+
+#: ../libglimpse/gimpimagemetadata.c:703
+#, fuzzy
 msgid "Background"
 msgstr "背景顏色(_B)"
 
-#: ../libglimpse/gimpimagemetadata.c:850
+#: ../libglimpse/gimpimagemetadata.c:892
 #, fuzzy, c-format
-#| msgid "_Rotate"
 msgid "Rotate %s?"
 msgstr "旋轉(_R)"
 
-#: ../libglimpse/gimpimagemetadata.c:856
+#: ../libglimpse/gimpimagemetadata.c:898
 msgid "_Keep Original"
 msgstr ""
 
-#: ../libglimpse/gimpimagemetadata.c:857 ../libglimpsewidgets/gimpicons.c:274
+#: ../libglimpse/gimpimagemetadata.c:899 ../libglimpsewidgets/gimpicons.c:271
 msgid "_Rotate"
 msgstr "旋轉(_R)"
 
-#: ../libglimpse/gimpimagemetadata.c:898
+#: ../libglimpse/gimpimagemetadata.c:940
 msgid "Original"
 msgstr ""
 
-#: ../libglimpse/gimpimagemetadata.c:914
+#: ../libglimpse/gimpimagemetadata.c:956
 #, fuzzy
-#| msgid "_Rotate"
 msgid "Rotated"
 msgstr "旋轉(_R)"
 
-#: ../libglimpse/gimpimagemetadata.c:932
+#: ../libglimpse/gimpimagemetadata.c:974
 msgid "This image contains Exif orientation metadata."
 msgstr ""
 
-#: ../libglimpse/gimpimagemetadata.c:950
+#: ../libglimpse/gimpimagemetadata.c:992
 msgid "Would you like to rotate the image?"
 msgstr ""
 
-#: ../libglimpse/gimpimagemetadata.c:962
+#: ../libglimpse/gimpimagemetadata.c:1004
 msgid "_Don't ask me again"
 msgstr ""
 
 #. This string appears in an empty menu as in
 #. * "nothing selected and nothing to select"
 #.
-#: ../libglimpse/gimpmenu.c:462 ../libglimpsewidgets/gimpintstore.c:253
+#: ../libglimpse/gimpmenu.c:462 ../libglimpsewidgets/gimpintstore.c:252
 msgid "(Empty)"
 msgstr "(空白)"
 
@@ -331,7 +336,8 @@ msgstr "依類型"
 
 #. count label
 #: ../libglimpse/gimpprocbrowserdialog.c:395
-#: ../libglimpse/gimpprocbrowserdialog.c:544 ../libglimpsewidgets/gimpbrowser.c:141
+#: ../libglimpse/gimpprocbrowserdialog.c:544
+#: ../libglimpsewidgets/gimpbrowser.c:141
 msgid "No matches"
 msgstr "沒有符合的"
 
@@ -627,28 +633,24 @@ msgstr "圖樣"
 
 #: ../libglimpsebase/gimpbaseenums.c:372
 #, fuzzy
-#| msgid "None"
 msgctxt "color-tag"
 msgid "None"
 msgstr "無"
 
 #: ../libglimpsebase/gimpbaseenums.c:373
 #, fuzzy
-#| msgid "Blue"
 msgctxt "color-tag"
 msgid "Blue"
 msgstr "藍"
 
 #: ../libglimpsebase/gimpbaseenums.c:374
 #, fuzzy
-#| msgid "Green"
 msgctxt "color-tag"
 msgid "Green"
 msgstr "綠"
 
 #: ../libglimpsebase/gimpbaseenums.c:375
 #, fuzzy
-#| msgid "Yellow"
 msgctxt "color-tag"
 msgid "Yellow"
 msgstr "黃"
@@ -665,7 +667,6 @@ msgstr ""
 
 #: ../libglimpsebase/gimpbaseenums.c:378
 #, fuzzy
-#| msgid "Red"
 msgctxt "color-tag"
 msgid "Red"
 msgstr "紅"
@@ -677,8 +678,6 @@ msgstr ""
 
 #: ../libglimpsebase/gimpbaseenums.c:380
 #, fuzzy
-#| msgctxt "channel-type"
-#| msgid "Gray"
 msgctxt "color-tag"
 msgid "Gray"
 msgstr "灰色"
@@ -745,8 +744,6 @@ msgstr ""
 
 #: ../libglimpsebase/gimpbaseenums.c:514
 #, fuzzy
-#| msgctxt "desaturate-mode"
-#| msgid "Lightness"
 msgctxt "desaturate-mode"
 msgid "Lightness (HSL)"
 msgstr "亮度"
@@ -768,7 +765,6 @@ msgstr ""
 
 #: ../libglimpsebase/gimpbaseenums.c:518
 #, fuzzy
-#| msgid "Value"
 msgctxt "desaturate-mode"
 msgid "Value (HSV)"
 msgstr "明度"
@@ -784,138 +780,149 @@ msgid "Burn"
 msgstr "燻黑"
 
 #: ../libglimpsebase/gimpbaseenums.c:580
-#| msgid "_Foreground Color"
 msgctxt "fill-type"
 msgid "Foreground color"
 msgstr "前景色"
 
 #: ../libglimpsebase/gimpbaseenums.c:581
-#| msgid "_Background Color"
 msgctxt "fill-type"
 msgid "Background color"
 msgstr "背景色"
 
 #: ../libglimpsebase/gimpbaseenums.c:582
-#| msgid "_White"
 msgctxt "fill-type"
 msgid "White"
 msgstr "白色"
 
 #: ../libglimpsebase/gimpbaseenums.c:583
-#| msgctxt "blend-mode"
-#| msgid "FG to transparent"
 msgctxt "fill-type"
 msgid "Transparency"
 msgstr "透明"
 
 #: ../libglimpsebase/gimpbaseenums.c:584
-#| msgctxt "clone-type"
-#| msgid "Pattern"
 msgctxt "fill-type"
 msgid "Pattern"
 msgstr "圖樣"
 
 #: ../libglimpsebase/gimpbaseenums.c:644
 #, fuzzy
-#| msgctxt "image-type"
-#| msgid "RGB"
+msgctxt "gradient-blend-color-space"
+msgid "Perceptual RGB"
+msgstr "感知"
+
+#: ../libglimpsebase/gimpbaseenums.c:645
+#, fuzzy
+msgctxt "gradient-blend-color-space"
+msgid "Linear RGB"
+msgstr "線性"
+
+#: ../libglimpsebase/gimpbaseenums.c:646
+msgctxt "gradient-blend-color-space"
+msgid "CIE Lab"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:676
+#, fuzzy
 msgctxt "gradient-segment-color"
 msgid "RGB"
 msgstr "RGB"
 
-#: ../libglimpsebase/gimpbaseenums.c:645
+#: ../libglimpsebase/gimpbaseenums.c:677
 msgctxt "gradient-segment-color"
 msgid "HSV (counter-clockwise hue)"
 msgstr ""
 
 #. Translators: this is an abbreviated version of "HSV (counter-clockwise hue)".
 #. Keep it short.
-#: ../libglimpsebase/gimpbaseenums.c:648
+#: ../libglimpsebase/gimpbaseenums.c:680
 #, fuzzy
 msgctxt "gradient-segment-color"
 msgid "HSV (ccw)"
 msgstr "螺旋(順時針)"
 
-#: ../libglimpsebase/gimpbaseenums.c:649
+#: ../libglimpsebase/gimpbaseenums.c:681
 msgctxt "gradient-segment-color"
 msgid "HSV (clockwise hue)"
 msgstr ""
 
 #. Translators: this is an abbreviated version of "HSV (clockwise hue)".
 #. Keep it short.
-#: ../libglimpsebase/gimpbaseenums.c:652
+#: ../libglimpsebase/gimpbaseenums.c:684
 #, fuzzy
 msgctxt "gradient-segment-color"
 msgid "HSV (cw)"
 msgstr "螺旋(順時針)"
 
-#: ../libglimpsebase/gimpbaseenums.c:684
+#: ../libglimpsebase/gimpbaseenums.c:717
 #, fuzzy
-#| msgctxt "gradient-type"
-#| msgid "Linear"
 msgctxt "gradient-segment-type"
 msgid "Linear"
 msgstr "線性"
 
-#: ../libglimpsebase/gimpbaseenums.c:685
+#: ../libglimpsebase/gimpbaseenums.c:718
 msgctxt "gradient-segment-type"
 msgid "Curved"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:686
+#: ../libglimpsebase/gimpbaseenums.c:719
 msgctxt "gradient-segment-type"
 msgid "Sinusoidal"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:687
+#: ../libglimpsebase/gimpbaseenums.c:720
 msgctxt "gradient-segment-type"
 msgid "Spherical (increasing)"
 msgstr ""
 
 #. Translators: this is an abbreviated version of "Spherical (increasing)".
 #. Keep it short.
-#: ../libglimpsebase/gimpbaseenums.c:690
+#: ../libglimpsebase/gimpbaseenums.c:723
 #, fuzzy
 msgctxt "gradient-segment-type"
 msgid "Spherical (inc)"
 msgstr "螺旋(順時針)"
 
-#: ../libglimpsebase/gimpbaseenums.c:691
+#: ../libglimpsebase/gimpbaseenums.c:724
 msgctxt "gradient-segment-type"
 msgid "Spherical (decreasing)"
 msgstr ""
 
 #. Translators: this is an abbreviated version of "Spherical (decreasing)".
 #. Keep it short.
-#: ../libglimpsebase/gimpbaseenums.c:694
+#: ../libglimpsebase/gimpbaseenums.c:727
 #, fuzzy
 msgctxt "gradient-segment-type"
 msgid "Spherical (dec)"
 msgstr "螺旋(順時針)"
 
-#: ../libglimpsebase/gimpbaseenums.c:732
+#: ../libglimpsebase/gimpbaseenums.c:728
+msgctxt "gradient-segment-type"
+msgid "Step"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:766
 msgctxt "gradient-type"
 msgid "Linear"
 msgstr "線性"
 
-#: ../libglimpsebase/gimpbaseenums.c:733
+#: ../libglimpsebase/gimpbaseenums.c:767
 msgctxt "gradient-type"
 msgid "Bi-linear"
 msgstr "雙線性"
 
-#: ../libglimpsebase/gimpbaseenums.c:734
+#: ../libglimpsebase/gimpbaseenums.c:768
 #, fuzzy
 msgctxt "gradient-type"
 msgid "Radial"
 msgstr "放射狀"
 
-#: ../libglimpsebase/gimpbaseenums.c:735
+#: ../libglimpsebase/gimpbaseenums.c:769
 #, fuzzy
 msgctxt "gradient-type"
 msgid "Square"
 msgstr "正方形"
 
-#: ../libglimpsebase/gimpbaseenums.c:736
+#: ../libglimpsebase/gimpbaseenums.c:770
 #, fuzzy
 msgctxt "gradient-type"
 msgid "Conical (symmetric)"
@@ -923,13 +930,13 @@ msgstr "圓錐形(對稱)"
 
 #. Translators: this is an abbreviated version of "Conical (symmetric)".
 #. Keep it short.
-#: ../libglimpsebase/gimpbaseenums.c:739
+#: ../libglimpsebase/gimpbaseenums.c:773
 #, fuzzy
 msgctxt "gradient-type"
 msgid "Conical (sym)"
 msgstr "圓錐形(對稱)"
 
-#: ../libglimpsebase/gimpbaseenums.c:740
+#: ../libglimpsebase/gimpbaseenums.c:774
 #, fuzzy
 msgctxt "gradient-type"
 msgid "Conical (asymmetric)"
@@ -937,31 +944,31 @@ msgstr "圓錐形(不對稱)"
 
 #. Translators: this is an abbreviated version of "Conical (asymmetric)".
 #. Keep it short.
-#: ../libglimpsebase/gimpbaseenums.c:743
+#: ../libglimpsebase/gimpbaseenums.c:777
 #, fuzzy
 msgctxt "gradient-type"
 msgid "Conical (asym)"
 msgstr "圓錐形(不對稱)"
 
-#: ../libglimpsebase/gimpbaseenums.c:744
+#: ../libglimpsebase/gimpbaseenums.c:778
 #, fuzzy
 msgctxt "gradient-type"
 msgid "Shaped (angular)"
 msgstr "x型項目符號"
 
-#: ../libglimpsebase/gimpbaseenums.c:745
+#: ../libglimpsebase/gimpbaseenums.c:779
 #, fuzzy
 msgctxt "gradient-type"
 msgid "Shaped (spherical)"
 msgstr "x型項目符號"
 
-#: ../libglimpsebase/gimpbaseenums.c:746
+#: ../libglimpsebase/gimpbaseenums.c:780
 #, fuzzy
 msgctxt "gradient-type"
 msgid "Shaped (dimpled)"
 msgstr "x型項目符號"
 
-#: ../libglimpsebase/gimpbaseenums.c:747
+#: ../libglimpsebase/gimpbaseenums.c:781
 #, fuzzy
 msgctxt "gradient-type"
 msgid "Spiral (clockwise)"
@@ -969,13 +976,13 @@ msgstr "螺旋(順時針)"
 
 #. Translators: this is an abbreviated version of "Spiral (clockwise)".
 #. Keep it short.
-#: ../libglimpsebase/gimpbaseenums.c:750
+#: ../libglimpsebase/gimpbaseenums.c:784
 #, fuzzy
 msgctxt "gradient-type"
 msgid "Spiral (cw)"
 msgstr "螺旋(順時針)"
 
-#: ../libglimpsebase/gimpbaseenums.c:751
+#: ../libglimpsebase/gimpbaseenums.c:785
 #, fuzzy
 msgctxt "gradient-type"
 msgid "Spiral (counter-clockwise)"
@@ -983,613 +990,623 @@ msgstr "螺旋(順時針)"
 
 #. Translators: this is an abbreviated version of "Spiral (counter-clockwise)".
 #. Keep it short.
-#: ../libglimpsebase/gimpbaseenums.c:754
+#: ../libglimpsebase/gimpbaseenums.c:788
 #, fuzzy
 msgctxt "gradient-type"
 msgid "Spiral (ccw)"
 msgstr "螺旋(順時針)"
 
-#: ../libglimpsebase/gimpbaseenums.c:786
+#: ../libglimpsebase/gimpbaseenums.c:820
 msgctxt "grid-style"
 msgid "Intersections (dots)"
 msgstr "交叉口（點）"
 
-#: ../libglimpsebase/gimpbaseenums.c:787
+#: ../libglimpsebase/gimpbaseenums.c:821
 msgctxt "grid-style"
 msgid "Intersections (crosshairs)"
 msgstr "交叉口（十字線）"
 
-#: ../libglimpsebase/gimpbaseenums.c:788
+#: ../libglimpsebase/gimpbaseenums.c:822
 msgctxt "grid-style"
 msgid "Dashed"
 msgstr "虛線"
 
-#: ../libglimpsebase/gimpbaseenums.c:789
+#: ../libglimpsebase/gimpbaseenums.c:823
 msgctxt "grid-style"
 msgid "Double dashed"
 msgstr "雙虛線"
 
-#: ../libglimpsebase/gimpbaseenums.c:790
+#: ../libglimpsebase/gimpbaseenums.c:824
 msgctxt "grid-style"
 msgid "Solid"
 msgstr "單色"
 
-#: ../libglimpsebase/gimpbaseenums.c:860
+#: ../libglimpsebase/gimpbaseenums.c:894
 #, fuzzy
-#| msgid "by name"
 msgctxt "icon-type"
 msgid "Icon name"
 msgstr "依名稱"
 
-#: ../libglimpsebase/gimpbaseenums.c:861
+#: ../libglimpsebase/gimpbaseenums.c:895
 #, fuzzy
 msgctxt "icon-type"
 msgid "Inline pixbuf"
 msgstr "Pixbuf 物件"
 
-#: ../libglimpsebase/gimpbaseenums.c:862
+#: ../libglimpsebase/gimpbaseenums.c:896
 #, fuzzy
 msgctxt "icon-type"
 msgid "Image file"
 msgstr "圖型檔(_F):"
 
-#: ../libglimpsebase/gimpbaseenums.c:892
+#: ../libglimpsebase/gimpbaseenums.c:926
 msgctxt "image-base-type"
 msgid "RGB color"
 msgstr "RGB 顏色"
 
-#: ../libglimpsebase/gimpbaseenums.c:893
+#: ../libglimpsebase/gimpbaseenums.c:927
 msgctxt "image-base-type"
 msgid "Grayscale"
 msgstr "灰階"
 
-#: ../libglimpsebase/gimpbaseenums.c:894
+#: ../libglimpsebase/gimpbaseenums.c:928
 msgctxt "image-base-type"
 msgid "Indexed color"
 msgstr "索引色"
 
-#: ../libglimpsebase/gimpbaseenums.c:927
+#: ../libglimpsebase/gimpbaseenums.c:961
 msgctxt "image-type"
 msgid "RGB"
 msgstr "RGB"
 
-#: ../libglimpsebase/gimpbaseenums.c:928
+#: ../libglimpsebase/gimpbaseenums.c:962
 msgctxt "image-type"
 msgid "RGB-alpha"
 msgstr "RGB 模式含有透明度"
 
-#: ../libglimpsebase/gimpbaseenums.c:929
+#: ../libglimpsebase/gimpbaseenums.c:963
 #, fuzzy
 msgctxt "image-type"
 msgid "Grayscale"
 msgstr "灰階"
 
-#: ../libglimpsebase/gimpbaseenums.c:930
+#: ../libglimpsebase/gimpbaseenums.c:964
 msgctxt "image-type"
 msgid "Grayscale-alpha"
 msgstr "灰階模式含有透明度"
 
-#: ../libglimpsebase/gimpbaseenums.c:931
+#: ../libglimpsebase/gimpbaseenums.c:965
 #, fuzzy
 msgctxt "image-type"
 msgid "Indexed"
 msgstr "已索引欄位"
 
-#: ../libglimpsebase/gimpbaseenums.c:932
+#: ../libglimpsebase/gimpbaseenums.c:966
 msgctxt "image-type"
 msgid "Indexed-alpha"
 msgstr "索引色模式含有透明度"
 
-#: ../libglimpsebase/gimpbaseenums.c:962
+#: ../libglimpsebase/gimpbaseenums.c:996
 msgctxt "ink-blob-type"
 msgid "Circle"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:963
+#: ../libglimpsebase/gimpbaseenums.c:997
 #, fuzzy
 msgctxt "ink-blob-type"
 msgid "Square"
 msgstr "正方形"
 
-#: ../libglimpsebase/gimpbaseenums.c:964
+#: ../libglimpsebase/gimpbaseenums.c:998
 msgctxt "ink-blob-type"
 msgid "Diamond"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:996
+#: ../libglimpsebase/gimpbaseenums.c:1030
 msgctxt "interpolation-type"
 msgid "None"
 msgstr "無"
 
-#: ../libglimpsebase/gimpbaseenums.c:997
+#: ../libglimpsebase/gimpbaseenums.c:1031
 msgctxt "interpolation-type"
 msgid "Linear"
 msgstr "線性"
 
-#: ../libglimpsebase/gimpbaseenums.c:998
+#: ../libglimpsebase/gimpbaseenums.c:1032
 msgctxt "interpolation-type"
 msgid "Cubic"
 msgstr "立方"
 
-#: ../libglimpsebase/gimpbaseenums.c:999
+#: ../libglimpsebase/gimpbaseenums.c:1033
 msgctxt "interpolation-type"
 msgid "NoHalo"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:1000
+#: ../libglimpsebase/gimpbaseenums.c:1034
 msgctxt "interpolation-type"
 msgid "LoHalo"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:1030
+#: ../libglimpsebase/gimpbaseenums.c:1064
 msgctxt "join-style"
 msgid "Miter"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:1031
+#: ../libglimpsebase/gimpbaseenums.c:1065
 msgctxt "join-style"
 msgid "Round"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:1032
+#: ../libglimpsebase/gimpbaseenums.c:1066
 msgctxt "join-style"
 msgid "Bevel"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:1093
+#: ../libglimpsebase/gimpbaseenums.c:1127
 msgctxt "merge-type"
 msgid "Expanded as necessary"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:1094
+#: ../libglimpsebase/gimpbaseenums.c:1128
 msgctxt "merge-type"
 msgid "Clipped to image"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:1095
+#: ../libglimpsebase/gimpbaseenums.c:1129
 msgctxt "merge-type"
 msgid "Clipped to bottom layer"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:1096
+#: ../libglimpsebase/gimpbaseenums.c:1130
 #, fuzzy
-#| msgctxt "clone-type"
-#| msgid "Pattern"
 msgctxt "merge-type"
 msgid "Flatten"
 msgstr "圖樣"
 
-#: ../libglimpsebase/gimpbaseenums.c:1188
+#: ../libglimpsebase/gimpbaseenums.c:1224
 msgctxt "orientation-type"
 msgid "Horizontal"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:1189
+#: ../libglimpsebase/gimpbaseenums.c:1225
 msgctxt "orientation-type"
 msgid "Vertical"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:1190
+#: ../libglimpsebase/gimpbaseenums.c:1226
 msgctxt "orientation-type"
 msgid "Unknown"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:1219
+#: ../libglimpsebase/gimpbaseenums.c:1255
 #, fuzzy
 msgctxt "paint-application-mode"
 msgid "Constant"
 msgstr "常數"
 
-#: ../libglimpsebase/gimpbaseenums.c:1220
+#: ../libglimpsebase/gimpbaseenums.c:1256
 #, fuzzy
 msgctxt "paint-application-mode"
 msgid "Incremental"
 msgstr "遞增模式"
 
-#: ../libglimpsebase/gimpbaseenums.c:1353
+#: ../libglimpsebase/gimpbaseenums.c:1389
 #, fuzzy
 msgctxt "pdb-proc-type"
 msgid "Internal Glimpse procedure"
 msgstr "找不到程序“%s”"
 
-#: ../libglimpsebase/gimpbaseenums.c:1354
+#: ../libglimpsebase/gimpbaseenums.c:1390
 #, fuzzy
-#| msgctxt "pdb-proc-type"
-#| msgid "GNU I.M.P Plug-In"
 msgctxt "pdb-proc-type"
 msgid "GNU I.M.P Plug-In"
 msgstr "GNU I.M.P 外掛程式"
 
-#: ../libglimpsebase/gimpbaseenums.c:1355
+#: ../libglimpsebase/gimpbaseenums.c:1391
 #, fuzzy
 msgctxt "pdb-proc-type"
 msgid "GNU I.M.P Extension"
 msgstr "依延伸檔名"
 
-#: ../libglimpsebase/gimpbaseenums.c:1356
+#: ../libglimpsebase/gimpbaseenums.c:1392
 #, fuzzy
 msgctxt "pdb-proc-type"
 msgid "Temporary Procedure"
 msgstr "暫時檔案系統"
 
-#: ../libglimpsebase/gimpbaseenums.c:1431
+#: ../libglimpsebase/gimpbaseenums.c:1467
 msgctxt "precision"
 msgid "8-bit linear integer"
 msgstr "8位元線性整數"
 
-#: ../libglimpsebase/gimpbaseenums.c:1432
+#: ../libglimpsebase/gimpbaseenums.c:1468
 msgctxt "precision"
 msgid "8-bit gamma integer"
 msgstr "8位元 gamma 整數"
 
-#: ../libglimpsebase/gimpbaseenums.c:1433
+#: ../libglimpsebase/gimpbaseenums.c:1469
 msgctxt "precision"
 msgid "16-bit linear integer"
 msgstr "16位元線性整數"
 
-#: ../libglimpsebase/gimpbaseenums.c:1434
+#: ../libglimpsebase/gimpbaseenums.c:1470
 msgctxt "precision"
 msgid "16-bit gamma integer"
 msgstr "16位元 gamma 整數"
 
-#: ../libglimpsebase/gimpbaseenums.c:1435
+#: ../libglimpsebase/gimpbaseenums.c:1471
 msgctxt "precision"
 msgid "32-bit linear integer"
 msgstr "32位元線性整數"
 
-#: ../libglimpsebase/gimpbaseenums.c:1436
+#: ../libglimpsebase/gimpbaseenums.c:1472
 msgctxt "precision"
 msgid "32-bit gamma integer"
 msgstr "32位元 gamma 整數"
 
-#: ../libglimpsebase/gimpbaseenums.c:1437
+#: ../libglimpsebase/gimpbaseenums.c:1473
 msgctxt "precision"
 msgid "16-bit linear floating point"
 msgstr "16位元線性浮點數"
 
-#: ../libglimpsebase/gimpbaseenums.c:1438
+#: ../libglimpsebase/gimpbaseenums.c:1474
 msgctxt "precision"
 msgid "16-bit gamma floating point"
 msgstr "16位元 gamma 浮點數"
 
-#: ../libglimpsebase/gimpbaseenums.c:1439
+#: ../libglimpsebase/gimpbaseenums.c:1475
 msgctxt "precision"
 msgid "32-bit linear floating point"
 msgstr "32位元線性浮點數"
 
-#: ../libglimpsebase/gimpbaseenums.c:1440
+#: ../libglimpsebase/gimpbaseenums.c:1476
 msgctxt "precision"
 msgid "32-bit gamma floating point"
 msgstr "32位元 gamma 浮點數"
 
-#: ../libglimpsebase/gimpbaseenums.c:1441
+#: ../libglimpsebase/gimpbaseenums.c:1477
 msgctxt "precision"
 msgid "64-bit linear floating point"
 msgstr "64位元線性浮點數"
 
-#: ../libglimpsebase/gimpbaseenums.c:1442
+#: ../libglimpsebase/gimpbaseenums.c:1478
 msgctxt "precision"
 msgid "64-bit gamma floating point"
 msgstr "64位元 gamma 浮點數"
 
-#: ../libglimpsebase/gimpbaseenums.c:1511
+#: ../libglimpsebase/gimpbaseenums.c:1547
 msgctxt "repeat-mode"
 msgid "None (extend)"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:1512
+#: ../libglimpsebase/gimpbaseenums.c:1548
 msgctxt "repeat-mode"
 msgid "Sawtooth wave"
 msgstr "鋸齒形波浪紋"
 
-#: ../libglimpsebase/gimpbaseenums.c:1513
+#: ../libglimpsebase/gimpbaseenums.c:1549
 msgctxt "repeat-mode"
 msgid "Triangular wave"
 msgstr "三角形波浪紋"
 
-#: ../libglimpsebase/gimpbaseenums.c:1514
+#: ../libglimpsebase/gimpbaseenums.c:1550
 msgctxt "repeat-mode"
 msgid "Truncate"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:1576
+#: ../libglimpsebase/gimpbaseenums.c:1612
 #, fuzzy
 msgctxt "run-mode"
 msgid "Run interactively"
 msgstr "執行程式..."
 
-#: ../libglimpsebase/gimpbaseenums.c:1577
+#: ../libglimpsebase/gimpbaseenums.c:1613
 #, fuzzy
 msgctxt "run-mode"
 msgid "Run non-interactively"
 msgstr "互動設定選項"
 
-#: ../libglimpsebase/gimpbaseenums.c:1578
+#: ../libglimpsebase/gimpbaseenums.c:1614
 #, fuzzy
 msgctxt "run-mode"
 msgid "Run with last used values"
 msgstr "保留選擇區域"
 
-#: ../libglimpsebase/gimpbaseenums.c:1616
+#: ../libglimpsebase/gimpbaseenums.c:1652
 msgctxt "select-criterion"
 msgid "Composite"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:1617
+#: ../libglimpsebase/gimpbaseenums.c:1653
 #, fuzzy
-#| msgid "Red"
 msgctxt "select-criterion"
 msgid "Red"
 msgstr "紅"
 
-#: ../libglimpsebase/gimpbaseenums.c:1618
+#: ../libglimpsebase/gimpbaseenums.c:1654
 #, fuzzy
-#| msgid "Green"
 msgctxt "select-criterion"
 msgid "Green"
 msgstr "綠"
 
-#: ../libglimpsebase/gimpbaseenums.c:1619
+#: ../libglimpsebase/gimpbaseenums.c:1655
 #, fuzzy
-#| msgid "Blue"
 msgctxt "select-criterion"
 msgid "Blue"
 msgstr "藍"
 
-#: ../libglimpsebase/gimpbaseenums.c:1620
+#: ../libglimpsebase/gimpbaseenums.c:1656
 #, fuzzy
-#| msgid "Value"
 msgctxt "select-criterion"
-msgid "Hue (HSV)"
+msgid "HSV Hue"
 msgstr "明度"
 
-#: ../libglimpsebase/gimpbaseenums.c:1621
+#: ../libglimpsebase/gimpbaseenums.c:1657
 #, fuzzy
-#| msgid "Saturation"
 msgctxt "select-criterion"
-msgid "Saturation (HSV)"
+msgid "HSV Saturation"
 msgstr "飽和度"
 
-#: ../libglimpsebase/gimpbaseenums.c:1622
+#: ../libglimpsebase/gimpbaseenums.c:1658
 #, fuzzy
-#| msgid "Value"
 msgctxt "select-criterion"
-msgid "Value (HSV)"
+msgid "HSV Value"
 msgstr "明度"
 
-#: ../libglimpsebase/gimpbaseenums.c:1623
+#: ../libglimpsebase/gimpbaseenums.c:1659
 #, fuzzy
-#| msgid "Alpha"
 msgctxt "select-criterion"
 msgid "Alpha"
 msgstr "透明"
 
-#: ../libglimpsebase/gimpbaseenums.c:1624
+#: ../libglimpsebase/gimpbaseenums.c:1660
 #, fuzzy
-#| msgctxt "desaturate-mode"
-#| msgid "Lightness"
 msgctxt "select-criterion"
-msgid "Lightness (LCH)"
+msgid "LCh Lightness"
 msgstr "亮度"
 
-#: ../libglimpsebase/gimpbaseenums.c:1625
+#: ../libglimpsebase/gimpbaseenums.c:1661
 msgctxt "select-criterion"
-msgid "Chroma (LCH)"
+msgid "LCh Chroma"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:1626
+#: ../libglimpsebase/gimpbaseenums.c:1662
 msgctxt "select-criterion"
-msgid "Hue (LCH)"
+msgid "LCh Hue"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:1655
+#: ../libglimpsebase/gimpbaseenums.c:1691
 msgctxt "size-type"
 msgid "Pixels"
 msgstr "像素"
 
-#: ../libglimpsebase/gimpbaseenums.c:1656
+#: ../libglimpsebase/gimpbaseenums.c:1692
 #, fuzzy
 msgctxt "size-type"
 msgid "Points"
 msgstr "點"
 
-#: ../libglimpsebase/gimpbaseenums.c:1717
+#: ../libglimpsebase/gimpbaseenums.c:1753
 #, fuzzy
-#| msgid "_Stroke"
 msgctxt "stroke-method"
 msgid "Stroke line"
 msgstr "描邊(_S)"
 
-#: ../libglimpsebase/gimpbaseenums.c:1718
+#: ../libglimpsebase/gimpbaseenums.c:1754
 msgctxt "stroke-method"
 msgid "Stroke with a paint tool"
 msgstr ""
 
-#: ../libglimpsebase/gimpbaseenums.c:1747
+#: ../libglimpsebase/gimpbaseenums.c:1787
 msgctxt "text-direction"
 msgid "From left to right"
 msgstr "從左至右"
 
-#: ../libglimpsebase/gimpbaseenums.c:1748
+#: ../libglimpsebase/gimpbaseenums.c:1788
 msgctxt "text-direction"
 msgid "From right to left"
 msgstr "從右至左"
 
-#: ../libglimpsebase/gimpbaseenums.c:1779
+#: ../libglimpsebase/gimpbaseenums.c:1789
+msgctxt "text-direction"
+msgid "Vertical, right to left (mixed orientation)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:1790
+msgctxt "text-direction"
+msgid "Vertical, right to left (upright orientation)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:1791
+msgctxt "text-direction"
+msgid "Vertical, left to right (mixed orientation)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:1792
+msgctxt "text-direction"
+msgid "Vertical, left to right (upright orientation)"
+msgstr ""
+
+#: ../libglimpsebase/gimpbaseenums.c:1823
 msgctxt "text-hint-style"
 msgid "None"
 msgstr "無"
 
-#: ../libglimpsebase/gimpbaseenums.c:1780
+#: ../libglimpsebase/gimpbaseenums.c:1824
 msgctxt "text-hint-style"
 msgid "Slight"
 msgstr "輕微的"
 
-#: ../libglimpsebase/gimpbaseenums.c:1781
+#: ../libglimpsebase/gimpbaseenums.c:1825
 msgctxt "text-hint-style"
 msgid "Medium"
 msgstr "中等的"
 
-#: ../libglimpsebase/gimpbaseenums.c:1782
+#: ../libglimpsebase/gimpbaseenums.c:1826
 msgctxt "text-hint-style"
 msgid "Full"
 msgstr "盡量多的"
 
-#: ../libglimpsebase/gimpbaseenums.c:1813
+#: ../libglimpsebase/gimpbaseenums.c:1857
 msgctxt "text-justification"
 msgid "Left justified"
 msgstr "左對齊"
 
-#: ../libglimpsebase/gimpbaseenums.c:1814
+#: ../libglimpsebase/gimpbaseenums.c:1858
 msgctxt "text-justification"
 msgid "Right justified"
 msgstr "右對齊"
 
-#: ../libglimpsebase/gimpbaseenums.c:1815
+#: ../libglimpsebase/gimpbaseenums.c:1859
 msgctxt "text-justification"
 msgid "Centered"
 msgstr "置中"
 
-#: ../libglimpsebase/gimpbaseenums.c:1816
+#: ../libglimpsebase/gimpbaseenums.c:1860
 msgctxt "text-justification"
 msgid "Filled"
 msgstr "左右對齊"
 
-#: ../libglimpsebase/gimpbaseenums.c:1846
+#: ../libglimpsebase/gimpbaseenums.c:1890
 msgctxt "transfer-mode"
 msgid "Shadows"
 msgstr "陰影區域"
 
-#: ../libglimpsebase/gimpbaseenums.c:1847
+#: ../libglimpsebase/gimpbaseenums.c:1891
 msgctxt "transfer-mode"
 msgid "Midtones"
 msgstr "中間色調"
 
-#: ../libglimpsebase/gimpbaseenums.c:1848
+#: ../libglimpsebase/gimpbaseenums.c:1892
 msgctxt "transfer-mode"
 msgid "Highlights"
 msgstr "高亮度區"
 
-#: ../libglimpsebase/gimpbaseenums.c:1877
+#: ../libglimpsebase/gimpbaseenums.c:1921
 msgctxt "transform-direction"
 msgid "Normal (Forward)"
 msgstr "正常(向前)"
 
-#: ../libglimpsebase/gimpbaseenums.c:1878
+#: ../libglimpsebase/gimpbaseenums.c:1922
 msgctxt "transform-direction"
 msgid "Corrective (Backward)"
 msgstr "矯正(向後)"
 
-#: ../libglimpsebase/gimpbaseenums.c:1909
+#: ../libglimpsebase/gimpbaseenums.c:1953
 msgctxt "transform-resize"
 msgid "Adjust"
 msgstr "旋轉圖片後，擴大圖層尺寸"
 
-#: ../libglimpsebase/gimpbaseenums.c:1910
+#: ../libglimpsebase/gimpbaseenums.c:1954
 msgctxt "transform-resize"
 msgid "Clip"
 msgstr "旋轉圖片後，裁切以符合畫布邊界"
 
-#: ../libglimpsebase/gimpbaseenums.c:1911
+#: ../libglimpsebase/gimpbaseenums.c:1955
 msgctxt "transform-resize"
 msgid "Crop to result"
 msgstr "旋轉圖片後，矩形選取不透明區域"
 
-#: ../libglimpsebase/gimpbaseenums.c:1912
+#: ../libglimpsebase/gimpbaseenums.c:1956
 msgctxt "transform-resize"
 msgid "Crop with aspect"
 msgstr "保持長寬比，矩形選取不透明區域"
 
-#: ../libglimpsebase/gimpmetadata.c:840
+#: ../libglimpsebase/gimpmetadata.c:951
 #, c-format
 msgid "Can load metadata only from local files"
 msgstr ""
 
-#: ../libglimpsebase/gimpmetadata.c:900
+#: ../libglimpsebase/gimpmetadata.c:965 ../libglimpsebase/gimpmetadata.c:1035
+#, c-format
+msgid "Conversion of the filename to system codepage failed."
+msgstr ""
+
+#: ../libglimpsebase/gimpmetadata.c:1022
 #, c-format
 msgid "Can save metadata only to local files"
 msgstr ""
 
-#: ../libglimpsebase/gimpmetadata.c:976
+#: ../libglimpsebase/gimpmetadata.c:1084
+#, c-format
+msgid "Invalid Exif data size."
+msgstr ""
+
+#: ../libglimpsebase/gimpmetadata.c:1113
 #, c-format
 msgid "Parsing Exif data failed."
 msgstr ""
 
-#: ../libglimpsebase/gimpmetadata.c:1027
+#: ../libglimpsebase/gimpmetadata.c:1163
 #, c-format
 msgid "Parsing IPTC data failed."
 msgstr ""
 
-#: ../libglimpsebase/gimpmetadata.c:1076
+#: ../libglimpsebase/gimpmetadata.c:1211
 #, c-format
 msgid "Parsing XMP data failed."
 msgstr ""
 
-#: ../libglimpsebase/gimputils.c:192 ../libglimpsebase/gimputils.c:197
+#: ../libglimpsebase/gimputils.c:219 ../libglimpsebase/gimputils.c:224
 msgid "(invalid UTF-8 string)"
 msgstr "無效的 UTF-8 文字)"
 
-#: ../libglimpsebase/gimputils.c:367
+#: ../libglimpsebase/gimputils.c:394
 msgid "File path is NULL"
 msgstr ""
 
-#: ../libglimpsebase/gimputils.c:376 ../libglimpsebase/gimputils.c:387
+#: ../libglimpsebase/gimputils.c:403 ../libglimpsebase/gimputils.c:414
 msgid "Error converting UTF-8 filename to wide char"
 msgstr ""
 
-#: ../libglimpsebase/gimputils.c:395
+#: ../libglimpsebase/gimputils.c:422
 msgid "ILCreateFromPath() failed"
 msgstr ""
 
-#: ../libglimpsebase/gimputils.c:432
+#: ../libglimpsebase/gimputils.c:459
 #, c-format
 msgid "Cannot convert '%s' into a valid NSURL."
 msgstr ""
 
-#: ../libglimpsebase/gimputils.c:460
+#: ../libglimpsebase/gimputils.c:487
 msgid "Connecting to org.freedesktop.FileManager1 failed: "
 msgstr ""
 
-#: ../libglimpsebase/gimputils.c:484
+#: ../libglimpsebase/gimputils.c:511
 msgid "Calling ShowItems failed: "
 msgstr ""
 
-#: ../libglimpsecolor/gimpcolorprofile.c:263
+#: ../libglimpsecolor/gimpcolorprofile.c:258
 #, fuzzy, c-format
-#| msgid "Color proof filter using ICC color profile"
 msgid "'%s' does not appear to be an ICC color profile"
 msgstr "應用 ICC 色彩配置檔作為色彩打樣的濾色片"
 
-#: ../libglimpsecolor/gimpcolorprofile.c:309
+#: ../libglimpsecolor/gimpcolorprofile.c:304
 #, fuzzy
-#| msgid "Color proof filter using ICC color profile"
 msgid "Data does not appear to be an ICC color profile"
 msgstr "應用 ICC 色彩配置檔作為色彩打樣的濾色片"
 
-#: ../libglimpsecolor/gimpcolorprofile.c:366
+#: ../libglimpsecolor/gimpcolorprofile.c:361
 msgid "Could not save color profile to memory"
 msgstr ""
 
-#: ../libglimpsecolor/gimpcolorprofile.c:583
+#: ../libglimpsecolor/gimpcolorprofile.c:578
 #, fuzzy
-#| msgid "Image profile:"
 msgid "(unnamed profile)"
 msgstr "圖片配置檔："
 
-#: ../libglimpsecolor/gimpcolorprofile.c:625
+#: ../libglimpsecolor/gimpcolorprofile.c:620
 #, fuzzy, c-format
-#| msgid "Profile: %s"
 msgid "Model: %s"
 msgstr "配置檔：%s"
 
-#: ../libglimpsecolor/gimpcolorprofile.c:634
+#: ../libglimpsecolor/gimpcolorprofile.c:629
 #, c-format
 msgid "Manufacturer: %s"
 msgstr ""
 
-#: ../libglimpsecolor/gimpcolorprofile.c:643
+#: ../libglimpsecolor/gimpcolorprofile.c:638
 #, fuzzy, c-format
-#| msgid "Copyright:"
 msgid "Copyright: %s"
 msgstr "版權："
 
@@ -1599,8 +1616,6 @@ msgid "No color management"
 msgstr "沒有色彩管理"
 
 #: ../libglimpseconfig/gimpconfigenums.c:25
-#| msgctxt "color-management-mode"
-#| msgid "Color managed display"
 msgctxt "color-management-mode"
 msgid "Color-managed display"
 msgstr "色彩管理顯示"
@@ -1717,9 +1732,6 @@ msgstr ""
 
 #: ../libglimpseconfig/gimpcolorconfig.c:107
 #, fuzzy
-#| msgid ""
-#| "When enabled, the print simulation will mark colors which can not be "
-#| "represented in the target color space."
 msgid ""
 "When enabled, the soft-proofing will mark colors which can not be "
 "represented in the target color space."
@@ -1729,90 +1741,84 @@ msgstr "啟用後，列印模擬將標記色彩，該色彩不能代表目標色
 msgid "The color to use for marking colors which are out of gamut."
 msgstr "這顏色使用於標記超出全色彩範圍的顏色。"
 
-#: ../libglimpseconfig/gimpcolorconfig.c:199
+#: ../libglimpseconfig/gimpcolorconfig.c:198
 msgid "Mode of operation"
 msgstr "操作模式"
 
-#: ../libglimpseconfig/gimpcolorconfig.c:207
+#: ../libglimpseconfig/gimpcolorconfig.c:206
 msgid "Preferred RGB profile"
 msgstr ""
 
-#: ../libglimpseconfig/gimpcolorconfig.c:214
+#: ../libglimpseconfig/gimpcolorconfig.c:213
 msgid "Preferred grayscale profile"
 msgstr ""
 
-#: ../libglimpseconfig/gimpcolorconfig.c:221
+#: ../libglimpseconfig/gimpcolorconfig.c:220
 #, fuzzy
-#| msgid "Monitor profile:"
 msgid "CMYK profile"
 msgstr "螢幕配置檔："
 
-#: ../libglimpseconfig/gimpcolorconfig.c:228
+#: ../libglimpseconfig/gimpcolorconfig.c:227
 #, fuzzy
-#| msgid "Monitor profile:"
 msgid "Monitor profile"
 msgstr "螢幕配置檔："
 
-#: ../libglimpseconfig/gimpcolorconfig.c:235
+#: ../libglimpseconfig/gimpcolorconfig.c:234
 #, fuzzy
-#| msgid "Monitor profile:"
 msgid "Use the system monitor profile"
 msgstr "螢幕配置檔："
 
-#: ../libglimpseconfig/gimpcolorconfig.c:243
+#: ../libglimpseconfig/gimpcolorconfig.c:242
 msgid "Simulation profile for soft-proofing"
 msgstr ""
 
-#: ../libglimpseconfig/gimpcolorconfig.c:250
+#: ../libglimpseconfig/gimpcolorconfig.c:249
 msgid "Display rendering intent"
 msgstr ""
 
-#: ../libglimpseconfig/gimpcolorconfig.c:258
+#: ../libglimpseconfig/gimpcolorconfig.c:257
 msgid "Use black point compensation for the display"
 msgstr "對顯示使用黑點補償"
 
-#: ../libglimpseconfig/gimpcolorconfig.c:265
+#: ../libglimpseconfig/gimpcolorconfig.c:264
 msgid "Optimize display color transformations"
 msgstr ""
 
-#: ../libglimpseconfig/gimpcolorconfig.c:272
+#: ../libglimpseconfig/gimpcolorconfig.c:271
 msgid "Soft-proofing rendering intent"
 msgstr ""
 
-#: ../libglimpseconfig/gimpcolorconfig.c:280
+#: ../libglimpseconfig/gimpcolorconfig.c:279
 msgid "Use black point compensation for soft-proofing"
 msgstr "使用黑點補償進行軟打樣"
 
-#: ../libglimpseconfig/gimpcolorconfig.c:287
+#: ../libglimpseconfig/gimpcolorconfig.c:286
 msgid "Optimize soft-proofing color transformations"
 msgstr ""
 
-#: ../libglimpseconfig/gimpcolorconfig.c:294
+#: ../libglimpseconfig/gimpcolorconfig.c:293
 msgid "Mark out of gamut colors"
 msgstr ""
 
-#: ../libglimpseconfig/gimpcolorconfig.c:301
+#: ../libglimpseconfig/gimpcolorconfig.c:300
 msgid "Out of gamut warning color"
 msgstr ""
 
-#: ../libglimpseconfig/gimpcolorconfig.c:660
-#: ../libglimpseconfig/gimpcolorconfig.c:844
+#: ../libglimpseconfig/gimpcolorconfig.c:657
+#: ../libglimpseconfig/gimpcolorconfig.c:841
 #, fuzzy, c-format
-#| msgid "Color proof filter using ICC color profile"
 msgid "Color profile '%s' is not for RGB color space."
 msgstr "應用 ICC 色彩配置檔作為色彩打樣的濾色片"
 
-#: ../libglimpseconfig/gimpcolorconfig.c:702
-#: ../libglimpseconfig/gimpcolorconfig.c:894
+#: ../libglimpseconfig/gimpcolorconfig.c:699
+#: ../libglimpseconfig/gimpcolorconfig.c:891
 #, fuzzy, c-format
-#| msgid "Color proof filter using ICC color profile"
 msgid "Color profile '%s' is not for GRAY color space."
 msgstr "應用 ICC 色彩配置檔作為色彩打樣的濾色片"
 
-#: ../libglimpseconfig/gimpcolorconfig.c:744
-#: ../libglimpseconfig/gimpcolorconfig.c:944
+#: ../libglimpseconfig/gimpcolorconfig.c:741
+#: ../libglimpseconfig/gimpcolorconfig.c:941
 #, fuzzy, c-format
-#| msgid "Color proof filter using ICC color profile"
 msgid "Color profile '%s' is not for CMYK color space."
 msgstr "應用 ICC 色彩配置檔作為色彩打樣的濾色片"
 
@@ -1822,29 +1828,29 @@ msgid "value for token %s is not a valid UTF-8 string"
 msgstr "%s 的值不是有效的 UTF-8 字串"
 
 #. please don't translate 'yes' and 'no'
-#: ../libglimpseconfig/gimpconfig-deserialize.c:466
+#: ../libglimpseconfig/gimpconfig-deserialize.c:473
 #, c-format
 msgid "expected 'yes' or 'no' for boolean token %s, got '%s'"
 msgstr "%s 布林值應該是‘yes’或者‘no’，但實際上是‘%s’"
 
-#: ../libglimpseconfig/gimpconfig-deserialize.c:568
+#: ../libglimpseconfig/gimpconfig-deserialize.c:588
 #, c-format
 msgid "invalid value '%s' for token %s"
 msgstr "%2$s 的值‘%1$s’無效"
 
-#: ../libglimpseconfig/gimpconfig-deserialize.c:583
+#: ../libglimpseconfig/gimpconfig-deserialize.c:603
 #, c-format
 msgid "invalid value '%ld' for token %s"
 msgstr "%2$s 的值‘%1$ld’無效"
 
-#: ../libglimpseconfig/gimpconfig-deserialize.c:652
+#: ../libglimpseconfig/gimpconfig-deserialize.c:672
 #, c-format
 msgid "while parsing token '%s': %s"
 msgstr "分析‘%s’的值時發生錯誤：%s"
 
-#: ../libglimpseconfig/gimpconfig-iface.c:658
-#: ../libglimpseconfig/gimpconfig-iface.c:671 ../libglimpseconfig/gimpscanner.c:742
-#: ../libglimpseconfig/gimpscanner.c:824
+#: ../libglimpseconfig/gimpconfig-iface.c:682
+#: ../libglimpseconfig/gimpconfig-iface.c:695
+#: ../libglimpseconfig/gimpscanner.c:756 ../libglimpseconfig/gimpscanner.c:838
 #: ../libglimpsewidgets/gimpcolorprofilestore.c:710
 msgid "fatal parse error"
 msgstr "分析時出現嚴重錯誤"
@@ -1853,74 +1859,73 @@ msgstr "分析時出現嚴重錯誤"
 msgid "File has no path representation"
 msgstr ""
 
-#: ../libglimpseconfig/gimpconfig-path.c:566
+#: ../libglimpseconfig/gimpconfig-path.c:570
 #, c-format
 msgid "Cannot expand ${%s}"
 msgstr "無法展開 ${%s} 變數"
 
 #: ../libglimpseconfig/gimpconfigwriter.c:88
-#: ../libglimpseconfig/gimpconfigwriter.c:658
+#: ../libglimpseconfig/gimpconfigwriter.c:673
 #, c-format
 msgid "Error writing to '%s': %s"
 msgstr "寫入‘%s’時發生錯誤：%s"
 
-#: ../libglimpseconfig/gimpconfigwriter.c:184
+#: ../libglimpseconfig/gimpconfigwriter.c:183
 #, fuzzy, c-format
-#| msgid "Could not create temporary file for '%s': %s"
+msgid "Could not create directory '%s' for '%s': "
+msgstr "無法產生‘%s’所需的暫存檔：%s"
+
+#: ../libglimpseconfig/gimpconfigwriter.c:199
+#, fuzzy, c-format
 msgid "Could not create temporary file for '%s': "
 msgstr "無法產生‘%s’所需的暫存檔：%s"
 
-#: ../libglimpseconfig/gimpconfigwriter.c:761
+#: ../libglimpseconfig/gimpconfigwriter.c:783
 #, fuzzy, c-format
-#| msgid "Error writing to '%s': %s"
 msgid "Error writing '%s': %s"
 msgstr "寫入‘%s’時發生錯誤：%s"
 
-#: ../libglimpseconfig/gimpscanner.c:408
+#: ../libglimpseconfig/gimpscanner.c:409
 #, c-format
 msgid "invalid UTF-8 string"
 msgstr "無效的 UTF-8 字串"
 
 #. please don't translate 'yes' and 'no'
-#: ../libglimpseconfig/gimpscanner.c:617
+#: ../libglimpseconfig/gimpscanner.c:631
 #, fuzzy, c-format
-#| msgid "expected 'yes' or 'no' for boolean token %s, got '%s'"
 msgid "expected 'yes' or 'no' for boolean token, got '%s'"
 msgstr "%s 布林值應該是‘yes’或者‘no’，但實際上是‘%s’"
 
-#: ../libglimpseconfig/gimpscanner.c:851
+#: ../libglimpseconfig/gimpscanner.c:865
 #, c-format
 msgid "Error while parsing '%s' in line %d: %s"
 msgstr "分析第 %2$d 行的‘%1$s’時發生錯誤：%3$s"
 
-#: ../libglimpsemodule/gimpmodule.c:162 ../libglimpsemodule/gimpmodule.c:180
-#: ../libglimpsemodule/gimpmodule.c:289 ../libglimpsemodule/gimpmodule.c:316
-#: ../libglimpsemodule/gimpmodule.c:442
+#: ../libglimpsemodule/gimpmodule.c:148 ../libglimpsemodule/gimpmodule.c:166
+#: ../libglimpsemodule/gimpmodule.c:275 ../libglimpsemodule/gimpmodule.c:302
+#: ../libglimpsemodule/gimpmodule.c:428
 #, c-format
 msgid "Module '%s' load error: %s"
 msgstr "載入模組‘%s’時出現錯誤：%s"
 
-#: ../libglimpsemodule/gimpmodule.c:384
+#: ../libglimpsemodule/gimpmodule.c:370
 msgid "Module error"
 msgstr "模組發生錯誤"
 
-#: ../libglimpsemodule/gimpmodule.c:385
+#: ../libglimpsemodule/gimpmodule.c:371
 msgid "Loaded"
 msgstr "已載入"
 
-#: ../libglimpsemodule/gimpmodule.c:386
+#: ../libglimpsemodule/gimpmodule.c:372
 msgid "Load failed"
 msgstr "載入失敗"
 
-#: ../libglimpsemodule/gimpmodule.c:387
+#: ../libglimpsemodule/gimpmodule.c:373
 msgid "Not loaded"
 msgstr "未載入"
 
 #: ../libglimpsethumb/gimpthumb-utils.c:153
 #, fuzzy, c-format
-#| msgid ""
-#| "Cannot determine a valid home directory.\n"
-#| "Thumbnails will be stored in the folder for temporary files (%s) instead."
 msgid ""
 "Cannot determine a valid thumbnails directory.\n"
 "Thumbnails will be stored in the folder for temporary files (%s) instead."
@@ -1928,17 +1933,18 @@ msgstr ""
 "找不到正確的個人資料夾。\n"
 "縮圖會改為儲存至存放暫時性檔案的資料夾 (%s)。"
 
-#: ../libglimpsethumb/gimpthumb-utils.c:299 ../libglimpsethumb/gimpthumb-utils.c:367
+#: ../libglimpsethumb/gimpthumb-utils.c:299
+#: ../libglimpsethumb/gimpthumb-utils.c:367
 #, c-format
 msgid "Failed to create thumbnail folder '%s'."
 msgstr "無法建立縮圖資料夾‘%s’。"
 
-#: ../libglimpsethumb/gimpthumbnail.c:508
+#: ../libglimpsethumb/gimpthumbnail.c:479
 #, c-format
 msgid "Thumbnail contains no Thumb::URI tag"
 msgstr "縮圖沒有 Thumb::URI 標籤"
 
-#: ../libglimpsethumb/gimpthumbnail.c:905
+#: ../libglimpsethumb/gimpthumbnail.c:876
 #, c-format
 msgid "Could not create thumbnail for %s: %s"
 msgstr "無法產生 %s 的縮圖: %s"
@@ -1947,58 +1953,68 @@ msgstr "無法產生 %s 的縮圖: %s"
 msgid "_Search:"
 msgstr "搜尋(_S):"
 
-#: ../libglimpsewidgets/gimpcolorbutton.c:152
+#: ../libglimpsewidgets/gimpcolorbutton.c:147
 msgid "_Foreground Color"
 msgstr "前景顏色(_F)"
 
-#: ../libglimpsewidgets/gimpcolorbutton.c:156
+#: ../libglimpsewidgets/gimpcolorbutton.c:151
 msgid "_Background Color"
 msgstr "背景顏色(_B)"
 
-#: ../libglimpsewidgets/gimpcolorbutton.c:160
+#: ../libglimpsewidgets/gimpcolorbutton.c:155
 msgid "Blac_k"
 msgstr "黑(_K)"
 
-#: ../libglimpsewidgets/gimpcolorbutton.c:164
+#: ../libglimpsewidgets/gimpcolorbutton.c:159
 msgid "_White"
 msgstr "白(_W)"
 
-#: ../libglimpsewidgets/gimpcolorbutton.c:571 ../libglimpsewidgets/gimpicons.c:68
+#: ../libglimpsewidgets/gimpcolorbutton.c:548
+#: ../libglimpsewidgets/gimpicons.c:67
 msgid "_Reset"
 msgstr "重置(_R)"
 
-#: ../libglimpsewidgets/gimpcolorbutton.c:573
-#: ../libglimpsewidgets/gimpfileentry.c:436 ../libglimpsewidgets/gimpquerybox.c:274
-#: ../libglimpsewidgets/gimpquerybox.c:334 ../libglimpsewidgets/gimpquerybox.c:398
-#: ../libglimpsewidgets/gimpquerybox.c:472 ../libglimpsewidgets/gimpunitmenu.c:493
+#: ../libglimpsewidgets/gimpcolorbutton.c:550
+#: ../libglimpsewidgets/gimpfileentry.c:436
+#: ../libglimpsewidgets/gimpquerybox.c:275
+#: ../libglimpsewidgets/gimpquerybox.c:335
+#: ../libglimpsewidgets/gimpquerybox.c:399
+#: ../libglimpsewidgets/gimpquerybox.c:473
+#: ../libglimpsewidgets/gimpunitmenu.c:493
 #, fuzzy
-#| msgid "_K"
 msgid "_OK"
 msgstr "_K"
 
-#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:94
+#: ../libglimpsewidgets/gimpcolorhexentry.c:118
+#, fuzzy
+msgid ""
+"Hexadecimal color notation as used in HTML and CSS.  This entry also accepts "
+"CSS color names."
+msgstr "常用於 HTML 和 CSS 的十六進位顏色碼。這個項目也可以使用 CSS 色彩名稱。"
+
+#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:107
 #, fuzzy
 msgid "All files (*.*)"
 msgstr "所有檔案 (*.*)"
 
-#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:99
+#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:112
 msgid "ICC color profile (*.icc, *.icm)"
 msgstr "ICC 色彩配置檔(*.icc, *.icm)"
 
-#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:153
+#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:173
 msgid "_Save"
 msgstr "儲存(_S)"
 
-#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:163
+#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:183
 msgid "_Open"
 msgstr "開啟(_O)"
 
-#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:325
+#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:345
 #: ../libglimpsewidgets/gimppatheditor.c:270
 msgid "Folder"
 msgstr "資料夾"
 
-#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:330
+#: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:350
 msgid "Not a regular file."
 msgstr "不是一個正常的檔案。"
 
@@ -2011,19 +2027,34 @@ msgctxt "profile"
 msgid "None"
 msgstr "無"
 
-#: ../libglimpsewidgets/gimpcolorprofileview.c:170
+#: ../libglimpsewidgets/gimpcolorprofileview.c:168
 msgid "Manufacturer: "
 msgstr "廠商："
 
-#: ../libglimpsewidgets/gimpcolorprofileview.c:182
+#: ../libglimpsewidgets/gimpcolorprofileview.c:180
 #, fuzzy
-#| msgid "Copyright:"
 msgid "Copyright: "
 msgstr "版權："
 
-#: ../libglimpsewidgets/gimpcolorscales.c:122
+#: ../libglimpsewidgets/gimpcolorscales.c:205
 msgid "Scales"
 msgstr "推桿"
+
+#: ../libglimpsewidgets/gimpcolorscales.c:437
+msgid "0..100"
+msgstr ""
+
+#: ../libglimpsewidgets/gimpcolorscales.c:439
+msgid "0..255"
+msgstr ""
+
+#: ../libglimpsewidgets/gimpcolorscales.c:460
+msgid "LCh"
+msgstr ""
+
+#: ../libglimpsewidgets/gimpcolorscales.c:462
+msgid "HSV"
+msgstr ""
 
 #: ../libglimpsewidgets/gimpcolorselection.c:222
 msgid "Current:"
@@ -2033,18 +2064,11 @@ msgstr "目前顏色:"
 msgid "Old:"
 msgstr "原有顏色:"
 
-#: ../libglimpsewidgets/gimpcolorselection.c:316
-#, fuzzy
-msgid ""
-"Hexadecimal color notation as used in HTML and CSS.  This entry also accepts "
-"CSS color names."
-msgstr "常用於 HTML 和 CSS 的十六進位顏色碼。這個項目也可以使用 CSS 色彩名稱。"
-
-#: ../libglimpsewidgets/gimpcolorselection.c:322
+#: ../libglimpsewidgets/gimpcolorselection.c:318
 msgid "HTML _notation:"
 msgstr "網頁標記(_N):"
 
-#: ../libglimpsewidgets/gimpdialog.c:182
+#: ../libglimpsewidgets/gimpdialog.c:178
 msgid "_Help"
 msgstr "幫助(_H)"
 
@@ -2086,123 +2110,120 @@ msgstr "選取檔案"
 msgid "Press F1 for more help"
 msgstr "使用「%s --help」以獲得更多資訊。"
 
-#: ../libglimpsewidgets/gimpicons.c:62
+#: ../libglimpsewidgets/gimpicons.c:61
 msgid "Anchor"
 msgstr "固定"
 
-#: ../libglimpsewidgets/gimpicons.c:63
+#: ../libglimpsewidgets/gimpicons.c:62
 msgid "C_enter"
 msgstr "中央(_E)"
 
-#: ../libglimpsewidgets/gimpicons.c:64
+#: ../libglimpsewidgets/gimpicons.c:63
 msgid "_Duplicate"
 msgstr "重製(_D)"
 
-#: ../libglimpsewidgets/gimpicons.c:65
+#: ../libglimpsewidgets/gimpicons.c:64
 msgid "Linked"
 msgstr "連結"
 
-#: ../libglimpsewidgets/gimpicons.c:66
+#: ../libglimpsewidgets/gimpicons.c:65
 msgid "Paste as New"
 msgstr "貼上成為新圖片"
 
-#: ../libglimpsewidgets/gimpicons.c:67
+#: ../libglimpsewidgets/gimpicons.c:66
 msgid "Paste Into"
 msgstr "貼上成為圖層"
 
-#: ../libglimpsewidgets/gimpicons.c:69
+#: ../libglimpsewidgets/gimpicons.c:68
 msgid "Visible"
 msgstr "可見"
 
-#: ../libglimpsewidgets/gimpicons.c:105 ../libglimpsewidgets/gimpicons.c:109
+#: ../libglimpsewidgets/gimpicons.c:104 ../libglimpsewidgets/gimpicons.c:108
 msgid "_Stroke"
 msgstr "描邊(_S)"
 
-#: ../libglimpsewidgets/gimpicons.c:121
+#: ../libglimpsewidgets/gimpicons.c:120
 msgid "L_etter Spacing"
 msgstr "字距(_E)"
 
-#: ../libglimpsewidgets/gimpicons.c:122
+#: ../libglimpsewidgets/gimpicons.c:121
 msgid "L_ine Spacing"
 msgstr "行距(_I)"
 
-#: ../libglimpsewidgets/gimpicons.c:139
+#: ../libglimpsewidgets/gimpicons.c:138
 #, fuzzy
-#| msgid "_Resize"
 msgid "Re_size"
 msgstr "調整尺寸(_R)"
 
-#: ../libglimpsewidgets/gimpicons.c:140 ../libglimpsewidgets/gimpicons.c:275
+#: ../libglimpsewidgets/gimpicons.c:139 ../libglimpsewidgets/gimpicons.c:272
 msgid "_Scale"
 msgstr "縮放(_S)"
 
-#: ../libglimpsewidgets/gimpicons.c:250
+#: ../libglimpsewidgets/gimpicons.c:247
 #, fuzzy
 msgid "Cr_op"
 msgstr "透明度(_A)："
 
-#: ../libglimpsewidgets/gimpicons.c:258
+#: ../libglimpsewidgets/gimpicons.c:255
 #, fuzzy
-#| msgctxt "add-mask-type"
-#| msgid "_Selection"
 msgid "_Select"
 msgstr "選取區域(_S) "
 
-#: ../libglimpsewidgets/gimpicons.c:270
+#: ../libglimpsewidgets/gimpicons.c:267
 msgid "_Transform"
 msgstr "變換(_T)"
 
-#: ../libglimpsewidgets/gimpicons.c:276
+#: ../libglimpsewidgets/gimpicons.c:273
 msgid "_Shear"
 msgstr "推移(_S)"
 
-#: ../libglimpsewidgets/gimpmemsizeentry.c:219
+#: ../libglimpsewidgets/gimpmemsizeentry.c:220
 msgid "Kilobytes"
 msgstr "KB"
 
-#: ../libglimpsewidgets/gimpmemsizeentry.c:220
+#: ../libglimpsewidgets/gimpmemsizeentry.c:221
 msgid "Megabytes"
 msgstr "MB"
 
-#: ../libglimpsewidgets/gimpmemsizeentry.c:221
+#: ../libglimpsewidgets/gimpmemsizeentry.c:222
 msgid "Gigabytes"
 msgstr "GB"
 
 #. Count label
-#: ../libglimpsewidgets/gimppageselector.c:274
-#: ../libglimpsewidgets/gimppageselector.c:1070
+#: ../libglimpsewidgets/gimppageselector.c:270
+#: ../libglimpsewidgets/gimppageselector.c:1066
 #, fuzzy
 msgid "Nothing selected"
 msgstr "尚未選擇！"
 
-#: ../libglimpsewidgets/gimppageselector.c:292
+#: ../libglimpsewidgets/gimppageselector.c:288
 #, fuzzy
 msgid "Select _All"
 msgstr "全部選取(_A)"
 
-#: ../libglimpsewidgets/gimppageselector.c:312
+#: ../libglimpsewidgets/gimppageselector.c:308
 #, fuzzy
 msgid "Select _range:"
 msgstr "選擇要調整的範圍"
 
-#: ../libglimpsewidgets/gimppageselector.c:324
+#: ../libglimpsewidgets/gimppageselector.c:320
 #, fuzzy
 msgid "Open _pages as"
 msgstr "開啟為新圖片"
 
-#: ../libglimpsewidgets/gimppageselector.c:452
-#: ../libglimpsewidgets/gimppageselector.c:650
+#: ../libglimpsewidgets/gimppageselector.c:448
+#: ../libglimpsewidgets/gimppageselector.c:646
 #, fuzzy, c-format
 msgid "Page %d"
 msgstr "第 %d 頁"
 
-#: ../libglimpsewidgets/gimppageselector.c:1075
+#: ../libglimpsewidgets/gimppageselector.c:1071
 #, fuzzy
 msgid "One page selected"
 msgstr "從游標位置開始選取頁"
 
+#: ../libglimpsewidgets/gimppageselector.c:1078
 #: ../libglimpsewidgets/gimppageselector.c:1082
-#: ../libglimpsewidgets/gimppageselector.c:1086
 #, fuzzy, c-format
 msgid "%d page selected"
 msgid_plural "All %d pages selected"
@@ -2228,7 +2249,7 @@ msgstr ""
 msgid "Writable"
 msgstr "可寫入"
 
-#: ../libglimpsewidgets/gimppickbutton.c:110
+#: ../libglimpsewidgets/gimppickbutton.c:112
 msgid ""
 "Click the eyedropper, then click a color anywhere on your screen to select "
 "that color."
@@ -2239,15 +2260,15 @@ msgstr "按下滴管，然後在畫面中選取任何想要的顏色。"
 msgid "_Preview"
 msgstr "預覽(_P)"
 
-#: ../libglimpsewidgets/gimppreviewarea.c:126
+#: ../libglimpsewidgets/gimppreviewarea.c:125
 msgid "Check Size"
 msgstr "方格大小"
 
-#: ../libglimpsewidgets/gimppreviewarea.c:134
+#: ../libglimpsewidgets/gimppreviewarea.c:133
 msgid "Check Style"
 msgstr "方格樣式"
 
-#: ../libglimpsewidgets/gimppropwidgets.c:2143
+#: ../libglimpsewidgets/gimppropwidgets.c:2178
 #, fuzzy, c-format
 msgid "This text input field is limited to %d character."
 msgid_plural "This text input field is limited to %d characters."
@@ -2320,7 +2341,6 @@ msgid "Landscape"
 msgstr "橫向"
 
 #: ../libglimpsewidgets/gimpwidgetsenums.c:129
-#: ../libglimpsewidgets/gimpwidgetsenums.c:138
 #, fuzzy
 msgctxt "color-selector-channel"
 msgid "_H"
@@ -2338,7 +2358,6 @@ msgstr "飽和度(_S)"
 
 #: ../libglimpsewidgets/gimpwidgetsenums.c:130
 #, fuzzy
-#| msgid "Saturation"
 msgid "HSV Saturation"
 msgstr "飽和度"
 
@@ -2350,7 +2369,6 @@ msgstr "明度(_V)"
 
 #: ../libglimpsewidgets/gimpwidgetsenums.c:131
 #, fuzzy
-#| msgid "Value"
 msgid "HSV Value"
 msgstr "明度"
 
@@ -2401,42 +2419,74 @@ msgstr ""
 
 #: ../libglimpsewidgets/gimpwidgetsenums.c:136
 #, fuzzy
-#| msgctxt "desaturate-mode"
-#| msgid "Lightness"
-msgid "LCH Lightness"
+msgid "LCh Lightness"
 msgstr "亮度"
 
 #: ../libglimpsewidgets/gimpwidgetsenums.c:137
 #, fuzzy
-#| msgid "_C"
 msgctxt "color-selector-channel"
 msgid "_C"
 msgstr "_C"
 
 #: ../libglimpsewidgets/gimpwidgetsenums.c:137
-msgid "LCH Chroma"
+msgid "LCh Chroma"
 msgstr ""
 
 #: ../libglimpsewidgets/gimpwidgetsenums.c:138
-msgid "LCH Hue"
+msgctxt "color-selector-channel"
+msgid "_h"
 msgstr ""
 
-#: ../libglimpsewidgets/gimpwidgetsenums.c:167
+#: ../libglimpsewidgets/gimpwidgetsenums.c:138
+msgid "LCh Hue"
+msgstr ""
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:168
+#, fuzzy
+msgctxt "color-selector-model"
+msgid "RGB"
+msgstr "RGB"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:168
+#, fuzzy
+msgid "RGB color model"
+msgstr "RGB 顏色"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:169
+msgctxt "color-selector-model"
+msgid "LCH"
+msgstr ""
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:169
+msgid "CIE LCh color model"
+msgstr ""
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:170
+msgctxt "color-selector-model"
+msgid "HSV"
+msgstr ""
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:170
+#, fuzzy
+msgid "HSV color model"
+msgstr "色相環的位置。"
+
+#: ../libglimpsewidgets/gimpwidgetsenums.c:231
 msgctxt "page-selector-target"
 msgid "Layers"
 msgstr "圖層"
 
-#: ../libglimpsewidgets/gimpwidgetsenums.c:168
+#: ../libglimpsewidgets/gimpwidgetsenums.c:232
 msgctxt "page-selector-target"
 msgid "Images"
 msgstr "圖片"
 
-#: ../libglimpsewidgets/gimpwidgetsenums.c:229
+#: ../libglimpsewidgets/gimpwidgetsenums.c:293
 msgctxt "zoom-type"
 msgid "Zoom in"
 msgstr "拉近"
 
-#: ../libglimpsewidgets/gimpwidgetsenums.c:230
+#: ../libglimpsewidgets/gimpwidgetsenums.c:294
 msgctxt "zoom-type"
 msgid "Zoom out"
 msgstr "拉遠"
@@ -2485,11 +2535,11 @@ msgstr "黃"
 msgid "Black"
 msgstr "黑"
 
-#: ../modules/color-selector-cmyk.c:380
+#: ../modules/color-selector-cmyk.c:374
 msgid "Profile: (none)"
 msgstr "配置檔：(無)"
 
-#: ../modules/color-selector-cmyk.c:392
+#: ../modules/color-selector-cmyk.c:386
 #, c-format
 msgid "Profile: %s"
 msgstr "配置檔：%s"
@@ -2549,14 +2599,12 @@ msgstr "按下滑鼠按鈕"
 msgid "Button %d Release"
 msgstr "放開滑鼠按鈕"
 
-#: ../modules/controller-dx-dinput.c:442
-#: ../modules/controller-linux-input.c:90
+#: ../modules/controller-dx-dinput.c:442 ../modules/controller-linux-input.c:90
 #, fuzzy
 msgid "X Move Left"
 msgstr "向左移動"
 
-#: ../modules/controller-dx-dinput.c:445
-#: ../modules/controller-linux-input.c:91
+#: ../modules/controller-dx-dinput.c:445 ../modules/controller-linux-input.c:91
 #, fuzzy
 msgid "X Move Right"
 msgstr "向右移動"
@@ -2571,14 +2619,12 @@ msgstr "將%s 移至%s 上面。"
 msgid "Y Move Near"
 msgstr "下載接近："
 
-#: ../modules/controller-dx-dinput.c:460
-#: ../modules/controller-linux-input.c:94
+#: ../modules/controller-dx-dinput.c:460 ../modules/controller-linux-input.c:94
 #, fuzzy
 msgid "Z Move Up"
 msgstr "上移"
 
-#: ../modules/controller-dx-dinput.c:463
-#: ../modules/controller-linux-input.c:95
+#: ../modules/controller-dx-dinput.c:463 ../modules/controller-linux-input.c:95
 #, fuzzy
 msgid "Z Move Down"
 msgstr "下移"
@@ -2593,8 +2639,7 @@ msgstr "Axis related headers"
 msgid "X Axis Tilt Near"
 msgstr "Axis related headers"
 
-#: ../modules/controller-dx-dinput.c:478
-#: ../modules/controller-linux-input.c:99
+#: ../modules/controller-dx-dinput.c:478 ../modules/controller-linux-input.c:99
 #, fuzzy
 msgid "Y Axis Tilt Right"
 msgstr "右方任何空位"
@@ -2912,14 +2957,11 @@ msgstr "GIMP MIDI 輸入控制器"
 
 #: ../modules/display-filter-clip-warning.c:120
 #, fuzzy
-#| msgid "Gamma color display filter"
 msgid "Clip warning color display filter"
 msgstr "Gamma 色彩顯示濾色片"
 
 #: ../modules/display-filter-clip-warning.c:157
 #, fuzzy
-#| msgctxt "transfer-mode"
-#| msgid "Shadows"
 msgid "Show shadows"
 msgstr "陰影區域"
 
@@ -2929,8 +2971,6 @@ msgstr ""
 
 #: ../modules/display-filter-clip-warning.c:164
 #, fuzzy
-#| msgctxt "transfer-mode"
-#| msgid "Shadows"
 msgid "Shadows color"
 msgstr "陰影區域"
 
@@ -2940,8 +2980,6 @@ msgstr ""
 
 #: ../modules/display-filter-clip-warning.c:177
 #, fuzzy
-#| msgctxt "transfer-mode"
-#| msgid "Highlights"
 msgid "Show highlights"
 msgstr "高亮度區"
 
@@ -2951,8 +2989,6 @@ msgstr ""
 
 #: ../modules/display-filter-clip-warning.c:184
 #, fuzzy
-#| msgctxt "transfer-mode"
-#| msgid "Highlights"
 msgid "Highlights color"
 msgstr "高亮度區"
 
@@ -2970,8 +3006,6 @@ msgstr ""
 
 #: ../modules/display-filter-clip-warning.c:204
 #, fuzzy
-#| msgctxt "image-base-type"
-#| msgid "RGB color"
 msgid "Bogus color"
 msgstr "RGB 顏色"
 
@@ -3048,6 +3082,31 @@ msgstr "影片畫面的反差度"
 #: ../modules/display-filter-high-contrast.c:128
 msgid "Contrast"
 msgstr "對比"
+
+#, fuzzy
+#~| msgid "Value"
+#~ msgctxt "select-criterion"
+#~ msgid "Hue (HSV)"
+#~ msgstr "明度"
+
+#, fuzzy
+#~| msgid "Saturation"
+#~ msgctxt "select-criterion"
+#~ msgid "Saturation (HSV)"
+#~ msgstr "飽和度"
+
+#, fuzzy
+#~| msgid "Value"
+#~ msgctxt "select-criterion"
+#~ msgid "Value (HSV)"
+#~ msgstr "明度"
+
+#, fuzzy
+#~| msgctxt "desaturate-mode"
+#~| msgid "Lightness"
+#~ msgctxt "select-criterion"
+#~ msgid "Lightness (LCH)"
+#~ msgstr "亮度"
 
 #~| msgid "Hue"
 #~ msgctxt "select-criterion"

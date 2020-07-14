@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libglimpse 2.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-07 13:47+0300\n"
+"POT-Creation-Date: 2020-07-15 00:25+0100\n"
 "PO-Revision-Date: 2019-08-07 13:49+0300\n"
 "Last-Translator: Alexandre Prokoudine <alexandre.prokoudine@gmail.com>\n"
 "Language-Team: русский <gnome-cyr@lists.gnome.org>\n"
@@ -53,88 +53,88 @@ msgstr "Выбор кисти"
 msgid "_Browse..."
 msgstr "_Просмотреть..."
 
-#: ../libglimpse/gimpexport.c:270 ../libglimpse/gimpexport.c:306
+#: ../libglimpse/gimpexport.c:278 ../libglimpse/gimpexport.c:314
 #, c-format
 msgid "%s plug-in can't handle layers"
 msgstr "Расширение %s не может работать со слоями"
 
-#: ../libglimpse/gimpexport.c:271 ../libglimpse/gimpexport.c:280
-#: ../libglimpse/gimpexport.c:289 ../libglimpse/gimpexport.c:307
+#: ../libglimpse/gimpexport.c:279 ../libglimpse/gimpexport.c:288
+#: ../libglimpse/gimpexport.c:297 ../libglimpse/gimpexport.c:315
 msgid "Merge Visible Layers"
 msgstr "Объединить видимые слои"
 
-#: ../libglimpse/gimpexport.c:279
+#: ../libglimpse/gimpexport.c:287
 #, c-format
 msgid "%s plug-in can't handle layer offsets, size or opacity"
 msgstr ""
 "Расширение %s не может обрабатывать смещение, размер или непрозрачность слоя"
 
-#: ../libglimpse/gimpexport.c:288 ../libglimpse/gimpexport.c:297
+#: ../libglimpse/gimpexport.c:296 ../libglimpse/gimpexport.c:305
 #, c-format
 msgid "%s plug-in can only handle layers as animation frames"
 msgstr "Расширение %s может обрабатывать слои только как кадры анимации"
 
-#: ../libglimpse/gimpexport.c:289 ../libglimpse/gimpexport.c:298
+#: ../libglimpse/gimpexport.c:297 ../libglimpse/gimpexport.c:306
 msgid "Save as Animation"
 msgstr "Сохранить как анимацию"
 
-#: ../libglimpse/gimpexport.c:298 ../libglimpse/gimpexport.c:307
-#: ../libglimpse/gimpexport.c:316 ../libglimpse/gimpexport.c:325
+#: ../libglimpse/gimpexport.c:306 ../libglimpse/gimpexport.c:315
+#: ../libglimpse/gimpexport.c:324 ../libglimpse/gimpexport.c:333
 msgid "Flatten Image"
 msgstr "Свести изображение"
 
-#: ../libglimpse/gimpexport.c:315
+#: ../libglimpse/gimpexport.c:323
 #, c-format
 msgid "%s plug-in can't handle transparency"
 msgstr "Расширение %s не может обрабатывать прозрачность"
 
-#: ../libglimpse/gimpexport.c:324
+#: ../libglimpse/gimpexport.c:332
 #, c-format
 msgid "%s plug-in can't handle transparent layers"
 msgstr "Плагин %s не может работать с прозрачными слоями"
 
-#: ../libglimpse/gimpexport.c:333
+#: ../libglimpse/gimpexport.c:341
 #, c-format
 msgid "%s plug-in can't handle layer masks"
 msgstr "Расширение %s не может обрабатывать маски слоя"
 
-#: ../libglimpse/gimpexport.c:334
+#: ../libglimpse/gimpexport.c:342
 msgid "Apply Layer Masks"
 msgstr "Применить маски слоя"
 
-#: ../libglimpse/gimpexport.c:342
+#: ../libglimpse/gimpexport.c:350
 #, c-format
 msgid "%s plug-in can only handle RGB images"
 msgstr ""
 "Расширение %s может обрабатывать\\n\n"
 "только RGB-изображения"
 
-#: ../libglimpse/gimpexport.c:343 ../libglimpse/gimpexport.c:381
-#: ../libglimpse/gimpexport.c:390
+#: ../libglimpse/gimpexport.c:351 ../libglimpse/gimpexport.c:389
+#: ../libglimpse/gimpexport.c:398
 msgid "Convert to RGB"
 msgstr "Преобразовать в RGB"
 
-#: ../libglimpse/gimpexport.c:351
+#: ../libglimpse/gimpexport.c:359
 #, c-format
 msgid "%s plug-in can only handle grayscale images"
 msgstr ""
 "Расширение %s может обрабатывать\\n\n"
 "только изображения в градациях серого"
 
-#: ../libglimpse/gimpexport.c:352 ../libglimpse/gimpexport.c:381
-#: ../libglimpse/gimpexport.c:402
+#: ../libglimpse/gimpexport.c:360 ../libglimpse/gimpexport.c:389
+#: ../libglimpse/gimpexport.c:410
 msgid "Convert to Grayscale"
 msgstr "Преобразовать в оттенки серого"
 
-#: ../libglimpse/gimpexport.c:360
+#: ../libglimpse/gimpexport.c:368
 #, c-format
 msgid "%s plug-in can only handle indexed images"
 msgstr ""
 "Расширение %s может обрабатывать\\n\n"
 "только индексированные изображения"
 
-#: ../libglimpse/gimpexport.c:361 ../libglimpse/gimpexport.c:390
-#: ../libglimpse/gimpexport.c:400
+#: ../libglimpse/gimpexport.c:369 ../libglimpse/gimpexport.c:398
+#: ../libglimpse/gimpexport.c:408
 msgid ""
 "Convert to Indexed using default settings\n"
 "(Do it manually to tune the result)"
@@ -142,14 +142,14 @@ msgstr ""
 "Преобразовать в индексированное используя\\n\n"
 "параметры по умолчанию (изменяемо вручную)"
 
-#: ../libglimpse/gimpexport.c:370
+#: ../libglimpse/gimpexport.c:378
 #, c-format
 msgid "%s plug-in can only handle bitmap (two color) indexed images"
 msgstr ""
 "Расширение %s может обрабатывать только\\n\n"
 "двухцветные или индексированные изображения"
 
-#: ../libglimpse/gimpexport.c:371
+#: ../libglimpse/gimpexport.c:379
 msgid ""
 "Convert to Indexed using bitmap default settings\n"
 "(Do it manually to tune the result)"
@@ -157,68 +157,71 @@ msgstr ""
 "Преобразовать в индексированное используя\\n\n"
 "параметры по умолчанию для растра (изменяемо вручную)"
 
-#: ../libglimpse/gimpexport.c:380
+#: ../libglimpse/gimpexport.c:388
 #, c-format
 msgid "%s plug-in can only handle RGB or grayscale images"
 msgstr ""
 "Расширение %s может обрабатывать только\\n\n"
 "изображения в градациях серого или RGB"
 
-#: ../libglimpse/gimpexport.c:389
+#: ../libglimpse/gimpexport.c:397
 #, c-format
 msgid "%s plug-in can only handle RGB or indexed images"
 msgstr ""
 "Расширение %s может обрабатывать только\\n\n"
 "RGB- или индексированные изображения"
 
-#: ../libglimpse/gimpexport.c:399
+#: ../libglimpse/gimpexport.c:407
 #, c-format
 msgid "%s plug-in can only handle grayscale or indexed images"
 msgstr ""
 "Расширение %s может обрабатывать только изображения\\n\n"
 "в градациях серого или индексированные изображения"
 
-#: ../libglimpse/gimpexport.c:410
+#: ../libglimpse/gimpexport.c:418
 #, c-format
 msgid "%s plug-in needs an alpha channel"
 msgstr "Расширению %s требуется альфа-канал"
 
-#: ../libglimpse/gimpexport.c:411
+#: ../libglimpse/gimpexport.c:419
 msgid "Add Alpha Channel"
 msgstr "Добавить альфа-канал"
 
-#: ../libglimpse/gimpexport.c:470
+#: ../libglimpse/gimpexport.c:478
 msgid "Confirm Save"
 msgstr "Подтвердить сохранение"
 
-#: ../libglimpse/gimpexport.c:475 ../libglimpse/gimpexport.c:557
-#: ../libglimpse/gimpexport.c:1055 ../libglimpsewidgets/gimpcolorbutton.c:549
+#: ../libglimpse/gimpexport.c:483 ../libglimpse/gimpexport.c:565
+#: ../libglimpse/gimpexport.c:1063 ../libglimpsewidgets/gimpcolorbutton.c:549
 #: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:172
 #: ../libglimpsewidgets/gimpcolorprofilechooserdialog.c:182
-#: ../libglimpsewidgets/gimpfileentry.c:435 ../libglimpsewidgets/gimpquerybox.c:275
-#: ../libglimpsewidgets/gimpquerybox.c:335 ../libglimpsewidgets/gimpquerybox.c:399
-#: ../libglimpsewidgets/gimpquerybox.c:473 ../libglimpsewidgets/gimpunitmenu.c:492
+#: ../libglimpsewidgets/gimpfileentry.c:435
+#: ../libglimpsewidgets/gimpquerybox.c:275
+#: ../libglimpsewidgets/gimpquerybox.c:335
+#: ../libglimpsewidgets/gimpquerybox.c:399
+#: ../libglimpsewidgets/gimpquerybox.c:473
+#: ../libglimpsewidgets/gimpunitmenu.c:492
 msgid "_Cancel"
 msgstr "О_тмена"
 
-#: ../libglimpse/gimpexport.c:476
+#: ../libglimpse/gimpexport.c:484
 msgid "C_onfirm"
 msgstr "_Подтвердить"
 
-#: ../libglimpse/gimpexport.c:552
+#: ../libglimpse/gimpexport.c:560
 msgid "Export File"
 msgstr "Экспортировать файл"
 
-#: ../libglimpse/gimpexport.c:556
+#: ../libglimpse/gimpexport.c:564
 msgid "_Ignore"
 msgstr "_Игнорировать"
 
-#: ../libglimpse/gimpexport.c:558 ../libglimpse/gimpexport.c:1056
+#: ../libglimpse/gimpexport.c:566 ../libglimpse/gimpexport.c:1064
 msgid "_Export"
 msgstr "_Экспорт"
 
 #. the headline
-#: ../libglimpse/gimpexport.c:588
+#: ../libglimpse/gimpexport.c:596
 #, c-format
 msgid ""
 "Your image should be exported before it can be saved as %s for the following "
@@ -228,11 +231,11 @@ msgstr ""
 "%s по следующим причинам:"
 
 #. the footline
-#: ../libglimpse/gimpexport.c:662
+#: ../libglimpse/gimpexport.c:670
 msgid "The export conversion won't modify your original image."
 msgstr "Экспортное преобразование не изменит ваше исходное изображение."
 
-#: ../libglimpse/gimpexport.c:766
+#: ../libglimpse/gimpexport.c:774
 #, c-format
 msgid ""
 "You are about to save a layer mask as %s.\n"
@@ -242,7 +245,7 @@ msgstr ""
 " в файл формата %s.\n"
 "Видимые слои не будут сохранены."
 
-#: ../libglimpse/gimpexport.c:772
+#: ../libglimpse/gimpexport.c:780
 #, c-format
 msgid ""
 "You are about to save a channel (saved selection) as %s.\n"
@@ -254,7 +257,7 @@ msgstr ""
 "Видимые слои не будут сохранены."
 
 #. TRANSLATORS: the %s parameter is an image format name (ex: PNG).
-#: ../libglimpse/gimpexport.c:1049
+#: ../libglimpse/gimpexport.c:1057
 #, c-format
 msgid "Export Image as %s"
 msgstr "Экспортировать как %s"
@@ -353,7 +356,8 @@ msgstr "по типу"
 
 #. count label
 #: ../libglimpse/gimpprocbrowserdialog.c:395
-#: ../libglimpse/gimpprocbrowserdialog.c:544 ../libglimpsewidgets/gimpbrowser.c:141
+#: ../libglimpse/gimpprocbrowserdialog.c:544
+#: ../libglimpsewidgets/gimpbrowser.c:141
 msgid "No matches"
 msgstr "Совпадений нет"
 
@@ -1472,37 +1476,37 @@ msgctxt "transform-resize"
 msgid "Crop with aspect"
 msgstr "Пропорциональная"
 
-#: ../libglimpsebase/gimpmetadata.c:878
+#: ../libglimpsebase/gimpmetadata.c:951
 #, c-format
 msgid "Can load metadata only from local files"
 msgstr "Загружать метаданные можно только из локальных файлов"
 
-#: ../libglimpsebase/gimpmetadata.c:892 ../libglimpsebase/gimpmetadata.c:962
+#: ../libglimpsebase/gimpmetadata.c:965 ../libglimpsebase/gimpmetadata.c:1035
 #, c-format
 msgid "Conversion of the filename to system codepage failed."
 msgstr "Не удалось преобразовать имя файла в системную кодовую страницу. "
 
-#: ../libglimpsebase/gimpmetadata.c:949
+#: ../libglimpsebase/gimpmetadata.c:1022
 #, c-format
 msgid "Can save metadata only to local files"
 msgstr "Метаданные можно сохранять только в локальные файлы"
 
-#: ../libglimpsebase/gimpmetadata.c:1011
+#: ../libglimpsebase/gimpmetadata.c:1084
 #, c-format
 msgid "Invalid Exif data size."
 msgstr "Некорректный размер данных Exif."
 
-#: ../libglimpsebase/gimpmetadata.c:1040
+#: ../libglimpsebase/gimpmetadata.c:1113
 #, c-format
 msgid "Parsing Exif data failed."
 msgstr "Не удалось разобрать данные Exif."
 
-#: ../libglimpsebase/gimpmetadata.c:1090
+#: ../libglimpsebase/gimpmetadata.c:1163
 #, c-format
 msgid "Parsing IPTC data failed."
 msgstr "Не удалось разобрать данные IPTC."
 
-#: ../libglimpsebase/gimpmetadata.c:1138
+#: ../libglimpsebase/gimpmetadata.c:1211
 #, c-format
 msgid "Parsing XMP data failed."
 msgstr "Не удалось разобрать данные XMP."
@@ -1626,9 +1630,9 @@ msgid ""
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Если профиль указан, Glimpse попытается получить цветовой профиль монитора от "
-"оконной системы. Указанный выше профиль монитора в таком случае используется "
-"для отката."
+"Если профиль указан, Glimpse попытается получить цветовой профиль монитора "
+"от оконной системы. Указанный выше профиль монитора в таком случае "
+"используется для отката."
 
 #: ../libglimpseconfig/gimpcolorconfig.c:63
 msgid ""
@@ -1816,24 +1820,24 @@ msgstr "значение для маркера %s не является корр
 msgid "expected 'yes' or 'no' for boolean token %s, got '%s'"
 msgstr "ожидалось 'yes' или 'no' для булевого маркёра %s, получено '%s'"
 
-#: ../libglimpseconfig/gimpconfig-deserialize.c:584
+#: ../libglimpseconfig/gimpconfig-deserialize.c:588
 #, c-format
 msgid "invalid value '%s' for token %s"
 msgstr "неверное значение '%s' для маркёра %s"
 
-#: ../libglimpseconfig/gimpconfig-deserialize.c:599
+#: ../libglimpseconfig/gimpconfig-deserialize.c:603
 #, c-format
 msgid "invalid value '%ld' for token %s"
 msgstr "неверное значение '%ld' для маркёра %s"
 
-#: ../libglimpseconfig/gimpconfig-deserialize.c:668
+#: ../libglimpseconfig/gimpconfig-deserialize.c:672
 #, c-format
 msgid "while parsing token '%s': %s"
 msgstr "при синтаксическом разборе маркёра '%s': %s"
 
 #: ../libglimpseconfig/gimpconfig-iface.c:682
-#: ../libglimpseconfig/gimpconfig-iface.c:695 ../libglimpseconfig/gimpscanner.c:756
-#: ../libglimpseconfig/gimpscanner.c:838
+#: ../libglimpseconfig/gimpconfig-iface.c:695
+#: ../libglimpseconfig/gimpscanner.c:756 ../libglimpseconfig/gimpscanner.c:838
 #: ../libglimpsewidgets/gimpcolorprofilestore.c:710
 msgid "fatal parse error"
 msgstr "критическая ошибка при синтаксическом разборе"
@@ -1919,7 +1923,8 @@ msgstr ""
 "Файлы предварительного просмотра будут храниться в каталоге для временных "
 "файлов (%s)."
 
-#: ../libglimpsethumb/gimpthumb-utils.c:299 ../libglimpsethumb/gimpthumb-utils.c:367
+#: ../libglimpsethumb/gimpthumb-utils.c:299
+#: ../libglimpsethumb/gimpthumb-utils.c:367
 #, c-format
 msgid "Failed to create thumbnail folder '%s'."
 msgstr "Не удалось создать каталог файлов предварительного просмотра '%s'."
@@ -1954,14 +1959,18 @@ msgstr "_Чёрный"
 msgid "_White"
 msgstr "_Белый"
 
-#: ../libglimpsewidgets/gimpcolorbutton.c:548 ../libglimpsewidgets/gimpicons.c:68
+#: ../libglimpsewidgets/gimpcolorbutton.c:548
+#: ../libglimpsewidgets/gimpicons.c:67
 msgid "_Reset"
 msgstr "_Сбросить"
 
 #: ../libglimpsewidgets/gimpcolorbutton.c:550
-#: ../libglimpsewidgets/gimpfileentry.c:436 ../libglimpsewidgets/gimpquerybox.c:275
-#: ../libglimpsewidgets/gimpquerybox.c:335 ../libglimpsewidgets/gimpquerybox.c:399
-#: ../libglimpsewidgets/gimpquerybox.c:473 ../libglimpsewidgets/gimpunitmenu.c:493
+#: ../libglimpsewidgets/gimpfileentry.c:436
+#: ../libglimpsewidgets/gimpquerybox.c:275
+#: ../libglimpsewidgets/gimpquerybox.c:335
+#: ../libglimpsewidgets/gimpquerybox.c:399
+#: ../libglimpsewidgets/gimpquerybox.c:473
+#: ../libglimpsewidgets/gimpunitmenu.c:493
 msgid "_OK"
 msgstr "_OK"
 
@@ -2088,51 +2097,51 @@ msgstr "Выбрать файл"
 msgid "Press F1 for more help"
 msgstr "Нажмите F1 для получения полной справки"
 
-#: ../libglimpsewidgets/gimpicons.c:62
+#: ../libglimpsewidgets/gimpicons.c:61
 msgid "Anchor"
 msgstr "Прикрепить"
 
-#: ../libglimpsewidgets/gimpicons.c:63
+#: ../libglimpsewidgets/gimpicons.c:62
 msgid "C_enter"
 msgstr "Центр"
 
-#: ../libglimpsewidgets/gimpicons.c:64
+#: ../libglimpsewidgets/gimpicons.c:63
 msgid "_Duplicate"
 msgstr "Сделать копию"
 
-#: ../libglimpsewidgets/gimpicons.c:65
+#: ../libglimpsewidgets/gimpicons.c:64
 msgid "Linked"
 msgstr "Связанные"
 
-#: ../libglimpsewidgets/gimpicons.c:66
+#: ../libglimpsewidgets/gimpicons.c:65
 msgid "Paste as New"
 msgstr "Вставить как новое"
 
-#: ../libglimpsewidgets/gimpicons.c:67
+#: ../libglimpsewidgets/gimpicons.c:66
 msgid "Paste Into"
 msgstr "Вставить в"
 
-#: ../libglimpsewidgets/gimpicons.c:69
+#: ../libglimpsewidgets/gimpicons.c:68
 msgid "Visible"
 msgstr "Видимый"
 
-#: ../libglimpsewidgets/gimpicons.c:105 ../libglimpsewidgets/gimpicons.c:109
+#: ../libglimpsewidgets/gimpicons.c:104 ../libglimpsewidgets/gimpicons.c:108
 msgid "_Stroke"
 msgstr "_Обвести"
 
-#: ../libglimpsewidgets/gimpicons.c:121
+#: ../libglimpsewidgets/gimpicons.c:120
 msgid "L_etter Spacing"
 msgstr "М_ежбуквенное расстояние"
 
-#: ../libglimpsewidgets/gimpicons.c:122
+#: ../libglimpsewidgets/gimpicons.c:121
 msgid "L_ine Spacing"
 msgstr "_Интерлиньяж"
 
-#: ../libglimpsewidgets/gimpicons.c:139
+#: ../libglimpsewidgets/gimpicons.c:138
 msgid "Re_size"
 msgstr "_Изменить"
 
-#: ../libglimpsewidgets/gimpicons.c:140 ../libglimpsewidgets/gimpicons.c:272
+#: ../libglimpsewidgets/gimpicons.c:139 ../libglimpsewidgets/gimpicons.c:272
 msgid "_Scale"
 msgstr "Из_менить"
 

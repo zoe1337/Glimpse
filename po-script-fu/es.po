@@ -17,8 +17,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp-script-fu.master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2020-02-12 23:19+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-15 00:28+0100\n"
 "PO-Revision-Date: 2020-02-13 09:44+0100\n"
 "Last-Translator: Rodrigo Lledó <rodhos92@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
@@ -699,12 +699,10 @@ msgid "Allow resizing"
 msgstr "Permitir redimensionado"
 
 #: ../plug-ins/script-fu/scripts/erase-rows.scm:42
-#| msgid "_Erase Every Other Row..."
 msgid "_Erase Every Nth Row..."
 msgstr "_Borrar cada fila enésima…"
 
 #: ../plug-ins/script-fu/scripts/erase-rows.scm:43
-#| msgid "Erase every other row or column"
 msgid "Erase every nth row or column"
 msgstr "Borrar cada fila o columna enésima"
 
@@ -887,21 +885,26 @@ msgid "_Main Web Site"
 msgstr "Sitio web _principal"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GNU Image Manipulation Program web site"
+#, fuzzy
+msgid "Bookmark to the Glimpse web site"
 msgstr "Marcador al sitio web de GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
 msgid "_Developer Web Site"
 msgstr "Sitio web del _desarrollador"
 
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:204
+#, fuzzy
+msgid "Bookmark to the Glimpse Github project"
+msgstr "Marcador a la wiki de GIMP"
+
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:216
 msgid "_Roadmap"
 msgstr "Hoja de _ruta"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217
-msgid "Bookmark to the roadmap of GIMP"
+#, fuzzy
+msgid "Bookmark to the roadmap of Glimpse"
 msgstr "Marcador a la hoja de ruta de GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:229
@@ -909,7 +912,8 @@ msgid "_Wiki"
 msgstr "_Wiki"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:230
-msgid "Bookmark to the wiki of GIMP"
+#, fuzzy
+msgid "Bookmark to the wiki of Glimpse"
 msgstr "Marcador a la wiki de GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:242
@@ -917,12 +921,17 @@ msgid "_Bug Reports and Feature Requests"
 msgstr "_Informes de error y solicitudes de características"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:243
-msgid "Bookmark to the bug tracker of GIMP"
+#, fuzzy
+msgid "Bookmark to the bug tracker of Glimpse"
 msgstr "Marcador al seguimiento de errores de GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
 msgid "_Online User Manual (GNU I.M.P)"
 msgstr "Sitio web del _manual de usuario"
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:256
+msgid "Bookmark to the GNU Image Manipulation Program web site"
+msgstr "Marcador al sitio web de GIMP"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69
 msgid "Custom _Gradient..."
