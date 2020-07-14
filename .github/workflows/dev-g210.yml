@@ -91,7 +91,7 @@ jobs:
     - name: Build in-development version of Glimpse Image Editor
       run: |
         cd $SRC_PREFIX/Glimpse
-        ./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc --disable-gtk-doc-html --without-webkit --without-xvfb-run --disable-python
+        ./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc --disable-gtk-doc-html --without-webkit --without-xvfb-run --disable-python --disable-check-update
         make && make install
         
     - name: Run unit tests against Glimpse Image Editor
