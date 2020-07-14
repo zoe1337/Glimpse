@@ -178,16 +178,16 @@ gimp_check_updates_callback (GObject      *source,
           GDateTime   *datetime;
           gchar       *str;
 
-          if (major < GIMP_MAJOR_VERSION ||
-              (major == GIMP_MAJOR_VERSION && minor < GIMP_MINOR_VERSION) ||
-              (major == GIMP_MAJOR_VERSION && minor == GIMP_MINOR_VERSION && micro < GIMP_MICRO_VERSION))
+          if (major < GLIMPSE_MAJOR_VERSION ||
+              (major == GLIMPSE_MAJOR_VERSION && minor < GLIMPSE_MINOR_VERSION) ||
+              (major == GLIMPSE_MAJOR_VERSION && minor == GLIMPSE_MINOR_VERSION && micro < GLIMPSE_MICRO_VERSION))
             {
               /* We are using a newer version than last one (somehow). */
               last_version = NULL;
             }
-          else if (major == GIMP_MAJOR_VERSION &&
-                   minor == GIMP_MINOR_VERSION &&
-                   micro == GIMP_MICRO_VERSION)
+          else if (major == GLIMPSE_MAJOR_VERSION &&
+                   minor == GLIMPSE_MINOR_VERSION &&
+                   micro == GLIMPSE_MICRO_VERSION)
             {
               for (i = 0; i < (gint) json_array_get_length (builds); i++)
                 {
