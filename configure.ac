@@ -2572,7 +2572,7 @@ AC_SUBST(BUG_REPORT_URL)
 override_bug_report_url=
 if test "x$with_bug_report_url" = "x$PACKAGE_BUGREPORT"; then
 override_bug_report_url="
-NOTE: if you plan on packaging GIMP for distribution, it is recommended
+NOTE: if you plan on packaging Glimpse for distribution, it is recommended
       to override the bug report URL with option:
         --with-bug-report-url=https://example.com/
       so that you can filter packaging bugs from core bugs before
