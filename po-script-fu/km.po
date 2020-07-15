@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: km\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2014-05-03 22:00+1200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-15 00:28+0100\n"
 "PO-Revision-Date: 2008-08-25 10:25+0700\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
 "Language-Team: Khmer <en@li.org>\n"
@@ -33,63 +33,63 @@ msgstr "ម៉ាស៊ីន​បម្រើ​សម្រាប់​ប្
 msgid "_Start Server..."
 msgstr "ចាប់ផ្ដើម​ម៉ាស៊ីន​បម្រើ... "
 
-#: ../plug-ins/script-fu/script-fu.c:307
+#: ../plug-ins/script-fu/script-fu.c:306
 msgid "_Glimpse online"
 msgstr "Glimpse លើ​បណ្ដាញ "
 
-#: ../plug-ins/script-fu/script-fu.c:308
+#: ../plug-ins/script-fu/script-fu.c:307
 msgid "_User Manual"
 msgstr "សៀវភៅ​ដៃ​អ្នក​ប្រើ "
 
-#: ../plug-ins/script-fu/script-fu.c:311
+#: ../plug-ins/script-fu/script-fu.c:310
 msgid "_Script-Fu"
 msgstr "_ស្គ្រីប-Fu"
 
-#: ../plug-ins/script-fu/script-fu.c:313
+#: ../plug-ins/script-fu/script-fu.c:312
 msgid "_Test"
 msgstr "_សាកល្បង"
 
-#: ../plug-ins/script-fu/script-fu.c:316
+#: ../plug-ins/script-fu/script-fu.c:315
 msgid "_Buttons"
 msgstr "_ប៊ូតុង"
 
-#: ../plug-ins/script-fu/script-fu.c:318
+#: ../plug-ins/script-fu/script-fu.c:317
 msgid "_Logos"
 msgstr "_រូបសញ្ញា"
 
-#: ../plug-ins/script-fu/script-fu.c:320
+#: ../plug-ins/script-fu/script-fu.c:319
 msgid "_Patterns"
 msgstr "_លំនាំ"
 
-#: ../plug-ins/script-fu/script-fu.c:323
+#: ../plug-ins/script-fu/script-fu.c:322
 msgid "_Web Page Themes"
 msgstr "_ស្បែក​ទំព័រ​បណ្ដាញ"
 
-#: ../plug-ins/script-fu/script-fu.c:325
+#: ../plug-ins/script-fu/script-fu.c:324
 msgid "_Alien Glow"
 msgstr "_ពន្លឺ​ក្រហម​ទុំ​ចម្លែក"
 
-#: ../plug-ins/script-fu/script-fu.c:327
+#: ../plug-ins/script-fu/script-fu.c:326
 msgid "_Beveled Pattern"
 msgstr "_លំនាំដែល​មាន​ជ្រុងទេរ"
 
-#: ../plug-ins/script-fu/script-fu.c:329
+#: ../plug-ins/script-fu/script-fu.c:328
 msgid "_Classic.Gimp.Org"
 msgstr "_Classic.Gimp.Org"
 
-#: ../plug-ins/script-fu/script-fu.c:332
+#: ../plug-ins/script-fu/script-fu.c:331
 msgid "Alpha to _Logo"
 msgstr "អាល់ហ្វា​ទៅ​រូប​សញ្ញា"
 
-#: ../plug-ins/script-fu/script-fu.c:335
+#: ../plug-ins/script-fu/script-fu.c:334
 msgid "Re-read all available Script-Fu scripts"
 msgstr "អាន​ស្គ្រីប Script-Fu ដែល​មាន​ទាំង​អស់​ឡើង​វិញ"
 
-#: ../plug-ins/script-fu/script-fu.c:340
+#: ../plug-ins/script-fu/script-fu.c:339
 msgid "_Refresh Scripts"
 msgstr "_ធ្វើ​ឲ្យ​ស្គ្រីប​ស្រស់"
 
-#: ../plug-ins/script-fu/script-fu.c:363
+#: ../plug-ins/script-fu/script-fu.c:362
 msgid ""
 "You can not use \"Refresh Scripts\" while a Script-Fu dialog box is open.  "
 "Please close all Script-Fu windows and try again."
@@ -97,95 +97,128 @@ msgstr ""
 "អ្នក​មិនអាច​ប្រើ \"ស្គ្រីប​ធ្វើ​ឲ្យស្រស់\" ខណៈពេល​​ប្រអប់​របស់ Script-Fu កំពុង​បើក ។  សូម​បិទ​បង្អួច​ "
 "Script-Fu ទាំង​អស់ ហើយ​ព្យាយាម​ម្ដង​ទៀត ។"
 
-#: ../plug-ins/script-fu/script-fu-console.c:130
-#: ../plug-ins/script-fu/script-fu-console.c:197
+#: ../plug-ins/script-fu/script-fu-console.c:127
+#: ../plug-ins/script-fu/script-fu-console.c:194
 msgid "Script-Fu Console"
 msgstr "កុងសូលស្គ្រីប-Fu"
 
-#: ../plug-ins/script-fu/script-fu-console.c:193
+#: ../plug-ins/script-fu/script-fu-console.c:132
+#: ../plug-ins/script-fu/script-fu-console.c:293
+msgid "_Save"
+msgstr ""
+
+#: ../plug-ins/script-fu/script-fu-console.c:133
+msgid "C_lear"
+msgstr ""
+
+#: ../plug-ins/script-fu/script-fu-console.c:134
+#: ../plug-ins/script-fu/script-fu-console.c:371
+msgid "_Close"
+msgstr ""
+
+#: ../plug-ins/script-fu/script-fu-console.c:190
 msgid "Welcome to TinyScheme"
 msgstr "សូម​ស្វាគមន៍​មក​កាន់ TinyScheme"
 
-#: ../plug-ins/script-fu/script-fu-console.c:199
+#: ../plug-ins/script-fu/script-fu-console.c:196
 msgid "Interactive Scheme Development"
 msgstr "ការ​អភិវឌ្ឍន៍​គ្រោងការណ៍​អន្តរកម្ម"
 
-#: ../plug-ins/script-fu/script-fu-console.c:235
+#: ../plug-ins/script-fu/script-fu-console.c:232
 msgid "_Browse..."
 msgstr "_រកមើល..."
 
-#: ../plug-ins/script-fu/script-fu-console.c:293
+#: ../plug-ins/script-fu/script-fu-console.c:288
 msgid "Save Script-Fu Console Output"
 msgstr "រក្សាទុកលទ្ធផល​កុងសូល Script-Fu"
 
-#: ../plug-ins/script-fu/script-fu-console.c:340
+#: ../plug-ins/script-fu/script-fu-console.c:292
+#: ../plug-ins/script-fu/script-fu-interface.c:236
+#: ../plug-ins/script-fu/script-fu-server.c:836
+#, fuzzy
+msgid "_Cancel"
+msgstr "ធ្វើ​ឲ្យ​ប្រសើរ "
+
+#: ../plug-ins/script-fu/script-fu-console.c:337
 #, c-format
 msgid "Could not open '%s' for writing: %s"
 msgstr "មិន​អាច​បើក '%s' ដើម្បី​សរសេរ ៖ %s"
 
-#: ../plug-ins/script-fu/script-fu-console.c:369
+#: ../plug-ins/script-fu/script-fu-console.c:366
 msgid "Script-Fu Procedure Browser"
 msgstr "កម្មវិធី​រុករក​បែបបទ ស្គ្រីប-Fu"
+
+#: ../plug-ins/script-fu/script-fu-console.c:370
+msgid "_Apply"
+msgstr ""
 
 #: ../plug-ins/script-fu/script-fu-eval.c:60
 msgid "Script-Fu evaluation mode only allows non-interactive invocation"
 msgstr "របៀប​វាយ​តម្លៃ​របស់ Script-Fu អនុញ្ញាត​តែ​ការ​អធិដ្ឋាន​គ្មាន​អន្តរកម្ម​តែ​ប៉ុណ្ណោះ"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:198
+#: ../plug-ins/script-fu/script-fu-interface.c:200
 msgid "Script-Fu cannot process two scripts at the same time."
 msgstr "ស្គ្រីប-Fu មិន​អាច​ដំណើរការ​ស្គ្រីប​ពីរ​នៅ​ពេល​តែមួយ ។"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:200
+#: ../plug-ins/script-fu/script-fu-interface.c:202
 #, c-format
 msgid "You are already running the \"%s\" script."
 msgstr "អ្នក​កំពុង​រត់​ស្គ្រីប \"%s\" រួច​ហើយ ។"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:226
+#: ../plug-ins/script-fu/script-fu-interface.c:228
 #, c-format
 msgid "Script-Fu: %s"
 msgstr "Script-Fu ៖ %s"
 
+#: ../plug-ins/script-fu/script-fu-interface.c:235
+msgid "_Reset"
+msgstr ""
+
+#: ../plug-ins/script-fu/script-fu-interface.c:237
+msgid "_OK"
+msgstr ""
+
 #. we add a colon after the label;
 #. *  some languages want an extra space here
 #.
-#: ../plug-ins/script-fu/script-fu-interface.c:290
+#: ../plug-ins/script-fu/script-fu-interface.c:291
 #, c-format
 msgid "%s:"
 msgstr "%s ៖"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:337
+#: ../plug-ins/script-fu/script-fu-interface.c:341
 msgid "Script-Fu Color Selection"
 msgstr "ជម្រើស​ពណ៌ Script-Fu"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:446
+#: ../plug-ins/script-fu/script-fu-interface.c:457
 msgid "Script-Fu File Selection"
 msgstr "ជម្រើស​ឯកសារ ស្គ្រីប​-Fu"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:449
+#: ../plug-ins/script-fu/script-fu-interface.c:460
 msgid "Script-Fu Folder Selection"
 msgstr "ជម្រើស​​​ពណ៌ ស្គ្រីប​-Fu"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:462
+#: ../plug-ins/script-fu/script-fu-interface.c:473
 msgid "Script-Fu Font Selection"
 msgstr "ជម្រើស​​​​ពុម្ព​អក្សរ ស្គ្រីប​-Fu"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:470
+#: ../plug-ins/script-fu/script-fu-interface.c:481
 msgid "Script-Fu Palette Selection"
 msgstr "ជម្រើស​​ក្ដារលាយ ស្គ្រីប​-Fu"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:479
+#: ../plug-ins/script-fu/script-fu-interface.c:490
 msgid "Script-Fu Pattern Selection"
 msgstr "ជម្រើស​លំនាំ Script-Fu"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:488
+#: ../plug-ins/script-fu/script-fu-interface.c:499
 msgid "Script-Fu Gradient Selection"
 msgstr "ជម្រើស​ជម្រាល​ស្គ្រីប-Fu"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:497
+#: ../plug-ins/script-fu/script-fu-interface.c:508
 msgid "Script-Fu Brush Selection"
 msgstr "ជម្រើស​ច្រាស ស្គ្រីប​-Fu"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:840
+#: ../plug-ins/script-fu/script-fu-interface.c:877
 #, fuzzy, c-format
 msgid "Error while executing %s:"
 msgstr ""
@@ -194,11 +227,11 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../plug-ins/script-fu/script-fu-scripts.c:146
+#: ../plug-ins/script-fu/script-fu-scripts.c:149
 msgid "Too few arguments to 'script-fu-register' call"
 msgstr ""
 
-#: ../plug-ins/script-fu/script-fu-scripts.c:605
+#: ../plug-ins/script-fu/script-fu-scripts.c:648
 #, fuzzy, c-format
 msgid "Error while loading %s:"
 msgstr ""
@@ -207,27 +240,27 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../plug-ins/script-fu/script-fu-server.c:827
+#: ../plug-ins/script-fu/script-fu-server.c:832
 msgid "Script-Fu Server Options"
 msgstr "ជម្រើស​ម៉ាស៊ីន​បម្រើ ស្គ្រីប​-Fu"
 
-#: ../plug-ins/script-fu/script-fu-server.c:832
+#: ../plug-ins/script-fu/script-fu-server.c:837
 msgid "_Start Server"
 msgstr "_ចាប់ផ្ដើម​ម៉ាស៊ីន​បម្រើ"
 
-#: ../plug-ins/script-fu/script-fu-server.c:865
+#: ../plug-ins/script-fu/script-fu-server.c:870
 msgid "Listen on IP:"
 msgstr ""
 
-#: ../plug-ins/script-fu/script-fu-server.c:872
+#: ../plug-ins/script-fu/script-fu-server.c:877
 msgid "Server port:"
 msgstr "ច្រក​ម៉ាស៊ីន​បម្រើ ៖"
 
-#: ../plug-ins/script-fu/script-fu-server.c:878
+#: ../plug-ins/script-fu/script-fu-server.c:883
 msgid "Server logfile:"
 msgstr "ឯកសារ​កំណត់​ហេតុ​ម៉ាស៊ីន​បម្រើ ៖"
 
-#: ../plug-ins/script-fu/script-fu-server.c:890
+#: ../plug-ins/script-fu/script-fu-server.c:896
 msgid ""
 "Listening on an IP address other than 127.0.0.1 (especially 0.0.0.0) can "
 "allow attackers to remotely execute arbitrary code on this machine."
@@ -237,28 +270,28 @@ msgstr ""
 msgid "Bumpmap"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:185
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:189
 msgid "Add B_evel..."
 msgstr "បន្ថែម​ជ្រុង​ទេរ... "
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:186
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:190
 msgid "Add a beveled border to an image"
 msgstr "បន្ថែម​ស៊ុម​ជ្រុង​ទេរ​ទៅ​​រូបភាព"
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:193
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:197
 msgid "Thickness"
 msgstr "ភាព​ក្រាស់"
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:194
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:160
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:198
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:163
 #: ../plug-ins/script-fu/scripts/old-photo.scm:104
 #: ../plug-ins/script-fu/scripts/round-corners.scm:143
-#: ../plug-ins/script-fu/scripts/slide.scm:248
+#: ../plug-ins/script-fu/scripts/slide.scm:257
 #: ../plug-ins/script-fu/scripts/spinning-globe.scm:106
 msgid "Work on copy"
 msgstr "ធ្វើការ​អំពី​ការចម្លង"
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:195
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:199
 msgid "Keep bump layer"
 msgstr "រក្សា​ស្រទាប់​គ្រើម"
 
@@ -267,27 +300,27 @@ msgstr "រក្សា​ស្រទាប់​គ្រើម"
 msgid "Border Layer"
 msgstr "ទំហំ​ស៊ុម"
 
-#: ../plug-ins/script-fu/scripts/addborder.scm:160
+#: ../plug-ins/script-fu/scripts/addborder.scm:162
 msgid "Add _Border..."
 msgstr "បន្ថែម​ស៊ុម..."
 
-#: ../plug-ins/script-fu/scripts/addborder.scm:161
+#: ../plug-ins/script-fu/scripts/addborder.scm:163
 msgid "Add a border around an image"
 msgstr "បន្ថែម​ស៊ុម​ជុំវិញ​រូបភាព"
 
-#: ../plug-ins/script-fu/scripts/addborder.scm:168
+#: ../plug-ins/script-fu/scripts/addborder.scm:170
 msgid "Border X size"
 msgstr "ស៊ុម​ទំហំ X"
 
-#: ../plug-ins/script-fu/scripts/addborder.scm:169
+#: ../plug-ins/script-fu/scripts/addborder.scm:171
 msgid "Border Y size"
 msgstr "ស៊ុម​ទំហំ Y"
 
-#: ../plug-ins/script-fu/scripts/addborder.scm:170
+#: ../plug-ins/script-fu/scripts/addborder.scm:172
 msgid "Border color"
 msgstr "ពណ៌​ស៊ុម"
 
-#: ../plug-ins/script-fu/scripts/addborder.scm:171
+#: ../plug-ins/script-fu/scripts/addborder.scm:173
 msgid "Delta value on color"
 msgstr "តម្លៃ​ដែលតា​លើ​ពណ៌"
 
@@ -323,7 +356,7 @@ msgid "Looped"
 msgstr "រង្វិលជុំ"
 
 #. --- false form of "if-1"
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:212
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:217
 #, fuzzy
 msgid ""
 "The Burn-In script needs two layers in total. A foreground layer with "
@@ -332,224 +365,224 @@ msgstr ""
 "បញ្ចូល​គ្នា ៖ ត្រូវការ​ស្រទាប់​សរុប​ចំនួន​ពីរ !\\nស្រទាប់​អត្ថបទ​ផ្ទៃខាង​មុខដែល​មាន​ភាព​ថ្លា និង​ស្រទាប់​"
 "ផ្ទៃខាង​ក្រោយ ។"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:219
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:224
 msgid "B_urn-In..."
 msgstr "ដុតក្នុង..."
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:220
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:225
 msgid ""
 "Create intermediate layers to produce an animated 'burn-in' transition "
 "between two layers"
 msgstr "បង្កើត​ស្រទាប់​មធ្យម​ដើម្បី​កាត់បន្ថយ​ដំណើរការ​ផ្លាស់ប្ដូរ 'បញ្ចូល​គ្នា' រវាង​ស្រទាប់​ពីរ"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:227
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:232
 msgid "Glow color"
 msgstr "ពណ៌​ពន្លឺ​ក្រហម​ទុំ"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:228
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:233
 msgid "Fadeout"
 msgstr "លិចបន្តិច​ម្ដង"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:229
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:234
 msgid "Fadeout width"
 msgstr "ទទឹងលិច​បន្តិចម្ដង"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:230
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:235
 msgid "Corona width"
 msgstr "ទទឹង​ព្រះអាទិត្យ"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:231
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:236
 msgid "After glow"
 msgstr "បន្ទាប់​ពី​ពន្លឺ​ក្រហម​ទុំ"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:232
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:237
 msgid "Add glowing"
 msgstr "បន្ថែម​ពន្លឺ​ក្រហម​ទុំ"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:233
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:238
 msgid "Prepare for GIF"
 msgstr "រៀបចំ​សម្រាប់ ​GIF"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:234
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:239
 msgid "Speed (pixels/frame)"
 msgstr "ល្បឿន (ភីកសែល/ស៊ុម)"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:168
+#: ../plug-ins/script-fu/scripts/carve-it.scm:176
 msgid "Carved Surface"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:169
+#: ../plug-ins/script-fu/scripts/carve-it.scm:177
 #, fuzzy
 msgid "Bevel Shadow"
 msgstr "ស្រមោល"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:170
+#: ../plug-ins/script-fu/scripts/carve-it.scm:178
 #, fuzzy
 msgid "Bevel Highlight"
 msgstr "ទទឹង​ទេរ"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:171
+#: ../plug-ins/script-fu/scripts/carve-it.scm:179
 #, fuzzy
 msgid "Cast Shadow"
 msgstr "បង្កើត​ស្រមោល"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:172
+#: ../plug-ins/script-fu/scripts/carve-it.scm:180
 msgid "Inset"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:182
+#: ../plug-ins/script-fu/scripts/carve-it.scm:192
 msgid "Stencil C_arve..."
 msgstr "ការឆ្លាក់​ស្តង់ស៊ីល..."
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:183
+#: ../plug-ins/script-fu/scripts/carve-it.scm:193
 msgid ""
 "Use the specified drawable as a stencil to carve from the specified image."
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:190
+#: ../plug-ins/script-fu/scripts/carve-it.scm:200
 msgid "Image to carve"
 msgstr "រូបភាព​ត្រូវ​ឆ្លាក់"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:191
+#: ../plug-ins/script-fu/scripts/carve-it.scm:201
 msgid "Carve white areas"
 msgstr "ឆ្លាក់ផ្ទៃ​ពណ៌ស"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:103
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:93
 #, fuzzy
 msgid "Background"
 msgstr "ពណ៌​ផ្ទៃខាងក្រោយ"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:104
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:94
 msgid "Layer 1"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:105
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:95
 msgid "Layer 2"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:106
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:96
 msgid "Layer 3"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:107
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:97
 #, fuzzy
 msgid "Drop Shadow"
 msgstr "ទម្លាក់​ស្រមោល"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:201
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:217
 #, fuzzy
 msgid "Chrome"
 msgstr "ក្រូម..."
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:202
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:218
 #: ../plug-ins/script-fu/scripts/xach-effect.scm:68
 #, fuzzy
 msgid "Highlight"
 msgstr "ពណ៌​បន្លិច"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:214
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:232
 msgid "Stencil C_hrome..."
 msgstr "ក្រូម​ស្តង់ស៊ីល..."
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:215
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:233
 msgid ""
 "Add a chrome effect to the selected region (or alpha) using a specified "
 "(grayscale) stencil"
 msgstr ""
 "បន្ថែម​បែបផែន​ក្រូម​ទៅ​តំបន់​ដែល​បានជ្រើស (ឬ​អាល់ហ្វា) ដោយ​ប្រើស្តង់ស៊ីល​ដែល​បានបញ្ជាក់(មាត្រដ្ឋាន​ប្រផេះ)"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:222
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:240
 msgid "Chrome saturation"
 msgstr "តិត្ថិភាព​ក្រូម"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:223
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:241
 msgid "Chrome lightness"
 msgstr "ពន្លឺក្រូម"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:224
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:242
 msgid "Chrome factor"
 msgstr "កត្តា​ក្រូម​"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:225
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:243
 msgid "Environment map"
 msgstr "ការ​ផ្គូផ្គង​បរិស្ថាន"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:228
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:246
 msgid "Highlight balance"
 msgstr "តុល្យភាព​ការ​ពន្លិច"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:229
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:247
 msgid "Chrome balance"
 msgstr "តុល្យភាព​ក្រូម"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:230
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:248
 msgid "Chrome white areas"
 msgstr "ផ្ទៃ​ពណ៌ស​ក្រូម"
 
-#: ../plug-ins/script-fu/scripts/circuit.scm:81
+#: ../plug-ins/script-fu/scripts/circuit.scm:74
 #, fuzzy
 msgid "Effect layer"
 msgstr "ការ​បំបែក​ស្រទាប់"
 
-#: ../plug-ins/script-fu/scripts/circuit.scm:134
+#: ../plug-ins/script-fu/scripts/circuit.scm:127
 msgid "_Circuit..."
 msgstr "_សៀគ្វី..."
 
-#: ../plug-ins/script-fu/scripts/circuit.scm:135
+#: ../plug-ins/script-fu/scripts/circuit.scm:128
 msgid ""
 "Fill the selected region (or alpha) with traces like those on a circuit board"
 msgstr "បំពេញ​តំបន់​ដែល​បានជ្រើស (ឬ​អាល់ហ្វា) ដែល​មាន​ដាន​ដូច​នឹង​ក្ដារ​សៀរគ្វី"
 
-#: ../plug-ins/script-fu/scripts/circuit.scm:142
+#: ../plug-ins/script-fu/scripts/circuit.scm:135
 msgid "Oilify mask size"
 msgstr "ទំហំ​របាំង​ប្រេង"
 
-#: ../plug-ins/script-fu/scripts/circuit.scm:143
+#: ../plug-ins/script-fu/scripts/circuit.scm:136
 msgid "Circuit seed"
 msgstr "គ្រាប់​​សៀគ្វី"
 
-#: ../plug-ins/script-fu/scripts/circuit.scm:144
+#: ../plug-ins/script-fu/scripts/circuit.scm:137
 msgid "No background (only for separate layer)"
 msgstr "គ្មាន​ផ្ទៃខាងក្រោយ (សម្រាប់​តែ​ការ​បំបែក​ស្រទាប់)"
 
-#: ../plug-ins/script-fu/scripts/circuit.scm:145
+#: ../plug-ins/script-fu/scripts/circuit.scm:138
 #: ../plug-ins/script-fu/scripts/lava.scm:129
 #: ../plug-ins/script-fu/scripts/predator.scm:132
 #: ../plug-ins/script-fu/scripts/xach-effect.scm:138
 msgid "Keep selection"
 msgstr "រក្សា​ជម្រើស​"
 
-#: ../plug-ins/script-fu/scripts/circuit.scm:146
+#: ../plug-ins/script-fu/scripts/circuit.scm:139
 #: ../plug-ins/script-fu/scripts/lava.scm:130
 #: ../plug-ins/script-fu/scripts/predator.scm:133
 msgid "Separate layer"
 msgstr "ការ​បំបែក​ស្រទាប់"
 
-#: ../plug-ins/script-fu/scripts/clothify.scm:51
+#: ../plug-ins/script-fu/scripts/clothify.scm:52
 msgid "_Clothify..."
 msgstr "_ធ្វើ​ឲ្យ​ដូច​ក្រណាត់..."
 
-#: ../plug-ins/script-fu/scripts/clothify.scm:52
+#: ../plug-ins/script-fu/scripts/clothify.scm:53
 msgid "Add a cloth-like texture to the selected region (or alpha)"
 msgstr "បន្ថែម​វាយនភាព​ដូច​ក្រណាត់​ទៅ​តំបន់​ដែល​បាន​ជ្រើស (ឬ​អាល់ហ្វា)"
 
-#: ../plug-ins/script-fu/scripts/clothify.scm:59
+#: ../plug-ins/script-fu/scripts/clothify.scm:60
 msgid "Blur X"
 msgstr "ព្រិល X"
 
-#: ../plug-ins/script-fu/scripts/clothify.scm:60
+#: ../plug-ins/script-fu/scripts/clothify.scm:61
 msgid "Blur Y"
 msgstr "ព្រិល Y"
 
-#: ../plug-ins/script-fu/scripts/clothify.scm:61
+#: ../plug-ins/script-fu/scripts/clothify.scm:62
 msgid "Azimuth"
 msgstr "Azimuth"
 
-#: ../plug-ins/script-fu/scripts/clothify.scm:62
+#: ../plug-ins/script-fu/scripts/clothify.scm:63
 msgid "Elevation"
 msgstr "កម្ពស់"
 
-#: ../plug-ins/script-fu/scripts/clothify.scm:63
+#: ../plug-ins/script-fu/scripts/clothify.scm:64
 msgid "Depth"
 msgstr "ជម្រៅ"
 
@@ -558,66 +591,73 @@ msgstr "ជម្រៅ"
 msgid "Stain"
 msgstr "ស្នាម​ប្រឡាក់"
 
-#: ../plug-ins/script-fu/scripts/coffee.scm:81
+#: ../plug-ins/script-fu/scripts/coffee.scm:82
 msgid "_Coffee Stain..."
 msgstr "_ស្នាម​ប្រឡាក់កាហ្វេ..."
 
-#: ../plug-ins/script-fu/scripts/coffee.scm:82
+#: ../plug-ins/script-fu/scripts/coffee.scm:83
 msgid "Add realistic looking coffee stains to the image"
 msgstr "បន្ថែម​ភាព​ពិត​មើល​ទៅ​ដូចជាស្នាម​ប្រលាក់​កាហ្វេ​ទៅ​រូបភាព"
 
-#: ../plug-ins/script-fu/scripts/coffee.scm:89
+#: ../plug-ins/script-fu/scripts/coffee.scm:90
 msgid "Stains"
 msgstr "ស្នាម​ប្រឡាក់"
 
-#: ../plug-ins/script-fu/scripts/coffee.scm:90
+#: ../plug-ins/script-fu/scripts/coffee.scm:91
 #, fuzzy
 msgid "Darken only"
 msgstr "ពណ៌​ងងឹត"
 
-#: ../plug-ins/script-fu/scripts/difference-clouds.scm:67
-msgid "Difference Clouds..."
+#: ../plug-ins/script-fu/scripts/difference-clouds.scm:70
+#, fuzzy
+msgid "_Difference Clouds..."
 msgstr "ពពក​ផ្សេងគ្នា... "
 
-#: ../plug-ins/script-fu/scripts/difference-clouds.scm:68
+#: ../plug-ins/script-fu/scripts/difference-clouds.scm:71
 msgid "Solid noise applied with Difference layer mode"
 msgstr "ការ​រំខាន​តាន់​បាន​អនុវត្ត​ដោយ​របៀប​ស្រទាប់​ផ្សេង​គ្នា"
 
-#: ../plug-ins/script-fu/scripts/distress-selection.scm:102
+#: ../plug-ins/script-fu/scripts/distress-selection.scm:105
 msgid "_Distort..."
 msgstr "_បង្ខូច​ទ្រង់ទ្រាយ..."
 
-#: ../plug-ins/script-fu/scripts/distress-selection.scm:103
+#: ../plug-ins/script-fu/scripts/distress-selection.scm:106
 msgid "Distress the selection"
 msgstr "យក​ជម្រើស​"
 
-#: ../plug-ins/script-fu/scripts/distress-selection.scm:110
+#: ../plug-ins/script-fu/scripts/distress-selection.scm:113
 #, fuzzy
-msgid "Threshold (bigger 1<-->254 smaller)"
+msgid "_Threshold (bigger 1<-->254 smaller)"
 msgstr "កម្រិត​ពន្លឺ (ធំជាង ១<-->២៥៥ តូចជាង)"
 
-#: ../plug-ins/script-fu/scripts/distress-selection.scm:111
-msgid "Spread"
+#: ../plug-ins/script-fu/scripts/distress-selection.scm:114
+#, fuzzy
+msgid "_Spread"
 msgstr "រាលដាល"
 
-#: ../plug-ins/script-fu/scripts/distress-selection.scm:112
-msgid "Granularity (1 is low)"
+#: ../plug-ins/script-fu/scripts/distress-selection.scm:115
+#, fuzzy
+msgid "_Granularity (1 is low)"
 msgstr "គ្រាប់តូចៗ (១ ទាប​)"
 
-#: ../plug-ins/script-fu/scripts/distress-selection.scm:113
-msgid "Smooth"
+#: ../plug-ins/script-fu/scripts/distress-selection.scm:116
+#, fuzzy
+msgid "S_mooth"
 msgstr "​រលោង"
 
-#: ../plug-ins/script-fu/scripts/distress-selection.scm:114
-msgid "Smooth horizontally"
+#: ../plug-ins/script-fu/scripts/distress-selection.scm:117
+#, fuzzy
+msgid "Smooth hor_izontally"
 msgstr "រលូន​ផ្ដេក"
 
-#: ../plug-ins/script-fu/scripts/distress-selection.scm:115
-msgid "Smooth vertically"
+#: ../plug-ins/script-fu/scripts/distress-selection.scm:118
+#, fuzzy
+msgid "Smooth _vertically"
 msgstr "រលូន​បញ្ឈរ"
 
 #: ../plug-ins/script-fu/scripts/drop-shadow.scm:170
-msgid "_Drop Shadow..."
+#, fuzzy
+msgid "_Drop Shadow (legacy)..."
 msgstr "ទម្លាក់​ស្រមោល... "
 
 #: ../plug-ins/script-fu/scripts/drop-shadow.scm:171
@@ -639,7 +679,7 @@ msgid "Blur radius"
 msgstr "កាំ​ព្រិល"
 
 #: ../plug-ins/script-fu/scripts/drop-shadow.scm:181
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:154
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:157
 #: ../plug-ins/script-fu/scripts/perspective-shadow.scm:210
 #: ../plug-ins/script-fu/scripts/spyrogimp.scm:350
 msgid "Color"
@@ -655,49 +695,65 @@ msgstr "ភាព​ស្រអាប់"
 msgid "Allow resizing"
 msgstr "អនុញ្ញាត​ឲ្យ​ផ្លាស់ប្ដូរ​ទំហំ"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:39
-msgid "_Erase Every Other Row..."
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:42
+#, fuzzy
+msgid "_Erase Every Nth Row..."
 msgstr "_លុប​គ្រប់​ជួរដេក​ផ្សេងៗ..."
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:40
-msgid "Erase every other row or column"
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:43
+#, fuzzy
+msgid "Erase every nth row or column"
 msgstr "លុបរាល់​ជួរឈរ ឬ​ជួរដេក​ផ្សេងៗ"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:47
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Rows/cols"
 msgstr "ជួរ​ឈរ/ជួរ​ដេក"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:47
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Rows"
 msgstr "ជួរដេក"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:47
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Columns"
 msgstr "ជួរឈរ"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:48
-msgid "Even/odd"
-msgstr "គូ/សេស"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:48
-msgid "Even"
-msgstr "គូ"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:48
-msgid "Odd"
-msgstr "សេស"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Erase/fill"
 msgstr "លុប/បំពេញ"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Erase"
 msgstr "លុប"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Fill with BG"
 msgstr "បំពេញ​ដោយ​ផ្ទៃខាងក្រោយ"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:57
+msgid "_Erase Every Other Row..."
+msgstr "_លុប​គ្រប់​ជួរដេក​ផ្សេងៗ..."
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:58
+msgid "Erase every other row or column"
+msgstr "លុបរាល់​ជួរឈរ ឬ​ជួរដេក​ផ្សេងៗ"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Even/odd"
+msgstr "គូ/សេស"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Even"
+msgstr "គូ"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Odd"
+msgstr "សេស"
 
 #: ../plug-ins/script-fu/scripts/font-map.scm:152
 msgid "Render _Font Map..."
@@ -745,36 +801,36 @@ msgstr "ពណ៌ខ្មៅ​នៅ​លើ​ពណ៌ស"
 msgid "Active colors"
 msgstr "ពណ៌​សកម្ម"
 
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:146
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:149
 msgid "_Fuzzy Border..."
 msgstr "_ស៊ុម​ស្រពិចស្រពិល..."
 
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:147
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:150
 msgid "Add a jagged, fuzzy border to an image"
 msgstr "បន្ថែម jagged ស៊ុម​មិន​ច្បាស់​ទៅ​រូបភាព"
 
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:155
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:158
 #: ../plug-ins/script-fu/scripts/old-photo.scm:98
 msgid "Border size"
 msgstr "ទំហំ​ស៊ុម"
 
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:156
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:159
 msgid "Blur border"
 msgstr "ធ្វើ​ឲ្យ​ស៊ុម​ព្រិល"
 
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:157
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:160
 msgid "Granularity (1 is Low)"
 msgstr "គ្រាប់តូចៗ (១ ទាប)"
 
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:158
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:161
 msgid "Add shadow"
 msgstr "បន្ថែម​ស្រមោល"
 
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:159
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:162
 msgid "Shadow weight (%)"
 msgstr "កម្ពស់​ស្រមោល (%)"
 
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:161
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:164
 msgid "Flatten image"
 msgstr "ធ្វើ​ឲ្យ​រូបភាព​រាបស្មើ"
 
@@ -821,54 +877,80 @@ msgstr "គូរ​វត្ថុ​ធម្មតា"
 msgid "Create and Use _Selections"
 msgstr "បង្កើត និង​ប្រើ​ជម្រើស"
 
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:178
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:190
 msgid "_Main Web Site"
 msgstr "_តំបន់​បណ្ដាញ​មេ"
 
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:179
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:192
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:205
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:218
-msgid "Bookmark to the GNU Image Manipulation Program web site"
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:191
+#, fuzzy
+msgid "Bookmark to the Glimpse web site"
 msgstr "ចំណាំ​ទៅ​តំបន់​បណ្ដាញ​ GIMP"
 
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:191
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:203
 msgid "_Developer Web Site"
 msgstr "_អ្នក​អភិវឌ្ឍន៍​តំបន់​បណ្ដាញ"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
+msgid "Bookmark to the Glimpse Github project"
+msgstr ""
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:216
+msgid "_Roadmap"
+msgstr ""
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:217
+msgid "Bookmark to the roadmap of Glimpse"
+msgstr ""
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:229
+msgid "_Wiki"
+msgstr ""
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:230
+msgid "Bookmark to the wiki of Glimpse"
+msgstr ""
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:242
+msgid "_Bug Reports and Feature Requests"
+msgstr ""
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:243
+msgid "Bookmark to the bug tracker of Glimpse"
+msgstr ""
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:255
 msgid "_Online User Manual (GNU I.M.P)"
 msgstr "_របៀប​ប្រើ​តំបន់​បណ្ដាញ"
 
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:217
-msgid "Plug-in _Registry"
-msgstr "​បញ្ជី​ឈ្មោះ​កម្មវិធី​ជំនួយ"
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:256
+msgid "Bookmark to the GNU Image Manipulation Program web site"
+msgstr "ចំណាំ​ទៅ​តំបន់​បណ្ដាញ​ GIMP"
 
-#: ../plug-ins/script-fu/scripts/gradient-example.scm:63
+#: ../plug-ins/script-fu/scripts/gradient-example.scm:69
 msgid "Custom _Gradient..."
 msgstr "ពណ៌​ជម្រាល​ផ្ទាល់ខ្លួន..."
 
-#: ../plug-ins/script-fu/scripts/gradient-example.scm:64
+#: ../plug-ins/script-fu/scripts/gradient-example.scm:70
 msgid "Create an image filled with an example of the current gradient"
 msgstr "បង្កើត​រូបភាព​ដែល​បាន​បំពេញ​ដោយ​ឧទាហរណ៍​ជម្រាល​បច្ចុប្បន្ន"
 
-#: ../plug-ins/script-fu/scripts/gradient-example.scm:69
+#: ../plug-ins/script-fu/scripts/gradient-example.scm:75
 #: ../plug-ins/script-fu/scripts/mkbrush.scm:70
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:138
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:194
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:263
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:140
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:196
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:265
 msgid "Width"
 msgstr "ទទឹង"
 
-#: ../plug-ins/script-fu/scripts/gradient-example.scm:70
+#: ../plug-ins/script-fu/scripts/gradient-example.scm:76
 #: ../plug-ins/script-fu/scripts/mkbrush.scm:71
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:139
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:195
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:264
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:141
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:197
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:266
 msgid "Height"
 msgstr "កម្ពស់"
 
-#: ../plug-ins/script-fu/scripts/gradient-example.scm:71
+#: ../plug-ins/script-fu/scripts/gradient-example.scm:77
 msgid "Gradient reverse"
 msgstr "ដាក់​បញ្ច្រាស​ជម្រាល"
 
@@ -909,7 +991,8 @@ msgstr "បន្ថែម​បន្ទាត់​នាំផ្លូវ​
 
 #: ../plug-ins/script-fu/scripts/guides-new-percent.scm:35
 #: ../plug-ins/script-fu/scripts/guides-new.scm:35
-msgid "Direction"
+#, fuzzy
+msgid "_Direction"
 msgstr "ទិស"
 
 #: ../plug-ins/script-fu/scripts/guides-new-percent.scm:35
@@ -923,7 +1006,8 @@ msgid "Vertical"
 msgstr "បញ្ឈរ"
 
 #: ../plug-ins/script-fu/scripts/guides-new-percent.scm:37
-msgid "Position (in %)"
+#, fuzzy
+msgid "_Position (in %)"
 msgstr "ទីតាំង (ក្នុង %)"
 
 #: ../plug-ins/script-fu/scripts/guides-new.scm:27
@@ -935,7 +1019,8 @@ msgid "Add a guide at the orientation and position specified (in pixels)"
 msgstr "បន្ថែម​បន្ទាត់​នាំផ្លូវ​នៅ​ទិស និង​ទីតាំង​ដែល​បានបញ្ជាក់ (គិតជា​ភីកសែល)"
 
 #: ../plug-ins/script-fu/scripts/guides-new.scm:36
-msgid "Position"
+#, fuzzy
+msgid "_Position"
 msgstr "ទីតាំង"
 
 #: ../plug-ins/script-fu/scripts/guides-remove-all.scm:19
@@ -975,30 +1060,30 @@ msgstr "ជម្រាល"
 msgid "Use current gradient"
 msgstr "ប្រើ​ជម្រាល​បច្ចុប្បន្ន"
 
-#: ../plug-ins/script-fu/scripts/line-nova.scm:106
+#: ../plug-ins/script-fu/scripts/line-nova.scm:108
 msgid "Line _Nova..."
 msgstr "បន្ទាត់​ភពផ្កាយ..."
 
-#: ../plug-ins/script-fu/scripts/line-nova.scm:107
+#: ../plug-ins/script-fu/scripts/line-nova.scm:109
 #, fuzzy
 msgid ""
 "Fill a layer with rays emanating outward from its center using the "
 "foreground color"
 msgstr "បំពេញ​ស្រទាប់​ដោយកាំរស្មី​ចេញ​ពីខាង​ក្រៅ​ពី​ចំណុច​កណ្ដាល​របស់​វា ដោយ​ប្រើ​ពណ៌ FG"
 
-#: ../plug-ins/script-fu/scripts/line-nova.scm:114
+#: ../plug-ins/script-fu/scripts/line-nova.scm:116
 msgid "Number of lines"
 msgstr "ចំនួន​បន្ទាត់"
 
-#: ../plug-ins/script-fu/scripts/line-nova.scm:115
+#: ../plug-ins/script-fu/scripts/line-nova.scm:117
 msgid "Sharpness (degrees)"
 msgstr "ភាព​ច្បាស់ (​អង្សា​)"
 
-#: ../plug-ins/script-fu/scripts/line-nova.scm:116
+#: ../plug-ins/script-fu/scripts/line-nova.scm:118
 msgid "Offset radius"
 msgstr "កាំ​អុហ្វសិត"
 
-#: ../plug-ins/script-fu/scripts/line-nova.scm:117
+#: ../plug-ins/script-fu/scripts/line-nova.scm:119
 msgid "Randomness"
 msgstr "ភាព​ចៃដន្យ"
 
@@ -1011,47 +1096,45 @@ msgid "Create a rectangular brush"
 msgstr "បង្កើត​ច្រាស​រាង​ពងក្រពើ"
 
 #: ../plug-ins/script-fu/scripts/mkbrush.scm:69
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:137
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:193
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:262
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:139
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:195
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:264
 msgid "Name"
 msgstr "ឈ្មោះ"
 
 #: ../plug-ins/script-fu/scripts/mkbrush.scm:72
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:141
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:196
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:266
-#: ../plug-ins/script-fu/scripts/paste-as-brush.scm:70
-#: ../plug-ins/script-fu/scripts/select-to-brush.scm:143
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:143
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:198
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:268
 msgid "Spacing"
 msgstr "ចន្លោះ"
 
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:131
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:133
 msgid "Re_ctangular, Feathered..."
 msgstr "ចតុកោណកែង បាន​ដាក់ស្លាប... "
 
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:132
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:134
 msgid "Create a rectangular brush with feathered edges"
 msgstr "បង្កើត​ច្រាស​រាង​ចតុកោណកែង​ដែល​មានគែម​បាន​ដាក់​ស្លាប"
 
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:140
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:265
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:142
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:267
 msgid "Feathering"
 msgstr "ការដាក់ស្លាប"
 
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:187
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:189
 msgid "_Elliptical..."
 msgstr "រាង​ពង​ក្រពើ​... "
 
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:188
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:190
 msgid "Create an elliptical brush"
 msgstr "បង្កើត​ច្រាស​រាង​ពងក្រពើ"
 
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:256
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:258
 msgid "Elli_ptical, Feathered..."
 msgstr "រាង​ពងក្រពើ បាន​ដាក់​ស្លាប..."
 
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:257
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:259
 msgid "Create an elliptical brush with feathered edges"
 msgstr "បង្កើត​ច្រាស​រាង​ពង​ក្រពើ​ដែលមាន​គែម​ដែល​បាន​ដាក់​ស្លាប"
 
@@ -1078,47 +1161,47 @@ msgstr "ពណ៌​សូកូឡា"
 msgid "Mottle"
 msgstr "ពណ៌​ចម្រុះ"
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:235
+#: ../plug-ins/script-fu/scripts/palette-export.scm:226
 msgid "Folder for the output file"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:236
+#: ../plug-ins/script-fu/scripts/palette-export.scm:227
 msgid ""
 "The name of the file to create (if a file with this name already exist, it "
 "will be replaced)"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:244
+#: ../plug-ins/script-fu/scripts/palette-export.scm:235
 msgid "The filename you entered is not a suitable name for a file."
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:246
+#: ../plug-ins/script-fu/scripts/palette-export.scm:237
 msgid ""
 "All characters in the name are either white-spaces or characters which can "
 "not appear in filenames."
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:274
+#: ../plug-ins/script-fu/scripts/palette-export.scm:265
 msgid ""
 "Export the active palette as a CSS stylesheet with the color entry name as "
 "their class name, and the color itself as the color attribute"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:300
+#: ../plug-ins/script-fu/scripts/palette-export.scm:291
 msgid "Export the active palette as a PHP dictionary (name => color)"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:332
+#: ../plug-ins/script-fu/scripts/palette-export.scm:323
 msgid "Export the active palette as a Python dictionary (name: color)"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:361
+#: ../plug-ins/script-fu/scripts/palette-export.scm:352
 msgid ""
 "Write all the colors in a palette to a text file, one hexadecimal value per "
 "line (no names)"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:408
+#: ../plug-ins/script-fu/scripts/palette-export.scm:399
 msgid "Export the active palette as a java.util.Hashtable<String, Color>"
 msgstr ""
 
@@ -1137,15 +1220,23 @@ msgstr "បិទភ្ជាប់​មាតិកា​ក្ដារតម
 
 #: ../plug-ins/script-fu/scripts/paste-as-brush.scm:68
 #: ../plug-ins/script-fu/scripts/select-to-brush.scm:141
-msgid "Brush name"
+#, fuzzy
+msgid "_Brush name"
 msgstr "ឈ្មោះ​ច្រាស"
 
 #: ../plug-ins/script-fu/scripts/paste-as-brush.scm:69
 #: ../plug-ins/script-fu/scripts/paste-as-pattern.scm:57
 #: ../plug-ins/script-fu/scripts/select-to-brush.scm:142
 #: ../plug-ins/script-fu/scripts/select-to-pattern.scm:102
-msgid "File name"
+#, fuzzy
+msgid "_File name"
 msgstr "ឈ្មោះ​ឯកសារ"
+
+#: ../plug-ins/script-fu/scripts/paste-as-brush.scm:70
+#: ../plug-ins/script-fu/scripts/select-to-brush.scm:143
+#, fuzzy
+msgid "_Spacing"
+msgstr "ចន្លោះ"
 
 #: ../plug-ins/script-fu/scripts/paste-as-pattern.scm:50
 msgid "New _Pattern..."
@@ -1157,7 +1248,8 @@ msgstr "បិទភ្ជាប់​មាតិកា​ក្ដារតម
 
 #: ../plug-ins/script-fu/scripts/paste-as-pattern.scm:56
 #: ../plug-ins/script-fu/scripts/select-to-pattern.scm:101
-msgid "Pattern name"
+#, fuzzy
+msgid "_Pattern name"
 msgstr "ឈ្មោះ​លំនាំ"
 
 #: ../plug-ins/script-fu/scripts/perspective-shadow.scm:198
@@ -1205,44 +1297,46 @@ msgid "Pixel amount"
 msgstr "ចំនួន​ភីកសែល"
 
 #: ../plug-ins/script-fu/scripts/reverse-layers.scm:42
-msgid "Reverse Layer Order"
+#, fuzzy
+msgid "Reverse Layer _Order"
 msgstr "បញ្ច្រាស​លំដាប់​ស្រទាប់"
 
 #: ../plug-ins/script-fu/scripts/reverse-layers.scm:43
 msgid "Reverse the order of layers in the image"
 msgstr "បញ្ច្រាស​លំដាប់​របស់​ស្រទាប់​នៅ​ក្នុង​រូបភាព"
 
-#: ../plug-ins/script-fu/scripts/ripply-anim.scm:119
+#: ../plug-ins/script-fu/scripts/ripply-anim.scm:69
 msgid "_Rippling..."
 msgstr "_អង្កាញ់..."
 
-#: ../plug-ins/script-fu/scripts/ripply-anim.scm:120
+#: ../plug-ins/script-fu/scripts/ripply-anim.scm:70
+#, fuzzy
 msgid ""
-"Create a multi-layer image by adding a ripple effect to the current image"
+"Create a multi-layer image by adding a ripple effect to the current layer"
 msgstr "បង្កើត​រូបភាព​ដែល​មាន​ច្រើន​ស្រទាប់ ដោយ​បន្ថែម​បែបផែន​អង្កាញ់​ទៅ​រូបភាព​បច្ចុប្បន្ន"
 
-#: ../plug-ins/script-fu/scripts/ripply-anim.scm:127
+#: ../plug-ins/script-fu/scripts/ripply-anim.scm:77
 msgid "Rippling strength"
 msgstr "កម្លាំង​អង្កាញ់"
 
-#: ../plug-ins/script-fu/scripts/ripply-anim.scm:128
+#: ../plug-ins/script-fu/scripts/ripply-anim.scm:78
 #: ../plug-ins/script-fu/scripts/waves-anim.scm:105
 msgid "Number of frames"
 msgstr "ចំនួន​ស៊ុម"
 
-#: ../plug-ins/script-fu/scripts/ripply-anim.scm:129
+#: ../plug-ins/script-fu/scripts/ripply-anim.scm:79
 msgid "Edge behavior"
 msgstr "ឥរិយាបថ​គែម"
 
-#: ../plug-ins/script-fu/scripts/ripply-anim.scm:129
+#: ../plug-ins/script-fu/scripts/ripply-anim.scm:79
 msgid "Wrap"
 msgstr "រុំ"
 
-#: ../plug-ins/script-fu/scripts/ripply-anim.scm:129
+#: ../plug-ins/script-fu/scripts/ripply-anim.scm:79
 msgid "Smear"
 msgstr "ស្នាមប្រឡាក់"
 
-#: ../plug-ins/script-fu/scripts/ripply-anim.scm:129
+#: ../plug-ins/script-fu/scripts/ripply-anim.scm:79
 msgid "Black"
 msgstr "ពណ៌ខ្មៅ"
 
@@ -1296,11 +1390,13 @@ msgid "Round the corners of the current selection"
 msgstr "ជុំវិញ​ជ្រុង​របស់​ជម្រើស​បច្ចុប្បន្ន"
 
 #: ../plug-ins/script-fu/scripts/selection-round.scm:147
-msgid "Radius (%)"
+#, fuzzy
+msgid "R_adius (%)"
 msgstr "កាំ (%)"
 
 #: ../plug-ins/script-fu/scripts/selection-round.scm:148
-msgid "Concave"
+#, fuzzy
+msgid "Co_ncave"
 msgstr "ផត"
 
 #: ../plug-ins/script-fu/scripts/select-to-brush.scm:133
@@ -1327,27 +1423,27 @@ msgstr "ទៅ​លំនាំ..."
 msgid "Convert a selection to a pattern"
 msgstr "បម្លែង​ជម្រើស​ទៅ​ជា​លំនាំ"
 
-#: ../plug-ins/script-fu/scripts/slide.scm:236
+#: ../plug-ins/script-fu/scripts/slide.scm:245
 msgid "_Slide..."
 msgstr "_ស្លាយ..."
 
-#: ../plug-ins/script-fu/scripts/slide.scm:237
+#: ../plug-ins/script-fu/scripts/slide.scm:246
 msgid "Add a slide-film like frame, sprocket holes, and labels to an image"
 msgstr "បន្ថែម​ស៊ុម​ដូច​ជា​ហ្វីល​ស្លាយ រន្ធ​ និង​ស្លាក​ទៅ​រូបភាព"
 
-#: ../plug-ins/script-fu/scripts/slide.scm:244
+#: ../plug-ins/script-fu/scripts/slide.scm:253
 msgid "Text"
 msgstr "អត្ថបទ"
 
-#: ../plug-ins/script-fu/scripts/slide.scm:245
+#: ../plug-ins/script-fu/scripts/slide.scm:254
 msgid "Number"
 msgstr "លេខ"
 
-#: ../plug-ins/script-fu/scripts/slide.scm:246
+#: ../plug-ins/script-fu/scripts/slide.scm:255
 msgid "Font"
 msgstr "ពុម្ពអក្សរ"
 
-#: ../plug-ins/script-fu/scripts/slide.scm:247
+#: ../plug-ins/script-fu/scripts/slide.scm:256
 msgid "Font color"
 msgstr "ពណ៌​ពុម្ពអក្សរ"
 
@@ -1380,13 +1476,12 @@ msgid "Rendering Spyro"
 msgstr "បង្ហាញ Spyro"
 
 #: ../plug-ins/script-fu/scripts/spyrogimp.scm:314
-msgid "_Spyrogimp..."
-msgstr "_Spyrogimp..."
+msgid "_Spyrogimp (older script-fu version)..."
+msgstr ""
 
 #: ../plug-ins/script-fu/scripts/spyrogimp.scm:315
-msgid ""
-"Add Spirographs, Epitrochoids, and Lissajous Curves to the current layer"
-msgstr "បន្ថែមខ្សែកោង Spirographs, Epitrochoids និង Lissajous ទៅ​ស្រទាប់​បច្ចុប្បន្ន"
+msgid "This procedure is deprecated! Use 'plug-in-spyrogimp' instead."
+msgstr ""
 
 #: ../plug-ins/script-fu/scripts/spyrogimp.scm:323
 msgid "Type"
@@ -1497,7 +1592,7 @@ msgstr "ជម្រាល ៖ ធ្មេញ​រណារ​រង្វិ
 msgid "Gradient: Loop Triangle"
 msgstr "ជម្រាល ៖ ត្រីកោណ​រង្វិលជុំ"
 
-#: ../plug-ins/script-fu/scripts/test-sphere.scm:267
+#: ../plug-ins/script-fu/scripts/test-sphere.scm:272
 msgid "_Sphere..."
 msgstr "_ស្វែរ..."
 
@@ -1564,41 +1659,41 @@ msgstr "ប្រវែង​រលក"
 msgid "Invert direction"
 msgstr "បញ្ច្រាស​ទិសដៅ"
 
-#: ../plug-ins/script-fu/scripts/weave.scm:389
+#: ../plug-ins/script-fu/scripts/weave.scm:397
 msgid "_Weave..."
 msgstr "_ត្បាញ..."
 
-#: ../plug-ins/script-fu/scripts/weave.scm:390
+#: ../plug-ins/script-fu/scripts/weave.scm:398
 msgid ""
 "Create a new layer filled with a weave effect to be used as an overlay or "
 "bump map"
 msgstr "បង្កើត​ស្រទាប់​ថ្មី​ដែល​បាន​បំពេញ​ដោយ​បែបផែន​ប្រឌឹត​ដែល​ត្រូវ​ប្រើ​ជា​ផែនទី​រដិបរដុប ឬ​លាប​ទឹក​ប្រាក់"
 
-#: ../plug-ins/script-fu/scripts/weave.scm:397
+#: ../plug-ins/script-fu/scripts/weave.scm:405
 msgid "Ribbon width"
 msgstr "ទទឹង​បន្ទះ​"
 
-#: ../plug-ins/script-fu/scripts/weave.scm:398
+#: ../plug-ins/script-fu/scripts/weave.scm:406
 msgid "Ribbon spacing"
 msgstr "ចន្លោះ​បន្ទះ"
 
-#: ../plug-ins/script-fu/scripts/weave.scm:399
+#: ../plug-ins/script-fu/scripts/weave.scm:407
 msgid "Shadow darkness"
 msgstr "ភាព​ងងឹត​របស់​ស្រមោល"
 
-#: ../plug-ins/script-fu/scripts/weave.scm:400
+#: ../plug-ins/script-fu/scripts/weave.scm:408
 msgid "Shadow depth"
 msgstr "ជម្រៅ​ស្រមោល​"
 
-#: ../plug-ins/script-fu/scripts/weave.scm:401
+#: ../plug-ins/script-fu/scripts/weave.scm:409
 msgid "Thread length"
 msgstr "ប្រវែង​ខ្សែ​ស្រឡាយ"
 
-#: ../plug-ins/script-fu/scripts/weave.scm:402
+#: ../plug-ins/script-fu/scripts/weave.scm:410
 msgid "Thread density"
 msgstr "ដង់ស៊ីតេ​ខ្សែ​ស្រឡាយ"
 
-#: ../plug-ins/script-fu/scripts/weave.scm:403
+#: ../plug-ins/script-fu/scripts/weave.scm:411
 msgid "Thread intensity"
 msgstr "អាំងតង់ស៊ីតេ​ខ្សែ​ស្រឡាយ"
 
@@ -1650,6 +1745,16 @@ msgstr "ទម្លាក់​ស្រមោល​អុហ្វសិត X"
 msgid "Drop shadow Y offset"
 msgstr "ទម្លាក់​ស្រមោល​អុហ្វសិត Y"
 
+#~ msgid "Plug-in _Registry"
+#~ msgstr "​បញ្ជី​ឈ្មោះ​កម្មវិធី​ជំនួយ"
+
+#~ msgid "_Spyrogimp..."
+#~ msgstr "_Spyrogimp..."
+
+#~ msgid ""
+#~ "Add Spirographs, Epitrochoids, and Lissajous Curves to the current layer"
+#~ msgstr "បន្ថែមខ្សែកោង Spirographs, Epitrochoids និង Lissajous ទៅ​ស្រទាប់​បច្ចុប្បន្ន"
+
 #~ msgid "_Misc"
 #~ msgstr "_ផ្សេងៗ"
 
@@ -1673,9 +1778,6 @@ msgstr "ទម្លាក់​ស្រមោល​អុហ្វសិត Y"
 
 #~ msgid "_Effects"
 #~ msgstr "បែបផែន "
-
-#~ msgid "En_hance"
-#~ msgstr "ធ្វើ​ឲ្យ​ប្រសើរ "
 
 #~ msgid "_Light and Shadow"
 #~ msgstr "ពន្លឺ និង​ស្រមោល "

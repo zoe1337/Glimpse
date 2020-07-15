@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2019-03-16 10:14+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-15 00:29+0100\n"
 "PO-Revision-Date: 2018-07-07 14:57+0000\n"
 "Last-Translator: Snehalata B Shirude <snehalata.shirude@gmail.com>\n"
 "Language-Team: Marathi\n"
@@ -20,17 +20,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/tips/gimp-tips.xml.in.h:1
+#, fuzzy
 msgid ""
-"You can get context-sensitive help for most of GIMP's features by pressing "
-"the F1 key at any time. This also works inside the menus."
+"You can get context-sensitive help for most of Glimpse's features by "
+"pressing the F1 key at any time. This also works inside the menus."
 msgstr ""
 "आपण कोणत्याही वेळी F1 हे बटण दाबून गिम्पच्या जवळपास सर्वच संदर्भ-संवेदनशील [काँटेक्स्ट "
 "सेंसिटीव्ह] वैशिष्ट्यांबद्दल मदत मिळवू शकता. याप्रकारे सूचीच्या आत देखील आपणास मदत मिळू शकते."
 
 #: ../data/tips/gimp-tips.xml.in.h:2
+#, fuzzy
 msgid ""
-"GIMP uses layers to let you organize your image. Think of them as a stack of "
-"slides or filters, such that looking through them you see a composite of "
+"Glimpse uses layers to let you organize your image. Think of them as a stack "
+"of slides or filters, such that looking through them you see a composite of "
 "their contents."
 msgstr ""
 "आपणास आपली प्रतिमा नीट आयोजित करता यावी यासाठी गिम्पमध्ये स्तरांचा वापर केला जातो. "
@@ -45,8 +47,9 @@ msgstr ""
 "शकता."
 
 #: ../data/tips/gimp-tips.xml.in.h:4
+#, fuzzy
 msgid ""
-"Saving an image uses XCF, GIMP's native file format (file extension <tt>."
+"Saving an image uses XCF, Glimpse's native file format (file extension <tt>."
 "xcf</tt>). This preserves the layers and many aspects of your work-in-"
 "progress, allowing to work on it again later. Once a project is completed, "
 "you can export it as JPEG, PNG, GIF, etc."
@@ -100,8 +103,9 @@ msgstr ""
 "tt> बटण (किंवा \"पटल ओळखचिन्ह [विंडोज लोगो]\") वापरला जाऊ शकतो."
 
 #: ../data/tips/gimp-tips.xml.in.h:9
+#, fuzzy
 msgid ""
-"You can drag and drop many things in GIMP. For example, dragging a color "
+"You can drag and drop many things in Glimpse. For example, dragging a color "
 "from the toolbox or from a color palette and dropping it into an image will "
 "fill the current selection with that color."
 msgstr ""
@@ -148,8 +152,9 @@ msgstr ""
 "पर्यायांचाही वापर करता येईल."
 
 #: ../data/tips/gimp-tips.xml.in.h:14
+#, fuzzy
 msgid ""
-"GIMP supports gzip compression on the fly. Just add <tt>.gz</tt> (or <tt>."
+"Glimpse supports gzip compression on the fly. Just add <tt>.gz</tt> (or <tt>."
 "bz2</tt>, if you have bzip2 installed) to the filename and your image will "
 "be saved compressed. Of course loading compressed images works too."
 msgstr ""
@@ -219,12 +224,13 @@ msgstr ""
 "अदलाबदल [टॉगल] करू शकता किंवा त्याला एका निवडीमध्ये रूपांतरीत करू शकता."
 
 #: ../data/tips/gimp-tips.xml.in.h:21
+#, fuzzy
 msgid ""
 "After you enabled &quot;Dynamic Keyboard Shortcuts&quot; in the Preferences "
 "dialog, you can reassign shortcut keys. Do so by bringing up the menu, "
 "selecting a menu item, and pressing the desired key combination. If &quot;"
 "Save Keyboard Shortcuts&quot; is enabled, the key bindings are saved when "
-"you exit GIMP. You should probably disable &quot;Dynamic Keyboard "
+"you exit Glimpse. You should probably disable &quot;Dynamic Keyboard "
 "Shortcuts&quot; afterwards, to prevent accidentally assigning/reassigning "
 "shortcuts."
 msgstr ""
@@ -276,16 +282,17 @@ msgid ""
 "with the eyedropper tool sets the background color instead of the foreground "
 "color."
 msgstr ""
-"कुंचल्याने रंग भरण्याच्या साधनासह <tt>Ctrl</tt>- क्लिक केल्यास अग्रभाग रंगांऐवजी पृष्ठभाग रंग वापरला "
-"जाईल. त्याचप्रमाणे, आयड्रॉपर साधनांसह <tt>Ctrl</tt>- क्लिक केल्यास अग्रभाग रंगाऐवजी "
-"पृष्ठभाग रंग सेट होईल."
+"कुंचल्याने रंग भरण्याच्या साधनासह <tt>Ctrl</tt>- क्लिक केल्यास अग्रभाग रंगांऐवजी पृष्ठभाग "
+"रंग वापरला जाईल. त्याचप्रमाणे, आयड्रॉपर साधनांसह <tt>Ctrl</tt>- क्लिक केल्यास अग्रभाग "
+"रंगाऐवजी पृष्ठभाग रंग सेट होईल."
 
 #: ../data/tips/gimp-tips.xml.in.h:27
 msgid ""
 "<tt>Ctrl</tt>-drag with the Rotate tool will constrain the rotation to 15 "
 "degree angles."
 msgstr ""
-"कोनात फिरवणे साधनासह [रोटेट टूल] <tt>Ctrl</tt>-ड्रॅग केल्यास प्रतिमा १५ अंश कोनात फिरेल."
+"कोनात फिरवणे साधनासह [रोटेट टूल] <tt>Ctrl</tt>-ड्रॅग केल्यास प्रतिमा १५ अंश कोनात "
+"फिरेल."
 
 #: ../data/tips/gimp-tips.xml.in.h:28
 msgid ""

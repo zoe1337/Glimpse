@@ -206,7 +206,7 @@ gimp_critical_dialog_constructed (GObject *object)
                               NULL);
 
       /* Recommend an update. */
-      text = g_strdup_printf (_("A new version of GIMP (%s) was released on %s.\n"
+      text = g_strdup_printf (_("A new version of Glimpse (%s) was released on %s.\n"
                                 "It is recommended to update."),
                               dialog->last_version, dialog->release_date);
       gtk_label_set_text (GTK_LABEL (dialog->center_label), text);
@@ -235,7 +235,7 @@ gimp_critical_dialog_constructed (GObject *object)
                               " \xe2\x80\xa2 %s\n"
                               " \xe2\x80\xa2 %s\n"
                               " \xe2\x80\xa2 %s",
-                              _("To help us improve GIMP, you can report the bug with "
+                              _("To help us improve Glimpse, you can report the bug with "
                                 "these simple steps:"),
                               _("Copy the bug information to the clipboard by clicking: "),
                               BUTTON1_TEXT,
@@ -245,8 +245,8 @@ gimp_critical_dialog_constructed (GObject *object)
                               _("Paste the clipboard text in a new bug report."),
                               _("Add relevant information in English in the bug report "
                                 "explaining what you were doing when this error occurred."),
-                              _("This error may have left GIMP in an inconsistent state. "
-                                "It is advised to save your work and restart GIMP."));
+                              _("This error may have left Glimpse in an inconsistent state. "
+                                "It is advised to save your work and restart Glimpse."));
       gtk_label_set_text (GTK_LABEL (dialog->center_label), text);
       g_free (text);
 

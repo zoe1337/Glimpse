@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-05 23:59+0100\n"
+"POT-Creation-Date: 2020-07-15 00:28+0100\n"
 "PO-Revision-Date: 2020-01-06 10:58+0100\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
 "Language-Team: gimp.linux.it\n"
@@ -681,49 +681,65 @@ msgstr "Opacità"
 msgid "Allow resizing"
 msgstr "Permetti il ridimensionamento"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:41
-msgid "_Erase Every Other Row..."
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:42
+#, fuzzy
+msgid "_Erase Every Nth Row..."
 msgstr "Canc_ella ogni altra riga..."
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:42
-msgid "Erase every other row or column"
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:43
+#, fuzzy
+msgid "Erase every nth row or column"
 msgstr "Cancella una riga o colonna sì e una no"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Rows/cols"
 msgstr "Righe/colonne"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Rows"
 msgstr "Righe"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Columns"
 msgstr "Colonne"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
-msgid "Even/odd"
-msgstr "Pari/dispari"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
-msgid "Even"
-msgstr "Pari"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
-msgid "Odd"
-msgstr "dispari"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:51
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Erase/fill"
 msgstr "Cancella/riempi"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:51
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Erase"
 msgstr "Cancella"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:51
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Fill with BG"
 msgstr "Riempi con lo sfondo"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:57
+msgid "_Erase Every Other Row..."
+msgstr "Canc_ella ogni altra riga..."
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:58
+msgid "Erase every other row or column"
+msgstr "Cancella una riga o colonna sì e una no"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Even/odd"
+msgstr "Pari/dispari"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Even"
+msgstr "Pari"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Odd"
+msgstr "dispari"
 
 #: ../plug-ins/script-fu/scripts/font-map.scm:152
 msgid "Render _Font Map..."
@@ -853,21 +869,26 @@ msgid "_Main Web Site"
 msgstr "Sito Web _principale"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GNU Image Manipulation Program web site"
+#, fuzzy
+msgid "Bookmark to the Glimpse web site"
 msgstr "Segnalibro al sito web di GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
 msgid "_Developer Web Site"
 msgstr "Sito web _degli sviluppatori"
 
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:204
+#, fuzzy
+msgid "Bookmark to the Glimpse Github project"
+msgstr "Segnalibro al wiki di GIMP"
+
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:216
 msgid "_Roadmap"
 msgstr "Tabella di ma_rcia"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217
-msgid "Bookmark to the roadmap of GIMP"
+#, fuzzy
+msgid "Bookmark to the roadmap of Glimpse"
 msgstr "Segnalibro alla tabella di marcia di GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:229
@@ -875,7 +896,8 @@ msgid "_Wiki"
 msgstr "_Wiki"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:230
-msgid "Bookmark to the wiki of GIMP"
+#, fuzzy
+msgid "Bookmark to the wiki of Glimpse"
 msgstr "Segnalibro al wiki di GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:242
@@ -883,12 +905,17 @@ msgid "_Bug Reports and Feature Requests"
 msgstr "_Rapporti difetti e richieste di funzionalità"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:243
-msgid "Bookmark to the bug tracker of GIMP"
+#, fuzzy
+msgid "Bookmark to the bug tracker of Glimpse"
 msgstr "Segnalibro alla segnalazione difetti di GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
 msgid "_Online User Manual (GNU I.M.P)"
 msgstr "Sito Web del manuale _utente"
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:256
+msgid "Bookmark to the GNU Image Manipulation Program web site"
+msgstr "Segnalibro al sito web di GIMP"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69
 msgid "Custom _Gradient..."

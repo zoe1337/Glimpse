@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp_script_fu.head.pot\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2014-05-03 22:00+1200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-15 00:28+0100\n"
 "PO-Revision-Date: 2007-06-19 12:36+0530\n"
 "Last-Translator: yumkee lhamo <yumkeyl08@hotmail.com>\n"
 "Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
@@ -37,63 +37,63 @@ msgstr "ཐག་རིང་གི་ ཨིསི་ཀིརིཔིཊི�
 msgid "_Start Server..."
 msgstr "སར་བར་འགོ་བཙུགས...(_S)"
 
-#: ../plug-ins/script-fu/script-fu.c:307
+#: ../plug-ins/script-fu/script-fu.c:306
 msgid "_Glimpse online"
 msgstr "ཇི་ཨའི་ཨེམ་པི་ གློག་ཐོག་ལམ་ཐོག་ལུ།(_G)"
 
-#: ../plug-ins/script-fu/script-fu.c:308
+#: ../plug-ins/script-fu/script-fu.c:307
 msgid "_User Manual"
 msgstr "ལག་ལེན་པའི་ལག་ཐོག(_U)"
 
-#: ../plug-ins/script-fu/script-fu.c:311
+#: ../plug-ins/script-fu/script-fu.c:310
 msgid "_Script-Fu"
 msgstr "ཨིསི་ཀིརིཔིཊི་-ཕུ།(_S)"
 
-#: ../plug-ins/script-fu/script-fu.c:313
+#: ../plug-ins/script-fu/script-fu.c:312
 msgid "_Test"
 msgstr "བརྟག་ཞིབ།(_T)"
 
-#: ../plug-ins/script-fu/script-fu.c:316
+#: ../plug-ins/script-fu/script-fu.c:315
 msgid "_Buttons"
 msgstr "ཨེབ་རྟ་ཚུ།(_B)"
 
-#: ../plug-ins/script-fu/script-fu.c:318
+#: ../plug-ins/script-fu/script-fu.c:317
 msgid "_Logos"
 msgstr "ལས་རྟགས་ཚུ།(_L)"
 
-#: ../plug-ins/script-fu/script-fu.c:320
+#: ../plug-ins/script-fu/script-fu.c:319
 msgid "_Patterns"
 msgstr "དཔེ་གཞི་ཚུ།(_P)"
 
-#: ../plug-ins/script-fu/script-fu.c:323
+#: ../plug-ins/script-fu/script-fu.c:322
 msgid "_Web Page Themes"
 msgstr "ཝེབ་ཤོག་ལེབ་ཀྱི་བརྗོད་དོན་ཚུ།(_W)"
 
-#: ../plug-ins/script-fu/script-fu.c:325
+#: ../plug-ins/script-fu/script-fu.c:324
 msgid "_Alien Glow"
 msgstr "ཨེ་ལིན་དམར་མདངས།(_A)"
 
-#: ../plug-ins/script-fu/script-fu.c:327
+#: ../plug-ins/script-fu/script-fu.c:326
 msgid "_Beveled Pattern"
 msgstr "སེར་ཁ་བཟོ་བཟོཝ་བའི་དཔེ་གཞི།(_B)"
 
-#: ../plug-ins/script-fu/script-fu.c:329
+#: ../plug-ins/script-fu/script-fu.c:328
 msgid "_Classic.Gimp.Org"
 msgstr "སྔོན་སྲོལ་ཇི་ཨའེ་ཨེམ་པི་ལས་སྡེ།(_O)"
 
-#: ../plug-ins/script-fu/script-fu.c:332
+#: ../plug-ins/script-fu/script-fu.c:331
 msgid "Alpha to _Logo"
 msgstr "ཨཱལ་ཕ་ལས་ལས་རྟགས་ཚུན།(_L)"
 
-#: ../plug-ins/script-fu/script-fu.c:335
+#: ../plug-ins/script-fu/script-fu.c:334
 msgid "Re-read all available Script-Fu scripts"
 msgstr "འཐོམ་ཆོག་ཆོག་ཡོད་པའི་ ཨིསི་ཀིརིཔིཊི་-ཕུ་ ཨིསི་ཀིརིཔིཊིསི་ཆ་མཉམ་རང་ ལོག་ལྷག"
 
-#: ../plug-ins/script-fu/script-fu.c:340
+#: ../plug-ins/script-fu/script-fu.c:339
 msgid "_Refresh Scripts"
 msgstr "ཡིག་ཚུགས་ཚུ་ཡང་སེལ་འབད།(_R)"
 
-#: ../plug-ins/script-fu/script-fu.c:363
+#: ../plug-ins/script-fu/script-fu.c:362
 msgid ""
 "You can not use \"Refresh Scripts\" while a Script-Fu dialog box is open.  "
 "Please close all Script-Fu windows and try again."
@@ -102,35 +102,60 @@ msgstr ""
 "མི་ཚུགསཔ་ཨིན། ཁྱོད་ཀྱིས་ ཨིསི་ཀིརིཔིཊི་-ཕུ་ཝིན་ཌོསི་ཆ་མཉམ་རང་ཁ་བསྡམས་ཏེ་ ལོག་སྟེ་རང་འབད་རྩོལ་བསྐྱེད་"
 "གནང་།"
 
-#: ../plug-ins/script-fu/script-fu-console.c:130
-#: ../plug-ins/script-fu/script-fu-console.c:197
+#: ../plug-ins/script-fu/script-fu-console.c:127
+#: ../plug-ins/script-fu/script-fu-console.c:194
 msgid "Script-Fu Console"
 msgstr "ཨིསི་ཀིརིཔིཊི་ཕུ་མ་སྒྲོམ།"
 
-#: ../plug-ins/script-fu/script-fu-console.c:193
+#: ../plug-ins/script-fu/script-fu-console.c:132
+#: ../plug-ins/script-fu/script-fu-console.c:293
+msgid "_Save"
+msgstr ""
+
+#: ../plug-ins/script-fu/script-fu-console.c:133
+msgid "C_lear"
+msgstr ""
+
+#: ../plug-ins/script-fu/script-fu-console.c:134
+#: ../plug-ins/script-fu/script-fu-console.c:371
+msgid "_Close"
+msgstr ""
+
+#: ../plug-ins/script-fu/script-fu-console.c:190
 msgid "Welcome to TinyScheme"
 msgstr "འཆར་ལས་ཕྲ་བ་ལུ་ བྱོན་པ་ལེགས་སོ། "
 
-#: ../plug-ins/script-fu/script-fu-console.c:199
+#: ../plug-ins/script-fu/script-fu-console.c:196
 msgid "Interactive Scheme Development"
 msgstr "ཕན་ཚུན་འབྲེལ་ལྡན་འཆར་ལས་གོང་འཕེལ། "
 
-#: ../plug-ins/script-fu/script-fu-console.c:235
+#: ../plug-ins/script-fu/script-fu-console.c:232
 msgid "_Browse..."
 msgstr "བརྡ་འཚོལ...(_B)"
 
-#: ../plug-ins/script-fu/script-fu-console.c:293
+#: ../plug-ins/script-fu/script-fu-console.c:288
 msgid "Save Script-Fu Console Output"
 msgstr "ཨིསི་ཀིརིཔིཊི་-ཕུ་མ་སྒྲོམ་ ཨའུཊི་པུཊི་སྲུངས་བཞག "
 
-#: ../plug-ins/script-fu/script-fu-console.c:340
+#: ../plug-ins/script-fu/script-fu-console.c:292
+#: ../plug-ins/script-fu/script-fu-interface.c:236
+#: ../plug-ins/script-fu/script-fu-server.c:836
+#, fuzzy
+msgid "_Cancel"
+msgstr "གོང་སྤེལ།(_h)"
+
+#: ../plug-ins/script-fu/script-fu-console.c:337
 #, c-format
 msgid "Could not open '%s' for writing: %s"
 msgstr "'%s' འདི་འབྲི་ནིའི་དོན་ལུ་ ཁ་ཕྱེ་མ་ཚུགས།: %s"
 
-#: ../plug-ins/script-fu/script-fu-console.c:369
+#: ../plug-ins/script-fu/script-fu-console.c:366
 msgid "Script-Fu Procedure Browser"
 msgstr "ཨིསི་ཀིརིཔིཊི-ཕུ་བྱ་སྒོའི་ལམ་ལུགས་ཀྱི་བརའུ་ཟར།"
+
+#: ../plug-ins/script-fu/script-fu-console.c:370
+msgid "_Apply"
+msgstr ""
 
 #: ../plug-ins/script-fu/script-fu-eval.c:60
 msgid "Script-Fu evaluation mode only allows non-interactive invocation"
@@ -138,61 +163,69 @@ msgstr ""
 "ཨིསི་ཀིརིཔིཊི-ཕུ་ བརྟག་ཞིབ་ཐབས་ལམ་འདི་གིས་ ཕན་ཚུན་འབྲེལ་ལྡན་མ་ཡིན་པའི་ལས་བཀོལ་རྐྱངམ་ཅིག་འབད་བཅུགཔ་"
 "ཨིན།"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:198
+#: ../plug-ins/script-fu/script-fu-interface.c:200
 msgid "Script-Fu cannot process two scripts at the same time."
 msgstr "ཨིསི་ཀིརིཔིཊི་-ཕུ་གིས་ ཚར་ཅིག་གུ་ཡིག་ཚུགས་གཉིས་ལས་སྦྱོར་འབད་མི་ཚུགས།"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:200
+#: ../plug-ins/script-fu/script-fu-interface.c:202
 #, c-format
 msgid "You are already running the \"%s\" script."
 msgstr "ཁྱོད་ཀྱིས་ ཧེ་མ་ལས་ \"%s\" ཡིག་ཚུགས་འདི་གཡོག་བཀོལ་བའི་བསྒང་ཨིན་པས།"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:226
+#: ../plug-ins/script-fu/script-fu-interface.c:228
 #, c-format
 msgid "Script-Fu: %s"
 msgstr "ཨིསི་ཀིརིཔིཊི་-ཕུ།: %s"
 
+#: ../plug-ins/script-fu/script-fu-interface.c:235
+msgid "_Reset"
+msgstr ""
+
+#: ../plug-ins/script-fu/script-fu-interface.c:237
+msgid "_OK"
+msgstr ""
+
 #. we add a colon after the label;
 #. *  some languages want an extra space here
 #.
-#: ../plug-ins/script-fu/script-fu-interface.c:290
+#: ../plug-ins/script-fu/script-fu-interface.c:291
 #, c-format
 msgid "%s:"
 msgstr "%s:"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:337
+#: ../plug-ins/script-fu/script-fu-interface.c:341
 msgid "Script-Fu Color Selection"
 msgstr "ཨིསི་ཀིརིཔིཊི་-ཕུ་ ཚོས་གཞི་སེལ་འཐུ།"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:446
+#: ../plug-ins/script-fu/script-fu-interface.c:457
 msgid "Script-Fu File Selection"
 msgstr "ཨིསི་ཀིརིཔིཊི་-ཕུ་གི་ཡིག་སྣོད་སེལ་འཐུ།"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:449
+#: ../plug-ins/script-fu/script-fu-interface.c:460
 msgid "Script-Fu Folder Selection"
 msgstr "ཨིསི་ཀིརིཔིཊི་-ཕུ་གི་ཡིག་སྣོད་སེལ་འཐུ།"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:462
+#: ../plug-ins/script-fu/script-fu-interface.c:473
 msgid "Script-Fu Font Selection"
 msgstr "ཨིསི་ཀིརིཔིཊི་-ཕུ་གི་ཡིག་གཟུགས་སེལ་འཐུ།"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:470
+#: ../plug-ins/script-fu/script-fu-interface.c:481
 msgid "Script-Fu Palette Selection"
 msgstr "ཨིསི་ཀིརིཔིཊི་-ཕུ་གི་པེ་ལེཊི་སེལ་འཐུ།"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:479
+#: ../plug-ins/script-fu/script-fu-interface.c:490
 msgid "Script-Fu Pattern Selection"
 msgstr "ཨིསི་ཀིརིཔིཊི་-ཕུ་ གི་ དཔེ་རིས་སེལ་འཐུ།"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:488
+#: ../plug-ins/script-fu/script-fu-interface.c:499
 msgid "Script-Fu Gradient Selection"
 msgstr "ཨིསི་ཀིརིཔིཊི་-ཕུ་གི་ སྟེགས་རིས་སེལ་འཐུ།"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:497
+#: ../plug-ins/script-fu/script-fu-interface.c:508
 msgid "Script-Fu Brush Selection"
 msgstr "ཨིསི་ཀིརིཔིཊི་-ཕུ་གི་ པྱིར་སེལ་འཐུ།"
 
-#: ../plug-ins/script-fu/script-fu-interface.c:840
+#: ../plug-ins/script-fu/script-fu-interface.c:877
 #, fuzzy, c-format
 msgid "Error while executing %s:"
 msgstr ""
@@ -201,11 +234,11 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../plug-ins/script-fu/script-fu-scripts.c:146
+#: ../plug-ins/script-fu/script-fu-scripts.c:149
 msgid "Too few arguments to 'script-fu-register' call"
 msgstr ""
 
-#: ../plug-ins/script-fu/script-fu-scripts.c:605
+#: ../plug-ins/script-fu/script-fu-scripts.c:648
 #, fuzzy, c-format
 msgid "Error while loading %s:"
 msgstr ""
@@ -214,27 +247,27 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../plug-ins/script-fu/script-fu-server.c:827
+#: ../plug-ins/script-fu/script-fu-server.c:832
 msgid "Script-Fu Server Options"
 msgstr "ཨིསི་ཀིརིཔིཊི་-ཕུ་ སར་བར་གྱི་གདམ་ཁ་ཚུ།"
 
-#: ../plug-ins/script-fu/script-fu-server.c:832
+#: ../plug-ins/script-fu/script-fu-server.c:837
 msgid "_Start Server"
 msgstr "སར་བར་འགོ་བཙུགས།(_S)"
 
-#: ../plug-ins/script-fu/script-fu-server.c:865
+#: ../plug-ins/script-fu/script-fu-server.c:870
 msgid "Listen on IP:"
 msgstr ""
 
-#: ../plug-ins/script-fu/script-fu-server.c:872
+#: ../plug-ins/script-fu/script-fu-server.c:877
 msgid "Server port:"
 msgstr "སར་བར་འདྲེན་ལམ:"
 
-#: ../plug-ins/script-fu/script-fu-server.c:878
+#: ../plug-ins/script-fu/script-fu-server.c:883
 msgid "Server logfile:"
 msgstr "སར་བར་དྲན་དེབ་ཡིག་སྣོད:"
 
-#: ../plug-ins/script-fu/script-fu-server.c:890
+#: ../plug-ins/script-fu/script-fu-server.c:896
 msgid ""
 "Listening on an IP address other than 127.0.0.1 (especially 0.0.0.0) can "
 "allow attackers to remotely execute arbitrary code on this machine."
@@ -244,28 +277,28 @@ msgstr ""
 msgid "Bumpmap"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:185
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:189
 msgid "Add B_evel..."
 msgstr "སེར་ཁ་ཁ་སྐོང་བརྐྱབ།...(_e)"
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:186
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:190
 msgid "Add a beveled border to an image"
 msgstr "གཟུགས་བརྙན་གཅིག་ལུ་ སེར་ཁ་བཟོ་བཟོཝ་བའི་མཐའ་མཚམས་གཅིག་ཁ་སྐོང་བརྐྱབ་"
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:193
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:197
 msgid "Thickness"
 msgstr "སྟུག་ཚད།"
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:194
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:160
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:198
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:163
 #: ../plug-ins/script-fu/scripts/old-photo.scm:104
 #: ../plug-ins/script-fu/scripts/round-corners.scm:143
-#: ../plug-ins/script-fu/scripts/slide.scm:248
+#: ../plug-ins/script-fu/scripts/slide.scm:257
 #: ../plug-ins/script-fu/scripts/spinning-globe.scm:106
 msgid "Work on copy"
 msgstr "འདྲ་བཤུས་གུ་ལཱ་འབད།"
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:195
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:199
 msgid "Keep bump layer"
 msgstr "བཱམཔ་གི་བང་རིམ་བདག་འཛིན་སྦེ་བཞག"
 
@@ -274,27 +307,27 @@ msgstr "བཱམཔ་གི་བང་རིམ་བདག་འཛིན་
 msgid "Border Layer"
 msgstr "མཐའ་མཚམས་ཀྱི་ཚད།"
 
-#: ../plug-ins/script-fu/scripts/addborder.scm:160
+#: ../plug-ins/script-fu/scripts/addborder.scm:162
 msgid "Add _Border..."
 msgstr "མཐའ་བཚབས་བསྡོམས...(_B)"
 
-#: ../plug-ins/script-fu/scripts/addborder.scm:161
+#: ../plug-ins/script-fu/scripts/addborder.scm:163
 msgid "Add a border around an image"
 msgstr "གཟུགས་བརྙེན་གྱི་མཐའ་སྐོར་ལུ་ མཐའ་མཚམས་གཅིག་ཁ་སྐོང་བརྐྱབ།"
 
-#: ../plug-ins/script-fu/scripts/addborder.scm:168
+#: ../plug-ins/script-fu/scripts/addborder.scm:170
 msgid "Border X size"
 msgstr "མཐའ་མཚམས་ཨེགསི་གི་ཚད།"
 
-#: ../plug-ins/script-fu/scripts/addborder.scm:169
+#: ../plug-ins/script-fu/scripts/addborder.scm:171
 msgid "Border Y size"
 msgstr "མཐའ་མཚམས་ཝའི་གི་ཚད།"
 
-#: ../plug-ins/script-fu/scripts/addborder.scm:170
+#: ../plug-ins/script-fu/scripts/addborder.scm:172
 msgid "Border color"
 msgstr "མཐའ་མཚམས་ཚོས་གཞི།"
 
-#: ../plug-ins/script-fu/scripts/addborder.scm:171
+#: ../plug-ins/script-fu/scripts/addborder.scm:173
 msgid "Delta value on color"
 msgstr "ཚོས་གཞི་གུ་ཌེལ་ཊའི་གནས་གོང་།"
 
@@ -332,7 +365,7 @@ msgid "Looped"
 msgstr "འཕྲལ་བཀོལ།"
 
 #. --- false form of "if-1"
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:212
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:217
 #, fuzzy
 msgid ""
 "The Burn-In script needs two layers in total. A foreground layer with "
@@ -341,11 +374,11 @@ msgstr ""
 "Burn-In:བསྡོམས་ནང་ བང་རིམ་གཉིས་དགོས་མཁོ་བས།!\n"
 "བཤུད་བརྙན་དང་ རྒྱབ་གཞི་བང་རིམ་གཅིག་ཁར་ གདོང་གཞི་ཚིག་ཡིག་བང་རིམ།"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:219
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:224
 msgid "B_urn-In..."
 msgstr "ནང་ན་-བཙུགས་སྤྱོད་འབད...(_u)"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:220
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:225
 msgid ""
 "Create intermediate layers to produce an animated 'burn-in' transition "
 "between two layers"
@@ -353,116 +386,116 @@ msgstr ""
 "བང་རིམ་གཉིས་ཀྱི་བར་ 'burn-in' བསྒུལ་བཟོ་འགྱུར་བ་གཅིག་བཟོ་སྟོན་འབད་ནིའི་དོན་ལུ་ བར་མའི་བང་རིམ་ཚུ་"
 "གསར་བསྐྲུན་འབད།"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:227
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:232
 msgid "Glow color"
 msgstr "ཚོས་གཞི་དམར་མདངས།"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:228
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:233
 msgid "Fadeout"
 msgstr "བཀྱག་ཉམས་ནི།"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:229
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:234
 msgid "Fadeout width"
 msgstr "རྒྱ་ཚད་ཀྱི་བཀྱག་ཉམས་ནི།"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:230
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:235
 msgid "Corona width"
 msgstr "ཀོ་རོ་ན་གི་རྒྱ་ཚད།"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:231
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:236
 msgid "After glow"
 msgstr "དམར་མདངས་ཀྱི་ཤུལ་ལས།"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:232
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:237
 msgid "Add glowing"
 msgstr "དམརཔོ་འགྱོ་མི་འདི་ཁ་སྐོང་རྐྱབ།"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:233
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:238
 msgid "Prepare for GIF"
 msgstr "ཇི་ཨའི་ཨེཕ་གི་དོན་ལུ་གྲ་སྒྱིག་འབད།"
 
-#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:234
+#: ../plug-ins/script-fu/scripts/burn-in-anim.scm:239
 msgid "Speed (pixels/frame)"
 msgstr "མགྱོགས་ཚད།(པིག་སེལ་/གཞི་ཁྲམ་)"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:168
+#: ../plug-ins/script-fu/scripts/carve-it.scm:176
 msgid "Carved Surface"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:169
+#: ../plug-ins/script-fu/scripts/carve-it.scm:177
 #, fuzzy
 msgid "Bevel Shadow"
 msgstr "གྱིབ་མ།"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:170
+#: ../plug-ins/script-fu/scripts/carve-it.scm:178
 #, fuzzy
 msgid "Bevel Highlight"
 msgstr "སེར་ཁ་གི་རྒྱ་ཚད།"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:171
+#: ../plug-ins/script-fu/scripts/carve-it.scm:179
 #, fuzzy
 msgid "Cast Shadow"
 msgstr "གྱིབ་མ་གསར་བསྐྲུན་འབད།"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:172
+#: ../plug-ins/script-fu/scripts/carve-it.scm:180
 msgid "Inset"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:182
+#: ../plug-ins/script-fu/scripts/carve-it.scm:192
 msgid "Stencil C_arve..."
 msgstr "སྣུམ་ཤོག་བརྐོ་ནི...(_a)"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:183
+#: ../plug-ins/script-fu/scripts/carve-it.scm:193
 msgid ""
 "Use the specified drawable as a stencil to carve from the specified image."
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:190
+#: ../plug-ins/script-fu/scripts/carve-it.scm:200
 msgid "Image to carve"
 msgstr "གཟུགས་བརྙན་རྐོ་ནི།"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:191
+#: ../plug-ins/script-fu/scripts/carve-it.scm:201
 msgid "Carve white areas"
 msgstr "མངའ་ཁོངས་དཀརཔ་ཚུ་རྐོ།"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:103
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:93
 #, fuzzy
 msgid "Background"
 msgstr "ཚོས་གཞི་རྒྱབ་གཞི།"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:104
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:94
 msgid "Layer 1"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:105
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:95
 msgid "Layer 2"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:106
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:96
 msgid "Layer 3"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:107
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:97
 #, fuzzy
 msgid "Drop Shadow"
 msgstr "གྱིབ་མ་ བཀོག་བཞག"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:201
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:217
 #, fuzzy
 msgid "Chrome"
 msgstr "ཀོརོམ...(_h)"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:202
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:218
 #: ../plug-ins/script-fu/scripts/xach-effect.scm:68
 #, fuzzy
 msgid "Highlight"
 msgstr "ཚོས་གཞི་གཙོ་རྟགས་བཀལ།"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:214
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:232
 msgid "Stencil C_hrome..."
 msgstr "སྣུམ་ཤོག་གི་ཀོརོམ...(_h)"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:215
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:233
 msgid ""
 "Add a chrome effect to the selected region (or alpha) using a specified "
 "(grayscale) stencil"
@@ -470,100 +503,100 @@ msgstr ""
 "སེལ་འཐུ་གྲུབ་ཡོད་པའི་ལུང་ཕྱོགས་ (ཡང་ན་ ཨཱལ་ཕ་) ལུ་ གསལ་བཀོད་འབད་ཡོད་པའི་ (གེརེ་སིཀེལ་) སྣུམ་ཤོག་ "
 "ལག་ལེན་འཐབ་ཐོག་ལས་ ཀོརོམ་ནུས་པ་ཁ་སྐོང་བརྐྱབ།"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:222
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:240
 msgid "Chrome saturation"
 msgstr "ཀོརོམ་གྱི་མཐའ་ཚད།"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:223
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:241
 msgid "Chrome lightness"
 msgstr "ཀོརོམ་ཡང་བ།"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:224
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:242
 msgid "Chrome factor"
 msgstr "ཀོརོམ་གྱི་ཆ་རྐྱེན།"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:225
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:243
 msgid "Environment map"
 msgstr "མཐའ་འཁོར་གྱི་ས་ཁྲ།"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:228
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:246
 msgid "Highlight balance"
 msgstr "ལྷག་ལུས་འདི་གཙོ་རྟགས་བཀལ།"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:229
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:247
 msgid "Chrome balance"
 msgstr "ཀོརོམ་གྱི་ཚད་སྙོམས།"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:230
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:248
 msgid "Chrome white areas"
 msgstr "ཀོརོམ་གྱི་མངའ་ཁོངས་དཀརཔོ།"
 
-#: ../plug-ins/script-fu/scripts/circuit.scm:81
+#: ../plug-ins/script-fu/scripts/circuit.scm:74
 #, fuzzy
 msgid "Effect layer"
 msgstr "བང་རུམ་འདི་སོ་སོ་ཁ་ཕྱེ།"
 
-#: ../plug-ins/script-fu/scripts/circuit.scm:134
+#: ../plug-ins/script-fu/scripts/circuit.scm:127
 msgid "_Circuit..."
 msgstr "གློག་རྒྱུན...(_C)"
 
-#: ../plug-ins/script-fu/scripts/circuit.scm:135
+#: ../plug-ins/script-fu/scripts/circuit.scm:128
 msgid ""
 "Fill the selected region (or alpha) with traces like those on a circuit board"
 msgstr ""
 "སེལ་འཐུ་གྲུབ་ཡོད་པའི་ལུང་ཕྱོགས་ (ཡང་ན་ ཨཱལ་ཕ་) འདི་ གླིང་སྐོར་ལམ་པང་དེབ་བཟུམ་མའི་རྗེས་བཤུལ་གྱིས་ "
 "བཀང་།"
 
-#: ../plug-ins/script-fu/scripts/circuit.scm:142
+#: ../plug-ins/script-fu/scripts/circuit.scm:135
 msgid "Oilify mask size"
 msgstr "གདོང་ཁེབས་ཀྱི་ཚད་འདི་ཨོའི་ལི་ཕའི་འབད།"
 
-#: ../plug-ins/script-fu/scripts/circuit.scm:143
+#: ../plug-ins/script-fu/scripts/circuit.scm:136
 msgid "Circuit seed"
 msgstr "གློག་རྒྱུན་གྱི་སོན།"
 
-#: ../plug-ins/script-fu/scripts/circuit.scm:144
+#: ../plug-ins/script-fu/scripts/circuit.scm:137
 msgid "No background (only for separate layer)"
 msgstr "རྒྱབ་གཞི་མིན་འདུག(བང་རིམ་སོ་སོ་གི་དོན་ལུ་རྐྱངམ་ཅིག)"
 
-#: ../plug-ins/script-fu/scripts/circuit.scm:145
+#: ../plug-ins/script-fu/scripts/circuit.scm:138
 #: ../plug-ins/script-fu/scripts/lava.scm:129
 #: ../plug-ins/script-fu/scripts/predator.scm:132
 #: ../plug-ins/script-fu/scripts/xach-effect.scm:138
 msgid "Keep selection"
 msgstr "སེལ་འཐུ་འདི་བཞག"
 
-#: ../plug-ins/script-fu/scripts/circuit.scm:146
+#: ../plug-ins/script-fu/scripts/circuit.scm:139
 #: ../plug-ins/script-fu/scripts/lava.scm:130
 #: ../plug-ins/script-fu/scripts/predator.scm:133
 msgid "Separate layer"
 msgstr "བང་རུམ་འདི་སོ་སོ་ཁ་ཕྱེ།"
 
-#: ../plug-ins/script-fu/scripts/clothify.scm:51
+#: ../plug-ins/script-fu/scripts/clothify.scm:52
 msgid "_Clothify..."
 msgstr "ཀོལོ་ཐི་ཕའི...(_C)"
 
-#: ../plug-ins/script-fu/scripts/clothify.scm:52
+#: ../plug-ins/script-fu/scripts/clothify.scm:53
 msgid "Add a cloth-like texture to the selected region (or alpha)"
 msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་ལུང་ཕྱོགས་ (ཡང་ན་ ཨཱལ་ཕ་) ལུ་ རས་ཆ་-བཟུམ་མའི་རེག་བྱ་ཁ་སྐོང་བརྐྱབ།"
 
-#: ../plug-ins/script-fu/scripts/clothify.scm:59
+#: ../plug-ins/script-fu/scripts/clothify.scm:60
 msgid "Blur X"
 msgstr "རབ་རིབ་ཨེགསི།"
 
-#: ../plug-ins/script-fu/scripts/clothify.scm:60
+#: ../plug-ins/script-fu/scripts/clothify.scm:61
 msgid "Blur Y"
 msgstr "རབ་རིབ་ཝའི།"
 
-#: ../plug-ins/script-fu/scripts/clothify.scm:61
+#: ../plug-ins/script-fu/scripts/clothify.scm:62
 msgid "Azimuth"
 msgstr "ཕྱོགས་ཀྱི་ཆ་ཚད།"
 
-#: ../plug-ins/script-fu/scripts/clothify.scm:62
+#: ../plug-ins/script-fu/scripts/clothify.scm:63
 msgid "Elevation"
 msgstr "འདྲུད་སྐས་འབད་ནི།"
 
-#: ../plug-ins/script-fu/scripts/clothify.scm:63
+#: ../plug-ins/script-fu/scripts/clothify.scm:64
 msgid "Depth"
 msgstr "གཏིང་ཚད།"
 
@@ -572,66 +605,73 @@ msgstr "གཏིང་ཚད།"
 msgid "Stain"
 msgstr "དྲི་ནོག"
 
-#: ../plug-ins/script-fu/scripts/coffee.scm:81
+#: ../plug-ins/script-fu/scripts/coffee.scm:82
 msgid "_Coffee Stain..."
 msgstr "ཀོ་ཕི་གི་དྲི་ནོག...(_C)"
 
-#: ../plug-ins/script-fu/scripts/coffee.scm:82
+#: ../plug-ins/script-fu/scripts/coffee.scm:83
 msgid "Add realistic looking coffee stains to the image"
 msgstr "གཟུགས་བརྙན་ལུ་ ཀཱ་ཕི་དྲི་ནོག་དངོས་མཐོང་བ་ཁ་སྐོང་བརྐྱབ།"
 
-#: ../plug-ins/script-fu/scripts/coffee.scm:89
+#: ../plug-ins/script-fu/scripts/coffee.scm:90
 msgid "Stains"
 msgstr "དྲི་ནོག"
 
-#: ../plug-ins/script-fu/scripts/coffee.scm:90
+#: ../plug-ins/script-fu/scripts/coffee.scm:91
 #, fuzzy
 msgid "Darken only"
 msgstr "ཚོས་གཞི་གྲིབ་གནག།"
 
-#: ../plug-ins/script-fu/scripts/difference-clouds.scm:67
-msgid "Difference Clouds..."
+#: ../plug-ins/script-fu/scripts/difference-clouds.scm:70
+#, fuzzy
+msgid "_Difference Clouds..."
 msgstr "ས་སྨུག་ཁྱད་པར..."
 
-#: ../plug-ins/script-fu/scripts/difference-clouds.scm:68
+#: ../plug-ins/script-fu/scripts/difference-clouds.scm:71
 msgid "Solid noise applied with Difference layer mode"
 msgstr "བང་རིམ་ཁྱད་པར་ཐབས་ལམ་དང་ཅིག་ཁར་འཇུག་སྤྱོད་འབད་ཡོད་པའི་རྩུབས་སྒྲ་རགས་པ་"
 
-#: ../plug-ins/script-fu/scripts/distress-selection.scm:102
+#: ../plug-ins/script-fu/scripts/distress-selection.scm:105
 msgid "_Distort..."
 msgstr "ཌི་སོརཊི...(_D)"
 
-#: ../plug-ins/script-fu/scripts/distress-selection.scm:103
+#: ../plug-ins/script-fu/scripts/distress-selection.scm:106
 msgid "Distress the selection"
 msgstr "སེལ་འཐུ་འདི་ ཌིསི་ཊེརེསི་འབད།"
 
-#: ../plug-ins/script-fu/scripts/distress-selection.scm:110
+#: ../plug-ins/script-fu/scripts/distress-selection.scm:113
 #, fuzzy
-msgid "Threshold (bigger 1<-->254 smaller)"
+msgid "_Threshold (bigger 1<-->254 smaller)"
 msgstr "ཐེརེཤ་ཧཱོལ།(སྦོམ་མི་ 1<-->255 ཆུང་མི་)"
 
-#: ../plug-ins/script-fu/scripts/distress-selection.scm:111
-msgid "Spread"
+#: ../plug-ins/script-fu/scripts/distress-selection.scm:114
+#, fuzzy
+msgid "_Spread"
 msgstr "ཁྱབ་གདལ།"
 
-#: ../plug-ins/script-fu/scripts/distress-selection.scm:112
-msgid "Granularity (1 is low)"
+#: ../plug-ins/script-fu/scripts/distress-selection.scm:115
+#, fuzzy
+msgid "_Granularity (1 is low)"
 msgstr "ཟེགས་མ (1འདི་དམའ་བས་)"
 
-#: ../plug-ins/script-fu/scripts/distress-selection.scm:113
-msgid "Smooth"
+#: ../plug-ins/script-fu/scripts/distress-selection.scm:116
+#, fuzzy
+msgid "S_mooth"
 msgstr "ཧུམ་ཁྱུག་ཁྱུ།"
 
-#: ../plug-ins/script-fu/scripts/distress-selection.scm:114
-msgid "Smooth horizontally"
+#: ../plug-ins/script-fu/scripts/distress-selection.scm:117
+#, fuzzy
+msgid "Smooth hor_izontally"
 msgstr "ཐད་སྙོམས་སྦེ་ཧུམ་ཁྱུག་ཁྱུ།"
 
-#: ../plug-ins/script-fu/scripts/distress-selection.scm:115
-msgid "Smooth vertically"
+#: ../plug-ins/script-fu/scripts/distress-selection.scm:118
+#, fuzzy
+msgid "Smooth _vertically"
 msgstr "ཀེར་ཕྲང་ཧུམ་ཁྱུག་ཁྱུ།"
 
 #: ../plug-ins/script-fu/scripts/drop-shadow.scm:170
-msgid "_Drop Shadow..."
+#, fuzzy
+msgid "_Drop Shadow (legacy)..."
 msgstr "གྱིབ་མ་བཀོག་བཞག ...(_D)"
 
 #: ../plug-ins/script-fu/scripts/drop-shadow.scm:171
@@ -653,7 +693,7 @@ msgid "Blur radius"
 msgstr "མཐའ་འཁོར་རབ་རིབ།"
 
 #: ../plug-ins/script-fu/scripts/drop-shadow.scm:181
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:154
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:157
 #: ../plug-ins/script-fu/scripts/perspective-shadow.scm:210
 #: ../plug-ins/script-fu/scripts/spyrogimp.scm:350
 msgid "Color"
@@ -669,49 +709,65 @@ msgstr "དྭངས་སྒྲིབ།"
 msgid "Allow resizing"
 msgstr "ཚད་བསྐྱར་བཟོ་འབད་བཅུག"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:39
-msgid "_Erase Every Other Row..."
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:42
+#, fuzzy
+msgid "_Erase Every Nth Row..."
 msgstr "གྲལ་ཐིག་གཞན་མི་ཚུ་ཆ་མཉམ་རང་ ཀྲེག་གཏང་...(_E)"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:40
-msgid "Erase every other row or column"
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:43
+#, fuzzy
+msgid "Erase every nth row or column"
 msgstr "གྲལ་ཐིག་གཞན་མི་ཚུ་ཆ་མཉམ་རང་ ཀྲེག་གཏང་།"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:47
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Rows/cols"
 msgstr "གྱར་ཐིག་ཚུ་/ཀཱོལསི།"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:47
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Rows"
 msgstr "གྲལ་ཐིག་ཚུ།"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:47
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Columns"
 msgstr "ཀེར་ཐིག"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:48
-msgid "Even/odd"
-msgstr "ཆ་ཅན/ཡ་ཅན།"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:48
-msgid "Even"
-msgstr "ཆ་ཅན།"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:48
-msgid "Odd"
-msgstr "ཡ་ཅན།"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Erase/fill"
 msgstr "ཀྲེག་གཏང་ནི/བཀང་ནི།"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Erase"
 msgstr "ཀྲེག་གཏང་ནི།"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Fill with BG"
 msgstr "བི་ཇི་དང་བཅས་བཀང་།"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:57
+msgid "_Erase Every Other Row..."
+msgstr "གྲལ་ཐིག་གཞན་མི་ཚུ་ཆ་མཉམ་རང་ ཀྲེག་གཏང་...(_E)"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:58
+msgid "Erase every other row or column"
+msgstr "གྲལ་ཐིག་གཞན་མི་ཚུ་ཆ་མཉམ་རང་ ཀྲེག་གཏང་།"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Even/odd"
+msgstr "ཆ་ཅན/ཡ་ཅན།"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Even"
+msgstr "ཆ་ཅན།"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Odd"
+msgstr "ཡ་ཅན།"
 
 #: ../plug-ins/script-fu/scripts/font-map.scm:152
 msgid "Render _Font Map..."
@@ -760,36 +816,36 @@ msgstr "དཀརཔོ་གུ་གནགཔོ།"
 msgid "Active colors"
 msgstr "ཚོས་གཞི་ཤུགས་ལྡན་ཚུ།"
 
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:146
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:149
 msgid "_Fuzzy Border..."
 msgstr "མཐའ་མཚམས་ཕ་ཛི...(_F)"
 
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:147
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:150
 msgid "Add a jagged, fuzzy border to an image"
 msgstr "གཟུགས་བརྙན་གཅིག་ལུ་ རྩེ་རང་རོང་ཡོད་པའི་མི་གསལ་བའི་མཐའ་མཚམས་གཅིག་ཁ་སྐོང་བརྐྱབ།"
 
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:155
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:158
 #: ../plug-ins/script-fu/scripts/old-photo.scm:98
 msgid "Border size"
 msgstr "མཐའ་མཚམས་ཀྱི་ཚད།"
 
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:156
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:159
 msgid "Blur border"
 msgstr "མཐའ་མཚམས་རབ་རིབ།"
 
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:157
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:160
 msgid "Granularity (1 is Low)"
 msgstr "ཟེགས་མ། (1 འདི་དམའ་བས)"
 
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:158
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:161
 msgid "Add shadow"
 msgstr "གྱིབ་མ་ཁ་སྐོང་རྐྱབ།"
 
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:159
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:162
 msgid "Shadow weight (%)"
 msgstr "གྱིབ་མ་གི་ལྗིད་ཚད།"
 
-#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:161
+#: ../plug-ins/script-fu/scripts/fuzzyborder.scm:164
 msgid "Flatten image"
 msgstr "གཟུགས་བརྙན་ལེབ་ཏེམ་བཟོ།"
 
@@ -836,54 +892,80 @@ msgstr "དངོས་པོ་འཇམ་སམ་ཚུ་འབྲི་ན
 msgid "Create and Use _Selections"
 msgstr "སེལ་འཐུ་ཚུ་གསར་བསྐྲུན་འབད་བཞིནམ་ལས་ལག་ལེན་འཐབ།(_S)"
 
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:178
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:190
 msgid "_Main Web Site"
 msgstr "ཝེབ་ས་ཁོངས་ངོ་མ།(_M)"
 
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:179
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:192
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:205
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:218
-msgid "Bookmark to the GNU Image Manipulation Program web site"
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:191
+#, fuzzy
+msgid "Bookmark to the Glimpse web site"
 msgstr "ཇི་ཨའི་ཨེམ་པི་ ཝེབ་ས་ཁོངས་ལུ་ དེབ་རྟགས་བཀལ།"
 
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:191
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:203
 msgid "_Developer Web Site"
 msgstr "ཝེབ་ས་ཁོངས་ཀྱི་བཟོ་མི།(_D)"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
+msgid "Bookmark to the Glimpse Github project"
+msgstr ""
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:216
+msgid "_Roadmap"
+msgstr ""
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:217
+msgid "Bookmark to the roadmap of Glimpse"
+msgstr ""
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:229
+msgid "_Wiki"
+msgstr ""
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:230
+msgid "Bookmark to the wiki of Glimpse"
+msgstr ""
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:242
+msgid "_Bug Reports and Feature Requests"
+msgstr ""
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:243
+msgid "Bookmark to the bug tracker of Glimpse"
+msgstr ""
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:255
 msgid "_Online User Manual (GNU I.M.P)"
 msgstr "ཝེབ་ས་ཁོངས་ངོ་མ།(_U)"
 
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:217
-msgid "Plug-in _Registry"
-msgstr "པ་ལག་ཨིན་ཐོ་མཛོད།(_R)"
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:256
+msgid "Bookmark to the GNU Image Manipulation Program web site"
+msgstr "ཇི་ཨའི་ཨེམ་པི་ ཝེབ་ས་ཁོངས་ལུ་ དེབ་རྟགས་བཀལ།"
 
-#: ../plug-ins/script-fu/scripts/gradient-example.scm:63
+#: ../plug-ins/script-fu/scripts/gradient-example.scm:69
 msgid "Custom _Gradient..."
 msgstr "སྲོལ་སྒྲིག་ སྟེགས་རིས།...(_G)"
 
-#: ../plug-ins/script-fu/scripts/gradient-example.scm:64
+#: ../plug-ins/script-fu/scripts/gradient-example.scm:70
 msgid "Create an image filled with an example of the current gradient"
 msgstr "ད་ལྟོའི་སྟེགས་རིས་ཀྱི་ དཔེར་བརྗོད་ཀྱིས་བཀང་སྟེ་ཡོད་པའི་གཟུགས་བརྙན་གཅིག་གསར་བསྐྲུན་འབད།"
 
-#: ../plug-ins/script-fu/scripts/gradient-example.scm:69
+#: ../plug-ins/script-fu/scripts/gradient-example.scm:75
 #: ../plug-ins/script-fu/scripts/mkbrush.scm:70
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:138
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:194
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:263
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:140
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:196
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:265
 msgid "Width"
 msgstr "རྒྱ་ཚད།"
 
-#: ../plug-ins/script-fu/scripts/gradient-example.scm:70
+#: ../plug-ins/script-fu/scripts/gradient-example.scm:76
 #: ../plug-ins/script-fu/scripts/mkbrush.scm:71
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:139
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:195
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:264
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:141
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:197
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:266
 msgid "Height"
 msgstr "མཐོ་ཚད།"
 
-#: ../plug-ins/script-fu/scripts/gradient-example.scm:71
+#: ../plug-ins/script-fu/scripts/gradient-example.scm:77
 msgid "Gradient reverse"
 msgstr "སྟེགས་རིས་རིམ་ལོག"
 
@@ -925,7 +1007,8 @@ msgstr "གཟུགས་བརྙན་ཚད་ཀྱི་བརྒྱ་ཆ
 
 #: ../plug-ins/script-fu/scripts/guides-new-percent.scm:35
 #: ../plug-ins/script-fu/scripts/guides-new.scm:35
-msgid "Direction"
+#, fuzzy
+msgid "_Direction"
 msgstr "བཀོད་རྒྱ།"
 
 #: ../plug-ins/script-fu/scripts/guides-new-percent.scm:35
@@ -939,7 +1022,8 @@ msgid "Vertical"
 msgstr "ཀེར་ཕྲང་།"
 
 #: ../plug-ins/script-fu/scripts/guides-new-percent.scm:37
-msgid "Position (in %)"
+#, fuzzy
+msgid "_Position (in %)"
 msgstr "གནས་ས། (ནང་ན།%)"
 
 #: ../plug-ins/script-fu/scripts/guides-new.scm:27
@@ -951,7 +1035,8 @@ msgid "Add a guide at the orientation and position specified (in pixels)"
 msgstr "གསལ་བཀོད་འབད་ཡོད་པའི་གནས་ས་དང་ཕྱོགས་གུ་ལུ་(པིག་སེལསི་) ལམ་སྟོན་པ་ཁ་སྐོང་བརྐྱབ།"
 
 #: ../plug-ins/script-fu/scripts/guides-new.scm:36
-msgid "Position"
+#, fuzzy
+msgid "_Position"
 msgstr "གནས་ས།"
 
 #: ../plug-ins/script-fu/scripts/guides-remove-all.scm:19
@@ -991,30 +1076,30 @@ msgstr "སྟེགས་རིས།"
 msgid "Use current gradient"
 msgstr "ད་ལྟོའི་སྟེགས་རིས་འདི་ལག་ལེན་འཐབ།"
 
-#: ../plug-ins/script-fu/scripts/line-nova.scm:106
+#: ../plug-ins/script-fu/scripts/line-nova.scm:108
 msgid "Line _Nova..."
 msgstr "གྲལ་ཐིག་ནོ་བ...(_N)"
 
-#: ../plug-ins/script-fu/scripts/line-nova.scm:107
+#: ../plug-ins/script-fu/scripts/line-nova.scm:109
 #, fuzzy
 msgid ""
 "Fill a layer with rays emanating outward from its center using the "
 "foreground color"
 msgstr "ཨེཕ་ཇི་ཚོད་གཞི་ལག་ལེན་འཐབ་ཐོག་ལས་ དེའི་དབུས་ལས་ཕྱི་ཁར་འཕྲོ་བའི་འོད་ཀྱིས་བང་རིམ་བཀང་། "
 
-#: ../plug-ins/script-fu/scripts/line-nova.scm:114
+#: ../plug-ins/script-fu/scripts/line-nova.scm:116
 msgid "Number of lines"
 msgstr "གྲལ་ཐིག་ཚུ་གི་ཨང་གྲངས།"
 
-#: ../plug-ins/script-fu/scripts/line-nova.scm:115
+#: ../plug-ins/script-fu/scripts/line-nova.scm:117
 msgid "Sharpness (degrees)"
 msgstr "རྣོན་པ་ཅན།(དབྱེ་རིམ་ཚུ་)"
 
-#: ../plug-ins/script-fu/scripts/line-nova.scm:116
+#: ../plug-ins/script-fu/scripts/line-nova.scm:118
 msgid "Offset radius"
 msgstr "པར་ལེན་མཐའ་འཁོར།"
 
-#: ../plug-ins/script-fu/scripts/line-nova.scm:117
+#: ../plug-ins/script-fu/scripts/line-nova.scm:119
 msgid "Randomness"
 msgstr "གང་འབྱུང་འབད།"
 
@@ -1027,47 +1112,45 @@ msgid "Create a rectangular brush"
 msgstr "པྱིར་གྲུ་བཞི་ནར་མོ་ཅན་གཅིག་གསར་བསྐྲུན་འབད།"
 
 #: ../plug-ins/script-fu/scripts/mkbrush.scm:69
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:137
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:193
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:262
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:139
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:195
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:264
 msgid "Name"
 msgstr "མིང་།"
 
 #: ../plug-ins/script-fu/scripts/mkbrush.scm:72
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:141
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:196
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:266
-#: ../plug-ins/script-fu/scripts/paste-as-brush.scm:70
-#: ../plug-ins/script-fu/scripts/select-to-brush.scm:143
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:143
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:198
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:268
 msgid "Spacing"
 msgstr "བར་སྟོང་བཞག་ཐང་།"
 
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:131
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:133
 msgid "Re_ctangular, Feathered..."
 msgstr "གྲུ་གཞི་ནར་མོ་ཅན་གསརཔ་འདི་ སྒྲོ་ལྡན...(_c)"
 
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:132
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:134
 msgid "Create a rectangular brush with feathered edges"
 msgstr "སྒྲོ་ལྡན་མཐའམ་ཚུ་དང་གཅིག་ཁར་ གྲུ་བཞི་ནར་མོ་ཅན་པྱིར་གཅིག་གསར་བསྐྲུན་འབད།"
 
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:140
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:265
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:142
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:267
 msgid "Feathering"
 msgstr "མདའ་སྒྲོ།"
 
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:187
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:189
 msgid "_Elliptical..."
 msgstr "སྒོང་དབྱིབས་ཅན།...(_E)"
 
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:188
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:190
 msgid "Create an elliptical brush"
 msgstr "སྒོང་དབྱིབས་ཅན་པྱིར་གཅིག་གསར་བསྐྲུན་འབད།"
 
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:256
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:258
 msgid "Elli_ptical, Feathered..."
 msgstr "སྒོང་དབྱིབས་ཅན་གསརཔ་ སྒྲོ་ལྡན...(_p)"
 
-#: ../plug-ins/script-fu/scripts/mkbrush.scm:257
+#: ../plug-ins/script-fu/scripts/mkbrush.scm:259
 msgid "Create an elliptical brush with feathered edges"
 msgstr "སྒྲོ་ལྡན་མཐའམ་ཚུ་དང་གཅིག་ཁར་ པྱིར་སྒོང་དབྱིབས་ཅན་གཅིག་གསར་བསྐྲུན་འབད།"
 
@@ -1094,47 +1177,47 @@ msgstr "ཉ་ཚོན།"
 msgid "Mottle"
 msgstr "ཐིག་ཁྲ་ཅན།"
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:235
+#: ../plug-ins/script-fu/scripts/palette-export.scm:226
 msgid "Folder for the output file"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:236
+#: ../plug-ins/script-fu/scripts/palette-export.scm:227
 msgid ""
 "The name of the file to create (if a file with this name already exist, it "
 "will be replaced)"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:244
+#: ../plug-ins/script-fu/scripts/palette-export.scm:235
 msgid "The filename you entered is not a suitable name for a file."
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:246
+#: ../plug-ins/script-fu/scripts/palette-export.scm:237
 msgid ""
 "All characters in the name are either white-spaces or characters which can "
 "not appear in filenames."
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:274
+#: ../plug-ins/script-fu/scripts/palette-export.scm:265
 msgid ""
 "Export the active palette as a CSS stylesheet with the color entry name as "
 "their class name, and the color itself as the color attribute"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:300
+#: ../plug-ins/script-fu/scripts/palette-export.scm:291
 msgid "Export the active palette as a PHP dictionary (name => color)"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:332
+#: ../plug-ins/script-fu/scripts/palette-export.scm:323
 msgid "Export the active palette as a Python dictionary (name: color)"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:361
+#: ../plug-ins/script-fu/scripts/palette-export.scm:352
 msgid ""
 "Write all the colors in a palette to a text file, one hexadecimal value per "
 "line (no names)"
 msgstr ""
 
-#: ../plug-ins/script-fu/scripts/palette-export.scm:408
+#: ../plug-ins/script-fu/scripts/palette-export.scm:399
 msgid "Export the active palette as a java.util.Hashtable<String, Color>"
 msgstr ""
 
@@ -1153,15 +1236,23 @@ msgstr "པྱིར་གསརཔ་ནང་ན་ལུ་ འཛིན་�
 
 #: ../plug-ins/script-fu/scripts/paste-as-brush.scm:68
 #: ../plug-ins/script-fu/scripts/select-to-brush.scm:141
-msgid "Brush name"
+#, fuzzy
+msgid "_Brush name"
 msgstr "མིང་པྱིར་བཏང་།"
 
 #: ../plug-ins/script-fu/scripts/paste-as-brush.scm:69
 #: ../plug-ins/script-fu/scripts/paste-as-pattern.scm:57
 #: ../plug-ins/script-fu/scripts/select-to-brush.scm:142
 #: ../plug-ins/script-fu/scripts/select-to-pattern.scm:102
-msgid "File name"
+#, fuzzy
+msgid "_File name"
 msgstr "ཡིག་སྣོད་ཀྱི་མིང་།"
+
+#: ../plug-ins/script-fu/scripts/paste-as-brush.scm:70
+#: ../plug-ins/script-fu/scripts/select-to-brush.scm:143
+#, fuzzy
+msgid "_Spacing"
+msgstr "བར་སྟོང་བཞག་ཐང་།"
 
 #: ../plug-ins/script-fu/scripts/paste-as-pattern.scm:50
 msgid "New _Pattern..."
@@ -1173,7 +1264,8 @@ msgstr "འཛིན་པང་ནང་དོན་ཚུ་ དཔེ་ག�
 
 #: ../plug-ins/script-fu/scripts/paste-as-pattern.scm:56
 #: ../plug-ins/script-fu/scripts/select-to-pattern.scm:101
-msgid "Pattern name"
+#, fuzzy
+msgid "_Pattern name"
 msgstr "དཔེ་རིས་ཀྱི་མིང་།"
 
 #: ../plug-ins/script-fu/scripts/perspective-shadow.scm:198
@@ -1221,46 +1313,48 @@ msgid "Pixel amount"
 msgstr "པིག་སེལསི་གི་མང་ཉུང་།"
 
 #: ../plug-ins/script-fu/scripts/reverse-layers.scm:42
-msgid "Reverse Layer Order"
+#, fuzzy
+msgid "Reverse Layer _Order"
 msgstr "བང་རིམ་རིམ་པ་རིམ་ལོག་འབད་"
 
 #: ../plug-ins/script-fu/scripts/reverse-layers.scm:43
 msgid "Reverse the order of layers in the image"
 msgstr "བང་རིམ་ཚུ་གི་རིམ་པ་འདི་གཟུགས་བརྙན་ནང་ལུ་རིམ་ལོག་འབད་"
 
-#: ../plug-ins/script-fu/scripts/ripply-anim.scm:119
+#: ../plug-ins/script-fu/scripts/ripply-anim.scm:69
 msgid "_Rippling..."
 msgstr "རིཔ་ལིང་...(_R)"
 
-#: ../plug-ins/script-fu/scripts/ripply-anim.scm:120
+#: ../plug-ins/script-fu/scripts/ripply-anim.scm:70
+#, fuzzy
 msgid ""
-"Create a multi-layer image by adding a ripple effect to the current image"
+"Create a multi-layer image by adding a ripple effect to the current layer"
 msgstr ""
 "ད་ལྟོའི་གཟུགས་བརྙན་ལུ་ ཆུ་རླབས་ནུས་པ་ཁ་སྐོང་བརྐྱབ་པའི་ཐོག་ལས་ གཟུགས་བརྙན་ བང་རིམ་-སྣ་མང་གསར་བསྐྲུན་"
 "འབད།"
 
-#: ../plug-ins/script-fu/scripts/ripply-anim.scm:127
+#: ../plug-ins/script-fu/scripts/ripply-anim.scm:77
 msgid "Rippling strength"
 msgstr "རིཔ་ལིང་གི་སྟོབས་ཤུགས།"
 
-#: ../plug-ins/script-fu/scripts/ripply-anim.scm:128
+#: ../plug-ins/script-fu/scripts/ripply-anim.scm:78
 #: ../plug-ins/script-fu/scripts/waves-anim.scm:105
 msgid "Number of frames"
 msgstr "གཞི་ཁྲམ་ཚུ་གྱི་ཨང་གྲངས།"
 
-#: ../plug-ins/script-fu/scripts/ripply-anim.scm:129
+#: ../plug-ins/script-fu/scripts/ripply-anim.scm:79
 msgid "Edge behavior"
 msgstr "མཐའམ་གྱི་སྤྱོད་ལམ།"
 
-#: ../plug-ins/script-fu/scripts/ripply-anim.scm:129
+#: ../plug-ins/script-fu/scripts/ripply-anim.scm:79
 msgid "Wrap"
 msgstr "ལོག་མཚམས།"
 
-#: ../plug-ins/script-fu/scripts/ripply-anim.scm:129
+#: ../plug-ins/script-fu/scripts/ripply-anim.scm:79
 msgid "Smear"
 msgstr "དབུར་ནི།"
 
-#: ../plug-ins/script-fu/scripts/ripply-anim.scm:129
+#: ../plug-ins/script-fu/scripts/ripply-anim.scm:79
 msgid "Black"
 msgstr "གནགཔོ།"
 
@@ -1317,11 +1411,13 @@ msgid "Round the corners of the current selection"
 msgstr "ད་ལྟོ་སེལ་འཐུའི་སྒྱིད་ཁུག་ཚུ་ མཐའ་བསྐོར་ཏེ།"
 
 #: ../plug-ins/script-fu/scripts/selection-round.scm:147
-msgid "Radius (%)"
+#, fuzzy
+msgid "R_adius (%)"
 msgstr "མཐའ་འཁོར།(%)"
 
 #: ../plug-ins/script-fu/scripts/selection-round.scm:148
-msgid "Concave"
+#, fuzzy
+msgid "Co_ncave"
 msgstr "ཀྱོང་དབྱིབས།"
 
 #: ../plug-ins/script-fu/scripts/select-to-brush.scm:133
@@ -1348,29 +1444,29 @@ msgstr "དཔེ་རིས་ལུ...(_P)"
 msgid "Convert a selection to a pattern"
 msgstr "སེལ་འཐུ་འདི་ དཔེ་གཞི་ལུ་གཞི་བསྒྱུར་འབད།"
 
-#: ../plug-ins/script-fu/scripts/slide.scm:236
+#: ../plug-ins/script-fu/scripts/slide.scm:245
 msgid "_Slide..."
 msgstr "བཤུད...(_S)"
 
-#: ../plug-ins/script-fu/scripts/slide.scm:237
+#: ../plug-ins/script-fu/scripts/slide.scm:246
 msgid "Add a slide-film like frame, sprocket holes, and labels to an image"
 msgstr ""
 "གཟུགས་བརྙན་གཅིག་ལུ་ ཁ་ཡིག་བཏགས་ནི་དང་ འཁོར་སོ་སོ་ཅན་མའི་དོང་ཕུ་ གཞི་ཁྲམ་བཟུམ་མའི་ བཤུད་-བརྙན་"
 "ཤོག་ཁ་སྐོང་བརྐྱབ།"
 
-#: ../plug-ins/script-fu/scripts/slide.scm:244
+#: ../plug-ins/script-fu/scripts/slide.scm:253
 msgid "Text"
 msgstr "ཚིག་ཡིག"
 
-#: ../plug-ins/script-fu/scripts/slide.scm:245
+#: ../plug-ins/script-fu/scripts/slide.scm:254
 msgid "Number"
 msgstr "ཨང་གྲངས།"
 
-#: ../plug-ins/script-fu/scripts/slide.scm:246
+#: ../plug-ins/script-fu/scripts/slide.scm:255
 msgid "Font"
 msgstr "ཡིག་གཟུགས།"
 
-#: ../plug-ins/script-fu/scripts/slide.scm:247
+#: ../plug-ins/script-fu/scripts/slide.scm:256
 msgid "Font color"
 msgstr "ཡིག་གཟུགས་ཀྱི་ཚོས་གཞི།"
 
@@ -1404,13 +1500,15 @@ msgid "Rendering Spyro"
 msgstr "ལྷག་སྟོན་སི་པརའོ་"
 
 #: ../plug-ins/script-fu/scripts/spyrogimp.scm:314
-msgid "_Spyrogimp..."
-msgstr "ཨིསི་རོ་ཇིམ...(_S)"
+msgid "_Spyrogimp (older script-fu version)..."
+msgstr ""
 
 #: ../plug-ins/script-fu/scripts/spyrogimp.scm:315
-msgid ""
-"Add Spirographs, Epitrochoids, and Lissajous Curves to the current layer"
-msgstr "ད་ལྟོའི་བང་རིམ་ལུ་ སིཔི་རོ་གརཕསི་ ཨི་པི་ཊོརོ་ཀོའིཊིསི་དང་ ལི་ས་ཇོསི་ གུག་གུགཔ་ཚུ་ཁ་སྐོང་བརྐྱབ།"
+#, fuzzy
+msgid "This procedure is deprecated! Use 'plug-in-spyrogimp' instead."
+msgstr ""
+"འ་ནི་བྱ་སྒོའི་ལམ་ལུགས་འདི་ ངོས་ལེན་མེདཔ་ཨིནམ་ལས་! ཚབ་ལུ་'gimp_edit_copy_visible'ལག་ལེན་"
+"འཐབ།"
 
 #: ../plug-ins/script-fu/scripts/spyrogimp.scm:323
 msgid "Type"
@@ -1521,7 +1619,7 @@ msgstr "སྟེགས་རིས་:འཕྲལ་བཀོལ་སོ་�
 msgid "Gradient: Loop Triangle"
 msgstr "སྟེགས་རིས་:འཕྲལ་བཀོལ་ཟུར་གསུམ་མ།"
 
-#: ../plug-ins/script-fu/scripts/test-sphere.scm:267
+#: ../plug-ins/script-fu/scripts/test-sphere.scm:272
 msgid "_Sphere..."
 msgstr "ཟླུམ་གཟུགས...(_S)"
 
@@ -1590,11 +1688,11 @@ msgstr "གཡབ་ཀྱི་རིང་ཚད།"
 msgid "Invert direction"
 msgstr "བཀོད་རྒྱ་གནས་ལོག་འབད།"
 
-#: ../plug-ins/script-fu/scripts/weave.scm:389
+#: ../plug-ins/script-fu/scripts/weave.scm:397
 msgid "_Weave..."
 msgstr "ཚེམ་དྲུབ...(_W)"
 
-#: ../plug-ins/script-fu/scripts/weave.scm:390
+#: ../plug-ins/script-fu/scripts/weave.scm:398
 msgid ""
 "Create a new layer filled with a weave effect to be used as an overlay or "
 "bump map"
@@ -1602,31 +1700,31 @@ msgstr ""
 "སྤུར་ཁེབས་ཡང་ན་ བཱམཔ་མེཔི་སྦེ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་ ཚེམ་དྲུབ་ནུས་པ་གིས་བཀང་ཡོད་པའི་ བང་རིམ་གསརཔ་"
 "གཅིག་གསར་བསྐྲུན་འབད།"
 
-#: ../plug-ins/script-fu/scripts/weave.scm:397
+#: ../plug-ins/script-fu/scripts/weave.scm:405
 msgid "Ribbon width"
 msgstr "སྣག་ཐག་རྒྱ་ཚད།"
 
-#: ../plug-ins/script-fu/scripts/weave.scm:398
+#: ../plug-ins/script-fu/scripts/weave.scm:406
 msgid "Ribbon spacing"
 msgstr "སྣག་ཐག་བར་སྟོང་བཞག་ཐང་།"
 
-#: ../plug-ins/script-fu/scripts/weave.scm:399
+#: ../plug-ins/script-fu/scripts/weave.scm:407
 msgid "Shadow darkness"
 msgstr "གྱིབ་མ་གི་གྲིབ་གནག་ཆན།"
 
-#: ../plug-ins/script-fu/scripts/weave.scm:400
+#: ../plug-ins/script-fu/scripts/weave.scm:408
 msgid "Shadow depth"
 msgstr "གྱིབ་མ་གི་གཏིང་ཚད།"
 
-#: ../plug-ins/script-fu/scripts/weave.scm:401
+#: ../plug-ins/script-fu/scripts/weave.scm:409
 msgid "Thread length"
 msgstr "ཐེ་རེཌི་རིང་ཚད།"
 
-#: ../plug-ins/script-fu/scripts/weave.scm:402
+#: ../plug-ins/script-fu/scripts/weave.scm:410
 msgid "Thread density"
 msgstr "ཐེ་རེཌི་སྟུག་ཚད།"
 
-#: ../plug-ins/script-fu/scripts/weave.scm:403
+#: ../plug-ins/script-fu/scripts/weave.scm:411
 msgid "Thread intensity"
 msgstr "ཐེ་རེཌི་དྲག་ཤུགས།"
 
@@ -1680,6 +1778,16 @@ msgstr "གྱིབ་མ་གི་ཨེགསི་པར་ལེན་འ
 msgid "Drop shadow Y offset"
 msgstr "གྱིབ་མ་གི་ཝའི་པར་ལེན་འདི་བཀོག་བཞག"
 
+#~ msgid "Plug-in _Registry"
+#~ msgstr "པ་ལག་ཨིན་ཐོ་མཛོད།(_R)"
+
+#~ msgid "_Spyrogimp..."
+#~ msgstr "ཨིསི་རོ་ཇིམ...(_S)"
+
+#~ msgid ""
+#~ "Add Spirographs, Epitrochoids, and Lissajous Curves to the current layer"
+#~ msgstr "ད་ལྟོའི་བང་རིམ་ལུ་ སིཔི་རོ་གརཕསི་ ཨི་པི་ཊོརོ་ཀོའིཊིསི་དང་ ལི་ས་ཇོསི་ གུག་གུགཔ་ཚུ་ཁ་སྐོང་བརྐྱབ།"
+
 #~ msgid "_Misc"
 #~ msgstr "སྣ་ཚོགས།(_M)"
 
@@ -1703,9 +1811,6 @@ msgstr "གྱིབ་མ་གི་ཝའི་པར་ལེན་འདི
 
 #~ msgid "_Effects"
 #~ msgstr "ནུས་པ་ཚུ། (_E)"
-
-#~ msgid "En_hance"
-#~ msgstr "གོང་སྤེལ།(_h)"
 
 #~ msgid "_Light and Shadow"
 #~ msgstr "འོད་དང་གྱིབ་མ། (_L)"
@@ -2653,11 +2758,6 @@ msgstr "གྱིབ་མ་གི་ཝའི་པར་ལེན་འདི
 
 #~ msgid "/Script-Fu/"
 #~ msgstr "/ཨིསི་ཀིརིཔིཊི-ཕུ།/"
-
-#~ msgid "This procedure is deprecated! use 'gimp-edit-copy-visible' instead."
-#~ msgstr ""
-#~ "འ་ནི་བྱ་སྒོའི་ལམ་ལུགས་འདི་ ངོས་ལེན་མེདཔ་ཨིནམ་ལས་! ཚབ་ལུ་'gimp_edit_copy_visible'ལག་ལེན་"
-#~ "འཐབ།"
 
 #~ msgid ""
 #~ "Round the corners of the current selection (deprecated, use Rounded "

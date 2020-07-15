@@ -2,13 +2,13 @@
 # Spanish translation for gimp-python.
 # Copyright © 1998-2000,2003, 2006, 2007, 2008, 2009, 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gimp package.
-# 
+#
 # Pablo G. del Campo <pablodc@bigfoot.com>, 2003, 2004.
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2004, 2005, 2006.
 # Francisco Vila <francisco.vila@hispalinux.es>, 2006, 2007, 2009, 2011.
 # Jorge González <jorgegonz@svn.gnome.org>, 2009.
 # Oscar Cebellán Ramos <cebaman@bigfoot.com>
-# 
+#
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2019.
 # Rodrigo <rodhos92@gmail.com>, 2019.
 # Rodrigo Lledó <rodhos92@gmail.com>, 2019-2020.
@@ -16,8 +16,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp-python.master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2020-02-13 00:06+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-15 00:27+0100\n"
 "PO-Revision-Date: 2020-02-13 09:38+0100\n"
 "Last-Translator: Rodrigo Lledó <rodhos92@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
@@ -464,7 +464,6 @@ msgid "Spyro Layer"
 msgstr "Capa spyro"
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:45
-#| msgid "Spyrograph"
 msgid "Spyro Path"
 msgstr "Ruta spyro"
 
@@ -677,7 +676,6 @@ msgid "Flower Petals"
 msgstr "Pétalos de flores"
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1506
-#| msgid "Number of sides of the shape."
 msgid "The number of petals in the pattern."
 msgstr "El número de pétalos en el patrón."
 

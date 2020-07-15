@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gimp-tips\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2012-11-02 19:35+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-15 00:29+0100\n"
 "PO-Revision-Date: 2012-12-19 15:27+0300\n"
 "Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
@@ -20,22 +20,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Emacs\n"
 
+#: ../data/tips/gimp-tips.xml.in.h:1
+#, fuzzy
 msgid ""
-"You can get context-sensitive help for most of GIMP's features by pressing "
-"the F1 key at any time. This also works inside the menus."
+"You can get context-sensitive help for most of Glimpse's features by "
+"pressing the F1 key at any time. This also works inside the menus."
 msgstr ""
 "Enamiku GIMP-i vahendite kohta saad asjakohast abi, kui vajutad klahvi F1. "
 "See töötab ka menüüdes."
 
+#: ../data/tips/gimp-tips.xml.in.h:2
+#, fuzzy
 msgid ""
-"GIMP uses layers to let you organize your image. Think of them as a stack of "
-"slides or filters, such that looking through them you see a composite of "
+"Glimpse uses layers to let you organize your image. Think of them as a stack "
+"of slides or filters, such that looking through them you see a composite of "
 "their contents."
 msgstr ""
 "GIMP võimaldab kasutada pildi korraldamiseks kihte. Mõtle neist kui hulgast "
 "üksteise taha asetatud slaididest või filtritest, milledest korraga läbi "
 "vaadates moodustub tervikpilt."
 
+#: ../data/tips/gimp-tips.xml.in.h:3
 msgid ""
 "You can perform many layer operations by right-clicking on the text label of "
 "a layer in the Layers dialog."
@@ -43,17 +48,20 @@ msgstr ""
 "Paljusid toiminguid kihtidega saad teha paremklõpsates kihtide dialoogis "
 "kihi nimel."
 
+#: ../data/tips/gimp-tips.xml.in.h:4
+#, fuzzy
 msgid ""
-"When you save an image to work on it again later, try using XCF, GIMP's "
-"native file format (use the file extension <tt>.xcf</tt>). This preserves "
-"the layers and many aspects of your work-in-progress. Once a project is "
-"completed, you can export it as JPEG, PNG, GIF, etc."
+"Saving an image uses XCF, Glimpse's native file format (file extension <tt>."
+"xcf</tt>). This preserves the layers and many aspects of your work-in-"
+"progress, allowing to work on it again later. Once a project is completed, "
+"you can export it as JPEG, PNG, GIF, etc."
 msgstr ""
 "Kui salvestad pildi, et sellega hiljem edasi töötada, proovi kasutada GIMP-i "
 "jaoks loodud XCF-vormingut (kasuta faililaiendit <tt>.xcf</tt>). Sellega "
 "säilitad kihid ja palju nüansse poolelioleva pildi juures. Kui projekt on "
 "lõpetatud, võib selle salvestada JPEG-, PNG-, GIF- või muusse vormingusse."
 
+#: ../data/tips/gimp-tips.xml.in.h:5
 msgid ""
 "Most plug-ins work on the current layer of the current image. In some cases, "
 "you will have to merge all layers (Image→Flatten Image) if you want the plug-"
@@ -63,6 +71,7 @@ msgstr ""
 "Mõnikord on vaja kõik pildi kihid ühendada (Pilt→Ühenda kõik kihid) kui "
 "tahad, et pistik töötleks kogu pilti."
 
+#: ../data/tips/gimp-tips.xml.in.h:6
 msgid ""
 "If a layer's name in the Layers dialog is displayed in <b>bold</b>, this "
 "layer doesn't have an alpha-channel. You can add an alpha-channel using "
@@ -72,6 +81,7 @@ msgstr ""
 "alfakanal. Alfakanali lisamiseks liigu menüüs Kihid→Läbipaistvus→Lisa "
 "alfakanal."
 
+#: ../data/tips/gimp-tips.xml.in.h:7
 msgid ""
 "Not all effects can be applied to all kinds of images. This is indicated by "
 "a grayed-out menu-entry. You may need to change the image mode to RGB "
@@ -83,6 +93,7 @@ msgstr ""
 "(Pilt→Värvirežiim→RGB), lisada alfakanal (Kihid→Läbipaistvus→Lisa alfakanal) "
 "või kõik kihid ühendada (Pilt→Ühenda kõik kihid)."
 
+#: ../data/tips/gimp-tips.xml.in.h:8
 msgid ""
 "You can adjust or move a selection by using <tt>Alt</tt>-drag. If this makes "
 "the window move, your window manager uses the <tt>Alt</tt> key already. Most "
@@ -95,8 +106,10 @@ msgstr ""
 "klahvi eirama või selle asemel <tt>Super</tt>- (ehk \"Windows'i\") klahvi "
 "kasutama."
 
+#: ../data/tips/gimp-tips.xml.in.h:9
+#, fuzzy
 msgid ""
-"You can drag and drop many things in GIMP. For example, dragging a color "
+"You can drag and drop many things in Glimpse. For example, dragging a color "
 "from the toolbox or from a color palette and dropping it into an image will "
 "fill the current selection with that color."
 msgstr ""
@@ -104,6 +117,7 @@ msgstr ""
 "tööriistakastist või värvipaletilt pildile, värvub valitud osa pildist seda "
 "värvi."
 
+#: ../data/tips/gimp-tips.xml.in.h:10
 msgid ""
 "You can use the middle mouse button to pan around the image (or optionally "
 "hold <tt>Spacebar</tt> while you move the mouse)."
@@ -112,6 +126,7 @@ msgstr ""
 "nuppu. Pilti saab nihutada ka hiirt liigutades ja <tt>tühikuklahvi</tt> all "
 "hoides."
 
+#: ../data/tips/gimp-tips.xml.in.h:11
 msgid ""
 "Click and drag on a ruler to place a guide on an image. All dragged "
 "selections will snap to the guides. You can remove guides by dragging them "
@@ -122,6 +137,7 @@ msgstr ""
 "endaga samale joonele. Abijooni saad pildilt eemaldada neid "
 "liigutamistööriistaga joonlauale tagasi vedades."
 
+#: ../data/tips/gimp-tips.xml.in.h:12
 msgid ""
 "You can drag a layer from the Layers dialog and drop it onto the toolbox. "
 "This will create a new image containing only that layer."
@@ -129,6 +145,7 @@ msgstr ""
 "Kui vead mõne kihi kihtide dialoogist tööriistakasti, luuakse uus pilt, mis "
 "koosneb ainult sellest kihist."
 
+#: ../data/tips/gimp-tips.xml.in.h:13
 msgid ""
 "A floating selection must be anchored to a new layer or to the last active "
 "layer before doing other operations on the image. Click on the &quot;New "
@@ -139,8 +156,10 @@ msgstr ""
 "viimasele aktiivsele kihile. Klõpsa kihtide dialoogis nupul &quot;Uus "
 "kiht&quot; või &quot;Ankurda kiht&quot; - või kasuta vastavaid menüükäske."
 
+#: ../data/tips/gimp-tips.xml.in.h:14
+#, fuzzy
 msgid ""
-"GIMP supports gzip compression on the fly. Just add <tt>.gz</tt> (or <tt>."
+"Glimpse supports gzip compression on the fly. Just add <tt>.gz</tt> (or <tt>."
 "bz2</tt>, if you have bzip2 installed) to the filename and your image will "
 "be saved compressed. Of course loading compressed images works too."
 msgstr ""
@@ -148,6 +167,7 @@ msgstr ""
 "tt> (või <tt>.bz2</tt>, kui bzip2 on installitud) ja sinu pilt salvestatakse "
 "pakitult. Loomulikult toimib ka pakitud piltide avamine."
 
+#: ../data/tips/gimp-tips.xml.in.h:15
 msgid ""
 "Pressing and holding the <tt>Shift</tt> key before making a selection allows "
 "you to add to the current selection instead of replacing it. Using <tt>Ctrl</"
@@ -157,6 +177,7 @@ msgstr ""
 "praegusele, mitte ei asendata seda. Hoides all <tt>Ctrl</tt>-klahvi "
 "lahutatakse uue valiku ala praegusest."
 
+#: ../data/tips/gimp-tips.xml.in.h:16
 msgid ""
 "You can draw simple squares or circles using Edit→Stroke Selection. It "
 "strokes the edge of your current selection. More complex shapes can be drawn "
@@ -166,6 +187,7 @@ msgstr ""
 "Redigeerimine→Pintselda valikujoon. Keerulisemaid kujundeid saab luua "
 "vektorjoonte tööriistaga või Filtrid→Genereerimine→Gfig kasutades."
 
+#: ../data/tips/gimp-tips.xml.in.h:17
 msgid ""
 "If you stroke a path (Edit→Stroke Path), the paint tools can be used with "
 "their current settings. You can use the Paintbrush in gradient mode or even "
@@ -175,6 +197,7 @@ msgstr ""
 "kasutada värvimise tööriistu nende aktiivsetes seadeis. Võid kasutada "
 "pintslit värvisulanduse režiimis või isegi kustukummi ja määrimistööriista."
 
+#: ../data/tips/gimp-tips.xml.in.h:18
 msgid ""
 "You can create and edit complex selections using the Path tool. The Paths "
 "dialog allows you to work on multiple paths and to convert them to "
@@ -184,6 +207,7 @@ msgstr ""
 "kasutades. Vektorjoonte dialoog lubab töötada mitme vektorjoonega ja neid "
 "valikuks teisendada."
 
+#: ../data/tips/gimp-tips.xml.in.h:19
 msgid ""
 "You can use the paint tools to change the selection. Click on the &quot;"
 "Quick Mask&quot; button at the bottom left of an image window. Change your "
@@ -195,6 +219,7 @@ msgstr ""
 "värvides ja klõpsa nuppu uuesti ning kiirmask teisendatakse tagasi "
 "tavaliseks valikuks."
 
+#: ../data/tips/gimp-tips.xml.in.h:20
 msgid ""
 "You can save a selection to a channel (Select→Save to Channel) and then "
 "modify this channel with any paint tools. Using the buttons in the Channels "
@@ -205,12 +230,14 @@ msgstr ""
 "seda kanalit mõne värvimise tööriistaga. Kanalite dialoogi nuppe kasutades "
 "saab uue kanali nähtavust muuta või antud kanali valikuks teisendada."
 
+#: ../data/tips/gimp-tips.xml.in.h:21
+#, fuzzy
 msgid ""
 "After you enabled &quot;Dynamic Keyboard Shortcuts&quot; in the Preferences "
 "dialog, you can reassign shortcut keys. Do so by bringing up the menu, "
 "selecting a menu item, and pressing the desired key combination. If &quot;"
 "Save Keyboard Shortcuts&quot; is enabled, the key bindings are saved when "
-"you exit GIMP. You should probably disable &quot;Dynamic Keyboard "
+"you exit Glimpse. You should probably disable &quot;Dynamic Keyboard "
 "Shortcuts&quot; afterwards, to prevent accidentally assigning/reassigning "
 "shortcuts."
 msgstr ""
@@ -221,6 +248,7 @@ msgstr ""
 "dünaamilised kiirklahvid&quot; vast välja lülitada, et ennetada nende "
 "kogemata muutmist."
 
+#: ../data/tips/gimp-tips.xml.in.h:22
 msgid ""
 "If your screen is too cluttered, you can press <tt>Tab</tt> in an image "
 "window to toggle the visibility of the toolbox and other dialogs."
@@ -228,6 +256,7 @@ msgstr ""
 "Kui ekraan on liiga segi paisatud, võid pildiaknas <tt>Tab</tt>-klahvi "
 "vajutada. See peidab või toob nähtavale tööriistakasti ja teised dialoogid."
 
+#: ../data/tips/gimp-tips.xml.in.h:23
 msgid ""
 "<tt>Shift</tt>-click on the eye icon in the Layers dialog to hide all layers "
 "but that one. <tt>Shift</tt>-click again to show all layers."
@@ -235,6 +264,7 @@ msgstr ""
 "<tt>Shift</tt>-klõps silma ikoonil kihtide dialoogis peidab kõik ülejäänud "
 "kihid. Uuesti <tt>Shift</tt>-klõpsamisel näidatakse taas kõiki kihte."
 
+#: ../data/tips/gimp-tips.xml.in.h:24
 msgid ""
 "<tt>Ctrl</tt>-clicking on the layer mask's preview in the Layers dialog "
 "toggles the effect of the layer mask. <tt>Alt</tt>-clicking on the layer "
@@ -244,6 +274,7 @@ msgstr ""
 "kihimaski efekti sisse või välja, <tt>Alt</tt>-klõpsamine lülitab maskivaate "
 "sisse või välja."
 
+#: ../data/tips/gimp-tips.xml.in.h:25
 msgid ""
 "You can use <tt>Ctrl</tt>-<tt>Tab</tt> to cycle through all layers in an "
 "image (if your window manager doesn't trap those keys...)."
@@ -252,6 +283,7 @@ msgstr ""
 "tt>-<tt>Tab</tt> (juhul, kui sinu aknahaldur seda kombinatsiooni kinni ei "
 "püüa...)."
 
+#: ../data/tips/gimp-tips.xml.in.h:26
 msgid ""
 "<tt>Ctrl</tt>-click with the Bucket Fill tool to have it use the background "
 "color instead of the foreground color. Similarly, <tt>Ctrl</tt>-clicking "
@@ -263,6 +295,7 @@ msgstr ""
 "valimise tööriist - <tt>Ctrl</tt>-klõps värvi valimise tööriistaga seab "
 "esiplaanivärvi asemel uue taustavärvi."
 
+#: ../data/tips/gimp-tips.xml.in.h:27
 msgid ""
 "<tt>Ctrl</tt>-drag with the Rotate tool will constrain the rotation to 15 "
 "degree angles."
@@ -270,6 +303,7 @@ msgstr ""
 "<tt>Ctrl</tt>-lohistamine pööramise tööriistaga lubab pöörata ainult 15 "
 "kraadiste nurkade kaupa."
 
+#: ../data/tips/gimp-tips.xml.in.h:28
 msgid ""
 "If some of your scanned photos do not look colorful enough, you can easily "
 "improve their tonal range with the &quot;Auto&quot; button in the Levels "

@@ -2572,7 +2572,7 @@ AC_SUBST(BUG_REPORT_URL)
 override_bug_report_url=
 if test "x$with_bug_report_url" = "x$PACKAGE_BUGREPORT"; then
 override_bug_report_url="
-NOTE: if you plan on packaging GIMP for distribution, it is recommended
+NOTE: if you plan on packaging Glimpse for distribution, it is recommended
       to override the bug report URL with option:
         --with-bug-report-url=https://example.com/
       so that you can filter packaging bugs from core bugs before
@@ -2836,6 +2836,13 @@ _______EOF
 #define GIMP_MAJOR_VERSION                              ($gimp_major_ver)
 
 /**
+ * GLIMPSE_MAJOR_VERSION:
+ *
+ * The major Glimpse version number.
+ **/
+#define GLIMPSE_MAJOR_VERSION                           ($glimpse_major_ver)
+
+/**
  * GIMP_MINOR_VERSION:
  *
  * The minor GIMP version number.
@@ -2843,11 +2850,25 @@ _______EOF
 #define GIMP_MINOR_VERSION                              ($gimp_minor_ver)
 
 /**
+ * GLIMPSE_MINOR_VERSION:
+ *
+ * The minor Glimpse version number.
+ **/
+#define GLIMPSE_MINOR_VERSION                           ($glimpse_minor_ver)
+
+/**
  * GIMP_MICRO_VERSION:
  *
  * The micro GIMP version number.
  **/
 #define GIMP_MICRO_VERSION                              ($gimp_micro_ver)
+
+/**
+ * GLIMPSE_MICRO_VERSION:
+ *
+ * The micro Glimpse version number.
+ **/
+#define GLIMPSE_MICRO_VERSION                           ($glimpse_micro_ver)
 
 /**
  * GIMP_VERSION:
@@ -2879,6 +2900,12 @@ _______EOF
      (GIMP_MAJOR_VERSION == (major) && GIMP_MINOR_VERSION == (minor) && \
       GIMP_MICRO_VERSION >= (micro)))
 
+#define GLIMPSE_CHECK_VERSION(major, minor, micro) \
+    (GLIMPSE_MAJOR_VERSION > (major) || \
+     (GLIMPSE_MAJOR_VERSION == (major) && GLIMPSE_MINOR_VERSION > (minor)) || \
+     (GLIMPSE_MAJOR_VERSION == (major) && GLIMPSE_MINOR_VERSION == (minor) && \
+      GLIMPSE_MICRO_VERSION >= (micro)))
+
 
 G_END_DECLS
 
@@ -2896,6 +2923,9 @@ _______EOF
   gimp_minor_ver=gimp_minor_version
   gimp_micro_ver=gimp_micro_version
   gimp_ver=gimp_version
+  glimpse_major_ver=glimpse_major_version
+  glimpse_minor_ver=glimpse_minor_version
+  glimpse_micro_ver=glimpse_micro_version
   glimpse_ver=glimpse_version
   gimp_api_ver=gimp_api_version
 ])

@@ -9,9 +9,10 @@
 # Asier Sarasua Garmendia <asier.sarasua@gmail.com>, 2018, 2020.
 #
 msgid ""
-msgstr "Project-Id-Version: gimp-python master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2020-02-22 15:43+0000\n"
+msgstr ""
+"Project-Id-Version: gimp-python master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-15 00:27+0100\n"
 "PO-Revision-Date: 2020-02-23 15:25+0100\n"
 "Last-Translator: Asier Sarasua Garmendia <asier.sarasua@gmail.com>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
@@ -343,7 +344,9 @@ msgstr "Zatitu"
 #. table snippet means a small piece of HTML code here
 #: ../plug-ins/pygimp/plug-ins/py-slice.py:421
 msgid "Cuts an image along its guides, creates images and a HTML table snippet"
-msgstr "Irudia bere gidetan zehar zatitzen du, irudiak eta HTML taularen mozketa sortzen du"
+msgstr ""
+"Irudia bere gidetan zehar zatitzen du, irudiak eta HTML taularen mozketa "
+"sortzen du"
 
 #: ../plug-ins/pygimp/plug-ins/py-slice.py:432
 msgid "_Slice..."
@@ -460,21 +463,24 @@ msgstr "Espirografia-bidea"
 msgid ""
 "Save\n"
 "as New Layer"
-msgstr "Gorde\n"
+msgstr ""
+"Gorde\n"
 "geruza berri gisa"
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:57
 msgid ""
 "Redraw on\n"
 "Active layer"
-msgstr "Marraztu berriro\n"
+msgstr ""
+"Marraztu berriro\n"
 "geruza aktiboan"
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:58
 msgid ""
 "Save\n"
 "as Path"
-msgstr "Gorde\n"
+msgstr ""
+"Gorde\n"
 "bide gisa"
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:104
@@ -556,7 +562,9 @@ msgstr "Kurba mota"
 msgid ""
 "An Epitrochoid pattern is when the moving gear is on the outside of the "
 "fixed gear."
-msgstr "Eredu epitrokoidea da mugitzen den gurpila gurpil finkoaren kanpoaldean dagoenean."
+msgstr ""
+"Eredu epitrokoidea da mugitzen den gurpila gurpil finkoaren kanpoaldean "
+"dagoenean."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1401
 msgid "Tool"
@@ -565,7 +573,9 @@ msgstr "Tresna"
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1402
 msgid ""
 "The tool with which to draw the pattern.The Preview tool just draws quickly."
-msgstr "Eredua marrazteko erabiliko den tresna. Tresnaren aurrebistak azkar marrazten du."
+msgstr ""
+"Eredua marrazteko erabiliko den tresna. Tresnaren aurrebistak azkar "
+"marrazten du."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1407
 msgid "Long Gradient"
@@ -576,7 +586,11 @@ msgid ""
 "When unchecked, the current tool settings will be used. When checked, will "
 "use a long gradient to match the length of the pattern, based on current "
 "gradient and repeat mode from the gradient tool settings."
-msgstr "Markatu gabe dagoenean, uneko tresna-ezarpenak erabiliko dira. Markatuta dagoenean, gradiente luzea erabiliko du ereduaren luzerarekin bat egiteko, gradiente-tresnaren ezarpenetan ezarritako uneko gradientean eta errepikatze moduan oinarrituta."
+msgstr ""
+"Markatu gabe dagoenean, uneko tresna-ezarpenak erabiliko dira. Markatuta "
+"dagoenean, gradiente luzea erabiliko du ereduaren luzerarekin bat egiteko, "
+"gradiente-tresnaren ezarpenetan ezarritako uneko gradientean eta errepikatze "
+"moduan oinarrituta."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1429
 msgid "Specify pattern using one of the following tabs:"
@@ -588,13 +602,19 @@ msgid ""
 "Gears, but it uses gears and hole numbers which are found in toy kits. If "
 "you follow the instructions from the toy kit manuals, results should be "
 "similar."
-msgstr "Eredua fitxa aktiboak soilik zehazten du. Toy Kit eta Gears oso antzekoak dira, baina lehenak jostailuen multzoetan dauden horzdun gurpilak eta zulo-zenbakiak erabiltzen ditu. Jostailuen multzoen eskuliburuetako argibideak jarraituz gero, emaitza antzekoa izango da."
+msgstr ""
+"Eredua fitxa aktiboak soilik zehazten du. Toy Kit eta Gears oso antzekoak "
+"dira, baina lehenak jostailuen multzoetan dauden horzdun gurpilak eta zulo-"
+"zenbakiak erabiltzen ditu. Jostailuen multzoen eskuliburuetako argibideak "
+"jarraituz gero, emaitza antzekoa izango da."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1455
 msgid ""
 "Number of teeth of fixed gear. The size of the fixed gear is proportional to "
 "the number of teeth."
-msgstr "Horzdun gurpil finkoaren hortz kopurua. Gurpil finkoaren tamaina hortz kopuruaren araberakoa da."
+msgstr ""
+"Horzdun gurpil finkoaren hortz kopurua. Gurpil finkoaren tamaina hortz "
+"kopuruaren araberakoa da."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1458
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1484
@@ -605,7 +625,9 @@ msgstr "Horzdun gurpil finkoaren hortzak"
 msgid ""
 "Number of teeth of moving gear. The size of the moving gear is proportional "
 "to the number of teeth."
-msgstr "Horzdun gurpil mugikorraren hortz kopurua. Gurpil mugikorraren tamaina hortz kopuruaren araberakoa da."
+msgstr ""
+"Horzdun gurpil mugikorraren hortz kopurua. Gurpil mugikorraren tamaina hortz "
+"kopuruaren araberakoa da."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1467
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1489
@@ -620,7 +642,9 @@ msgstr "Zuloaren ehunekoa"
 msgid ""
 "How far is the hole from the center of the moving gear. 100% means that the "
 "hole is at the gear's edge."
-msgstr "ZUloa horzdun gurpil mugikorraren erdigunetik zein distantziara dagoen. %100ek esan nahi du zuloa gurpilaren ertzean dagoela."
+msgstr ""
+"ZUloa horzdun gurpil mugikorraren erdigunetik zein distantziara dagoen. "
+"%100ek esan nahi du zuloa gurpilaren ertzean dagoela."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1494
 msgid "Hole Number"
@@ -630,7 +654,9 @@ msgstr "Zulo-zenbakia"
 msgid ""
 "Hole #1 is at the edge of the gear. The maximum hole number is near the "
 "center. The maximum hole number is different for each gear."
-msgstr "#1 zuloa horzdun gurpilaren ertzean dago. Zulo-zenbaki handiena erdigunetik hurbil dago. Zulo-zenbaki handiena desberdina da gurpil bakoitzerako."
+msgstr ""
+"#1 zuloa horzdun gurpilaren ertzean dago. Zulo-zenbaki handiena erdigunetik "
+"hurbil dago. Zulo-zenbaki handiena desberdina da gurpil bakoitzerako."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1506
 msgid "Flower Petals"
@@ -657,7 +683,10 @@ msgid ""
 "The radius of the hole in the center of the pattern where nothing will be "
 "drawn. Given as a percentage of the size of the pattern. A value of 0 will "
 "produce no hole. A Value of 99 will produce a thin line on the edge."
-msgstr "Ereduaren erdiguneko zuloaren erradioa. Ereduaren tamainaren ehuneko gisa ematen da. 0 balioak ez du zulorik sortuko. 99 balioak marra mehea sortuko du ertzean."
+msgstr ""
+"Ereduaren erdiguneko zuloaren erradioa. Ereduaren tamainaren ehuneko gisa "
+"ematen da. 0 balioak ez du zulorik sortuko. 99 balioak marra mehea sortuko "
+"du ertzean."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1531
 msgid "Width(%)"
@@ -668,7 +697,9 @@ msgid ""
 "The width of the pattern as a percentage of the size of the pattern. A Value "
 "of 1 will just draw a thin pattern. A Value of 100 will fill the entire "
 "fixed gear."
-msgstr "Ereduaren zabalera, bere tamainaren ehuneko gisa. 1 balioak eredu mehea marraztuko du. 100 balioak horzdun gurpil finko osoa beteko du."
+msgstr ""
+"Ereduaren zabalera, bere tamainaren ehuneko gisa. 1 balioak eredu mehea "
+"marraztuko du. 100 balioak horzdun gurpil finko osoa beteko du."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1542
 msgid "Visual"
@@ -691,7 +722,9 @@ msgstr "Biraketa"
 msgid ""
 "Rotation of the pattern, in degrees. The starting position of the moving "
 "gear in the fixed gear."
-msgstr "Ereduaren biraketa, graduetan. Horzdun gurpil mugikorraren hasierako posizioa horzdun gurpil finkoan."
+msgstr ""
+"Ereduaren biraketa, graduetan. Horzdun gurpil mugikorraren hasierako "
+"posizioa horzdun gurpil finkoan."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1588
 msgid "Shape"
@@ -704,7 +737,12 @@ msgid ""
 "of the rectangular selection, use hole=100 in Gear notation to touch "
 "boundary. Selection will hug boundaries of current selection - try something "
 "non-rectangular."
-msgstr "Horzdun gurpil finkoaren forma, uneko hautapenean erabiliko dena. Apala forma luze eta ertz biribilekoa da, jostailuen multzoak hornitzen duena. Markoak hautapen laukizuzenaren mugak besarkatzen ditu, erabili hole=100 horzdun gurpilen notazioan muga ukitzeko. Hautapenak uneko hautapenaren mugak besarkatuko ditu - saiatu laukizuzena ez den zerbait erabiltzen."
+msgstr ""
+"Horzdun gurpil finkoaren forma, uneko hautapenean erabiliko dena. Apala "
+"forma luze eta ertz biribilekoa da, jostailuen multzoak hornitzen duena. "
+"Markoak hautapen laukizuzenaren mugak besarkatzen ditu, erabili hole=100 "
+"horzdun gurpilen notazioan muga ukitzeko. Hautapenak uneko hautapenaren "
+"mugak besarkatuko ditu - saiatu laukizuzena ez den zerbait erabiltzen."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1598
 msgid "Sides"
@@ -720,7 +758,9 @@ msgstr "Itxuraldatu"
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1603
 msgid "Morph fixed gear shape. Only affects some of the shapes."
-msgstr "Itxuraldatu horzdun gurpil finkoaren forma. Formetako batzuetan soilik du eragina."
+msgstr ""
+"Itxuraldatu horzdun gurpil finkoaren forma. Formetako batzuetan soilik du "
+"eragina."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1608
 msgid "Rotation of the fixed gear, in degrees"
@@ -742,7 +782,10 @@ msgstr "Berdindu zabalera eta altuera"
 msgid ""
 "When unchecked, the pattern will fill the current image or selection. When "
 "checked, the pattern will have same width and height, and will be centered."
-msgstr "Markatu gabe badago, ereduak uneko irudia edo hautapena beteko du. Markatuta badago, ereduak zabalera eta altuera bera izango du, eta zentratuta egongo da."
+msgstr ""
+"Markatu gabe badago, ereduak uneko irudia edo hautapena beteko du. Markatuta "
+"badago, ereduak zabalera eta altuera bera izango du, eta zentratuta egongo "
+"da."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1654
 msgid "Re_draw"
@@ -752,7 +795,9 @@ msgstr "_Birmarraztu"
 msgid ""
 "If you change the settings of a tool, change color, or change the selection, "
 "press this to preview how the pattern looks."
-msgstr "Tresna baten ezarpenak, kolorea edo hautapen aldatzen baduzu, sakatu hau ereduak zein itxura izango duen aurreikusteko."
+msgstr ""
+"Tresna baten ezarpenak, kolorea edo hautapen aldatzen baduzu, sakatu hau "
+"ereduak zein itxura izango duen aurreikusteko."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1657
 msgid "_Reset"
@@ -770,7 +815,9 @@ msgstr "_Ados"
 msgid ""
 "Choose whether to save as new layer, redraw on last active layer, or save to "
 "path"
-msgstr "Aukeratu geruza berri gisa gordeko den, aktibo egon den azken geruzan berriro marraztuko den, edo bide gisa gordeko den"
+msgstr ""
+"Aukeratu geruza berri gisa gordeko den, aktibo egon den azken geruzan "
+"berriro marraztuko den, edo bide gisa gordeko den"
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1677
 msgid "Spyrogimp"
@@ -779,7 +826,8 @@ msgstr "Spyrogimp"
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1686
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:2191
 msgid "Draw spyrographs using current tool settings and selection."
-msgstr "Marraztu espirografoak uneko tresnaren ezarpenak eta hautapena erabilita."
+msgstr ""
+"Marraztu espirografoak uneko tresnaren ezarpenak eta hautapena erabilita."
 
 #: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1699
 msgid "Curve Pattern"

@@ -53,7 +53,7 @@
 # When enabled, uses OpenCL for some operations.  Possible values are yes and
 # no.
 #
-(use-opencl yes)
+# (use-opencl no)
 
 # Specifies the language to use for the user interface.  This is a string
 # value.

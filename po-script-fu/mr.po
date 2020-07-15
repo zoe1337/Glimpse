@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2019-01-24 10:00+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-15 00:28+0100\n"
 "PO-Revision-Date: 2018-12-31 14:57+0000\n"
 "Last-Translator: Snehalata B Shirude <snehalata.shirude@gmail.com>\n"
 "Language-Team: Marathi\n"
@@ -136,7 +136,7 @@ msgstr "स्क्रिप्ट-फू आज्ञापटल आउटप
 
 #: ../plug-ins/script-fu/script-fu-console.c:292
 #: ../plug-ins/script-fu/script-fu-interface.c:236
-#: ../plug-ins/script-fu/script-fu-server.c:834
+#: ../plug-ins/script-fu/script-fu-server.c:836
 msgid "_Cancel"
 msgstr "_रद्द"
 
@@ -233,27 +233,27 @@ msgstr "'स्क्रिप्ट-फू-रजिस्टर' संवा�
 msgid "Error while loading %s:"
 msgstr "%s लोड करताना त्रुटी:"
 
-#: ../plug-ins/script-fu/script-fu-server.c:830
+#: ../plug-ins/script-fu/script-fu-server.c:832
 msgid "Script-Fu Server Options"
 msgstr "स्क्रिप्ट-फू सर्व्हर पर्याय"
 
-#: ../plug-ins/script-fu/script-fu-server.c:835
+#: ../plug-ins/script-fu/script-fu-server.c:837
 msgid "_Start Server"
 msgstr "सर्व्हर _प्रारंभ"
 
-#: ../plug-ins/script-fu/script-fu-server.c:868
+#: ../plug-ins/script-fu/script-fu-server.c:870
 msgid "Listen on IP:"
 msgstr "आयपी वर ऐका:"
 
-#: ../plug-ins/script-fu/script-fu-server.c:875
+#: ../plug-ins/script-fu/script-fu-server.c:877
 msgid "Server port:"
 msgstr "सर्व्हर पोर्ट:"
 
-#: ../plug-ins/script-fu/script-fu-server.c:881
+#: ../plug-ins/script-fu/script-fu-server.c:883
 msgid "Server logfile:"
 msgstr "सर्व्हर लॉगधारिका:"
 
-#: ../plug-ins/script-fu/script-fu-server.c:894
+#: ../plug-ins/script-fu/script-fu-server.c:896
 msgid ""
 "Listening on an IP address other than 127.0.0.1 (especially 0.0.0.0) can "
 "allow attackers to remotely execute arbitrary code on this machine."
@@ -265,19 +265,19 @@ msgstr ""
 msgid "Bumpmap"
 msgstr "बम्पमॅप"
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:183
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:189
 msgid "Add B_evel..."
 msgstr "का_टकोनावर जोडा..."
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:184
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:190
 msgid "Add a beveled border to an image"
 msgstr "काटकोनी सीमांवर प्रतिमा जोडा"
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:191
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:197
 msgid "Thickness"
 msgstr "जाडी"
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:192
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:198
 #: ../plug-ins/script-fu/scripts/fuzzyborder.scm:163
 #: ../plug-ins/script-fu/scripts/old-photo.scm:104
 #: ../plug-ins/script-fu/scripts/round-corners.scm:143
@@ -286,7 +286,7 @@ msgstr "जाडी"
 msgid "Work on copy"
 msgstr "बनवलेल्या प्रतीवर कार्य करा"
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:193
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:199
 msgid "Keep bump layer"
 msgstr "बम्प स्तर ठेवा"
 
@@ -401,61 +401,61 @@ msgstr "जीआयएफ साठी तयार करा"
 msgid "Speed (pixels/frame)"
 msgstr "गती (चित्रकणे [पिक्सेल्स]/चौकट)"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:168
+#: ../plug-ins/script-fu/scripts/carve-it.scm:176
 msgid "Carved Surface"
 msgstr "कोरलेला पृष्ठभाग"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:169
+#: ../plug-ins/script-fu/scripts/carve-it.scm:177
 msgid "Bevel Shadow"
 msgstr "काटकोनातील सावली"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:170
+#: ../plug-ins/script-fu/scripts/carve-it.scm:178
 msgid "Bevel Highlight"
 msgstr "काटकोनात प्रकाशमय"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:171
+#: ../plug-ins/script-fu/scripts/carve-it.scm:179
 msgid "Cast Shadow"
 msgstr "सावली देणे"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:172
+#: ../plug-ins/script-fu/scripts/carve-it.scm:180
 msgid "Inset"
 msgstr "इनसेट"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:182
+#: ../plug-ins/script-fu/scripts/carve-it.scm:192
 msgid "Stencil C_arve..."
 msgstr "स्टेन्सिल को_रून काढा..."
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:183
+#: ../plug-ins/script-fu/scripts/carve-it.scm:193
 msgid ""
 "Use the specified drawable as a stencil to carve from the specified image."
 msgstr ""
 "निर्दिष्ट केलेल्या प्रतिमेवरून कोरून काढण्यासाठी विशिष्ट रेखांकनायोग्य स्टेन्सिल म्हणून वापरा."
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:190
+#: ../plug-ins/script-fu/scripts/carve-it.scm:200
 msgid "Image to carve"
 msgstr "कोरलेली प्रतिमा"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:191
+#: ../plug-ins/script-fu/scripts/carve-it.scm:201
 msgid "Carve white areas"
 msgstr "पांढऱ्या भागात कोरणे"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:103
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:93
 msgid "Background"
 msgstr "पृष्ठभाग"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:104
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:94
 msgid "Layer 1"
 msgstr "स्तर १"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:105
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:95
 msgid "Layer 2"
 msgstr "स्तर २"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:106
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:96
 msgid "Layer 3"
 msgstr "स्तर ३"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:107
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:97
 msgid "Drop Shadow"
 msgstr "सावली काढून टाका"
 
@@ -468,11 +468,11 @@ msgstr "क्रोम"
 msgid "Highlight"
 msgstr "ठळक"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:230
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:232
 msgid "Stencil C_hrome..."
 msgstr "स्टेन्सिल क्रो_म..."
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:231
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:233
 msgid ""
 "Add a chrome effect to the selected region (or alpha) using a specified "
 "(grayscale) stencil"
@@ -480,31 +480,31 @@ msgstr ""
 "निर्दिष्ट केलेल्या क्षेत्र (किंवा अल्फा) वर विशिष्ट (कृष्ण-धवल छटा [ग्रेस्केल]) स्टेन्सिल वापरून "
 "क्रोम प्रभाव जोडा"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:238
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:240
 msgid "Chrome saturation"
 msgstr "क्रोम संपृक्तता"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:239
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:241
 msgid "Chrome lightness"
 msgstr "हलका क्रोम "
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:240
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:242
 msgid "Chrome factor"
 msgstr "क्रोम घटक [फॅक्टर]"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:241
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:243
 msgid "Environment map"
 msgstr "पर्यावरण नकाशा"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:244
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:246
 msgid "Highlight balance"
 msgstr "प्रकाशमय [हायलाईट] संतुलन"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:245
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:247
 msgid "Chrome balance"
 msgstr "क्रोम संतुलन"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:246
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:248
 msgid "Chrome white areas"
 msgstr "क्रोम पांढरे क्षेत्रे"
 
@@ -595,7 +595,8 @@ msgid "Darken only"
 msgstr "केवळ गडद"
 
 #: ../plug-ins/script-fu/scripts/difference-clouds.scm:70
-msgid "Difference Clouds..."
+#, fuzzy
+msgid "_Difference Clouds..."
 msgstr "ढगांतील फरक..."
 
 #: ../plug-ins/script-fu/scripts/difference-clouds.scm:71
@@ -611,27 +612,33 @@ msgid "Distress the selection"
 msgstr "निवडीस त्रास [डिस्ट्रेस] देणे"
 
 #: ../plug-ins/script-fu/scripts/distress-selection.scm:113
-msgid "Threshold (bigger 1<-->254 smaller)"
+#, fuzzy
+msgid "_Threshold (bigger 1<-->254 smaller)"
 msgstr "रंग मर्यादा [थ्रेशोल्ड] (मोठी १<-->२५४ लहान)"
 
 #: ../plug-ins/script-fu/scripts/distress-selection.scm:114
-msgid "Spread"
+#, fuzzy
+msgid "_Spread"
 msgstr "पसरवणे"
 
 #: ../plug-ins/script-fu/scripts/distress-selection.scm:115
-msgid "Granularity (1 is low)"
+#, fuzzy
+msgid "_Granularity (1 is low)"
 msgstr "दाणेदार (१ कमी आहे)"
 
 #: ../plug-ins/script-fu/scripts/distress-selection.scm:116
-msgid "Smooth"
+#, fuzzy
+msgid "S_mooth"
 msgstr "गुळगुळीत "
 
 #: ../plug-ins/script-fu/scripts/distress-selection.scm:117
-msgid "Smooth horizontally"
+#, fuzzy
+msgid "Smooth hor_izontally"
 msgstr "आडवा गुळगुळीत"
 
 #: ../plug-ins/script-fu/scripts/distress-selection.scm:118
-msgid "Smooth vertically"
+#, fuzzy
+msgid "Smooth _vertically"
 msgstr "उभा गुळगुळीत"
 
 #: ../plug-ins/script-fu/scripts/drop-shadow.scm:170
@@ -673,49 +680,65 @@ msgstr "अपारदर्शकता"
 msgid "Allow resizing"
 msgstr "आकार बदलण्याची परवानगी द्या"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:41
-msgid "_Erase Every Other Row..."
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:42
+#, fuzzy
+msgid "_Erase Every Nth Row..."
 msgstr "अन्य सर्व पंक्ती _पुसा..."
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:42
-msgid "Erase every other row or column"
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:43
+#, fuzzy
+msgid "Erase every nth row or column"
 msgstr "इतर सर्व पंक्ती किंवा स्तंभ मिटवा"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Rows/cols"
 msgstr "पंक्ती/स्तंभ"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Rows"
 msgstr "पंक्ती"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Columns"
 msgstr "स्तंभ"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
-msgid "Even/odd"
-msgstr "सम/विषम"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
-msgid "Even"
-msgstr "सम"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
-msgid "Odd"
-msgstr "विषम"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:51
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Erase/fill"
 msgstr "मिटवा/भरा"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:51
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Erase"
 msgstr "मिटवा"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:51
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Fill with BG"
 msgstr "पृष्ठभाग भरा"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:57
+msgid "_Erase Every Other Row..."
+msgstr "अन्य सर्व पंक्ती _पुसा..."
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:58
+msgid "Erase every other row or column"
+msgstr "इतर सर्व पंक्ती किंवा स्तंभ मिटवा"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Even/odd"
+msgstr "सम/विषम"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Even"
+msgstr "सम"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Odd"
+msgstr "विषम"
 
 #: ../plug-ins/script-fu/scripts/font-map.scm:152
 msgid "Render _Font Map..."
@@ -843,21 +866,26 @@ msgid "_Main Web Site"
 msgstr "_मुख्य वेब साइट"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GNU Image Manipulation Program web site"
+#, fuzzy
+msgid "Bookmark to the Glimpse web site"
 msgstr "गिम्प वेबसाईटमध्ये खुण करा"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
 msgid "_Developer Web Site"
 msgstr "_विकासक [डेव्हलपर] वेब साइट"
 
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:204
+#, fuzzy
+msgid "Bookmark to the Glimpse Github project"
+msgstr "गिम्पच्या विकीवर खुण ठेवा"
+
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:216
 msgid "_Roadmap"
 msgstr "_नकाशा"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217
-msgid "Bookmark to the roadmap of GIMP"
+#, fuzzy
+msgid "Bookmark to the roadmap of Glimpse"
 msgstr "गिम्पच्या नकाशावर खुण ठेवा"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:229
@@ -865,7 +893,8 @@ msgid "_Wiki"
 msgstr "_विकी "
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:230
-msgid "Bookmark to the wiki of GIMP"
+#, fuzzy
+msgid "Bookmark to the wiki of Glimpse"
 msgstr "गिम्पच्या विकीवर खुण ठेवा"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:242
@@ -873,12 +902,17 @@ msgid "_Bug Reports and Feature Requests"
 msgstr "_दोष अहवाल आणि वैशिष्ट्य विनंत्या [बग रिपोर्ट्स  आणि  फिचर रिक्वेस्ट्स]"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:243
-msgid "Bookmark to the bug tracker of GIMP"
+#, fuzzy
+msgid "Bookmark to the bug tracker of Glimpse"
 msgstr "गिम्पच्या बग ट्रॅकरवर खुण ठेवा"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
 msgid "_Online User Manual (GNU I.M.P)"
 msgstr "_वापरकर्ता हस्तलिखित वेब साइट"
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:256
+msgid "Bookmark to the GNU Image Manipulation Program web site"
+msgstr "गिम्प वेबसाईटमध्ये खुण करा"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69
 msgid "Custom _Gradient..."
@@ -944,7 +978,8 @@ msgstr "प्रतिमा आकाराची टक्केवारी 
 
 #: ../plug-ins/script-fu/scripts/guides-new-percent.scm:35
 #: ../plug-ins/script-fu/scripts/guides-new.scm:35
-msgid "Direction"
+#, fuzzy
+msgid "_Direction"
 msgstr "मार्ग दाखवणे"
 
 #: ../plug-ins/script-fu/scripts/guides-new-percent.scm:35
@@ -958,7 +993,8 @@ msgid "Vertical"
 msgstr "उभट"
 
 #: ../plug-ins/script-fu/scripts/guides-new-percent.scm:37
-msgid "Position (in %)"
+#, fuzzy
+msgid "_Position (in %)"
 msgstr "स्थिती (% मध्ये)"
 
 #: ../plug-ins/script-fu/scripts/guides-new.scm:27
@@ -970,7 +1006,8 @@ msgid "Add a guide at the orientation and position specified (in pixels)"
 msgstr "निर्दिष्ट केलेल्या विभाजक आणि स्थितीवर (चित्रकणांमध्ये [पिक्सेल्स]) एक गाईड जोडा"
 
 #: ../plug-ins/script-fu/scripts/guides-new.scm:36
-msgid "Position"
+#, fuzzy
+msgid "_Position"
 msgstr "स्थान"
 
 #: ../plug-ins/script-fu/scripts/guides-remove-all.scm:19
@@ -1055,8 +1092,6 @@ msgstr "नाव"
 #: ../plug-ins/script-fu/scripts/mkbrush.scm:143
 #: ../plug-ins/script-fu/scripts/mkbrush.scm:198
 #: ../plug-ins/script-fu/scripts/mkbrush.scm:268
-#: ../plug-ins/script-fu/scripts/paste-as-brush.scm:70
-#: ../plug-ins/script-fu/scripts/select-to-brush.scm:143
 msgid "Spacing"
 msgstr "अंतर"
 
@@ -1177,15 +1212,23 @@ msgstr "फलक सामग्री नवीन कुंचल्याम
 
 #: ../plug-ins/script-fu/scripts/paste-as-brush.scm:68
 #: ../plug-ins/script-fu/scripts/select-to-brush.scm:141
-msgid "Brush name"
+#, fuzzy
+msgid "_Brush name"
 msgstr "कुंचल्याचे नाव"
 
 #: ../plug-ins/script-fu/scripts/paste-as-brush.scm:69
 #: ../plug-ins/script-fu/scripts/paste-as-pattern.scm:57
 #: ../plug-ins/script-fu/scripts/select-to-brush.scm:142
 #: ../plug-ins/script-fu/scripts/select-to-pattern.scm:102
-msgid "File name"
+#, fuzzy
+msgid "_File name"
 msgstr "धारिकेचे नाव"
+
+#: ../plug-ins/script-fu/scripts/paste-as-brush.scm:70
+#: ../plug-ins/script-fu/scripts/select-to-brush.scm:143
+#, fuzzy
+msgid "_Spacing"
+msgstr "अंतर"
 
 #: ../plug-ins/script-fu/scripts/paste-as-pattern.scm:50
 msgid "New _Pattern..."
@@ -1197,7 +1240,8 @@ msgstr "फलक [क्लिपबोर्ड] वरील सामग्�
 
 #: ../plug-ins/script-fu/scripts/paste-as-pattern.scm:56
 #: ../plug-ins/script-fu/scripts/select-to-pattern.scm:101
-msgid "Pattern name"
+#, fuzzy
+msgid "_Pattern name"
 msgstr "नमुना नाव"
 
 #: ../plug-ins/script-fu/scripts/perspective-shadow.scm:198
@@ -1245,7 +1289,8 @@ msgid "Pixel amount"
 msgstr "चित्रकण [पिक्सेल] प्रमाण"
 
 #: ../plug-ins/script-fu/scripts/reverse-layers.scm:42
-msgid "Reverse Layer Order"
+#, fuzzy
+msgid "Reverse Layer _Order"
 msgstr "स्तर उलटा करा"
 
 #: ../plug-ins/script-fu/scripts/reverse-layers.scm:43
@@ -1337,11 +1382,13 @@ msgid "Round the corners of the current selection"
 msgstr "सध्याच्या निवडीच्या कोपऱ्यांना गोल करा"
 
 #: ../plug-ins/script-fu/scripts/selection-round.scm:147
-msgid "Radius (%)"
+#, fuzzy
+msgid "R_adius (%)"
 msgstr "त्रिज्या (%)"
 
 #: ../plug-ins/script-fu/scripts/selection-round.scm:148
-msgid "Concave"
+#, fuzzy
+msgid "Co_ncave"
 msgstr "अंतर्गोल [कॉन्क्वेह]"
 
 #: ../plug-ins/script-fu/scripts/select-to-brush.scm:133

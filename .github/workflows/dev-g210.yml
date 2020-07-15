@@ -91,7 +91,7 @@ jobs:
     - name: Build in-development version of Glimpse Image Editor
       run: |
         cd $SRC_PREFIX/Glimpse
-        ./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc --disable-gtk-doc-html --without-webkit --without-xvfb-run --disable-python
+        ./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc --disable-gtk-doc-html --without-webkit --without-xvfb-run --disable-python --disable-check-update
         make && make install
         
     - name: Run unit tests against Glimpse Image Editor
@@ -103,3 +103,38 @@ jobs:
       with:
         name: glimpse-dev-x86_64-linux-gnu
         path: ${{ github.workspace }}/glimpse-prefix
+
+  build-windows:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: msys2 {0}
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        path: Glimpse
+        
+    - uses: msys2/setup-msys2@v1
+      with:
+        msystem: MINGW64
+        update: true
+        install: git mingw-w64-x86_64-toolchain base-devel mingw-w64-x86_64-asciidoc mingw-w64-x86_64-drmingw mingw-w64-x86_64-gexiv2 mingw-w64-x86_64-ghostscript mingw-w64-x86_64-glib-networking mingw-w64-x86_64-graphviz mingw-w64-x86_64-gtk2 mingw-w64-x86_64-python2-pygtk mingw-w64-x86_64-iso-codes mingw-w64-x86_64-json-c mingw-w64-x86_64-json-glib mingw-w64-x86_64-lcms2 mingw-w64-x86_64-lensfun mingw-w64-x86_64-libheif mingw-w64-x86_64-libraw mingw-w64-x86_64-libspiro mingw-w64-x86_64-libwebp mingw-w64-x86_64-libwmf mingw-w64-x86_64-openexr mingw-w64-x86_64-poppler mingw-w64-x86_64-SDL2 mingw-w64-x86_64-suitesparse mingw-w64-x86_64-vala mingw-w64-x86_64-xpm-nox mingw-w64-x86_64-gtk-doc mingw-w64-x86_64-meson mingw-w64-x86_64-gobject-introspection mingw-w64-x86_64-babl mingw-w64-x86_64-libmypaint mingw-w64-x86_64-mypaint-brushes mingw-w64-x86_64-gegl
+
+    - name: Build in-development version of Glimpse Image Editor
+      run: |
+        export INSTALL_PREFIX="`pwd`/glimpse-win-prefix"
+        export PATH="$INSTALL_PREFIX/bin:$PATH"
+        export PKG_CONFIG_PATH="$INSTALL_PREFIX/lib/pkgconfig:$INSTALL_PREFIX/share/pkgconfig:$PKG_CONFIG_PATH"
+        export LD_LIBRARY_PATH="$INSTALL_PREFIX/lib:$LD_LIBRARY_PATH"
+        export XDG_DATA_DIRS="$XDG_DATA_DIRS:$INSTALL_PREFIX/share:/usr/local/share/:/usr/share/"
+        export ACLOCAL_FLAGS="-I/c/msys64/mingw64/share/aclocal"
+        echo "== Building Glimpse DEV... =="
+        cd Glimpse
+        ./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc --disable-gtk-doc-html --without-webkit --without-xvfb-run --disable-python --disable-check-update
+        make && make install
+    
+    - uses: actions/upload-artifact@v1
+      with:
+        name: glimpse-dev-x86_64-windows
+        path: ${{ github.workspace }}/glimpse-win-prefix
+    

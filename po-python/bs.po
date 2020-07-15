@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bosnianuniversetranslation\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2013-01-27 21:39+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-15 00:27+0100\n"
 "PO-Revision-Date: 2015-02-05 00:25+0000\n"
 "Last-Translator: Izudin Vragić <ivragic1@etf.unsa.ba>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
@@ -18,37 +18,37 @@ msgstr ""
 "X-Launchpad-Export-Date: 2015-03-14 13:28+0000\n"
 "X-Generator: Launchpad (build 17389)\n"
 
-#: ../plug-ins/pygimp/gimpfu.py:394
+#: ../plug-ins/pygimp/gimpfu.py:395
 msgid "Missing exception information"
 msgstr "Nedostaju informacije o izuzetku"
 
-#: ../plug-ins/pygimp/gimpfu.py:403
+#: ../plug-ins/pygimp/gimpfu.py:404
 #, python-format
 msgid "An error occurred running %s"
 msgstr "Pojavila se greška pri korištenju %s"
 
-#: ../plug-ins/pygimp/gimpfu.py:414
+#: ../plug-ins/pygimp/gimpfu.py:415
 msgid "_More Information"
 msgstr "_Više Informacija"
 
-#: ../plug-ins/pygimp/gimpfu.py:526 ../plug-ins/pygimp/gimpfu.py:538
-#: ../plug-ins/pygimp/gimpfu.py:544
+#: ../plug-ins/pygimp/gimpfu.py:528 ../plug-ins/pygimp/gimpfu.py:540
+#: ../plug-ins/pygimp/gimpfu.py:546
 msgid "No"
 msgstr "Ne"
 
-#: ../plug-ins/pygimp/gimpfu.py:536 ../plug-ins/pygimp/gimpfu.py:544
+#: ../plug-ins/pygimp/gimpfu.py:538 ../plug-ins/pygimp/gimpfu.py:546
 msgid "Yes"
 msgstr "Da"
 
-#: ../plug-ins/pygimp/gimpfu.py:596 ../plug-ins/pygimp/gimpui.py:223
+#: ../plug-ins/pygimp/gimpfu.py:599 ../plug-ins/pygimp/gimpui.py:223
 msgid "Python-Fu File Selection"
 msgstr "Python-Fu izbor datoteke"
 
-#: ../plug-ins/pygimp/gimpfu.py:607
+#: ../plug-ins/pygimp/gimpfu.py:648
 msgid "Python-Fu Folder Selection"
 msgstr "Python-Fu izbor direktorija"
 
-#: ../plug-ins/pygimp/gimpfu.py:696
+#: ../plug-ins/pygimp/gimpfu.py:737
 #, python-format
 msgid "Invalid input for '%s'"
 msgstr "Pogrešan ulaz za '%s'"
@@ -105,6 +105,50 @@ msgstr "Gradijent za korištenje"
 msgid "File Name"
 msgstr "Naziv datoteke"
 
+#: ../plug-ins/pygimp/plug-ins/histogram-export.py:88
+msgid "Exports the image histogram to a text file (CSV)"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/histogram-export.py:93
+msgid "_Export histogram..."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/histogram-export.py:95
+msgid "_Image"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/histogram-export.py:96
+msgid "_Drawable"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/histogram-export.py:97
+msgid "Histogram _File"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/histogram-export.py:98
+msgid "_Bucket Size"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/histogram-export.py:99
+msgid "Sample _Average"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/histogram-export.py:100
+msgid "Output format"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/histogram-export.py:101
+msgid "Pixel count"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/histogram-export.py:102
+msgid "Normalized"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/histogram-export.py:103
+msgid "Percent"
+msgstr ""
+
 #: ../plug-ins/pygimp/plug-ins/foggify.py:56
 msgid "Add a layer of fog"
 msgstr "Dodaj magloviti sloj"
@@ -142,7 +186,7 @@ msgid "_Offset Palette..."
 msgstr "_Neutralizirati paletu..."
 
 #: ../plug-ins/pygimp/plug-ins/palette-offset.py:52
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:309
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:334
 #: ../plug-ins/pygimp/plug-ins/palette-to-gradient.py:59
 #: ../plug-ins/pygimp/plug-ins/palette-to-gradient.py:81
 msgid "Palette"
@@ -152,119 +196,125 @@ msgstr "Paleta"
 msgid "Off_set"
 msgstr "_Neutralizirati"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:22
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:25
 msgid "Red"
 msgstr "Crveno"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:22
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:25
 msgid "Green"
 msgstr "Zeleno"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:22
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:25
 msgid "Blue"
 msgstr "Plavo"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:23
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:26
 msgid "Luma (Y)"
 msgstr "Luma (Y)"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:24
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:27
 msgid "Hue"
 msgstr "Nijansa boje"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:24
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:27
 msgid "Saturation"
 msgstr "Zasićenje"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:24
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:27
 msgid "Value"
 msgstr "Vrijednost"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:25
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:28
 msgid "Saturation (HSL)"
 msgstr "Zasićenost (HSL)"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:25
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:28
 msgid "Lightness (HSL)"
 msgstr "Osvjetljenje (HSL)"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:26
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:29
 msgid "Index"
 msgstr "Indeks"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:27
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:30
 msgid "Random"
 msgstr "Slučajan"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:78
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:81
 msgid "Lightness (LAB)"
 msgstr "Osvjetljenje (LAB)"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:78
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:82
 msgid "A-color"
 msgstr "A-boja"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:78
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:82
 msgid "B-color"
 msgstr "B-boja"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:79
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:83
 msgid "Chroma (LCHab)"
 msgstr "Chroma (LCHab)"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:79
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:84
 msgid "Hue (LCHab)"
 msgstr "Boja(LCHab)"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:300
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:312
 msgid "Sort the colors in a palette"
 msgstr "Sortiraj boje u paleti"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:306
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:331
 msgid "_Sort Palette..."
 msgstr "_Sortiraj Paletu..."
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:310
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:335
 msgid "Se_lections"
 msgstr "_Selekcije"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:311
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:336
 msgid "All"
 msgstr "Sve"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:311
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:336
 msgid "Slice / Array"
 msgstr "Dio / Red"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:311
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:336
 msgid "Autoslice (fg->bg)"
 msgstr "Automatski podijeli(fg->bg)"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:311
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:337
 msgid "Partitioned"
 msgstr "Particionisan"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:312
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:338
 msgid "Slice _expression"
 msgstr "Djelimični_izraz"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:313
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:339
 msgid "Channel to _sort"
 msgstr "Kanal do _sortiranja"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:315
-msgid "_Quantization"
-msgstr "Kvantizacija"
-
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:316
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:341
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:344
 msgid "_Ascending"
 msgstr "_Rastuće"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:317
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:342
+#, fuzzy
+msgid "Secondary Channel to s_ort"
+msgstr "Kanal do _sortiranja"
+
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:345
+msgid "_Quantization"
+msgstr "Kvantizacija"
+
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:346
 msgid "_Partitioning channel"
 msgstr "_Particirani kanal"
 
-#: ../plug-ins/pygimp/plug-ins/palette-sort.py:319
+#: ../plug-ins/pygimp/plug-ins/palette-sort.py:348
 msgid "Partition q_uantization"
 msgstr "Parcijelna kvantizacija"
 
@@ -289,84 +339,83 @@ msgid "Slice"
 msgstr "Dio"
 
 #. table snippet means a small piece of HTML code here
-#: ../plug-ins/pygimp/plug-ins/py-slice.py:420
-msgid ""
-"Cuts an image along its guides, creates images and a HTML table snippet"
+#: ../plug-ins/pygimp/plug-ins/py-slice.py:421
+msgid "Cuts an image along its guides, creates images and a HTML table snippet"
 msgstr ""
 "Isijecanjem slike duz svojih vodiča kreira slike i isječak HTML tablice"
 
-#: ../plug-ins/pygimp/plug-ins/py-slice.py:431
+#: ../plug-ins/pygimp/plug-ins/py-slice.py:432
 msgid "_Slice..."
 msgstr "_Dio..."
 
-#: ../plug-ins/pygimp/plug-ins/py-slice.py:436
+#: ../plug-ins/pygimp/plug-ins/py-slice.py:437
 msgid "Path for HTML export"
 msgstr "Izlazni put za HTML"
 
-#: ../plug-ins/pygimp/plug-ins/py-slice.py:437
+#: ../plug-ins/pygimp/plug-ins/py-slice.py:438
 msgid "Filename for export"
 msgstr "Izlazni naziv datoteke"
 
-#: ../plug-ins/pygimp/plug-ins/py-slice.py:438
+#: ../plug-ins/pygimp/plug-ins/py-slice.py:439
 msgid "Image name prefix"
 msgstr "Prefiks imena slike"
 
-#: ../plug-ins/pygimp/plug-ins/py-slice.py:439
+#: ../plug-ins/pygimp/plug-ins/py-slice.py:440
 msgid "Image format"
 msgstr "Format slike"
 
-#: ../plug-ins/pygimp/plug-ins/py-slice.py:440
+#: ../plug-ins/pygimp/plug-ins/py-slice.py:441
 msgid "Separate image folder"
 msgstr "Odvojena datoteka slika"
 
-#: ../plug-ins/pygimp/plug-ins/py-slice.py:442
+#: ../plug-ins/pygimp/plug-ins/py-slice.py:443
 msgid "Folder for image export"
 msgstr "Datoteka za izlazne slike"
 
-#: ../plug-ins/pygimp/plug-ins/py-slice.py:443
+#: ../plug-ins/pygimp/plug-ins/py-slice.py:444
 msgid "Space between table elements"
 msgstr "Prostor između tabličnih elemenata"
 
-#: ../plug-ins/pygimp/plug-ins/py-slice.py:445
+#: ../plug-ins/pygimp/plug-ins/py-slice.py:446
 msgid "Javascript for onmouseover and clicked"
 msgstr "Javascript za prelazak mišem i klik"
 
 #. table caps are table cells on the edge of the table
-#: ../plug-ins/pygimp/plug-ins/py-slice.py:448
+#: ../plug-ins/pygimp/plug-ins/py-slice.py:449
 msgid "Skip animation for table caps"
 msgstr "Preskoči animacije za rubne čelije"
 
-#: ../plug-ins/pygimp/plug-ins/python-console.py:56
+#: ../plug-ins/pygimp/plug-ins/python-console.py:57
 msgid "Python Console"
 msgstr "Python konzola"
 
-#: ../plug-ins/pygimp/plug-ins/python-console.py:60
+#: ../plug-ins/pygimp/plug-ins/python-console.py:61
 msgid "_Browse..."
 msgstr "_Pretraži..."
 
-#: ../plug-ins/pygimp/plug-ins/python-console.py:138
+#: ../plug-ins/pygimp/plug-ins/python-console.py:154
 msgid "Python Procedure Browser"
 msgstr "Python  proceduralni pretraživač"
 
-#: ../plug-ins/pygimp/plug-ins/python-console.py:167
+#: ../plug-ins/pygimp/plug-ins/python-console.py:183
 #, python-format
 msgid "Could not open '%s' for writing: %s"
 msgstr "Ne mogu da otvorim „%s“ radi upisa: %s"
 
-#: ../plug-ins/pygimp/plug-ins/python-console.py:182
+#: ../plug-ins/pygimp/plug-ins/python-console.py:198
 #, python-format
 msgid "Could not write to '%s': %s"
 msgstr "Ne mogu pisati u '%s':%s"
 
-#: ../plug-ins/pygimp/plug-ins/python-console.py:190
+#: ../plug-ins/pygimp/plug-ins/python-console.py:206
 msgid "Save Python-Fu Console Output"
 msgstr "Sačuvaj Python-Fu izlaz konzule"
 
-#: ../plug-ins/pygimp/plug-ins/python-console.py:216
+#: ../plug-ins/pygimp/plug-ins/python-console.py:232
 msgid "Interactive GIMP Python interpreter"
 msgstr "Interaktivni GIMP Python interpreter"
 
-#: ../plug-ins/pygimp/plug-ins/python-console.py:221
+#: ../plug-ins/pygimp/plug-ins/python-console.py:237
 msgid "_Console"
 msgstr "_Konzola"
 
@@ -397,3 +446,361 @@ msgstr "Padajuća sjena _X pomjeranje"
 #: ../plug-ins/pygimp/plug-ins/shadow_bevel.py:74
 msgid "Drop shadow _Y displacement"
 msgstr "Padajuća sjena _Y pomjeranje"
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:44
+msgid "Spyro Layer"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:45
+msgid "Spyro Path"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:56
+msgid ""
+"Save\n"
+"as New Layer"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:57
+msgid ""
+"Redraw on\n"
+"Active layer"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:58
+msgid ""
+"Save\n"
+"as Path"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:104
+msgid "Circle"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:140
+msgid "Polygon-Star"
+msgstr ""
+
+#. Sine wave on a circle ring.
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:156
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:947
+msgid "Sine"
+msgstr ""
+
+#. Semi-circles, based on a polygon
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:166
+msgid "Bumps"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:271
+msgid "Rack"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:315
+msgid "Frame"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:404
+#, fuzzy
+msgid "Selection"
+msgstr "_Selekcije"
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:494
+msgid "Pencil"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:510
+msgid "AirBrush"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:570
+msgid "Preview"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:575
+msgid "Stroke"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:622
+msgid "PaintBrush"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:624
+msgid "Ink"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:625
+msgid "MyPaintBrush"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:933
+msgid "Spyrograph"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:940
+msgid "Epitrochoid"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:967
+msgid "Lissajous"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1395
+msgid "Curve Type"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1396
+msgid ""
+"An Epitrochoid pattern is when the moving gear is on the outside of the "
+"fixed gear."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1401
+msgid "Tool"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1402
+msgid ""
+"The tool with which to draw the pattern.The Preview tool just draws quickly."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1407
+#, fuzzy
+msgid "Long Gradient"
+msgstr "Palete u _Gradijent"
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1409
+msgid ""
+"When unchecked, the current tool settings will be used. When checked, will "
+"use a long gradient to match the length of the pattern, based on current "
+"gradient and repeat mode from the gradient tool settings."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1429
+msgid "Specify pattern using one of the following tabs:"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1431
+msgid ""
+"The pattern is specified only by the active tab. Toy Kit is similar to "
+"Gears, but it uses gears and hole numbers which are found in toy kits. If "
+"you follow the instructions from the toy kit manuals, results should be "
+"similar."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1455
+msgid ""
+"Number of teeth of fixed gear. The size of the fixed gear is proportional to "
+"the number of teeth."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1458
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1484
+msgid "Fixed Gear Teeth"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1464
+msgid ""
+"Number of teeth of moving gear. The size of the moving gear is proportional "
+"to the number of teeth."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1467
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1489
+msgid "Moving Gear Teeth"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1472
+msgid "Hole percent"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1473
+msgid ""
+"How far is the hole from the center of the moving gear. 100% means that the "
+"hole is at the gear's edge."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1494
+#, fuzzy
+msgid "Hole Number"
+msgstr "Naziv datoteke"
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1495
+msgid ""
+"Hole #1 is at the edge of the gear. The maximum hole number is near the "
+"center. The maximum hole number is different for each gear."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1506
+msgid "Flower Petals"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1506
+msgid "The number of petals in the pattern."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1511
+msgid "Petal Skip"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1512
+msgid "The number of petals to advance for drawing the next petal."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1517
+msgid "Hole Radius(%)"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1518
+msgid ""
+"The radius of the hole in the center of the pattern where nothing will be "
+"drawn. Given as a percentage of the size of the pattern. A value of 0 will "
+"produce no hole. A Value of 99 will produce a thin line on the edge."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1531
+msgid "Width(%)"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1532
+msgid ""
+"The width of the pattern as a percentage of the size of the pattern. A Value "
+"of 1 will just draw a thin pattern. A Value of 100 will fill the entire "
+"fixed gear."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1542
+msgid "Visual"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1547
+msgid "Toy Kit"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1552
+msgid "Gears"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1564
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1608
+#, fuzzy
+msgid "Rotation"
+msgstr "Zasićenje"
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1565
+msgid ""
+"Rotation of the pattern, in degrees. The starting position of the moving "
+"gear in the fixed gear."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1588
+msgid "Shape"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1589
+msgid ""
+"The shape of the fixed gear to be used inside current selection. Rack is a "
+"long round-edged shape provided in the toy kits. Frame hugs the boundaries "
+"of the rectangular selection, use hole=100 in Gear notation to touch "
+"boundary. Selection will hug boundaries of current selection - try something "
+"non-rectangular."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1598
+msgid "Sides"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1598
+msgid "Number of sides of the shape."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1603
+msgid "Morph"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1603
+msgid "Morph fixed gear shape. Only affects some of the shapes."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1608
+msgid "Rotation of the fixed gear, in degrees"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1623
+msgid "Margin (px)"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1623
+msgid "Margin from edge of selection."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1628
+msgid "Make width and height equal"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1630
+msgid ""
+"When unchecked, the pattern will fill the current image or selection. When "
+"checked, the pattern will have same width and height, and will be centered."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1654
+msgid "Re_draw"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1655
+msgid ""
+"If you change the settings of a tool, change color, or change the selection, "
+"press this to preview how the pattern looks."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1657
+msgid "_Reset"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1658
+msgid "_Cancel"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1659
+msgid "_OK"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1665
+msgid ""
+"Choose whether to save as new layer, redraw on last active layer, or save to "
+"path"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1677
+msgid "Spyrogimp"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1686
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:2191
+msgid "Draw spyrographs using current tool settings and selection."
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1699
+msgid "Curve Pattern"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1702
+msgid "Fixed Gear"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:1705
+msgid "Size"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:2039
+msgid "Rendering Pattern"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:2051
+msgid "Please wait : Rendering Pattern"
+msgstr ""
+
+#: ../plug-ins/pygimp/plug-ins/spyro_plus.py:2160
+msgid "Spyrogimp..."
+msgstr ""

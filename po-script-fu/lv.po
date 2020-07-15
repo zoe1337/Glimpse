@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2019-03-30 13:41+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-15 00:28+0100\n"
 "PO-Revision-Date: 2019-03-31 12:20+0200\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 :"
-" 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
 "X-Generator: Lokalize 2.0\n"
 
 #: ../plug-ins/script-fu/script-fu.c:111
@@ -135,7 +135,7 @@ msgstr "Saglabāt Script-Fu konsoles izvadi"
 
 #: ../plug-ins/script-fu/script-fu-console.c:292
 #: ../plug-ins/script-fu/script-fu-interface.c:236
-#: ../plug-ins/script-fu/script-fu-server.c:834
+#: ../plug-ins/script-fu/script-fu-server.c:836
 msgid "_Cancel"
 msgstr "At_celt"
 
@@ -232,27 +232,27 @@ msgstr "Pārāk maz argumentu 'script-fu-register' izsaukumam"
 msgid "Error while loading %s:"
 msgstr "Kļūda, ielādējot %s:"
 
-#: ../plug-ins/script-fu/script-fu-server.c:830
+#: ../plug-ins/script-fu/script-fu-server.c:832
 msgid "Script-Fu Server Options"
 msgstr "Script-Fu servera opcijas"
 
-#: ../plug-ins/script-fu/script-fu-server.c:835
+#: ../plug-ins/script-fu/script-fu-server.c:837
 msgid "_Start Server"
 msgstr "_Startēt serveri"
 
-#: ../plug-ins/script-fu/script-fu-server.c:868
+#: ../plug-ins/script-fu/script-fu-server.c:870
 msgid "Listen on IP:"
 msgstr "Klausīties IP:"
 
-#: ../plug-ins/script-fu/script-fu-server.c:875
+#: ../plug-ins/script-fu/script-fu-server.c:877
 msgid "Server port:"
 msgstr "Servera ports:"
 
-#: ../plug-ins/script-fu/script-fu-server.c:881
+#: ../plug-ins/script-fu/script-fu-server.c:883
 msgid "Server logfile:"
 msgstr "Servera žurnāla fails:"
 
-#: ../plug-ins/script-fu/script-fu-server.c:894
+#: ../plug-ins/script-fu/script-fu-server.c:896
 msgid ""
 "Listening on an IP address other than 127.0.0.1 (especially 0.0.0.0) can "
 "allow attackers to remotely execute arbitrary code on this machine."
@@ -265,19 +265,19 @@ msgstr ""
 msgid "Bumpmap"
 msgstr "Reljefa karte"
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:183
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:189
 msgid "Add B_evel..."
 msgstr "Pi_evienot griezumu..."
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:184
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:190
 msgid "Add a beveled border to an image"
 msgstr "Pievienot attēlam nogrieztu malu"
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:191
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:197
 msgid "Thickness"
 msgstr "Biezums"
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:192
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:198
 #: ../plug-ins/script-fu/scripts/fuzzyborder.scm:163
 #: ../plug-ins/script-fu/scripts/old-photo.scm:104
 #: ../plug-ins/script-fu/scripts/round-corners.scm:143
@@ -286,7 +286,7 @@ msgstr "Biezums"
 msgid "Work on copy"
 msgstr "Darboties ar kopiju"
 
-#: ../plug-ins/script-fu/scripts/add-bevel.scm:193
+#: ../plug-ins/script-fu/scripts/add-bevel.scm:199
 msgid "Keep bump layer"
 msgstr "Paturēt reljefa slāni"
 
@@ -404,61 +404,61 @@ msgstr "Sagatavot priekš GIF"
 msgid "Speed (pixels/frame)"
 msgstr "Ātrums (pikseļi/kadrs)"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:168
+#: ../plug-ins/script-fu/scripts/carve-it.scm:176
 msgid "Carved Surface"
 msgstr "Grebtā virsma"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:169
+#: ../plug-ins/script-fu/scripts/carve-it.scm:177
 msgid "Bevel Shadow"
 msgstr "Slīpējuma ēna"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:170
+#: ../plug-ins/script-fu/scripts/carve-it.scm:178
 msgid "Bevel Highlight"
 msgstr "Slīpējuma gaisma"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:171
+#: ../plug-ins/script-fu/scripts/carve-it.scm:179
 msgid "Cast Shadow"
 msgstr "Mest ēnu"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:172
+#: ../plug-ins/script-fu/scripts/carve-it.scm:180
 msgid "Inset"
 msgstr "Ielīme"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:182
+#: ../plug-ins/script-fu/scripts/carve-it.scm:192
 msgid "Stencil C_arve..."
 msgstr "Š_ablona grebums..."
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:183
+#: ../plug-ins/script-fu/scripts/carve-it.scm:193
 msgid ""
 "Use the specified drawable as a stencil to carve from the specified image."
 msgstr ""
 "Izmantot īpašu zīmējamu laukumu kā šablonu, lai izgrieztu no norādītā attēla."
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:190
+#: ../plug-ins/script-fu/scripts/carve-it.scm:200
 msgid "Image to carve"
 msgstr "Attēls uz grebumu"
 
-#: ../plug-ins/script-fu/scripts/carve-it.scm:191
+#: ../plug-ins/script-fu/scripts/carve-it.scm:201
 msgid "Carve white areas"
 msgstr "Grebt baltos laukumus"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:103
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:93
 msgid "Background"
 msgstr "Fons"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:104
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:94
 msgid "Layer 1"
 msgstr "Slānis 1"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:105
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:95
 msgid "Layer 2"
 msgstr "Slānis 2"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:106
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:96
 msgid "Layer 3"
 msgstr "Slānis 3"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:107
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:97
 msgid "Drop Shadow"
 msgstr "Krītošā ēna"
 
@@ -471,11 +471,11 @@ msgstr "Hroms"
 msgid "Highlight"
 msgstr "Izgaismojumi"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:230
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:232
 msgid "Stencil C_hrome..."
 msgstr "Šablona _hroms..."
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:231
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:233
 msgid ""
 "Add a chrome effect to the selected region (or alpha) using a specified "
 "(grayscale) stencil"
@@ -483,31 +483,31 @@ msgstr ""
 "Pievienot hroma efektu iezīmētajam laukumam (vai alfai), izmantojot norādīto "
 "(pelēktoņu) šablonu"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:238
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:240
 msgid "Chrome saturation"
 msgstr "Hroma piesātinājums"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:239
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:241
 msgid "Chrome lightness"
 msgstr "Hroma gaišums"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:240
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:242
 msgid "Chrome factor"
 msgstr "Hroma faktors"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:241
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:243
 msgid "Environment map"
 msgstr "Vides karte"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:244
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:246
 msgid "Highlight balance"
 msgstr "Izgaismojumu balanss"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:245
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:247
 msgid "Chrome balance"
 msgstr "Hroma balans"
 
-#: ../plug-ins/script-fu/scripts/chrome-it.scm:246
+#: ../plug-ins/script-fu/scripts/chrome-it.scm:248
 msgid "Chrome white areas"
 msgstr "Hroma baltie laukumi"
 
@@ -600,7 +600,8 @@ msgid "Darken only"
 msgstr "Tikai tumšo"
 
 #: ../plug-ins/script-fu/scripts/difference-clouds.scm:70
-msgid "Difference Clouds..."
+#, fuzzy
+msgid "_Difference Clouds..."
 msgstr "Atšķirības krāsas..."
 
 #: ../plug-ins/script-fu/scripts/difference-clouds.scm:71
@@ -616,27 +617,33 @@ msgid "Distress the selection"
 msgstr "Izkliedēt iezīmējumu"
 
 #: ../plug-ins/script-fu/scripts/distress-selection.scm:113
-msgid "Threshold (bigger 1<-->254 smaller)"
+#, fuzzy
+msgid "_Threshold (bigger 1<-->254 smaller)"
 msgstr "Slieksnis (lielāks 1<-->254 mazāks)"
 
 #: ../plug-ins/script-fu/scripts/distress-selection.scm:114
-msgid "Spread"
+#, fuzzy
+msgid "_Spread"
 msgstr "Izkaisīt"
 
 #: ../plug-ins/script-fu/scripts/distress-selection.scm:115
-msgid "Granularity (1 is low)"
+#, fuzzy
+msgid "_Granularity (1 is low)"
 msgstr "Smalkums (1 ir mazs)"
 
 #: ../plug-ins/script-fu/scripts/distress-selection.scm:116
-msgid "Smooth"
+#, fuzzy
+msgid "S_mooth"
 msgstr "Gluds"
 
 #: ../plug-ins/script-fu/scripts/distress-selection.scm:117
-msgid "Smooth horizontally"
+#, fuzzy
+msgid "Smooth hor_izontally"
 msgstr "Gludināt horizontāli"
 
 #: ../plug-ins/script-fu/scripts/distress-selection.scm:118
-msgid "Smooth vertically"
+#, fuzzy
+msgid "Smooth _vertically"
 msgstr "Gludināt vertikāli"
 
 #: ../plug-ins/script-fu/scripts/drop-shadow.scm:170
@@ -678,49 +685,65 @@ msgstr "Blīvums"
 msgid "Allow resizing"
 msgstr "Ļaut mainīt izmēru"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:41
-msgid "_Erase Every Other Row..."
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:42
+#, fuzzy
+msgid "_Erase Every Nth Row..."
 msgstr "_Dzēst katru otro rindu..."
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:42
-msgid "Erase every other row or column"
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:43
+#, fuzzy
+msgid "Erase every nth row or column"
 msgstr "Dzēst katru kolonnu un rindu"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Rows/cols"
 msgstr "Rindas/kolonnas"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Rows"
 msgstr "Rindas"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:65
 msgid "Columns"
 msgstr "Kolonnas"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
-msgid "Even/odd"
-msgstr "Pāra/nepāra"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
-msgid "Even"
-msgstr "Pāra"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:50
-msgid "Odd"
-msgstr "Nepāra"
-
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:51
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Erase/fill"
 msgstr "Dzēst/aizpildīt"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:51
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Erase"
 msgstr "Dzēst"
 
-#: ../plug-ins/script-fu/scripts/erase-rows.scm:51
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:52
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:67
 msgid "Fill with BG"
 msgstr "Aizpildīt ar priekšpl."
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:57
+msgid "_Erase Every Other Row..."
+msgstr "_Dzēst katru otro rindu..."
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:58
+msgid "Erase every other row or column"
+msgstr "Dzēst katru kolonnu un rindu"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Even/odd"
+msgstr "Pāra/nepāra"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Even"
+msgstr "Pāra"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:66
+msgid "Odd"
+msgstr "Nepāra"
 
 #: ../plug-ins/script-fu/scripts/font-map.scm:152
 msgid "Render _Font Map..."
@@ -850,22 +873,26 @@ msgid "_Main Web Site"
 msgstr "Galvenā tī_mekļa vietne"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-#: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GNU Image Manipulation Program web site"
+#, fuzzy
+msgid "Bookmark to the Glimpse web site"
 msgstr "Grāmatzīme uz GIMP tīmekļa vietni"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
 msgid "_Developer Web Site"
 msgstr "Izstrā_dātāja tīmekļa vietne"
 
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:204
+#, fuzzy
+msgid "Bookmark to the Glimpse Github project"
+msgstr "Grāmatzīme uz GIMP viki"
+
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:216
 msgid "_Roadmap"
 msgstr "_Ceļa karte"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217
-#| msgid "Bookmark to the GNU Image Manipulation Program web site"
-msgid "Bookmark to the roadmap of GIMP"
+#, fuzzy
+msgid "Bookmark to the roadmap of Glimpse"
 msgstr "Grāmatzīme uz GIMP ceļa karti"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:229
@@ -873,8 +900,8 @@ msgid "_Wiki"
 msgstr "_Viki"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:230
-#| msgid "Bookmark to the GNU Image Manipulation Program web site"
-msgid "Bookmark to the wiki of GIMP"
+#, fuzzy
+msgid "Bookmark to the wiki of Glimpse"
 msgstr "Grāmatzīme uz GIMP viki"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:242
@@ -882,13 +909,17 @@ msgid "_Bug Reports and Feature Requests"
 msgstr "_Kļūdu ziņojumi un jaunu iespēju pieprasījumi"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:243
-#| msgid "Bookmark to the user manual (GNU I.M.P)"
-msgid "Bookmark to the bug tracker of GIMP"
+#, fuzzy
+msgid "Bookmark to the bug tracker of Glimpse"
 msgstr "Grāmatzīme uz GIMP kļūdu atsekotāju"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
 msgid "_Online User Manual (GNU I.M.P)"
 msgstr "_Lietotāja rokasgrāmatas tīmekļa vietne"
+
+#: ../plug-ins/script-fu/scripts/gimp-online.scm:256
+msgid "Bookmark to the GNU Image Manipulation Program web site"
+msgstr "Grāmatzīme uz GIMP tīmekļa vietni"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69
 msgid "Custom _Gradient..."
@@ -956,7 +987,8 @@ msgstr "Pievienot palīglīniju vietā, kas norādīta kā procenti no attēla i
 
 #: ../plug-ins/script-fu/scripts/guides-new-percent.scm:35
 #: ../plug-ins/script-fu/scripts/guides-new.scm:35
-msgid "Direction"
+#, fuzzy
+msgid "_Direction"
 msgstr "Virziens"
 
 #: ../plug-ins/script-fu/scripts/guides-new-percent.scm:35
@@ -970,7 +1002,8 @@ msgid "Vertical"
 msgstr "Vertikāls"
 
 #: ../plug-ins/script-fu/scripts/guides-new-percent.scm:37
-msgid "Position (in %)"
+#, fuzzy
+msgid "_Position (in %)"
 msgstr "Novietojums (izteikts %)"
 
 #: ../plug-ins/script-fu/scripts/guides-new.scm:27
@@ -982,7 +1015,8 @@ msgid "Add a guide at the orientation and position specified (in pixels)"
 msgstr "Pievienot palīglīniju norādītajā virzienā un vietā (pikseļos)"
 
 #: ../plug-ins/script-fu/scripts/guides-new.scm:36
-msgid "Position"
+#, fuzzy
+msgid "_Position"
 msgstr "Novietojums"
 
 #: ../plug-ins/script-fu/scripts/guides-remove-all.scm:19
@@ -1068,8 +1102,6 @@ msgstr "Nosaukums"
 #: ../plug-ins/script-fu/scripts/mkbrush.scm:143
 #: ../plug-ins/script-fu/scripts/mkbrush.scm:198
 #: ../plug-ins/script-fu/scripts/mkbrush.scm:268
-#: ../plug-ins/script-fu/scripts/paste-as-brush.scm:70
-#: ../plug-ins/script-fu/scripts/select-to-brush.scm:143
 msgid "Spacing"
 msgstr "Atstatums"
 
@@ -1192,15 +1224,23 @@ msgstr "Ielīmēt starpliktuves saturu jaunā otā"
 
 #: ../plug-ins/script-fu/scripts/paste-as-brush.scm:68
 #: ../plug-ins/script-fu/scripts/select-to-brush.scm:141
-msgid "Brush name"
+#, fuzzy
+msgid "_Brush name"
 msgstr "Otas nosaukums"
 
 #: ../plug-ins/script-fu/scripts/paste-as-brush.scm:69
 #: ../plug-ins/script-fu/scripts/paste-as-pattern.scm:57
 #: ../plug-ins/script-fu/scripts/select-to-brush.scm:142
 #: ../plug-ins/script-fu/scripts/select-to-pattern.scm:102
-msgid "File name"
+#, fuzzy
+msgid "_File name"
 msgstr "Faila nosaukums"
+
+#: ../plug-ins/script-fu/scripts/paste-as-brush.scm:70
+#: ../plug-ins/script-fu/scripts/select-to-brush.scm:143
+#, fuzzy
+msgid "_Spacing"
+msgstr "Atstatums"
 
 #: ../plug-ins/script-fu/scripts/paste-as-pattern.scm:50
 msgid "New _Pattern..."
@@ -1212,7 +1252,8 @@ msgstr "Ielīmēt starpliktuves saturu jaunā rakstā"
 
 #: ../plug-ins/script-fu/scripts/paste-as-pattern.scm:56
 #: ../plug-ins/script-fu/scripts/select-to-pattern.scm:101
-msgid "Pattern name"
+#, fuzzy
+msgid "_Pattern name"
 msgstr "Paletes nosaukums"
 
 #: ../plug-ins/script-fu/scripts/perspective-shadow.scm:198
@@ -1260,7 +1301,8 @@ msgid "Pixel amount"
 msgstr "Pikseļu apjoms"
 
 #: ../plug-ins/script-fu/scripts/reverse-layers.scm:42
-msgid "Reverse Layer Order"
+#, fuzzy
+msgid "Reverse Layer _Order"
 msgstr "Apgriezta slāņu secība"
 
 #: ../plug-ins/script-fu/scripts/reverse-layers.scm:43
@@ -1351,11 +1393,13 @@ msgid "Round the corners of the current selection"
 msgstr "Noapaļot dotā iezīmējuma stūrus"
 
 #: ../plug-ins/script-fu/scripts/selection-round.scm:147
-msgid "Radius (%)"
+#, fuzzy
+msgid "R_adius (%)"
 msgstr "Rādiuss (%)"
 
 #: ../plug-ins/script-fu/scripts/selection-round.scm:148
-msgid "Concave"
+#, fuzzy
+msgid "Co_ncave"
 msgstr "Ieliekts"
 
 #: ../plug-ins/script-fu/scripts/select-to-brush.scm:133

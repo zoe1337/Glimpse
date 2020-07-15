@@ -13,8 +13,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp-plug-ins master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2020-02-13 17:01+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-15 00:26+0100\n"
 "PO-Revision-Date: 2020-02-13 18:45+0100\n"
 "Last-Translator: Balázs Meskó <mesko.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
@@ -106,7 +106,7 @@ msgstr "Látható rétegek igazítása"
 #: ../plug-ins/metadata/metadata-editor.c:765
 #: ../plug-ins/metadata/metadata-editor.c:5648
 #: ../plug-ins/metadata/metadata-editor.c:5683
-#: ../plug-ins/pagecurl/pagecurl.c:438 ../plug-ins/screenshot/screenshot.c:497
+#: ../plug-ins/pagecurl/pagecurl.c:438 ../plug-ins/screenshot/screenshot.c:499
 #: ../plug-ins/selection-to-path/selection-to-path.c:309
 msgid "_Cancel"
 msgstr "Mé_gse"
@@ -456,8 +456,8 @@ msgstr "Függő_leges"
 #: ../plug-ins/file-bmp/bmp-load.c:734 ../plug-ins/file-exr/file-exr.c:267
 #: ../plug-ins/file-faxg3/faxg3.c:525 ../plug-ins/file-fits/fits.c:529
 #: ../plug-ins/file-jpeg/jpeg-load.c:240
-#: ../plug-ins/file-psd/psd-image-res-load.c:1042
-#: ../plug-ins/file-psd/psd-load.c:1861 ../plug-ins/file-sgi/sgi.c:416
+#: ../plug-ins/file-psd/psd-image-res-load.c:1043
+#: ../plug-ins/file-psd/psd-load.c:1960 ../plug-ins/file-sgi/sgi.c:416
 #: ../plug-ins/file-tiff/file-tiff-load.c:1033
 #: ../plug-ins/file-webp/file-webp-load.c:164
 #: ../plug-ins/gfig/gfig-dialog.c:1321 ../plug-ins/gimpressionist/general.c:139
@@ -1091,7 +1091,7 @@ msgstr "CML-böngésző paramétereinek betöltése"
 #: ../plug-ins/file-fits/fits.c:360 ../plug-ins/file-fli/fli-gimp.c:462
 #: ../plug-ins/file-fli/fli-gimp.c:501 ../plug-ins/file-ico/ico-load.c:672
 #: ../plug-ins/file-ico/ico-load.c:750 ../plug-ins/file-jpeg/jpeg-load.c:96
-#: ../plug-ins/file-jpeg/jpeg-load.c:543 ../plug-ins/file-psd/psd-load.c:141
+#: ../plug-ins/file-jpeg/jpeg-load.c:543 ../plug-ins/file-psd/psd-load.c:143
 #: ../plug-ins/file-psd/psd-thumb-load.c:82 ../plug-ins/flame/flame.c:419
 #: ../plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1865
 #: ../plug-ins/fractal-explorer/fractal-explorer.c:913
@@ -2187,7 +2187,7 @@ msgstr "Fájl vége vagy hiba a képfejléc olvasása közben"
 #: ../plug-ins/file-bmp/bmp-load.c:218 ../plug-ins/file-exr/file-exr.c:183
 #: ../plug-ins/file-faxg3/faxg3.c:218 ../plug-ins/file-fli/fli-gimp.c:494
 #: ../plug-ins/file-ico/ico-load.c:665 ../plug-ins/file-jpeg/jpeg-load.c:89
-#: ../plug-ins/file-psd/psd-load.c:133
+#: ../plug-ins/file-psd/psd-load.c:135
 #: ../plug-ins/file-raw/file-darktable.c:399
 #: ../plug-ins/file-raw/file-rawtherapee.c:319 ../plug-ins/file-sgi/sgi.c:325
 #: ../plug-ins/file-tiff/file-tiff-load.c:170
@@ -2404,7 +2404,6 @@ msgid "_Description:"
 msgstr "_Leírás:"
 
 #: ../plug-ins/common/file-gbr.c:344
-#| msgid "Spacing:"
 msgid "_Spacing:"
 msgstr "_Távolság:"
 
@@ -2557,7 +2556,6 @@ msgid "Brush Pipe"
 msgstr "Képecset"
 
 #: ../plug-ins/common/file-gih.c:582
-#| msgid "Spacing (percent):"
 msgid "_Spacing (percent):"
 msgstr "_Távolság (százalék):"
 
@@ -2566,12 +2564,10 @@ msgid "Pixels"
 msgstr "Képpont"
 
 #: ../plug-ins/common/file-gih.c:642
-#| msgid "Cell size:"
 msgid "Ce_ll size:"
 msgstr "Ce_llaméret:"
 
 #: ../plug-ins/common/file-gih.c:655
-#| msgid "Number of cells:"
 msgid "_Number of cells:"
 msgstr "Cellák szá_ma:"
 
@@ -2596,7 +2592,6 @@ msgid "Display as:"
 msgstr "Megjelenítés:"
 
 #: ../plug-ins/common/file-gih.c:716
-#| msgid "Dimension:"
 msgid "Di_mension:"
 msgstr "Di_menzió:"
 
@@ -2930,7 +2925,6 @@ msgid "MNG Options"
 msgstr "MNG beállításai"
 
 #: ../plug-ins/common/file-mng.c:1355
-#| msgid "Interlace"
 msgid "_Interlace"
 msgstr "_Váltottsoros"
 
@@ -2939,7 +2933,6 @@ msgid "Save _background color"
 msgstr "_Háttérszín mentése"
 
 #: ../plug-ins/common/file-mng.c:1378
-#| msgid "Save gamma"
 msgid "Save _gamma"
 msgstr "_Gamma mentése"
 
@@ -2989,12 +2982,10 @@ msgid "Replace"
 msgstr "Csere"
 
 #: ../plug-ins/common/file-mng.c:1452
-#| msgid "Default frame disposal:"
 msgid "Default _frame disposal:"
 msgstr "Alapértelmezett képkocka-el_dobás:"
 
 #: ../plug-ins/common/file-mng.c:1464
-#| msgid "PNG compression level:"
 msgid "_PNG compression level:"
 msgstr "_PNG tömörítési szint:"
 
@@ -3015,7 +3006,6 @@ msgid "Animated MNG Options"
 msgstr "Animált MNG beállításai"
 
 #: ../plug-ins/common/file-mng.c:1519
-#| msgid "Loop"
 msgid "_Loop"
 msgstr "_Ismétlés"
 
@@ -3065,13 +3055,13 @@ msgid "'%s' is not a PCX file"
 msgstr "„%s” nem PCX-fájl"
 
 #: ../plug-ins/common/file-pcx.c:413 ../plug-ins/file-bmp/bmp-load.c:723
-#: ../plug-ins/file-psd/psd-load.c:313
+#: ../plug-ins/file-psd/psd-load.c:315
 #, c-format
 msgid "Unsupported or invalid image width: %d"
 msgstr "Nem támogatott vagy érvénytelen képszélesség: %d"
 
 #: ../plug-ins/common/file-pcx.c:419 ../plug-ins/file-bmp/bmp-load.c:729
-#: ../plug-ins/file-psd/psd-load.c:305
+#: ../plug-ins/file-psd/psd-load.c:307
 #, c-format
 msgid "Unsupported or invalid image height: %d"
 msgstr "Nem támogatott vagy érvénytelen képmagasság: %d"
@@ -3235,19 +3225,16 @@ msgstr ""
 
 #: ../plug-ins/common/file-pdf-save.c:823
 #: ../plug-ins/common/file-pdf-save.c:983
-#| msgid "Omit hidden layers and layers with zero opacity"
 msgid "_Omit hidden layers and layers with zero opacity"
 msgstr "Rejtett és nulla átlátszatlanságú rétegek _mellőzése"
 
 #: ../plug-ins/common/file-pdf-save.c:828
 #: ../plug-ins/common/file-pdf-save.c:988
-#| msgid "Convert bitmaps to vector graphics where possible"
 msgid "Convert _bitmaps to vector graphics where possible"
 msgstr "_Bitképek vektorgrafikává alakítása, ahol lehetséges"
 
 #: ../plug-ins/common/file-pdf-save.c:833
 #: ../plug-ins/common/file-pdf-save.c:993
-#| msgid "Apply layer masks before saving"
 msgid "_Apply layer masks before saving"
 msgstr "Rétegmaszkok _alkalmazása mentés előtt"
 
@@ -3258,7 +3245,6 @@ msgstr "A maszkok megtartása nem változtatja meg a kimenetet"
 
 #: ../plug-ins/common/file-pdf-save.c:843
 #, c-format
-#| msgid "Layers as pages (%s)"
 msgid "_Layers as pages (%s)"
 msgstr "_Rétegek lapokként (%s)"
 
@@ -3273,7 +3259,6 @@ msgid "bottom layers first"
 msgstr "alsó rétegek először"
 
 #: ../plug-ins/common/file-pdf-save.c:853
-#| msgid "Reverse the pages order"
 msgid "_Reverse the pages order"
 msgstr "Lapso_rrend megfordítása"
 
@@ -3502,7 +3487,6 @@ msgid "_Raw"
 msgstr "Nye_rs"
 
 #: ../plug-ins/common/file-pnm.c:1622
-#| msgid "ASCII"
 msgid "_ASCII"
 msgstr "_ASCII"
 
@@ -4104,12 +4088,10 @@ msgid "Data Formatting"
 msgstr "Adatformázás"
 
 #: ../plug-ins/common/file-sunras.c:1758
-#| msgid "_Run-Length Encoded"
 msgid "_RunLength Encoded"
 msgstr "_Hossz alapján kódolt (RLE)"
 
 #: ../plug-ins/common/file-sunras.c:1759
-#| msgid "Standard"
 msgid "_Standard"
 msgstr "_Szabványos"
 
@@ -5539,25 +5521,21 @@ msgstr "Színátmenetből"
 
 #. check button
 #: ../plug-ins/common/sample-colorize.c:1406
-#| msgid "Show selection"
 msgid "Sho_w selection"
 msgstr "Kijelölés _megjelenítése"
 
 #. check button
 #: ../plug-ins/common/sample-colorize.c:1417
-#| msgid "Show color"
 msgid "Show co_lor"
 msgstr "Szí_n megjelenítése"
 
 #. check button
 #: ../plug-ins/common/sample-colorize.c:1433
-#| msgid "Show selection"
 msgid "Show selec_tion"
 msgstr "Ki_jelölés megjelenítése"
 
 #. check button
 #: ../plug-ins/common/sample-colorize.c:1444
-#| msgid "Show color"
 msgid "Show c_olor"
 msgstr "_Szín megjelenítése"
 
@@ -5571,25 +5549,21 @@ msgstr "Kimeneti szintek:"
 
 #. check button
 #: ../plug-ins/common/sample-colorize.c:1649
-#| msgid "Hold intensity"
 msgid "Hold _intensity"
 msgstr "Intenzitás meg_tartása"
 
 #. check button
 #: ../plug-ins/common/sample-colorize.c:1660
-#| msgid "Original intensity"
 msgid "Original i_ntensity"
 msgstr "Eredeti _intenzitás"
 
 #. check button
 #: ../plug-ins/common/sample-colorize.c:1678
-#| msgid "Use subcolors"
 msgid "Us_e subcolors"
 msgstr "Alszínek _használata"
 
 #. check button
 #: ../plug-ins/common/sample-colorize.c:1689
-#| msgid "Smooth samples"
 msgid "S_mooth samples"
 msgstr "Minták _finomítása"
 
@@ -6706,12 +6680,10 @@ msgid "Load DDS"
 msgstr "DDS betöltése"
 
 #: ../plug-ins/file-dds/ddsread.c:1293
-#| msgid "Load mipmaps"
 msgid "_Load mipmaps"
 msgstr "Mipmapok be_töltése"
 
 #: ../plug-ins/file-dds/ddsread.c:1300
-#| msgid "Automatically decode YCoCg/AExp images when detected"
 msgid "_Automatically decode YCoCg/AExp images when detected"
 msgstr "YCoCg/AExp képek _automatikus dekódolása észleléskor"
 
@@ -6729,7 +6701,6 @@ msgid "_Compression:"
 msgstr "_Tömörítés:"
 
 #: ../plug-ins/file-dds/ddswrite.c:1994
-#| msgid "Use perceptual error metric"
 msgid "Use _perceptual error metric"
 msgstr "Ész_lelési hibametrika használata"
 
@@ -6758,12 +6729,10 @@ msgid "_Wrap mode:"
 msgstr "_Tördelési mód:"
 
 #: ../plug-ins/file-dds/ddswrite.c:2140
-#| msgid "Apply gamma correction"
 msgid "Appl_y gamma correction"
 msgstr "_Gammakorrekció alkalmazása"
 
 #: ../plug-ins/file-dds/ddswrite.c:2154
-#| msgid "Use sRGB colorspace"
 msgid "Use s_RGB colorspace"
 msgstr "s_RGB színtér használata"
 
@@ -6772,7 +6741,6 @@ msgid "_Gamma:"
 msgstr "G_amma:"
 
 #: ../plug-ins/file-dds/ddswrite.c:2183
-#| msgid "Preserve alpha test coverage"
 msgid "Preserve alpha _test coverage"
 msgstr "Alfa-_teszt lefedettség megőrzése"
 
@@ -6839,12 +6807,10 @@ msgid "Pixel value scaling"
 msgstr "Képpontérték-méretezés"
 
 #: ../plug-ins/file-fits/fits.c:1186
-#| msgid "Automatic"
 msgid "_Automatic"
 msgstr "_Automatikus"
 
 #: ../plug-ins/file-fits/fits.c:1187
-#| msgid "By DATAMIN/DATAMAX"
 msgid "By _DATAMIN/DATAMAX"
 msgstr "_DATAMIN/DATAMAX érték alapján"
 
@@ -7118,98 +7084,98 @@ msgstr "JPEG-kép"
 msgid "Export Preview"
 msgstr "Exportálási előnézet"
 
-#: ../plug-ins/file-psd/psd-load.c:226
+#: ../plug-ins/file-psd/psd-load.c:228
 #: ../plug-ins/file-psd/psd-thumb-load.c:130
 #, c-format
 msgid "Error loading PSD file: %s"
 msgstr "Hiba a PSD-fájl betöltésekor: %s"
 
-#: ../plug-ins/file-psd/psd-load.c:281
+#: ../plug-ins/file-psd/psd-load.c:283
 #, c-format
 msgid "Not a valid Photoshop document file"
 msgstr "Nem érvényes Photoshop-dokumentumfájl"
 
-#: ../plug-ins/file-psd/psd-load.c:288
+#: ../plug-ins/file-psd/psd-load.c:290
 #, c-format
 msgid "Unsupported file format version: %d"
 msgstr "Nem támogatott fájlformátum-verzió: %d"
 
-#: ../plug-ins/file-psd/psd-load.c:295
+#: ../plug-ins/file-psd/psd-load.c:297
 #, c-format
 msgid "Too many channels in file: %d"
 msgstr "Túl sok csatorna a fájlban: %d"
 
-#: ../plug-ins/file-psd/psd-load.c:322
+#: ../plug-ins/file-psd/psd-load.c:324
 #, c-format
 msgid "Unsupported or invalid image size: %dx%d"
 msgstr "Nem támogatott vagy érvénytelen képméret: %dx%d"
 
-#: ../plug-ins/file-psd/psd-load.c:335
+#: ../plug-ins/file-psd/psd-load.c:338 ../plug-ins/file-psd/psd-load.c:348
 #, c-format
 msgid "Unsupported color mode: %s"
 msgstr "Nem támogatott színmód: %s"
 
-#: ../plug-ins/file-psd/psd-load.c:361
+#: ../plug-ins/file-psd/psd-load.c:375
 #, c-format
 msgid "Unsupported bit depth: %d"
 msgstr "Nem támogatott bitmélység: %d"
 
-#: ../plug-ins/file-psd/psd-load.c:395 ../plug-ins/file-psd/psd-load.c:405
-#: ../plug-ins/file-psd/psd-load.c:616 ../plug-ins/file-psd/psd-load.c:838
+#: ../plug-ins/file-psd/psd-load.c:409 ../plug-ins/file-psd/psd-load.c:419
+#: ../plug-ins/file-psd/psd-load.c:630 ../plug-ins/file-psd/psd-load.c:852
 #, c-format
 msgid "The file is corrupt!"
 msgstr "A fájl sérült."
 
-#: ../plug-ins/file-psd/psd-load.c:544
+#: ../plug-ins/file-psd/psd-load.c:558
 #, c-format
 msgid "Too many channels in layer: %d"
 msgstr "Túl sok csatorna a rétegben: %d"
 
-#: ../plug-ins/file-psd/psd-load.c:552
+#: ../plug-ins/file-psd/psd-load.c:566
 #, c-format
 msgid "Unsupported or invalid layer height: %d"
 msgstr "Nem támogatott vagy érvénytelen rétegmagasság: %d"
 
-#: ../plug-ins/file-psd/psd-load.c:560
+#: ../plug-ins/file-psd/psd-load.c:574
 #, c-format
 msgid "Unsupported or invalid layer width: %d"
 msgstr "Nem támogatott vagy érvénytelen rétegszélesség: %d"
 
-#: ../plug-ins/file-psd/psd-load.c:569
+#: ../plug-ins/file-psd/psd-load.c:583
 #, c-format
 msgid "Unsupported or invalid layer size: %dx%d"
 msgstr "Nem támogatott vagy érvénytelen rétegméret: %dx%d"
 
-#: ../plug-ins/file-psd/psd-load.c:755
+#: ../plug-ins/file-psd/psd-load.c:769
 #, c-format
 msgid "Unsupported or invalid layer mask height: %d"
 msgstr "Nem támogatott vagy érvénytelen rétegmaszkmagasság: %d"
 
-#: ../plug-ins/file-psd/psd-load.c:763
+#: ../plug-ins/file-psd/psd-load.c:777
 #, c-format
 msgid "Unsupported or invalid layer mask width: %d"
 msgstr "Nem támogatott vagy érvénytelen rétegmaszkszélesség: %d"
 
-#: ../plug-ins/file-psd/psd-load.c:772
+#: ../plug-ins/file-psd/psd-load.c:786
 #, c-format
 msgid "Unsupported or invalid layer mask size: %dx%d"
 msgstr "Nem támogatott vagy érvénytelen rétegmaszkméret: %dx%d"
 
-#: ../plug-ins/file-psd/psd-load.c:1337 ../plug-ins/file-psd/psd-load.c:1835
+#: ../plug-ins/file-psd/psd-load.c:1417 ../plug-ins/file-psd/psd-load.c:1934
 #, c-format
 msgid "Unsupported compression mode: %d"
 msgstr "Nem támogatott tömörítési mód: %d"
 
-#: ../plug-ins/file-psd/psd-load.c:1963
+#: ../plug-ins/file-psd/psd-load.c:2065
 msgid "Extra"
 msgstr "Extra"
 
-#: ../plug-ins/file-psd/psd-load.c:2142
+#: ../plug-ins/file-psd/psd-load.c:2243
 #, c-format
 msgid "Unsupported or invalid channel size"
 msgstr "Nem támogatott vagy érvénytelen csatornaméret"
 
-#: ../plug-ins/file-psd/psd-load.c:2211
+#: ../plug-ins/file-psd/psd-load.c:2309
 #, c-format
 msgid "Failed to decompress data"
 msgstr "Nem sikerült kibontani az adatokat"
@@ -7406,14 +7372,10 @@ msgid "Compression type"
 msgstr "Tömörítés típusa"
 
 #: ../plug-ins/file-sgi/sgi.c:681
-#| msgid "No compression"
 msgid "_No compression"
 msgstr "_Nincs tömörítés"
 
 #: ../plug-ins/file-sgi/sgi.c:685
-#| msgid ""
-#| "Aggressive RLE\n"
-#| "(not supported by SGI)"
 msgid ""
 "_Aggressive RLE\n"
 "(not supported by SGI)"
@@ -7464,7 +7426,6 @@ msgstr "Importálás TIFF-ből"
 #. Note that there seems to be no way to keep the empty
 #. space on the right and bottom.
 #: ../plug-ins/file-tiff/file-tiff-load.c:1899
-#| msgid "Keep empty space around imported layers"
 msgid "_Keep empty space around imported layers"
 msgstr "Üres _terület fenntartása az importált rétegek körül"
 
@@ -7481,7 +7442,6 @@ msgid "Pre_multiplied alpha"
 msgstr "_Előre szorzott alfa"
 
 #: ../plug-ins/file-tiff/file-tiff-load.c:1921
-#| msgid "TIFF Channel"
 msgid "Channe_l"
 msgstr "Csa_torna"
 
@@ -7569,7 +7529,6 @@ msgid "WebP"
 msgstr "WebP"
 
 #: ../plug-ins/file-webp/file-webp-dialog.c:141
-#| msgid "Image quality:"
 msgid "Image _quality:"
 msgstr "Kép_minőség:"
 
@@ -7578,7 +7537,6 @@ msgid "Image quality"
 msgstr "Képminőség"
 
 #: ../plug-ins/file-webp/file-webp-dialog.c:160
-#| msgid "Alpha quality:"
 msgid "Alpha q_uality:"
 msgstr "Alfa mi_nőség:"
 
@@ -7587,7 +7545,6 @@ msgid "Alpha channel quality"
 msgstr "Alfa-csatorna minősége"
 
 #: ../plug-ins/file-webp/file-webp-dialog.c:193
-#| msgid "Source type:"
 msgid "Source _type:"
 msgstr "Forrás_típus:"
 
@@ -7602,7 +7559,6 @@ msgstr "_Animációként"
 
 #. loop animation checkbox
 #: ../plug-ins/file-webp/file-webp-dialog.c:257
-#| msgid "Loop forever"
 msgid "Loop _forever"
 msgstr "_Végtelen ismétlés"
 
@@ -7613,7 +7569,6 @@ msgstr "Max. távolság a kulcsképkockák között:"
 
 #. minimize-size checkbox
 #: ../plug-ins/file-webp/file-webp-dialog.c:309
-#| msgid "Minimize output size (slower)"
 msgid "_Minimize output size (slower)"
 msgstr "Kimeneti méret _minimalizálása (lassabb)"
 
@@ -7624,13 +7579,11 @@ msgstr "Késleltetés a képkockák közt, ahol nincs megadva:"
 
 #. Create the force-delay checkbox
 #: ../plug-ins/file-webp/file-webp-dialog.c:355
-#| msgid "Use delay entered above for all frames"
 msgid "Use _delay entered above for all frames"
 msgstr "A fenti _késleltetés használata minden képkockához"
 
 #. Save EXIF data
 #: ../plug-ins/file-webp/file-webp-dialog.c:367
-#| msgid "Save Exif data"
 msgid "_Save Exif data"
 msgstr "Exif-adatok _mentése"
 
@@ -9496,27 +9449,22 @@ msgid "RGB Save Type"
 msgstr "RGB mentési típusa"
 
 #: ../plug-ins/ui/plug-in-file-raw.ui.h:2
-#| msgid "Standard (R,G,B)"
 msgid "_Standard (R,G,B)"
 msgstr "_Szabványos (R,G,B)"
 
 #: ../plug-ins/ui/plug-in-file-raw.ui.h:3
-#| msgid "Planar (RRR,GGG,BBB)"
 msgid "_Planar (RRR,GGG,BBB)"
 msgstr "_Sík (RRR,GGG,BBB)"
 
 #: ../plug-ins/ui/plug-in-file-raw.ui.h:4
-#| msgid "R, G, B (normal)"
 msgid "_R, G, B (normal)"
 msgstr "_R, G, B (normál)"
 
 #: ../plug-ins/ui/plug-in-file-raw.ui.h:5
-#| msgid "B, G, R, X (BMP style)"
 msgid "_B, G, R, X (BMP style)"
 msgstr "_B, G, R, X (BMP-stílusú)"
 
 #: ../plug-ins/ui/plug-in-file-tiff.ui.h:1
-#| msgid "Save layers"
 msgid "Save _layers"
 msgstr "_Rétegek mentése"
 
@@ -9530,7 +9478,6 @@ msgid "<b>Comment</b>"
 msgstr "<b>Megjegyzés</b>"
 
 #: ../plug-ins/ui/plug-in-file-tiff.ui.h:5
-#| msgid "Save Exif data"
 msgid "S_ave Exif data"
 msgstr "Exif-adatok _mentése"
 
@@ -12279,7 +12226,6 @@ msgid "Adjust page size and orientation for printing"
 msgstr "Lapméret és tájolás beállítása nyomtatáshoz"
 
 #: ../plug-ins/print/print.c:131
-#| msgid "Page Set_up"
 msgid "Page Set_up..."
 msgstr "Ol_dalbeállítás…"
 
@@ -12303,99 +12249,99 @@ msgstr "Kép készítése a képernyő bizonyos részéről"
 msgid "_Screenshot..."
 msgstr "_Képernyőkép…"
 
-#: ../plug-ins/screenshot/screenshot.c:493
+#: ../plug-ins/screenshot/screenshot.c:495
 #: ../plug-ins/screenshot/screenshot-x11.c:424
 msgid "Screenshot"
 msgstr "Képernyőkép"
 
-#: ../plug-ins/screenshot/screenshot.c:498
+#: ../plug-ins/screenshot/screenshot.c:500
 msgid "S_nap"
 msgstr "_Képkészítés"
 
 #. Area
-#: ../plug-ins/screenshot/screenshot.c:525
+#: ../plug-ins/screenshot/screenshot.c:527
 msgid "Area"
 msgstr "Terület"
 
-#: ../plug-ins/screenshot/screenshot.c:537
+#: ../plug-ins/screenshot/screenshot.c:539
 msgid "Take a screenshot of a single _window"
 msgstr "Képkészítés _egyetlen ablakról"
 
-#: ../plug-ins/screenshot/screenshot.c:560
+#: ../plug-ins/screenshot/screenshot.c:562
 msgid "Include window _decoration"
 msgstr "Ablak_díszítésekkel együtt"
 
-#: ../plug-ins/screenshot/screenshot.c:581
-#: ../plug-ins/screenshot/screenshot.c:626
+#: ../plug-ins/screenshot/screenshot.c:583
+#: ../plug-ins/screenshot/screenshot.c:628
 msgid "Include _mouse pointer"
 msgstr "Az e_gérmutató is legyen benne"
 
-#: ../plug-ins/screenshot/screenshot.c:603
+#: ../plug-ins/screenshot/screenshot.c:605
 msgid "Take a screenshot of the entire _screen"
 msgstr "Képkészítés az egész képe_rnyőről"
 
-#: ../plug-ins/screenshot/screenshot.c:654
+#: ../plug-ins/screenshot/screenshot.c:656
 msgid "Select a _region to grab"
 msgstr "Lefotózandó terület ki_jelölése"
 
-#: ../plug-ins/screenshot/screenshot.c:672
+#: ../plug-ins/screenshot/screenshot.c:674
 msgid "Delay"
 msgstr "Késleltetés"
 
-#: ../plug-ins/screenshot/screenshot.c:692
+#: ../plug-ins/screenshot/screenshot.c:694
 msgid "Selection delay: "
 msgstr "Kiválasztás késleltetése: "
 
 #. translators: this is the unit label of a spinbutton
-#: ../plug-ins/screenshot/screenshot.c:711
-#: ../plug-ins/screenshot/screenshot.c:775
+#: ../plug-ins/screenshot/screenshot.c:713
+#: ../plug-ins/screenshot/screenshot.c:777
 msgid "seconds"
 msgstr "másodperc"
 
-#: ../plug-ins/screenshot/screenshot.c:725
+#: ../plug-ins/screenshot/screenshot.c:727
 msgid ""
 "After the delay, drag your mouse to select the region for the screenshot."
 msgstr ""
 "A késleltetés lejárta után jelölje ki egérrel (húzással) a területet, "
 "amelyről a képernyőkép készüljön."
 
-#: ../plug-ins/screenshot/screenshot.c:729
+#: ../plug-ins/screenshot/screenshot.c:731
 msgid "Click in a window to snap it after delay."
 msgstr "Kattintson az ablakba, hogy késleltetés után készítse el a képet."
 
-#: ../plug-ins/screenshot/screenshot.c:734
+#: ../plug-ins/screenshot/screenshot.c:736
 msgid "At the end of the delay, click in a window to snap it."
 msgstr "A késleltetés lejárta után kattintson egy ablakra a képkészítéshez."
 
-#: ../plug-ins/screenshot/screenshot.c:755
+#: ../plug-ins/screenshot/screenshot.c:757
 msgid "Screenshot dela_y: "
 msgstr "Képernyőkép _késleltetése: "
 
-#: ../plug-ins/screenshot/screenshot.c:787
+#: ../plug-ins/screenshot/screenshot.c:789
 msgid "After the delay, the screenshot is taken."
 msgstr "A késleltetés lejárta után elkészül a képernyőkép."
 
-#: ../plug-ins/screenshot/screenshot.c:789
+#: ../plug-ins/screenshot/screenshot.c:791
 msgid "Once the region is selected, it will be captured after this delay."
 msgstr "Amint a terület kijelölésre kerül, ennyi késleltetés után mentve lesz."
 
-#: ../plug-ins/screenshot/screenshot.c:794
+#: ../plug-ins/screenshot/screenshot.c:796
 msgid "Once the window is selected, it will be captured after this delay."
 msgstr "Amint az ablak kijelölésre kerül, ennyi késleltetés után mentve lesz."
 
-#: ../plug-ins/screenshot/screenshot.c:800
+#: ../plug-ins/screenshot/screenshot.c:802
 msgid "After the delay, the active window will be captured."
 msgstr "A késleltetés lejárta után az aktív ablakról képernyőkép készül."
 
-#: ../plug-ins/screenshot/screenshot.c:807
+#: ../plug-ins/screenshot/screenshot.c:809
 msgid "Color Profile"
 msgstr "Színprofil"
 
-#: ../plug-ins/screenshot/screenshot.c:812
+#: ../plug-ins/screenshot/screenshot.c:814
 msgid "Tag image with _monitor profile"
 msgstr "Kép címkézése a _monitor profiljával"
 
-#: ../plug-ins/screenshot/screenshot.c:816
+#: ../plug-ins/screenshot/screenshot.c:818
 msgid "Convert image to sR_GB"
 msgstr "Kép átalakítása sR_GB-vé"
 

@@ -1,16 +1,16 @@
 # Basque translation for gimp-tips
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-# 
+#
 # Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2004, 2006.
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2007, 2013, 2015.
 # Edurne Labaka <elabaka@uzei.com>, 2015.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp-tips master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2015-02-07 16:00+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-15 00:29+0100\n"
 "PO-Revision-Date: 2014-11-11 15:03+0100\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
 "Language-Team: Basque <librezale@librezale.org>\n"
@@ -22,17 +22,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/tips/gimp-tips.xml.in.h:1
+#, fuzzy
 msgid ""
-"You can get context-sensitive help for most of GIMP's features by pressing "
-"the F1 key at any time. This also works inside the menus."
+"You can get context-sensitive help for most of Glimpse's features by "
+"pressing the F1 key at any time. This also works inside the menus."
 msgstr ""
 "GIMPeko eginbide gehienentzako testuinguruko laguntza F1 tekla edozein  "
 "unetan sakatuta lor dezakezu. Horrek menuetan ere balio du."
 
 #: ../data/tips/gimp-tips.xml.in.h:2
+#, fuzzy
 msgid ""
-"GIMP uses layers to let you organize your image. Think of them as a stack of "
-"slides or filters, such that looking through them you see a composite of "
+"Glimpse uses layers to let you organize your image. Think of them as a stack "
+"of slides or filters, such that looking through them you see a composite of "
 "their contents."
 msgstr ""
 "GIMPek geruzak erabiltzen ditu irudia antolatzen laguntzeko. Imajinatu "
@@ -48,11 +50,12 @@ msgstr ""
 "baten testu-etiketan saguaren eskuineko botoiaz klik eginda."
 
 #: ../data/tips/gimp-tips.xml.in.h:4
+#, fuzzy
 msgid ""
-"When you save an image to work on it again later, try using XCF, GIMP's "
-"native file format (use the file extension <tt>.xcf</tt>). This preserves "
-"the layers and many aspects of your work-in-progress. Once a project is "
-"completed, you can export it as JPEG, PNG, GIF, etc."
+"Saving an image uses XCF, Glimpse's native file format (file extension <tt>."
+"xcf</tt>). This preserves the layers and many aspects of your work-in-"
+"progress, allowing to work on it again later. Once a project is completed, "
+"you can export it as JPEG, PNG, GIF, etc."
 msgstr ""
 "Irudi bat gordetzen duzunean, beranduago harekin berriro lan egiteko, saiatu "
 "XCF erabiltzen, GIMPen fitxategi-formatua da (erabili fitxategi-luzapen  "
@@ -107,8 +110,9 @@ msgstr ""
 "horren ordez konfiguratuta daude."
 
 #: ../data/tips/gimp-tips.xml.in.h:9
+#, fuzzy
 msgid ""
-"You can drag and drop many things in GIMP. For example, dragging a color "
+"You can drag and drop many things in Glimpse. For example, dragging a color "
 "from the toolbox or from a color palette and dropping it into an image will "
 "fill the current selection with that color."
 msgstr ""
@@ -157,8 +161,9 @@ msgstr ""
 "elkarrizketa-koadroan, edo erabili menuak gauza bera egiteko."
 
 #: ../data/tips/gimp-tips.xml.in.h:14
+#, fuzzy
 msgid ""
-"GIMP supports gzip compression on the fly. Just add <tt>.gz</tt> (or <tt>."
+"Glimpse supports gzip compression on the fly. Just add <tt>.gz</tt> (or <tt>."
 "bz2</tt>, if you have bzip2 installed) to the filename and your image will "
 "be saved compressed. Of course loading compressed images works too."
 msgstr ""
@@ -232,12 +237,13 @@ msgstr ""
 "bihurtu."
 
 #: ../data/tips/gimp-tips.xml.in.h:21
+#, fuzzy
 msgid ""
 "After you enabled &quot;Dynamic Keyboard Shortcuts&quot; in the Preferences "
 "dialog, you can reassign shortcut keys. Do so by bringing up the menu, "
 "selecting a menu item, and pressing the desired key combination. If &quot;"
 "Save Keyboard Shortcuts&quot; is enabled, the key bindings are saved when "
-"you exit GIMP. You should probably disable &quot;Dynamic Keyboard "
+"you exit Glimpse. You should probably disable &quot;Dynamic Keyboard "
 "Shortcuts&quot; afterwards, to prevent accidentally assigning/reassigning "
 "shortcuts."
 msgstr ""
