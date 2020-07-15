@@ -29,6 +29,7 @@ Overview of Changes in Glimpse 0.1.9
 * Changed the default configuration to enable OpenCL by default
 * Changed the default configuration to set the minimum undo levels to 10 (previously 5)
 * Changed the default configuration so that the "Created by Glimpse" message is always present
+* Changed the update checker so it supports our version scheme, download links and update servers
 * TO BE DETERMINED - Still in development
 
 Overview of Changes in Glimpse 0.1.2 Release 2
