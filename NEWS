@@ -3,11 +3,15 @@
                           In-Development
                    ------------------------------
 
-This is the stable branch of Glimpse. Unlike earlier stable branches,
-we do allow some new features here, if they are not too invasive.
-Otherwise, this branch is only for bug-fixes.
+This is our development branch. We try to keep this codebase as stable as possible, and work on in-development changes in separate branches.
 
-Overview of Changes in Glimpse 0.1.9
+We use odd number release versions for builds on this branch as that assists us with support requests.
+
+Overview of Changes in Glimpse 0.2.1
+====================================
+* TO BE DETERMINED - Still in development
+
+Overview of Changes in Glimpse 0.2.0
 ====================================
 * Uplifted BABL version from 0.1.68 to 0.1.78
 * Uplifted Mypaint-Brushes from 1.3.0 to 1.3.1
@@ -20,6 +24,7 @@ Overview of Changes in Glimpse 0.1.9
 * Removed Vagrant quick start build process
 * Updated the `README.MD` file with more current information
 * Backported high contrast icon themes from GNU Image Manipulation Program 2.10.18
+* Backported bugfix for upstream issue 4487 (security issue with redacted content in exported images)
 * Added new application icon in About window
 * Added new application icons to the rest of the application
 * Replaced dozens of icons that previously used Wilber's face in icon packs
@@ -29,8 +34,7 @@ Overview of Changes in Glimpse 0.1.9
 * Changed the default configuration to set the minimum undo levels to 10 (previously 5)
 * Changed the default configuration so that the "Created by Glimpse" message is always present
 * Changed the update checker so it supports our version scheme, download links and update servers
-* Created new Github Actiosn that provide a Linux and Windows CI builds
-* TO BE DETERMINED - Still in development
+* Created new Github Actions that provide a Linux and Windows CI builds on our development branch
 
 Overview of Changes in Glimpse 0.1.2 Release 2
 ==============================================
@@ -39,7 +43,6 @@ Overview of Changes in Glimpse 0.1.2 Release 2
 
 Overview of Changes in Glimpse 0.1.2
 ====================================
-
 * Updated translation files so they use the correct program name more often
 * Glimpse and GNU I.M.P windows no longer group on same Windows taskbar icon
 * Fixed copyright year, versions, and AUTHORS list (now standard practice)
